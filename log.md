@@ -1,0 +1,2418 @@
+# Wiki Log
+
+> 時序紀錄，append-only。
+> 格式：`## [YYYY-MM-DD] <action> | <subject>`
+> Actions: ingest | synthesis | query | lint | create | update | archive | delete
+> log.md 超過 500 條時 rotate 成 `log-YYYY.md`。
+
+## [2026-04-22] create | 知識百科初始化
+- 建立 SCHEMA.md、index.md、log.md
+- 建立資料夾：00_總覽、01_核心概念、02_方法學、03_疾病與臨床主題、04_CPET、05_Exercise_Physiology、06_Gait_Biomechanics、07_Pediatric_Development、08_工具與Workflow、09_來源摘要
+- 原始資料盤點：
+  - 根目錄：Poole 2020 anaerobic threshold review（1）
+  - 執行功能/：4 份（Harvard working papers × 2、Smart but Scattered 科普書、What is EF 網頁）
+  - 聯合評估與教養/：32 份（UpToDate × 22+1、台灣聯評手冊、CDC milestone、Hanen/Plan B 教養手冊、cognitive control.pdf、E001016.pdf 待判類）
+- 尚未 ingest 任何內容
+
+## [2026-04-22] ingest | Poole et al. 2020 — The anaerobic threshold: 50+ years of controversy (J Physiol)
+- 類型：review article（Tier 1）
+- 來源頁建立：09_來源摘要/Poole_2020_anaerobic_threshold.md
+- 新建主幹頁 6：
+  - 04_CPET/Anaerobic_Threshold_概念史.md
+  - 04_CPET/Lactate_Threshold.md
+  - 04_CPET/Gas_Exchange_Threshold.md
+  - 04_CPET/Critical_Power.md
+  - 04_CPET/Exercise_Intensity_Domains.md
+  - 05_Exercise_Physiology/Lactate_Shuttle.md
+- index.md 更新（Total pages: 0 → 7）
+- 交叉連結完成（每頁至少 4 個 wikilinks）
+- 無與既有內容衝突（先建骨架）
+- 核心立場：
+  1. 「anaerobic threshold」作為機制描述應淘汰；lactate shuttle 為新典範
+  2. LT / GET 仍是 moderate→heavy 邊界，臨床價值高（術前風險、HF 預後）
+  3. Heavy→severe 真正邊界為 critical power (CP/CS)，非 AT/GET
+
+## [2026-04-22] ingest | 5 篇 CPET / exercise physiology reviews
+來源檔（皆 Tier 1 review，原始資料層已有 .md 格式）：
+1. Goulding, Rossiter, Marwood, Ferguson 2021. ESSR. "Bioenergetic Mechanisms Linking V̇O2 Kinetics and Exercise Tolerance"
+2. Jones & Vanhatalo 2017. Sports Med. "The 'Critical Power' Concept: Applications to Sports Performance with a Focus on Intermittent High-Intensity Exercise"
+3. Gaesser & Poole 1996. ESSR. "The Slow Component of Oxygen Uptake Kinetics in Humans"
+4. Beltz et al. 2016. J Sports Med. "Graded Exercise Testing Protocols for the Determination of VO2max: Historical Perspectives, Progress, and Future Considerations"
+5. Hargreaves & Spriet 2020. Nature Metabolism. "Skeletal muscle energy metabolism during exercise"
+
+新建 5 篇來源摘要頁：
+- 09_來源摘要/Goulding_2021_VO2_kinetics_exercise_tolerance.md
+- 09_來源摘要/Jones_Vanhatalo_2017_critical_power_concept.md
+- 09_來源摘要/Gaesser_Poole_1996_VO2_slow_component.md
+- 09_來源摘要/Beltz_2016_GXT_protocols.md
+- 09_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism.md
+
+新建 5 篇主題頁：
+- 04_CPET/VO2_Kinetics.md（三相結構、τV̇O₂、O₂ deficit、與 CP 關聯）
+- 04_CPET/VO2_Slow_Component.md（heavy/severe 特徵、多因子機制、與 W' 關聯）
+- 04_CPET/CPET_Protocol_Design.md（modality、ramp、verification、self-paced、族群考量）
+- 04_CPET/VO2max_Measurement.md（V̇O₂max vs V̇O₂peak、plateau、verification flow、誤差來源）
+- 05_Exercise_Physiology/Skeletal_Muscle_Energy_Metabolism.md（三路徑、雙階段調控、Lactate、訓練適應、ergogenic）
+
+強化既有頁：
+- 04_CPET/Critical_Power.md：新增 τV̇O₂–CP 機制連結段、W'BAL 模型、intermittent exercise 區段、W' 非獨立 anaerobic capacity 的釐清
+- 04_CPET/Lactate_Threshold.md、Gas_Exchange_Threshold.md、Exercise_Intensity_Domains.md、Anaerobic_Threshold_概念史.md：補反向連結
+
+index.md 更新：Total pages 7 → 16。
+
+關鍵整合觀點（跨 5 篇 + Poole 2020）：
+- V̇O₂ kinetics 不是次要指標；τV̇O₂ 透過 critical [Pi] 決定 CP（Goulding-Rossiter 假說）
+- CP 是 emergent system property，非固定生理常數
+- W' 非「anaerobic capacity」，反映 critical→peak [Pi] 的積分容量
+- GET/LT 為 moderate→heavy 邊界；CP 為 heavy→severe 邊界
+- V̇O₂max 判定應以 verification protocol 搭配次級標準，而非單靠 plateau 或 RER
+- Lactate 已確立為代謝中樞與信號分子，Hargreaves-Spriet 與 Brooks shuttle theory 一致
+
+## [2026-04-23] ingest | 5 篇 CPET / exercise physiology Tier 1 來源（Batch 3）
+- Batch: 3
+- Selected files:
+  1. Blemker et al. — Fiber-type traps: revisiting common misconceptions about skeletal muscle fiber types
+  2. Chorley & Lamb 2020 — The Application of Critical Power, the Work Capacity above Critical Power (W'), and Its Reconstitution
+  3. Kemp, Taylor, Radda 1993 — Control of Phosphocreatine Resynthesis during Recovery from Exercise
+  4. Midgley et al. 2008 — Does an Incremental Exercise Test for Valid VO2max Determination Really Need to Last Between 8 and 12 Minutes?
+  5. Oliveira, Boppre, Fonseca 2024 — Polarized Versus Other Training Intensity Distribution Regimens and Endurance Performance
+- 類型與層級：
+  - Blemker：perspective / synthesis review，Tier 1
+  - Chorley & Lamb：narrative review，Tier 1
+  - Kemp：research review with integrated data analysis，Tier 1
+  - Midgley：narrative review，Tier 1
+  - Oliveira：systematic review + meta-analysis，Tier 1
+- 說明：前一輪已存在 5 篇來源摘要頁，但尚未完成主題頁、index 與 log 接軌；本批已回頭核對原始 Markdown 並正式完成整合。
+- 新建主題頁 4：
+  - 04_CPET/Training_Prescription_by_CP.md
+  - 05_Exercise_Physiology/Muscle_Fiber_Types.md
+  - 05_Exercise_Physiology/PCr_Resynthesis.md
+  - 05_Exercise_Physiology/Training_Intensity_Distribution.md
+- 既有頁更新：
+  - 04_CPET/Critical_Power.md
+  - 04_CPET/CPET_Protocol_Design.md
+  - 04_CPET/VO2max_Measurement.md
+  - 04_CPET/Exercise_Intensity_Domains.md
+  - 04_CPET/VO2_Kinetics.md
+  - 04_CPET/VO2_Slow_Component.md
+  - 05_Exercise_Physiology/Skeletal_Muscle_Energy_Metabolism.md
+- 明確修正 / 衝突標示：
+  1. 「8–12 min」從 obligatory validity rule 下修為 practical default；Midgley 2008 支持更寬的 valid duration range。
+  2. 「type 2 recruitment = 低 oxidative capacity」標示為過度簡化；MHC 與 oxidative capacity 不可互推。
+  3. 「W' = anaerobic capacity」標示為不精確；改為有限 work capacity above CP / metabolite tolerance 的 operational construct。
+  4. Polarized training 的優勢限於 V̇O₂peak、短期介入與高度訓練族群；非全面 superiority。
+- index.md 更新：Total pages 16 -> 26
+- Pending files（next-batch candidates；本回合未讀）：
+  - Exercise Test Design and Analysis
+  - CRITICAL POWER AND EXERCISE TOLERANCE
+  - Exercise and sports cardiology
+  - Reliability of critical power testing
+  - beaver-et-al-1986-a-new-method-for-detecting-anaerobic-threshold-by-gas-exchange
+
+## [2026-04-23] create | 08_工具與Workflow/知識百科_健康檢查流程
+- 新建 workflow page：08_工具與Workflow/知識百科_健康檢查流程.md
+- 定義 lint / health check 分三階段：wiki 結構掃描、知識健康度掃描、raw verification queue
+- 新增明確限制：每次 health check 若需回查原始文件，單一回合最多只讀 5 個 raw files
+- index.md 更新：Total pages 34 -> 35
+
+## [2026-04-23] ingest | CPET protocol / CP methodology / sports cardiology（Batch 4）
+- Batch: 4
+- Selected files:
+  1. Exercise Test Design and Analysis
+  2. CRITICAL POWER AND EXERCISE TOLERANCE
+  3. Exercise and sports cardiology
+  4. Reliability of critical power testing
+  5. beaver-et-al-1986-a-new-method-for-detecting-anaerobic-threshold-by-gas-exchange
+- 類型與層級：
+  - Bentley/Newell/Bishop：review article，Tier 1
+  - Jones/Vanhatalo/Burnley/Morton/Poole：review article，Tier 1
+  - Thompson/Baggish：textbook chapter，Tier 1
+  - Triska et al.：original article，Tier 3
+  - Beaver/Wasserman/Whipp：original article，Tier 3（historical methodological foundation）
+- 新建來源摘要頁 5：
+  - 09_來源摘要/Bentley_Newell_Bishop_2007_incremental_exercise_test_design.md
+  - 09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance.md
+  - 09_來源摘要/Thompson_Baggish_exercise_sports_cardiology.md
+  - 09_來源摘要/Triska_2017_CP_reliability.md
+  - 09_來源摘要/Beaver_Wasserman_Whipp_1986_V_slope_method.md
+- 新建主題頁 3：
+  - 04_CPET/V_Slope_Method.md
+  - 04_CPET/CP_Test_Reliability.md
+  - 03_疾病與臨床主題/Sports_Cardiology_概論.md
+- 既有頁更新：
+  - 04_CPET/Critical_Power.md
+  - 04_CPET/CPET_Protocol_Design.md
+  - 04_CPET/Gas_Exchange_Threshold.md
+  - 04_CPET/Anaerobic_Threshold_概念史.md
+  - 04_CPET/VO2max_Measurement.md
+  - 04_CPET/Training_Prescription_by_CP.md
+  - 04_CPET/Exercise_Intensity_Domains.md
+- 明確整合 / 衝突標示：
+  1. CP 再次明確界定為 heavy-severe boundary；LT/GET 與 V̇O2max 不可替代 CP。
+  2. V-slope method 作為 GET 的歷史性方法學奠基被補入，但其原始「anaerobic」命名不等於當代仍接受舊機制。
+  3. TT-derived CP/W' reliability 僅作方法學補充；以 familiarization 與 protocol control 為前提，不可外推成普遍金標。
+  4. Incremental stage duration 會系統性改變 PPO 與 threshold work rate；protocol choice 必須回到主 endpoint。
+- index.md 更新：Total pages 26 -> 34
+- housekeeping：
+  - 移除非知識頁 scaffold：`知識百科/歡迎.md`
+  - 移除空白頁：`知識百科/未命名.md`
+- Pending files：
+  - 本回合未再擴大候選盤點，以遵守單回合最多 5 份原始文件限制。
+  - 下一批需重新依來源優先級、主題缺口與更新性排序選定候選。
+
+## [2026-04-23] create | 08_工具與Workflow/wiki_health_check.py
+- 新建可執行 lint / health-check 腳本：08_工具與Workflow/wiki_health_check.py
+- 新建測試：08_工具與Workflow/tests/test_wiki_health_check.py
+- 產出最新報告：08_工具與Workflow/health_check_report_latest.md
+- 腳本目前可檢查：orphan pages、weak links、broken links、index completeness、frontmatter、oversized pages、contradiction candidates、raw backlog、5-file raw verification queue
+- 驗證：`python3 08_工具與Workflow/tests/test_wiki_health_check.py` 通過
+
+## [2026-04-23] update | frontmatter normalization（contradictions）
+- 批次補齊 34 個頁面的 frontmatter 欄位：`contradictions: []`
+- 範圍：03_疾病與臨床主題、04_CPET、05_Exercise_Physiology、09_來源摘要
+- 重新執行 health check 後，`frontmatter_issues` 已由 34 降為 0
+- 最新報告已重寫：08_工具與Workflow/health_check_report_latest.md
+
+## [2026-04-23] create | 08_工具與Workflow/Wiki_Health_Check_腳本
+- 新建腳本說明頁：08_工具與Workflow/Wiki_Health_Check_腳本.md
+- 與 08_工具與Workflow/知識百科_健康檢查流程.md 建立雙向 wikilink，修正 orphan page
+- index.md 更新：Total pages 35 -> 36
+- 重新執行 health check 後，`orphans` 已由 1 降為 0；`broken_links` 維持 0
+
+## [2026-04-23] create | 08_工具與Workflow/知識百科_健康檢查_分級與輸出
+- 新建分頁：08_工具與Workflow/知識百科_健康檢查_分級與輸出.md
+- 將 health check 主工作流的 Phase 3 細節、issue 分級、標準輸出格式與執行節奏拆出，降低主頁長度
+- index.md 更新：Total pages 36 -> 37
+- 重新執行 health check 後，`oversized_pages` 已由 1 降為 0
+
+## [2026-04-23] update | contradiction candidate cleanup
+- 調整 wiki_health_check.py 的 contradiction 掃描規則：
+  - `type: workflow` 不再列入 contradiction candidate
+  - generic method caveats / section labels（如 `限制 / 爭議`、`invalid test`、`true boundary`）不再視為未標示衝突
+  - 改以較窄的 unresolved-conflict patterns（如 `conflicting findings`、`results are mixed`、`仍有爭議`、`存在爭議`）判定
+- 新增測試覆蓋 workflow false positive 與 generic limitation heading false positive
+- 重新執行 health check 後，`contradiction_candidates` 已由 11 降為 0
+- 最新報告已重寫：08_工具與Workflow/health_check_report_latest.md
+
+## [2026-04-23] ingest | PM&R foundational assessment / electrodiagnosis / spasticity / sensory rehabilitation（Batch 5）
+- Batch: 5
+- Candidate ranking（依近期新增 + 同主題相關性 + 來源優先級排序）：
+  1. The physiatric history and physical examination
+  2. Examination of the pediatric patient
+  3. Electrodiagnostic medicine
+  4. Spasticity
+  5. Auditory, vestibular, and visual impairments
+- Selected files（本回合實際讀取 5/5）：
+  1. The physiatric history and physical examination
+  2. Examination of the pediatric patient
+  3. Electrodiagnostic medicine
+  4. Spasticity
+  5. Auditory, vestibular, and visual impairments
+- 類型與層級：
+  - Barker/Cui/Kasitinon：textbook chapter，Tier 1，可信度 high
+  - Miller/Talley/Miller：textbook chapter，Tier 1，可信度 high
+  - Seidel/Andary/Dillingham：textbook chapter，Tier 1，可信度 high
+  - Francisco/Li：textbook chapter，Tier 1，可信度 high
+  - Lew/Hall/Gustafson：textbook chapter，Tier 1，可信度 high
+- 新建來源摘要頁 5：
+  - 09_來源摘要/The_physiatric_history_and_physical_examination.md
+  - 09_來源摘要/Examination_of_the_pediatric_patient.md
+  - 09_來源摘要/Electrodiagnostic_medicine.md
+  - 09_來源摘要/Spasticity.md
+  - 09_來源摘要/Auditory_vestibular_and_visual_impairments.md
+- 新建主題頁 7：
+  - 01_核心概念/ICF_功能框架.md
+  - 02_方法學/電生理診斷醫學.md
+  - 03_疾病與臨床主題/PMR_評估總論.md
+  - 03_疾病與臨床主題/Spasticity_概論.md
+  - 03_疾病與臨床主題/感覺障礙復健總論.md
+  - 06_Gait_Biomechanics/步態評估總論.md
+  - 07_Pediatric_Development/小兒復健評估.md
+- 明確標示的 field-level conflict / caveat：
+  1. Spasticity 不等於所有 muscle tightness；需區分 reflex hyperexcitability、weakness、co-contraction、contracture 與 peripheral stiffness。
+  2. Lance definition 保留歷史地位，但現代 framing 已擴展到 muscle length dependence、abnormal synergies 與 peripheral muscle change。
+  3. Vestibular rehabilitation 對 peripheral vestibular disorder 證據強；對 central vestibular disorder 證據較弱，不能混為一談。
+  4. EDX normal study 應表述為「no electrodiagnostic evidence of」，不代表完全排除臨床診斷。
+- index.md 更新：Total pages 37 -> 49
+- Pending files（下一批待處理）：
+  - The Physiatric History and Physical Examination handbook
+  - Traumatic brain injury
+  - Stroke rehabilitation
+  - Spinal cord injury
+  - Lower limb amputation and gait
+
+## [2026-04-23] ingest | neurorehabilitation disease frameworks / amputation rehabilitation（Batch 6）
+- Batch: 6
+- Candidate ranking（承接上一批 pending list，依近期新增 + 同主題相關性 + 來源優先級排序）：
+  1. The Physiatric History and Physical Examination handbook
+  2. Traumatic brain injury
+  3. Stroke rehabilitation
+  4. Spinal cord injury
+  5. Lower limb amputation and gait
+- Selected files（本回合實際讀取 5/5）：
+  1. The Physiatric History and Physical Examination handbook
+  2. Traumatic brain injury
+  3. Stroke rehabilitation
+  4. Spinal cord injury
+  5. Lower limb amputation and gait
+- 類型與層級：
+  - Shyu/Liang：textbook chapter，Tier 1，可信度 high
+  - Wagner/Franzese/Weppner：textbook chapter，Tier 1，可信度 high
+  - Yochelson/Dennison/Kolarova：textbook chapter，Tier 1，可信度 high
+  - Escalon/Marzloff/Bryce：textbook chapter，Tier 1，可信度 high
+  - Lovegreen/Murphy/Stevens：textbook chapter，Tier 1，可信度 high
+- 新建來源摘要頁 5：
+  - 09_來源摘要/The_Physiatric_History_and_Physical_Examination_handbook.md
+  - 09_來源摘要/Traumatic_brain_injury.md
+  - 09_來源摘要/Stroke_rehabilitation.md
+  - 09_來源摘要/Spinal_cord_injury.md
+  - 09_來源摘要/Lower_limb_amputation_and_gait.md
+- 新建主題頁 4：
+  - 03_疾病與臨床主題/創傷性腦損傷復健總論.md
+  - 03_疾病與臨床主題/中風復健總論.md
+  - 03_疾病與臨床主題/脊髓損傷復健總論.md
+  - 03_疾病與臨床主題/下肢截肢復健總論.md
+- 既有頁更新：
+  - 03_疾病與臨床主題/PMR_評估總論.md
+  - 06_Gait_Biomechanics/步態評估總論.md
+- 明確標示的 field-level conflict / caveat：
+  1. TBI 的 GCS mild / moderate / severe 分級仍有用，但不足以代表 injury heterogeneity 與長期功能預後。
+  2. Stroke rehabilitation 中「越早 mobilization 越好」不是普遍真理；ICH 在 first 24 hours 的 very early mobilization 可能有害。
+  3. SCI 的 complete injury 定義以 S4-S5 sacral sparing 為準，不等於「病灶以下完全沒有任何功能」的直覺說法。
+  4. 下肢截肢不是保留愈遠端愈好；partial foot / distal preservation 在某些情況下長期功能反而不如較近端但力學較佳的 level。
+- index.md 更新：Total pages 49 -> 58
+- Pending files（下一批待處理）：
+  - Rehabilitation of swallowing disorders.pdf 的副本
+  - Neurogenic bowel Dysfunction and rehabilitation
+  - Neurogenic lower urinary tract dysfunction.pdf 的副本
+  - Psychological assessment and intervention in rehabilitation
+  - Quality and outcome measures for medical rehabilitation
+
+## [2026-04-23] ingest | dysphagia / bowel-bladder management / rehab psychology / quality metrics（Batch 7）
+- Batch: 7
+- Candidate ranking（承接上一批 pending list，依近期新增 + 同主題相關性 + 來源優先級排序）：
+  1. Rehabilitation of swallowing disorders.pdf 的副本
+  2. Neurogenic bowel Dysfunction and rehabilitation
+  3. Neurogenic lower urinary tract dysfunction.pdf 的副本
+  4. Psychological assessment and intervention in rehabilitation
+  5. Quality and outcome measures for medical rehabilitation
+- Selected files（本回合實際讀取 5/5）：
+  1. Rehabilitation of swallowing disorders.pdf 的副本
+  2. Neurogenic bowel Dysfunction and rehabilitation
+  3. Neurogenic lower urinary tract dysfunction.pdf 的副本
+  4. Psychological assessment and intervention in rehabilitation
+  5. Quality and outcome measures for medical rehabilitation
+- 類型與層級：
+  - Singer/Aihara/Gonzalez-Fernandez：textbook chapter，Tier 1，可信度 high
+  - Rodriguez/Goetz/Stiens：textbook chapter，Tier 1，可信度 high
+  - Goetz/Klausner：textbook chapter，Tier 1，可信度 high
+  - Carter/Lewis：textbook chapter，Tier 1，可信度 high
+  - Yang/Grover/Raval：textbook chapter，Tier 1，可信度 high
+- 新建來源摘要頁 5：
+  - 09_來源摘要/Rehabilitation_of_swallowing_disorders.md
+  - 09_來源摘要/Neurogenic_bowel_dysfunction_and_rehabilitation.md
+  - 09_來源摘要/Neurogenic_lower_urinary_tract_dysfunction.md
+  - 09_來源摘要/Psychological_assessment_and_intervention_in_rehabilitation.md
+  - 09_來源摘要/Quality_and_outcome_measures_for_medical_rehabilitation.md
+- 新建主題頁 5：
+  - 03_疾病與臨床主題/吞嚥障礙復健總論.md
+  - 03_疾病與臨床主題/神經性腸道功能障礙復健.md
+  - 03_疾病與臨床主題/神經性下泌尿道功能障礙.md
+  - 02_方法學/復健心理社會評估與介入.md
+  - 02_方法學/復健品質與結局指標.md
+- 既有頁更新：
+  - 03_疾病與臨床主題/PMR_評估總論.md
+  - 03_疾病與臨床主題/中風復健總論.md
+  - 03_疾病與臨床主題/創傷性腦損傷復健總論.md
+  - 03_疾病與臨床主題/脊髓損傷復健總論.md
+  - 03_疾病與臨床主題/下肢截肢復健總論.md
+- 明確標示的 field-level conflict / caveat：
+  1. 吞嚥 bedside screening 不能排除 silent aspiration；absence of gag reflex 也不是可靠 predictor。
+  2. NBD 的臨床目標常是 social continence，不是恢復完全「正常」排便；supraconal 與 infraconal 也不能共用同一 bowel care recipe。
+  3. NLUTD 不能只看 symptom 或 PVR；OAB 與 detrusor overactivity 不是同一件事，urologic safety 需靠 urodynamics 與 upper tract surveillance 判讀。
+  4. psychological adjustment 不是線性 grief stage 模型；routine suicide risk 與 family burden assessment 不能省略。
+  5. outcome、process、performance measure 不可混用；value 也不等於只壓低單一服務成本。
+- index.md 更新：Total pages 58 -> 68
+- Pending files（下一批待處理）：
+  - Rehabilitation and prosthetic restoration in upper limb amputation
+  - Practical aspects of impairment rating and disability determination
+  - Occupational medicine and vocational rehabilitation
+  - Interprofessional Team-Based Care
+  - Celebrating Sociocultural Diversity in the Exam Room and Addressing Racism and Bias
+
+## [2026-04-23] update | lint / health check 工作流
+- 更新頁面：08_工具與Workflow/知識百科_健康檢查流程.md
+- 更新頁面：08_工具與Workflow/Wiki_Health_Check_腳本.md
+- 新建頁面：08_工具與Workflow/知識百科_衝突處理規則.md
+- index.md 更新：Total pages 68 -> 69
+- 補強內容：明確列出 6 類固定 health check 目標（孤立頁、缺交叉連結、stale、未標示矛盾、missing core topics、raw backlog）
+- 將衝突處理規則獨立成 companion workflow page，避免主工作流頁超過 200 行
+- 腳本說明頁同步對齊目前已實作的檢查項目名稱
+
+## [2026-04-24] lint | 全知識百科 health check
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- pages_scanned: 69
+- 結果摘要：orphan 0、weak links 0、broken links 0、index missing 0、frontmatter issues 0、oversized pages 0、stale candidates 0、contradiction candidates 0、missing core topics 0
+- raw backlog: 177
+- raw verification queue（5-file cap）:
+  1. Achilles tendinopathy - UpToDate.md
+  2. Ankle sprain in adults_ Evaluation and diagnosis - UpToDate.md
+  3. Ankle sprain in adults_ Management - UpToDate.md
+  4. Clinical assessment of walking and running gait - UpToDate.md
+  5. 精選鞋子/Cut in half_ ASICS GT 1000 12 Review.md
+- 本回合未回讀 raw 內容；僅完成 wiki-level lint 與 verification queue 排序
+
+## [2026-04-24] lint | raw verification queue 深度回查（5 files）
+- 實際回讀 raw files 5/5：
+  1. Achilles tendinopathy - UpToDate.md
+  2. Ankle sprain in adults_ Evaluation and diagnosis - UpToDate.md
+  3. Ankle sprain in adults_ Management - UpToDate.md
+  4. Clinical assessment of walking and running gait - UpToDate.md
+  5. 精選鞋子/Cut in half_ ASICS GT 1000 12 Review.md
+- 驗證結果：
+  - 前 4 件為真 Tier 1 backlog（UpToDate / 2025–2026 更新），值得優先 ingest。
+  - 其中 Achilles tendinopathy 與兩篇 ankle sprain 已形成足踝運動醫學主題群，但 wiki 目前缺對應來源摘要與主題頁。
+  - Clinical assessment of walking and running gait 為高價值 Tier 1，應優先用來擴充 06_Gait_Biomechanics/步態評估總論.md，必要時拆出 walking/running gait 子頁。
+  - ASICS GT 1000 12 為 commercial shoe review（RunRepeat），不屬 Tier 1；僅可視為 Tier 2 網站/產品資料，不應與 UpToDate 同層排序。
+- 腳本修正：
+  - 更新 08_工具與Workflow/wiki_health_check.py 的 backlog tier 推定邏輯，改為讀取 raw file 內容與 source URL，而非只靠檔名 token。
+  - 修正後已重跑 health_check_report_latest.md；鞋款 review 由 tier=1 降為 tier=2。
+- 深度 health check 結論：
+  - 結構性 lint 仍維持 clean。
+  - 新增人工判讀重點：06_Gait_Biomechanics 與足踝 / running-injury 子域有明顯 Tier 1 backlog，屬下一輪 ingest 高優先區。
+
+## [2026-04-24] update | ingest 工作流規範
+- 新建 workflow page：08_工具與Workflow/知識百科_ingest_工作流.md
+- 更新 SCHEMA.md 的 ingest 規則，明確加入：
+  - 先列候選、再依來源優先級與主題相關性排序
+  - 單批最多選讀 10 份文件
+  - 來源類型固定判定為 review article / textbook chapter / UpToDate / 科普書 / 網站資料 / original article
+  - ingest 結束後必須留下下一批待處理名單
+- 更新 08_工具與Workflow/知識百科_健康檢查流程.md，明確區分：
+  - health check raw verification cap = 5 files
+  - ingest batch cap = 10 files
+- index.md 更新：Total pages 69 -> 70
+- 本次僅更新 workflow / schema / index / log；未讀取新一批 raw 內容，也未修改 `C:\原始資料`
+
+## [2026-04-24] update | wiki_health_check Windows 路徑自動判定
+- 修正腳本：08_工具與Workflow/wiki_health_check.py
+  - CLI 預設路徑不再寫死 `/mnt/c/...`
+  - 改為自動偵測 `C:\知識百科` / `C:\原始資料`、WSL `/mnt/c/...`，必要時回退到腳本所在 wiki root
+- 修正測試：08_工具與Workflow/tests/test_wiki_health_check.py
+  - 測試載入路徑改為相對於測試檔自身解析
+  - 新增 default root detection 測試
+- 更新文件：08_工具與Workflow/Wiki_Health_Check_腳本.md
+  - 執行範例改為 Windows PowerShell 指令
+  - 補充路徑自動偵測說明
+
+## [2026-04-24] update | wiki_health_check UTF-8 console output
+- 修正腳本：08_工具與Workflow/wiki_health_check.py
+  - 直接輸出到 Windows console 前先將 `stdout` reconfigure 為 UTF-8
+  - 避免 `V̇O₂` 等字元在 `cp950` console 下觸發 `UnicodeEncodeError`
+
+## [2026-04-24] lint | 全知識百科 health check（post-fix）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python 08_工具與Workflow/tests/test_wiki_health_check.py` → 4 tests passed
+  - `python 08_工具與Workflow/wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 70
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - contradiction candidates 0
+  - raw backlog: 189
+  - raw verification queue: 5
+- 說明：
+  - 此次結果已確認來自正確的 Windows path 與 UTF-8 console output 修正後執行
+  - 本回合僅更新 workflow / schema / health-check tooling，未執行新一批 source ingest
+
+## [2026-04-24] ingest | PM&R orthotics / mobility / exercise / wound care（Batch 8）
+- Batch: 8
+- Candidate ranking（依來源優先級 + 同主題相關性排序）：
+  1. 13 - Lower limb orthoses
+  2. 15 - Wheelchairs and seating systems
+  3. 16 - Therapeutic exercise
+  4. 18 - Physical agent modalities
+  5. 20 - Assistive technology and environmental control devices
+  6. 12 - Upper limb orthoses and robotics
+  7. 14 - Spinal orthoses
+  8. 25 - Prevention and management of pressure injuries and chronic ulcers
+  9. 17 - Manipulation, traction, and massage
+  10. 19 - Integrative medicine in rehabilitation
+- Selected files（本回合實際讀取 10/10）：
+  1. 12 - Upper limb orthoses and robotics
+  2. 13 - Lower limb orthoses
+  3. 14 - Spinal orthoses
+  4. 15 - Wheelchairs and seating systems
+  5. 16 - Therapeutic exercise
+  6. 17 - Manipulation, traction, and massage
+  7. 18 - Physical agent modalities
+  8. 19 - Integrative medicine in rehabilitation
+  9. 20 - Assistive technology and environmental control devices
+  10. 25 - Prevention and management of pressure injuries and chronic ulcers
+- 類型與層級：
+  - Upper limb orthoses and robotics：textbook chapter，Tier 1，可信度 high
+  - Lower limb orthoses：textbook chapter，Tier 1，可信度 high
+  - Spinal orthoses：textbook chapter，Tier 1，可信度 high
+  - Wheelchairs and seating systems：textbook chapter，Tier 1，可信度 high
+  - Therapeutic exercise：textbook chapter，Tier 1，可信度 high
+  - Manipulation, traction, and massage：textbook chapter，Tier 1，可信度 high
+  - Physical agent modalities：textbook chapter，Tier 1，可信度 high
+  - Integrative medicine in rehabilitation：textbook chapter，Tier 1，可信度 high
+  - Assistive technology and environmental control devices：textbook chapter，Tier 1，可信度 high
+  - Prevention and management of pressure injuries and chronic ulcers：textbook chapter，Tier 1，可信度 high
+- 新建來源摘要頁 10：
+  - 09_來源摘要/Upper_limb_orthoses_and_robotics.md
+  - 09_來源摘要/Lower_limb_orthoses.md
+  - 09_來源摘要/Spinal_orthoses.md
+  - 09_來源摘要/Wheelchairs_and_seating_systems.md
+  - 09_來源摘要/Therapeutic_exercise.md
+  - 09_來源摘要/Manipulation_traction_and_massage.md
+  - 09_來源摘要/Physical_agent_modalities.md
+  - 09_來源摘要/Integrative_medicine_in_rehabilitation.md
+  - 09_來源摘要/Assistive_technology_and_environmental_control_devices.md
+  - 09_來源摘要/Prevention_and_management_of_pressure_injuries_and_chronic_ulcers.md
+- 新建主題頁 10：
+  - 06_Gait_Biomechanics/上肢矯具與復健機器人.md
+  - 06_Gait_Biomechanics/下肢矯具總論.md
+  - 06_Gait_Biomechanics/脊椎裝具總論.md
+  - 03_疾病與臨床主題/輪椅與座位系統總論.md
+  - 03_疾病與臨床主題/輔具與環境控制裝置.md
+  - 03_疾病與臨床主題/壓力性損傷與慢性傷口復健.md
+  - 02_方法學/治療性運動處方.md
+  - 02_方法學/徒手治療_牽引與按摩.md
+  - 02_方法學/物理因子治療.md
+  - 02_方法學/復健整合醫學.md
+- 既有頁更新：
+  - 03_疾病與臨床主題/PMR_評估總論.md
+  - 03_疾病與臨床主題/中風復健總論.md
+  - 03_疾病與臨床主題/脊髓損傷復健總論.md
+  - 03_疾病與臨床主題/Spasticity_概論.md
+  - 06_Gait_Biomechanics/步態評估總論.md
+- 明確標示的 conflict / caveat：
+  1. Therapeutic exercise 章節仍使用 legacy `anaerobic threshold` 與 `220-age`；可用於 practical exercise prescription，但不取代既有 CPET 現代框架。
+  2. Physical agent modalities 應視為 adjunctive tool；acute soft-tissue icing 的高品質 healing evidence 不強，且 prolonged icing 可能干擾部分 healing response。
+  3. Manipulation / traction / massage 的效益具 condition specificity；traction 長期證據不穩，HVLA 需明確安全篩檢。
+  4. Assistive technology 不等於越新越好；abandonment 常見，user-fit、training 與 follow-up 是核心。
+  5. Pressure injury / chronic ulcer management 的主軸是 etiology 與 offloading；不可把 dressing 或 therapeutic footwear 誤當主要治癒機制。
+  6. Spinal orthosis prescription 不能只寫 brace 名稱；benign whiplash 的 prolonged soft collar use 沒有長期 outcome 優勢。
+  7. Lower limb orthosis prescription 要用 GRF 與 joint moment 語言理解；lateral heel wedge 對 medial knee OA 並非強支持 default 處方。
+- index.md 更新：Total pages 70 -> 90
+- Pending files（下一批待處理）：
+  - 23 - Sexual dysfunction and disability
+  - 26 - Vascular diseases
+
+## [2026-04-24] update | wiki_health_check backlog stem normalization
+- 修正腳本：08_工具與Workflow/wiki_health_check.py
+  - `normalize_stem()` 新增 chapter number prefix 去除（如 `13 - ...`）
+  - 去除常見 copy suffix / duplicate marker（如 `的副本`、`(1)`、內嵌 `pdf` token）
+- 修正測試：08_工具與Workflow/tests/test_wiki_health_check.py
+  - 測試數由 4 增為 5
+  - 新增 backlog stem normalization 覆蓋，避免已 ingest 來源被誤列為 raw backlog
+
+## [2026-04-24] lint | 全知識百科 health check（post-ingest）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python 08_工具與Workflow/tests/test_wiki_health_check.py` → 5 tests passed
+  - `python 08_工具與Workflow/wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 90
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - contradiction candidates 0
+  - raw_backlog: 177
+  - raw verification queue:
+    1. 00140130412331290899/00140130412331290899.md
+    2. 23 - Sexual dysfunction and disability/23 - Sexual dysfunction and disability.md
+    3. 26 - Vascular diseases/26 - Vascular diseases.md
+    4. Achilles tendinopathy - UpToDate.md
+    5. Ankle sprain in adults_ Evaluation and diagnosis - UpToDate.md
+
+## [2026-04-24] ingest | PM&R participation / medicolegal / pediatric care systems（Batch 9）
+- Batch: 9
+- Candidate ranking（依來源優先級 + 主題相關性排序）：
+  1. 23 - Sexual dysfunction and disability
+  2. 26 - Vascular diseases
+  3. Rehabilitation and prosthetic restoration in upper limb amputation
+  4. Occupational medicine and vocational rehabilitation
+  5. Interprofessional Team-Based Care
+  6. Practical aspects of impairment rating and disability determination
+  7. Celebrating Sociocultural Diversity in the Exam Room and Addressing Racism and Bias
+  8. Rehabilitation Services Occupational Therapy and Physical Therapy
+- Selected files（本回合實際讀取 8/8）：
+  1. 23 - Sexual dysfunction and disability
+  2. 26 - Vascular diseases
+  3. Rehabilitation and prosthetic restoration in upper limb amputation
+  4. Occupational medicine and vocational rehabilitation
+  5. Interprofessional Team-Based Care
+  6. Practical aspects of impairment rating and disability determination
+  7. Celebrating Sociocultural Diversity in the Exam Room and Addressing Racism and Bias
+  8. Rehabilitation Services Occupational Therapy and Physical Therapy
+- 類型與層級：
+  - Sexual dysfunction and disability：textbook chapter，Tier 1，可信度 high
+  - Vascular diseases：textbook chapter，Tier 1，可信度 high
+  - Rehabilitation and prosthetic restoration in upper limb amputation：textbook chapter，Tier 1，可信度 high
+  - Occupational medicine and vocational rehabilitation：textbook chapter，Tier 1，可信度 high
+  - Interprofessional Team-Based Care：textbook chapter，Tier 1，可信度 high
+  - Practical aspects of impairment rating and disability determination：textbook chapter，Tier 1，可信度 high
+  - Celebrating Sociocultural Diversity in the Exam Room and Addressing Racism and Bias：textbook chapter，Tier 1，可信度 high
+  - Rehabilitation Services Occupational Therapy and Physical Therapy：textbook chapter，Tier 1，可信度 high
+- 新建來源摘要頁 8：
+  - 09_來源摘要/Sexual_dysfunction_and_disability.md
+  - 09_來源摘要/Vascular_diseases.md
+  - 09_來源摘要/Rehabilitation_and_prosthetic_restoration_in_upper_limb_amputation.md
+  - 09_來源摘要/Occupational_medicine_and_vocational_rehabilitation.md
+  - 09_來源摘要/Interprofessional_Team_Based_Care.md
+  - 09_來源摘要/Practical_aspects_of_impairment_rating_and_disability_determination.md
+  - 09_來源摘要/Celebrating_sociocultural_diversity_in_the_exam_room_and_addressing_racism_and_bias.md
+  - 09_來源摘要/Rehabilitation_services_occupational_therapy_and_physical_therapy.md
+- 新建主題頁 8：
+  - 03_疾病與臨床主題/性功能障礙與身心障礙復健.md
+  - 03_疾病與臨床主題/血管與淋巴疾病復健.md
+  - 03_疾病與臨床主題/上肢截肢復健總論.md
+  - 02_方法學/職業醫學與職業復健.md
+  - 02_方法學/障礙評定與失能判定.md
+  - 02_方法學/跨專業團隊照護.md
+  - 07_Pediatric_Development/文化謙遜與偏誤敏感照護.md
+  - 07_Pediatric_Development/兒童OT與PT復健服務.md
+- 既有頁更新：
+  - 03_疾病與臨床主題/PMR_評估總論.md
+  - 03_疾病與臨床主題/創傷性腦損傷復健總論.md
+  - 03_疾病與臨床主題/中風復健總論.md
+  - 03_疾病與臨床主題/脊髓損傷復健總論.md
+  - 03_疾病與臨床主題/下肢截肢復健總論.md
+  - 07_Pediatric_Development/小兒復健評估.md
+- 明確標示的 conflict / caveat：
+  1. Sexual dysfunction in disability 不等於單純 neurologic deficit；只有在造成 distress / quality-of-life impact 時才構成需處理的 disorder framing。
+  2. PAD 患者的 exercise 通常是治療而非禁忌；compression 則需依 arterial status 調整。
+  3. Impairment rating 不等於 disability 或 participation restriction；醫師也不應越權決定 accommodation reasonableness。
+  4. Multidisciplinary parallel care 不等於 interprofessional team-based care；一次性資訊傳遞也不等於 care coordination。
+  5. race 不應被當作 biologic risk factor；臨床上更 relevant 的 exposure 是 racism、bias 與 SDOH。
+  6. 最先進 myoelectric prosthesis 不一定最適合；device selection 必須回到功能目標、環境、維修可近性與成本。
+- index.md 更新：Total pages 90 -> 106
+- Pending files（下一批待處理）：
+  - Achilles tendinopathy - UpToDate.md
+  - Ankle sprain in adults_ Evaluation and diagnosis - UpToDate.md
+  - Ankle sprain in adults_ Management - UpToDate.md
+  - Clinical assessment of walking and running gait - UpToDate.md
+  - 00140130412331290899/00140130412331290899.md
+
+## [2026-04-24] lint | 全知識百科 health check（post-batch-9）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python 08_工具與Workflow/tests/test_wiki_health_check.py` → 5 tests passed
+  - `python 08_工具與Workflow/wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 106
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - contradiction candidates 0
+  - raw_backlog: 169
+  - raw verification queue:
+    1. 00140130412331290899/00140130412331290899.md
+    2. Achilles tendinopathy - UpToDate.md
+    3. Ankle sprain in adults_ Evaluation and diagnosis - UpToDate.md
+    4. Ankle sprain in adults_ Management - UpToDate.md
+    5. Attention deficit hyperactivity disorder in children and adolescents_ Clinical features and diagnosis (1).md
+
+## [2026-04-24] ingest | foot / ankle / running injury frameworks（Batch 10）
+- Batch: 10
+- Candidate ranking（依來源優先級 + 主題相關性排序）：
+  1. Clinical assessment of walking and running gait - UpToDate
+  2. Overview of foot anatomy and biomechanics and assessment of foot pain in adults - UpToDate
+  3. Achilles tendinopathy - UpToDate
+  4. Ankle sprain in adults: Evaluation and diagnosis - UpToDate
+  5. Ankle sprain in adults: Management - UpToDate
+  6. Syndesmotic ankle injury (high ankle sprain) - UpToDate
+  7. Plantar fasciitis - UpToDate
+  8. Forefoot pain in adults: Evaluation, diagnosis, and select management of common causes - UpToDate
+  9. Hindfoot pain in adults: Evaluation and diagnosis of common causes - UpToDate
+  10. Midfoot pain in adults: Evaluation, diagnosis, and select management of common causes - UpToDate
+  11. 00140130412331290899/00140130412331290899.md（暫緩；與本批 foot / ankle 主題相關性較低）
+- Selected files（本回合實際讀取 10/10）：
+  1. Clinical assessment of walking and running gait - UpToDate
+  2. Overview of foot anatomy and biomechanics and assessment of foot pain in adults - UpToDate
+  3. Achilles tendinopathy - UpToDate
+  4. Ankle sprain in adults: Evaluation and diagnosis - UpToDate
+  5. Ankle sprain in adults: Management - UpToDate
+  6. Syndesmotic ankle injury (high ankle sprain) - UpToDate
+  7. Plantar fasciitis - UpToDate
+  8. Forefoot pain in adults: Evaluation, diagnosis, and select management of common causes - UpToDate
+  9. Hindfoot pain in adults: Evaluation and diagnosis of common causes - UpToDate
+  10. Midfoot pain in adults: Evaluation, diagnosis, and select management of common causes - UpToDate
+- 類型與層級：
+  - 全部 10 份皆為 UpToDate，Tier 1，可信度 high
+- 新建來源摘要頁 10：
+  - 09_來源摘要/Clinical_assessment_of_walking_and_running_gait.md
+  - 09_來源摘要/Overview_of_foot_anatomy_and_biomechanics_and_assessment_of_foot_pain_in_adults.md
+  - 09_來源摘要/Achilles_tendinopathy.md
+  - 09_來源摘要/Ankle_sprain_in_adults_Evaluation_and_diagnosis.md
+  - 09_來源摘要/Ankle_sprain_in_adults_Management.md
+  - 09_來源摘要/Syndesmotic_ankle_injury_high_ankle_sprain.md
+  - 09_來源摘要/Plantar_fasciitis.md
+  - 09_來源摘要/Forefoot_pain_in_adults_Evaluation_diagnosis_and_select_management_of_common_causes.md
+  - 09_來源摘要/Hindfoot_pain_in_adults_Evaluation_and_diagnosis_of_common_causes.md
+  - 09_來源摘要/Midfoot_pain_in_adults_Evaluation_diagnosis_and_select_management_of_common_causes.md
+- 新建主題頁 6：
+  - 06_Gait_Biomechanics/足部解剖與生物力學.md
+  - 03_疾病與臨床主題/足部疼痛分區評估.md
+  - 03_疾病與臨床主題/Achilles_tendinopathy.md
+  - 03_疾病與臨床主題/Ankle_sprain_總論.md
+  - 03_疾病與臨床主題/Syndesmotic_ankle_injury.md
+  - 03_疾病與臨床主題/Plantar_fasciitis.md
+- 既有頁更新：
+  - 06_Gait_Biomechanics/步態評估總論.md
+- 明確標示的 conflict / caveat：
+  1. Adult clinical gait assessment 沒有單一 standardized bedside gold-standard；它是 structured observation，不是 gait-lab substitute。
+  2. 對無症狀跑者 routine 把 rearfoot strike 改成 forefoot strike，沒有足夠理由當成 injury-prevention default。
+  3. Foot structure 不能單獨決定 injury risk；static arch、dynamic motion 與 load context 必須一起看。
+  4. Achilles 問題不應一律叫 tendinitis；midportion 與 insertional disease 的 rehab strategy 也不同。
+  5. Acute ankle sprain 多數不需要直接 MRI；Ottawa ankle rules 仍是 early imaging 主軸，brace + rehab 比 prolonged rest 更重要。
+  6. High ankle sprain 不是單純比較嚴重的 lateral sprain；grade 2/3 常需更早 orthopedic decision。
+  7. Heel spur 不是 plantar fasciitis 的診斷錨點；ESWT、custom orthotics、surgery 也不應被講成 default solution。
+- index.md 更新：Total pages 106 -> 122
+- Pending files（下一批待處理）：
+  - 00140130412331290899/00140130412331290899.md
+
+## [2026-04-24] update | wiki_health_check backlog normalization（UpToDate suffix）
+- 修正腳本：08_工具與Workflow/wiki_health_check.py
+  - `normalize_stem()` 新增去除 raw filename 尾端 `UpToDate` token
+- 修正測試：08_工具與Workflow/tests/test_wiki_health_check.py
+  - 補上 `Achilles tendinopathy - UpToDate.md` 對 `Achilles_tendinopathy.md` 的 normalization 覆蓋
+- 補反向 wikilink：
+  - 06_Gait_Biomechanics/步態評估總論.md → 09_來源摘要/Clinical_assessment_of_walking_and_running_gait.md
+  - 03_疾病與臨床主題/足部疼痛分區評估.md → 09_來源摘要/Forefoot / Midfoot / Hindfoot pain summaries
+
+## [2026-04-24] lint | 全知識百科 health check（post-batch-10）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python 08_工具與Workflow/tests/test_wiki_health_check.py` → 5 tests passed
+  - `python 08_工具與Workflow/wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 122
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - contradiction candidates 0
+  - raw_backlog: 159
+  - raw verification queue:
+    1. 00140130412331290899/00140130412331290899.md
+    2. Attention deficit hyperactivity disorder in children and adolescents_ Clinical features and diagnosis (1).md
+    3. Attention deficit hyperactivity disorder in children and adolescents_ Epidemiology and pathogenesis.md
+    4. Attention deficit hyperactivity disorder in children and adolescents_ Overview of treatment and prognosis (1).md
+    5. Attention deficit hyperactivity disorder in children and adolescents_ Treatment with nonstimulant medications.md
+
+## [2026-04-24] ingest | pediatric ADHD framework（Batch 11）
+- Batch: 11
+- Candidate ranking（依來源優先級 + 主題相關性排序）：
+  1. Attention deficit hyperactivity disorder in children and adolescents: Clinical features and diagnosis - UpToDate
+  2. Attention deficit hyperactivity disorder in children and adolescents: Epidemiology and pathogenesis - UpToDate
+  3. Attention deficit hyperactivity disorder in children and adolescents: Overview of treatment and prognosis - UpToDate
+  4. Attention deficit hyperactivity disorder in children and adolescents: Treatment with stimulant medications - UpToDate
+  5. Attention deficit hyperactivity disorder in children and adolescents: Treatment with nonstimulant medications - UpToDate
+  6. Cardiac evaluation of patients receiving pharmacotherapy for attention deficit hyperactivity disorder (ADHD) - UpToDate
+  7. Sleep in children and adolescents with attention deficit hyperactivity disorder - UpToDate
+  8. Attention-Deficit/Hyperactivity Disorder - textbook chapter (Harstad)
+  9. Attention-Deficit/Hyperactivity Disorder (ADHD) - textbook chapter (Barbaresi / Fogler)
+  10. 00140130412331290899/00140130412331290899.md（暫緩；與本批 pediatric ADHD 主題相關性較低）
+- Selected files（本回合實際讀取 9/10）：
+  1. Attention deficit hyperactivity disorder in children and adolescents: Clinical features and diagnosis - UpToDate
+  2. Attention deficit hyperactivity disorder in children and adolescents: Epidemiology and pathogenesis - UpToDate
+  3. Attention deficit hyperactivity disorder in children and adolescents: Overview of treatment and prognosis - UpToDate
+  4. Attention deficit hyperactivity disorder in children and adolescents: Treatment with stimulant medications - UpToDate
+  5. Attention deficit hyperactivity disorder in children and adolescents: Treatment with nonstimulant medications - UpToDate
+  6. Cardiac evaluation of patients receiving pharmacotherapy for attention deficit hyperactivity disorder (ADHD) - UpToDate
+  7. Sleep in children and adolescents with attention deficit hyperactivity disorder - UpToDate
+  8. Attention-Deficit/Hyperactivity Disorder - textbook chapter (Harstad)
+  9. Attention-Deficit/Hyperactivity Disorder (ADHD) - textbook chapter (Barbaresi / Fogler)
+- 類型與層級：
+  - UpToDate 7 份：Tier 1，可信度 high
+  - textbook chapter 2 份：Tier 1，可信度 high
+- 新建來源摘要頁 9：
+  - 09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Clinical_features_and_diagnosis.md
+  - 09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Epidemiology_and_pathogenesis.md
+  - 09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Overview_of_treatment_and_prognosis.md
+  - 09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Treatment_with_stimulant_medications.md
+  - 09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Treatment_with_nonstimulant_medications.md
+  - 09_來源摘要/Cardiac_evaluation_of_patients_receiving_pharmacotherapy_for_attention_deficit_hyperactivity_disorder_ADHD.md
+  - 09_來源摘要/Sleep_in_children_and_adolescents_with_attention_deficit_hyperactivity_disorder.md
+  - 09_來源摘要/Attention_Deficit_Hyperactivity_Disorder.md
+  - 09_來源摘要/Attention_Deficit_Hyperactivity_Disorder_ADHD.md
+- 新建主題頁 5：
+  - 07_Pediatric_Development/ADHD_總論.md
+  - 07_Pediatric_Development/ADHD_評估與診斷.md
+  - 07_Pediatric_Development/ADHD_治療總論.md
+  - 07_Pediatric_Development/ADHD_藥物治療與安全.md
+  - 07_Pediatric_Development/ADHD_睡眠與常見共病.md
+- 既有頁更新：
+  - 07_Pediatric_Development/小兒復健評估.md
+  - 07_Pediatric_Development/兒童OT與PT復健服務.md
+- 明確標示的 conflict / caveat：
+  1. ADHD 不能用單次門診 impression、單一量表、qEEG 或 neuropsychological testing alone 下診斷。
+  2. ADHD 不是 normal childhood behavior 被醫療化，也不能被 sugar、food additive 或 poor parenting 單獨解釋。
+  3. coexisting condition 是常態；sleep disorder、learning disorder、ASD、language disorder、anxiety、depression 都可能改變診斷與功能表現。
+  4. medication 不是整個 treatment plan；PTBM、school accommodation、skills training 與定期 reevaluation 都要並行。
+  5. stimulant 常是 first-line，但 routine ECG 不是 blanket rule；targeted cardiovascular history / exam 才是前測核心。
+  6. nonstimulant 不是單純比較安全或比較溫和的替代品；起效、BP / HR effect、suicidality 與 sedation 都要個別監測。
+  7. insomnia 不應一律怪 stimulant；sleep deprivation、OSA、restless legs / PLMD、rebound effect 都要分清。
+- index.md 更新：Total pages 122 -> 136
+- Pending files（下一批待處理）：
+  - 00140130412331290899/00140130412331290899.md
+
+## [2026-04-24] lint | 全知識百科 health check（post-batch-11）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python 08_工具與Workflow/tests/test_wiki_health_check.py` → 5 tests passed
+  - `python 08_工具與Workflow/wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 136
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - contradiction candidates 0
+  - raw_backlog: 150
+  - raw verification queue:
+    1. 00140130412331290899/00140130412331290899.md
+    2. Autism Spectrum Disorder/Autism Spectrum Disorder.md
+    3. Autism Spectrum Disorder/Autism Spectrum Disorder (ASD).md
+    4. Autism spectrum disorder (ASD) in children and adolescents_ Terminology, epidemiology, and pathogenesis.md
+    5. Autism spectrum disorder in children and adolescents_ Behavioral and educational interventions.md
+
+## [2026-04-24] ingest | pediatric ASD framework（Batch 12）
+- Batch: 12
+- Candidate ranking（依來源優先級 + 主題相關性排序）：
+  1. Autism Spectrum Disorder — textbook chapter
+  2. Autism Spectrum Disorder (ASD) — textbook chapter
+  3. Autism spectrum disorder (ASD) in children and adolescents: Terminology, epidemiology, and pathogenesis — UpToDate
+  4. Autism spectrum disorder in children and adolescents: Clinical features — UpToDate
+  5. Autism spectrum disorder in children and adolescents: Evaluation and diagnosis — UpToDate
+  6. Autism spectrum disorder in children and adolescents: Overview of management and prognosis — UpToDate
+  7. Autism spectrum disorder in children and adolescents: Behavioral and educational interventions — UpToDate
+  8. Autism spectrum disorder in children and adolescents: Pharmacologic interventions — UpToDate
+  9. Autism spectrum disorder in children and adolescents: Screening tools — UpToDate
+  10. Autism spectrum disorder in children and adolescents: Surveillance and screening in primary care — UpToDate
+  11. Autism spectrum disorder in children and adolescents: Complementary and integrative medicine therapies — UpToDate（因 10-file cap 延到下一批）
+- Selected files（本回合實際讀取 10/11）：
+  1. Autism Spectrum Disorder — textbook chapter
+  2. Autism Spectrum Disorder (ASD) — textbook chapter
+  3. Autism spectrum disorder (ASD) in children and adolescents: Terminology, epidemiology, and pathogenesis — UpToDate
+  4. Autism spectrum disorder in children and adolescents: Clinical features — UpToDate
+  5. Autism spectrum disorder in children and adolescents: Evaluation and diagnosis — UpToDate
+  6. Autism spectrum disorder in children and adolescents: Overview of management and prognosis — UpToDate
+  7. Autism spectrum disorder in children and adolescents: Behavioral and educational interventions — UpToDate
+  8. Autism spectrum disorder in children and adolescents: Pharmacologic interventions — UpToDate
+  9. Autism spectrum disorder in children and adolescents: Screening tools — UpToDate
+  10. Autism spectrum disorder in children and adolescents: Surveillance and screening in primary care — UpToDate
+- 類型與層級：
+  - textbook chapter 2 份：Tier 1，可信度 high
+  - UpToDate 8 份：Tier 1，可信度 high
+- 新建來源摘要頁 10：
+  - 09_來源摘要/Autism_Spectrum_Disorder.md
+  - 09_來源摘要/Autism_Spectrum_Disorder_ASD.md
+  - 09_來源摘要/Autism_spectrum_disorder_ASD_in_children_and_adolescents_Terminology_epidemiology_and_pathogenesis.md
+  - 09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Clinical_features.md
+  - 09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Evaluation_and_diagnosis.md
+  - 09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Overview_of_management_and_prognosis.md
+  - 09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Behavioral_and_educational_interventions.md
+  - 09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Pharmacologic_interventions.md
+  - 09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Screening_tools.md
+  - 09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Surveillance_and_screening_in_primary_care.md
+- 新建主題頁 6：
+  - 07_Pediatric_Development/ASD_總論.md
+  - 07_Pediatric_Development/ASD_臨床表現.md
+  - 07_Pediatric_Development/ASD_評估與診斷.md
+  - 07_Pediatric_Development/ASD_篩檢與早期辨識.md
+  - 07_Pediatric_Development/ASD_介入與預後.md
+  - 07_Pediatric_Development/ASD_藥物與共病管理.md
+- 既有頁更新：
+  - 07_Pediatric_Development/小兒復健評估.md
+- 明確標示的 conflict / caveat：
+  1. ASD 不是 vaccine-related disorder，也不能被單一教養理論解釋。
+  2. female presentation 與 camouflaging 會延後辨識，不能用 male-biased template 當唯一標準。
+  3. screening 不提供 diagnosis；positive screen 的下一步是 referral，不是 watchful waiting。
+  4. general developmental screener 不能取代 ASD-specific screener；negative screen 也不能直接排除 later ASD。
+  5. diagnostic tool 不能脫離 clinical judgment 單獨使用；ASD 與 language disorder / ID / ADHD / anxiety 邊界要重做 differential。
+  6. medication 處理的是 target symptom / comorbidity，不是 core ASD deficit。
+  7. sensory integration 與各式熱門療法都不能取代 structured behavioral / educational intervention。
+- index.md 更新：Total pages 136 -> 152
+- Pending files（下一批待處理）：
+  - Autism spectrum disorder in children and adolescents: Complementary and integrative medicine therapies — UpToDate
+  - 00140130412331290899/00140130412331290899.md
+  - Developmental-behavioral surveillance and screening in primary care - UpToDate.md
+  - Developmental Delay and Intellectual Disability/Developmental Delay and Intellectual Disability.md
+  - Intellectual disability (ID) in children_ Clinical features, evaluation, and diagnosis.md
+
+## [2026-04-24] ingest | ASD complementary therapy addendum（Batch 13）
+- Batch: 13
+- Selected files（本回合實際讀取 1/1）：
+  1. Autism spectrum disorder in children and adolescents: Complementary and integrative medicine therapies — UpToDate
+- 類型與層級：
+  - UpToDate 1 份：Tier 1，可信度 high
+- 新建來源摘要頁 1：
+  - 09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Complementary_and_integrative_medicine_therapies.md
+- 既有頁更新：
+  - 07_Pediatric_Development/ASD_介入與預後.md
+- 明確標示的 conflict / caveat：
+  1. complementary therapy 常見，不等於有效。
+  2. music therapy 可作 limited-evidence adjunct，但不能取代主幹 program。
+  3. leucovorin / folic acid、sulforaphane、TMS / tPCS 目前都不足以 routine recommend。
+- index.md 更新：Total pages 152 -> 153
+- Pending files（下一批待處理）：
+  - 00140130412331290899/00140130412331290899.md
+  - Biomechanics of the Foot and Ankle/Biomechanics of the Foot and Ankle.md
+  - Biomechanics of the hip, knee, and ankle/Biomechanics of the hip, knee, and ankle.md
+  - Blindness and Visual Impairment/Blindness and Visual Impairment.md
+  - Cerebral Palsy and Other Motor Disorders/Cerebral Palsy and Other Motor Disorders.md
+
+## [2026-04-24] lint | 全知識百科 health check（post-batch-13）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python 08_工具與Workflow/tests/test_wiki_health_check.py` → 5 tests passed
+  - `python 08_工具與Workflow/wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 153
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - contradiction candidates 0
+  - raw_backlog: 139
+  - raw verification queue:
+    1. 00140130412331290899/00140130412331290899.md
+    2. Biomechanics of the Foot and Ankle/Biomechanics of the Foot and Ankle.md
+    3. Biomechanics of the hip, knee, and ankle/Biomechanics of the hip, knee, and ankle.md
+    4. Blindness and Visual Impairment/Blindness and Visual Impairment.md
+    5. Cerebral Palsy and Other Motor Disorders/Cerebral Palsy and Other Motor Disorders.md
+
+## [2026-04-24] create | schema 1–8 overview pages
+- 新建頁面：
+  - 00_總覽/知識百科_基礎規範總覽.md
+  - 00_總覽/主題地圖.md
+- 目的：
+  - 把 schema 第 1 到第 8 點整理成可直接操作的 overview layer。
+  - 補上跨資料夾主題導航，降低新頁成為弱連結或孤立頁的機率。
+
+## [2026-04-24] update | index schema-1-to-8 alignment
+- 更新檔案：index.md
+- 調整內容：
+  - 新增 `00_總覽` 區段與 2 個 overview 頁入口。
+  - 將索引格式統一為：頁名 + 一句話摘要 + 主題分類 + 重要來源層級。
+  - Total pages: 153 -> 155
+
+## [2026-04-24] lint | 全知識百科 health check（post-schema-1-to-8 alignment）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python 08_工具與Workflow/tests/test_wiki_health_check.py` → 5 tests passed
+  - `python 08_工具與Workflow/wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 155
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - contradiction candidates 0
+  - raw_backlog: 139
+  - raw verification queue:
+    1. 00140130412331290899/00140130412331290899.md
+    2. Biomechanics of the Foot and Ankle/Biomechanics of the Foot and Ankle.md
+    3. Biomechanics of the hip, knee, and ankle/Biomechanics of the hip, knee, and ankle.md
+    4. Blindness and Visual Impairment/Blindness and Visual Impairment.md
+    5. Cerebral Palsy and Other Motor Disorders/Cerebral Palsy and Other Motor Disorders.md
+
+## [2026-04-24] ingest | pediatric neurology / CP / vision / foot biomechanics / shoe selection / preterm outcomes（Batch 14）
+- Batch: 14
+- Selected files（本回合實際讀取 10/10）：
+  1. 00140130412331290899/00140130412331290899.md
+  2. Biomechanics of the Foot and Ankle/Biomechanics of the Foot and Ankle.md
+  3. Biomechanics of the hip, knee, and ankle/Biomechanics of the hip, knee, and ankle.md
+  4. Blindness and Visual Impairment/Blindness and Visual Impairment.md
+  5. Cerebral Palsy and Other Motor Disorders/Cerebral Palsy and Other Motor Disorders.md
+  6. Child Care/Child Care.md
+  7. Childhood Obesity/Childhood Obesity.md
+  8. Consequences of Preterm Birth/Consequences of Preterm Birth.md
+  9. Considerations in the Selection of a Running Shoe/Considerations in the Selection of a Running Shoe.md
+  10. Detailed neurologic assessment of infants and children - UpToDate.md
+- 類型與層級：
+  - original article 1 份：Tier 3，可信度 moderate
+  - textbook chapter 8 份：Tier 1，可信度 high
+  - UpToDate 1 份：Tier 1，可信度 high
+- 新建來源摘要頁 10：
+  - 09_來源摘要/Modelling_the_VO2_kinetic_response_to_heavy_intensity_exercise_in_children.md
+  - 09_來源摘要/Biomechanics_of_the_Foot_and_Ankle.md
+  - 09_來源摘要/Biomechanics_of_the_Hip_Knee_and_Ankle.md
+  - 09_來源摘要/Blindness_and_Visual_Impairment.md
+  - 09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
+  - 09_來源摘要/Child_Care.md
+  - 09_來源摘要/Childhood_Obesity.md
+  - 09_來源摘要/Consequences_of_Preterm_Birth.md
+  - 09_來源摘要/Considerations_in_the_Selection_of_a_Running_Shoe.md
+  - 09_來源摘要/Detailed_neurologic_assessment_of_infants_and_children.md
+- 新建主題頁 7：
+  - 06_Gait_Biomechanics/跑鞋選擇原則.md
+  - 07_Pediatric_Development/兒童視覺障礙與CVI.md
+  - 07_Pediatric_Development/Cerebral_Palsy_總論.md
+  - 07_Pediatric_Development/托育與Early_Care_and_Education.md
+  - 07_Pediatric_Development/兒童肥胖.md
+  - 07_Pediatric_Development/早產兒長期結局.md
+  - 07_Pediatric_Development/兒童神經學評估.md
+- 既有頁更新：
+  - 04_CPET/VO2_Kinetics.md
+  - 06_Gait_Biomechanics/足部解剖與生物力學.md
+  - 06_Gait_Biomechanics/下肢矯具總論.md
+  - 03_疾病與臨床主題/感覺障礙復健總論.md
+  - 07_Pediatric_Development/小兒復健評估.md
+  - 00_總覽/主題地圖.md
+- 明確標示的 conflict / caveat：
+  1. Fawkner and Armstrong 2004 使用 TAN / anaerobic threshold 歷史術語；本 wiki 保留為 Tier 3 limited evidence，不覆寫 LT / GET / CP 主框架。
+  2. foot structure 與 shoe prescription 都不能只靠靜態 arch label；subtalar、transverse tarsal、timing 與 footwear context 必須一起看。
+  3. 多 cushioning 或 motion-control shoe 不是較安全的 routine default；abrupt minimal-shoe transition 也可能增加 loading。
+  4. orthosis prescription 不是只選 brace type；GRF、AFO-footwear combination、tuning 與 shank-thigh alignment 都會改變 proximal moment。
+  5. pediatric visual impairment 不能只寫 visual acuity；prematurity、brain injury 與 CVI 可能比單純 ocular diagnosis 更影響功能。
+  6. CP 雖屬 nonprogressive brain injury，但 musculoskeletal burden 與 phenotype 會隨成長改變；normal MRI 也不排除 CP。
+  7. child care / ECE 是 developmental environment，不只是家庭托育安排；structural regulation 不等於 process quality 或 inclusion。
+  8. childhood obesity 不是 willpower 問題；weight stigma 會惡化就醫、mental health 與 participation。
+  9. preterm follow-up 不能因 early imaging normal 就放鬆；language、learning、behavior 等所謂 minor sequelae 仍可能有高功能負擔。
+- index.md 更新：Total pages 155 -> 172
+
+## [2026-04-24] update | wiki_health_check explicit raw-source matching
+- 更新檔案：
+  - 08_工具與Workflow/wiki_health_check.py
+  - 08_工具與Workflow/tests/test_wiki_health_check.py
+- 調整內容：
+  - health check backlog 判定新增讀取來源摘要內 `原始檔` 路徑的邏輯。
+  - 修正作者名摘要檔、匿名數字檔名與原始檔名不一致時的 false positive backlog。
+  - 新增測試覆蓋 Windows-style raw path normalization 與 opaque raw filename matching。
+
+## [2026-04-24] lint | 全知識百科 health check（post-batch-14）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python 08_工具與Workflow/tests/test_wiki_health_check.py` → 6 tests passed
+  - `python 08_工具與Workflow/wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 172
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - contradiction candidates 0
+  - raw_backlog: 124
+  - raw verification queue:
+    1. Developmental Considerations in Deafness/Developmental Considerations in Deafness.md
+    2. Developmental Delay and Intellectual Disability/Developmental Delay and Intellectual Disability.md
+    3. Developmental Surveillance and Screening/Developmental Surveillance and Screening.md
+    4. Developmental and Behavioral Surveillance and Screening/Developmental and Behavioral Surveillance and Screening.md
+    5. Developmental-behavioral surveillance and screening in primary care - UpToDate.md
+
+## [2026-04-24] ingest | Developmental and Behavioral Surveillance and Screening
+- 類型：textbook chapter
+- 來源層級：Tier 1；可信度：high
+- 新建：09_來源摘要/Developmental_and_Behavioral_Surveillance_and_Screening.md
+- 回寫：07_Pediatric_Development/發展監測與篩檢.md、07_Pediatric_Development/小兒復健評估.md
+- 明確標示：surveillance 與 screening 互補，不能互相取代。
+
+## [2026-04-24] ingest | Developmental Considerations in Deafness
+- 類型：textbook chapter
+- 來源層級：Tier 1；可信度：high
+- 新建：09_來源摘要/Developmental_Considerations_in_Deafness.md、07_Pediatric_Development/兒童聽覺障礙與Deafness.md
+- 回寫：03_疾病與臨床主題/感覺障礙復健總論.md、07_Pediatric_Development/小兒復健評估.md
+- 明確標示：通過 newborn hearing screening 不等於排除 later-onset / progressive hearing loss。
+
+## [2026-04-24] ingest | Developmental Delay and Intellectual Disability
+- 類型：textbook chapter
+- 來源層級：Tier 1；可信度：high
+- 新建：09_來源摘要/Developmental_Delay_and_Intellectual_Disability.md、07_Pediatric_Development/發展遲緩與Intellectual_Disability.md
+- 回寫：07_Pediatric_Development/兒童神經學評估.md、07_Pediatric_Development/小兒復健評估.md
+- 明確標示：ID 不能只靠 IQ 定義；regression 也不可被當成 static delay。
+
+## [2026-04-24] ingest | Developmental Surveillance and Screening
+- 類型：textbook chapter
+- 來源層級：Tier 1；可信度：high
+- 新建：09_來源摘要/Developmental_Surveillance_and_Screening.md
+- 回寫：07_Pediatric_Development/發展監測與篩檢.md
+- 明確標示：AAP general developmental screening 與 autism screening 需依節點執行。
+
+## [2026-04-24] ingest | Developmental-behavioral surveillance and screening in primary care
+- 類型：UpToDate
+- 來源層級：Tier 1；可信度：high
+- 新建：09_來源摘要/Developmental_behavioral_surveillance_and_screening_in_primary_care.md
+- 回寫：07_Pediatric_Development/發展監測與篩檢.md、07_Pediatric_Development/晚語兒_Late_Talker.md
+- 明確標示：positive screen 的下一步是 evaluation / referral，不是被動追蹤。
+
+## [2026-04-24] ingest | Early Intervention
+- 類型：textbook chapter
+- 來源層級：Tier 1；可信度：high
+- 新建：09_來源摘要/Early_Intervention.md、07_Pediatric_Development/Early_Intervention_總論.md
+- 回寫：07_Pediatric_Development/發展監測與篩檢.md、07_Pediatric_Development/托育與Early_Care_and_Education.md、07_Pediatric_Development/小兒復健評估.md
+- 明確標示：EI eligibility 門檻不等於臨床重要性。
+
+## [2026-04-24] ingest | Emergent literacy including language development
+- 類型：UpToDate
+- 來源層級：Tier 1；可信度：high
+- 新建：09_來源摘要/Emergent_literacy_including_language_development.md、07_Pediatric_Development/早期語言發展與Emergent_Literacy.md
+- 回寫：07_Pediatric_Development/托育與Early_Care_and_Education.md
+- 明確標示：literacy 從早期語言互動開始，不是入學後才開始。
+
+## [2026-04-24] ingest | Encouraging infant communication and play
+- 類型：網站資料 / caregiver manual
+- 來源層級：Tier 2；可信度：moderate
+- 新建：09_來源摘要/Encouraging_infant_communication_and_play.md
+- 回寫：07_Pediatric_Development/早期語言發展與Emergent_Literacy.md
+- 明確標示：pilot feasibility study，不可當作 consensus-level intervention proof。
+
+## [2026-04-24] ingest | Exertional Leg Pain in Runners
+- 類型：textbook chapter
+- 來源層級：Tier 1；可信度：high
+- 新建：09_來源摘要/Exertional_Leg_Pain_in_Runners.md、03_疾病與臨床主題/跑者運動性下腿痛.md
+- 回寫：06_Gait_Biomechanics/步態評估總論.md、06_Gait_Biomechanics/跑鞋選擇原則.md、06_Gait_Biomechanics/足部解剖與生物力學.md
+- 明確標示：shin pain 不能直接等同 MTSS；需保留 CECS / vascular / neurologic differential。
+
+## [2026-04-24] ingest | Expressive language delay ("late talking") in young children
+- 類型：UpToDate
+- 來源層級：Tier 1；可信度：high
+- 新建：09_來源摘要/Expressive_language_delay_late_talking_in_young_children.md、07_Pediatric_Development/晚語兒_Late_Talker.md
+- 回寫：07_Pediatric_Development/發展監測與篩檢.md、07_Pediatric_Development/小兒復健評估.md
+- 明確標示：`boys talk later`、`雙語所以慢` 都不是延後評估的合理理由。
+
+## [2026-04-24] lint | 全知識百科 health check（post-batch-15）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python 08_工具與Workflow/tests/test_wiki_health_check.py` → 6 tests passed
+  - `python 08_工具與Workflow/wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 189
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - contradiction candidates 0
+  - raw_backlog: 114
+  - raw verification queue:
+    1. Feeding and Swallowing Disorders/Feeding and Swallowing Disorders.md
+    2. Foot biomechanics/Foot biomechanics.md
+    3. Foster Care and Adoption/Foster Care and Adoption.md
+    4. GaesserandPoole_ESSR1996_Theslowcomponentofoxygenuptakekineticsinhumans/GaesserandPoole_ESSR1996_Theslowcomponentofoxygenuptakekineticsinhumans.md
+    5. Hamstring muscle and tendon injuries - UpToDate.md
+
+## [2026-04-24] update | 全知識百科費曼式骨架重構
+- 範圍：189 個 Markdown 知識頁
+- 排除：`index.md`、`log.md`、`SCHEMA.md`、`08_工具與Workflow/health_check_report_latest.md`
+- 動作：統一改寫為「一句話定義 → 核心機制 → 臨床表現 → 評估方式 → 治療原則 → 臨床決策點 → 限制與未定論 → 理解缺口 → 臨床使用版 → 來源 → 相關頁面」
+- 保留：frontmatter、來源摘要連結、相關頁面與既有段落內容
+- 補上：`理解缺口`、`臨床使用版`、`來源` 與 decision-support framing
+- 腳本：`08_工具與Workflow/feynman_restructure.py`
+- 備份：`C:\codex files\backup_knowledge_feynman_20260424\知識百科`
+
+## [2026-04-24] ingest | pediatric developmental stages / parenting / trauma / language / feeding（Batch 16）
+- Batch: 16
+- Selected files（本回合實際讀取 10/10）：
+  1. Feeding and Swallowing Disorders/Feeding and Swallowing Disorders.md
+  2. Foster Care and Adoption/Foster Care and Adoption.md
+  3. Infancy/Infancy.md
+  4. Toddlerhood and the Preschool Years/Toddlerhood and the Preschool Years.md
+  5. Middle Childhood/Middle Childhood.md
+  6. Positive Parenting and Support/Positive Parenting and Support.md
+  7. Trauma, Resilience, and Child Development/Trauma, Resilience, and Child Development.md
+  8. The Influence of Digital Media on Children and Families/The Influence of Digital Media on Children and Families.md
+  9. Language Development and Communication Disorders/Language Development and Communication Disorders.md
+  10. Language and Speech Disorders/Language and Speech Disorders.md
+- 類型與層級：
+  - textbook chapter 10 份：Tier 1，可信度 high
+- 新建來源摘要頁 10：
+  - 09_來源摘要/Feeding_and_Swallowing_Disorders.md
+  - 09_來源摘要/Foster_Care_and_Adoption.md
+  - 09_來源摘要/Infancy.md
+  - 09_來源摘要/Toddlerhood_and_the_Preschool_Years.md
+  - 09_來源摘要/Middle_Childhood.md
+  - 09_來源摘要/Positive_Parenting_and_Support.md
+  - 09_來源摘要/Trauma_Resilience_and_Child_Development.md
+  - 09_來源摘要/The_Influence_of_Digital_Media_on_Children_and_Families.md
+  - 09_來源摘要/Language_Development_and_Communication_Disorders.md
+  - 09_來源摘要/Language_and_Speech_Disorders.md
+- 新建主題頁 9：
+  - 07_Pediatric_Development/兒童餵食與吞嚥障礙.md
+  - 07_Pediatric_Development/寄養_收養與發展行為照護.md
+  - 07_Pediatric_Development/嬰兒期發展.md
+  - 07_Pediatric_Development/幼兒與學齡前期發展.md
+  - 07_Pediatric_Development/學齡期發展.md
+  - 07_Pediatric_Development/正向教養與家庭支持.md
+  - 07_Pediatric_Development/創傷_復原力與兒童發展.md
+  - 07_Pediatric_Development/數位媒體與兒少發展.md
+  - 07_Pediatric_Development/兒童語言發展與Communication_Disorders.md
+- 既有頁更新：
+  - 03_疾病與臨床主題/吞嚥障礙復健總論.md
+  - 07_Pediatric_Development/小兒復健評估.md
+  - 07_Pediatric_Development/托育與Early_Care_and_Education.md
+  - 07_Pediatric_Development/早期語言發展與Emergent_Literacy.md
+  - 07_Pediatric_Development/晚語兒_Late_Talker.md
+  - 07_Pediatric_Development/發展監測與篩檢.md
+- 明確標示的 conflict / caveat：
+  1. feeding disorder 與 dysphagia 不能混用；thickened liquid / IDDSI 不是 physiologic diagnosis。
+  2. foster / adoption status 本身不決定 prognosis；postplacement dysregulation 不應直接當 oppositionality。
+  3. infancy、preschool、school age 都有各自 stage-specific function；不能只用 milestone 或成績單概括。
+  4. discipline 不等於 punishment；parenting advice 若忽略 temperament 與 family context，通常失真。
+  5. ACE score 是 risk signal，不是完整 trauma formulation；resilience 也不是孩子單獨扛住的意思。
+  6. screen media 不能只看 minutes；content、context、parent mediation 與 displaced activity 同樣重要。
+  7. bilingual exposure、`boys talk later`、otitis media 都不是延後 language evaluation 的充分理由。
+- index.md 更新：Total pages 189 -> 208
+- Pending files（下一批待處理）：
+  - Feeding and Swallowing Disorders 之後可承接：Neurodevelopmental and Executive Function and Dysfunction
+  - Sensory Processing Disorders
+  - Sleep and Sleep Disorders in Children
+  - Intellectual Disability
+  - The Influence of Digital Media on Children and Families 相關延伸：How-Early-Experiences-Shape-the-Development-of-Executive-Function
+
+## [2026-04-24] lint | 全知識百科 health check（post-batch-16）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 208
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - contradiction candidates 0
+  - raw_backlog: 90
+  - raw verification queue:
+    1. Foot biomechanics/Foot biomechanics.md
+    2. GaesserandPoole_ESSR1996_Theslowcomponentofoxygenuptakekineticsinhumans/GaesserandPoole_ESSR1996_Theslowcomponentofoxygenuptakekineticsinhumans.md
+    3. Hamstring muscle and tendon injuries - UpToDate.md
+    4. Hip, Pelvis, and Thigh Injuries in Runners/Hip, Pelvis, and Thigh Injuries in Runners.md
+    5. Iliotibial band syndrome - UpToDate.md
+
+## [2026-04-24] update | raw-source path normalization（Gaesser_Poole_1996_VO2_slow_component）
+- 更新檔案：
+  - 09_來源摘要/Gaesser_Poole_1996_VO2_slow_component.md
+- 調整內容：
+  - 將 `原始檔` 從相對樣式 `原始資料/...` 改為完整 Windows path `C:\原始資料\...`
+  - 目的：讓 wiki_health_check.py 的 explicit raw-source matching 正常辨識已整理來源，消除 false positive backlog
+
+## [2026-04-24] ingest | foot biomechanics / runner hip-thigh pain / hamstring / ITBS（Batch 17）
+- Batch: 17
+- Phase 3 raw verification queue resolved 5/5：
+  1. Foot biomechanics/Foot biomechanics.md
+  2. GaesserandPoole_ESSR1996_Theslowcomponentofoxygenuptakekineticsinhumans/GaesserandPoole_ESSR1996_Theslowcomponentofoxygenuptakekineticsinhumans.md
+  3. Hamstring muscle and tendon injuries - UpToDate.md
+  4. Hip, Pelvis, and Thigh Injuries in Runners/Hip, Pelvis, and Thigh Injuries in Runners.md
+  5. Iliotibial band syndrome - UpToDate.md
+- 驗證結果：
+  - 1 件為既有 summary 的 raw-path false positive：Gaesser_Poole_1996_VO2_slow_component
+  - 4 件確認為高價值 Tier 1 backlog，正式 ingest
+- 類型與層級：
+  - Foot biomechanics：textbook chapter，Tier 1，可信度 high
+  - Hamstring muscle and tendon injuries：UpToDate，Tier 1，可信度 high
+  - Hip, Pelvis, and Thigh Injuries in Runners：textbook chapter，Tier 1，可信度 high
+  - Iliotibial band syndrome：UpToDate，Tier 1，可信度 high
+- 新建來源摘要頁 4：
+  - 09_來源摘要/Foot_biomechanics.md
+  - 09_來源摘要/Hamstring_muscle_and_tendon_injuries.md
+  - 09_來源摘要/Hip_Pelvis_and_Thigh_Injuries_in_Runners.md
+  - 09_來源摘要/Iliotibial_band_syndrome.md
+- 新建主題頁 3：
+  - 03_疾病與臨床主題/Hamstring_肌肉與肌腱傷害.md
+  - 03_疾病與臨床主題/Iliotibial_Band_Syndrome.md
+  - 03_疾病與臨床主題/跑者髖骨盆與大腿疼痛.md
+- 既有頁更新：
+  - 06_Gait_Biomechanics/足部解剖與生物力學.md
+  - 06_Gait_Biomechanics/步態評估總論.md
+  - 03_疾病與臨床主題/跑者運動性下腿痛.md
+- 明確標示的 conflict / caveat：
+  1. foot biomechanics 的 midtarsal locking 與 rigid-lever 敘事都屬過度簡化；實際是 multisegment stiffening 與 foot spring。
+  2. hamstring imaging classification 與 return-to-sport timing 不能直接畫等號。
+  3. chronic proximal hamstring pain 不能與 acute sprint strain 混成同一種 injury path。
+  4. runner hip / pelvis / thigh pain 的 pain location 不可靠，必須保留 bone stress injury 與 referred pain differential。
+  5. GTPS 不應預設等同 isolated bursitis；多數更接近 gluteal tendon disorder。
+  6. ITBS 不應再只用 friction theory 理解；imaging 也不是典型個案的 routine first-line confirmation。
+- index.md 更新：Total pages 208 -> 215
+
+## [2026-04-24] lint | 全知識百科 health check（post-batch-17）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python C:\知識百科\08_工具與Workflow\tests\test_wiki_health_check.py` → 6 tests passed
+  - `python C:\知識百科\08_工具與Workflow\wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 215
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - contradiction candidates 0
+  - raw_backlog: 85
+  - raw verification queue:
+    1. Influence of Step Rate on Running Mechanics/Influence of Step Rate on Running Mechanics.md
+    2. Intellectual Disability/Intellectual Disability.md
+    3. Intellectual disability (ID) in children_ Clinical features, evaluation, and diagnosis.md
+    4. Intellectual disability (ID) in children_ Evaluation for a cause.md
+    5. Intellectual disability (ID) in children_ Management, outcomes, and prevention.md
+
+## [2026-04-24] ingest | step rate / intellectual disability（Batch 18）
+- Batch: 18
+- Phase 3 raw verification queue resolved 5/5：
+  1. Influence of Step Rate on Running Mechanics/Influence of Step Rate on Running Mechanics.md
+  2. Intellectual Disability/Intellectual Disability.md
+  3. Intellectual disability (ID) in children_ Clinical features, evaluation, and diagnosis.md
+  4. Intellectual disability (ID) in children_ Evaluation for a cause.md
+  5. Intellectual disability (ID) in children_ Management, outcomes, and prevention.md
+- 類型與層級：
+  - Influence of Step Rate on Running Mechanics：textbook chapter，Tier 1，可信度 high
+  - Intellectual Disability：textbook chapter，Tier 1，可信度 high
+  - Intellectual disability (ID) in children_ Clinical features, evaluation, and diagnosis：UpToDate，Tier 1，可信度 high
+  - Intellectual disability (ID) in children_ Evaluation for a cause：UpToDate，Tier 1，可信度 high
+  - Intellectual disability (ID) in children_ Management, outcomes, and prevention：UpToDate，Tier 1，可信度 high
+- 新建來源摘要頁 5：
+  - 09_來源摘要/Influence_of_Step_Rate_on_Running_Mechanics.md
+  - 09_來源摘要/Intellectual_Disability.md
+  - 09_來源摘要/Intellectual_disability_ID_in_children_Clinical_features_evaluation_and_diagnosis.md
+  - 09_來源摘要/Intellectual_disability_ID_in_children_Evaluation_for_a_cause.md
+  - 09_來源摘要/Intellectual_disability_ID_in_children_Management_outcomes_and_prevention.md
+- 新建主題頁 1：
+  - 06_Gait_Biomechanics/跑步步頻調整.md
+- 既有頁更新：
+  - 07_Pediatric_Development/發展遲緩與Intellectual_Disability.md
+  - 07_Pediatric_Development/發展監測與篩檢.md
+  - 07_Pediatric_Development/小兒復健評估.md
+  - 07_Pediatric_Development/兒童神經學評估.md
+  - 06_Gait_Biomechanics/步態評估總論.md
+  - 03_疾病與臨床主題/Iliotibial_Band_Syndrome.md
+  - 03_疾病與臨床主題/跑者運動性下腿痛.md
+  - 03_疾病與臨床主題/跑者髖骨盆與大腿疼痛.md
+- 明確標示的 conflict / caveat：
+  1. step rate modification 應相對於個人 preferred cadence 設定，不存在 universal `180 spm` target。
+  2. cadence retraining 只有在 speed 固定時，才真正對 stride mechanics 與 loading 產生預期改變。
+  3. 步數增加不等於 cumulative knee load 一定增加；在 selected runner 反而可能下降。
+  4. ID 不可只靠 IQ 診斷與分級；adaptive function 與 support need 才是核心。
+  5. GDD 是 <5 歲 provisional developmental description，不能直接等同 permanent ID。
+  6. regression 不是 stable ID 的自然病程；出現時要擴大 etiologic differential。
+  7. unexplained ID 的病因評估不該停在 routine exam；要保留 phenotype-guided targeted testing 與 broad genetic testing。
+  8. medication 不應取代 behavioral / environmental intervention 作為 challenging behavior 的預設第一步。
+- index.md 更新：Total pages 215 -> 221
+
+## [2026-04-24] lint | 全知識百科 health check（post-batch-18）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python C:\知識百科\08_工具與Workflow\tests\test_wiki_health_check.py` → 6 tests passed
+  - `python C:\知識百科\08_工具與Workflow\wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 221
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - contradiction candidates 0
+  - raw_backlog: 80
+  - oversized pages:
+    1. 07_Pediatric_Development/發展遲緩與Intellectual_Disability.md
+    2. 08_工具與Workflow/知識百科_健康檢查流程.md
+    3. 06_Gait_Biomechanics/步態評估總論.md
+    4. 07_Pediatric_Development/小兒復健評估.md
+    5. 04_CPET/Critical_Power.md
+  - raw verification queue:
+    1. Knee Injuries in Runners/Knee Injuries in Runners.md
+    2. Neurodevelopmental and Executive Function and Dysfunction/Neurodevelopmental and Executive Function and Dysfunction.md
+    3. Patellofemoral pain - UpToDate.md
+    4. Physiological model of CO2 output during incremental exercise/Physiological model of CO2 output during incremental exercise.md
+    5. Polarized vs. Other Training Intensity Distribution Regimens and Endurance Performance/Polarized vs. Other Training Intensity Distribution Regimens and Endurance Performance.md
+
+## [2026-04-24] ingest | runner knee / running gait assessment / executive function / pediatric sleep（Batch 19）
+- Batch: 19
+- Selected files（本回合實際讀取 5/5）：
+  1. Patellofemoral pain - UpToDate.md
+  2. Knee Injuries in Runners/Knee Injuries in Runners.md
+  3. Running Gait Assessment/Running Gait Assessment.md
+  4. Neurodevelopmental and Executive Function and Dysfunction/Neurodevelopmental and Executive Function and Dysfunction.md
+  5. Sleep and Sleep Disorders in Children/Sleep and Sleep Disorders in Children.md
+- 類型與層級：
+  - Patellofemoral pain：UpToDate，Tier 1，可信度 high
+  - Knee Injuries in Runners：textbook chapter，Tier 1，可信度 high
+  - Running Gait Assessment：textbook chapter，Tier 1，可信度 high
+  - Neurodevelopmental and Executive Function and Dysfunction：textbook chapter，Tier 1，可信度 high
+  - Sleep and Sleep Disorders in Children：textbook chapter，Tier 1，可信度 high
+- 新建來源摘要頁 5：
+  - 09_來源摘要/Patellofemoral_pain.md
+  - 09_來源摘要/Knee_Injuries_in_Runners.md
+  - 09_來源摘要/Running_Gait_Assessment.md
+  - 09_來源摘要/Neurodevelopmental_and_Executive_Function_and_Dysfunction.md
+  - 09_來源摘要/Sleep_and_Sleep_Disorders_in_Children.md
+- 新建主題頁 5：
+  - 03_疾病與臨床主題/Patellofemoral_Pain.md
+  - 03_疾病與臨床主題/跑者膝部疼痛.md
+  - 06_Gait_Biomechanics/跑步步態評估.md
+  - 07_Pediatric_Development/Executive_Function_總論.md
+  - 07_Pediatric_Development/兒童睡眠與睡眠障礙總論.md
+- 既有頁更新：
+  - 06_Gait_Biomechanics/步態評估總論.md
+  - 06_Gait_Biomechanics/跑步步頻調整.md
+  - 03_疾病與臨床主題/跑者運動性下腿痛.md
+  - 03_疾病與臨床主題/跑者髖骨盆與大腿疼痛.md
+  - 07_Pediatric_Development/ADHD_睡眠與常見共病.md
+  - 07_Pediatric_Development/幼兒與學齡前期發展.md
+  - 07_Pediatric_Development/學齡期發展.md
+  - 07_Pediatric_Development/小兒復健評估.md
+  - 07_Pediatric_Development/發展監測與篩檢.md
+- 明確標示的 conflict / caveat：
+  1. PFP 是 diagnosis of exclusion；Q angle 與 patellar grind test 不應主導診斷與 treatment。
+  2. runner knee pain 應先做 region-based differential；過用 special test 與 routine imaging 都會失焦。
+  3. running gait analysis 應放在完整 runner evaluation 最後；不存在 universal ideal running form。
+  4. cadence / foot strike / cue selection 都必須放在固定速度與症狀情境下解讀。
+  5. EF 是 neurodevelopmental function，不可直接等同 ADHD。
+  6. medication 可能處理部分 attention-related symptom，但不能當成完整 EF intervention。
+  7. pediatric sleep problem 需先做完整 sleep history；teen delayed sleep 不應被當成無害常態。
+  8. PSG 與 melatonin 都有明確角色邊界，不能拿來處理所有 pediatric sleep complaint。
+- index.md 更新：Total pages 221 -> 231
+
+## [2026-04-24] lint | 全知識百科 health check（post-batch-19）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python C:\知識百科\08_工具與Workflow\tests\test_wiki_health_check.py` → 6 tests passed
+  - `python C:\知識百科\08_工具與Workflow\wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 231
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - contradiction candidates 0
+  - raw_backlog: 75
+  - oversized pages:
+    1. 07_Pediatric_Development/發展遲緩與Intellectual_Disability.md
+    2. 08_工具與Workflow/知識百科_健康檢查流程.md
+    3. 07_Pediatric_Development/小兒復健評估.md
+    4. 06_Gait_Biomechanics/步態評估總論.md
+    5. 04_CPET/Critical_Power.md
+  - raw verification queue:
+    1. Physiological model of CO2 output during incremental exercise/Physiological model of CO2 output during incremental exercise.md
+    2. Polarized vs. Other Training Intensity Distribution Regimens and Endurance Performance/Polarized vs. Other Training Intensity Distribution Regimens and Endurance Performance.md
+    3. Quadriceps muscle and tendon injuries - UpToDate.md
+    4. Rehabilitation Principles of the Injured Runner/Rehabilitation Principles of the Injured Runner.md
+    5. Running injuries of the lower extremities in adults_ Patient evaluation and common conditions - UpToDate.md
+
+## [2026-04-24] ingest | injured runner evaluation / rehabilitation / quadriceps / CO2 model（Batch 20）
+- Batch: 20
+- Selected files（本回合實際讀取 5/5）：
+  1. Rehabilitation Principles of the Injured Runner/Rehabilitation Principles of the Injured Runner.md
+  2. Running injuries of the lower extremities in adults_ Patient evaluation and common conditions - UpToDate.md
+  3. Quadriceps muscle and tendon injuries - UpToDate.md
+  4. Physiological model of CO2 output during incremental exercise/Physiological model of CO2 output during incremental exercise.md
+  5. Polarized vs. Other Training Intensity Distribution Regimens and Endurance Performance/Polarized vs. Other Training Intensity Distribution Regimens and Endurance Performance.md
+- 類型與層級：
+  - Rehabilitation Principles of the Injured Runner：textbook chapter，Tier 1，可信度 high
+  - Running injuries of the lower extremities in adults: Patient evaluation and common conditions：UpToDate，Tier 1，可信度 high
+  - Quadriceps muscle and tendon injuries：UpToDate，Tier 1，可信度 high
+  - Physiological model of CO2 output during incremental exercise：original article，Tier 3，可信度 medium
+  - Polarized vs. Other Training Intensity Distribution Regimens and Endurance Performance：已存在來源摘要；本回合完成 raw path normalization，移除 raw backlog false positive
+- 新建來源摘要頁 4：
+  - 09_來源摘要/Rehabilitation_Principles_of_the_Injured_Runner.md
+  - 09_來源摘要/Running_injuries_of_the_lower_extremities_in_adults_Patient_evaluation_and_common_conditions.md
+  - 09_來源摘要/Quadriceps_muscle_and_tendon_injuries.md
+  - 09_來源摘要/Physiological_model_of_CO2_output_during_incremental_exercise.md
+- 新建主題頁 3：
+  - 03_疾病與臨床主題/受傷跑者復健原則.md
+  - 03_疾病與臨床主題/跑者下肢傷害評估總論.md
+  - 03_疾病與臨床主題/Quadriceps_肌肉與肌腱傷害.md
+- 既有頁更新：
+  - 03_疾病與臨床主題/Patellofemoral_Pain.md
+  - 03_疾病與臨床主題/跑者膝部疼痛.md
+  - 03_疾病與臨床主題/跑者運動性下腿痛.md
+  - 03_疾病與臨床主題/跑者髖骨盆與大腿疼痛.md
+  - 06_Gait_Biomechanics/跑步步態評估.md
+  - 06_Gait_Biomechanics/跑步步頻調整.md
+  - 04_CPET/V_Slope_Method.md
+  - 04_CPET/Gas_Exchange_Threshold.md
+  - 09_來源摘要/Oliveira_2024_polarized_training_meta_analysis.md
+- 明確標示的 conflict / caveat：
+  1. injured runner rehab 不應簡化成 pain-free rest；capacity restoration 與 load redistribution 需並行。
+  2. gait retraining 是工具，不是萬用替代；cadence、10% rule、ACWR 都應降階為 heuristic。
+  3. injured runner evaluation 應從 history、whole-chain exam 與 selective imaging 出發，而不是 routine MRI。
+  4. quadriceps complaint 需分 strain、contusion、tendinopathy 與 extensor mechanism failure；complete rupture 為 referral problem。
+  5. Yano 1997 屬 historical Tier 3 mechanistic model，可補充 GET / V-slope 理解，但不取代既有主框架。
+  6. Oliveira 2024 本輪未新增結論，只修正來源摘要 raw path，排除 false positive backlog。
+- index.md 更新：Total pages 231 -> 238
+
+## [2026-04-24] lint | 全知識百科 health check（post-batch-20）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python C:\知識百科\08_工具與Workflow\tests\test_wiki_health_check.py` → 6 tests passed
+  - `python C:\知識百科\08_工具與Workflow\wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 238
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - contradiction candidates 0
+  - raw_backlog: 70
+  - oversized pages:
+    1. 07_Pediatric_Development/發展遲緩與Intellectual_Disability.md
+    2. 08_工具與Workflow/知識百科_健康檢查流程.md
+    3. 07_Pediatric_Development/小兒復健評估.md
+    4. 06_Gait_Biomechanics/步態評估總論.md
+    5. 04_CPET/Critical_Power.md
+  - raw verification queue:
+    1. Running injuries of the lower extremities in adults_ Risk factors and prevention - UpToDate.md
+    2. Sensory Processing Disorders/Sensory Processing Disorders.md
+    3. Speech and language impairment in children_ Etiology - UpToDate.md
+    4. Speech and language impairment in children_ Evaluation, treatment, and prognosis - UpToDate.md
+    5. Sreedhara et al. Sports Medicine- Open/Sreedhara et al. Sports Medicine- Open.md
+
+## [2026-04-25] ingest | pediatric speech / sensory processing / executive function / developmental report workflow（Batch 21）
+- Batch: 21
+- Selected files（10/10）：
+  1. Sensory Processing Disorders
+  2. Speech and language impairment in children: Etiology
+  3. Speech and language impairment in children: Evaluation, treatment, and prognosis
+  4. Cognitive Control
+  5. Smart but Scattered
+  6. How Early Experiences Shape the Development of Executive Function
+  7. Enhancing and Practicing Executive Function Skills with Children from Infancy to Adolescence
+  8. HCDC Building Adolescent Core Life Skills
+  9. 教孩子跟情緒做朋友
+  10. 兒童發展聯合評估綜合報告書操作手冊（111年7月版）
+- 類型 / 層級 / 可信度：
+  - Sensory Processing Disorders：textbook chapter，Tier 1，可信度 medium
+  - Speech and language impairment in children: Etiology：UpToDate，Tier 1，可信度 high
+  - Speech and language impairment in children: Evaluation, treatment, and prognosis：UpToDate，Tier 1，可信度 high
+  - Cognitive Control：review article，Tier 1，可信度 high
+  - Smart but Scattered：科普書，Tier 2，可信度 medium
+  - How Early Experiences Shape the Development of Executive Function：網站資料，Tier 2，可信度 medium
+  - Enhancing and Practicing Executive Function Skills with Children from Infancy to Adolescence：網站資料，Tier 2，可信度 medium
+  - HCDC Building Adolescent Core Life Skills：網站資料，Tier 2，可信度 medium
+  - 教孩子跟情緒做朋友：科普書，Tier 2，可信度 medium
+  - 兒童發展聯合評估綜合報告書操作手冊（111年7月版）：官方手冊 / 網站資料，Tier 2，可信度 medium
+- 新建來源摘要頁 10：
+  - 09_來源摘要/Sensory_Processing_Disorders.md
+  - 09_來源摘要/Speech_and_language_impairment_in_children_Etiology.md
+  - 09_來源摘要/Speech_and_language_impairment_in_children_Evaluation_treatment_and_prognosis.md
+  - 09_來源摘要/Cognitive_Control.md
+  - 09_來源摘要/Smart_but_Scattered.md
+  - 09_來源摘要/How_Early_Experiences_Shape_the_Development_of_Executive_Function.md
+  - 09_來源摘要/Enhancing_and_Practicing_Executive_Function_Skills_with_Children_from_Infancy_to_Adolescence.md
+  - 09_來源摘要/HCDC_BuildingAdolescentCoreLifeSkills.md
+  - 09_來源摘要/教孩子跟情緒做朋友.md
+  - 09_來源摘要/兒童發展聯合評估綜合報告書操作手冊_111年7月版.md
+- 新建主題 / workflow 頁 3：
+  - 07_Pediatric_Development/兒童感覺處理問題與SPD.md
+  - 07_Pediatric_Development/Executive_Function_支持策略.md
+  - 08_工具與Workflow/兒童發展聯評綜合報告骨架.md
+- 更新既有頁面：
+  - 07_Pediatric_Development/兒童語言發展與Communication_Disorders.md
+  - 07_Pediatric_Development/晚語兒_Late_Talker.md
+  - 07_Pediatric_Development/發展監測與篩檢.md
+  - 07_Pediatric_Development/小兒復健評估.md
+  - 07_Pediatric_Development/Executive_Function_總論.md
+  - 07_Pediatric_Development/正向教養與家庭支持.md
+  - index.md
+  - log.md
+- 明確標示的 conflict / caveat：
+  1. speech / language impairment 是 presentation，不是單一 diagnosis；formal audiology 不能省。
+  2. bilingual exposure 不可當延後評估理由；dominant-language assessment 很重要。
+  3. SPD 的 participation framing 可用，但不能把所有 behavior / language complaint 都當 sensory problem。
+  4. sensory-based intervention 證據有條件，不能外推成所有 neurodevelopmental complaint 的標準主軸。
+  5. EF 與 cognitive control 相關但不完全同義；practical scaffolding 不能取代 formal evaluation。
+  6. Smart but Scattered / 教孩子跟情緒做朋友 屬 caregiver-facing Tier 2 資料，可補教學與 coaching，不可當成 consensus treatment guideline。
+  7. 聯評 manual 是 reporting / coordination framework，不等於 diagnostic truth 或 treatment efficacy evidence。
+- index.md 更新：Total pages 238 -> 251
+- 下一批待處理：
+  - Running injuries of the lower extremities in adults_ Risk factors and prevention - UpToDate.md
+  - Sreedhara et al. Sports Medicine- Open/Sreedhara et al. Sports Medicine- Open.md
+  - HCDC_BuildingCoreLifeSkills/HCDC_BuildingCoreLifeSkills.md
+
+## [2026-04-25] ingest | running injury prevention / OA / footwear / W'BAL（Batch 22）
+- Batch: 22
+- Selected files（10/10）：
+  1. Running injuries of the lower extremities in adults: Risk factors and prevention
+  2. A Survey of Mathematical Models of Human Performance Using Power and Energy
+  3. Accuracy of W' Recovery Kinetics in High Performance Cyclists – Modelling Intermittent Work Capacity
+  4. Osteoarthritis and Running
+  5. Ankle and Foot Injuries in Runners
+  6. Shoes and Shoe Modifications
+  7. The Interaction of Foot Strike and Footwear in Runners
+  8. The W' Balance Model: Mathematical and Methodological Considerations
+  9. Modeling the Recovery of W' in the Moderate to Heavy Exercise Intensity Domain
+  10. Time Trials versus Time to Exhaustion Tests: Effects on Critical Power, W' and Oxygen Uptake Kinetics
+- 類型 / 層級 / 可信度：
+  - Running injuries of the lower extremities in adults: Risk factors and prevention：UpToDate，Tier 1，可信度 high
+  - A Survey of Mathematical Models of Human Performance Using Power and Energy：review article，Tier 1，可信度 high
+  - Accuracy of W' Recovery Kinetics in High Performance Cyclists – Modelling Intermittent Work Capacity：original article，Tier 3，可信度 medium
+  - Osteoarthritis and Running：textbook chapter，Tier 1，可信度 high
+  - Ankle and Foot Injuries in Runners：textbook chapter，Tier 1，可信度 high
+  - Shoes and Shoe Modifications：textbook chapter，Tier 1，可信度 high
+  - The Interaction of Foot Strike and Footwear in Runners：textbook chapter / focused review，Tier 1，可信度 medium
+  - The W' Balance Model: Mathematical and Methodological Considerations：review article，Tier 1，可信度 high
+  - Modeling the Recovery of W' in the Moderate to Heavy Exercise Intensity Domain：original article，Tier 3，可信度 medium
+  - Time Trials versus Time to Exhaustion Tests: Effects on Critical Power, W' and Oxygen Uptake Kinetics：original article，Tier 3，可信度 medium
+- duplicate / raw-path housekeeping 2：
+  - 09_來源摘要/Goulding_2021_VO2_kinetics_exercise_tolerance.md：將原始檔正規化為 `C:\原始資料\Bioenergetic Mechanisms Linking V̇O2 Kinetics and Exercise Tolerance\...`
+  - 09_來源摘要/Jones_Vanhatalo_2017_critical_power_concept.md：保留 `The Critical Power Concept` raw path，並新增 duplicate raw source `C:\原始資料\CP in HIIT\CP in HIIT.md`
+- 新建來源摘要頁 10：
+  - 09_來源摘要/Running_injuries_of_the_lower_extremities_in_adults_Risk_factors_and_prevention.md
+  - 09_來源摘要/Sreedhara_2019_power_energy_models.md
+  - 09_來源摘要/Bartram_2018_Wprime_recovery_elite_cyclists.md
+  - 09_來源摘要/Osteoarthritis_and_Running.md
+  - 09_來源摘要/Ankle_and_Foot_Injuries_in_Runners.md
+  - 09_來源摘要/Shoes_and_shoe_modifications.md
+  - 09_來源摘要/The_Interaction_of_Foot_Strike_and_Footwear_in_Runners.md
+  - 09_來源摘要/Skiba_Clarke_Wprime_balance_model.md
+  - 09_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery.md
+  - 09_來源摘要/Karsten_2017_TT_vs_TTE_CP_Wprime.md
+- 新建主題頁 4：
+  - 03_疾病與臨床主題/跑步傷害風險因子與預防.md
+  - 03_疾病與臨床主題/跑步與Osteoarthritis.md
+  - 04_CPET/Wprime_Balance_Model.md
+  - 06_Gait_Biomechanics/治療性鞋具與鞋修改.md
+- 既有頁更新：
+  - 03_疾病與臨床主題/跑者下肢傷害評估總論.md
+  - 03_疾病與臨床主題/受傷跑者復健原則.md
+  - 03_疾病與臨床主題/足部疼痛分區評估.md
+  - 06_Gait_Biomechanics/跑鞋選擇原則.md
+  - 06_Gait_Biomechanics/跑步步態評估.md
+  - 06_Gait_Biomechanics/步態評估總論.md
+  - 06_Gait_Biomechanics/下肢矯具總論.md
+  - 04_CPET/Critical_Power.md
+  - 04_CPET/Training_Prescription_by_CP.md
+  - 04_CPET/CP_Test_Reliability.md
+  - 04_CPET/VO2_Kinetics.md
+  - 04_CPET/VO2_Slow_Component.md
+  - index.md
+  - log.md
+- 明確標示的 conflict / caveat：
+  1. shoe-by-foot-type matching、10% rule、isolated stretching 與 routine foot-strike change 都不能當成 injury-prevention default。
+  2. moderate-dose running 不應被直接等同 hip / knee OA 惡化；真正要先看的是 prior injury、obesity、symptom response 與 running dose。
+  3. FFS / minimal footwear 可作 selected load-redistribution tool，但 transition 過快時會把負荷轉向 Achilles、calf、plantar 與 metatarsals。
+  4. therapeutic footwear 重點是 fit、last、volume 與 condition-specific modification；extra-depth / custom molded 不是所有 foot complaint 的預設答案。
+  5. W'BAL 是 assumption-sensitive model，不是直接量到的 physiologic tank；integral / differential / athlete-specific forms 不能混用。
+  6. elite cyclists 與 competitive cyclists 的 W' recovery 研究方向一致指出：group-derived tau 不應被當成 universal physiology，但 individual equation 也不能直接外推。
+  7. TT-derived CP 可接近 TTE-derived CP，但 W' 不可直接當成可互換輸出。
+- index.md 更新：Total pages 251 -> 265
+- 下一批待處理：
+  - Chidnoketal.AJP2013/Chidnoketal.AJP2013.md
+  - Exercise/Exercise.md
+  - HCDC_BuildingCoreLifeSkills/HCDC_BuildingCoreLifeSkills.md
+
+## [2026-04-25] lint | 全知識百科 health check（post-batch-22）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python C:\知識百科\08_工具與Workflow\wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 265
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - stale candidates 0
+  - contradiction candidates 0
+  - raw_backlog: 44
+  - raw verification queue:
+    1. Chidnoketal.AJP2013/Chidnoketal.AJP2013.md
+    2. Exercise/Exercise.md
+    3. HCDC_BuildingCoreLifeSkills/HCDC_BuildingCoreLifeSkills.md
+    4. HargreavesSpriet-2020-Nature_Metabolism/HargreavesSpriet-2020-Nature_Metabolism.md
+    5. Journal of Sports Medicine - 2016 - Beltz - Graded Exercise Testing Protocols for the Determination of VO2max  Historical (1)/Journal of Sports Medicine - 2016 - Beltz - Graded Exercise Testing Protocols for the Determination of VO2max  Historical (1).md
+
+## [2026-04-25] ingest | CP intermittent metabolism / exercise physiology overview / adult core life skills（Batch 23）
+- Batch: 23
+- Candidate ranking（承接 post-batch-22 raw verification queue，依來源優先級 + 主題相關性 + backlog impact 排序）：
+  1. Exercise/Exercise.md
+  2. HargreavesSpriet-2020-Nature_Metabolism/HargreavesSpriet-2020-Nature_Metabolism.md
+  3. Journal of Sports Medicine - 2016 - Beltz - Graded Exercise Testing Protocols for the Determination of VO2max  Historical (1)/Journal of Sports Medicine - 2016 - Beltz - Graded Exercise Testing Protocols for the Determination of VO2max  Historical (1).md
+  4. Chidnoketal.AJP2013/Chidnoketal.AJP2013.md
+  5. HCDC_BuildingCoreLifeSkills/HCDC_BuildingCoreLifeSkills.md
+- Selected files（本回合實際讀取 5/5）：
+  1. Exercise/Exercise.md
+  2. HargreavesSpriet-2020-Nature_Metabolism/HargreavesSpriet-2020-Nature_Metabolism.md
+  3. Journal of Sports Medicine - 2016 - Beltz - Graded Exercise Testing Protocols for the Determination of VO2max  Historical (1)/Journal of Sports Medicine - 2016 - Beltz - Graded Exercise Testing Protocols for the Determination of VO2max  Historical (1).md
+  4. Chidnoketal.AJP2013/Chidnoketal.AJP2013.md
+  5. HCDC_BuildingCoreLifeSkills/HCDC_BuildingCoreLifeSkills.md
+- 類型 / 層級 / 可信度：
+  - Exercise：textbook chapter，Tier 1，可信度 medium
+  - HargreavesSpriet-2020-Nature_Metabolism：review article，Tier 1，可信度 high（duplicate/raw-path verification）
+  - Beltz 2016 GXT protocols：review article，Tier 1，可信度 high（duplicate/raw-path verification）
+  - Chidnok et al. 2013：original article，Tier 3，可信度 medium
+  - HCDC Building the Skills Adults Need for Life：網站資料 / practitioner guide，Tier 2，可信度 medium
+- 新建來源摘要頁 3：
+  - 09_來源摘要/Exercise_textbook_chapter.md
+  - 09_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP.md
+  - 09_來源摘要/HCDC_BuildingCoreLifeSkills.md
+- 新建主題頁 1：
+  - 05_Exercise_Physiology/運動時氧輸送與換氣.md
+- 既有頁更新：
+  - 04_CPET/Wprime_Balance_Model.md
+  - 04_CPET/Critical_Power.md
+  - 04_CPET/Training_Prescription_by_CP.md
+  - 02_方法學/復健心理社會評估與介入.md
+  - 02_方法學/治療性運動處方.md
+  - index.md
+- duplicate / raw-path verification：
+  - 09_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism.md：確認現有摘要已對應 `HargreavesSpriet-2020-Nature_Metabolism` raw file，本回合不新增結論。
+  - 09_來源摘要/Beltz_2016_GXT_protocols.md：確認現有摘要已對應 Hindawi GXT review raw file，本回合不新增結論。
+- 明確標示的 conflict / caveat：
+  1. intermittent exercise 中的 `W'>CP` 可超過 constant-load `W'`；但這不代表 `W'` 等於單一 PCr tank。
+  2. `Exercise` textbook chapter 的 `anaerobic threshold` / `oxygen debt` 屬 legacy teaching label，不取代現代 LT/GET/CP 框架。
+  3. exercise limitation 不能被簡化成 lungs-only problem；oxygen delivery、extraction、ventilation 與 symptom perception 需一起看。
+  4. adult follow-through failure 不能直接等同 low motivation；stress overload、self-regulatory burden 與 service friction 都可能是主因。
+- index.md 更新：Total pages 265 -> 269
+- 下一批待處理（暫列 health check queue；仍需下回合重新排序）：
+  - La prediction from excess CO2/La prediction from excess CO2.md
+  - README.md
+  - The Journal of Physiology - 2020 - Poole - The anaerobic threshold  50  years of controversy/The Journal of Physiology - 2020 - Poole - The anaerobic threshold  50  years of controversy.md
+  - blemker-et-al-2023-fiber-type-traps-revisiting-common-misconceptions-about-skeletal-muscle-fiber-types-with-application/blemker-et-al-2023-fiber-type-traps-revisiting-common-misconceptions-about-skeletal-muscle-fiber-types-with-application.md
+  - bnaa016/bnaa016.md
+
+## [2026-04-25] update | wiki_health_check raw path normalization
+- 調整 08_工具與Workflow/wiki_health_check.py：
+  - `normalize_raw_reference()` 現在除 absolute raw path 外，也接受既有 wiki 常用的 `原始資料/...` 相對寫法。
+- 更新測試：08_工具與Workflow/tests/test_wiki_health_check.py
+  - 新增 relative raw-path normalization case
+  - 將 explicit raw-source backlog 測試改為模擬真實 `原始資料` 目錄名
+- 影響：
+  - Hargreaves / Beltz 等既有來源摘要不再被誤判為 raw backlog
+  - 後續 health check 對舊頁面 raw-path notation 的容忍度提高
+
+## [2026-04-25] lint | 全知識百科 health check（post-batch-23）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python C:\知識百科\08_工具與Workflow\tests\test_wiki_health_check.py` → 6 tests passed
+  - `python C:\知識百科\08_工具與Workflow\wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 269
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - stale candidates 0
+  - contradiction candidates 0
+  - raw_backlog: 36（44 -> 36）
+  - raw verification queue:
+    1. La prediction from excess CO2/La prediction from excess CO2.md
+    2. README.md
+    3. The Journal of Physiology - 2020 - Poole - The anaerobic threshold  50  years of controversy/The Journal of Physiology - 2020 - Poole - The anaerobic threshold  50  years of controversy.md
+    4. blemker-et-al-2023-fiber-type-traps-revisiting-common-misconceptions-about-skeletal-muscle-fiber-types-with-application/blemker-et-al-2023-fiber-type-traps-revisiting-common-misconceptions-about-skeletal-muscle-fiber-types-with-application.md
+    5. bnaa016/bnaa016.md
+
+## [2026-04-25] ingest | excess CO2 historical model / myokines muscle-organ crosstalk（Batch 24）
+- Batch: 24
+- 使用者要求：再處理 7 份；依 schema，本回合實際只讀取 5/5 raw files，其餘待下批。
+- Candidate ranking（承接 post-batch-23 raw verification queue，依來源優先級 + 主題相關性 + backlog impact 排序）：
+  1. La prediction from excess CO2/La prediction from excess CO2.md
+  2. README.md
+  3. The Journal of Physiology - 2020 - Poole - The anaerobic threshold  50  years of controversy/The Journal of Physiology - 2020 - Poole - The anaerobic threshold  50  years of controversy.md
+  4. blemker-et-al-2023-fiber-type-traps-revisiting-common-misconceptions-about-skeletal-muscle-fiber-types-with-application/blemker-et-al-2023-fiber-type-traps-revisiting-common-misconceptions-about-skeletal-muscle-fiber-types-with-application.md
+  5. bnaa016/bnaa016.md
+- Selected files（本回合實際讀取 5/5）：
+  1. La prediction from excess CO2/La prediction from excess CO2.md
+  2. README.md
+  3. The Journal of Physiology - 2020 - Poole - The anaerobic threshold  50  years of controversy/The Journal of Physiology - 2020 - Poole - The anaerobic threshold  50  years of controversy.md
+  4. blemker-et-al-2023-fiber-type-traps-revisiting-common-misconceptions-about-skeletal-muscle-fiber-types-with-application/blemker-et-al-2023-fiber-type-traps-revisiting-common-misconceptions-about-skeletal-muscle-fiber-types-with-application.md
+  5. bnaa016/bnaa016.md
+- 類型 / 層級 / 可信度：
+  - La prediction from excess CO2：original article，Tier 3，可信度 medium
+  - README.md：raw-root instruction file，非醫學來源，不納入 ingest evidence
+  - Poole 2020 controversy duplicate raw .md：review article，Tier 1，可信度 high（duplicate/raw-path verification）
+  - Blemker 2023 fiber type traps duplicate raw .md：review article，Tier 1，可信度 high（duplicate/raw-path verification）
+  - bnaa016：review article，Tier 1，可信度 high
+- 新建來源摘要頁 2：
+  - 09_來源摘要/Hirakoba_1996_excess_CO2_lactate_prediction.md
+  - 09_來源摘要/Severinsen_Pedersen_2020_myokines_muscle_organ_crosstalk.md
+- 新建主題頁 1：
+  - 05_Exercise_Physiology/Myokines_與_Muscle_Organ_Crosstalk.md
+- 既有頁更新：
+  - 04_CPET/Gas_Exchange_Threshold.md
+  - 04_CPET/V_Slope_Method.md
+  - 05_Exercise_Physiology/Skeletal_Muscle_Energy_Metabolism.md
+  - 02_方法學/治療性運動處方.md
+  - 09_來源摘要/Poole_2020_anaerobic_threshold.md
+  - 09_來源摘要/Blemker_2023_fiber_type_traps.md
+  - index.md
+- duplicate / raw-path verification：
+  - Poole 2020 duplicate raw `.md` 已補登到既有來源摘要，不新增主結論。
+  - Blemker 2023 duplicate raw `.md` 已用實際 raw path 取代縮寫占位寫法，不新增主結論。
+- 明確標示的 conflict / caveat：
+  1. excess CO2 可作歷史性 lactate-buffering 教學模型，但不取代現代 GET / LT operational framework。
+  2. myokines 不是單一 magic molecule；IL-6 的 human evidence 最強，其餘多數仍屬 emerging / preclinical evidence。
+  3. skeletal muscle 的 systemic effect 可作 rehab / exercise physiology 框架補充，但不能直接把單篇或單路徑外推成臨床共識。
+- index.md 更新：Total pages 269 -> 272
+- 下一批待處理（依 post-batch-24 health check queue 重新排序）：
+  - bnaa024/bnaa024.md
+  - ijspp-article-p1561 (1)/ijspp-article-p1561 (1).md
+  - kinetics of excess VCO2/kinetics of excess VCO2.md
+  - korzeniewski-zoladz-2013-slow-v̇o2-off-kinetics-in-skeletal-muscle-is-associated-with-fast-pcr-off-kinetics-and/korzeniewski-zoladz-2013-slow-v̇o2-off-kinetics-in-skeletal-muscle-is-associated-with-fast-pcr-off-kinetics-and.md
+  - korzeniewski-zoladz-2015-possible-mechanisms-underlying-slow-component-of-v̇o2-on-kinetics-in-skeletal-muscle/korzeniewski-zoladz-2015-possible-mechanisms-underlying-slow-component-of-v̇o2-on-kinetics-in-skeletal-muscle.md
+
+## [2026-04-25] update | raw backlog cleanup（README skip + duplicate raw-path registration）
+- 調整 08_工具與Workflow/wiki_health_check.py：
+  - raw-root `README.md` 視為資料夾說明檔，不列入 raw backlog。
+- 更新測試：08_工具與Workflow/tests/test_wiki_health_check.py
+  - 新增 raw-root `README.md` exclusion case。
+- 來源摘要 raw-path cleanup：
+  - 09_來源摘要/Poole_2020_anaerobic_threshold.md：補登 duplicate raw `.md` path。
+  - 09_來源摘要/Blemker_2023_fiber_type_traps.md：改用實際 raw `.md` path。
+- 影響：
+  - raw backlog 不再把非來源 README 當候選。
+  - duplicate raw files 改由既有來源摘要顯式吸收，減少重複 backlog。
+
+## [2026-04-25] lint | 全知識百科 health check（post-batch-24）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python C:\知識百科\08_工具與Workflow\tests\test_wiki_health_check.py` → 6 tests passed
+  - `python C:\知識百科\08_工具與Workflow\wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 272
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - stale candidates 0
+  - contradiction candidates 0
+  - raw_backlog: 31（36 -> 31）
+  - raw verification queue:
+    1. bnaa024/bnaa024.md
+    2. ijspp-article-p1561 (1)/ijspp-article-p1561 (1).md
+    3. kinetics of excess VCO2/kinetics of excess VCO2.md
+    4. korzeniewski-zoladz-2013-slow-v̇o2-off-kinetics-in-skeletal-muscle-is-associated-with-fast-pcr-off-kinetics-and/korzeniewski-zoladz-2013-slow-v̇o2-off-kinetics-in-skeletal-muscle-is-associated-with-fast-pcr-off-kinetics-and.md
+    5. korzeniewski-zoladz-2015-possible-mechanisms-underlying-slow-component-of-v̇o2-on-kinetics-in-skeletal-muscle/korzeniewski-zoladz-2015-possible-mechanisms-underlying-slow-component-of-v̇o2-on-kinetics-in-skeletal-muscle.md
+
+## [2026-04-25] ingest | W'BAL duplicate cleanup / excess CO2 kinetics / VO2-PCr recovery / VO2 slow component（Batch 25）
+- Batch: 25
+- 使用者要求：全部做完；依 schema，單一回合仍只可讀取 5 份 raw files，因此本回合實際讀取 5/5，剩餘 backlog 留待下批。
+- Candidate ranking（承接 post-batch-24 raw verification queue，依來源優先級 + 主題相關性 + backlog impact 排序）：
+  1. bnaa024/bnaa024.md
+  2. ijspp-article-p1561 (1)/ijspp-article-p1561 (1).md
+  3. kinetics of excess VCO2/kinetics of excess VCO2.md
+  4. korzeniewski-zoladz-2013-slow-v̇o2-off-kinetics-in-skeletal-muscle-is-associated-with-fast-pcr-off-kinetics-and/korzeniewski-zoladz-2013-slow-v̇o2-off-kinetics-in-skeletal-muscle-is-associated-with-fast-pcr-off-kinetics-and.md
+  5. korzeniewski-zoladz-2015-possible-mechanisms-underlying-slow-component-of-v̇o2-on-kinetics-in-skeletal-muscle/korzeniewski-zoladz-2015-possible-mechanisms-underlying-slow-component-of-v̇o2-on-kinetics-in-skeletal-muscle.md
+- Selected files（本回合實際讀取 5/5）：
+  1. bnaa024/bnaa024.md
+  2. ijspp-article-p1561 (1)/ijspp-article-p1561 (1).md
+  3. kinetics of excess VCO2/kinetics of excess VCO2.md
+  4. korzeniewski-zoladz-2013-slow-v̇o2-off-kinetics-in-skeletal-muscle-is-associated-with-fast-pcr-off-kinetics-and/korzeniewski-zoladz-2013-slow-v̇o2-off-kinetics-in-skeletal-muscle-is-associated-with-fast-pcr-off-kinetics-and.md
+  5. korzeniewski-zoladz-2015-possible-mechanisms-underlying-slow-component-of-v̇o2-on-kinetics-in-skeletal-muscle/korzeniewski-zoladz-2015-possible-mechanisms-underlying-slow-component-of-v̇o2-on-kinetics-in-skeletal-muscle.md
+- 類型 / 層級 / 可信度：
+  - bnaa024：corrigendum to review article，Tier 1，可信度 high
+  - ijspp-article-p1561 (1)：review article duplicate raw .md，Tier 1，可信度 high
+  - kinetics of excess VCO2：original article，Tier 3，可信度 medium
+  - Korzeniewski & Zoladz 2013：original article / theoretical model，Tier 3，可信度 medium
+  - Korzeniewski & Zoladz 2015：original article / theoretical model，Tier 3，可信度 medium
+- 新建來源摘要頁 3：
+  - 09_來源摘要/Yunoki_1999_excess_CO2_kinetics.md
+  - 09_來源摘要/Korzeniewski_Zoladz_2013_VO2_off_PCr_off_kinetics.md
+  - 09_來源摘要/Korzeniewski_Zoladz_2015_VO2_slow_component_mechanisms.md
+- 既有頁更新：
+  - 09_來源摘要/Severinsen_Pedersen_2020_myokines_muscle_organ_crosstalk.md
+  - 05_Exercise_Physiology/Myokines_與_Muscle_Organ_Crosstalk.md
+  - 09_來源摘要/Skiba_Clarke_Wprime_balance_model.md
+  - 04_CPET/Gas_Exchange_Threshold.md
+  - 04_CPET/V_Slope_Method.md
+  - 04_CPET/Anaerobic_Threshold_概念史.md
+  - 04_CPET/VO2_Kinetics.md
+  - 04_CPET/VO2_Slow_Component.md
+  - 05_Exercise_Physiology/PCr_Resynthesis.md
+  - index.md
+- duplicate / corrigendum handling：
+  - bnaa024 未另建新頁，改併入 `Severinsen_Pedersen_2020_myokines_muscle_organ_crosstalk.md`，明記 corrigendum：IL-6 應為 inhibits appetite。
+  - ijspp duplicate raw `.md` 已補登至 `Skiba_Clarke_Wprime_balance_model.md`，不新增主結論。
+- 明確標示的 conflict / caveat：
+  1. excess CO2 / excess VCO2 與 lactate 有關，但其 kinetics 可延後且受 CO2 stores / hyperventilation 影響，不能當成即時 lactate readout。
+  2. VO2 off-kinetics 與 PCr recovery 不必然同步；理論模型顯示兩者可呈 inverse relation，因此 pulmonary recovery signal 不可直接當 muscle recovery 真值。
+  3. VO2 slow component 不能被單一路徑解釋；glycolysis inhibition 與 rising ATP cost 是 limited-evidence mechanistic supplement，不取代 Tier 1 field consensus。
+- index.md 更新：Total pages 272 -> 275
+- 下一批待處理（依 post-batch-25 health check queue 重新排序）：
+  - modeling_the_expenditure_and_reconstitution_of.15/modeling_the_expenditure_and_reconstitution_of.15.md
+  - nihms-1917261/nihms-1917261.md
+  - poole-jones-2017-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable/poole-jones-2017-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable.md
+  - s00421-014-3050-3/s00421-014-3050-3.md
+  - sports-07-00031-v2/sports-07-00031-v2.md
+
+## [2026-04-25] lint | 全知識百科 health check（post-batch-25）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python C:\知識百科\08_工具與Workflow\tests\test_wiki_health_check.py` → 6 tests passed
+  - `python C:\知識百科\08_工具與Workflow\wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 275
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - stale candidates 0
+  - contradiction candidates 0
+  - raw_backlog: 26（31 -> 26）
+  - raw verification queue:
+    1. modeling_the_expenditure_and_reconstitution_of.15/modeling_the_expenditure_and_reconstitution_of.15.md
+    2. nihms-1917261/nihms-1917261.md
+    3. poole-jones-2017-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable/poole-jones-2017-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable.md
+    4. s00421-014-3050-3/s00421-014-3050-3.md
+    5. sports-07-00031-v2/sports-07-00031-v2.md
+
+## [2026-04-25] ingest | VO2max verification / W'BAL origin / intramuscular W' recovery / VO2 kinetics tooling（Batch 26）
+- Batch: 26
+- heartbeat 指示：依 post-batch-25 health check queue 繼續整理；依 schema，單一回合最多只可讀取 5 份 raw files，因此本回合實際讀取 5/5。
+- Candidate ranking（承接 post-batch-25 raw verification queue，依來源優先級 + 主題相關性 + backlog impact 排序）：
+  1. modeling_the_expenditure_and_reconstitution_of.15/modeling_the_expenditure_and_reconstitution_of.15.md
+  2. nihms-1917261/nihms-1917261.md
+  3. poole-jones-2017-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable/poole-jones-2017-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable.md
+  4. s00421-014-3050-3/s00421-014-3050-3.md
+  5. sports-07-00031-v2/sports-07-00031-v2.md
+- Selected files（本回合實際讀取 5/5）：
+  1. modeling_the_expenditure_and_reconstitution_of.15/modeling_the_expenditure_and_reconstitution_of.15.md
+  2. nihms-1917261/nihms-1917261.md
+  3. poole-jones-2017-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable/poole-jones-2017-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable.md
+  4. s00421-014-3050-3/s00421-014-3050-3.md
+  5. sports-07-00031-v2/sports-07-00031-v2.md
+- 類型 / 層級 / 可信度：
+  - modeling_the_expenditure_and_reconstitution_of.15：original article，Tier 3，可信度 medium
+  - nihms-1917261：pilot original article，Tier 3，可信度 medium
+  - poole-jones-2017-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable：review article，Tier 1，可信度 high
+  - s00421-014-3050-3：original article，Tier 3，可信度 medium
+  - sports-07-00031-v2：methods / software original article，Tier 3，可信度 medium
+- 新建來源摘要頁 5：
+  - 09_來源摘要/Skiba_2012_modeling_Wprime_expenditure_reconstitution.md
+  - 09_來源摘要/Skiba_2015_intramuscular_determinants_Wprime_recovery.md
+  - 09_來源摘要/Poole_Jones_2017_VO2max_verification.md
+  - 09_來源摘要/Zacca_2019_VO2FITTING_software.md
+  - 09_來源摘要/Wooten_2021_excess_VCO2_recovery_fatigability.md
+- 既有頁更新：
+  - 04_CPET/VO2max_Measurement.md
+  - 04_CPET/CPET_Protocol_Design.md
+  - 04_CPET/Wprime_Balance_Model.md
+  - 05_Exercise_Physiology/PCr_Resynthesis.md
+  - 04_CPET/VO2_Kinetics.md
+  - index.md
+- 明確標示的 conflict / caveat：
+  1. 當研究目標是確認 true VO2max 時，VO2peak 不能與 VO2max 互用；secondary criteria 也不能當作普遍有效的驗證規則。
+  2. W' recovery 不是 bulk PCr recovery 的簡化替身；Skiba 2015 顯示兩者 time course 差異很大，應避免把 W' 當成單一代謝池。
+  3. VO2 kinetics preprocessing 與 model choice 會實質改變 tau / slow component 估計；software standardization 不能取代 physiology judgment。
+  4. Wooten 2021 只提供 pilot、indirect excess VCO2 證據，屬 hypothesis-generating，不足以建立臨床或機轉共識。
+- index.md 更新：Total pages 275 -> 280
+- 下一批待處理（依 post-batch-26 health check queue 重新排序）：
+  - sports7020031/sports7020031.md
+  - the-real-happy-pill-power-up-your-brain-by-moving-your-body-1/the-real-happy-pill-power-up-your-brain-by-moving-your-body-1.md
+  - w__recovery_kinetics_after_exhaustion__a_two_phase/w__recovery_kinetics_after_exhaustion__a_two_phase.md
+  - 00001648-199411000-00009/00001648-199411000-00009.md
+  - 16 high altitude/16 high altitude.md
+
+## [2026-04-25] lint | 全知識百科 health check（post-batch-26）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python C:\知識百科\08_工具與Workflow\tests\test_wiki_health_check.py` → 6 tests passed
+  - `python C:\知識百科\08_工具與Workflow\wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 280
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - stale candidates 0
+  - contradiction candidates 0
+  - raw_backlog: 21（26 -> 21）
+  - raw verification queue:
+    1. sports7020031/sports7020031.md
+    2. the-real-happy-pill-power-up-your-brain-by-moving-your-body-1/the-real-happy-pill-power-up-your-brain-by-moving-your-body-1.md
+    3. w__recovery_kinetics_after_exhaustion__a_two_phase/w__recovery_kinetics_after_exhaustion__a_two_phase.md
+    4. 00001648-199411000-00009/00001648-199411000-00009.md
+    5. 16 high altitude/16 high altitude.md
+
+## [2026-04-25] ingest | W' recovery / hierarchical regression / altitude physiology / exercise-brain translation（Batch 27）
+- Batch: 27
+- heartbeat 指示：承接 post-batch-26 raw verification queue；依 schema，單一回合最多只可讀取 5 份 raw files，因此本回合實際讀取 5/5。
+- Candidate ranking（承接 post-batch-26 raw verification queue，依來源優先級 + 主題相關性 + backlog impact 排序）：
+  1. sports7020031/sports7020031.md
+  2. the-real-happy-pill-power-up-your-brain-by-moving-your-body-1/the-real-happy-pill-power-up-your-brain-by-moving-your-body-1.md
+  3. w__recovery_kinetics_after_exhaustion__a_two_phase/w__recovery_kinetics_after_exhaustion__a_two_phase.md
+  4. 00001648-199411000-00009/00001648-199411000-00009.md
+  5. 16 high altitude/16 high altitude.md
+- Selected files（本回合實際讀取 5/5）：
+  1. sports7020031/sports7020031.md
+  2. the-real-happy-pill-power-up-your-brain-by-moving-your-body-1/the-real-happy-pill-power-up-your-brain-by-moving-your-body-1.md
+  3. w__recovery_kinetics_after_exhaustion__a_two_phase/w__recovery_kinetics_after_exhaustion__a_two_phase.md
+  4. 00001648-199411000-00009/00001648-199411000-00009.md
+  5. 16 high altitude/16 high altitude.md
+- 類型 / 層級 / 可信度：
+  - sports7020031：methods / software original article duplicate raw `.md`，Tier 3，可信度 medium
+  - The Real Happy Pill：科普書，Tier 2，可信度 medium
+  - W' Recovery Kinetics after Exhaustion：original article，Tier 3，可信度 medium
+  - Hierarchical Regression Analysis Applied to a Study of Multiple Dietary Exposures and Breast Cancer：methods original article，Tier 3，可信度 medium
+  - High Altitude and Flying：textbook chapter，Tier 1，可信度 high
+- 新建來源摘要頁 4：
+  - 09_來源摘要/Caen_2021_Wprime_recovery_two_phase.md
+  - 09_來源摘要/Witte_Greenland_1994_hierarchical_regression.md
+  - 09_來源摘要/High_Altitude_and_Flying.md
+  - 09_來源摘要/The_Real_Happy_Pill.md
+- 新建主題頁 3：
+  - 04_CPET/Wprime_Recovery.md
+  - 02_方法學/層級回歸與Semi_Bayes.md
+  - 05_Exercise_Physiology/高海拔與飛行低氧生理.md
+- 既有頁更新：
+  - 09_來源摘要/Zacca_2019_VO2FITTING_software.md
+  - 04_CPET/Wprime_Balance_Model.md
+  - 04_CPET/Training_Prescription_by_CP.md
+  - 05_Exercise_Physiology/PCr_Resynthesis.md
+  - 05_Exercise_Physiology/運動時氧輸送與換氣.md
+  - 02_方法學/治療性運動處方.md
+  - index.md
+- duplicate / raw-path handling：
+  - `sports7020031/sports7020031.md` 已確認為既有 `Zacca_2019_VO2FITTING_software.md` 的 duplicate raw path，已補登到來源摘要，不新增主結論。
+- 明確標示的 conflict / caveat：
+  1. W' recovery 不能再被簡化成 single universal monoexponential recharge；Caen 2021 支持 exhaustion 後存在 fast + slow phase。
+  2. PCr / VO2 recovery 只解釋 W' reconstitution 的一部分，不能把 W' 直接縮成單一 metabolic tank。
+  3. hierarchical regression / semi-Bayes 可降低 implausible coefficient instability，但 second-stage structure 與 `tau` 若 misspecified，也會把 estimate 拉錯方向。
+  4. 15% oxygen hypoxic challenge 是 practical cabin simulation，不等於真實 hypobaric altitude physiology。
+  5. The Real Happy Pill 可用於病人教育翻譯，但不能當成 exercise-brain 效果大小或 treatment hierarchy 的共識級證據。
+- index.md 更新：Total pages 280 -> 287
+- 下一批待處理（依 post-batch-27 health check queue 重新排序）：
+  - Karstenetal.2016Comparisonofinter-trialrecoverytimes/Karstenetal.2016Comparisonofinter-trialrecoverytimes.md
+  - LambricketalEJAP2009/LambricketalEJAP2009.md
+  - Phosphocreatine Resynthesis After Intense Exercise/Phosphocreatine Resynthesis After Intense Exercise.md
+  - The VCO2 VO2 relationship during heavy constant work rate exercise/The VCO2 VO2 relationship during heavy constant work rate exercise.md
+  - Wooten et al. Pilot and Feasibility Studies/Wooten et al. Pilot and Feasibility Studies.md
+
+## [2026-04-25] lint | 全知識百科 health check（post-batch-27）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python C:\知識百科\08_工具與Workflow\tests\test_wiki_health_check.py` → 6 tests passed
+  - `python C:\知識百科\08_工具與Workflow\wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 287
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - stale candidates 0
+  - contradiction candidates 0
+  - raw_backlog: 16（21 -> 16）
+  - raw verification queue:
+    1. Karstenetal.2016Comparisonofinter-trialrecoverytimes/Karstenetal.2016Comparisonofinter-trialrecoverytimes.md
+    2. LambricketalEJAP2009/LambricketalEJAP2009.md
+    3. Phosphocreatine Resynthesis After Intense Exercise/Phosphocreatine Resynthesis After Intense Exercise.md
+    4. The VCO2 VO2 relationship during heavy constant work rate exercise/The VCO2 VO2 relationship during heavy constant work rate exercise.md
+    5. Wooten et al. Pilot and Feasibility Studies/Wooten et al. Pilot and Feasibility Studies.md
+
+## [2026-04-25] ingest | CP/W' inter-trial recovery / submaximal VO2max estimation / PCr recovery biology / VCO2-VO2 buffering physiology（Batch 28）
+- Batch: 28
+- 使用者指示：延續上一批；依 schema，本回合實際讀取 5/5 份 raw files，不擴讀。
+- Candidate ranking（承接 post-batch-27 raw verification queue）：
+  1. Karstenetal.2016Comparisonofinter-trialrecoverytimes/Karstenetal.2016Comparisonofinter-trialrecoverytimes.md
+  2. LambricketalEJAP2009/LambricketalEJAP2009.md
+  3. Phosphocreatine Resynthesis After Intense Exercise/Phosphocreatine Resynthesis After Intense Exercise.md
+  4. The VCO2 VO2 relationship during heavy constant work rate exercise/The VCO2 VO2 relationship during heavy constant work rate exercise.md
+  5. Wooten et al. Pilot and Feasibility Studies/Wooten et al. Pilot and Feasibility Studies.md
+- Selected files（本回合實際讀取 5/5）：
+  1. Karstenetal.2016Comparisonofinter-trialrecoverytimes/Karstenetal.2016Comparisonofinter-trialrecoverytimes.md
+  2. LambricketalEJAP2009/LambricketalEJAP2009.md
+  3. Phosphocreatine Resynthesis After Intense Exercise/Phosphocreatine Resynthesis After Intense Exercise.md
+  4. The VCO2 VO2 relationship during heavy constant work rate exercise/The VCO2 VO2 relationship during heavy constant work rate exercise.md
+  5. Wooten et al. Pilot and Feasibility Studies/Wooten et al. Pilot and Feasibility Studies.md
+- 類型 / 層級 / 可信度：
+  - Karsten 2016：original article，Tier 3，可信度 medium
+  - Lambrick 2009：original article，Tier 3，可信度 medium
+  - McMahon & Jenkins：review article，Tier 1，可信度 high
+  - Stringer / Wasserman / Casaburi 1995：original article，Tier 3，可信度 medium
+  - Wooten duplicate raw path：pilot original article duplicate raw `.md`，Tier 3，可信度 medium
+- 新建來源摘要頁 4：
+  - 09_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime.md
+  - 09_來源摘要/Lambrick_2009_RPE13_VO2max_prediction.md
+  - 09_來源摘要/McMahon_Jenkins_PCr_resynthesis_after_intense_exercise.md
+  - 09_來源摘要/Stringer_Wasserman_Casaburi_1995_VCO2_VO2_heavy_constant_work.md
+- 既有頁更新：
+  - 04_CPET/CP_Test_Reliability.md
+  - 04_CPET/Training_Prescription_by_CP.md
+  - 05_Exercise_Physiology/PCr_Resynthesis.md
+  - 04_CPET/Wprime_Recovery.md
+  - 04_CPET/VO2max_Measurement.md
+  - 04_CPET/CPET_Protocol_Design.md
+  - 04_CPET/Gas_Exchange_Threshold.md
+  - 04_CPET/V_Slope_Method.md
+  - 09_來源摘要/Wooten_2021_excess_VCO2_recovery_fatigability.md
+  - index.md
+- duplicate / raw-path handling：
+  - `Wooten et al. Pilot and Feasibility Studies/Wooten et al. Pilot and Feasibility Studies.md` 已確認為既有 `Wooten_2021_excess_VCO2_recovery_fatigability.md` 的 duplicate raw path，已補登，不新增主結論。
+- 明確標示的 conflict / caveat：
+  1. same-day shortened inter-trial recovery 可保留 CP，但會明顯扭曲 W'；CP 與 W' 不能假設具有相同 measurement robustness。
+  2. RPE 13 submaximal ramp prediction 可作 low-fit 情境下的 practical fallback，但不能與 measured / verified VO2max 混用。
+  3. PCr recovery 本身常包含 fast + slow component；單一 tau 是 practical summary，不是完整機制。
+  4. heavy constant-work 的 VCO2-VO2 inflection 與 lactate / bicarbonate 變化同步，可支持 buffering physiology，但不取代 ramp CPET 的 GET operational definition。
+- index.md 更新：Total pages 287 -> 291
+
+## [2026-04-25] lint | 全知識百科 health check（post-batch-28）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python C:\知識百科\08_工具與Workflow\tests\test_wiki_health_check.py` → 6 tests passed
+  - `python C:\知識百科\08_工具與Workflow\wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 291
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - stale candidates 0
+  - contradiction candidates 0
+  - raw_backlog: 11（16 -> 11）
+  - raw verification queue:
+    1. ajvr-ajvr.2000.61.638/ajvr-ajvr.2000.61.638.md
+    2. bf00235176/bf00235176.md
+    3. characterizing_the_exponential_profile_of_w_.24/characterizing_the_exponential_profile_of_w_.24.md
+    4. ferguson-et-al-2010-effect-of-recovery-duration-from-prior-exhaustive-exercise-on-the-parameters-of-the-power-duration/effect of recovery duration from prior exhaustive exercise on the parameters of the power duration.md
+    5. effect_of_work_and_recovery_durations_on_w_.20/effect_of_work_and_recovery_durations_on_w_.20.md
+
+## [2026-04-25] ingest | VO2 kinetics modifiers / W' recovery structure / interval architecture caveats（Batch 29）
+- Batch: 29
+- 使用者指示：延續上一批；依 schema，本回合實際讀取 5/5 份 raw files，不擴讀。
+- Candidate ranking（承接 post-batch-28 raw verification queue）：
+  1. ajvr-ajvr.2000.61.638/ajvr-ajvr.2000.61.638.md
+  2. bf00235176/bf00235176.md
+  3. characterizing_the_exponential_profile_of_w_.24/characterizing_the_exponential_profile_of_w_.24.md
+  4. ferguson-et-al-2010-effect-of-recovery-duration-from-prior-exhaustive-exercise-on-the-parameters-of-the-power-duration/effect of recovery duration from prior exhaustive exercise on the parameters of the power duration.md
+  5. effect_of_work_and_recovery_durations_on_w_.20/effect_of_work_and_recovery_durations_on_w_.20.md
+- Selected files（本回合實際讀取 5/5）：
+  1. ajvr-ajvr.2000.61.638/ajvr-ajvr.2000.61.638.md
+  2. bf00235176/bf00235176.md
+  3. characterizing_the_exponential_profile_of_w_.24/characterizing_the_exponential_profile_of_w_.24.md
+  4. ferguson-et-al-2010-effect-of-recovery-duration-from-prior-exhaustive-exercise-on-the-parameters-of-the-power-duration/effect of recovery duration from prior exhaustive exercise on the parameters of the power duration.md
+  5. effect_of_work_and_recovery_durations_on_w_.20/effect_of_work_and_recovery_durations_on_w_.20.md
+- 類型 / 層級 / 可信度：
+  - Geor et al. 2000：original article（animal study），Tier 3，可信度 low
+  - Zhang et al. 1991：original article，Tier 3，可信度 medium
+  - Lievens et al. 2024：original article，Tier 3，可信度 medium
+  - Ferguson et al. 2010：original article，Tier 3，可信度 medium
+  - Skiba et al. 2014：original article，Tier 3，可信度 medium
+- 新建來源摘要頁 5：
+  - 09_來源摘要/Geor_2000_horse_warmup_VO2_VCO2_kinetics.md
+  - 09_來源摘要/Zhang_1991_fitness_VO2_VCO2_step_kinetics.md
+  - 09_來源摘要/Lievens_2024_partial_Wprime_recovery.md
+  - 09_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion.md
+  - 09_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution.md
+- 既有頁更新：
+  - 04_CPET/Wprime_Balance_Model.md
+  - 04_CPET/Wprime_Recovery.md
+  - 04_CPET/Training_Prescription_by_CP.md
+  - 04_CPET/VO2_Kinetics.md
+  - index.md
+- 明確標示的 conflict / caveat：
+  1. exhaustion-based two-phase W' recovery 不能直接外推到 partial depletion；Lievens 2024 只支持「固定 tau 不足」，不支持一律改寫成 biexponential 共識。
+  2. prior exhaustion 後 CP 可維持穩定，但 W' 只會曲線式回來，且恢復速度慢於 VO2、快於 lactate；因此 W' 不能縮成單一 physiologic tank。
+  3. W'BAL 整體可用，但 interval structure 本身會改變實際可用 W'；相似 predicted depletion 不代表相同 physiologic state。
+  4. Zhang 1991 的 step-test kinetics 與 Geor 2000 的 equine warm-up 資料都屬 Tier 3 補充，不可直接升格成 human constant-load kinetics 的主框架。
+- index.md 更新：Total pages 291 -> 296
+
+## [2026-04-25] lint | 全知識百科 health check（post-batch-29）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python C:\知識百科\08_工具與Workflow\tests\test_wiki_health_check.py` → 6 tests passed
+  - `python C:\知識百科\08_工具與Workflow\wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 296
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - stale candidates 0
+  - contradiction candidates 0
+  - raw_backlog: 6（11 -> 6）
+  - raw verification queue:
+    1. francescato-cettolo-2021-influence-of-the-fitting-window-on-the-o2-uptake-kinetics-at-the-onset-of-moderate-intensity/influence of the fitting window on the o2 uptake kinetics at the onset of moderate intensity.md
+    2. ma-et-al-2010-clarifying-the-equation-for-modeling-of-v̇o2-kinetics-above-the-lactate-threshold (2)/ma-et-al-2010-clarifying-the-equation-for-modeling-of-v̇o2-kinetics-above-the-lactate-threshold (2).md
+    3. pettitt-jamnick-2017-commentary-on-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable/pettitt-jamnick-2017-commentary-on-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable.md
+    4. s00421-021-04874-3/s00421-021-04874-3.md
+    5. the-reliability-and-validity-of-the-3-min-all-out-cycling-7xcudjg120/the-reliability-and-validity-of-the-3-min-all-out-cycling-7xcudjg120.md
+
+## [2026-04-25] ingest | VO2 fitting window / Heaviside kinetics clarification / VO2max verification caveat / trained-cyclist W' biexponential recovery / 3-min all-out validity（Batch 30）
+- Batch: 30
+- 使用者指示：延續上一批；依 schema，本回合實際讀取 5/5 份 raw files，不擴讀。
+- Candidate ranking（承接 post-batch-29 raw verification queue）：
+  1. francescato-cettolo-2021-influence-of-the-fitting-window-on-the-o2-uptake-kinetics-at-the-onset-of-moderate-intensity/influence of the fitting window on the o2 uptake kinetics at the onset of moderate intensity.md
+  2. ma-et-al-2010-clarifying-the-equation-for-modeling-of-v̇o2-kinetics-above-the-lactate-threshold (2)/ma-et-al-2010-clarifying-the-equation-for-modeling-of-v̇o2-kinetics-above-the-lactate-threshold (2).md
+  3. pettitt-jamnick-2017-commentary-on-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable/pettitt-jamnick-2017-commentary-on-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable.md
+  4. s00421-021-04874-3/s00421-021-04874-3.md
+  5. the-reliability-and-validity-of-the-3-min-all-out-cycling-7xcudjg120/the-reliability-and-validity-of-the-3-min-all-out-cycling-7xcudjg120.md
+- Selected files（本回合實際讀取 5/5）：
+  1. francescato-cettolo-2021-influence-of-the-fitting-window-on-the-o2-uptake-kinetics-at-the-onset-of-moderate-intensity/influence of the fitting window on the o2 uptake kinetics at the onset of moderate intensity.md
+  2. ma-et-al-2010-clarifying-the-equation-for-modeling-of-v̇o2-kinetics-above-the-lactate-threshold (2)/ma-et-al-2010-clarifying-the-equation-for-modeling-of-v̇o2-kinetics-above-the-lactate-threshold (2).md
+  3. pettitt-jamnick-2017-commentary-on-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable/pettitt-jamnick-2017-commentary-on-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable.md
+  4. s00421-021-04874-3/s00421-021-04874-3.md
+  5. the-reliability-and-validity-of-the-3-min-all-out-cycling-7xcudjg120/the-reliability-and-validity-of-the-3-min-all-out-cycling-7xcudjg120.md
+- 類型 / 層級 / 可信度：
+  - Francescato & Cettolo 2021：original article，Tier 3，可信度 medium
+  - Ma et al. 2010：letter / commentary，Tier 3，可信度 medium
+  - Pettitt & Jamnick 2017：letter / commentary，Tier 3，可信度 medium
+  - Chorley et al. 2021：original article，Tier 3，可信度 medium
+  - Wright et al. 2017：original article，Tier 3，可信度 medium
+- 新建來源摘要頁 5：
+  - 09_來源摘要/Francescato_Cettolo_2021_VO2_fitting_window.md
+  - 09_來源摘要/Ma_2010_Heaviside_VO2_kinetics_equation.md
+  - 09_來源摘要/Pettitt_Jamnick_2017_VO2max_verification_commentary.md
+  - 09_來源摘要/Chorley_2021_biexponential_Wprime_reconstitution_trained_cyclists.md
+  - 09_來源摘要/Wright_2017_3min_allout_CP_validity.md
+- 既有頁更新：
+  - 04_CPET/VO2_Kinetics.md
+  - 04_CPET/VO2_Slow_Component.md
+  - 04_CPET/VO2max_Measurement.md
+  - 04_CPET/CPET_Protocol_Design.md
+  - 04_CPET/Wprime_Recovery.md
+  - 04_CPET/Wprime_Balance_Model.md
+  - 04_CPET/CP_Test_Reliability.md
+  - 04_CPET/Critical_Power.md
+  - index.md
+- 明確標示的 conflict / caveat：
+  1. fitting window 不是中性 preprocessing；Francescato 2021 顯示 moderate-intensity `tau` 可因起始資料移除規則改變約 30%。
+  2. Ma 2010 是數學式澄清，不是新的 physiology 證據；Heaviside gating 改善的是 delayed-term implementation clarity，不是直接證明某機制較正確。
+  3. Pettitt & Jamnick 2017 支持 verification bout，但提醒 ramp 與 VEB 的一致性要放在 measurement variability 與 ramp design 一起解讀，不能只做 binary pass/fail。
+  4. Chorley 2021 在 trained cyclists 的 repeated maximal ramps 支持 biexponential `W'` recovery；但這不推翻 Lievens 2024 對 partial depletion 的修正，只是說 recovery shape 受 depletion context 影響。
+  5. Wright 2017 顯示 3-min all-out 的 `EP` 與 `WEP` 不能一起視為同等有效；ergometer mode 會改變 `CP` validity，而 `WEP` 在兩種模式都低估 `W'`。
+- index.md 更新：Total pages 296 -> 301
+
+## [2026-04-25] lint | 全知識百科 health check（post-batch-30）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python C:\知識百科\08_工具與Workflow\tests\test_wiki_health_check.py` → 6 tests passed
+  - `python C:\知識百科\08_工具與Workflow\wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 301
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - stale candidates 0
+  - contradiction candidates 0
+  - raw_backlog: 3（6 -> 3）
+  - raw verification queue:
+    1. Building Resilience Through Play.md
+    2. Why Sleep Matters in Early Childhood Development.md
+    3. the_reconstitution_of_w__depends_on_both_work_and.22/the_reconstitution_of_w__depends_on_both_work_and.22.md
+
+## [2026-04-25] ingest | play and resilience / early childhood sleep / W' recovery work-bout dependence（Batch 31）
+- Batch: 31
+- 使用者指示：延續上一批；依 schema，本回合實際讀取 3/5 份 raw files，不擴讀。
+- Candidate ranking（承接 post-batch-30 raw verification queue）：
+  1. Building Resilience Through Play.md
+  2. Why Sleep Matters in Early Childhood Development.md
+  3. the_reconstitution_of_w__depends_on_both_work_and.22/the_reconstitution_of_w__depends_on_both_work_and.22.md
+- Selected files（本回合實際讀取 3/5）：
+  1. Building Resilience Through Play.md
+  2. Why Sleep Matters in Early Childhood Development.md
+  3. the_reconstitution_of_w__depends_on_both_work_and.22/the_reconstitution_of_w__depends_on_both_work_and.22.md
+- 類型 / 層級 / 可信度：
+  - Building Resilience Through Play：educational website / podcast transcript，Tier 2，可信度 medium
+  - Why Sleep Matters in Early Childhood Development：educational website / podcast transcript，Tier 2，可信度 medium
+  - Caen et al. 2019：original article，Tier 3，可信度 medium
+- 新建來源摘要頁 3：
+  - 09_來源摘要/Building_Resilience_Through_Play.md
+  - 09_來源摘要/Why_Sleep_Matters_in_Early_Childhood_Development.md
+  - 09_來源摘要/Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery.md
+- 既有頁更新：
+  - 07_Pediatric_Development/創傷_復原力與兒童發展.md
+  - 07_Pediatric_Development/兒童睡眠與睡眠障礙總論.md
+  - 04_CPET/Wprime_Recovery.md
+  - 04_CPET/Wprime_Balance_Model.md
+  - 04_CPET/Training_Prescription_by_CP.md
+  - index.md
+- 明確標示的 conflict / caveat：
+  1. play 可支持 resilience，但不能被寫成 child 靠自己玩就能恢復；supportive relationship 仍是必要 scaffold。
+  2. Why Sleep Matters 是 expert science translation，可補強機制理解與病人教育，但不能取代 pediatric sleep guideline / textbook triage。
+  3. Caen 2019 顯示 `W'` recovery 不只取決於 recovery power / duration，也受前一段 work-bout 特性影響；因此 recovery 不能再被簡化成單靠 `DCP` 的 group-derived constant。
+  4. current `W'BAL` 對短 recovery 仍傾向低估，尤其在不同 depletion pattern 下更明顯。
+- index.md 更新：Total pages 301 -> 304
+
+## [2026-04-25] lint | 全知識百科 health check（post-batch-31）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python C:\知識百科\08_工具與Workflow\tests\test_wiki_health_check.py` → 6 tests passed
+  - `python C:\知識百科\08_工具與Workflow\wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 304
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - stale candidates 0
+  - contradiction candidates 0
+  - raw_backlog: 0
+  - raw verification queue: none
+- 備註：
+  - 先前兩個 stale candidates 為 frontmatter `updated` 未同步至 `2026-04-25` 的 metadata 誤判；補齊後已歸零。
+
+## [2026-04-25] synthesis | CP / W' interval design topic reorganization
+- 類型：主題重整
+- 目標：處理 oversized page，降低 `Training_Prescription_by_CP.md` 與 `Wprime_Balance_Model` / `Wprime_Recovery` 的重複內容。
+- 新建主題頁：
+  - 04_CPET/CP_Wprime_Interval_Design.md
+- 重整內容：
+  - 將 severe-domain interval 的 `W'` dose、`W'BAL` 角色、recovery power / duration caveat、interval structure 與 protocol fragility 抽成獨立子頁。
+  - `04_CPET/Training_Prescription_by_CP.md` 改回 overview 頁，保留三域處方與三個核心 practical conclusions。
+- 交叉連結更新：
+  - 04_CPET/Training_Prescription_by_CP.md
+  - 04_CPET/Critical_Power.md
+  - 04_CPET/Wprime_Balance_Model.md
+  - 04_CPET/Wprime_Recovery.md
+  - index.md
+- index.md 更新：Total pages 304 -> 305
+
+## [2026-04-25] synthesis | Critical_Power page condensation
+- 類型：主題重整
+- 目標：讓 `Critical_Power.md` 回到概念主頁角色，不再重複承載 `W' recovery` 與 `W'BAL` 的細節頁功能。
+- 主要調整：
+  - 刪去 `Critical_Power.md` 內大段 `W' reconstitution` 子模型與 athlete-specific recovery 細節。
+  - 改成短摘要加導頁，連回：
+    - `Wprime_Recovery.md`
+    - `Wprime_Balance_Model.md`
+    - `CP_Wprime_Interval_Design.md`
+  - 同步精簡 frontmatter source list 與部分測試描述，保留 CP 主框架需要的來源。
+- 結果：
+  - `Critical_Power.md` 行數由 248 -> 214
+  - 仍屬 oversized page，但已明顯縮減
+
+## [2026-04-25] lint | 全知識百科 health check（post-topic-reorg）
+- 執行腳本：08_工具與Workflow/wiki_health_check.py
+- 驗證方式：
+  - `python C:\知識百科\08_工具與Workflow\tests\test_wiki_health_check.py` → 6 tests passed
+  - `python C:\知識百科\08_工具與Workflow\wiki_health_check.py --wiki C:\知識百科 --raw C:\原始資料 --format markdown --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md`
+- 更新報告：08_工具與Workflow/health_check_report_latest.md
+- 結果摘要：
+  - pages_scanned: 305
+  - orphan 0
+  - weak links 0
+  - broken links 0
+  - missing_from_index 0
+  - stale candidates 0
+  - contradiction candidates 0
+  - raw_backlog: 0
+  - raw verification queue: none
+- oversized pages 變化：
+  - `04_CPET/Training_Prescription_by_CP.md` 已退出 oversized list
+  - `04_CPET/Critical_Power.md` 由 248 -> 214，仍待後續再拆
+
+## [2026-04-25] update | ingest 工作流規則同步
+- 將 ingest 單批上限由 10 改為 5。
+- 同步更新：
+  - SCHEMA.md
+  - 08_工具與Workflow/知識百科_ingest_工作流.md
+  - index.md
+- 明確區分：ingest 的 5-file cap 與 health check 的 5-file raw verification cap 為不同流程，不可混用。
+- 本次僅同步規則，未啟動新一批文件 ingest。
+
+## [2026-04-25] ingest | early childhood stress / serve and return / stability / mattering（Batch 32）
+- Batch: 32
+- Candidate ranking：
+  1. Stress_Disrupts_Architecture_Developing_Brain
+  2. Finding the Balance Transforming How We Think About the Body’s Response to Stress in Early Childhood
+  3. Serve and Return.md
+  4. HCDC-ECSCEE-Stability
+  5. Mattering-Paper-center-on-the-developing-child
+  6. Webinar_Transcript_Stability
+  7. Podcast_ Toxic Stress.md
+  8. Mattering-Strategies-
+  9. Harvard-Kids-and-Climate-Long-Report_V6
+- Selected files（本回合實際讀取 5/5）：
+  1. Stress_Disrupts_Architecture_Developing_Brain
+  2. Finding the Balance Transforming How We Think About the Body’s Response to Stress in Early Childhood
+  3. Serve and Return.md
+  4. HCDC-ECSCEE-Stability
+  5. Mattering-Paper-center-on-the-developing-child
+- 類型 / 層級 / 可信度：
+  - Excessive Stress Disrupts the Architecture of the Developing Brain：網站資料 / scientific working paper，Tier 2，可信度 medium
+  - Finding the Balance：網站資料 / scientific working paper，Tier 2，可信度 medium
+  - Serve and Return：educational website / podcast transcript，Tier 2，可信度 medium
+  - From Resources to Routines：網站資料 / scientific working paper，Tier 2，可信度 medium
+  - Mattering in Early Childhood：網站資料 / working paper，Tier 2，可信度 medium
+- 新建來源摘要頁 5：
+  - 09_來源摘要/Excessive_Stress_Disrupts_Developing_Brain.md
+  - 09_來源摘要/Finding_the_Balance_2026_early_childhood_stress.md
+  - 09_來源摘要/Serve_and_Return.md
+  - 09_來源摘要/From_Resources_to_Routines_Stability.md
+  - 09_來源摘要/Mattering_in_Early_Childhood.md
+- 新建主題頁 4：
+  - 07_Pediatric_Development/Toxic_Stress.md
+  - 07_Pediatric_Development/Serve_and_Return.md
+  - 07_Pediatric_Development/發展環境穩定性.md
+  - 07_Pediatric_Development/Mattering_總論.md
+- 既有頁更新：
+  - 07_Pediatric_Development/創傷_復原力與兒童發展.md
+  - 07_Pediatric_Development/嬰兒期發展.md
+  - 07_Pediatric_Development/幼兒與學齡前期發展.md
+  - 07_Pediatric_Development/托育與Early_Care_and_Education.md
+  - index.md
+- 明確標示的 conflict / caveat：
+  1. `Toxic stress` 指的是 prolonged biologic stress response，不是 adversity event 的同義詞。
+  2. `Finding the Balance` 修正了舊 public framing：不是所有 stress 都有害，predictability、timing、individual sensitivity 與 community buffering 都要納入。
+  3. `Serve and return` 不是 24/7 刺激，也不是 parent-only；單向 educational media 不能替代 contingent interaction。
+  4. `Stability` 不能被簡化成「家裡更有規矩」；housing、food、child care、work schedule instability 會直接破壞 routine。
+  5. `Mattering` 不等於 belonging 或 praise；還要有被理解、被需要、能加值的經驗。
+- index.md 更新：Total pages 305 -> 314
+- 下一批待處理：
+  - Podcast_ Toxic Stress.md
+  - Webinar_Transcript_Stability
+  - Mattering-Strategies-
+  - Harvard-Kids-and-Climate-Long-Report_V6
+  - FWI_HPM-Strategic-Brief-V4
+  - wp15_health_FINALv2
+
+## [2026-04-25] ingest | brain-body lifelong health / toxic stress translation / stability webinar / mattering strategies / place（Batch 33）
+- Batch: 33
+- Candidate ranking：
+  1. wp15_health_FINALv2
+  2. Podcast_ Toxic Stress.md
+  3. Webinar_Transcript_Stability
+  4. Mattering-Strategies-
+  5. FWI_HPM-Strategic-Brief-V4
+  6. Harvard-Kids-and-Climate-Long-Report_V6
+- Selected files（本回合實際讀取 5/5）：
+  1. wp15_health_FINALv2
+  2. Podcast_ Toxic Stress.md
+  3. Webinar_Transcript_Stability
+  4. Mattering-Strategies-
+  5. FWI_HPM-Strategic-Brief-V4
+- 類型 / 層級 / 可信度：
+  - Connecting the Brain to the Rest of the Body：review article / scientific working paper，Tier 1，可信度 high
+  - Toxic Stress Brain Architects Podcast：網站資料 / podcast transcript，Tier 2，可信度 medium
+  - Why Stability Matters Webinar：網站資料 / webinar transcript，Tier 2，可信度 medium
+  - Mattering Strategies：網站資料 / practical handout，Tier 2，可信度 medium
+  - Place Matters：網站資料 / strategic brief，Tier 2，可信度 medium
+- 新建來源摘要頁 5：
+  - 09_來源摘要/Connecting_the_Brain_to_the_Rest_of_the_Body.md
+  - 09_來源摘要/Toxic_Stress_Brain_Architects_Podcast.md
+  - 09_來源摘要/Why_Stability_Matters_Webinar.md
+  - 09_來源摘要/Mattering_Strategies.md
+  - 09_來源摘要/Place_Matters.md
+- 新建主題頁 2：
+  - 07_Pediatric_Development/早期發展與終身健康.md
+  - 07_Pediatric_Development/發展環境與Place.md
+- 既有頁更新：
+  - 07_Pediatric_Development/Toxic_Stress.md
+  - 07_Pediatric_Development/發展環境穩定性.md
+  - 07_Pediatric_Development/Mattering_總論.md
+  - 07_Pediatric_Development/正向教養與家庭支持.md
+  - 07_Pediatric_Development/文化謙遜與偏誤敏感照護.md
+  - 07_Pediatric_Development/創傷_復原力與兒童發展.md
+  - 07_Pediatric_Development/托育與Early_Care_and_Education.md
+  - index.md
+- 明確標示的 conflict / caveat：
+  1. health 與 learning 不能再被切成兩條互不相干的 early-childhood 敘事；同一組早期環境會一起 shape brain、immune 與 cardiometabolic systems。
+  2. `Toxic stress` 仍然是 biologic response pattern，不是 event label；而且不能只講 child，還要講 adult buffering 與 system-generated load。
+  3. `Stability` 不等於完全不變；sleep 也不是家務修飾，而是 developmental infrastructure。
+  4. `Mattering` 不是 praise；repair、visibility 與 age-appropriate contribution 都是核心。
+  5. `Place` 不能被還原成 family choice，`race` 也不能被誤寫成 biologic exposure；更準確的鏈條是 racism shapes place, and place shapes development.
+- index.md 更新：Total pages 314 -> 321
+- 下一批待處理：
+  - Harvard-Kids-and-Climate-Long-Report_V6
