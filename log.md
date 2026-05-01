@@ -2,7 +2,7 @@
 
 > 時序紀錄，append-only。
 > 格式：`## [YYYY-MM-DD] <action> | <subject>`
-> Actions: ingest | synthesis | query | lint | create | update | archive | delete
+> Actions: ingest | synthesis | query | lint | create | update | correction | archive | delete
 > log.md 超過 500 條時 rotate 成 `log-YYYY.md`。
 
 ## [2026-04-22] create | 知識百科初始化
@@ -2416,3 +2416,455 @@ index.md 更新：Total pages 7 → 16。
 - index.md 更新：Total pages 314 -> 321
 - 下一批待處理：
   - Harvard-Kids-and-Climate-Long-Report_V6
+
+## [2026-04-26] synthesis | 高海拔疾病拆分為單一概念頁（Feynman 骨架）
+- 觸發：user 指令「利用費曼式整理骨架整理資料；將原始資料拆成單一概念為單位，每一頁只處理一個概念」
+- 來源：09_來源摘要/High_Altitude_and_Flying.md（textbook chapter，Tier 1）
+- 既有 05_Exercise_Physiology/高海拔與飛行低氧生理.md 是合併頁，不拆原頁；新建三個臨床單一概念頁聚焦 illness 端：
+  - 03_疾病與臨床主題/急性高山症.md（AMS）
+  - 03_疾病與臨床主題/高海拔肺水腫.md（HAPE）
+  - 03_疾病與臨床主題/高海拔腦水腫.md（HACE）
+- 每頁均依 Feynman 骨架展開：一句話定義 → 已知 → 核心機制 → 臨床表現 → 評估方式 → 治療原則 → 臨床決策點 → 限制與未定論 → 理解缺口 → 臨床使用版 → 來源
+- 每頁附「我能不能把這段清楚教給住院醫師？」自我檢查與 explicit 理解缺口
+- 標記的下一輪補強重點：
+  1. AMS 的 biomarker / individual susceptibility prediction 仍缺臨床可用工具
+  2. HAPE-susceptible 的 vascular phenotype 分子機制
+  3. HACE 與 HAPE 共存的共同 hypoxia signaling pathway
+  4. 兒童 AMS / HACE 評估與 paediatric Lake Louise
+- 與既有頁面的關係：
+  - 不覆寫 05_Exercise_Physiology/高海拔與飛行低氧生理.md（生理 overview 仍由該頁負責）
+  - 三個新頁專注於 clinical entity 的單一概念深度，互相 wikilink
+  - 與 09_來源摘要/High_Altitude_and_Flying.md frontmatter contradictions 一致
+- index.md 更新：Total pages 321 -> 324
+- 下一批待處理：
+  - Harvard-Kids-and-Climate-Long-Report_V6
+  - 高海拔同源來源若有 review / guideline 進入再補強三頁的 evidence 層級
+
+## [2026-04-26] synthesis | 高海拔同源 textbook 第二批單一概念拆分
+- 觸發：user 確認繼續從同一份 textbook chapter 拆下一批
+- 來源：09_來源摘要/High_Altitude_and_Flying.md（textbook chapter，Tier 1）
+- 新建 3 個單一概念頁：
+  - 03_疾病與臨床主題/呼吸疾病病人的飛行評估.md（preflight assessment + Hypoxic Challenge Test + BTS guideline 切點）
+  - 03_疾病與臨床主題/慢性高山症.md（Monge disease；長期居住者的 acclimatization 失敗表型）
+  - 05_Exercise_Physiology/高海拔_acclimatization_機制.md（六軸協同的生理過程，從 chapter 中既有合併頁拆出獨立深度頁）
+- 每頁均依 Feynman 骨架 11 段展開 + 「我能不能把這段清楚教給住院醫師？」自我檢查 + explicit 理解缺口
+- 與既有頁面的關係：
+  - 不覆寫 05_Exercise_Physiology/高海拔與飛行低氧生理.md（生理 overview 仍由該頁負責；新頁是專注機制深度的 sibling）
+  - 第一批三頁（AMS / HAPE / HACE）皆已加入慢性高山症與 acclimatization 機制的相關連結
+- 標記的下一輪補強重點：
+  1. HIF-1α vs HIF-2α 在不同 tissue 的相對角色
+  2. Live high, train low 的 dose-response 與 ergogenic 效應大小
+  3. Tibetan vs Andean vs Ethiopian 三大 adaptation pathway 的分子比較
+  4. 兒童飛行評估（BPD survivor）與 PAH 病人 in-flight 風險
+  5. CMS 與 polycythemia vera 的分子層次界線
+- index.md 更新：Total pages 324 -> 327
+- 下一批待處理：
+  - Harvard-Kids-and-Climate-Long-Report_V6
+  - 從 textbook chapter 餘下未拆部分：高海拔運動 work capacity 限制（exercise at altitude 段）若獨立成概念頁的價值評估
+
+## [2026-04-26] synthesis | CP 從單一總論拆出三個臨床決策單一概念頁
+- 觸發：user 換主題；以同一份 textbook chapter（Cerebral Palsy and Other Motor Disorders）為來源
+- 來源：09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md（textbook chapter，Tier 1）
+- 既有 07_Pediatric_Development/Cerebral_Palsy_總論.md 已存在但僅 148 行，相對來源 378 行高度濃縮，未拆出單一臨床決策概念
+- 新建 3 個單一概念頁（依 ADHD / ASD 分頁模式）：
+  - 07_Pediatric_Development/CP_早期辨識與診斷.md（AACPDM Early Detection care pathway；HINE / GMs / MRI 三軸；< 6 月齡 high risk 工作診斷；normal MRI 不排除）
+  - 07_Pediatric_Development/CP_功能分類系統.md（GMFCS / MACS / EDACS / VSS / FCCS / CFCS / VFCS 七系統；usual performance vs capability；多軸獨立評）
+  - 07_Pediatric_Development/CP_髖部監測.md（AACPDM Hip Surveillance care pathway；migration percentage；GMFCS-stratified 監測時程；soft tissue vs bony surgery 決策）
+- 每頁均依 Feynman 骨架 11 段展開 + 「我能不能把這段清楚教給住院醫師？」自我檢查 + explicit 理解缺口
+- 標記的下一輪補強重點：
+  1. CP 張力管理（oral / BoNT / ITB / SDR）詳述頁
+  2. CP 神經肌肉性脊柱側彎與骨骼健康
+  3. CP 呼吸照護共識（Gibson 2021 consensus）
+  4. CP 共病與心理社會議題（vision、hearing、sleep、mental health、puberty / sexuality）
+  5. CP transition / adult CP
+  6. Genetic CP 的當代 panel 與 WES 觸發指引
+  7. AAP menstrual management for adolescents with disabilities
+- 與既有頁面的關係：
+  - 不覆寫 Cerebral_Palsy_總論.md（保留其作為 entry point；新頁是專注單一決策的子頁，類似 ADHD / ASD 的子頁模式）
+  - 三新頁互相 wikilink，並都連回 Cerebral_Palsy_總論
+- index.md 更新：Total pages 327 -> 330
+- 下一批待處理：
+  - Harvard-Kids-and-Climate-Long-Report_V6
+  - CP 同源 textbook 餘下未拆部分（張力管理、骨骼、呼吸、共病、transition）
+
+## [2026-04-26] synthesis | CP 同源 textbook 第二批單一概念拆分
+- 觸發：user 確認繼續從 CP 同源拆下一批
+- 來源：09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md（textbook chapter，Tier 1）
+- 新建 3 個單一概念頁：
+  - 07_Pediatric_Development/CP_張力管理.md（spasticity vs dystonia 區分；rehab → oral → BoNT/phenol → ITB/SDR 階梯；redistribution 而非 elimination）
+  - 07_Pediatric_Development/CP_呼吸照護.md（Gibson 2021 共識 + AACPDM Sialorrhea care pathway；五軸風險：aspiration / scoliosis / clearance 弱 / 感染 / SDB）
+  - 07_Pediatric_Development/CP_骨骼健康與骨折.md（AACPDM Osteoporosis care pathway + Novak 2020 traffic light；治療階梯 + bisphosphonate treatment-not-prevention）
+- 每頁均依 Feynman 骨架 11 段展開 + 「我能不能把這段清楚教給住院醫師？」自我檢查 + explicit 理解缺口
+- 標記的下一輪補強重點：
+  1. CP dystonia 的 DBS（deep brain stimulation）candidate selection 與長期 outcome
+  2. CP CoughAssist / mechanical airway clearance device 在不同 phenotype 的證據
+  3. Standing program 對 BMD 的 dose-response（每天分鐘、累積週數）
+  4. Bisphosphonate 兒童期使用對成年骨骼的長期影響
+  5. SDR vs ITB 在同一 candidate 的 head-to-head 證據
+- 與既有頁面的關係：
+  - 不覆寫 Cerebral_Palsy_總論.md；既有總論「CP 子頁」區塊已加入這三新頁
+  - 三新頁互相 wikilink，並都連回 Cerebral_Palsy_總論
+  - CP 子頁系列（已六頁）：早期辨識 / 功能分類 / 髖部監測 / 張力管理 / 呼吸照護 / 骨骼健康
+- index.md 更新：Total pages 330 -> 333
+- 下一批待處理：
+  - Harvard-Kids-and-Climate-Long-Report_V6
+  - CP 同源 textbook 餘下：神經肌肉性脊柱側彎、共病管理（vision / hearing / sleep / mental health / GI / GU / sexuality / puberty）、transition / adult CP、F-Words framework
+
+## [2026-04-26] synthesis | 中風復健 textbook 拆出三個臨床決策單一概念頁
+- 觸發：user 換主題；既有 03_疾病與臨床主題/中風復健總論.md 是 136 行 vs 來源 695 行，總論已自承「評估方式 / 治療原則尚未填」
+- 來源：09_來源摘要/Stroke_rehabilitation.md（textbook chapter，Tier 1 + AHA/ASA 2016 / 2021 guidelines）
+- 新建 3 個單一概念頁：
+  - 03_疾病與臨床主題/中風急性期處置與時間窗.md（time is brain；rtPA / thrombectomy / BP 階梯；ischemic vs hemorrhagic 反向邏輯；wakeup stroke / mismatch imaging）
+  - 03_疾病與臨床主題/中風次發預防.md（AHA/ASA 2021 mechanism-based 分流；BP/lipid/glycemic/lifestyle/antithrombotic 五軸；DAPT short-course；cryptogenic 的 occult AF 篩查）
+  - 03_疾病與臨床主題/偏癱肩痛.md（HSP 五條病因協同；prevention 與 dominant-feature 分流；Botox + NMES + positioning 三主軸；overhead pulley IIIC 不可做）
+- 每頁均依 Feynman 骨架 11 段展開 + 「我能不能把這段清楚教給住院醫師？」自我檢查 + explicit 理解缺口 + AHA/ASA evidence level 標註
+- 標記的下一輪補強重點：
+  1. Tenecteplase vs alteplase 的 head-to-head 證據
+  2. AI-assisted stroke imaging 與 minor LVO 處置
+  3. Cilostazol 在亞洲 lacunar stroke secondary prevention 的角色
+  4. ESUS 的 antithrombotic 決策（NAVIGATE / RE-SPECT 後）
+  5. CAA + AF 的兩面 risk 決策框架
+  6. CRPS 在 stroke 後的 phenotype-specific evidence
+  7. Implantable peripheral nerve stimulator vs surface NMES 的 candidate
+- 與既有頁面的關係：
+  - 不覆寫 中風復健總論.md（既有總論本就承認 評估 / 治療 兩節 placeholder；新頁直接補上深度）
+  - 三新頁互相 wikilink，並都連回 中風復健總論
+- index.md 更新：Total pages 333 -> 336
+- 下一批待處理：
+  - Harvard-Kids-and-Climate-Long-Report_V6
+  - CP 同源 textbook 餘下未拆部分
+  - Stroke 同源 textbook 餘下：post-stroke seizure / VTE / dysphagia / spasticity / cognition-aphasia rehab / depression / CRPS / 整合 vascular syndromes 速查表
+
+## [2026-04-26] ingest | caregiver health / pediatric primary care translation / climate as developmental environment（Batch 34）
+- Batch: 34
+- Candidate ranking：
+  1. Connecting Health & Learning.md
+  2. Self-Care Isn’t Selfish.md
+  3. Harvard-Kids-and-Climate-Long-Report_V6
+- Selected files（本回合實際讀取 3/3）：
+  1. Connecting Health & Learning.md
+  2. Self-Care Isn’t Selfish.md
+  3. Harvard-Kids-and-Climate-Long-Report_V6
+- 類型 / 層級 / 可信度：
+  - Connecting Health & Learning：網站資料 / podcast transcript，Tier 2，可信度 medium
+  - Self-Care Isn’t Selfish：網站資料 / podcast transcript，Tier 2，可信度 medium
+  - Connecting Early Childhood Development to Climate Change：網站資料 / research brief，Tier 2，可信度 medium
+- 新建來源摘要頁 3：
+  - 09_來源摘要/Connecting_Health_and_Learning.md
+  - 09_來源摘要/Self_Care_Isnt_Selfish.md
+  - 09_來源摘要/Connecting_Early_Childhood_Development_to_Climate_Change.md
+- 新建主題頁 2：
+  - 07_Pediatric_Development/照顧者健康與兒童健康發展.md
+  - 07_Pediatric_Development/氣候變遷與兒童發展.md
+- 既有頁更新：
+  - 07_Pediatric_Development/早期發展與終身健康.md
+  - 07_Pediatric_Development/正向教養與家庭支持.md
+  - 07_Pediatric_Development/發展環境與Place.md
+  - index.md
+- 明確標示的 conflict / caveat：
+  1. `Connecting Health & Learning` 與既有 `Working Paper 15` 同方向，但它是 science-translation podcast，不可拿 lower-tier transcript 取代既有 Tier 1 framework。
+  2. `Self-Care Isn’t Selfish` 修正「self-care = 奢侈或自我放縱」；在 pediatric development 脈絡裡，caregiver self-care 比較接近 buffering capacity maintenance。
+  3. `Self-Care Isn’t Selfish` 的大量例子來自 COVID-era service delivery；可轉譯其 caregiver-health 原則，但不應把當時的 telehealth / pandemic workflow 當成永恆標準。
+  4. `Connecting Early Childhood Development to Climate Change` 反對「climate 只影響未來成人」與「parents 自己保護就夠」兩種縮小框架；但它屬 communications brief，不是 pediatric climate guideline。
+  5. climate 相關頁面目前 evidence base 仍以 Tier 2 synthesis / framing brief 為主，因此新建頁明確標為 `emerging`，未把它上調成 Tier 1 clinical consensus。
+- index.md 更新：Total pages 336 -> 341
+- 下一批待處理：
+  - 無同批新候選殘留；本批新加入且同主題最相關文件已處理完畢
+
+## [2026-05-01] correction | workflow restart baseline
+- 修正原因：既有 `log.md` 含多次 batch ingest，與現行單一來源原則衝突。
+- 本次決策：不刪除既有頁面；保留現況，改採 source-by-source correction 重新開始。
+- 新增頁面：
+  - 00_總覽/Workflow_重啟與校正基線_2026-05-01.md
+- 結構修正：
+  - 新增 `.agents/skills/feynman-euclidean-summary/SKILL.md`，與 `AGENTS.md` 指定路徑對齊。
+- index.md 更新：
+  - 新增 workflow 重啟入口。
+  - 加入 restart baseline 提示。
+- 待追蹤問題：
+  - 過去 batch ingest 建立或大量更新的頁面需逐篇回到原始來源校正。
+  - 低層級來源寫入臨床頁面的段落需重新分級。
+- 待處理來源：
+  - 尚未指定；下一輪依單一來源原則自 `C:\原始資料` 選一篇開始。
+
+## [2026-05-01] correction | Barker, Cui, Kasitinon — The Physiatric History and Physical Examination
+- 類型：textbook chapter（Tier 1）
+- 修正原因：既有 `PMR_評估總論` 以多來源混合呈現；本輪改回單一來源拆解此 chapter 的核心輸出概念。
+- 重新檢查來源：
+  - `C:\原始資料\The physiatric history and physical examination\The physiatric history and physical examination.md`
+- 新增頁面：
+  - `02_方法學/PMR_醫療問題與功能問題清單.md`
+- 更新頁面：
+  - `09_來源摘要/The_physiatric_history_and_physical_examination.md`
+  - `03_疾病與臨床主題/PMR_評估總論.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - physiatric H&P 的核心輸出是 `medical problem list + functional problem list`，用來驅動 management plan。
+  - initial plan 應明確寫出 impairments、activity limitation、participation/community role dysfunction、relevant medical conditions 與 interdisciplinary goals。
+  - functional history 至少涵蓋 mobility、ADLs、IADLs、communication、cognition、work、recreation。
+  - psychosocial history 應主動納入 home environment、support system、sexuality、vocation、finances、psychological issues、spirituality。
+- 明確標示的限制：
+  - 這是 textbook framework，不是比較不同 documentation style 成效的研究。
+  - EMR / billing / medicolegal 寫法有 institution-specific 差異，不可把章節格式當唯一標準。
+- index.md 更新：
+  - Total pages 342 -> 343
+- 待處理來源：
+  - `The Physiatric History and Physical Examination handbook`（同主題，但本輪未處理）
+
+## [2026-05-01] correction | Shyu & Liang — The Physiatric History and Physical Examination (Handbook)
+- 類型：handbook / quick reference（Tier 1）
+- 新增頁面：`02_方法學/PMR_H&P_Bedside_Checklist.md`
+- 抽出概念：handbook 的真正價值是把 PM&R 的 function-oriented H&P 轉成 bedside 順序，但輸出仍須回到 medical + functional problem list。
+
+## [2026-05-01] correction | Delgado-Lebron et al. — Wheelchairs and Seating Systems
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`03_疾病與臨床主題/輪椅處方的四大目標.md`
+- 抽出概念：wheelchair prescription 應同時滿足 posture、mobility、pressure management 與 participation，而不是先猜器材型號。
+
+## [2026-05-01] correction | Chen, Kang — Assistive Technology and Environmental Control Devices
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`03_疾病與臨床主題/輔具匹配失敗的常見機制.md`
+- 抽出概念：AT abandonment 常反映 user-fit、training、follow-up 與 environment mismatch，而不是單純 device 等級不足。
+
+## [2026-05-01] correction | Hryvniak, Duncan, Jenkins — Therapeutic Exercise
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`02_方法學/治療性運動處方的最低必要欄位.md`
+- 抽出概念：therapeutic exercise 若沒有 screening、FITT、specificity、progression 與族群調整，就還不是完整處方。
+
+## [2026-05-01] correction | Saby, Zappaterra, Aragaki — Occupational Medicine and Vocational Rehabilitation
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`02_方法學/Return_to_Work_評估骨架.md`
+- 抽出概念：RTW 判讀必須同時看 worker、job demand、employer / policy context 與 workplace modification。
+
+## [2026-05-01] correction | Seidel, Swanson, Hampton — Practical Aspects of Impairment Rating and Disability Determination
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`02_方法學/Impairment與Disability的區分.md`
+- 抽出概念：impairment rating 是 disability determination 的基石，但 disability 不是單一 impairment percentage 的直線外推。
+
+## [2026-05-01] correction | Shahidullah, Hostutler, Baum — Interprofessional Team-Based Care
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`02_方法學/跨專業團隊的共享目標與角色清楚化.md`
+- 抽出概念：多人照護若沒有 shared goals、role clarity 與 care coordination，並不等於真正的 team-based care。
+
+## [2026-05-01] correction | Carter & Lewis — Psychological Assessment and Intervention in Rehabilitation
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`02_方法學/Disability_Adjustment_評估軸.md`
+- 抽出概念：disability adjustment 是非線性 biopsychosocial process，評估不能只看情緒症狀本身。
+
+## [2026-05-01] correction | Yang, Grover, Raval — Quality and Outcome Measures for Medical Rehabilitation
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`02_方法學/Outcome_Process_Performance_Measure_區分.md`
+- 抽出概念：outcome、process、performance measure 回答不同問題；若混用，quality interpretation 會失真。
+
+## [2026-05-01] correction | Seidel, Andary, Dillingham — Electrodiagnostic Medicine
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`02_方法學/EDX_轉介問題設計.md`
+- 抽出概念：高品質 EDX 應先定義 clinical question，再決定 NCS / needle EMG 設計。
+
+## [2026-05-01] correction | Francisco & Li — Spasticity
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`03_疾病與臨床主題/Spasticity與Contracture的區分.md`
+- 抽出概念：臨床 stiffness 至少要分成 reflex hyperexcitability、weakness、co-contraction、contracture 與 peripheral stiffness。
+
+## [2026-05-01] correction | Yochelson, Dennison, Kolarova — Stroke Rehabilitation
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`03_疾病與臨床主題/中風復健中的早期動員時機.md`
+- 抽出概念：stroke early mobilization 不能脫離 subtype 與 hemodynamic stability，尤其 ICH first 24 hours 不是預設安全。
+
+## [2026-05-01] correction | Wagner, Franzese, Weppner — Traumatic Brain Injury
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`03_疾病與臨床主題/TBI_意識障礙與神經行為管理.md`
+- 抽出概念：severe TBI rehab 需要 structured assessment 去分清 disorders of consciousness 與 neurobehavioral complication。
+
+## [2026-05-01] correction | Escalon, Marzloff, Bryce — Spinal Cord Injury
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`03_疾病與臨床主題/SCI_次級併發症風險框架.md`
+- 抽出概念：SCI 的長期 morbidity / mortality 主軸是 pulmonary、autonomic、skin、bowel、bladder 等次級併發症。
+
+## [2026-05-01] correction | Lovegreen, Murphy, Stevens — Lower Limb Amputation and Gait
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`03_疾病與臨床主題/下肢義肢_K_Level_處方邏輯.md`
+- 抽出概念：K-level 是 prosthetic prescription 的骨架，但不能脫離 residual limb、skin、balance 與真實目標。
+
+## [2026-05-01] correction | Hermansen, McKenty — Rehabilitation and Prosthetic Restoration in Upper Limb Amputation
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`03_疾病與臨床主題/上肢義肢匹配決策.md`
+- 抽出概念：upper limb prosthetic prescription 是 category matching，不是 technology race。
+
+## [2026-05-01] correction | Rodriguez, Goetz, Stiens — Neurogenic Bowel: Dysfunction and Rehabilitation
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`03_疾病與臨床主題/Bowel_Program_的社會性控便目標.md`
+- 抽出概念：NBD bowel program 的成功標準是可預測、可接受、time-efficient 的 social continence。
+
+## [2026-05-01] correction | Goetz & Klausner — Neurogenic Lower Urinary Tract Dysfunction
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`03_疾病與臨床主題/NLUTD_腎臟保護優先原則.md`
+- 抽出概念：NLUTD 先保護 upper tract；symptom 與 PVR 都不能取代對高壓 bladder 的警覺。
+
+## [2026-05-01] correction | Singer, Aihara, Gonzalez-Fernandez — Rehabilitation of Swallowing Disorders
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`03_疾病與臨床主題/吞嚥篩檢與Instrumental_Assessment的角色分工.md`
+- 抽出概念：screening、CSE、VFSS 與 FEES 位在同一條 dysphagia decision chain 的不同節點，不能互相替代。
+
+## [2026-05-01] correction | Lew, Hall, Gustafson — Auditory, Vestibular, and Visual Impairments
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`03_疾病與臨床主題/雙重感覺障礙與復健參與.md`
+- 抽出概念：dual sensory impairment 會明顯放大 communication、balance、self-care 與 safety burden，進而壓低 rehab participation。
+
+## [2026-05-01] update | index after 20 sequential single-source runs
+- index.md 更新：Total pages 343 -> 363
+- 本輪新增頁面：20
+- 本輪方法：每次只處理一篇來源，直接落成單一概念頁，不做未標示的跨來源混寫。
+
+## [2026-05-01] correction | Examination of the Pediatric Patient
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`07_Pediatric_Development/Play_Based_Pediatric_Examination.md`
+- 抽出概念：pediatric exam 從 observation 就開始；play、engagement、language 與 motor pattern 本身就是 exam。
+
+## [2026-05-01] correction | Developmental-behavioral surveillance and screening in primary care
+- 類型：UpToDate / topic review（Tier 1）
+- 新增頁面：`07_Pediatric_Development/Surveillance與Screening的區分.md`
+- 抽出概念：surveillance 是 routine responsibility，screening 是 standardized risk detection；兩者都不能取代 evaluation。
+
+## [2026-05-01] correction | Developmental and Behavioral Surveillance and Screening
+- 類型：textbook chapter / review（Tier 1）
+- 新增頁面：`07_Pediatric_Development/Primary_Care_Developmental_Surveillance_流程.md`
+- 抽出概念：developmental surveillance 是每次健康檢查持續進行的 workflow，不是一次量表。
+
+## [2026-05-01] correction | Feeding and Swallowing Disorders
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`07_Pediatric_Development/兒童餵食問題的生理與行為分流.md`
+- 抽出概念：pediatric feeding problem 要先分 feeding 與 swallowing，再分 physiologic 與 mealtime-experiential 問題。
+
+## [2026-05-01] correction | Infancy
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`07_Pediatric_Development/嬰兒期的狀態調節與互動評估.md`
+- 抽出概念：infancy 的核心是 state regulation、attachment、joint attention、play 與 adversity buffer 的同步組裝。
+
+## [2026-05-01] correction | Toddlerhood and the Preschool Years
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`07_Pediatric_Development/學齡前期的自我調節與school_readiness.md`
+- 抽出概念：school readiness 不只是 preacademic skill，而是 language、regulation、social reciprocity 與 adaptive participation 的整體成熟度。
+
+## [2026-05-01] correction | Middle Childhood
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`07_Pediatric_Development/學齡期的同儕歸屬與自我概念.md`
+- 抽出概念：middle childhood 的核心任務是 school adaptation、peer belonging、self-regulation 與 self-concept 的同步重組。
+
+## [2026-05-01] correction | Developmental Delay and Intellectual Disability
+- 類型：textbook chapter / review（Tier 1）
+- 新增頁面：`07_Pediatric_Development/Developmental_Delay_的鑑別起點.md`
+- 抽出概念：GDD 是 early-life descriptive diagnosis；鑑別起點要看 adaptive function、軌跡與 regression。
+
+## [2026-05-01] correction | Language and Speech Disorders
+- 類型：textbook chapter / review（Tier 1）
+- 新增頁面：`07_Pediatric_Development/Speech_Disorder與Language_Disorder的區分.md`
+- 抽出概念：晚講話不能只看字數；至少要分 comprehension、expression、play、hearing 與 broader differential。
+
+## [2026-05-01] correction | Language Development and Communication Disorders
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`07_Pediatric_Development/兒童語言障礙的臨床分流.md`
+- 抽出概念：language disorder 評估要分 phonology、lexicon、syntax、pragmatics、bilingualism 與 disorder differential。
+
+## [2026-05-01] correction | Developmental Considerations in Deafness
+- 類型：textbook chapter / review（Tier 1）
+- 新增頁面：`07_Pediatric_Development/聽損兒童的發展脈絡評估.md`
+- 抽出概念：deaf child outcome 取決於早期辨識、持續 monitoring、家庭支持與 language access，不只看分貝數。
+
+## [2026-05-01] correction | Blindness and Visual Impairment
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`07_Pediatric_Development/視覺障礙兒童的功能評估重點.md`
+- 抽出概念：pediatric visual impairment 評估需同時看 ocular、optic pathway 與 CVI，而不是只找 refractive error。
+
+## [2026-05-01] correction | Consequences of Preterm Birth
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`07_Pediatric_Development/早產兒的長期神經發展風險.md`
+- 抽出概念：preterm birth 的長期結局不只 CP；motor、language、learning、behavior 與 sensory 問題有不同浮現時序。
+
+## [2026-05-01] correction | Early Intervention
+- 類型：textbook chapter / systems review（Tier 1）
+- 新增頁面：`07_Pediatric_Development/Early_Intervention_的時機與核心目標.md`
+- 抽出概念：EI 是把發展支持嵌入 child 與 family daily routine 的系統，而不是一張轉介單。
+
+## [2026-05-01] correction | Trauma, Resilience, and Child Development
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`07_Pediatric_Development/創傷復原中的保護因子框架.md`
+- 抽出概念：child trauma 的結果取決於 trauma 類型、累積 adversity 與 supportive relationship 等保護系統。
+
+## [2026-05-01] correction | Foster Care and Adoption
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`07_Pediatric_Development/Foster_Care_的發展風險框架.md`
+- 抽出概念：foster care / adoption 的臨床重點是 preadoptive adversity、transition、postadoptive support 與 identity development。
+
+## [2026-05-01] correction | Child Care
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`07_Pediatric_Development/Child_Care_品質與發展結果.md`
+- 抽出概念：child care 重要的不只是有沒有位子，而是 quality、health-safety integration 與 inclusion。
+
+## [2026-05-01] correction | Celebrating Sociocultural Diversity in the Exam Room and Addressing Racism and Bias
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`07_Pediatric_Development/診間中的文化敏感性與偏誤辨識.md`
+- 抽出概念：cultural humility、bias awareness 與 structural competency 都應被視為 developmental encounter 的臨床工具。
+
+## [2026-05-01] correction | The Influence of Digital Media on Children and Families
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`07_Pediatric_Development/數位媒體對兒童發展的風險分層.md`
+- 抽出概念：digital media 風險不只看時數，還要看 content、context、parent mediation 與 displacement effect。
+
+## [2026-05-01] correction | Exercise textbook chapter
+- 類型：textbook chapter（Tier 1）
+- 新增頁面：`05_Exercise_Physiology/運動時氧供調節的整合視角.md`
+- 抽出概念：external power 增加時，VO2、cardiac output、oxygen extraction 與 ventilation 必須同步上調；VO2 不是只代表 lungs。
+
+## [2026-05-01] update | index after second 20 sequential single-source runs
+- index.md 更新：Total pages 363 -> 383
+- 本輪新增頁面：20
+- 本輪方法：每次只處理一篇來源，直接落成單一概念頁，不做未標示的跨來源混寫。
+
+## [2026-05-01] correction | Developmental Considerations in Deafness
+- 類型：textbook chapter（Tier 1）
+- 修正方式：本輪只讀這一篇來源，但依內容密度拆成多個單一概念頁。
+- 更新頁面：
+  - `09_來源摘要/Developmental_Considerations_in_Deafness.md`
+  - `07_Pediatric_Development/兒童聽覺障礙與Deafness.md`
+  - `07_Pediatric_Development/聽損兒童的發展脈絡評估.md`
+  - `index.md`
+- 新增頁面：
+  - `07_Pediatric_Development/新生兒聽力篩檢之後的持續監測.md`
+  - `07_Pediatric_Development/Language_Access_作為聽損介入核心.md`
+  - `07_Pediatric_Development/發展障礙兒童的聽損遮蔽效應.md`
+  - `07_Pediatric_Development/依發展年齡選擇兒童聽力測試.md`
+- 本輪抽出的直接事實：
+  - newborn hearing screen 只是起點，不排除 delayed-onset 或 progressive hearing loss。
+  - cCMV 與 NICU / hyperbilirubinemia / ototoxic exposure 等風險因子需進入後續 surveillance。
+  - deaf child 的介入核心是 language access，不是單純 speech-only framing。
+  - intellectual disability、CP、ASD、Down syndrome 等族群的 hearing issue 容易被主診斷遮蔽。
+  - audiologic evaluation 與認知 / 語言 assessment 都應依 developmental age 與 deaf-informed principle 選工具。
+- index.md 更新：
+  - Total pages 383 -> 387
+
+## [2026-05-01] correction | Murano, Sawyer, Lipnevich — A Meta-Analytic Review of Preschool Social and Emotional Learning Interventions
+- 類型：meta-analysis（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Murano-et-al-2020-preschool-SEL-interventions-copy\Murano-et-al-2020-preschool-SEL-interventions-copy.md`
+- 新增頁面：
+  - `09_來源摘要/Murano_2020_preschool_SEL_interventions.md`
+  - `07_Pediatric_Development/學前SEL介入的分層與情境堆疊.md`
+- 更新頁面：
+  - `07_Pediatric_Development/學齡前期的自我調節與school_readiness.md`
+  - `07_Pediatric_Development/正向教養與家庭支持.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - preschool universal SEL 對 social and emotional skills 與 problem behavior 有 small-to-medium overall benefit（grand mean `g = .35`）。
+  - targeted SEL 對 at-risk preschoolers 的 overall benefit 較大（grand mean `g = .48`；problem behavior `g = .50`）。
+  - 在 universal programs 中，at-risk samples 的 effect size 較小（`g = .21`）than non-at-risk samples（`g = .29`）。
+  - intervention program type 解釋 universal effect heterogeneity 的大部分（`R2 = .83`）；`SEL` 不是單一可互換 treatment label。
+  - universal preschool SEL 中，parent + teacher、home + school 的情境堆疊效果高於 teacher-only school delivery（`g = .53` vs `g = .28`）。
+- 明確標示的限制：
+  - program 間比較來自 observational moderator analysis，不能做直接 causal ranking。
+  - combined universal analysis 有 publication bias 訊號；trim-and-fill 後 true effect CI 含 0。
+  - 多數 cluster-randomized primary study 缺 ICC，部分 effect size 無法完整校正。
+- index.md 更新：
+  - Total pages 387 -> 389
+- 待處理來源：
+  - `Child Psychology Psychiatry - 2023 - Nelson - Annual Research Review  Early intervention viewed through the lens of developmental neuroscience`

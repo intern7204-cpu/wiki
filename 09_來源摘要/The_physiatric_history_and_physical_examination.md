@@ -1,7 +1,7 @@
 ---
 title: Barker, Cui, Kasitinon — The Physiatric History and Physical Examination
 created: 2026-04-23
-updated: 2026-04-24
+updated: 2026-05-01
 type: source_summary
 domain: [rehabilitation, PMR, methodology]
 tags: [physiatry, history_and_physical, functional_assessment, ICF, gait, textbook]
@@ -62,6 +62,7 @@ PM&R 的 history and physical 不是只為了找 diagnosis，而是要把 **impa
 ### 對現有 wiki 的意義
 
 - 為 [[../03_疾病與臨床主題/PMR_評估總論]] 建立 PM&R 基礎頁。
+- 另拆出 [[../02_方法學/PMR_醫療問題與功能問題清單]]，把 H&P 的核心輸出格式獨立成單一概念頁。
 - 支持 [[../01_核心概念/ICF_功能框架]]、[[../06_Gait_Biomechanics/步態評估總論]]、[[../02_方法學/電生理診斷醫學]] 的上位 framing。
 - 讓後續 TBI、SCI、stroke、amputation 等章節可以用同一套評估語言回寫。
 
@@ -109,6 +110,7 @@ PM&R 的 history and physical 不是只為了找 diagnosis，而是要把 **impa
 ### 相關 wiki 頁面
 
 - [[../03_疾病與臨床主題/PMR_評估總論]]
+- [[../02_方法學/PMR_醫療問題與功能問題清單]]
 - [[../01_核心概念/ICF_功能框架]]
 - [[../06_Gait_Biomechanics/步態評估總論]]
 - [[../02_方法學/電生理診斷醫學]]

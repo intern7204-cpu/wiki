@@ -1,7 +1,7 @@
 ---
 title: Cerebral Palsy 總論
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-04-26
 type: clinical
 domain: [pediatric, neurodevelopmental, rehabilitation, PMR]
 tags: [cerebral_palsy, GMFCS, comorbidity, participation, tone, transition]
@@ -134,6 +134,15 @@ Cerebral Palsy (CP) 是 **developing fetal or infant brain 的非進行性損傷
 - confidence：high
 
 ## 相關頁面
+
+### CP 子頁（依 Feynman 骨架單一概念）
+
+- [[CP_早期辨識與診斷]]
+- [[CP_功能分類系統]]
+- [[CP_髖部監測]]
+- [[CP_張力管理]]
+- [[CP_呼吸照護]]
+- [[CP_骨骼健康與骨折]]
 
 ### 相關頁面
 

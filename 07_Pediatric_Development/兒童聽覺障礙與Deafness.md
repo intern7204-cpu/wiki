@@ -37,6 +37,7 @@ contradictions:
 
 - 很多 child 的 hearing loss 是 delayed-onset 或 progressive。
 - cCMV、NICU history、hyperbilirubinemia、ototoxic medication、meningitis、head trauma、noise exposure 都會改變後續風險。
+- 這個 surveillance 問題可獨立見 [[新生兒聽力篩檢之後的持續監測]]。
 
 ### high-risk child 特別容易被漏
 
@@ -45,6 +46,7 @@ contradictions:
 - ASD
 - intellectual disability
 - other syndromic / medically complex child
+- 這種 diagnostic overshadowing 可獨立見 [[發展障礙兒童的聽損遮蔽效應]]。
 
 ## 臨床表現
 
@@ -68,6 +70,7 @@ contradictions:
   - VRA
   - CPA
 - 對有語言遲緩 child，要把 hearing loss 放進 routine differential。
+- 測試選擇原則可獨立見 [[依發展年齡選擇兒童聽力測試]]。
 
 ## 治療原則
 
@@ -78,6 +81,7 @@ contradictions:
 - language access
 - family-centered planning
 - 與 EI / speech-language / vision / AAC 等跨專業協作
+- `language access` 的核心概念可獨立見 [[Language_Access_作為聽損介入核心]]。
 
 ## 臨床決策點
 
@@ -130,5 +134,9 @@ contradictions:
 - [[晚語兒_Late_Talker]]
 - [[Early_Intervention_總論]]
 - [[小兒復健評估]]
+- [[新生兒聽力篩檢之後的持續監測]]
+- [[Language_Access_作為聽損介入核心]]
+- [[發展障礙兒童的聽損遮蔽效應]]
+- [[依發展年齡選擇兒童聽力測試]]
 - [[../03_疾病與臨床主題/感覺障礙復健總論]]
 - [[../09_來源摘要/Developmental_Considerations_in_Deafness]]

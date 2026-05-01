@@ -1,7 +1,7 @@
 ---
 title: Developmental Considerations in Deafness
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-05-01
 type: source_summary
 domain: [pediatric, hearing, neurodevelopment]
 tags: [deafness, hearing_loss, language_access, cCMV, audiology, textbook_chapter]
@@ -92,6 +92,11 @@ contradictions:
 ### 這篇對 wiki 主幹的價值
 
 - 建立 [[../07_Pediatric_Development/兒童聽覺障礙與Deafness]] 的核心框架。
+- 補出 4 個單一概念頁：
+  - [[../07_Pediatric_Development/新生兒聽力篩檢之後的持續監測]]
+  - [[../07_Pediatric_Development/Language_Access_作為聽損介入核心]]
+  - [[../07_Pediatric_Development/發展障礙兒童的聽損遮蔽效應]]
+  - [[../07_Pediatric_Development/依發展年齡選擇兒童聽力測試]]
 - 補強 [[../03_疾病與臨床主題/感覺障礙復健總論]] 的 auditory pediatric 區塊。
 - 也直接連到 [[../07_Pediatric_Development/晚語兒_Late_Talker]] 與 [[../07_Pediatric_Development/發展監測與篩檢]]。
 
@@ -145,6 +150,10 @@ contradictions:
 ### 相關頁面
 
 - [[../07_Pediatric_Development/兒童聽覺障礙與Deafness]]
+- [[../07_Pediatric_Development/新生兒聽力篩檢之後的持續監測]]
+- [[../07_Pediatric_Development/Language_Access_作為聽損介入核心]]
+- [[../07_Pediatric_Development/發展障礙兒童的聽損遮蔽效應]]
+- [[../07_Pediatric_Development/依發展年齡選擇兒童聽力測試]]
 - [[../03_疾病與臨床主題/感覺障礙復健總論]]
 - [[../07_Pediatric_Development/晚語兒_Late_Talker]]
 - [[../07_Pediatric_Development/發展監測與篩檢]]

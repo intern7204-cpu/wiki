@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feynman-Euclidean Summary"
+  short_description: "Single-source medical summary and concept-page builder"
+  default_prompt: "Use $feynman-euclidean-summary to read one source, write one source summary, and split it into separate concept pages when needed."

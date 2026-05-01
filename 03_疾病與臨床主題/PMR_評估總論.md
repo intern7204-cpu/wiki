@@ -68,6 +68,7 @@ PM&R assessment 的任務是回答三件事：**病灶在哪裡、它如何限�
 ### 評估輸出
 
 - 輸出不是只有 diagnosis，而是 medical problem list + functional problem list。
+- 若要把這個輸出格式單獨展開，見 [[../02_方法學/PMR_醫療問題與功能問題清單]]。
 - 每個問題都要對應 precaution、treatment target、assistive technology、環境調整與 team referral。
 - 目標要分 short-term 與 long-term，並清楚說明時間框架。
 - orthosis、wheelchair/seating、assistive technology、exercise prescription 常是 assessment 後的直接處方輸出，不應留到最後才想。
@@ -124,6 +125,7 @@ PM&R assessment 的任務是回答三件事：**病灶在哪裡、它如何限�
 ### 相關頁面
 
 - [[../01_核心概念/ICF_功能框架]]
+- [[../02_方法學/PMR_醫療問題與功能問題清單]]
 - [[../02_方法學/電生理診斷醫學]]
 - [[../06_Gait_Biomechanics/步態評估總論]]
 - [[../07_Pediatric_Development/小兒復健評估]]
