@@ -1,7 +1,7 @@
 # 知識百科索引
 
 > 個人醫學知識百科總索引。每頁一行：`[[連結]] — 一句話摘要 — 分類：主題分類 — 來源層級`
-> Last updated: 2026-05-01 | Total pages: 389
+> Last updated: 2026-05-03 | Total pages: 465
 > Restart baseline: 2026-05-01 起改回單一來源 ingest；舊有 batch-ingest 相關頁面保留，但需逐篇 correction。
 
 ## 00 總覽
@@ -34,6 +34,9 @@
 - [[02_方法學/Disability_Adjustment_評估軸]] — disability adjustment 是非線性 biopsychosocial process；評估不能只看 depression — 分類：方法學 — Tier 1
 - [[02_方法學/Outcome_Process_Performance_Measure_區分]] — outcome、process、performance measure 回答不同問題；混用會讓 quality 判讀失真 — 分類：方法學 — Tier 1
 - [[02_方法學/EDX_轉介問題設計]] — 高品質 EDX 先定義 referral question，再決定 NCS / needle EMG，不是先做檢查再想問題 — 分類：方法學 — Tier 1
+- [[02_方法學/Neurorehabilitation_目標設定與Team_Based_Care]] — neurorehabilitation team care 需用 shared functional goals、coordinated practice 與 home/community transition 串起來 — 分類：方法學 — Tier 1
+- [[02_方法學/Neurorehabilitation_Outcome_Measurement]] — neurorehabilitation outcome 需分 impairment、activity、participation、psychosocial needs 與 HRQoL，不可只看單一 ADL 分數 — 分類：方法學 — Tier 1
+- [[02_方法學/Neurorehabilitation_Motor_Learning與Plasticity]] — motor learning 的核心是 goal-directed practice、feedback、progression 與 self-management；technology 只是 adjunct — 分類：方法學 — Tier 1
 
 ## 03 疾病與臨床主題
 - [[03_疾病與臨床主題/PMR_評估總論]] — PM&R assessment 以功能、環境與 team planning 為核心輸出 — 分類：疾病與臨床主題 — Tier 1
@@ -62,6 +65,52 @@
 - [[03_疾病與臨床主題/中風復健中的早期動員時機]] — 中風早期動員不能只喊越早越好；病型與 hemodynamic stability 會改變安全窗口 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/TBI_意識障礙與神經行為管理]] — severe TBI rehab 要用 structured assessment 分清 DoC 與 neurobehavioral complication，兩者都會改變 participation — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/SCI_次級併發症風險框架]] — SCI 的長期風險主軸是 pulmonary、autonomic、skin、bowel、bladder 等 secondary complication — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Traumatic_SCI_急性處置與復健銜接]] — traumatic SCI 急性處置需把 airway、MAP、ISNCSCI、stabilization、complication prevention 與早期復健串成一條路徑 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/SCI_共病TBI與運動學習調整]] — co-occurring TBI 會讓 SCI rehabilitation 變成 cognition-aware motor learning problem — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/疼痛管理_Biopsychosocial_ICF框架]] — pain management 應以 biopsychosocial / ICF formulation 處理 tissue、nervous system、belief、behavior 與 participation — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/疼痛評估_OPQRST與多維度量測]] — pain assessment 不能只問 0-10 分，需結合 OPQRST、red flags、function、psychosocial 與 observed movement — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/慢性疼痛復健的主動化治療框架]] — chronic pain rehab 應把被動止痛轉成 active self-management、graded activity、CBT-style strategy 與 participation — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/慢性疼痛中的Peripheral與Central_Sensitization]] — chronic pain 的 sensitization 是 pain gain 被調高，不等於單一組織還在受傷 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/神經痛藥物治療框架]] — neuropathic pain 藥物先用 TCA/SNRI/gabapentinoid 等 adjuvant，而非直接長期 opioid — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/CRPS_臨床辨識與治療限制]] — CRPS 是 regional pain + autonomic/sensory/motor/trophic pattern；診斷臨床且需排除 mimic — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/周邊神經損傷分類與恢復機制]] — peripheral nerve injury prognosis 取決於 demyelination、axonal loss、scaffold integrity 與 recovery mechanism — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/周邊神經病灶定位與EDX_US框架]] — peripheral nerve localization 需把 clinical distribution、EDX physiology 與 ultrasound structure 對齊 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/周邊多發神經病變_典型與非典型型態]] — polyneuropathy 先分 typical length-dependent axonal pattern 與需升級診斷的 atypical pattern — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Myopathy_診斷框架]] — myopathy workup 從 motor-predominant weakness pattern 進入 CK、EDX、imaging、biopsy 與 genetic testing — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Myopathy_復健管理原則]] — myopathy rehabilitation 應以疾病特異 exercise safety、contracture prevention、equipment 與 participation 為主軸 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Myopathy_呼吸心臟吞嚥風險]] — myopathy 風險不能只看 limb weakness；respiratory、cardiac、bulbar 系統會決定安全性 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/ALS_診斷框架]] — ALS diagnosis 需 progressive motor impairment、UMN / LMN regional pattern 與 mimic exclusion，不能靠單一 MRI / lab / EDX 定案 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/ALS_復健呼吸營養與溝通照護]] — ALS care 是 anticipatory multidisciplinary care，需同步處理 mobility、NIV、nutrition、AAC 與 palliative planning — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/SMA_基因治療後的復健管理]] — SMN-restoring therapy 改變 SMA trajectory，但 pulmonary、nutrition、orthopedic 與 rehabilitation needs 仍需長期追蹤 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/MS_診斷與Mimic排除]] — MS diagnosis 需 DIS / DIT 與 no better explanation；McDonald criteria 不能取代 mimic exclusion — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/MS_步態與Spasticity復健框架]] — MS mobility care 要把 walking speed、endurance、spasticity、weakness、fatigue、heat intolerance 與 assistive strategy 一起看 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/MS_Fatigue與Heat_Sensitivity管理]] — MS fatigue 與 Uhthoff phenomenon 應先排除 secondary causes，再用 cooling、pacing、sleep / mood care 與 graded exercise 管理 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Movement_Disorder_現象學分類]] — movement disorder 評估先描述 excessive / paucity、rest / action、rhythm、distractibility 與 task specificity，不先猜病名 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Parkinson_Disease_診斷與Mimic排除]] — PD 是 clinical diagnosis；需用 bradykinesia、rest tremor、rigidity、gait pattern 與 medication / vascular / atypical mimic 排除建模 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Parkinson_Disease_復健與非運動症狀管理]] — PD management 不能只調 levodopa；nonmotor symptoms、PT、ADL adaptation、swallowing 與 caregiver burden 也決定 disability — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Parkinson_Plus_Syndrome_紅旗]] — PSP、MSA、CBGD 的 early falls、autonomic failure、cerebellar / cortical signs 與 poor levodopa response 會改變 prognosis-aware rehab — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/正常老化與Pathological_Cognitive_Decline]] — normal brain aging 可有 executive demand vulnerability，但不等於 pathological cognitive decline 或 dementia — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Delirium_Depression_Dementia_鑑別]] — 急性波動先想 delirium；depression 可模擬 dementia；dementia 需看 progressive decline 與 independence loss — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Dementia_復健與Caregiver支持框架]] — dementia rehabilitation 以 stage、ADL/IADL、mobility、environment、caregiver 與 quality of life 為核心 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Brainstem_Localization_客觀徵象框架]] — brainstem localization 先看 cranial nerve level、long tract 與 crossed signs，不先硬套 eponym — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Brainstem_Ocular_Motor_Syndromes]] — ocular motor pattern 可定位 riMLF、posterior commissure、MLF、PPRF/CN VI nucleus 並排除 extraaxial mimic — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Brainstem_Stroke_交叉徵象與Locked_In]] — brainstem stroke 需辨識 crossed signs、bulbar risk 與 locked-in syndrome；locked-in 不是 coma — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Stroke_Movement_Dysfunction_Impairment_Model]] — poststroke movement dysfunction 要分 primary、secondary 與 composite impairment，不能只寫 hemiparesis/spasticity — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Poststroke_Spasticity與Hypertonicity區分]] — poststroke spasticity 是 velocity-dependent reflex；hypertonicity 是較廣義 passive resistance，兩者不能混用 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Poststroke_Movement_Reeducation與Compensation]] — poststroke motor reeducation 要在 active practice 與必要 compensation 之間明確取捨，避免 learned nonuse — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/上肢疼痛與功能障礙評估總論]] — upper limb pain 評估需把局部診斷放回 kinetic chain 與功能需求 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Rotator_Cuff_Tendon_Disease]] — rotator cuff spectrum 要分 tendinopathy/partial/chronic tear 與 acute traumatic full-thickness tear — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/上肢急性肌腱與腕韌帶轉介紅旗]] — distal biceps、pectoralis major、acute full-thickness cuff、scapholunate 等需早期手術評估 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/頸部疼痛評估總論]] — neck pain 先分 axial、somatic referred 與 radicular/myelopathic pattern — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Cervical_Radiculopathy]] — cervical radicular pain 與 radiculopathy 不同；影像需與 exam/EDX 對齊 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Cervical_Myelopathy_紅旗]] — gait、UMN sign、hand wasting、bladder change 代表 cervical cord risk，不能當一般 neck pain — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/下背痛評估總論]] — LBP 評估先做 red/yellow flags、radicular vs nonspecific vs specific source，而非先 MRI — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/下背痛影像與Red_Flags]] — lumbar imaging 要有明確意圖；急性 uncomplicated LBP 早期 MRI 可能增加手術與成本 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Lumbosacral_Radiculopathy]] — lumbosacral radicular pain 多是 inflamed root problem，不是單純被壓就痛 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Lumbar_Spinal_Stenosis]] — lumbar stenosis 的 neurogenic claudication 以 extension load 與 walking tolerance 為臨床核心 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Nociceptive_Neuropathic_Nociplastic_Pain]] — chronic pain 分型至少要分 nociceptive、neuropathic、nociplastic，且可重疊 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/慢性疼痛的CBT_CP與Pacing]] — CBT-CP 不是否定疼痛，而是改變 pain、thought、emotion、behavior 的惡性迴圈 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/慢性疼痛Opioid與Buprenorphine風險框架]] — chronic pain opioid decision 要同時看 function、risk、taper harm、OUD ambiguity 與 buprenorphine option — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/下肢義肢_K_Level_處方邏輯]] — K-level 是下肢義肢處方骨架，但不能脫離殘肢、皮膚、平衡與真實目標單獨使用 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/上肢義肢匹配決策]] — 上肢義肢處方不是 technology race，而是把 level、device category、tasks 與維修現實配對起來 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Bowel_Program_的社會性控便目標]] — NBD bowel program 的成功標準是可預測、可接受且 time-efficient 的 social continence — 分類：疾病與臨床主題 — Tier 1
@@ -163,15 +212,23 @@
 - [[07_Pediatric_Development/兒童餵食問題的生理與行為分流]] — pediatric feeding problem 要先分 feeding 與 swallowing，再分 physiologic 與 mealtime-experiential 問題 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/Speech_Disorder與Language_Disorder的區分]] — 晚講話不能只看字數；至少要分 comprehension、expression、play、hearing 與 broader differential — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/兒童語言障礙的臨床分流]] — language disorder 評估要分 phonology、lexicon、syntax、pragmatics、bilingualism 與 disorder differential — 分類：Pediatric Development — Tier 1
-- [[07_Pediatric_Development/Cerebral_Palsy_總論]] — CP 是 nonprogressive brain injury 所致的 lifelong motor disorder framework，不只是一個 tone label — 分類：Pediatric Development — Tier 1
-- [[07_Pediatric_Development/CP_早期辨識與診斷]] — < 6 月齡可下「high risk for CP」工作診斷；HINE + GMs + 影像三軸；MRI 正常不排除 CP — 分類：Pediatric Development — Tier 1
-- [[07_Pediatric_Development/CP_功能分類系統]] — GMFCS / MACS / EDACS 等七系統評 usual performance 而非 capability；多軸獨立評估 — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/Cerebral_Palsy_總論]] — CP 是 developing brain 的 nonprogressive disturbance，但 phenotype、共病與功能負擔會跨生命期演變 — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/CP_早期辨識與診斷]] — GMA fidgety period + HINE + MRI 是 early detection 主軸；MRI 正常不排除 CP，regression 要回 differential — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/CP_功能分類系統]] — CP 分類不能只寫 topography；GMFCS / MACS / CFCS / EDACS / VFCS 與 ICF-CY 要一起用來描述 usual performance — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/CP_髖部監測]] — AACPDM hip surveillance：2 歲做 baseline AP pelvis，依 GMFCS 分層追蹤；MP 30/40% 是介入門檻 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/CP_張力管理]] — 階梯：rehab → oral → focal injection → ITB / SDR；spasticity vs dystonia 藥物選擇邏輯不同；目標是 redistribution 不是 elimination — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/CP_呼吸照護]] — 呼吸是 CP 死亡與失能主因；Gibson 2021 高風險清單 + AACPDM Sialorrhea care pathway + low-threshold 感染處置 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/CP_骨骼健康與骨折]] — 多因子骨質下降（immobility + 營養 + 藥物 + puberty）；首次骨折後風險倍增；bisphosphonate 是 treatment 不是 prevention — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/CP_成人轉銜與老化風險]] — adult CP 不是把 pediatric chart 轉出去而已；要提前準備 autonomy、handoff 與 pain / fatigue / mobility decline 監測 — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/Myelomeningocele_總論]] — MMC 是 open spinal dysraphism；核心臨床負擔是 motor、neuro-urologic、Chiari/hydrocephalus、orthopedic 與 neuropsych profile 的組合 — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/MMC_胎兒修補與功能結果]] — prenatal MMC repair 能改善 shunt、mobility 與部分 self-care outcome，但伴隨 prematurity 與 maternal risk — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/MMC_水腦分流與Chiari_II警訊]] — 在 MMC，stridor、apnea、behavior change、new low back/hip pain 都必須把 shunt/Chiari 問題放進前段 differential — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/MMC_運動神經功能層級與步行預後]] — MMC mobility prognosis 要看 functional motor level、quadriceps/iliopsoas strength、sitting balance 與 treatable complication，不是只看解剖缺損高度 — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/MMC_神經性膀胱與腎功能保護]] — MMC bladder management 的上位目標是 renal preservation；baseline urodynamics、renal ultrasound、creatinine 與 proactive CIC 是骨架 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/Early_Intervention_總論]] — EI 是 birth to 2 years 的 family-centered developmental service system，不是零散 therapy slot — 分類：Pediatric Development — Tier 1
-- [[07_Pediatric_Development/Early_Intervention_的時機與核心目標]] — EI 是把發展支持嵌入 child 與 family daily routine 的系統，而不是一張轉介單 — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/Early_Intervention_的時機與核心目標]] — EI 的 timing 要看 multiple / cascading critical periods；早轉介很重要，但 age 3 不是神經生物學終點 — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/經驗期待型發展與早期介入窗口]] — early intervention 的 timing 應看 experience-expectant input 與多個 sensitive / critical windows，而不是單一年齡門檻 — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/Caregiving_Quality_作為早期介入靶點]] — caregiving quality 會經由 stimulation、responsivity 與 stress buffering 進入 brain development，是 disadvantaged child intervention 的核心靶點之一 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/托育與Early_Care_and_Education]] — child care / ECE 是 developmental environment 與 social determinant，不只是家長托育安排 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/Child_Care_品質與發展結果]] — child care 重要的不只是有沒有位子，而是 quality、health-safety integration 與 inclusion — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/發展環境穩定性]] — 穩定性是 resources、relationships 與 routines 的可預測組合，不等於完全不變 — 分類：Pediatric Development — Tier 2
@@ -261,6 +318,22 @@
 - [[09_來源摘要/Traumatic_brain_injury]] — Wagner et al.；TBI 從 concussion 到 DoC、agitation、PSH 與 endocrine/sleep/vision complication — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Stroke_rehabilitation]] — Yochelson et al.；stroke rehab 結合 recurrence vigilance、guideline-based sequelae care 與 exercise — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Spinal_cord_injury]] — Escalon et al.；SCI 的 ISNCSCI/AIS、autonomic/pulmonary/bowel/bladder 主架構 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Traumatic_Spinal_Cord_Injury]] — Ackerman et al.；traumatic SCI 從急性穩定、ISNCSCI/AIS、secondary complication prevention 到 lifelong community reintegration 的 textbook chapter — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Pain_Management]] — Burke-Doe & Johnson；pain management 要從 intensity-only 轉成 biopsychosocial / ICF、multidimensional assessment 與 active self-management — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Bradley_Daroff_Pain_Management]] — neurology textbook chapter；把 chronic pain 連到 sensitization、neuropathic medication、intervention 與 neurological pain syndromes — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Upper_Limb_Pain_and_Dysfunction]] — textbook chapter；upper limb pain 需同時看 kinetic chain、exam、rehab stage 與 urgent surgical referral — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Common_Neck_Problems]] — textbook chapter；neck pain 必須分 axial、somatic referred、radicular pain、radiculopathy 與 myelopathy — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Low_Back_Disorders]] — textbook chapter；LBP workflow 先分 red/yellow flags、radiculopathy、nonspecific pain 與 imaging intent — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Chronic_Pain]] — textbook chapter；chronic pain 是 physiology + psychosocial + function + opioid-risk 的 multidisciplinary problem — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Peripheral_Nerve_Disorders]] — textbook chapter；peripheral nerve disorder 需依 localization、fiber type、EDX / ultrasound、time course 與 complication risk 建模 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Myopathic_Disorders]] — textbook chapter；myopathy 需用 weakness pattern、diagnostic testing、rehab management 與 multisystem risk framing — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Motor_Neuron_Diseases]] — textbook chapter；MND 需用 UMN / LMN pattern、EDX mimic exclusion、respiratory / nutrition / communication care 與 SMA treatment-era rehab framing — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Multiple_Sclerosis]] — textbook chapter；MS 需把 McDonald diagnosis、DMT、gait / spasticity、fatigue / heat sensitivity 與 hidden symptom screening 一起管理 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]] — textbook chapter；movement disorders 需先做 phenomenology，再分 PD、hyperkinetic disorders 與 Parkinson-plus red flags — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Aging_Dementia_and_Disorders_of_Cognition]] — textbook chapter；dementia care 要先鑑別 normal aging、delirium、depression，再以 stage、function、caregiver 與 nonpharmacologic care 管理 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Brainstem_Syndromes]] — textbook chapter；brainstem diagnosis 以 objective signs、ocular motor pattern、crossed signs 與 posterior circulation context 定位 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Movement_Dysfunction_in_Stroke]] — textbook chapter；poststroke movement rehab 應分析 weakness、timing、sensory、tone、pain、edema、compensation 與 task performance — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Neurological_Rehabilitation]] — textbook chapter；neurorehabilitation 是 goal-directed、team-based、measurement-driven motor learning and self-management process — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Lower_limb_amputation_and_gait]] — Lovegreen et al.；下肢截肢的 level selection、K-level prescription 與 prosthetic gait deviations — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Rehabilitation_of_swallowing_disorders]] — Singer et al.；dysphagia 的 screening/CSE/VFSS/FEES 與 compensatory/restorative treatment 框架 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Neurogenic_bowel_dysfunction_and_rehabilitation]] — Rodriguez et al.；NBD 的 bowel program、social continence 與 supraconal/infraconal 分型 — 分類：來源摘要 — Tier 1
@@ -327,6 +400,7 @@
 - [[09_來源摘要/Biomechanics_of_the_Hip_Knee_and_Ankle]] — textbook chapter；orthosis 需同時看 direct force system、GRF manipulation、footwear 與 tuning — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Blindness_and_Visual_Impairment]] — textbook chapter；pediatric visual impairment 需同時處理 ocular disease、prematurity 與 CVI — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders]] — textbook chapter；CP 需從 diagnosis、classification、comorbidity 到 transition 做 lifelong framing — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Cerebral_Palsy]] — textbook chapter；補強 CP 的 GMA/HINE/MRI、functional prognosis、multisystem burden 與 adult aging risk — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Child_Care]] — textbook chapter；child care / ECE 是 child development 與 family stability 的 social determinant — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Childhood_Obesity]] — textbook chapter；childhood obesity 需同時看 BMI、sleep、mental health、family routine 與 weight stigma — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Consequences_of_Preterm_Birth]] — textbook chapter；preterm birth 的 long-term burden 橫跨 motor、language、learning、behavior 與 sensory outcome — 分類：來源摘要 — Tier 1
@@ -354,6 +428,8 @@
 - [[09_來源摘要/Intellectual_disability_ID_in_children_Management_outcomes_and_prevention]] — UpToDate；ID 的 management、transition 與 preventive follow-up 以 functioning 為核心 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Iliotibial_band_syndrome]] — UpToDate；ITBS 應以 clinical diagnosis 與 load-based rehab 理解，而非單純 friction theory — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Knee_Injuries_in_Runners]] — textbook chapter；runner knee pain 需用 location-based differential、single-leg squat 與 staged rehab 解讀 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms]] — textbook chapter；MMC 要從 fetal screening/repair、hydrocephalus/Chiari、motor-level prognosis、neuro-urology 與 neuropsychology 一起看 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Nelson_2023_early_intervention_developmental_neuroscience]] — Annual Research Review；用 developmental neuroscience 重寫 early intervention：plasticity、caregiving target 與 later window 都要一起看 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Neurodevelopmental_and_Executive_Function_and_Dysfunction]] — textbook chapter；EF 是跨場域 neurodevelopmental function，不可直接等同 ADHD — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Patellofemoral_pain]] — UpToDate；PFP 是 loaded flexed-knee anterior pain syndrome，且屬 diagnosis of exclusion — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Running_Gait_Assessment]] — textbook chapter；running gait analysis 應放在完整 runner evaluation 的最後一段 — 分類：來源摘要 — Tier 1

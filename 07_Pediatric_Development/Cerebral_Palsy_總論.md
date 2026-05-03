@@ -1,12 +1,13 @@
 ---
 title: Cerebral Palsy 總論
 created: 2026-04-24
-updated: 2026-04-26
+updated: 2026-05-01
 type: clinical
 domain: [pediatric, neurodevelopmental, rehabilitation, PMR]
 tags: [cerebral_palsy, GMFCS, comorbidity, participation, tone, transition]
 sources:
   - 09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
+  - 09_來源摘要/Cerebral_Palsy.md
   - 09_來源摘要/Consequences_of_Preterm_Birth.md
   - 09_來源摘要/Detailed_neurologic_assessment_of_infants_and_children.md
 source_tier: 1
@@ -28,6 +29,10 @@ Cerebral Palsy (CP) 是 **developing fetal or infant brain 的非進行性損傷
 
 ### 核心概念
 
+- CP commonly arises from prematurity-related ischemic / hemorrhagic injury along periventricular tracts, but **term / near-term stroke、brain malformation、infection、and multifactorial prenatal-perinatal injury** 也都可以落在 CP spectrum。
+- global birth prevalence 約 **1.6–3.4 / 1000 live births**；very low birth weight 約 **59.6 / 1000**，very early gestation 約 **111.8 / 1000**，代表 prematurity 仍是最強 risk concentration。
+- registry data 顯示很多 child 的 etiology 不是單一事件，而是多重 risk factor 疊加；這也是為什麼 **CP diagnosis 是 clinical phenotype description，不是單一病因標籤**。
+- genetic contribution 不能再被當成邊角料：系統性回顧與 meta-analysis 指出 CP cohort 的 **genetic diagnostic yield 約 31.1%**，代表 atypical course 或 imaging 不吻合時要提高對 exome / genetics workup 的警覺。
 - CP diagnosis 需要：
   - nonprogressive motor abnormality
   - developmental history 支持
@@ -54,6 +59,17 @@ Cerebral Palsy (CP) 是 **developing fetal or infant brain 的非進行性損傷
   - CFCS
   - VFCS
 - 重點是描述 **usual performance**，不是單次門診 capability。
+- 這份 textbook chapter 也強調 2006 的四成分描述法：
+  - motor abnormalities
+  - accompanying impairments
+  - anatomic / neuroimaging findings
+  - causation and timing
+- ICF-CY 讓 CP 從純 medical model 轉成 biopsychosocial model，至少要同時看：
+  - body function
+  - body structure
+  - activity and participation
+  - environmental factors
+  - personal factors
 
 ### 方法學重點
 
@@ -74,19 +90,51 @@ Cerebral Palsy (CP) 是 **developing fetal or infant brain 的非進行性損傷
 - intellectual disability / ADHD / ASD / anxiety / depression
 - sleep problem、fatigue、participation restriction
 
+### 常見 movement pattern
+
+- neonatal severe brain injury 早期常先呈現 hypotonia，之後才逐步出現 hypertonia；因此單次嬰兒期 exam 不夠。
+- diplegic pattern 常見 bilateral lower limb predominance、scissoring、toe walking、crouch gait 與 loss of ROM。
+- hemiplegic pattern 常見 early hand preference、asymmetric limb use、affected-side ROM loss 與 focal hypertonia。
+- quadriplegic pattern 常伴 diffuse spasticity、truncal dystonia、persistent primitive reflexes、intellectual disability 與較重 feeding / orthopedic burden。
+
 ### 臨床或研究上的重要性
 
 - CP 不是單一 tone problem；它是 lifelong rehabilitation condition。
 - 早期 diagnosis 的價值，在於 early intervention、family support 與 equipment planning 可以更早啟動。
 - adolescents / adults with CP 仍會面臨 pain、fatigue、mobility decline、sexuality 與 transition issue。
+- positive prognostic indicator 不是只有「看起來比較輕」這種模糊印象；本來源明確指出：
+  - sitting independently by age 2 years
+  - fewer than three primitive reflexes by 18–24 months
+  - absence of visual impairment
+  - absence of intellectual disability
+  - absence of epilepsy / seizures
+- higher GMFCS level 通常代表更重 comorbidity burden，但 **pain 橫跨所有 disability levels**，behavior disorder 反而較常見於較 mild motor disability，不能把 severity 簡化成單軸。
 
 ## 評估方式
 
-- 目前頁面尚未整理出 History、Physical examination、Scale / test、Imaging / lab 的實際用法。
+- History 至少要收：
+  - birth / perinatal history
+  - family history of thrombosis or stroke
+  - developmental milestone 的「怎麼做到」，不只是「幾個月做到」
+  - regression 是否出現
+  - home / community mobility、ADL 與 participation 目標
+- examination 不只神經學；要同時做 neurologic、musculoskeletal 與 functional exam，並直接看 mobility、transfer、object handling、communication。
+- persistent primitive reflexes、mixed tone pattern、selective motor control deficit、asymmetry 與 atypical crawling pattern 都是實際有診斷價值的線索。
+- 若重點是 infant early detection toolset，另見 [[CP_早期辨識與診斷]]。
 
 ## 治療原則
 
-- 目前頁面尚未整理出 Non-pharmacologic、Pharmacologic、Injection / procedure、Rehabilitation program 的決策順序。
+- care 應是 family-centered、goal-directed，而不是只追 tone 數值。
+- management priority 不只包含 spasticity / dystonia，也包含：
+  - feeding / nutrition
+  - pulmonary risk
+  - epilepsy / cognition / behavior
+  - bladder / bowel dysfunction
+  - pain / bone health
+  - equipment / orthoses / seating
+  - education support
+  - transition to adulthood
+- secondary musculoskeletal problem 與 adult decline 即使來自 nonprogressive brain lesion，也仍需要主動 surveillance 與 long-term planning。
 
 ## 臨床決策點
 
@@ -139,6 +187,7 @@ Cerebral Palsy (CP) 是 **developing fetal or infant brain 的非進行性損傷
 
 - [[CP_早期辨識與診斷]]
 - [[CP_功能分類系統]]
+- [[CP_成人轉銜與老化風險]]
 - [[CP_髖部監測]]
 - [[CP_張力管理]]
 - [[CP_呼吸照護]]

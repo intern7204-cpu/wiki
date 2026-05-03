@@ -1,0 +1,7 @@
+git status
+
+git add .
+
+git commit -m "2026-5-3"
+
+git push

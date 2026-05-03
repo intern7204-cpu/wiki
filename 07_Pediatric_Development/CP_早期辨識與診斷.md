@@ -1,12 +1,13 @@
 ---
 title: CP 早期辨識與診斷
 created: 2026-04-26
-updated: 2026-04-26
+updated: 2026-05-01
 type: clinical
 domain: [pediatric, neurodevelopmental, rehabilitation, PMR]
 tags: [cerebral_palsy, AACPDM, early_detection, HINE, general_movements, MRI, neuroimaging]
 sources:
   - 09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
+  - 09_來源摘要/Cerebral_Palsy.md
   - 09_來源摘要/Detailed_neurologic_assessment_of_infants_and_children.md
 source_tier: 1
 evidence_level: consensus
@@ -29,9 +30,16 @@ CP 早期辨識與診斷是 **整合 history + 結構化神經學評估 + 標準
 - 早產是最大單一風險因子，**< 28 週 GA 的 CP 風險約是足月兒的 50 倍**。
 - 但 **超過 50% 的 CP 兒童在足月或近足月出生**——足月 CP 不可被忽視。
 - AACPDM 2017 *Early Detection of CP* care pathway 是當代 reference framework。
+- **GMA 在 fidgety period（6–20 週 corrected age）** 對 2 歲時 CP 的預測力最高；本來源給的 sensitivity 為 **95%–100%**、specificity 為 **89%–98%**，最佳評估時間約 **12–14 週 corrected age**。
+- **HINE** 在 **3 個月 corrected age <57/78** 時，對 CP 有 high sensitivity（**90%–96%**）與 specificity（**85%–87%**）。
+- **HNNE** 可用在 neonatal / term-equivalent window；本來源列出的正常 cutoff 是：
+  - term-born infant：**30.5** 或以上
+  - preterm infant：**26** 或以上
 - **Cranial ultrasound（CUS）** 對早產兒 PVL 偵測 specificity 高，建議連續做（單次 term-equivalent CUS 可能漏掉）。
 - **MRI** 在 ~90% CP 兒童偵測到腦部異常；但 **10–15% MRI 正常**，不能用 MRI 排除 CP。
 - **遺傳病因**已能在 10–30% CP 兒童被定位（最大規模研究：14% 有 genetic etiology）。
+- **< 5 個月 corrected age**：GMA + HINE + MRI predictive validity 最佳。
+- **> 5 個月 corrected age**：MRI + HINE + DAYC 是本章列出的較佳組合。
 
 ## 核心機制
 
@@ -86,14 +94,16 @@ CP 早期辨識與診斷是 **整合 history + 結構化神經學評估 + 標準
 
 ### 病史聚焦（三層）
 
+0. **先 gauge family emotional environment**：本章特別提醒，家長常在「已經覺得哪裡不對」與「害怕被證實」之間擺盪；評估語氣與節奏會影響後續追蹤合作。
 1. **Family history**：CP / spastic paraplegia / metabolic / neurodegenerative disease。
 2. **Birth history**：preterm（GA、PVL 風險）、placental abruption、cord prolapse、kernicterus、perinatal stroke、TORCH infection。
-3. **Developmental history**：milestones、feeding、vision、hearing、是否曾有發展退化（**critical**：退化排除標準 CP）。
+3. **Developmental history**：milestones、feeding、vision、hearing、是否曾有發展退化（**critical**：退化排除標準 CP），以及 milestone 是「怎麼做到」的，例如 commando crawling、bunny hopping、early hand preference。
 
 ### 結構化神經學評估
 
-- **HINE (Hammersmith Infant Neurological Examination)**：2–24 月齡標準化評估，cut-off score 預測 CP 高敏感性。
-- **General Movements Assessment (Prechtl GMs)**：< 5 月齡偵測異常 fidgety movements，是早期最敏感的工具之一。
+- **HINE (Hammersmith Infant Neurological Examination)**：2–24 月齡標準化評估；本來源列出 **3 個月 corrected age <57/78** 對 CP 預測力高。
+- **General Movements Assessment (Prechtl GMs)**：< 5 月齡偵測 spontaneous movement quality；**fidgety period** 比 writhing period 更有預測價值。
+- **HNNE (Hammersmith Neonatal Neurological Examination)**：適合 preterm 與 term infant 在 term-equivalent 附近做 early neurologic screen；對 very preterm infant 有 moderate predictive accuracy。
 - **Serial neurologic exams** 比單次更有預測價值（嬰兒神經學評估 highly age-dependent）。
 
 ### Neuroimaging
@@ -112,6 +122,7 @@ CP 早期辨識與診斷是 **整合 history + 結構化神經學評估 + 標準
 
 - < 6 月齡可下「**high risk for CP**」工作診斷以啟動早期介入。
 - 12–24 月齡確立 CP 診斷時，應同時記錄 motor type（spastic / dyskinetic / ataxic / mixed）、topography（hemi / di / quad）、與 [[CP_功能分類系統]]（GMFCS、MACS、EDACS）。
+- 本來源也提醒：如果 child 的 presentation 比較像 hemiplegic prenatal stroke，history 不應只停在「有沒有 asphyxia」，而要往 coagulation workup 與 focal malformation thinking 延伸。
 
 ## 治療原則
 

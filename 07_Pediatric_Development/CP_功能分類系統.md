@@ -1,12 +1,13 @@
 ---
 title: CP 功能分類系統
 created: 2026-04-26
-updated: 2026-04-26
+updated: 2026-05-01
 type: clinical
 domain: [pediatric, neurodevelopmental, rehabilitation, PMR, classification]
 tags: [cerebral_palsy, GMFCS, MACS, EDACS, VSS, FCCS, CFCS, VFCS, ICF]
 sources:
   - 09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
+  - 09_來源摘要/Cerebral_Palsy.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -23,7 +24,10 @@ CP 功能分類系統是 **以「兒童在日常生活中『通常做什麼』�
 
 - **GMFCS 是最廣泛使用、最早建立、預測性最強**的 CP 分類系統（Palisano et al. 1997，2008 修訂）。
 - 五級分類在 GMFCS、MACS、EDACS、CFCS、VFCS 之間是 **平行但不重疊**的軸，**同一兒童在不同軸的等級可不同**（例：GMFCS V + MACS III + CFCS II 完全可能）。
-- GMFCS 等級在兒童 2 歲後即 **across time stable**（即年紀大也不太會變等級），讓 prognostic discussion 成為可能。
+- 本輪來源特別用 **GMFCS、MACS、CFCS、EDACS、VFCS** 示範多軸分類，重點不是多背幾個縮寫，而是不要再拿 topography 代替 function。
+- GMFCS 等級在兒童 2 歲後多半 **across time stable**，但本來源也提醒：
+  - GMFCS I 與 V 最穩定
+  - younger child 的 GMFCS II–IV 較常發生 reclassification
 - 衡量的是 **usual performance**，不是 capability —— 在 ideal 環境下做得到的不算，在自家、學校、社區「平常」做的才算。
 - 結構與 [[ICF_功能框架]] 對齊：activity / participation 軸 + 個體 + 環境因子。
 
@@ -34,6 +38,10 @@ CP 功能分類系統是 **以「兒童在日常生活中『通常做什麼』�
 - 過去 CP 描述用 quality（spastic / dyskinetic / ataxic）+ topography（hemi / di / quad），但這兩軸只描述「motor type 與哪幾肢」，**完全捕捉不到功能差異**。
 - 同樣是 spastic diplegia，可能 GMFCS I（無限制走路）也可能 GMFCS IV（需動力輪椅）。
 - 功能分類補上「實際生活中能做什麼」這個缺口。
+- 本來源還補了一層：CP description 不該只寫 motor，也要寫
+  - accompanying impairments
+  - anatomic / neuroimaging findings
+  - causation and timing
 
 ### 為什麼是「usual performance」
 
@@ -47,6 +55,16 @@ CP 功能分類系統是 **以「兒童在日常生活中『通常做什麼』�
   - 「**GMFCS I 的兒童成年後絕大多數可獨立行走**」
   - 「**GMFCS V 的兒童一生都會用 manual wheelchair 移動**」
 - 但 < 2 歲的等級會變，這也是為什麼早期「working classification」需謹慎。
+
+### ICF-CY 為什麼重要
+
+- 本來源把 ICF-CY 明確放進 CP 分類段落，代表 classification 不只用來標嚴重度，也用來避免只剩 impairment language。
+- 至少要同步看五個 domain：
+  - body function
+  - body structure
+  - activity and participation
+  - environmental factors
+  - personal factors
 
 ## 臨床表現
 
@@ -155,6 +173,7 @@ CP 功能分類系統是 **以「兒童在日常生活中『通常做什麼』�
 - 整體 stable，但 **GMFCS III 與 IV 之間** 在學齡期過後有部分案例會「升級」（function 變差），原因是體型增加、痙攣惡化、scoliosis、weight 等。
 - 「降級」（變好）較少發生。
 - 早期積極介入可能改善 trajectory，但不會跨等級。
+- 本來源還補充：**初始 GMFCS II–IV、MACS III、CFCS II–V 的 younger child**，未來更可能 reclassification，因此早期討論預後時要明說這是 provisional stability，不是永久定案。
 
 ### 「家長說他在家會走，但診間沒走，算 GMFCS I 還是 II？」
 
@@ -214,6 +233,7 @@ CP 功能分類系統是 **以「兒童在日常生活中『通常做什麼』�
 
 - [[Cerebral_Palsy_總論]]
 - [[CP_早期辨識與診斷]]
+- [[CP_成人轉銜與老化風險]]
 - [[CP_髖部監測]]
 - [[../01_核心概念/ICF_功能框架]]
 - [[小兒復健評估]]

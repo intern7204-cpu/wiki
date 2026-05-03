@@ -2868,3 +2868,613 @@ index.md 更新：Total pages 7 → 16。
   - Total pages 387 -> 389
 - 待處理來源：
   - `Child Psychology Psychiatry - 2023 - Nelson - Annual Research Review  Early intervention viewed through the lens of developmental neuroscience`
+
+## [2026-05-01] ingest | Nelson, Sullivan, Engelstad — Annual Research Review: Early intervention viewed through the lens of developmental neuroscience
+- 類型：Annual Research Review / high-quality narrative review（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Child Psychology Psychiatry - 2023 - Nelson - Annual Research Review  Early intervention viewed through the lens of\Child Psychology Psychiatry - 2023 - Nelson - Annual Research Review  Early intervention viewed through the lens of.md`
+- 新增來源摘要：
+  - `09_來源摘要/Nelson_2023_early_intervention_developmental_neuroscience.md`
+- 更新頁面：
+  - `07_Pediatric_Development/Early_Intervention_的時機與核心目標.md`
+  - `index.md`
+- 新增頁面：
+  - `07_Pediatric_Development/經驗期待型發展與早期介入窗口.md`
+  - `07_Pediatric_Development/Caregiving_Quality_作為早期介入靶點.md`
+- 發現衝突：
+  - early intervention timing 不能被簡化成單一 universal age cutoff。
+  - caregiving quality 是重要靶點，但不是 culture-free checklist。
+  - early autism biomarker 目前不足以作 individual clinical use。
+  - critical period reopening 仍屬 research implication，不能直接寫成 routine care。
+- 待追蹤問題：
+  - 可另以單一來源建立 adolescent / late intervention window 的獨立概念頁。
+  - autism early intervention 的 connectivity framing 可再拆成單一概念頁。
+- 待處理來源：
+  - 無；下一輪重新依候選與主題缺口排序。
+
+## [2026-05-01] ingest | Roge, Levin, Tsao — Cerebral Palsy
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Cerebral palsy\Cerebral palsy.md`
+- 新增來源摘要：
+  - `09_來源摘要/Cerebral_Palsy.md`
+- 更新頁面：
+  - `07_Pediatric_Development/Cerebral_Palsy_總論.md`
+  - `07_Pediatric_Development/CP_早期辨識與診斷.md`
+  - `07_Pediatric_Development/CP_功能分類系統.md`
+  - `index.md`
+- 新增頁面：
+  - `07_Pediatric_Development/CP_成人轉銜與老化風險.md`
+- 本輪抽出的直接事實：
+  - GMA 在 fidgety period 對 2 歲時 CP 的預測力最高，sensitivity 約 95%–100%，specificity 約 89%–98%，最佳評估時間約 12–14 週 corrected age。
+  - HINE 在 3 個月 corrected age <57/78 時，對 CP 有 high sensitivity（90%–96%）與 specificity（85%–87%）；<5 個月 corrected age 以 GMA + HINE + MRI predictive validity 最佳。
+  - CP 的 function description 不應只寫 GMFCS；本章同時納入 MACS、CFCS、EDACS、VFCS，並以 ICF-CY 補上 activity / participation / environment / personal context。
+  - positive ambulation predictor 包括 2 歲前可獨坐、18–24 個月 primitive reflex 少於 3 個、且 absence of visual impairment、intellectual disability、epilepsy。
+  - adult CP population 有較高 stroke、myelopathy、dementia、chronic pain、fatigue、depression 與 mobility decline 風險。
+- 發現衝突：
+  - CP 雖是 nonprogressive disturbance of the developing brain，但 functional decline 與 medical burden 仍可隨生命期累積。
+  - higher GMFCS 常伴隨較重共病，但 pain 橫跨所有 disability levels，behavior disorder 反而較常見於較 mild motor disability。
+  - imaging 正常或不典型時，仍需考慮 genetic / metabolic mimic，不能單靠 MRI 排除 CP phenotype。
+- 待追蹤問題：
+  - 可再用單一來源把 CP 的 feeding / pulmonary risk 或 multisystem comorbidity 拆成獨立概念頁。
+  - genetic testing 在 CP diagnostic evaluation 的一線 vs 二線定位，之後需要另外用 guideline / review 補強。
+- 待處理來源：
+  - 無；下一輪重新依候選與主題缺口排序。
+
+## [2026-05-01] ingest | Miller, White, Klamar — Myelomeningocele and Other Spinal Dysraphisms
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Myelomeningocele and other spinal dysraphisms\Myelomeningocele and other spinal dysraphisms.md`
+- 新增來源摘要：
+  - `09_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms.md`
+- 更新頁面：
+  - `index.md`
+- 新增頁面：
+  - `07_Pediatric_Development/Myelomeningocele_總論.md`
+  - `07_Pediatric_Development/MMC_胎兒修補與功能結果.md`
+  - `07_Pediatric_Development/MMC_水腦分流與Chiari_II警訊.md`
+  - `07_Pediatric_Development/MMC_運動神經功能層級與步行預後.md`
+  - `07_Pediatric_Development/MMC_神經性膀胱與腎功能保護.md`
+- 本輪抽出的直接事實：
+  - fetal ultrasound 是 prenatal MMC diagnosis 的 gold standard，通常在 18–22 週 gestation；maternal serum AFP 在 15–22 週對 open NTD 的 detection rate 約 65%–80%。
+  - MOMS trial 中，prenatal repair（<26 週）相較 postnatal repair 可降低 Arnold-Chiari II presence（64% vs 96%）與 shunt placement（40% vs 82%），並改善 motor function 與 independent ambulation。
+  - school-age follow-up 顯示 prenatal group 仍有較佳 mobility、ADL 與較低 CIC rate（61.5% vs 87.2%），但 tethered cord release 更常見（27% vs 15%）。
+  - MMC hydrocephalus 只有約 10% 在出生時就 clinically obvious，但 85% 會在第一週內表現；symptomatic Chiari II 的 stridor 是 threatened airway sign。
+  - up to 98% of children with lumbosacral MMC 有 neurogenic bladder；renal/bladder ultrasound、urodynamics、serum creatinine 應於出生後 3 個月內建立 baseline。
+- 發現衝突：
+  - prenatal MMC repair 改善多項 child-centered outcome，但同時增加 prematurity、placental / membrane complication 與 maternal hysterotomy risk，不能被寫成無代價升級版。
+  - fluent verbal language 會讓人高估 MMC child 的 cognition 與 adaptive understanding；語言表面流暢不等於 neuropsychological intact。
+  - OCR 文字多次出現不合理的 `folic acid 400 mg` 一般族群劑量；本輪只保留 folate 對 NTD prevention 的定性角色，不採納該精確數字。
+- 待追蹤問題：
+  - 可再用單一來源拆出 `MMC_神經性腸道管理`、`MMC_神經心理與school planning`、或 `adult spina bifida transition` 的獨立概念頁。
+  - pediatric neuro-urology surveillance interval 與 medication sequencing 之後需要另外用 guideline / review 補強。
+- 待處理來源：
+  - 無；下一輪重新依候選與主題缺口排序。
+
+## [2026-05-03] ingest | Ackerman et al. — Traumatic Spinal Cord Injury
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Traumatic Spinal Cord Injury\Traumatic Spinal Cord Injury.md`
+- 新增來源摘要：
+  - `09_來源摘要/Traumatic_Spinal_Cord_Injury.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Traumatic_SCI_急性處置與復健銜接.md`
+  - `03_疾病與臨床主題/SCI_共病TBI與運動學習調整.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/脊髓損傷復健總論.md`
+  - `03_疾病與臨床主題/SCI_次級併發症風險框架.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Acute traumatic SCI management 包含 airway / resuscitation、selective immobilization、rapid transport、MAP maintenance、CT / MRI indication、realignment、stabilization / decompression 與早期 rehabilitation planning。
+  - 本來源指出 steroids are not recommended routinely；僅在 injury 後 8 小時內特定情境考慮。
+  - Complete SCI 必須以 S4-S5 sacral sparing、deep anal pressure 與 voluntary anal contraction 判斷，不能用「下肢不能動」取代 ISNCSCI/AIS。
+  - Co-occurring TBI 在 spinal injury 中估計約 32.5%，cervical level 約 40.4%，若加入 LOC / PTA 等因素報告率會上升；未辨識時可能被誤解為 noncompliance 或 poor motivation。
+  - 約 70% SCI inpatient rehab 期間至少出現一項 nonneurological complication / secondary condition；C1-C4 injury 風險約 2.2 倍。
+  - High cervical SCI respiratory complication 風險約 3.3 倍；mechanism 包含 ventilatory muscle weakness、weak cough、secretion retention、atelectasis 與 aspiration risk。
+  - SCI first-year UTI incidence 來源報告約 62%；voiding method 會影響 risk，indwelling catheter 最高，volitional voiding 較低。
+  - Incomplete SCI >6 months post injury 且已能走者，來源引用的 locomotor CPG 支持 high-intensity gait training，且不建議把 exoskeletal robotics 作為 gait training 預設方法。
+- 發現衝突：
+  - 「SCI 復健等急性期結束再開始」不符合本來源；來源把 rehabilitation 放在 acute / critical-care stage 即啟動。
+  - 「walking recovery 是主要成功指標」過窄；來源更重視 ADL、wheelchair/seating、transfer、equipment、community reintegration 與 quality of life。
+  - 「technology 本身造成 recovery」過度簡化；來源強調 technology 只有在 active participation、specificity、repetition、intensity 與 salience 下才可能放大訓練效果。
+- 待追蹤問題：
+  - 可另用單一來源補強 traumatic SCI 的 guideline-level steroid / MAP / decompression recommendation，避免 textbook chapter 與 guideline 更新不同步。
+  - 可再拆出 `SCI_輪椅座位與壓力管理` 或 `SCI_心代謝健康與運動處方` 的單一概念頁。
+- 待處理來源：
+  - `C:\原始資料\Pain Management\Pain Management.md`
+  - `C:\原始資料\pain management Bradley and Daroff's Neurology in Clinical Practice, 52, 753-775.e2\pain management Bradley and Daroff's Neurology in Clinical Practice, 52, 753-775.e2.md`
+  - `C:\原始資料\Upper limb pain and dysfunction\Upper limb pain and dysfunction.md`
+
+## [2026-05-03] ingest | Burke-Doe & Johnson — Pain Management
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Pain Management\Pain Management.md`
+- 新增來源摘要：
+  - `09_來源摘要/Pain_Management.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/疼痛管理_Biopsychosocial_ICF框架.md`
+  - `03_疾病與臨床主題/疼痛評估_OPQRST與多維度量測.md`
+  - `03_疾病與臨床主題/慢性疼痛復健的主動化治療框架.md`
+- 更新頁面：
+  - `02_方法學/復健心理社會評估與介入.md`
+  - `02_方法學/物理因子治療.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Pain 是 sensory and emotional experience，不可只用 tissue damage 或 intensity 解釋。
+  - Chronic pain 約影響 21% US adults；high-impact chronic pain 約 8%。
+  - 來源將 biopsychosocial model 視為理解 pain variability 的 model of choice，並以 ICF 組織 impairment、activity limitation、participation restriction。
+  - Pain experience 包含 perceptual、affective、cognitive、behavioral components。
+  - Pain history 可用 OPQRST 結構化，且 visceral symptoms 需在 therapist-led treatment 前轉醫師評估。
+  - IMMPACT chronic pain outcome domains 包含 pain、physical functioning、emotional functioning、participant improvement / satisfaction、symptoms / adverse events、participant disposition。
+  - PROMIS-29 可同時看 depression、anxiety、physical function、pain interference、fatigue、sleep disturbance、social roles / activities 與 NPRS。
+  - Chronic pain treatment 不應限於 medical model 或 passive modality；來源將 intervention 分為 physical interventions、cognitive strategies、behavioral manipulations。
+- 發現衝突：
+  - 「Pain score 就是 pain assessment」不成立；intensity 只是一個維度。
+  - 「Biopsychosocial 等於疼痛是心理問題」不成立；它是 biological、psychological、social 的整合 formulation。
+  - 「Passive modalities 做久一點就是完整 pain rehab」不成立；來源明確指出 long-term passive use may promote dependence。
+- 待追蹤問題：
+  - Bradley and Daroff 的神經痛章可作下一輪單一來源，補強 central / peripheral neuropathic pain 與 pharmacologic / neurologic framing。
+  - 可另用 guideline-level 來源補 opioid、interventional procedure 與 CRPS 診斷/治療建議。
+- 待處理來源：
+  - `C:\原始資料\pain management Bradley and Daroff's Neurology in Clinical Practice, 52, 753-775.e2\pain management Bradley and Daroff's Neurology in Clinical Practice, 52, 753-775.e2.md`
+  - `C:\原始資料\Upper limb pain and dysfunction\Upper limb pain and dysfunction.md`
+
+## [2026-05-03] ingest | Bradley and Daroff — Pain Management
+
+- 類型：neurology textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\pain management Bradley and Daroff's Neurology in Clinical Practice, 52, 753-775.e2\pain management Bradley and Daroff's Neurology in Clinical Practice, 52, 753-775.e2.md`
+- 新增來源摘要：
+  - `09_來源摘要/Bradley_Daroff_Pain_Management.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/慢性疼痛中的Peripheral與Central_Sensitization.md`
+  - `03_疾病與臨床主題/神經痛藥物治療框架.md`
+  - `03_疾病與臨床主題/CRPS_臨床辨識與治療限制.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Chronic pain 可超過正常 healing，失去 protective role，並形成 disease state。
+  - A-delta fibers 傳遞 fast, sharp, well-localized pain；C fibers 傳遞 dull, burning, aching, poorly localized pain。
+  - Small-fiber neuropathy 可有 neuropathic pain 但 routine nerve conduction studies 正常。
+  - Neuronal plasticity 包含 wind-up、central sensitization 與 longer-term gene alteration。
+  - TCA 與 anticonvulsants 是來源中的 neuropathic pain first-line options；SNRI 也有 analgesic evidence。
+  - Chronic nonmalignant pain 的 long-term opioid 使用具 tolerance、dependence、addiction、opioid-induced hyperalgesia 風險。
+  - CRPS type I 無 definable nerve lesion；type II 有 definable nerve lesion；診斷以 clinical pattern and exclusion of mimics 為主。
+- 發現衝突：
+  - 「組織癒合後仍痛就是裝痛」不成立；sensitization 可讓 pain 與 tissue injury 不成比例。
+  - 「神經痛下一步就是 opioid」不符合本來源；adjuvant analgesics 是較前線策略。
+  - 「EMG/NCS 正常排除 CRPS」不成立；來源指出 EMG/NCS 對 CRPS 不敏感。
+- 待追蹤問題：
+  - Opioid、CRPS diagnosis / treatment、SCS 與 ketamine 需用 guideline / systematic review 補強。
+  - Trigeminal neuralgia、poststroke pain、SCI pain、phantom limb pain 可再拆成獨立單一概念頁。
+- 待處理來源：
+  - `C:\原始資料\Upper limb pain and dysfunction\Upper limb pain and dysfunction.md`
+  - `C:\原始資料\Common neck problems\Common neck problems.md`
+  - `C:\原始資料\Low back disorders\Low back disorders.md`
+  - `C:\原始資料\Chronic pain\Chronic pain.md`
+
+## [2026-05-03] ingest | Baria & Laskowski — Upper Limb Pain and Dysfunction
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Upper limb pain and dysfunction\Upper limb pain and dysfunction.md`
+- 新增來源摘要：
+  - `09_來源摘要/Upper_Limb_Pain_and_Dysfunction.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/上肢疼痛與功能障礙評估總論.md`
+  - `03_疾病與臨床主題/Rotator_Cuff_Tendon_Disease.md`
+  - `03_疾病與臨床主題/上肢急性肌腱與腕韌帶轉介紅旗.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Upper extremity pathology 必須放在 kinetic chain 內判讀。
+  - Rehabilitation staging 包含 acute、recovery、functional stages。
+  - Rotator cuff disease 包含 tendinopathy、partial tear、chronic full-thickness tear、acute traumatic full-thickness tear。
+  - Tendinopathy、partial tear、chronic full-thickness tear 多先以 nonsurgical rehabilitation 處理；acute traumatic full-thickness tear 需 prompt MRI and surgical consult。
+  - 來源列出 acute full-thickness rotator cuff tear、pectoralis major tear、distal biceps tear、scaphoid fracture、scapholunate dissociation 需 early surgical referral。
+  - Scapholunate injury missed 可進展至 DISI 與 SLAC wrist。
+- 發現衝突：
+  - 「肩痛都是 rotator cuff tendinitis」不成立；spectrum 與 chronicity 會改變 referral urgency。
+  - 「上肢疼痛只看痛點」不符合來源；kinetic chain、compensation、task demand 都會改變治療。
+  - 「所有上肢扭拉傷都可先復健數週」不成立；time-sensitive rupture / instability 需及早轉介。
+- 待追蹤問題：
+  - Adhesive capsulitis、lateral epicondylosis、olecranon bursitis、de Quervain、TFCC 可再分別建立單一概念頁。
+  - 急性 scaphoid fracture 與 hand surgery referral criteria 需另用 guideline 或 specialty source 補強。
+- 待處理來源：
+  - `C:\原始資料\Common neck problems\Common neck problems.md`
+  - `C:\原始資料\Low back disorders\Low back disorders.md`
+  - `C:\原始資料\Chronic pain\Chronic pain.md`
+
+## [2026-05-03] ingest | DePalma & Ishigami — Common Neck Problems
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Common neck problems\Common neck problems.md`
+- 新增來源摘要：
+  - `09_來源摘要/Common_Neck_Problems.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/頸部疼痛評估總論.md`
+  - `03_疾病與臨床主題/Cervical_Radiculopathy.md`
+  - `03_疾病與臨床主題/Cervical_Myelopathy_紅旗.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Neck pain 需分 axial cervical pain、somatic referred pain、radicular pain、radiculopathy 與 myelopathy。
+  - Nonneural cervical structures 可透過 convergence 造成 head / upper limb referral。
+  - Cervical radicular pain 與 radiculopathy 不同；radiculopathy 需要 myotomal weakness、sensory disturbance、paresthesia 或 depressed reflex 等 neurophysiologic dysfunction。
+  - MRI 是 gold standard，但 asymptomatic abnormalities common，需 clinical correlation。
+  - Spurling test highly specific but not sensitive。
+  - Cervical myelopathy 可表現為 gait disturbance、UMN signs、hand dysfunction、proprioceptive deficit、bladder change。
+- 發現衝突：
+  - 「手麻就是 cervical radiculopathy」不成立；somatic referred pain、peripheral nerve、plexus、myelopathy 都需鑑別。
+  - 「MRI 有 stenosis 就是病因」不成立；影像需與症狀、exam、EDX 對齊。
+  - 「myelopathy 可先做 traction 試試」不符合來源；myelopathy 是 traction contraindication。
+- 待追蹤問題：
+  - Cervical injection、RFA、surgery timing 需用 current guideline / safety statement 補強。
+  - Whiplash 與 cervicogenic headache 可另拆單一概念頁。
+- 待處理來源：
+  - `C:\原始資料\Low back disorders\Low back disorders.md`
+  - `C:\原始資料\Chronic pain\Chronic pain.md`
+
+## [2026-05-03] ingest | Pangarkar et al. — Low Back Disorders
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Low back disorders\Low back disorders.md`
+- 新增來源摘要：
+  - `09_來源摘要/Low_Back_Disorders.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/下背痛評估總論.md`
+  - `03_疾病與臨床主題/下背痛影像與Red_Flags.md`
+  - `03_疾病與臨床主題/Lumbosacral_Radiculopathy.md`
+  - `03_疾病與臨床主題/Lumbar_Spinal_Stenosis.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Acute LBP 為 0-4 weeks，subacute 4-12 weeks，chronic >12 weeks。
+  - 大多數 acute LBP 預後佳；來源指出 75-90% 在 3-4 週內 recover / return to work。
+  - 約 85% care-seeking LBP 為 nonspecific LBP。
+  - Acute uncomplicated LBP 不建議 routine MRI；早期 MRI 與較高手術、成本、opioid use、較差 pain 相關。
+  - Red flags 是 triage signal，不是 serious pathology 的證明；absence 也不能完全排除 malignancy。
+  - Radicular pain 可由 chemical inflammation 驅動，不只是 mechanical compression。
+  - Lumbar spinal stenosis 的 clinical core 是 neurogenic claudication，extension / walking 加重、sitting / flexion 改善。
+- 發現衝突：
+  - 「LBP 先 MRI」不符合本來源；imaging 需有 actionable question。
+  - 「disc bulge 就是 pain source」不成立；asymptomatic abnormalities common。
+  - 「sciatica 一定是神經被壓到」不完整；inflamed root 可造成 pain。
+- 待追蹤問題：
+  - Facet-mediated pain、discogenic pain、MBR、ESI、surgery threshold 需另外用 single-source workflow 補強。
+  - Red flags 的 diagnostic accuracy 可用 guideline / systematic review 補充。
+- 待處理來源：
+  - `C:\原始資料\Chronic pain\Chronic pain.md`
+
+## [2026-05-03] ingest | Pham et al. — Chronic Pain
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Chronic pain\Chronic pain.md`
+- 新增來源摘要：
+  - `09_來源摘要/Chronic_Pain.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Nociceptive_Neuropathic_Nociplastic_Pain.md`
+  - `03_疾病與臨床主題/慢性疼痛的CBT_CP與Pacing.md`
+  - `03_疾病與臨床主題/慢性疼痛Opioid與Buprenorphine風險框架.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/疼痛管理_Biopsychosocial_ICF框架.md`
+  - `03_疾病與臨床主題/疼痛評估_OPQRST與多維度量測.md`
+  - `03_疾病與臨床主題/慢性疼痛復健的主動化治療框架.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Chronic pain 在來源中定義為至少 3 個月且超過 normal healing。
+  - Pain 可分 nociceptive、neuropathic、nociplastic，且可 overlap。
+  - Nociplastic pain 是 altered nociception despite no clear tissue damage / nociceptor activation or somatosensory lesion。
+  - CBT-CP improves function, mood, and pain interference；components 包含 physical activity、time-based pacing、relaxation、pleasant activity scheduling、sleep education、cognitive coping。
+  - Prolonged rest is not beneficial for chronic pain；exercise / movement therapy 可改善 pain severity、function、QOL。
+  - Long-term opioid harms 包含 adrenal insufficiency、respiratory depression、sex hormone disruption、osteoporosis、bowel dysfunction、opioid-induced hyperalgesia、immunosuppression、misuse、dependence、OUD。
+  - Buprenorphine 是 partial agonist with ceiling effect and lower overdose risk；Belbuca / Butrans 為 chronic pain FDA-approved formulations。
+- 發現衝突：
+  - 「Nociplastic pain 等於 psychogenic pain」不成立；它是 altered nociception。
+  - 「CBT-CP 是否定疼痛」不成立；它處理 thoughts、emotions、behaviors 與 pain interference 的 loop。
+  - 「opioid 有風險所以應立即停藥」不成立；來源明確反對 abrupt discontinuation / rapid taper unless life-threatening overdose concern。
+- 待追蹤問題：
+  - Opioid taper、buprenorphine transition、OUD diagnosis、cannabis / CBD / benzodiazepine interaction 需用 current prescribing source 補強。
+  - Pain bias、placebo / nocebo、sleep / CBT-I 可再拆單一概念頁。
+- 待處理來源：
+  - `C:\原始資料\Peripheral nerve disorders\Peripheral nerve disorders.md`
+
+## [2026-05-03] ingest | Barnes, Craig, Hearn — Peripheral Nerve Disorders
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Peripheral nerve disorders\Peripheral nerve disorders.md`
+- 新增來源摘要：
+  - `09_來源摘要/Peripheral_Nerve_Disorders.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/周邊神經損傷分類與恢復機制.md`
+  - `03_疾病與臨床主題/周邊神經病灶定位與EDX_US框架.md`
+  - `03_疾病與臨床主題/周邊多發神經病變_典型與非典型型態.md`
+- 更新頁面：
+  - `02_方法學/電生理診斷醫學.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Seddon classification 分 neurapraxia、axonotmesis、neurotmesis；Sunderland classification 進一步依 connective tissue layer 損傷分級。
+  - EDX 可評估 axonal continuity，但不能直接評估 supportive connective tissue integrity。
+  - Wallerian degeneration 約 7 天影響 motor axon、約 10 天影響 sensory axon；denervation potentials 通常約 3 週後才出現。
+  - Recovery mechanism 包含 remyelination、collateral sprouting、axonal regrowth；axonal regrowth 約 1-5 mm/day，reinnervation viability 約 18-24 個月。
+  - Neuromuscular ultrasound 可補 EDX 的 structural gap，尤其是 early trauma、focal compression、nerve discontinuity、postoperative persistent symptoms。
+  - Typical polyneuropathy 多為 chronic、length-dependent、symmetric、axonal、sensory-motor pattern；非典型 pattern 需考慮 inflammatory、nutritional、toxic、infectious、vasculitic、hereditary 等病因。
+  - GBS nadir 通常在 2-4 週；CIDP 進展至少 2 個月且需多神經 demyelinating-range EDX pattern。
+  - Polyneuropathy complications 包含 foot ulceration、Charcot neuroarthropathy、neuropathic pain、dynamic postural instability、falls、deconditioning 與 participation loss。
+- 發現衝突：
+  - 「急性 nerve injury 的早期 EMG 正常就排除 axonal injury」不成立；EDX abnormality 有時間演變。
+  - 「EDX 可以看出所有 nerve structural problem」不成立；connective tissue scaffold / discontinuity 需 clinical、ultrasound 或 surgical correlation。
+  - 「diabetes / aging 可解釋所有腳麻」不成立；非典型 pattern 不應被 typical diabetic neuropathy label 掩蓋。
+  - 「CIDP 看到單一 entrapment site demyelination 就能診斷」不成立；來源強調需 systemic demyelinating pattern。
+- 待追蹤問題：
+  - CTS、ulnar neuropathy、fibular neuropathy、GBS、CIDP 可用 guideline / review 各自拆成更細單一概念頁。
+  - Neuropathic pain medication safety 可與 existing pain pages 之後做多來源 synthesis，但本輪未混寫。
+- 待處理來源：
+  - `C:\原始資料\Myopathic disorders\Myopathic disorders.md`
+
+## [2026-05-03] ingest | Cai & Smith — Myopathic Disorders
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Myopathic disorders\Myopathic disorders.md`
+- 新增來源摘要：
+  - `09_來源摘要/Myopathic_Disorders.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Myopathy_診斷框架.md`
+  - `03_疾病與臨床主題/Myopathy_復健管理原則.md`
+  - `03_疾病與臨床主題/Myopathy_呼吸心臟吞嚥風險.md`
+- 更新頁面：
+  - `02_方法學/電生理診斷醫學.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Myopathies 是 muscle-fiber dysfunction，症狀可包含 weakness、cramps、rhabdomyolysis、exercise intolerance；主要分 hereditary 與 acquired。
+  - 多數 myopathy 為 symmetric proximal weakness 且無 primary sensory symptom，但 FSHD、IBM、distal / metabolic / myotonic disorders 可破壞此典型模式。
+  - CK useful but nonspecific；AST / ALT / LDH / aldolase 可因 muscle disease 或 liver dysfunction 升高，GGT 可協助分辨 liver source。
+  - Sensory NCS 通常正常；conduction block、temporal dispersion、marked slowing 不符合典型 myopathy，應考慮 neuropathy / demyelinating process。
+  - Myopathic EMG 常見 low-amplitude、short-duration、polyphasic MUAP 與 early recruitment；steroid myopathy 可有 normal EMG。
+  - MRI / ultrasound 可協助辨識 muscle involvement pattern、severity 與 biopsy target；genetic testing 可確認診斷、預後、organ screening、family counseling 與 targeted therapy eligibility。
+  - Myopathy rehabilitation 需每次追蹤 strength / mobility，並處理 exercise safety、contracture prevention、ADL equipment、pain、dysphagia、nutrition、respiratory care。
+  - Respiratory muscle weakness 可造成 restrictive lung disease；DMD、myotonic dystrophy、EDMD、select LGMD 等可有 cardiac involvement；IBM / OPMD 等可有 dysphagia risk。
+- 發現衝突：
+  - 「CK 高就是 inflammatory myopathy」不成立；CK 是 nonspecific muscle injury marker。
+  - 「Myopathy 一定是 symmetric proximal weakness」不成立；多個 subtype 有 asymmetric、distal、bulbar、respiratory 或 metabolic trigger pattern。
+  - 「肌病復健就是加強肌力」不成立；exercise 必須 disease-specific，DMD 等情境避免 eccentric high-resistance exercise。
+  - 「limb weakness 不嚴重就沒有系統風險」不成立；respiratory、cardiac、bulbar involvement 可主導安全性與 mortality。
+- 待追蹤問題：
+  - DMD、FSHD、IBM、Pompe disease、inflammatory myopathy 需各自用 guideline / review 補強 disease-specific surveillance 與 treatment。
+  - Myopathy exercise prescription 的 dose / intensity 仍需專門來源；本輪只保留單一章節支持的安全邊界。
+- 待處理來源：
+  - `C:\原始資料\Motor neuron diseases\Motor neuron diseases.md`
+  - `C:\原始資料\Multiple sclerosis\Multiple sclerosis.md`
+  - `C:\原始資料\Degenerative movement disorders of the central nervous system\Degenerative movement disorders of the central nervous system.md`
+
+## [2026-05-03] ingest | Jorgensen, Ketabforoush, Arnold — Motor Neuron Diseases
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Motor neuron diseases\Motor neuron diseases.md`
+- 新增來源摘要：
+  - `09_來源摘要/Motor_Neuron_Diseases.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/ALS_診斷框架.md`
+  - `03_疾病與臨床主題/ALS_復健呼吸營養與溝通照護.md`
+  - `03_疾病與臨床主題/SMA_基因治療後的復健管理.md`
+- 更新頁面：
+  - `02_方法學/電生理診斷醫學.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - MND 可影響 anterior horn cells、cortical motor neurons 或兩者；ALS uniquely involves both UMN and LMN degeneration。
+  - UMN signs 包含 spasticity、increased tone、brisk reflexes；LMN signs 包含 weakness、atrophy、fasciculations。
+  - 多數 MND 缺乏 overt sensory symptoms，例如 pain、numbness、tingling。
+  - EDX 是 identifying LMN loss 與排除 MMN、NMJ disorders、focal radiculomyelopathy 等 mimic 的主要工具。
+  - Gold Coast criteria 要求 progressive motor impairment、UMN + LMN in at least one body region 或 LMN in at least two body regions，且 investigations excluding mimics。
+  - Multidisciplinary clinics、NIV、PEG、riluzole 在來源中列為可影響 survival / quality of life 的 ALS care components。
+  - SMA 與 SMN1 / SMN2 copy number 相關；nusinersen、onasemnogene abeparvovec、risdiplam 改變 disease trajectory，但 rehab / pulmonary / nutrition / orthopedic needs 仍存在。
+- 發現衝突：
+  - 「MRI 或 lab 可單獨診斷 / 排除 ALS」不成立；來源明確說沒有單一 test 可在有臨床 ALS features 時 rule out ALS。
+  - 「fasciculation 等於 ALS」不成立；孤立 fasciculation nonspecific，需結合 weakness 與 EMG denervation。
+  - 「supplemental oxygen 是 ALS routine respiratory support」不成立；來源提醒可能 worsen hypercapnia。
+  - 「SMA gene therapy 後復健需求消失」不成立；治療後仍需長期 multisystem care。
+- 待追蹤問題：
+  - ALS / SMA disease-modifying therapy、genetic testing、palliative care timing 與 payer rules 需用 current guideline / prescribing source 更新。
+  - ALS exercise dose 與 NIV / PEG threshold 需用專門 guideline 補強。
+- 待處理來源：
+  - `C:\原始資料\Multiple sclerosis\Multiple sclerosis.md`
+  - `C:\原始資料\Degenerative movement disorders of the central nervous system\Degenerative movement disorders of the central nervous system.md`
+
+## [2026-05-03] ingest | Kiernan, Narayan, Shah — Multiple Sclerosis
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Multiple sclerosis\Multiple sclerosis.md`
+- 新增來源摘要：
+  - `09_來源摘要/Multiple_Sclerosis.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/MS_診斷與Mimic排除.md`
+  - `03_疾病與臨床主題/MS_步態與Spasticity復健框架.md`
+  - `03_疾病與臨床主題/MS_Fatigue與Heat_Sensitivity管理.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - MS 是 chronic inflammatory neurodegenerative CNS disorder，常造成 young adults 的 nontraumatic disability。
+  - Relapse 需 typical CNS demyelinating symptoms lasting at least 24 hours，且無 fever / infection。
+  - 2017 McDonald criteria 中 DIS 可由 periventricular、juxtacortical、cortical、infratentorial、spinal cord 五區中至少兩區的 T2 lesions 支持。
+  - DIT 可由 follow-up new T2 / gadolinium-enhancing lesion 或 simultaneous enhancing and nonenhancing lesions 支持；CSF oligoclonal bands 可在特定情況 substitute for DIT。
+  - MS diagnosis requires no better explanation；NMOSD、ADEM、MOGAD、transverse myelitis、Lyme disease 等 mimic 需排除。
+  - Mobility impairment affects about 75% of PwMS；T25FW 20% change 在來源中視為 clinically meaningful。
+  - Fatigue 是常見且常 disabling 的 MS symptom；secondary causes 包含 heat、mood / anxiety、sleep、infection、thyroid、anemia、medication。
+  - Exercise 在來源引用的 review 中未顯示 increased relapse / adverse events，且可改善 fitness / quality of life。
+- 發現衝突：
+  - 「MRI 多發 white matter lesions 就是 MS」不成立；clinical fit、DIS / DIT 與 no better explanation 缺一不可。
+  - 「OCB 陽性就是 MS」不成立；OCB 可支持 DIT，但不能取代 mimic exclusion。
+  - 「MS 因 heat sensitivity 應避免運動」不成立；來源支持 temperature-aware graded exercise。
+  - 「DMT 進步後 symptom management 不重要」不成立；來源強調 gait、spasticity、fatigue、bladder / bowel、sexual dysfunction、cognition、dysphagia 等仍需處理。
+- 待追蹤問題：
+  - DMT 選擇、pregnancy / postpartum management、pediatric MS treatment 與 medication monitoring 需用 current guideline 補強。
+  - MS cognition、NLUTD、dysphagia、sexual dysfunction 可各自再拆單一概念頁。
+- 待處理來源：
+  - `C:\原始資料\Degenerative movement disorders of the central nervous system\Degenerative movement disorders of the central nervous system.md`
+
+## [2026-05-03] ingest | Qutubuddin & Zinoviev — Degenerative Movement Disorders of the Central Nervous System
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Degenerative movement disorders of the central nervous system\Degenerative movement disorders of the central nervous system.md`
+- 新增來源摘要：
+  - `09_來源摘要/Degenerative_Movement_Disorders_of_the_CNS.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Movement_Disorder_現象學分類.md`
+  - `03_疾病與臨床主題/Parkinson_Disease_診斷與Mimic排除.md`
+  - `03_疾病與臨床主題/Parkinson_Disease_復健與非運動症狀管理.md`
+  - `03_疾病與臨床主題/Parkinson_Plus_Syndrome_紅旗.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Movement disorders 是 excessive movement 或 paucity of voluntary / autonomic movement，且 unrelated to weakness or spasticity。
+  - Hyperkinetic disorders 包含 RLS、tremor、dystonia、myoclonus、chorea、tics；hypokinetic disorders 包含 PD 與 Parkinson-plus syndromes。
+  - Tremor 是 rhythmic oscillatory movement；rest tremor 常見於 PD，action tremor 包含 ET、enhanced physiologic tremor、cerebellar tremor、functional tremor 等。
+  - PD 與 substantia nigra pars compacta dopaminergic neuron loss 和 alpha-synuclein Lewy bodies 相關。
+  - PD cardinal motor signs 包含 resting tremor、bradykinesia、rigidity、postural instability；diagnosis largely based on clinical assessment。
+  - Levodopa remains the most effective drug for PD motor symptoms；interdisciplinary team care 是來源中最有效的 overall approach。
+  - PD nonmotor symptoms 包含 psychiatric、cognitive、autonomic、sleep、special sensory symptoms，且是 quality of life、nursing home placement、overall disability 的 major determinants。
+  - PSP、MSA、CBGD 可 mimic PD，但 early falls / gaze signs、autonomic failure / cerebellar signs、asymmetric cortical signs 會改變診斷與照護。
+- 發現衝突：
+  - 「有 tremor 就是 PD」不成立；rest vs action、functional signs、medication 與 ET / cerebellar tremor 都需鑑別。
+  - 「PD 可由單一 lab / imaging 確診」不成立；來源明確說目前沒有 definitive lab or imaging。
+  - 「levodopa 有效就不需復健」不成立；來源強調 interdisciplinary care、PT、caregiver support 與 nonmotor symptom treatment。
+  - 「沒有 vertical gaze palsy 就不是 PSP」不成立；來源提醒 strict reliance on this single sign may delay diagnosis。
+- 待追蹤問題：
+  - PD / atypical parkinsonism 的 current MDS diagnostic criteria、DBS / FUS selection、exercise dosing、swallowing therapy 與 palliative care 需後續 single-source 補強。
+  - RLS、ET、dystonia、HD 可依需要各自拆成單一概念頁。
+- 待處理來源：
+  - 本輪三篇候選來源已處理完畢；未重新掃描 `C:\原始資料` 全部 backlog。
+
+## [2026-05-03] ingest | Basco et al. — Aging, Dementia, and Disorders of Cognition
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Aging, Dementia, and Disorders of Cognition\Aging, Dementia, and Disorders of Cognition.md`
+- 新增來源摘要：
+  - `09_來源摘要/Aging_Dementia_and_Disorders_of_Cognition.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/正常老化與Pathological_Cognitive_Decline.md`
+  - `03_疾病與臨床主題/Delirium_Depression_Dementia_鑑別.md`
+  - `03_疾病與臨床主題/Dementia_復健與Caregiver支持框架.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Healthy brain aging 可有 cortical volume / thickness change 與 network reorganization，但來源明確指出不必然造成 activity limitation 或 participation restriction。
+  - Normal aging 中 memory、language、visuospatial function 可相對穩定；executive function 對 fast、unfamiliar、complex task 較脆弱。
+  - Delirium 是 acute attention / awareness / cognition disturbance 且 severity fluctuates，需早期 medical assessment。
+  - Depression 在 older adults 可表現為 pain、weakness、headache、agitation、fatigue、appetite / weight change、constipation、sleep problem 與 irritability。
+  - Major vs minor neurocognitive disorder 的核心差異是 cognitive decline 是否干擾 everyday independence。
+  - Dementia management 需 stage-aware，且 patient-centered care、meaningful engagement、environmental support、OT、exercise、caregiver education 是核心。
+- 發現衝突：
+  - 「老化等於 dementia」不成立。
+  - 「住院或復健中突然變混亂就是 dementia 惡化」不成立；急性波動先想 delirium。
+  - 「dementia progressive 所以復健無效」不成立；目標可轉向 safety、ADL/IADL、mobility、caregiver support 與 quality of life。
+  - 來源中的 antiamyloid therapy 內容屬 time-sensitive，不能當作 2026 current treatment guidance。
+- 待追蹤問題：
+  - Dementia prevention、antiamyloid therapy、sleep intervention 與 multidomain risk-reduction 需用 current guideline / systematic review 補強。
+  - Dementia stage-specific exercise dosing、severe dementia outcome measurement 可後續拆頁。
+- 待處理來源：
+  - `C:\原始資料\Brainstem Syndromes\Brainstem Syndromes.md`
+  - `C:\原始資料\Movement Dysfunction in Stroke\Movement Dysfunction in Stroke.md`
+  - `C:\原始資料\Neurological Rehabilitation\Neurological Rehabilitation.md`
+
+## [2026-05-03] ingest | Brainstem Syndromes
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Brainstem Syndromes\Brainstem Syndromes.md`
+- 新增來源摘要：
+  - `09_來源摘要/Brainstem_Syndromes.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Brainstem_Localization_客觀徵象框架.md`
+  - `03_疾病與臨床主題/Brainstem_Ocular_Motor_Syndromes.md`
+  - `03_疾病與臨床主題/Brainstem_Stroke_交叉徵象與Locked_In.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Brainstem localization 可利用 cranial nerve nuclei / exiting nerves 的 level-specific anatomy 與 rostrocaudal long tracts。
+  - Crossed deficit pattern 是 ipsilateral cranial nerve sign 加 contralateral long tract motor / sensory finding。
+  - INO 來自 MLF lesion；intact convergence 支持 isolated MLF lesion 而非 CN III / medial rectus / NMJ problem。
+  - Dorsal midbrain / Parinaud syndrome 包含 upgaze palsy、light-near dissociation、convergence-retraction nystagmus 與 lid retraction。
+  - Vertebrobasilar lesions 可 patchy and rostrocaudal，不一定符合單一 transverse eponymic syndrome。
+  - Locked-in syndrome 通常涉及 basis pontis；quadriplegia 與 speech loss 可伴 preserved consciousness，eye movement / blinking 可能是唯一 voluntary control。
+- 發現衝突：
+  - 「brainstem syndrome 先背 eponym」不成立；來源優先採 objective signs。
+  - 「isolated complete ophthalmoplegia 一定是 focal brainstem lesion」不成立；來源指出通常是 extraaxial。
+  - 「locked-in syndrome 是 coma」不成立；reticular activating system 可 preserved。
+- 待追蹤問題：
+  - Posterior circulation acute stroke imaging、thrombolysis / thrombectomy、BP 與 antithrombotic decision 需 current stroke guideline 補強。
+  - Brainstem dysphagia、communication access for locked-in syndrome 可後續拆頁。
+- 待處理來源：
+  - `C:\原始資料\Movement Dysfunction in Stroke\Movement Dysfunction in Stroke.md`
+  - `C:\原始資料\Neurological Rehabilitation\Neurological Rehabilitation.md`
+
+## [2026-05-03] ingest | Quiben & McNeal — Movement Dysfunction in Stroke
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Movement Dysfunction in Stroke\Movement Dysfunction in Stroke.md`
+- 新增來源摘要：
+  - `09_來源摘要/Movement_Dysfunction_in_Stroke.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Stroke_Movement_Dysfunction_Impairment_Model.md`
+  - `03_疾病與臨床主題/Poststroke_Spasticity與Hypertonicity區分.md`
+  - `03_疾病與臨床主題/Poststroke_Movement_Reeducation與Compensation.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Stroke rehabilitation intervention 應由 movement / activity limitations 指導，而不是由 stroke diagnosis 本身決定。
+  - Primary impairments 包含 neurologic weakness、altered muscle activation、initiation / cessation / sequencing / timing / force 問題、sensory loss 與 tone change。
+  - Secondary impairments 包含 cardiopulmonary deconditioning、alignment / mobility problem、soft tissue shortening、pain 與 edema。
+  - Spasticity 是 passive state 下 velocity-dependent reflex；hypertonicity 與 spasticity 不應當作同義詞。
+  - 來源明確指出 spasticity 造成 atypical movement pattern 的舊觀念已被反駁。
+  - Undesirable compensation 可造成 learned nonuse、secondary impairment、unsafe movement 與未來 recovery barrier。
+- 發現衝突：
+  - 「abnormal movement 都是 spasticity 造成」不成立。
+  - 「硬就是 spasticity」不成立；需分 reflex、contracture、pain、edema、alignment、co-contraction 與 peripheral stiffness。
+  - 「只要 task 完成，compensation 就沒有問題」不成立；需看 safety、impaired-side activation 與 long-term recovery。
+- 待追蹤問題：
+  - BoNT-A / phenol / intrathecal baclofen 等介入需 current guideline、藥品標示與 patient-specific contraindication 補強。
+  - Poststroke aerobic training dose、upper-limb recovery prediction、pain/edema protocol 可後續拆頁。
+- 待處理來源：
+  - `C:\原始資料\Neurological Rehabilitation\Neurological Rehabilitation.md`
+
+## [2026-05-03] ingest | Dobkin — Neurological Rehabilitation
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Neurological Rehabilitation\Neurological Rehabilitation.md`
+- 新增來源摘要：
+  - `09_來源摘要/Neurological_Rehabilitation.md`
+- 新增頁面：
+  - `02_方法學/Neurorehabilitation_目標設定與Team_Based_Care.md`
+  - `02_方法學/Neurorehabilitation_Outcome_Measurement.md`
+  - `02_方法學/Neurorehabilitation_Motor_Learning與Plasticity.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Neurorehabilitation training 目標是降低 physical / cognitive impairments 與 related disabilities / activity limitations，以增加 functional independence and HRQoL。
+  - Movement / skill training 是 active learning and self-management process，包含 motivation、guidance、goal setting、progressive practice、feedback 與 social support。
+  - Interdisciplinary team care 應以 functional outcome problem-solving 為核心，而非 discipline-bound 平行處理。
+  - Outcome measurement 層級包含 pathophysiology / impairment、disability / functional activity、handicap / participation 與 HRQoL。
+  - FIM / BI 主要測 ADL assistance，且 FIM 有 floor / ceiling 與 sensitivity limitations。
+  - Robotics、FNS、noninvasive stimulation、BCI、wearables 與 telerehab 在來源中多屬 adjunct，不等於自動優於 dose-matched task practice。
+- 發現衝突：
+  - 「有多職類就等於 team-based care」不成立；需 shared goals and coordinated strategies。
+  - 「單一 ADL score 可代表全部 outcome」不成立。
+  - 「新科技自然比傳統復健好」不成立；需看 dose、feedback、task relevance、access、measurement 與 patient-centered outcome。
+- 待追蹤問題：
+  - Robotics、BCI、tDCS、pharmacologic adjunct、telerehabilitation 與 wearable protocol 需 current systematic review 補強。
+  - Neurorehabilitation service setting、AFO prescription、self-management intervention 可後續拆頁。
+- 待處理來源：
+  - 本輪四篇候選來源已處理完畢；未重新掃描 `C:\原始資料` 全部 backlog。
