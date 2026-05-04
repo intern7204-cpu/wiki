@@ -131,6 +131,7 @@ Serve and Return 是 **child 發出 cue，adult notice 並 contingently respond 
 - [[09_來源摘要/Infancy]]
 - [[09_來源摘要/Serve_and_Return]]
 - [[09_來源摘要/Mattering_in_Early_Childhood]]
+- [[09_來源摘要/Encouraging_infant_communication_and_play]]
 
 ### 證據標記
 
@@ -141,6 +142,7 @@ Serve and Return 是 **child 發出 cue，adult notice 並 contingently respond 
 ## 相關頁面
 
 - [[嬰兒期發展]]
+- [[Infant_Cue_Based_Interaction_日常Routines與Communication_Bundles]]
 - [[幼兒與學齡前期發展]]
 - [[托育與Early_Care_and_Education]]
 - [[Mattering_總論]]

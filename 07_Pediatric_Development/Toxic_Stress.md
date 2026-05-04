@@ -175,6 +175,8 @@ Toxic Stress 是 **strong, frequent, or prolonged activation of the stress respo
 ## 相關頁面
 
 - [[創傷_復原力與兒童發展]]
+- [[Caregiver_Self_Care_作為Child_Stress_Buffering_Capacity]]
+- [[Pediatric_Primary_Care_作為Health_Learning_Coordination_Platform]]
 - [[發展環境穩定性]]
 - [[發展環境與Place]]
 - [[早期發展與終身健康]]

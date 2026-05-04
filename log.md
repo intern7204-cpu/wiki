@@ -3478,3 +3478,1694 @@ index.md 更新：Total pages 7 → 16。
   - Neurorehabilitation service setting、AFO prescription、self-management intervention 可後續拆頁。
 - 待處理來源：
   - 本輪四篇候選來源已處理完畢；未重新掃描 `C:\原始資料` 全部 backlog。
+
+## [2026-05-03] ingest | Kline-Quiroz & Jones — Cancer Rehabilitation
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Cancer Rehabilitation\Cancer Rehabilitation.md`
+- 新增來源摘要：
+  - `09_來源摘要/Cancer_Rehabilitation.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Cancer_Rehabilitation_總論.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Cancer rehabilitation 應整合於 oncology care continuum，目標包括維持 / 恢復功能、減少 symptom burden、提高 independence 與 quality of life。
+  - 來源列出 preventive、restorative、supportive、palliative 四種 phase-specific rehabilitation goals。
+  - 常見 cancer-related impairments 包括 fatigue、cognitive impairment、lymphedema、CIPN、pain、radiation fibrosis、bone metastasis。
+  - Bone metastasis rehab 需用 SINS、Mirels criteria、platelet count 與 oncology plan 做 safety framing。
+- 發現衝突：
+  - 「癌症復健只適用末期或 palliative care」不成立。
+  - 「骨轉移等於完全不能復健」不成立；需依 fracture / spinal instability risk 調整。
+- 待追蹤問題：
+  - Cancer-related fatigue、CIPN、lymphedema、bone metastasis rehabilitation precautions 可後續拆頁。
+- 待處理來源：
+  - `C:\原始資料\Cancer Rehabilitation\Cancer Rehabilitation.md` 已完成本輪單一來源 ingest。
+
+## [2026-05-03] ingest | Oh-Park, Choudry & Shah — Geriatrics
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Geriatrics\Geriatrics.md`
+- 新增來源摘要：
+  - `09_來源摘要/Geriatrics.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/高齡復健與Frailty框架.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Sarcopenia 與 falls、fractures、physical disability、mortality 相關。
+  - EWGSOP2 以 muscle strength 為 sarcopenia case finding 重點；來源列出 hand grip、chair rise、gait speed、SPPB 等指標。
+  - Falls risk 可分 environmental、physical、mental、pharmacologic contributors。
+  - Age-Friendly 4Ms 包含 Medication、Mentation、Mobility、What Matters。
+- 發現衝突：
+  - 「gait disorder 是 aging 必然結果」不成立。
+  - 「高齡復健只是低強度成人復健」不成立；polypharmacy、delirium、falls、goals 必須納入。
+- 待追蹤問題：
+  - Sarcopenia screening、falls prevention、Age-Friendly 4Ms 可後續拆成單一概念頁。
+- 待處理來源：
+  - `C:\原始資料\Geriatrics\Geriatrics.md` 已完成本輪單一來源 ingest。
+
+## [2026-05-03] ingest | Sinaki, Wermers & Prideaux — Osteoporosis
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Osteoporosis\Osteoporosis.md`
+- 新增來源摘要：
+  - `09_來源摘要/Osteoporosis.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Osteoporosis_復健與骨折預防.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - WHO osteoporosis definition 以 T-score -2.5 或更低為主。
+  - Peak adult bone mass 約在 30-35 歲達成；之後 bone remodeling 可逐漸產生 net bone loss。
+  - 常見 osteoporotic fracture 包括 vertebral、hip、distal forearm。
+  - Moderate-intensity resistance training 與 impact exercise 可降低 vertebral fracture risk，但 exercise recommendations must be individualized。
+- 發現衝突：
+  - 「osteoporosis exercise 就是一般 strengthening」不成立；spinal loading direction、BMD、fracture history 與 fall risk 都要納入。
+  - 「沒有痛就沒有 vertebral fracture」不成立；部分 vertebral fractures 可 subclinical。
+- 待追蹤問題：
+  - Osteoporotic vertebral fracture rehab、back extensor training、pharmacologic guideline 需後續補強。
+- 待處理來源：
+  - `C:\原始資料\Osteoporosis\Osteoporosis.md` 已完成本輪單一來源 ingest。
+
+## [2026-05-03] ingest | Marcotte & Kumar — Pelvic Floor Disorders
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Pelvic floor disorders\Pelvic floor disorders.md`
+- 新增來源摘要：
+  - `09_來源摘要/Pelvic_Floor_Disorders.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Pelvic_Floor_Disorders_復健總論.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Pelvic floor disorders occur in both sexes。
+  - PFM dysfunction categories 包括 increased tone、pain、decreased tone、coordination disorder。
+  - PFPT 是 pelvic floor myofascial pain 的 first-line rehabilitation treatment。
+  - Internal pelvic floor exam 需要清楚說明、consent、privacy、chaperone 與可停止權利。
+- 發現衝突：
+  - 「pelvic pain 一定是 gynecologic / visceral problem」不成立。
+  - 「所有 pelvic floor dysfunction 都做 Kegel」不成立。
+- 待追蹤問題：
+  - Pelvic floor myofascial pain、pudendal neuralgia、chronic pelvic pain rehabilitation 可後續拆頁。
+- 待處理來源：
+  - `C:\原始資料\Pelvic floor disorders\Pelvic floor disorders.md` 已完成本輪單一來源 ingest。
+
+## [2026-05-03] ingest | Hsieh, Mao & Lu — Rehabilitation of Common Rheumatological Disorders
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Rehabilitation of common rheumatological disorders\Rehabilitation of common rheumatological disorders.md`
+- 新增來源摘要：
+  - `09_來源摘要/Rehabilitation_of_Common_Rheumatological_Disorders.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Rheumatic_Disease_復健總論.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Rheumatic diseases 包含 immune-related 與 nonimmune-related musculoskeletal disorders。
+  - OA 的核心 features 包含 pain、limited morning stiffness、reduced function、crepitus、restricted movement、bony hypertrophy。
+  - Symptomatic knee OA diagnosis 應主要基於 clinical findings；影像異常可無症狀。
+  - Rheumatic disease rehab 包含 evaluation、patient education、exercise、orthoses、modalities、assistive devices 與 environmental modification。
+- 發現衝突：
+  - 「x-ray 有 OA 所以痛一定是 OA」不成立。
+  - 「rheumatic disease rehab 只是物理因子止痛」不成立。
+- 待追蹤問題：
+  - OA rehab、RA rehab、AS rehab、septic arthritis red flags 可後續拆頁；DMARD / biologic 需 current guideline。
+- 待處理來源：
+  - `C:\原始資料\Rehabilitation of common rheumatological disorders\Rehabilitation of common rheumatological disorders.md` 已完成本輪單一來源 ingest。
+
+## [2026-05-03] ingest | Whiteson, Cohen & Prilik — Chronic Medical Conditions
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Chronic medical conditions Pulmonary disease, organ transplantation, and diabetes\Chronic medical conditions Pulmonary disease, organ transplantation, and diabetes.md`
+- 新增來源摘要：
+  - `09_來源摘要/Chronic_Medical_Conditions_Pulmonary_Disease_Organ_Transplantation_and_Diabetes.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/慢性肺病Pulmonary_Rehabilitation.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Pulmonary rehabilitation 是 evidence-based、multidisciplinary、comprehensive intervention。
+  - Chronic lung disease 可分 obstructive、restrictive、pulmonary vascular、hypoventilation patterns。
+  - COPD 是 PR 最常見 referral reason。
+  - Diaphragmatic breathing 在 COPD 可能增加 work of breathing and dyspnea。
+  - Transplant 與 diabetes rehab 需 disease-specific exercise safety and monitoring。
+- 發現衝突：
+  - 「PR 只有 treadmill / aerobic conditioning」不成立。
+  - 「COPD 一律教 diaphragmatic breathing」不成立。
+- 待追蹤問題：
+  - Solid organ transplant rehab、diabetes exercise safety、oxygen logistics 可後續拆頁。
+- 待處理來源：
+  - `C:\原始資料\Chronic medical conditions Pulmonary disease, organ transplantation, and diabetes\Chronic medical conditions Pulmonary disease, organ transplantation, and diabetes.md` 已完成本輪單一來源 ingest。
+
+## [2026-05-03] ingest | Bartels, Prince & Supervia — Acute Medical Conditions
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\28 Acute medical conditions Cardiopulmonary disease, medical frailty, and renal failure\28 Acute medical conditions Cardiopulmonary disease, medical frailty, and renal failure.md`
+- 新增來源摘要：
+  - `09_來源摘要/Acute_Medical_Conditions_Cardiopulmonary_Disease_Medical_Frailty_and_Renal_Failure.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/急性醫療虛弱與Early_Mobilization.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Frailty results in decreased mobility and functional decline；mobility 應在 medical settings 中被優先保護。
+  - Cardiac rehabilitation 是 evidence-based secondary prevention program，非單純 aerobic exercise。
+  - Aerobic prescription 包含 intensity、duration、frequency、specificity。
+  - Immobility 有 multisystem functional consequences；renal failure / dialysis 會增加特殊 debility and safety issues。
+- 發現衝突：
+  - 「frailty 所以應預設臥床」不成立。
+  - 「cardiac rehabilitation 只是運動課」不成立。
+- 待追蹤問題：
+  - Cardiac rehab、renal failure rehab safety、ICU-acquired weakness 可後續拆頁。
+- 待處理來源：
+  - `C:\原始資料\28 Acute medical conditions Cardiopulmonary disease, medical frailty, and renal failure\28 Acute medical conditions Cardiopulmonary disease, medical frailty, and renal failure.md` 已完成本輪單一來源 ingest。
+
+## [2026-05-03] ingest | Twichell — Burns
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\27 burn\27 burn.md`
+- 新增來源摘要：
+  - `09_來源摘要/Burns.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Burn_Rehabilitation_總論.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Burn severity 由 size、depth、etiology 與 associated injury 決定。
+  - Certified burn-center transfer criteria 包含高風險部位、inhalation injury、TBSA thresholds、full-thickness burns、electrical / chemical burns。
+  - Burn rehab 應從 admission 開始，並延續到 inpatient、outpatient、long-term survivorship。
+  - Burn complications 包括 hypermetabolism、dysphagia、cognitive concerns、pruritus、neuropathy、HO、amputation、hypertrophic scar、contracture。
+- 發現衝突：
+  - 「burn wound 沒好所以不能復健」不成立。
+  - 「burn pain management 只靠 opioid」不成立；來源支持 multimodal analgesia and nonpharmacologic adjuncts。
+- 待追蹤問題：
+  - Postburn contracture prevention、hypertrophic scar、postburn pruritus / pain、electrical burn rehab 可後續拆頁。
+- 待處理來源：
+  - `C:\原始資料\27 burn\27 burn.md` 已完成本輪單一來源 ingest。
+
+## [2026-05-03] ingest | McMullen, Meron & De Luigi — Sports Medicine and Adaptive Sports
+
+- 類型：textbook chapter（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\Sports medicine and adaptive sports\Sports medicine and adaptive sports.md`
+- 新增來源摘要：
+  - `09_來源摘要/Sports_Medicine_and_Adaptive_Sports.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Sports_Medicine與Adaptive_Sports_總論.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Team physician 負責 medical eligibility、injury care、RTP、emergency preparedness、training oversight、supervision、liability protection。
+  - Event administration 需要 chain of command、EAP、equipment、protocols、environmental assessment 與 communication。
+  - Training principles 包含 specificity、individuality、periodization、overload、tapering。
+  - Full RTP 需要無痛、flexibility / strength / proprioception 正常、sport-specific mechanics and skills 可重現。
+  - Adaptive sports medicine 需 classification、equipment 與 disability-cause injury patterns。
+- 發現衝突：
+  - 「pain-free 就能 RTP」不成立。
+  - 「adaptive sports 只是一般 sports medicine 加 disability label」不成立。
+- 待追蹤問題：
+  - RTP framework、sports concussion、team physician/EAP、adaptive sports injury patterns 可後續拆頁。
+- 待處理來源：
+  - `C:\原始資料\Sports medicine and adaptive sports\Sports medicine and adaptive sports.md` 已完成本輪單一來源 ingest。
+
+## [2026-05-03] ingest | Burke-Doe & Johnson — Impact of Drug Therapy on Patients Receiving Neurological Rehabilitation
+
+- 類型：textbook chapter（Tier 1；藥物資訊 time-sensitive，confidence moderate）
+- 重新檢查來源：
+  - `C:\原始資料\Impact of Drug Therapy on Patients Receiving Neurological Rehabilitation\Impact of Drug Therapy on Patients Receiving Neurological Rehabilitation.md`
+- 新增來源摘要：
+  - `09_來源摘要/Impact_of_Drug_Therapy_on_Patients_Receiving_Neurological_Rehabilitation.md`
+- 新增頁面：
+  - `02_方法學/Neurorehabilitation_藥物效應與治療時機.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Pharmacokinetics 包含 absorption、distribution、metabolism、elimination。
+  - Pharmacodynamics 關注 drug effects and mechanisms。
+  - Disease、age、diet、gender、genetics、drug interactions 可改變 drug response。
+  - PD medication timing、antiseizure drug sedation / ataxia、antihypertensive orthostasis、anticoagulant bleeding risk 都會影響 therapy safety and performance。
+- 發現衝突：
+  - 「復健人員不用管藥物」不成立；藥物會改變 participation、safety、learning、outcome interpretation。
+  - 「看到副作用就由 rehab clinician 自行停藥」不成立；應回報 prescriber / pharmacist。
+- 待追蹤問題：
+  - Parkinson medication timing、antiseizure medication and motor learning、cardiovascular medication safety 可後續拆頁；所有藥物資訊需 current drug reference。
+- 待處理來源：
+  - `C:\原始資料\Impact of Drug Therapy on Patients Receiving Neurological Rehabilitation\Impact of Drug Therapy on Patients Receiving Neurological Rehabilitation.md` 已完成本輪單一來源 ingest。
+
+## [2026-05-03] ingest | WHO guidelines on parenting interventions
+
+- 類型：WHO guideline（Tier 1）
+- 重新檢查來源：
+  - `C:\原始資料\WHO guidelines on parenting interventions\WHO guidelines on parenting interventions.md`
+- 新增來源摘要：
+  - `09_來源摘要/WHO_guidelines_on_parenting_interventions.md`
+- 新增頁面：
+  - `07_Pediatric_Development/Parenting_Interventions_防止兒童不當對待與強化親子關係.md`
+- 更新頁面：
+  - `07_Pediatric_Development/正向教養與家庭支持.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - WHO 2022 guideline 對 0-17 歲 parents / caregivers 的 parenting interventions 提出五項 strong recommendations。
+  - Guideline 使用 WHO guideline development process、GRADE、systematic reviews、narrative review 與 WHO-INTEGRATE considerations。
+  - 主要 outcomes 包含 child maltreatment、harsh / negative parenting、positive parenting、child externalizing / internalizing problems、parental mental health 與 parenting stress。
+  - Effective components 包括 nonviolent discipline、positive reinforcement、proactive parenting、parental self-management、child-led play、empathy building 與 skill practice。
+  - Serious maltreatment 或嚴重 parent-child conflict 時，應考慮 specialized parenting intervention 加上 child protection service intervention。
+- 發現衝突：
+  - 「parenting intervention 只是一次性教養建議」不成立。
+  - 「strong recommendation 代表每個 outcome 都是 high-certainty evidence」不成立；adolescent LMIC 與 humanitarian settings 多項 outcome 仍為 low / very low certainty。
+  - 「parenting program 可以取代 poverty reduction、public health 或 child protection」不成立。
+- 待追蹤問題：
+  - indicated parenting interventions and child protection interface、adolescent-focused parenting intervention、humanitarian settings parenting support、cultural adaptation and fidelity 可後續拆頁。
+- 待處理來源：
+  - `C:\原始資料\WHO guidelines on parenting interventions\WHO guidelines on parenting interventions.md` 已完成本輪單一來源 ingest。
+
+## [2026-05-03] ingest | Nurturing Care Practice Guide
+
+- 類型：WHO / UNICEF practice guide（Tier 2）
+- 重新檢查來源：
+  - `C:\原始資料\nurturing care practice guide\nurturing care practice guide.md`
+- 新增來源摘要：
+  - `09_來源摘要/Nurturing_Care_Practice_Guide.md`
+- 新增頁面：
+  - `07_Pediatric_Development/Nurturing_Care_健康與營養服務整合.md`
+- 更新頁面：
+  - `07_Pediatric_Development/Caregiving_Quality_作為早期介入靶點.md`
+  - `07_Pediatric_Development/照顧者健康與兒童健康發展.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Nurturing care 包含 good health、adequate nutrition、safety and security、opportunities for early learning、responsive caregiving 五個 interrelated components。
+  - Guide 聚焦 health / nutrition services 中常被忽略的 responsive caregiving、early learning、safety and security，以及 caregiver well-being。
+  - Managers 可透過 facility accessibility、play / counselling spaces、protocol adaptation、training / mentoring、caregiver participation policy、humanitarian adaptation 與 referral mapping 支持 nurturing care。
+  - Providers 可在 antenatal、postnatal、well-child、sick-child、inpatient、home visit 與 nutritional rehabilitation 接觸中觀察、示範、稱讚、coaching 與 problem-solving。
+  - Guide 使用 universal、targeted、indicated 三層 support；developmental milestone assessment 若沒有 referral network and indicated support，效果可能不足。
+- 發現衝突：
+  - 「健康與營養服務只需管 growth、vaccine、illness」不成立。
+  - 「nurturing care support 等於發衛教單」不成立；來源強調 provider observation、modeling、coaching 與 caregiver practice。
+  - 「問 milestone 就完成 developmental care」不成立；來源明確指出若 referral networks 與 indicated support 不足，單純要求 primary care providers assess milestones unlikely to be effective。
+- 待追蹤問題：
+  - responsive caregiving in clinical encounters、playbox / waiting-room developmental intervention、nutritional rehabilitation and early learning、zero separation / family-centred neonatal and inpatient care 可後續拆頁。
+- 待處理來源：
+  - `C:\原始資料\nurturing care practice guide\nurturing care practice guide.md` 已完成本輪單一來源 ingest。
+
+## [2026-05-03] ingest | WHO — Caregiver Skills Training Adaptation and Implementation Guide
+
+- 類型：WHO implementation / adaptation guide（Tier 2）
+- 重新檢查來源：
+  - `C:\原始資料\Adaptation and implementation guide\Adaptation and implementation guide.md`
+- 新增來源摘要：
+  - `09_來源摘要/Caregiver_Skills_Training_Adaptation_and_Implementation_Guide.md`
+- 新增頁面：
+  - `07_Pediatric_Development/Caregiver_Skills_Training_CST_在地化與Implementation_Fidelity.md`
+- 更新頁面：
+  - `index.md`
+- 本輪抽出的直接事實：
+  - CST intended audience 是 2-9 歲、有 developmental delays or disabilities 的兒童照顧者；child 不必已有正式 diagnosis。
+  - CST 標準 course structure 是 9 group sessions 加 3 home visits，由 trained and supervised non-specialist facilitators 執行。
+  - Adaptation 應先做 recommended / essential changes，並記錄 rationale；重大結構改變需 consultation、documentation 與 evaluation。
+  - Core components 包含 key messages / tips、group activities、home visits、guided practice、goal-setting、home practice、teaching methods、facilitator-to-participant ratio、session sequence 與 target population boundary。
+  - Implementation planning 需處理 service mapping、legal / child protection framework、transportation、childcare、scheduling、caregiver involvement、stigma 與 local resource list。
+- 發現衝突：
+  - 「CST 只是家長衛教單」不成立。
+  - 「文化在地化等於任意改教材」不成立。
+  - 「fidelity 等於不能在地化」不成立。
+  - 「縮短課程一定等效」不成立；來源要求保留 foundational sessions 與 core components，重大結構改變需評估。
+- 待追蹤問題：
+  - CST facilitator guide、participant guide、home visit guide 可後續逐篇單一來源 ingest。
+  - CST 與 ASD early intervention、developmental delay waiting-period support、caregiver well-being module 可後續拆頁。
+- 待處理來源：
+  - `C:\原始資料\Facilitators’ guide\Facilitators’ guide.md`
+  - `C:\原始資料\Participants’ guide\Participants’ guide.md`
+  - `C:\原始資料\Home visit guide for facilitators\Home visit guide for facilitators.md`
+
+## [2026-05-03] ingest | WHO — Caregiver Skills Training Facilitators' Guide
+
+- 類型：WHO facilitators' guide / implementation manual（Tier 2）
+- 重新檢查來源：
+  - `C:\原始資料\Facilitators’ guide\Facilitators’ guide.md`
+- 新增來源摘要：
+  - `09_來源摘要/Caregiver_Skills_Training_Facilitators_Guide.md`
+- 新增頁面：
+  - `07_Pediatric_Development/CST_Facilitator_Delivery_Model_引導式練習與Home_Practice_Loop.md`
+- 更新頁面：
+  - `07_Pediatric_Development/Caregiver_Skills_Training_CST_在地化與Implementation_Fidelity.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Facilitators' guide 必須搭配 practical training and supervision 使用；reading the guide is not enough。
+  - Session 2-9 的一般結構包含 wellness activity、review key messages / tips、home practice discussion、caregiver story、group teaching、facilitator demonstration、role-play、coaching / feedback、home-practice planning 與 close。
+  - CST 是 caregiver-mediated intervention，目標是把 strategies integrated into everyday life。
+  - Home practice between group sessions is considered essential；caregivers are asked to practise skills daily。
+  - Session progression：engagement → shared engagement routines → communication → small-step adaptive skills → challenging behaviour prevention / alternatives → self-care and problem-solving。
+  - Challenging behaviour 被整理為 get access、get attention、avoid/stop something、get a sensation 四種功能；且部分 behavior 可源於 physical or medical reasons，不能以 punishment 處理。
+- 發現衝突：
+  - 「看完手冊即可執行 CST」不成立。
+  - 「CST 是家長觀念課」不成立；來源反覆要求 demonstration、role-play、coaching、feedback and home practice。
+  - 「home practice 是可有可無」不成立。
+  - 「behavior module 是處罰不乖」不成立；來源採 regulation、antecedent、function、prevention、replacement 的邏輯。
+- 待追蹤問題：
+  - CST shared engagement routines、communication to request/share、challenging behaviour function-based response 可後續拆成單一概念頁。
+  - Participants' guide 與 Home visit guide for facilitators 仍需逐篇單一來源 ingest。
+- 待處理來源：
+  - `C:\原始資料\Participants’ guide\Participants’ guide.md`
+  - `C:\原始資料\Home visit guide for facilitators\Home visit guide for facilitators.md`
+
+## [2026-05-03] ingest | WHO — Caregiver Skills Training Home Visit Guide for Facilitators
+
+- 類型：WHO home visit guide / facilitator manual（Tier 2）
+- 重新檢查來源：
+  - `C:\原始資料\Home visit guide for facilitators\Home visit guide for facilitators.md`
+- 新增來源摘要：
+  - `09_來源摘要/Caregiver_Skills_Training_Home_Visit_Guide_for_Facilitators.md`
+- 新增頁面：
+  - `07_Pediatric_Development/CST_Home_Visit_Model_個別化Goal_Setting與Guided_Practice.md`
+- 更新頁面：
+  - `07_Pediatric_Development/Caregiver_Skills_Training_CST_在地化與Implementation_Fidelity.md`
+  - `07_Pediatric_Development/CST_Facilitator_Delivery_Model_引導式練習與Home_Practice_Loop.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Home visit guide 必須搭配 specific training and supervision 使用；reading the guide is not enough。
+  - CST standard course structure 是 9 group sessions 加 3 home visits，由 trained and supervised non-specialist facilitators 執行。
+  - Home visit 1 在 session 1 前，聚焦 family introduction、child / caregiver needs assessment、caregiver interview、FCI、CCI and establishing goals。
+  - Home visit 2 preferably 在 session 5 和 session 6 之間，聚焦 re-evaluate goals、review home practice、guided practice、coaching and demonstration。
+  - Home visit 3 在 session 9 後，聚焦 re-evaluate longer-term goals、consolidate selected strategies、select routines and support independent practice。
+  - CCI 每次 home visit 使用；FCI 在 home visit 1 obligatory、home visit 3 optional；兩者皆為 12-minute clinical tools。
+  - Goal-setting 依 caregiver interview 與 CCI / FCI observations 設定 child targets、caregiver targets and target routines。
+  - Coaching 是 adult learning methodology，facilitator 在 caregiver-child interaction 中主動支持、調整或示範，支持量依 caregiver confidence、facilitator certainty and child response 調整。
+  - Home visits include assessment of additional family needs, including child / caregiver health, caregiver mental health, potential child maltreatment and material deprivation。
+- 發現衝突：
+  - 「CST home visits 是可有可無的追蹤」不成立。
+  - 「CCI / FCI 是正式 developmental diagnosis」不成立。
+  - 「Goal-setting 就是照 caregiver long-term hope 寫目標」不成立；來源要求依 current skills 設定 small next steps。
+  - 「Coaching 等於旁觀或完全由 facilitator 接手」不成立；來源要求依 needs 給 right amount of support。
+  - 「發現 neglect / abuse 時 facilitator 自己處理即可」不成立；來源要求 consult supervisor and referral。
+- 待追蹤問題：
+  - CST CCI / FCI observation、coaching support levels、safeguarding and referral boundary、communication requesting/sharing goals 可後續拆成單一概念頁。
+- 待處理來源：
+  - `C:\原始資料\Participants’ guide\Participants’ guide.md`
+
+## [2026-05-03] ingest | WHO — Caregiver Skills Training Participants' Guide
+
+- 類型：WHO participants' guide / caregiver-facing workbook（Tier 2）
+- 重新檢查來源：
+  - `C:\原始資料\Participants’ guide\Participants’ guide.md`
+- 新增來源摘要：
+  - `09_來源摘要/Caregiver_Skills_Training_Participants_Guide.md`
+- 新增頁面：
+  - `07_Pediatric_Development/CST_Caregiver_Strategy_Practice_日常Routines與Home_Practice.md`
+- 更新頁面：
+  - `07_Pediatric_Development/Caregiver_Skills_Training_CST_在地化與Implementation_Fidelity.md`
+  - `07_Pediatric_Development/CST_Facilitator_Delivery_Model_引導式練習與Home_Practice_Loop.md`
+  - `07_Pediatric_Development/CST_Home_Visit_Model_個別化Goal_Setting與Guided_Practice.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - Participants' guide 是給參與 WHO CST 的 caregivers 使用，內容涵蓋 group sessions 1-9。
+  - Guide 包含 illustrated key messages and tips、goal-setting activities、questions to check learning，以及 local resources template。
+  - 若 caregiver 想自行學習而沒有 local CST course，來源導向 WHO eLearning CST，不是把 PDF guide 當作完整替代。
+  - CST target audience 是 2-9 歲、具 developmental delays or disabilities 的兒童 caregivers；child 不必已有 formal diagnosis。
+  - CST designed structure 是 9 group sessions and 3 home visits，由 trained and supervised non-specialist facilitators 執行。
+  - Sessions 1-2 聚焦 getting / keeping children engaged；Session 3 聚焦 play and home routines；Sessions 4-5 聚焦 communication；Session 6 聚焦 small steps and levels of help；Sessions 7-8 聚焦 challenging behaviour；Session 9 聚焦 caregiver well-being、problem-solving and ongoing practice。
+  - Home practice 反覆要求 caregiver 選擇 everyday routines、brief practice、review successes / barriers and plan next steps。
+  - Challenging behaviour 被整理為 get access、get attention、avoid / stop something、get a sensation，response 需依 reason 調整。
+- 發現衝突：
+  - 「Participants' guide 可單獨取代 CST course」不成立。
+  - 「CST 是一般教養觀念」不成立；來源以 key messages、tips、goal-setting、home practice and learning checks 組織。
+  - 「Communication intervention 只能等 spoken words 出現後再做」不成立。
+  - 「Challenging behaviour 主要靠 harsh discipline 處理」不成立。
+  - 「Caregiver self-care 與 child intervention 無關」不成立。
+- 待追蹤問題：
+  - CST shared engagement routines、requesting vs sharing communication goals、small-step adaptive skill teaching、function-based challenging behaviour response、caregiver self-care and problem-solving 可後續拆成單一概念頁。
+- 待處理來源：
+  - WHO CST package 三份核心 guide 已完成本輪序列 ingest；後續可依 log 中待追蹤問題逐頁拆概念。
+
+## [2026-05-03] ingest | WHO — Caregiver Skills Training Introduction
+
+- 類型：WHO introduction to CST package（Tier 2）
+- 重新檢查來源：
+  - `C:\原始資料\Introduction\Introduction.md`
+- 新增來源摘要：
+  - `09_來源摘要/Caregiver_Skills_Training_Introduction.md`
+- 新增頁面：
+  - `07_Pediatric_Development/CST_Package_Architecture_多層教材與Training_Supervision.md`
+- 更新頁面：
+  - `07_Pediatric_Development/Caregiver_Skills_Training_CST_在地化與Implementation_Fidelity.md`
+  - `07_Pediatric_Development/CST_Facilitator_Delivery_Model_引導式練習與Home_Practice_Loop.md`
+  - `07_Pediatric_Development/CST_Home_Visit_Model_個別化Goal_Setting與Guided_Practice.md`
+  - `07_Pediatric_Development/CST_Caregiver_Strategy_Practice_日常Routines與Home_Practice.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - CST package 的 intended audience 是 caregivers of children aged 2-9 years with developmental delays or disabilities，尤其 social / communication delays or impairments。
+  - Child 不必已有 formal diagnosis 即可被 referral to CST。
+  - CST standard format 是 9 core group sessions and 3 home visits。
+  - Group sessions 通常 2.5-3 hours，weekly or every two weeks；home visits 通常 1.5-2 hours。
+  - Home visits 排在 group session 1 前、sessions 5/6 之間、final group session 後。
+  - CST designed to be delivered by trained non-specialists，並整合在 community-based health and social services network。
+  - CST 應作為 stepped care approach 的一部分，先提供 least resource-intensive effective support，再依需求 step up to specialist services。
+  - Facilitator supervision 被描述為 essential，至少每次 home visit 後應有 formal check。
+  - Field-testing 支持 feasibility、acceptability、relevance、improved parenting skills and caregiver well-being；不可直接過度外推成 definitive efficacy。
+- 發現衝突：
+  - 「CST 必須等 formal diagnosis 後才能做」不成立。
+  - 「CST 是一本手冊或一次家長衛教」不成立。
+  - 「Non-specialist delivery 等於不需要 training/supervision」不成立。
+  - 「Home visits 可任意刪除但仍維持同一 package」不成立。
+- 待追蹤問題：
+  - CST stepped-care referral boundary、facilitator supervision fidelity、safeguarding pathway、virtual delivery adaptation 可後續拆成單一概念頁。
+- 待處理來源：
+  - 需再掃描 `C:\原始資料` 以選定下一篇未處理來源。
+
+## [2026-05-03] correction | Rogers & Vismara — Encouraging infant communication and play
+
+- 修正原因：此來源在 2026-04-24 曾被 ingest，但摘要仍偏舊式 batch 產物；本輪依單一來源與 fact / inference / assumption / uncertainty 分層重新整理。
+- 重新檢查來源：
+  - `C:\原始資料\Encouraging infant communication and play\Encouraging infant communication and play.md`
+- 更新來源摘要：
+  - `09_來源摘要/Encouraging_infant_communication_and_play.md`
+- 新增頁面：
+  - `07_Pediatric_Development/Infant_Cue_Based_Interaction_日常Routines與Communication_Bundles.md`
+- 更新頁面：
+  - `07_Pediatric_Development/嬰兒期發展.md`
+  - `07_Pediatric_Development/嬰兒期的狀態調節與互動評估.md`
+  - `07_Pediatric_Development/Serve_and_Return.md`
+  - `07_Pediatric_Development/Caregiving_Quality_作為早期介入靶點.md`
+  - `07_Pediatric_Development/早期語言發展與Emergent_Literacy.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - 來源作者為 Sally J. Rogers and Laurie A. Vismara，manual 屬 ESDM Training Program / MIND Institute / UC Davis Health 脈絡。
+  - Manual 來自 2010-2012 年針對 families concerned about possible autism symptoms in infants under 12 months of age 的工作脈絡，並引用 Rogers/Vismara et al. 2014 Infant Start pilot study。
+  - 來源明確說 underlying study was not a randomized clinical trial，不能提供 experimental proof that the concepts helped infants。
+  - 來源說明 families were largely white, American, and from middle to upper middle socioeconomic status。
+  - 來源把 infant cues 分成 seeking more engagement 與 seeking less engagement，並教 caregiver 調整 proximity、pace and affect。
+  - 來源把 15 months and younger 的 daily routines 分成 mealtimes、physical care、books、outdoor play、social games and toy play。
+  - 來源教 caregiver 透過 active watching、narration、imitation、waiting、responding to sounds、object turn-taking and flexible play 建立互動。
+  - 來源把 preverbal communication 放在 gaze、facial expression、gesture、body posture、sound、directed communication and joint attention 的框架中。
+  - 來源描述 communication bundles 為 coordinated gaze、voice、gesture、body orientation or facial expression，並用 caregiver response 強化 clearer bundled communication。
+- 移除或降級的陳述：
+  - 未保留任何把 manual 當作 consensus-level intervention proof 的語氣。
+  - 將 manual 的臨床定位降回 caregiver coaching scaffold，而不是 ASD early intervention efficacy evidence。
+- 發現衝突：
+  - 「more stimulation is always better」不成立；來源要求 cue-matched intensity。
+  - 「preverbal communication 只等於 babble or words」不成立。
+  - 「brief waiting 等於忽略 infant distress」不成立；來源要求依 infant cue 調整與停止。
+  - 「caregiver manual 可取代 developmental evaluation」不成立。
+- 仍不確定之處：
+  - 哪個 component 對 outcome 最重要仍未被本來源證明。
+  - 不同 culture、SES、language、family stress、hearing/vision/motor/medical conditions 下的可用性需要其他來源校正。
+- 待處理來源：
+  - 若後續要提升 evidence level，應回查 Rogers/Vismara 2014 pilot study、Infant Start 後續研究、ASD early intervention systematic review 或 guideline。
+
+## [2026-05-03] correction | Harvard Center — Building Resilience Through Play
+
+- 修正原因：此來源在 2026-04-25 batch ingest 中已建立來源摘要，但未依單一來源 workflow 完整拆出 Fact / Inference / Assumption / Uncertainty，也尚未建立單一概念頁。
+- 重新檢查來源：
+  - `C:\原始資料\Building Resilience Through Play.md`
+- 更新來源摘要：
+  - `09_來源摘要/Building_Resilience_Through_Play.md`
+- 新增頁面：
+  - `07_Pediatric_Development/Play_作為Resilience_Building_Context.md`
+- 更新頁面：
+  - `07_Pediatric_Development/創傷_復原力與兒童發展.md`
+  - `07_Pediatric_Development/Play_Based_Pediatric_Examination.md`
+  - `07_Pediatric_Development/幼兒與學齡前期發展.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - 來源是 Harvard Center on the Developing Child 的 Brain Architects podcast transcript，屬 science-translation source。
+  - 來源把 resilience 定義為 coping、overcoming hardship/adversity/threat 的能力。
+  - 來源明確說 resilience 在 relationships and environments 中被 actively built，不是在 child alone 或 vacuum 中產生。
+  - 來源提出三個 developmental principles：supportive relationships、reduce significant sources of stress、build core skills。
+  - 來源把 play 描述為 child master environment、test limits、learn strategies、gain control 的 developmental process。
+  - 來源舉 infant play 包含 eye contact、smiling、cooing、vocal back-and-forth、handing/grabbing and serve-and-return interaction。
+  - 來源討論 play 在 preschool drop-off、hospital procedures、refugee/humanitarian settings、libraries、museums、public spaces and pediatric well visits 的應用。
+  - Prescription for Play 範例把 pediatric well visits 中的 play guidance 連到 safe, stable, nurturing relationships。
+- 移除或降級的陳述：
+  - 未把 play 寫成 trauma treatment protocol 或 intervention efficacy proof。
+  - 將 podcast examples 降級為 implementation examples，而不是正式 guideline。
+- 發現衝突：
+  - 「resilience 是孩子自己撐出來」不成立。
+  - 「play 是危機後可有可無的娛樂」不成立。
+  - 「成人完全不要介入才叫 play」不成立；來源強調 supportive scaffold。
+  - 「更多 academic pressure 可取代 stress 後的 play-based recovery」不成立。
+- 仍不確定之處：
+  - 不同 play type、dose、duration 對 resilience / stress biology / mental health outcome 的獨立效果需查 primary studies 或 review。
+  - Hospital、humanitarian、public-space and prescription examples 需分別回查 outcome evidence。
+- 待處理來源：
+  - 若要提升證據層級，後續可回查 AAP play clinical report、play therapy / trauma-informed intervention reviews、hospital procedural play studies。
+
+## [2026-05-03] correction | Harvard Center — Why Sleep Matters in Early Childhood Development
+
+- 修正原因：此來源在 2026-04-25 batch ingest 中已建立來源摘要，但未依單一來源 workflow 完整拆出 Fact / Inference / Assumption / Uncertainty，也尚未建立單一概念頁。
+- 重新檢查來源：
+  - `C:\原始資料\Why Sleep Matters in Early Childhood Development.md`
+- 更新來源摘要：
+  - `09_來源摘要/Why_Sleep_Matters_in_Early_Childhood_Development.md`
+- 新增頁面：
+  - `07_Pediatric_Development/Sleep_作為Early_Childhood_Developmental_Infrastructure.md`
+- 更新頁面：
+  - `07_Pediatric_Development/兒童睡眠與睡眠障礙總論.md`
+  - `07_Pediatric_Development/嬰兒期發展.md`
+  - `07_Pediatric_Development/幼兒與學齡前期發展.md`
+  - `07_Pediatric_Development/Executive_Function_總論.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - 來源是 Harvard Center on the Developing Child 的 Brain Architects podcast transcript。
+  - 訪談對象 Rebecca Spencer 是 University of Massachusetts Amherst cognitive neuroscience professor，研究 sleep functions、preschool naps and cognition。
+  - 來源說 sleep has many roles，包含 immune function、growth、cognitive health、emotional health and broader physical / mental health。
+  - 來源把 sleep 描述為 offline processing space，可讓 memory processing 避免與 waking input 衝突。
+  - 來源指出 infants / young children 因大量新資訊與 conceptual scaffold 建立而有高 sleep need。
+  - 來源說 naps protect memories；habitual nappers 若被迫不睡，memory harm and afternoon emotional reactivity 可明顯。
+  - 來源把 many toddlers / preschoolers 的 nap transition 放在 roughly ages 3-5，但 transition 可波動。
+  - 來源說 children may be highly sensitive to light；dim light before bedtime 支持 endogenous melatonin release。
+  - 來源警告 OTC melatonin product content may not match label，且 melatonin is not a sleeping pill but a clock-setting signal。
+  - 來源說 warm sleep environment can fragment sleep and reduce deep sleep，young infants cannot regulate overheating risk alone。
+  - 來源指出 childcare / pre-K nap opportunity and sleep-friendly environment 應被視為 learning support。
+- 移除或降級的陳述：
+  - 未將 podcast 改寫成 pediatric sleep disorder guideline。
+  - 未把 melatonin 討論寫成處方建議；僅保留 source-level caution and mechanism framing。
+  - 未把 exact temperature / swaddling language 升格為 safe-sleep guideline。
+- 發現衝突：
+  - 「sleep 是 passive downtime」不成立。
+  - 「nap time 自動浪費學習時間」不成立。
+  - 「melatonin 是兒童入睡萬用藥」不成立。
+  - 「sleep problem 只是 parent discipline issue」不成立；來源納入 light、temperature、childcare、policy and environment。
+- 仍不確定之處：
+  - Melatonin indication、dose、duration、formulation and safety 需依 guideline / pediatric sleep source。
+  - Exact infant safe-sleep environment and swaddling advice 需回查 AAP / guideline-level source。
+  - Prenatal circadian disruption 與 offspring sleep / social-emotional outcome 的強度需回查 primary studies。
+- 待處理來源：
+  - 若要提升 sleep 主幹證據，後續可回查 pediatric sleep guideline、AAP safe sleep guidance、preschool nap primary studies and systematic reviews。
+
+## [2026-05-03] correction | Harvard Center — Self-Care Isn't Selfish
+
+- 修正原因：此來源在 2026-04-25 batch ingest 中已建立來源摘要，但未依單一來源 workflow 完整拆出 Fact / Inference / Assumption / Uncertainty，也尚未建立單一概念頁。
+- 重新檢查來源：
+  - `C:\原始資料\Self-Care Isn’t Selfish.md`
+- 更新來源摘要：
+  - `09_來源摘要/Self_Care_Isnt_Selfish.md`
+- 新增頁面：
+  - `07_Pediatric_Development/Caregiver_Self_Care_作為Child_Stress_Buffering_Capacity.md`
+- 更新頁面：
+  - `07_Pediatric_Development/照顧者健康與兒童健康發展.md`
+  - `07_Pediatric_Development/正向教養與家庭支持.md`
+  - `07_Pediatric_Development/Toxic_Stress.md`
+  - `07_Pediatric_Development/Nurturing_Care_健康與營養服務整合.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - 來源是 Harvard Center on the Developing Child 的 Brain Architects podcast transcript，屬 COVID-era science-translation source。
+  - Interviewee Rahil Briggs 是 ZERO TO THREE HealthySteps Program 的 National Director。
+  - 來源描述 pediatric primary care 是 reaching young children 的主要系統。
+  - 來源說 first three years 約有 12-13 well-child visits，其中 first year 佔很大部分。
+  - 來源描述 HealthySteps 是 team-based, evidence-based primary care program，加入 child-development specialist 到 primary care network。
+  - HealthySteps 聚焦 birth to three、parent-child relationships、universal screening and tiered intervention。
+  - 來源提出 safe, stable, nurturing relationships and routine / predictability 是 healthy families with healthy children 的 key ingredients。
+  - 來源說 babies pick up on caregiver stress。
+  - 來源建議 caregiver self-care、asking for help、some daily schedule、play time、screen-free time、safe outdoor time and connecting with children when caregivers are in a good place。
+  - 來源明確連結 child health、caregiver health and caregiver mental health。
+  - 來源討論 diapers、formula、medications、poverty、housing、community violence、air pollution and access barriers 等 social drivers of health。
+- 移除或降級的陳述：
+  - 未把 podcast 寫成 caregiver mental health guideline 或 parent-training RCT。
+  - 未把 COVID-era telehealth service redesign 外推成常態標準。
+  - 未把 HealthySteps 的 program 效果細節寫成來源未直接支持的結論。
+- 發現衝突：
+  - 「self-care 是 indulgence / wellness slogan」不成立。
+  - 「child health 可和 caregiver mental health 切開」不成立。
+  - 「給 caregiver 更多任務就是支持」不成立；來源邏輯更接近降低 overload 與連結資源。
+  - 「telehealth 對 infants/toddlers 一定等同 in-person care」不成立。
+- 仍不確定之處：
+  - 哪些 caregiver support components 最能改善 child outcome 需回查正式研究。
+  - HealthySteps effectiveness、fidelity and implementation needs 需回查 program studies / manual。
+  - Caregiver mental health screening 的工具、頻率、referral threshold and safety protocol 需依正式 guidance。
+- 待處理來源：
+  - 若要提升證據層級，後續可回查 HealthySteps evidence、AAP caregiver depression / social needs screening guidance、integrated pediatric primary care reviews。
+
+## [2026-05-03] correction | Harvard Center — Connecting Health & Learning
+
+- 修正原因：此來源在 2026-04-26 batch ingest 中已建立摘要，但尚未依單一來源 workflow 完整重建 Fact / Inference / Assumption / Uncertainty，也未拆出單一概念頁。
+- 重新檢查來源：
+  - `C:\原始資料\Connecting Health & Learning.md`
+- 更新來源摘要：
+  - `09_來源摘要/Connecting_Health_and_Learning.md`
+- 新增頁面：
+  - `07_Pediatric_Development/Pediatric_Primary_Care_作為Health_Learning_Coordination_Platform.md`
+- 更新頁面：
+  - `07_Pediatric_Development/早期發展與終身健康.md`
+  - `07_Pediatric_Development/照顧者健康與兒童健康發展.md`
+  - `07_Pediatric_Development/Primary_Care_Developmental_Surveillance_流程.md`
+  - `07_Pediatric_Development/Nurturing_Care_健康與營養服務整合.md`
+  - `07_Pediatric_Development/Toxic_Stress.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - 來源是 Harvard Center on the Developing Child 的 Brain Architects podcast transcript，屬 science-translation source。
+  - 來源將 early experiences，尤其 prenatal period 與出生後最早幾年，連到 lifelong health。
+  - Stress response 被描述為 whole-body response，包含 brain、cardiovascular system、immune / inflammatory response 與 metabolic system。
+  - Acute stress / inflammation 可有保護功能；persistent / chronic stress 可能造成 wear and tear，並與 chronic disease risk 相關。
+  - 來源明確指出 race 是 social construct，racial / ethnic disparities 不應被解釋成 population genetics。
+  - 來源把 systemic racism、discrimination 與 chronic adversity 放進 stress exposure 與 upstream prevention 脈絡。
+  - 對 severe adversity 而言，來源強調 early window 包含 prenatal period 與 first 2-3 years，但也保留 never too late。
+  - Panel 討論主張 children and families do not live in silos；health care 需連結 schools、child care、juvenile justice、parks and recreation、community-based organizations。
+  - 來源強調 family voice，尤其 communities of color 與 children with special healthcare needs 的家庭，應參與 system design。
+  - 來源以 missed early intervention evaluation 案例說明 transportation / money barrier 可阻斷服務取得，care coordinator 可辨識並處理 barrier。
+  - 來源討論 care coordinators / family navigators / child navigators，可協助 health system navigation、SNAP、housing subsidies 等資源連結。
+  - 來源指出 access alone is not enough；equitable outcome 需要 unpack practical barriers。
+- 移除或降級的陳述：
+  - 未把 podcast transcript 升格為 guideline、systematic review 或 formal medical home model。
+  - 未把 chronic stress 與 chronic disease 的關聯寫成 deterministic causation。
+  - 未把 family navigation / care coordination 寫成已由本來源證實有效的特定 intervention。
+  - 未把 prenatal substance exposure 討論擴張成完整 FASD 或 teratology 頁面；僅保留 timing / sensitive period 的說明價值。
+- 發現衝突：
+  - 「child health and learning 是兩條分開路徑」不成立。
+  - 「racial health disparities 可由 genetic race 解釋」不成立。
+  - 「missed referral 等於 nonadherence」不成立；需先做 barrier analysis。
+  - 「有 access 就自然有 equity」不成立。
+- 仍不確定之處：
+  - 最佳 pediatric primary care staffing model、navigator scope、payment model 與 fidelity criteria 需回查 implementation studies。
+  - Family navigation 對 developmental outcome、care utilization 與 equity gap 的效果需回查正式研究。
+  - 此美國 service-delivery framing 轉用到其他 health system 時需重新界定角色邊界。
+- 待處理來源：
+  - 後續若要提高證據層級，可回查 patient-centered medical home、HealthySteps、integrated behavioral health、SDOH screening/referral、care coordination outcome studies。
+
+## [2026-05-04] ingest | Prime et al. 2023 — Positive Parenting and Early Childhood Cognition
+
+- 新增來源摘要：
+  - `09_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition.md`
+- 新增頁面：
+  - `07_Pediatric_Development/Positive_Parenting_Interventions_對Early_Cognition與Language.md`
+- 更新頁面：
+  - `07_Pediatric_Development/正向教養與家庭支持.md`
+  - `07_Pediatric_Development/Parenting_Interventions_防止兒童不當對待與強化親子關係.md`
+  - `07_Pediatric_Development/Caregiving_Quality_作為早期介入靶點.md`
+  - `07_Pediatric_Development/早期語言發展與Emergent_Literacy.md`
+  - `07_Pediatric_Development/Executive_Function_總論.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - 來源為 systematic review / meta-analysis of randomized controlled trials。
+  - 來源納入 79 papers，代表 61 independent samples。
+  - Included trials 針對 6 歲以下 children 的 positive parenting interventions，並至少有 cognition-related outcome。
+  - Outcome domains 分為 mental abilities、language、executive functioning、pre-academics。
+  - Mental abilities 顯著改善：`g = 0.46`，95% CI `0.32 to 0.61`，`k = 33`，`n = 5746`。
+  - Language 顯著改善：`g = 0.25`，95% CI `0.14 to 0.35`，`k = 30`，`n = 6248`。
+  - Executive functioning pooled effect 不顯著：`g = 0.07`，95% CI `-0.09 to 0.23`，`k = 14`，`n = 3628`。
+  - Pre-academics pooled effect 為正但不顯著：`g = 0.16`，95% CI `-0.03 to 0.34`，`k = 7`，`n = 2365`。
+  - Sensitivity analyses 未實質改變 pooled estimates。
+  - 所有 meta-analyses 皆有 significant heterogeneity。
+  - Mental abilities analysis 中，higher risk of bias 與較大 effect size 有關。
+  - Language analysis 中，較年幼 baseline age 與較大 language effect 有關。
+- 移除或降級的陳述：
+  - 未把 positive parenting 寫成全面 cognitive enhancer。
+  - 未把 mental abilities / language 的 benefit 外推成 direct EF 或 pre-academic improvement。
+  - 未把 father involvement moderator 解讀成 causal harm；僅標記研究數少、參與程度不明與同時建模後不穩定。
+- 發現衝突：
+  - 「positive parenting 對所有 early cognitive domains 都一樣有效」不成立。
+  - 「parent coaching 可取代 formal language delay evaluation」不成立。
+  - 「general positive parenting 已被證實可直接治療 EF problem」不成立。
+- 待追蹤問題：
+  - 哪些 active ingredients 最能驅動 mental abilities / language benefit 仍不確定。
+  - Mediation analysis 無法 pooled；mechanism 仍需後續研究。
+  - EF / pre-academic outcomes 研究數較少且 measurement heterogeneity 較高。
+  - Father-inclusive intervention、adolescent parents、caregiver mental health difficulties 與非英語研究仍需補強。
+- 待處理來源：
+  - `C:\原始資料\247.full\247.full.md`
+  - `C:\原始資料\journal.pmed.1003602\journal.pmed.1003602.md`
+  - `C:\原始資料\fpsyg-10-02812\fpsyg-10-02812.md`
+  - `C:\原始資料\Maroto-Izquierdoetal.2024.RIRforspecialpopulations\Maroto-Izquierdoetal.2024.RIRforspecialpopulations.md`
+
+## [2026-05-04] ingest | Hirve et al. 2023 — Healthcare provider-delivered ECD interventions
+
+- 新增來源摘要：
+  - `09_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes.md`
+- 新增頁面：
+  - `07_Pediatric_Development/HCP_ECD_Interventions_由健康照護者交付的早期發展介入.md`
+- 更新頁面：
+  - `07_Pediatric_Development/Caregiving_Quality_作為早期介入靶點.md`
+  - `07_Pediatric_Development/Nurturing_Care_健康與營養服務整合.md`
+  - `07_Pediatric_Development/Pediatric_Primary_Care_作為Health_Learning_Coordination_Platform.md`
+  - `07_Pediatric_Development/Early_Intervention_總論.md`
+  - `index.md`
+- 本輪抽出的直接事實：
+  - 來源為 systematic review / meta-analysis，題名為 `Effect of early childhood development interventions delivered by healthcare providers to improve cognitive outcomes in children at 0-36 months: a systematic review and meta-analysis`。
+  - 來源使用 `C:\原始資料\247.full\247.full.md`，本輪未混入其他來源。
+  - 來源納入 97 papers reporting 42 trials in narrative synthesis，27 trials in meta-analyses。
+  - Abstract 報告 42 RCTs with 15,557 infants；results section 報告 15,661 infants in 41 trials，來源內部計數不一致，本輪未自行修正。
+  - Eligible HCP-ECD interventions 由 primary-level healthcare providers face-to-face delivered，可透過 home visits、mobile health team visits、clinic visits、child health checks 或 group programmes。
+  - Intervention components 分為 responsive caregiving、early learning support、motor stimulation。
+  - 40 trials 使用 home visits，2 trials 使用 community clinics。
+  - Contacts ranged from 6 to 312，median 25，IQR 9-52。
+  - Pooled cognitive outcome at 0-36 months：BSID-III MD 2.65，95% CI 0.61 to 4.70，n = 2482，low certainty。
+  - Motor outcome：BSID-III MD 4.01，95% CI 1.54 to 6.48，n = 1437；abstract 與 results section 對 certainty 標示不完全一致。
+  - HOME inventory improved：MD 1.37，95% CI 0.29 to 2.45，n = 1534，low certainty。
+  - Maternal mental health 沒有明確改善：SMD -0.13，95% CI -0.29 to 0.03，n = 2806。
+  - Speech/language、socioemotional、behaviour outcomes 沒有明確改善。
+  - No studies reported executive functioning or adaptive functioning outcomes。
+  - Subgroup analyses 未顯示 number of contacts、timing、intervention type、HCP type、country income level 或 risk of bias 的明確 differential effect；唯一 signal 是 ECD-predominant interventions。
+  - No visit-number dose-response was found。
+- 移除或降級的陳述：
+  - 未把 HCP-ECD 寫成完整 Early Intervention service system。
+  - 未把 visit count 當成有效 intervention dose。
+  - 未把 cognitive / motor signal 外推為 language、EF、adaptive function 或 maternal mental health benefit。
+  - 未把 low-certainty cognitive evidence 寫成 guideline-level standard of care。
+- 發現衝突：
+  - 「healthcare contact 次數越多就越能改善 development」不成立；來源未發現 visit-number dose-response。
+  - 「HCP-ECD 可取代 caregiver mental health treatment」不成立；maternal mental health 沒有明確改善。
+  - 「cognition 有改善就代表 language / EF 也改善」不成立；language outcome 不明確，EF / adaptive function 未報告。
+  - 「HCP-ECD 等同 EI」不成立；HCP-ECD 是 health-system delivery model，不是完整 IFSP / therapy / specialist service system。
+- 待追蹤問題：
+  - HCP-ECD 的 active ingredient 是 responsive caregiving、early learning、motor stimulation、home visiting、provider relationship，還是 ECD-predominant contact time，仍不確定。
+  - 是否能外推到 universal well-child care、older preschoolers、developmental disability population 或台灣 health system，需要另外來源。
+  - 語言、EF、adaptive function 與 caregiver mental health outcome 需後續更高品質研究或 domain-specific sources。
+- 待處理來源：
+  - `C:\原始資料\journal.pmed.1003602\journal.pmed.1003602.md`
+  - `C:\原始資料\fpsyg-10-02812\fpsyg-10-02812.md`
+  - `C:\原始資料\Maroto-Izquierdoetal.2024.RIRforspecialpopulations\Maroto-Izquierdoetal.2024.RIRforspecialpopulations.md`
+
+## [2026-05-04] ingest | Jeong et al. 2021 — Parenting interventions to promote ECD in the first three years
+
+- 新增來源摘要：
+  - `09_來源摘要/Jeong_2021_parenting_interventions_ECD_first_three_years.md`
+- 新增頁面：
+  - `07_Pediatric_Development/Parenting_Interventions_生命前三年ECD與Caregiving_Outcomes.md`
+- 更新頁面：
+  - `07_Pediatric_Development/正向教養與家庭支持.md`
+  - `07_Pediatric_Development/Parenting_Interventions_防止兒童不當對待與強化親子關係.md`
+  - `07_Pediatric_Development/Caregiving_Quality_作為早期介入靶點.md`
+  - `index.md`
+  - `log.md`
+- 本輪抽出的直接事實：
+  - 來源為 systematic review / meta-analysis of RCTs。
+  - 來源使用 `C:\原始資料\journal.pmed.1003602\journal.pmed.1003602.md`，本輪未混入其他來源。
+  - Final set included 111 articles representing 102 unique RCTs。
+  - Trials implemented across 33 countries：61 trials in HICs，41 trials in LMICs。
+  - Included interventions targeted pregnancy through the first 3 years of life and measured at least one ECD outcome。
+  - Pooled effects were positive for cognitive development：SMD 0.32，95% CI 0.23 to 0.40。
+  - Language development：SMD 0.28，95% CI 0.18 to 0.37。
+  - Motor development：SMD 0.24，95% CI 0.15 to 0.32。
+  - Socioemotional development：SMD 0.19，95% CI 0.10 to 0.28。
+  - Behavior problems decreased：SMD -0.13，95% CI -0.18 to -0.08。
+  - Infant-caregiver attachment：SMD 0.29，95% CI 0.18 to 0.40。
+  - Parenting knowledge：SMD 0.56，95% CI 0.33 to 0.79。
+  - Parenting practices：SMD 0.33，95% CI 0.22 to 0.44。
+  - Parent-child interactions：SMD 0.39，95% CI 0.24 to 0.53。
+  - Parental depressive symptoms did not significantly improve：SMD -0.07，95% CI -0.16 to 0.02，P = 0.08。
+  - 70/102 interventions included responsive caregiving content。
+  - Responsive caregiving content showed greater effects on child cognitive development、parenting knowledge、parenting practices、parent-child interactions。
+  - Egger's tests suggested small-sample bias for child language development and parent-child interactions。
+- 移除或降級的陳述：
+  - 未把 parenting intervention 寫成所有 ECD domains 的等量改善。
+  - 未把 parenting intervention 寫成 caregiver depression treatment。
+  - 未把 home visiting、group、clinic、duration 或 age timing 寫成固定優勢，因為本來源沒有穩定支持。
+  - 未把 responsive caregiving 解讀成唯一 active ingredient。
+- 發現衝突：
+  - 「parenting intervention = 一次性衛教」不成立；來源處理的是 structured programs。
+  - 「parenting intervention 可取代 EI / developmental therapy」不成立；本來源只支持 parenting-focused developmental support。
+  - 「親職介入會自然改善 caregiver depression」不成立；pooled depressive symptom effect 未顯著。
+- 待追蹤問題：
+  - Which active ingredients best drive child outcomes remains uncertain。
+  - Long-term sustainability、fadeout、booster sessions、cost-effectiveness、father-inclusive design、scale-up fidelity 仍需補強。
+  - Local adaptation 與 outcome measurement validity 需後續來源支持。
+- 待處理來源：
+  - `C:\原始資料\fpsyg-10-02812\fpsyg-10-02812.md`
+  - `C:\原始資料\Maroto-Izquierdoetal.2024.RIRforspecialpopulations\Maroto-Izquierdoetal.2024.RIRforspecialpopulations.md`
+
+## [2026-05-04] ingest | Scionti et al. 2020 — Preschool EF cognitive training
+
+- 新增來源摘要：
+  - `09_來源摘要/Scionti_2020_preschool_EF_cognitive_training.md`
+- 新增頁面：
+  - `07_Pediatric_Development/Preschool_EF_Cognitive_Training與Transfer.md`
+- 更新頁面：
+  - `07_Pediatric_Development/Executive_Function_總論.md`
+  - `index.md`
+  - `log.md`
+- 本輪抽出的直接事實：
+  - 來源為 systematic review / meta-analysis。
+  - 來源使用 `C:\原始資料\fpsyg-10-02812\fpsyg-10-02812.md`，本輪未混入其他來源。
+  - 題名為 `Is Cognitive Training Effective for Improving Executive Functions in Preschoolers? A Systematic Review and Meta-Analysis`。
+  - 研究對象為 3-6 歲 preschool children。
+  - Final dataset included 27 papers, 32 studies, and 123 EF effect sizes。
+  - Overall EF training effect: `g = 0.342`, 95% CI `0.252 to 0.451`, `p < 0.001`。
+  - Heterogeneity was significant: `Q(122) = 172.340`, `p < 0.001`。
+  - Near EF transfer: `g = 0.352`, 95% CI `0.252 to 0.451`, `p < 0.001`。
+  - Far EF transfer: `g = 0.318`, 95% CI `0.186 to 0.449`, `p < 0.001`。
+  - Near vs far EF transfer difference was not significant: `p = 0.619`。
+  - Non-EF outcomes were not significant overall: `g = 0.169`, 95% CI `-0.047 to 0.383`, `p = 0.122`。
+  - Developmental risk status moderated effect size: `p = 0.033`。
+  - No-risk samples: `g = 0.291`, 95% CI `0.192 to 0.390`。
+  - Low-SES samples: `g = 0.430`, 95% CI `0.219 to 0.641`。
+  - ADHD-symptom samples: `g = 0.785`, 95% CI `0.451 to 1.120`。
+  - At-risk evidence base was small：ADHD symptoms 4 studies / 8 effects / 112 participants；low SES 4 studies / 7 effects / 651 participants。
+  - Child age within the preschool range was not a significant moderator。
+  - Active vs passive control did not significantly moderate effects。
+  - Group training showed larger effects than individual training。
+  - Number of sessions was not significant, but total training length in minutes was significant。
+- 移除或降級的陳述：
+  - 未把 EF cognitive training 寫成 school readiness、learning、behavior 或 ADHD 的標準治療。
+  - 未把 far EF transfer 外推成 non-EF transfer。
+  - 未把 ADHD subgroup 的 large effect size 寫成強結論，因為 study number small。
+  - 未把 computerized training 寫成優於 non-computerized training。
+- 發現衝突：
+  - 「EF training 完全沒有 preschool far transfer」不成立；此來源支持 EF task domain 之間的 far transfer。
+  - 「EF training 能自然改善 learning / behavior」不成立；此來源 non-EF outcomes 未達顯著。
+  - 「EF training 可取代 ADHD / developmental differential」不成立。
+- 待追蹤問題：
+  - preschool far EF transfer 有多少來自真實 cross-domain EF change，有多少來自 task impurity，仍不確定。
+  - 長期維持、ecological validity、classroom participation 與 school achievement outcome 仍需更高品質研究。
+  - ASD、language impairment、developmental coordination disorder 與 complex adversity child 尚缺資料。
+- 待處理來源：
+  - `C:\原始資料\Maroto-Izquierdoetal.2024.RIRforspecialpopulations\Maroto-Izquierdoetal.2024.RIRforspecialpopulations.md`
+
+## [2026-05-04] ingest | Maroto-Izquierdo et al. 2024 — Repetitions in Reserve for special populations
+
+- 新增來源摘要：
+  - `09_來源摘要/Maroto_2024_RIR_special_populations.md`
+- 新增頁面：
+  - `02_方法學/Repetitions_in_Reserve_RIR_阻力訓練強度處方.md`
+- 更新頁面：
+  - `02_方法學/治療性運動處方.md`
+  - `02_方法學/治療性運動處方的最低必要欄位.md`
+  - `index.md`
+  - `log.md`
+- 本輪抽出的直接事實：
+  - 來源為 practical narrative review with synthesis of RIR validation literature。
+  - 來源使用 `C:\原始資料\Maroto-Izquierdoetal.2024.RIRforspecialpopulations\Maroto-Izquierdoetal.2024.RIRforspecialpopulations.md`，本輪未混入其他來源。
+  - 題名為 `Repetitions in Reserve: An Emerging Method for Strength Exercise Prescription in Special Populations`。
+  - 來源比較 `%1RM`、velocity-based training、RPE / effort perception 與 RIR 作為 resistance training intensity indicators。
+  - `%1RM` 與 X-RM 在 special populations 可能帶來 repeated testing risk、fatigue、recovery burden、inaccuracy and adherence problems。
+  - velocity-based training 需要 valid equipment、time investment、exercise-specific force-velocity profile，且不易套用到某些 non-linear / functional exercises。
+  - RPE 可跨場域使用，但受熟悉度、提問方式、施測時間、疲勞與 exercise type 影響。
+  - RIR 定義為 possible repetitions 與 completed repetitions 的差距。
+  - 來源列出三類 RIR scales：ERF scale、RPE-RIR scale、effort character。
+  - 來源描述 RIR validation literature mostly comes from non-clinical populations，包括 resistance-trained participants、novices or athletic contexts。
+  - 來源明確指出 RIR validity and reliability have not been extensively tested across different special populations。
+  - 來源指出 clinical contexts 中應用 RIR 的研究仍 scarce。
+  - practical proposal 包含 four effort levels，連結 completed / possible repetitions、RPE 0-10 與 velocity-loss logic。
+  - strength example：完成 8RM 負荷但第 6 下停止，等於保留 2 reps before mechanical failure，約 high effort / RPE 7-8/10。
+  - muscular endurance example：完成約 half of possible reps，約 moderate effort / RPE 4-6/10。
+  - conclusion 主張 RIR promising，但需要 validity、reliability、feasibility、familiarization protocol 與 application standards。
+- 移除或降級的陳述：
+  - 未把 RIR 寫成 guideline-level standard。
+  - 未把 athletic / healthy-subject validity evidence 外推成所有 special populations 已驗證。
+  - 未把 RIR 當成完整 therapeutic exercise prescription。
+  - 未把 training to failure 或 RIR 0 當成 clinical default。
+- 發現衝突：
+  - 「resistance training intensity 只能用 %1RM」不成立；RIR 可作為另一種 intensity language。
+  - 「RIR 已在所有 special populations 驗證」不成立；來源自己標示證據不足。
+  - 「有 RIR 就不需要 safety screening」不成立；RIR 只控制 proximity to failure。
+- 待追蹤問題：
+  - 不同疾病族群的 target RIR、progression speed、stop criteria 與 adverse event risk 仍需 disease-specific validation。
+  - unsupervised home program 中 RIR 的 comprehension、accuracy、safety and adherence 仍不確定。
+  - RIR 與 long-term functional outcome、strength gain、symptom flare、participation 的關係仍待研究。
+- 待處理來源：
+  - 待重新盤點 `C:\原始資料` 中尚未進入單一來源 workflow 的來源。
+
+## [2026-05-04] ingest | WHO 2020 — Improving early childhood development guideline
+
+- 新增來源摘要：
+  - `09_來源摘要/WHO_2020_improving_early_childhood_development_guideline.md`
+- 新增頁面：
+  - `07_Pediatric_Development/WHO_ECD_Guideline_0至3歲Nurturing_Care建議.md`
+- 更新頁面：
+  - `07_Pediatric_Development/Nurturing_Care_健康與營養服務整合.md`
+  - `07_Pediatric_Development/Caregiving_Quality_作為早期介入靶點.md`
+  - `07_Pediatric_Development/Early_Intervention_總論.md`
+  - `07_Pediatric_Development/照顧者健康與兒童健康發展.md`
+  - `index.md`
+  - `log.md`
+- 本輪抽出的直接事實：
+  - 來源為 WHO guideline。
+  - 來源使用 `C:\原始資料\9789240002098-eng\9789240002098-eng.md`，本輪未混入其他來源。
+  - 題名為 `Improving early childhood development: WHO guideline`。
+  - 來源提供 global evidence-informed recommendations on improving ECD。
+  - Recommendations intended audience includes policy-makers、development agencies、implementing partners、district and sub-national health managers、health workers and NGOs。
+  - Recommendation 1：all infants and children should receive responsive care during the first 3 years；parents and other caregivers should be supported to provide responsive care。
+  - Recommendation 1 strength strong；certainty moderate for responsive care。
+  - Recommendation 2：all infants and children should have early learning activities with parents and other caregivers during the first 3 years；caregivers should be supported to engage in early learning。
+  - Recommendation 2 strength strong；quality moderate for early learning。
+  - Recommendation 3：support for responsive care and early learning should be included as part of interventions for optimal nutrition of infants and young children。
+  - Recommendation 3 strength strong；quality moderate。
+  - Recommendation 4：psychosocial interventions to support maternal mental health should be integrated into early childhood health and development services。
+  - Recommendation 4 strength strong；certainty moderate。
+  - Early learning intervention evidence included 22 RCTs, mostly HICs。
+  - Early learning cognitive effect：SMD 0.20，95% CI 0.01 to 0.39；certainty low。
+  - Early learning language effect was not significant：SMD 0.07，95% CI -0.11 to 0.24；certainty low。
+  - Early learning motor effect：SMD 0.32，95% CI 0.12 to 0.52；certainty low。
+  - Early learning behaviour-problem effect was not significant：SMD -0.25，95% CI -0.54 to 0.04；certainty very low。
+  - Caregiving interventions for socioemotional and behavioural development did not receive a recommendation；GDG prioritized future research。
+  - Socioemotional / behavioural caregiving evidence came from 10 studies, all HICs。
+  - Combined caregiving and nutrition interventions included 18 studies, all LMICs。
+  - Combined caregiving and nutrition versus standard care improved cognitive development：SMD 0.57，95% CI 0.32 to 0.82；language：SMD 0.40，95% CI 0.17 to 0.63；motor：SMD 0.40，95% CI 0.26 to 0.53。
+  - HAZ and WAZ generally showed no significant benefit；some WHZ comparisons showed benefits。
+  - Psychosocial maternal mental health interventions improved maternal anxiety symptoms：SMD -0.51，95% CI -0.72 to -0.30。
+  - Psychosocial maternal mental health interventions improved maternal depressive symptoms：SMD -0.70，95% CI -0.92 to -0.47。
+  - Child-development outcomes in maternal mental health intervention studies were limited and less consistently measured。
+- 移除或降級的陳述：
+  - 未把 strong recommendations 寫成所有 child outcomes 都 high-certainty。
+  - 未把 early learning intervention 寫成 clearly effective for language or behaviour problems。
+  - 未把 nutrition intervention alone 寫成足以改善 ECD。
+  - 未把 maternal mental health psychosocial intervention 寫成直接 child developmental treatment。
+  - 未把 first-3-years health-sector ECD support 寫成可取代 formal EI、developmental evaluation、child protection 或 specialist mental health referral。
+- 發現衝突：
+  - 「health / nutrition services 只需處理 biomedical endpoints」不符合 WHO 2020 guideline。
+  - 「有做 nutrition 就等於支持 ECD」不成立；guideline 要求 responsive care 與 early learning integration。
+  - 「parenting / caregiving intervention 可用單一最佳 programme 解決」不成立；來源明確限制 programme comparisons。
+- 待追蹤問題：
+  - 2020 guideline 原文規劃五年 review；政策使用前需確認是否已有新版或補充 guidance。
+  - Responsive caregiving、early learning 與 socioemotional / behavioural intervention 的 definitions、active ingredients、dose、delivery model、long-term outcomes 仍需研究。
+  - Maternal mental health interventions 需要更多 child health and development outcomes。
+  - Outcome tools 在不同 sociocultural contexts 的 reliability / validity 仍是主要限制。
+- 待處理來源：
+  - 重新盤點後排除已處理與明顯 duplicate 來源，再選下一篇最高優先單一來源。
+
+## [2026-05-04] ingest | Muir et al. 2023 — Preschool SR/EF interventions
+
+- 新增來源摘要：
+  - `09_來源摘要/Muir_2023_preschool_SR_EF_interventions.md`
+- 新增頁面：
+  - `07_Pediatric_Development/Preschool_SR_EF_Intervention_Design特徵.md`
+- 更新頁面：
+  - `07_Pediatric_Development/學齡前期的自我調節與school_readiness.md`
+  - `07_Pediatric_Development/Preschool_EF_Cognitive_Training與Transfer.md`
+  - `07_Pediatric_Development/Executive_Function_總論.md`
+  - `07_Pediatric_Development/學前SEL介入的分層與情境堆疊.md`
+  - `index.md`
+  - `log.md`
+- 本輪抽出的直接事實：
+  - 來源為 systematic literature review。
+  - 來源使用 `C:\原始資料\s10648-023-09740-6\s10648-023-09740-6.md`，本輪未混入其他來源。
+  - 題名為 `Interventions and Approaches Targeting Early Self-Regulation or Executive Functioning in Preschools: A Systematic Review`。
+  - 來源遵循 PRISMA-P，並登錄於 PROSPERO。
+  - Search performed on 2020-09-28 and re-searched January 2021。
+  - Included peer-reviewed English-language intervention studies from 2000 to 2020。
+  - Included typically developing preschool children aged 3-6 years in preschool settings。
+  - Studies focused exclusively on children with documented disabilities such as Attention Deficit Disorder were excluded。
+  - Initial search generated 9115 results；3288 duplicates were identified；641 full texts were obtained；85 studies were included。
+  - Included studies sampled 12,595 children。
+  - 72 of 85 studies (84.7%) were published between 2015 and 2020。
+  - 59 studies (69.4%) targeted EF only；17 targeted SR only；9 targeted both SR and EF。
+  - Median intervention dose was 9 hours，but dose ranged from one 15-minute period to year-long curricula。
+  - Statistically significant results for at least one outcome were reported in 60 studies (70.6%)。
+  - Across 208 evaluated effects, 102 (49.0%) were statistically significant immediately after intervention。
+  - Only four studies included follow-up assessments several months after intervention。
+  - The review classified interventions into play、social-emotional、curricula / pedagogy、and non-routine activities。
+  - Mediated structured play：16 studies；12 reported significant acute effects；26 of 41 evaluated effects were significant。
+  - Mindfulness：12 studies；10 reported significant outcomes；17 of 26 evaluated effects were significant。
+  - SEL programmes：8 studies；6 reported at least one significant outcome；11 of 23 evaluated effects were significant。
+  - Digital task training：9 studies；5 reported at least one significant EF outcome；7 of 21 evaluated effects were significant。
+  - Physical activity：12 studies；10 reported at least one significant outcome；14 of 20 evaluated effects were significant。
+  - Cognitive challenge was present in all interventions identified as most efficacious。
+  - Movement appeared in 53 studies (62.35%)；77.4% of these interventions achieved one or more significant effects。
+  - 23 movement-including interventions were classified as highly efficacious, representing 63.88% of all high-efficacy interventions。
+  - The review did not conduct meta-analysis due to high intervention heterogeneity and the aim of identifying effective characteristics。
+  - Fidelity was often unreported and not evaluated in a common format。
+- 移除或降級的陳述：
+  - 未把 preschool SR/EF intervention 寫成單一最佳 approach。
+  - 未把 cognitive challenge 寫成足以保證 broad transfer。
+  - 未把 digital task training 寫成 superior classroom SR/EF intervention。
+  - 未把 acute post-test gains 外推為 long-term school readiness 或 participation gains。
+  - 未把 typically developing preschool evidence 外推到 ADHD、ASD、ID、language disorder、trauma-exposed 或 complex clinical populations。
+- 發現衝突：
+  - 「SR/EF 只能靠某一類 programme 改善」不成立；來源顯示各 approach 都有 some potential efficacy。
+  - 「movement intervention 只看活動量」不成立；來源較支持 cognitively engaging movement 的設計邏輯。
+  - 「teacher-led 就自然可擴散」不成立；teacher PD、coaching、fidelity、ratio、time 與 leadership support 仍是限制。
+- 待追蹤問題：
+  - Long-term maintenance、fadeout、transfer to participation / academic / classroom outcomes 仍需 follow-up studies。
+  - Active component、fidelity reporting、dose、teacher training、coaching 與 implementation burden 需要更清楚報告。
+  - Different child baseline、sex、income、language background and other moderators require better demographic reporting。
+- 待處理來源：
+  - `C:\原始資料\TBI Umphred's Neurological Rehabilitation, 22, 629-670\TBI Umphred's Neurological Rehabilitation, 22, 629-670.md`
+  - `C:\原始資料\Sexual Dysfunction in Neurological Disorders\Sexual Dysfunction in Neurological Disorders.md`
+  - `C:\原始資料\Lower limb pain and dysfunction\Lower limb pain and dysfunction.md`
+
+## [2026-05-04] ingest | Courtois & Cordeau — Sexual Dysfunction in Neurological Disorders
+
+- 新增來源摘要：
+  - `09_來源摘要/Courtois_Cordeau_neurological_sexual_dysfunction.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Neurogenic_Sexual_Dysfunction_三層影響框架.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/性功能障礙與身心障礙復健.md`
+  - `index.md`
+  - `log.md`
+- 本輪抽出的直接事實：
+  - 來源為 textbook chapter。
+  - 來源使用 `C:\原始資料\Sexual Dysfunction in Neurological Disorders\Sexual Dysfunction in Neurological Disorders.md`，本輪未混入其他來源。
+  - 題名為 `Sexual Dysfunction in Neurological Disorders`。
+  - 作者為 Frédérique Courtois 與 Dany Cordeau。
+  - 章節把 neurological disorders 對 sexual function 的影響分為 primary、secondary、tertiary impacts。
+  - Primary impacts 指 neurological lesion 對 sexual function 的直接影響。
+  - Secondary impacts 指其他與 sexuality 有關的 body functions 受影響，以及 medication side effects。
+  - Tertiary impacts 指 psychosocial aspects 減少 social contacts 並干擾 sexual relationships。
+  - Male reflexogenic erection 主要由 genital stimulation 經 S2-S4 mediated。
+  - Male psychogenic erection 可經 sacral pathway 或 T11-L2 thoracolumbar pathway。
+  - Ejaculation 包含 emission 與 expulsion；emission 主要牽涉 thoracolumbar innervation，expulsion 主要牽涉 sacral spinal segments 與 perineal nerves。
+  - Spinal generator of ejaculation 位於 L3-L4。
+  - Female sexual response 除 classical arousal / plateau / orgasm / resolution phases 外，也涉及 motivational、emotional、experiential、developmental factors。
+  - SCI sexual outcome 受 lesion level 與 completeness 影響。
+  - SCI orgasm 可在沒有 ejaculation 的情況下發生；ejaculation / orgasm 伴隨 headache 或 severe hypertension 時需考慮 autonomic dysreflexia。
+  - MS sexual dysfunction 常和 desire、genital sensation、arousal / lubrication、erectile / ejaculatory / orgasmic symptoms、fatigue、spasticity、bladder / bowel、pain、medication、mood、cognition、relationship quality 交疊。
+  - Stroke 後可能出現 hypoactive sexual desire、reduced intercourse frequency、erectile / ejaculatory dysfunction、decreased lubrication、diminished orgasm、motor limitation、sensory change、pain、fatigue、fear、depression 與 partner dynamics。
+  - TBI 可造成 hyposexuality、ED、orgasmic problems、reduced satisfaction，也可造成 inappropriate sexual behavior；pituitary deficits after TBI 在來源中被列為需考慮的 hormonal contributor。
+  - PD 可出現 decreased or increased libido、arousal disorder、ED、orgasm dysfunction、hypersexuality 或 compulsive sexual behaviors；dopaminergic therapy 可與 hypersexuality / impulse-control problems 有關。
+  - 治療選項涵蓋 ED medications / injections / devices、ejaculation / fertility procedures、lubricants、clitoral vacuum devices、vibrostimulation、positioning、adaptive equipment、pain / fatigue / spasticity planning、medication review、psychosocial intervention、education、peer support、CBT-style strategies 與 relationship counseling。
+- 移除或降級的陳述：
+  - 未把 textbook chapter 寫成 formal guideline。
+  - 未把 neurogenic sexual dysfunction 簡化成 ED。
+  - 未把 lesion level 寫成足以單獨預測 sexual outcome。
+  - 未把 PDE5 inhibitors、devices 或 procedures 寫成完整 sexual rehabilitation。
+  - 未把 female sexual dysfunction 由 male erection / ejaculation framework 直接外推。
+  - 未把 novel ED treatments 寫成 neurological populations 的 established routine treatment。
+- 發現衝突：
+  - 「sexual dysfunction after neurological disorder 主要就是神經路徑斷掉」不完整；來源要求同時看 primary、secondary、tertiary effects。
+  - 「psychosocial effects 是附帶問題」不成立；tertiary effects 可直接限制 intimacy、relationship 與 social participation。
+  - 「有 pharmacologic ED treatment 就等於完成 rehab」不成立；secondary 與 tertiary barriers 仍需處理。
+- 待追蹤問題：
+  - 不同 neurological diagnoses 的 sexual dysfunction prevalence 與 intervention evidence 需逐疾病回查更高層級或更新 guideline。
+  - Female neurogenic sexual dysfunction 的 condition-specific treatment evidence 仍不足。
+  - Stroke lesion-location association、TBI endocrine contribution、PD dopaminergic hypersexuality 的適用條件需更細分。
+- 待處理來源：
+  - `C:\原始資料\TBI Umphred's Neurological Rehabilitation, 22, 629-670\TBI Umphred's Neurological Rehabilitation, 22, 629-670.md`
+  - `C:\原始資料\Lower limb pain and dysfunction\Lower limb pain and dysfunction.md`
+
+## [2026-05-04] ingest | Reina-Guerra — Traumatic Brain Injury
+
+- 新增來源摘要：
+  - `09_來源摘要/Reina_Guerra_TBI_Umphred_neurorehabilitation.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/TBI_ICF照護連續體與Task_Analysis.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/創傷性腦損傷復健總論.md`
+  - `03_疾病與臨床主題/TBI_意識障礙與神經行為管理.md`
+  - `index.md`
+  - `log.md`
+- 本輪抽出的直接事實：
+  - 來源為 textbook chapter。
+  - 來源使用 `C:\原始資料\TBI Umphred's Neurological Rehabilitation, 22, 629-670\TBI Umphred's Neurological Rehabilitation, 22, 629-670.md`，本輪未混入其他來源。
+  - 題名為 `Traumatic Brain Injury`。
+  - 作者為 Sandra G. Reina-Guerra。
+  - 章節焦點為 moderate to severe TBI rehabilitation；mTBI / concussion 另章處理。
+  - TBI 是 sudden external force 導致 normal brain function disruption，需與 stroke、anoxic brain injury 等 acquired brain injuries 區分。
+  - TBI mechanisms 包含 direct external force、acceleration-deceleration、blast injury、penetrating injury。
+  - Primary injury 是 initial mechanical insult；secondary injury 是 primary injury 後的 biochemical、cellular、physiologic events。
+  - Secondary injury contributors 包含 increased ICP、cerebral hypoxia / ischemia、intracranial hemorrhage、electrolyte / acid-base imbalance、infection、seizure、neuroinflammation。
+  - Pediatric TBI 的 anatomical / physiologic differences 使 medical management 複雜；developing brain neuroplasticity 不代表預後自然較好。
+  - 來源指出 childhood severe TBI 後約 62% 兒童有 lingering cognitive and behavioral difficulties，影響 education 與 social participation。
+  - 來源指出 timely and aggressive inpatient rehabilitation 是改善 moderate to severe pediatric TBI functional outcome 的 significant factor。
+  - Prognostic indicators 包含 age、clinical severity、pupil reactivity、CT abnormalities、secondary insults、laboratory values、duration of coma、PTA、Time to Follow Commands。
+  - 來源明確指出 no single instrument can accurately predict outcomes。
+  - CRASH / IMPACT models 可用早期變數預測 outcomes，但被批評未納入 secondary insults 與 treatment response。
+  - PTA duration 可作 functional prognostic indicator；來源指出 PTA < 4 weeks 時 severe activity limitation unlikely，PTA > 8 weeks 時 good recovery unlikely by GOS。
+  - TBI Model Systems data：moderate to severe TBI 中約 30% within 5 years worsen，約 26% stayed home，約 22% died，仍存活者約 57% 有 moderate to severe disability。
+  - 來源引述 five-year unemployment after TBI 為 55%。
+  - 章節使用 WHO ICF framework 組織 examination、evaluation、intervention、outcomes across care environments。
+  - TBI outcomes 依賴 injury location / severity，也依賴 prior function、support systems、timing and quality of healthcare interventions。
+  - Examination / evaluation history 應包含 mechanism / nature of injury、initial GCS、injury date、age、medical interventions、duration of unconsciousness、stage of consciousness、overall recovery progress。
+  - RLA I-II / coma or VS 的 examination 偏 body functions；RLA III 可能開始 simple command response；RLA IV-VI 的 agitation / confusion 會 guide examination and interventions；consciousness 改善後轉向 Activities and Participation。
+  - Activity limitation 評估需 task analysis；改善 abnormal components 不一定改善 activity limitation，treating impairments 不一定讓病人學會 skill。
+  - Skill learning 需要 whole-task practice。
+  - Acute priorities 包含 preservation of life and neural tissue、secondary complication prevention、early mobility、arousal / awareness support for DoC。
+  - Across settings 要預防 pneumonia、pressure sores、adaptive shortening、disuse atrophy、HO、joint contractures、DVT。
+  - Interprofessional rehabilitation 是 moderate to severe TBI comprehensive care 的核心。
+  - Sensory stimulation 在 DoC 常用，但 systematic reviews 未建立強證據，限制來自 poor study quality、variable study design、inconsistent outcome measures。
+  - Motor rehab 應強調 intense, repetitive, task-oriented training；treadmill training 不明顯優於 overground training。
+  - VR evidence in TBI 為 emerging but limited；conventional therapy groups 通常也有類似 outcomes。
+  - Visual-vestibular examination should be included after TBI；TBI 可造成 peripheral、central 或 mixed vestibular pathology。
+  - Aerobic exercise 可能有 neuroplasticity、physical function、cognition、mood、sleep、secondary health prevention benefit，但 acute timing / intensity 要謹慎。
+  - Dual-task deficits 可在 gait speed normal 時仍存在；dual-task training 應依 life-role and environmental demands 具體設計。
+  - NBS / TMS / tDCS 為 emerging approaches；TBI 後 seizure risk 與有限 evidence 需謹慎。
+- 移除或降級的陳述：
+  - 未把 GCS、CT、CRASH / IMPACT 或任何單一工具寫成足以精準預測個人 outcome。
+  - 未把 isolated impairment correction 寫成足以改善 activity / participation。
+  - 未把 early mobility 寫成不需 medical constraints 的越早越好。
+  - 未把 pediatric neuroplasticity 寫成較佳自然恢復保證。
+  - 未把 sensory stimulation、VR、robotics、NBS 或 aerobic exercise 寫成高確定性標準治療。
+  - 未把 treadmill training 寫成優於 overground gait training。
+- 發現衝突：
+  - 「TBI rehab 只要依 impairment 列表逐項治療」不成立；來源要求 ICF、phase of recovery、task analysis 與 participation goals。
+  - 「直線 gait speed 正常就代表 community mobility 安全」不成立；dual-task 和 environmental demands 仍可能限制 participation。
+  - 「兒童 TBI 早期身體恢復好就不需長期追蹤」不成立；後續 developmental and school demands 可揭露長期問題。
+- 待追蹤問題：
+  - TBI-specific intervention dose、timing、intensity、VR / robotics / NBS / aerobic exercise evidence 需後續用 guideline 或 systematic review 校正。
+  - Pediatric TBI long-term school / executive / social participation outcomes 需獨立拆頁。
+  - Chronic brain injury / periodic therapy model 需要更高層級來源確認。
+- 待處理來源：
+  - `C:\原始資料\Lower limb pain and dysfunction\Lower limb pain and dysfunction.md`
+
+## [2026-05-04] ingest | Caldwell, Hamner & Hupe — Lower Limb Pain and Dysfunction
+
+- 新增來源摘要：
+  - `09_來源摘要/Caldwell_Hamner_Hupe_Lower_Limb_Pain_Dysfunction.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Lower_Limb_Pain_分區定位與高風險分流.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/跑者下肢傷害評估總論.md`
+  - `03_疾病與臨床主題/足部疼痛分區評估.md`
+  - `index.md`
+  - `log.md`
+- 本輪抽出的直接事實：
+  - 來源為 textbook chapter。
+  - 來源使用 `C:\原始資料\Lower limb pain and dysfunction\Lower limb pain and dysfunction.md`，本輪未混入其他來源。
+  - 題名為 `Lower Limb Pain and Dysfunction`。
+  - 作者為 Mary E. Caldwell、Troy Hamner、Jessica Hupe。
+  - 章節以 history 與 clinical examination 的 sequential process 組織 lower limb pain，而非涵蓋所有可能疾病。
+  - Hip pain 可表現為 groin、buttock、lateral hip / greater trochanteric region、low back、thigh pain。
+  - Hip pain 可分 anterior、lateral、posterior、medial regions；每區都需考慮 muscle、bone、nerve、tendon pain，尤其 athlete stress fracture / fracture。
+  - AVNFH 可有 anterior hip / groin pain 且 weight bearing 變差；早期 plain radiographs 可能正常，MRI / CT 可較早偵測。
+  - LCPD 是 pediatric femoral epiphysis idiopathic osteonecrosis，可造成 femoral head deformity 與 premature OA。
+  - SCFE 是 adolescent 常見 hip pathology，可表現 hip / groin pain、knee pain、limp 或 painless external-rotation gait；來源建議視為 orthopedic emergency 並 prompt orthopedic referral。
+  - GTPS 是 peritrochanteric pain syndrome；bursal inflammation role limited，gluteal tendinopathy、ITB thickening、abductor tendon pathology 更常見。
+  - PFP 常見於 active populations，與 patellar tracking、quadriceps / hip abductor dysfunction 有關。
+  - Quadriceps / patellar tendon rupture clues 包含 sudden mechanism、palpable defect、inability to extend knee；需 immediate immobilization、avoid weight bearing、surgical referral。
+  - Femoral bone stress injury 可像 vague muscle strain；femoral neck tension side stress injury 是 high-risk location。
+  - Tibial stress fracture 可因 repeated loading 出現 focal pain；middle anterior tibia `dreaded black line` 有 nonunion / complete fracture risk。
+  - Achilles rupture 可表現像被踢到、pop、immediate pain / swelling；active plantarflexion 仍可能存在，因此 Thompson test 重要。
+  - Lateral ankle sprains 最常見，常先涉及 ATFL，grade 1-2 常以 early ROM、balance / proprioception、strength progression 管理。
+  - OLT 可造成 pain、swelling、locking、stiffness；radiographs 可能漏診。
+  - 來源列出 high-risk stress fracture sites：femoral neck tension side、middle anterior tibia、navicular bone、fifth metatarsal Jones fracture、talar dome fracture。
+- 移除或降級的陳述：
+  - 未把 textbook chapter 寫成 formal guideline。
+  - 未把 lower limb pain localization 寫成 tissue diagnosis。
+  - 未把 GTPS 簡化成 trochanteric bursitis。
+  - 未把 lateral ankle sprain 寫成所有 persistent ankle pain 的最終診斷。
+  - 未把 PFP、shin splints、plantar fasciitis 等 common labels 寫成可跳過 high-risk screen 的診斷。
+  - 未把 regenerative、injection、bracing 或 shockwave 等處置寫成不需 condition-specific evidence 的標準治療。
+- 發現衝突：
+  - 「痛在哪裡就是哪個組織受傷」不成立；來源反覆呈現 referred pain 與 mimic。
+  - 「lateral hip pain = bursitis」不成立；GTPS 常是 gluteal tendon / ITB / abductor complex 問題。
+  - 「ankle sprain 後持續痛只要繼續休息」不成立；需重查 OLT、peroneal pathology、fracture、syndesmosis 或 instability。
+- 待追蹤問題：
+  - 各單病種的 rehab protocol、return-to-sport criteria 與 imaging threshold 需用 guideline / systematic review 逐篇補強。
+  - Pediatric hip pathology、high-risk stress fracture、Achilles rupture 與 ankle sprain 的 formal referral thresholds 需後續高層級來源校正。
+  - GTPS、PFP、OLT、plantar fasciitis、MTSS 的 treatment evidence 需避免被 textbook overview 過度外推。
+- 待處理來源：
+  - 尚未掃描下一篇來源；需從 `C:\原始資料` 重新建立候選清單。
+
+## [2026-05-04] ingest | Egan & Sharples 2023 — Molecular Responses to Acute Exercise
+
+- 新增來源摘要：
+  - `09_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses.md`
+- 新增頁面：
+  - `05_Exercise_Physiology/Acute_Exercise_Molecular_Response與Skeletal_Muscle_Adaptation.md`
+- 更新頁面：
+  - `05_Exercise_Physiology/Skeletal_Muscle_Energy_Metabolism.md`
+  - `index.md`
+  - `log.md`
+- 本輪抽出的直接事實：
+  - 來源為 review article。
+  - 來源使用 `C:\原始資料\egan-sharples-2023-molecular-responses-to-acute-exercise-and-their-relevance-for-adaptations-in-skeletal-muscle-to\egan-sharples-2023-molecular-responses-to-acute-exercise-and-their-relevance-for-adaptations-in-skeletal-muscle-to.md`，本輪未混入其他來源。
+  - 題名為 `Molecular Responses to Acute Exercise and Their Relevance for Adaptations in Skeletal Muscle to Exercise Training`。
+  - 作者為 Brendan Egan、Adam P. Sharples。
+  - 來源主題是 acute exercise-induced signal transduction、pre- and posttranscriptional regulation、protein translation / degradation，以及這些 molecular responses 和 skeletal muscle training adaptation 的關係。
+  - Repeated, episodic bouts of skeletal muscle contraction undertaken as structured exercise training 是 physiological adaptation 的 potent stimulus。
+  - Skeletal muscle plasticity 可表現在 muscular size、force、endurance、contractile velocity。
+  - Acute exercise signals 來自 neuronal、mechanical、metabolic、hormonal stimuli。
+  - Intrinsic signals 包含 Ca2+、ATP / ADP / Pi、redox state、glycogen depletion、pH 下降、intracellular PO2 下降、RONS、temperature、mechanical load / tension、sarcolemmal disruption。
+  - Extrinsic factors 包含 catecholamines、TNF-alpha、IL-6、GH、IGF-I、testosterone、glucose、amino acids、free fatty acids，以及 autocrine / paracrine factors。
+  - Acute exercise 後 mRNA abundance 可在 recovery 初期 transiently increase，常在約 24 hours 內回到 baseline。
+  - MetaMEx 在來源撰寫時包含 66 個 human skeletal muscle transcriptomic datasets，其中包含 13 個 acute aerobic exercise studies 與 8 個 acute resistance exercise studies。
+  - Aerobic exercise training 的典型 phenotype 包含 VO2max / performance 改善、submaximal exercise 時 lipid oxidation 比例上升、oxidative capacity 與 mitochondrial biogenesis 增加。
+  - Resistance training 的典型 phenotype 包含 hypertrophy、strength、power 與 neural adaptation；MPS / MPB balance 是 hypertrophy 核心之一。
+  - Aerobic 與 resistance adaptation 不是完全互斥；不同模式可產生部分重疊 phenotype。
+  - Training status 會改變 acute molecular response；訓練後許多 signaling 或 mRNA response 會 attenuate，但不是所有 response 都下降。
+  - 來源提出 first bout effect / repeated bout effect：未訓練或不熟悉 exercise mode 時，第一次 response 可能含有大量 generalized stress response。
+  - 來源明確指出 acute molecular response 與 chronic training adaptation 的 continuity 尚未完全確立。
+  - 來源警告 mRNA abundance 作為 individual adaptive potential 或 protocol responsiveness biomarker 的用途有限。
+  - Exercise mimetics / exercise-in-a-pill 無法完整重現 exercise 的 systemic multiorgan effects；目前較合理位置是 adjunct，而非取代 exercise。
+- 移除或降級的陳述：
+  - 未把 acute mRNA response 寫成 long-term adaptation。
+  - 未把 phosphorylation、MPS 或單一 pathway activation 寫成 causal proof。
+  - 未把 untrained first bout response 外推為 trained 或 clinical population 的處方規則。
+  - 未把 rodent knockout、cell culture 或 pharmacological activation 直接等同 human exercise training。
+  - 未把 exercise mimetics 寫成可取代 exercise 的既成臨床策略。
+- 發現衝突：
+  - 「單次 biomarker 上升就代表 protocol 會有效」不成立；來源把 acute-to-chronic continuity 視為尚未完全驗證的 working model。
+  - 「aerobic 和 resistance exercise 是完全分離的分子盒子」不成立；來源指出 adaptation contribution 有重疊且受 stimulus details 影響。
+  - 「訓練者和未訓練者的 acute response 可直接比較」不成立；training status、absolute / relative intensity matching 與 threshold-based intensity 都會改變解讀。
+- 待追蹤問題：
+  - MoTrPAC 或其他 human longitudinal multi-omics data 需後續補強 acute-to-chronic continuity。
+  - Molecular biomarkers 是否能預測 functional / clinical response 需另以 longitudinal human evidence 檢查。
+  - Rehabilitation populations 的 disease-specific response 不能由此 review 直接推定。
+- 待處理來源：
+  - 尚未掃描下一篇來源；需從 `C:\原始資料` 重新建立候選清單。
+
+## [2026-05-04] ingest | Chow et al. 2022 — Exerkines in Health, Resilience and Disease
+
+- 新增來源摘要：
+  - `09_來源摘要/Chow_2022_exerkines_health_resilience_disease.md`
+- 新增頁面：
+  - `05_Exercise_Physiology/Exerkines_運動誘發多器官訊號分子.md`
+- 更新頁面：
+  - `05_Exercise_Physiology/Myokines_與_Muscle_Organ_Crosstalk.md`
+  - `index.md`
+  - `log.md`
+- 本輪抽出的直接事實：
+  - 來源為 high-quality review / expert review。
+  - 來源使用 `C:\原始資料\Exerkines in health, resilience and disease\Exerkines in health, resilience and disease.md`，本輪未混入其他來源。
+  - 題名為 `Exerkines in health, resilience and disease`。
+  - 來源發表於 `Nature Reviews Endocrinology` 2022。
+  - 來源定義 exerkines 為 response to acute and/or chronic exercise released signalling moieties，透過 endocrine、paracrine、autocrine pathways 作用。
+  - Exerkines 不只來自 skeletal muscle；來源列出 skeletal muscle / myokines、heart / cardiokines、liver / hepatokines、WAT / adipokines、BAT / batokines、nervous system / neurokines 等。
+  - Exerkines 可包含 cytokines、hormones、neurotransmitters、proteins、nucleic acids、microRNA、mRNA、mitochondrial DNA、lipids、metabolites 與 extracellular-vesicle cargo。
+  - IL-6 是 2000 年後最廣泛研究的 myokine；但 acute exercise-induced transient IL-6 與 chronic elevated resting IL-6 不可等同。
+  - Exercise response 受 exercise timing、fed-fasting status、post-exercise diet、exercise type、duration、intensity、fitness、genetics、phenotype 影響。
+  - HERITAGE data 在來源中被用來說明 training response variability：VO2max response heritability 約 47%，約 20% chronic exercise training non-response for aerobic capacity，7-15% individuals 在部分 cardiometabolic variables 有 adverse response。
+  - MoTrPAC 被描述為 NIH-supported effort，用 humans and animals 的 multi-timepoint biospecimen profiling 描述 physical activity molecular transducers。
+  - Acute exerkine response 不一定平行 chronic training response。
+  - 來源列出 acute exercise classic cytokine responses：IL-6、IL-8、IL-1RA、IL-10。
+  - Exerkine research 正從 single-factor measurement 轉向 lipidomics、metabolomics、proteomics、transcriptomics、epigenomics、RNA-seq、methyl-seq、ATAC-seq 等 omics profiling。
+  - Extracellular vesicles 被視為 exercise-related inter-organ crosstalk 的重要 carrier，但 plasma-derived vesicle analysis 有 preanalytical / isolation 挑戰。
+  - Cardiometabolic candidate exerkines 包含 nitric oxide、VEGF、IL-6、IL-8、FGF21、angiopoietin 1、fractalkine、musclin、myonectin 等。
+  - WAT browning 與 irisin-mediated pathway 在 humans 的轉譯仍有爭議。
+  - 來源討論 12,13-diHOME、TGFβ2、apelin、follistatin、fetuin-A、BAIBA、fractalkine、GPLD1、clusterin 等 candidate pathways，但 certainty 不一。
+  - 來源明確列出 contentious questions：acute vs chronic inconsistency、animal vs human inconsistency、outcome and sampling variability。
+  - 來源明確指出 `exercise in a pill` 目前仍是 wishful thinking。
+- 移除或降級的陳述：
+  - 未把 exerkines 寫成 routine clinical biomarker。
+  - 未把 myokines 與 exerkines 當同義詞。
+  - 未把 single candidate molecule 寫成 exercise benefit 的主因。
+  - 未把 animal / cell model 發現直接外推成人類臨床處方。
+  - 未把 exerkine therapeutics 寫成可取代 exercise 的既成治療。
+- 發現衝突：
+  - 「exercise benefit 可以用某個單一分子解釋」不成立；來源把 exerkines 放在 multi-organ systems response。
+  - 「acute exercise 分子上升，chronic training 就也應上升」不成立；來源明確警告 acute / chronic responses 可不一致。
+  - 「myokine 就等於 exerkine」不成立；myokine 只是 skeletal muscle-derived subset。
+- 待追蹤問題：
+  - 需要後續用 MoTrPAC 或其他 human data 更新 exerkine candidate 的 human reproducibility。
+  - Exerkine biomarker 的臨床可用性、reference range、sampling protocol 與 outcome mediation 仍未建立。
+  - Brain-related exerkines 是否跨越 BBB、或主要經 peripheral immune / complement / coagulation routes 作用，需要更嚴格 human evidence。
+- 待處理來源：
+  - 尚未掃描下一篇來源；需從 `C:\原始資料` 重新建立候選清單。
+
+## [2026-05-04] ingest | Furrer et al. 2023 — The Molecular Athlete
+
+- 新增來源摘要：
+  - `09_來源摘要/Furrer_2023_molecular_athlete.md`
+- 新增頁面：
+  - `05_Exercise_Physiology/Molecular_Athlete_運動表型連續體.md`
+- 更新頁面：
+  - `05_Exercise_Physiology/Acute_Exercise_Molecular_Response與Skeletal_Muscle_Adaptation.md`
+  - `05_Exercise_Physiology/Training_Intensity_Distribution.md`
+  - `index.md`
+  - `log.md`
+- 本輪抽出的直接事實：
+  - 來源為 review article。
+  - 來源使用 `C:\原始資料\furrer-et-al-2023-the-molecular-athlete-exercise-physiology-from-mechanisms-to-medals\furrer-et-al-2023-the-molecular-athlete-exercise-physiology-from-mechanisms-to-medals.md`，本輪未混入其他來源。
+  - 題名為 `The Molecular Athlete: Exercise Physiology from Mechanisms to Medals`。
+  - 作者為 Regula Furrer、John A. Hawley、Christoph Handschin。
+  - Human skeletal muscle function and exercise capacity span from inactive individuals to elite athletes。
+  - Sedentary lifestyle、low VO2max、unfavorable body composition、low muscle strength 是 chronic disease risk 與 morbidity / mortality predictor。
+  - Regular physical activity despite interindividual response variability 仍可降低多種 noncommunicable diseases 風險並提供 therapeutic benefits。
+  - Elite athletes 接近 world-record 或 world-leading performance 的族群小於全球人口 0.00006%。
+  - Champion endurance athletes 的 VO2max 可為 untrained individuals 的 2-3 倍。
+  - Elite endurance phenotype 常見較高 stroke volume、capillary density、mitochondrial density 與 oxidative slow-twitch fiber proportion。
+  - VO2max 是 central and peripheral integrated measure，不是單一 organ 或 pathway 指標。
+  - Training adaptation 依 progressive overload、specificity、reversibility 與 individuality 原則進行。
+  - Periodization 應把 microcycle、mesocycle、macrocycle 與 nutrition、recovery、psychology、skill training 配合。
+  - Detraining 會讓 endurance adaptations 在約 7-21 days 開始變化；strength decline 在約 21 days 內較有限但 4 weeks 後更明顯。
+  - Concurrent training evidence 多來自 moderately trained 或 untrained populations，且研究難以匹配 total work、stimulus 與 exercise mode。
+  - Low muscle glycogen sessions 可能增強部分 mitochondrial biogenesis signals，但 well-trained athletes 的 performance benefit 不穩定。
+  - Voluntary whole-body exercise 不等於 isolated muscle contraction；animal / in vitro data 與 human training outcome 之間有 translational gap。
+  - Chronic trained muscle 不應被視為 acute exercise bouts 的簡單加總。
+  - Non-responder label 需謹慎；對單一 outcome 低反應不代表整體 exercise 無效。
+  - Exercise mimetics 目前不能取代 exercise，且某些候選藥物在特定情境可能 attenuate training adaptation。
+- 移除或降級的陳述：
+  - 未把 elite athlete protocol 寫成 clinical rehabilitation prescription。
+  - 未把 VO2max、mitochondrial density、gene 或單一 pathway 寫成 performance 的完整原因。
+  - 未把 animal / in vitro mechanism 直接寫成人類 exercise prescription。
+  - 未把 exercise mimetic、antioxidant 或 supplement 寫成可取代 training stimulus。
+  - 未把 non-responder 當成固定且不可改變的個人特質。
+- 發現衝突：
+  - 「elite performance 是單一基因或單一 pathway 的結果」不成立；來源將其放在多層次 intrinsic / extrinsic factors。
+  - 「TID 標籤本身就是機制」不成立；來源要求把 intensity、periodization、recovery、nutrition 與 physiological outcomes 放回同一框架。
+  - 「acute molecular response 累加即可解釋 trained phenotype」不成立；來源明確指出 integration / coordination 仍未完整理解。
+- 待追蹤問題：
+  - Elite women、masters athletes、underrepresented ethnicities 與 clinical disease populations 的直接機制資料仍需補強。
+  - Wearables、AI / machine learning 與 exercise mimetics 的 clinical utility 需要後續逐篇來源檢查。
+  - MoTrPAC-like longitudinal human multi-omics data 可用來後續校正 acute-to-chronic integration。
+- 待處理來源：
+  - 尚未掃描下一篇來源；需從 `C:\原始資料` 重新建立候選清單。
+
+## [2026-05-04] ingest | Goulding & Marwood 2023 — Interaction of Factors Determining Critical Power
+
+- 新增來源摘要：
+  - `09_來源摘要/Goulding_Marwood_2023_critical_power_determinants.md`
+- 新增頁面：
+  - `04_CPET/Critical_Power_生理決定因子.md`
+- 更新頁面：
+  - `04_CPET/Critical_Power.md`
+  - `04_CPET/Exercise_Intensity_Domains.md`
+  - `04_CPET/VO2_Kinetics.md`
+  - `05_Exercise_Physiology/運動時氧供調節的整合視角.md`
+  - `index.md`
+  - `log.md`
+- 本輪抽出的直接事實：
+  - 來源為 review article。
+  - 來源使用 `C:\原始資料\s40279-022-01805-w\s40279-022-01805-w.md`，本輪未混入其他來源。
+  - 題名為 `Interaction of Factors Determining Critical Power`。
+  - 作者為 Richie P. Goulding、Simon Marwood。
+  - Critical power 是 power-duration hyperbolic relation 的 asymptote。
+  - CP 代表 threshold intensity；超過 CP 後 systemic and intramuscular metabolic homeostasis 不能維持。
+  - CP 以下可達 pulmonary VO2、blood lactate、muscle VO2、PCr、Pi、pH、muscle lactate 的 steady state；CP 以上則不行。
+  - 常規 CP 測定可使用 3-5 次 high-intensity constant-power tests to task failure，測試時間通常選在 2-15 min。
+  - CP 是 aerobic function parameter，可受 oxygen transport and utilization pathway 每一步影響。
+  - Oxygen pathway 包含 pulmonary diffusion、convective O2 delivery、capillary-to-mitochondria diffusive O2 delivery、mitochondrial O2 utilization。
+  - Convective O2 delivery 可描述為 cardiac output 與 arterial O2 content 的乘積。
+  - Hypoxia 可降低 CP，hyperoxia 可提高 CP。
+  - Blood flow occlusion / duty-cycle manipulation 支持 CP 依賴 muscle blood flow and O2 delivery。
+  - Diffusive O2 transport 由 Fick's law 描述，受 diffusion driving pressure 與 muscle diffusing capacity 影響。
+  - Muscle capillarity 與 capillary-to-fiber ratio 和 CP 有關。
+  - TauVO2 是 muscle O2 utilization kinetics 的實用讀出；tau 越慢，exercise onset 的 O2 deficit 越大。
+  - O2 deficit 會增加 PCr depletion、Pi / ADP / H+ accumulation、fatigue induction 與 efficiency loss。
+  - 來源指出 tauVO2、convective O2 delivery、diffusive O2 delivery 對 CP 有 independent but interacting effects。
+  - Whole-body CP 還受 muscle fiber-type composition、relative exercising muscle mass、lever mechanics、coordination、localized fatigue 與 motor unit recruitment pattern 影響。
+- 移除或降級的陳述：
+  - 未把 CP 寫成 lactate threshold 或 anaerobic threshold。
+  - 未把 CP 寫成單一器官、單一 metabolite 或單一 energy tank。
+  - 未把 pulmonary VO2 kinetics 在所有情境下都等同 muscle kinetics。
+  - 未把 hypoxia / hyperoxia 或 acetaminophen-related CP findings 寫成臨床治療建議。
+- 發現衝突：
+  - 「CP 只是 lactate / ventilatory marker」不成立；來源將其定位為 oxygen transport / utilization 與 recruitment / fatigue 的整合閾值。
+  - 「CP 是固定個人常數」不成立；來源顯示 O2 availability、blood flow、diffusion、tauVO2、mode、muscle mass 與 recruitment 都會改變 CP。
+  - 「CP 只反映 central cardiopulmonary function」不成立；peripheral diffusion、fiber type、muscle metabolic control 與 motor unit recruitment 同樣進入決定因子。
+- 待追蹤問題：
+  - HF、COPD、pulmonary hypertension、neuromuscular disease 的 CP determinants 需 disease-specific CPET sources 補強。
+  - Clinical rehabilitation 中 CP 測定的安全性、可靠性與實務可行性需另用 protocol / guideline sources 校正。
+  - Fiber type / capillarity / recruitment data 不應過度個體化外推。
+- 待處理來源：
+  - 尚未掃描下一篇來源；需從 `C:\原始資料` 重新建立候選清單。
+
+## [2026-05-04] ingest | Smith et al. 2023 — Exercise metabolism and adaptation in skeletal muscle
+
+- 新增來源摘要：
+  - `09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle.md`
+- 新增頁面：
+  - `05_Exercise_Physiology/Skeletal_Muscle_Metabolic_Flexibility與Exercise_Adaptation.md`
+- 更新頁面：
+  - `05_Exercise_Physiology/Skeletal_Muscle_Energy_Metabolism.md`
+  - `05_Exercise_Physiology/Muscle_Fiber_Types.md`
+  - `05_Exercise_Physiology/Acute_Exercise_Molecular_Response與Skeletal_Muscle_Adaptation.md`
+  - `index.md`
+  - `log.md`
+- 本輪抽出的直接事實：
+  - 來源為 review article。
+  - 來源使用 `C:\原始資料\nihms-1908393\nihms-1908393.md`，本輪未混入其他來源。
+  - 題名為 `Exercise metabolism and adaptation in skeletal muscle`。
+  - 作者為 Jonathon A. B. Smith、Kevin A. Murach、Kenneth A. Dyar、Juleen R. Zierath。
+  - Final publication 為 `Nature Reviews Molecular Cell Biology. 2023;24(9):607-632. doi:10.1038/s41580-023-00606-x`。
+  - Skeletal muscle 是 nutrient storage、energy use 與 locomotion 的主要組織。
+  - Physical inactivity 會降低 skeletal muscle insulin sensitivity 與 oxidative capacity。
+  - Acute exercise 增加 contracted muscle 的 amino acid transport、glucose transport、postprandial muscle protein synthesis 與 recovery 期間 insulin-stimulated glucose disposal。
+  - Training 可提升 skeletal muscle mass、peripheral insulin sensitivity、VO2max 與 strength。
+  - Human torso / limb muscles 主要表達 MyHC type I、type IIA、type IIX；MyHC 主要決定 contraction speed，不可直接等同 metabolism。
+  - Human 與 rodent muscle physiology 不可直接等同；rodent type IIA 常是最 oxidative，human type I 常是最 oxidative。
+  - Human vastus lateralis 的 hybrid fibers 可由小於 10% 到 40%；pure type IIX 在健康 human vastus lateralis 通常小於 1%。
+  - Muscle mitochondria 約佔 muscle volume 的 2-10%，依 fiber type 而異。
+  - Subsarcolemmal / peripheral mitochondria 與 intermyofibrillar mitochondria 在 location、structure 與 function 上不同。
+  - Free ATP 約 20-25 mmol/kg dry mass，只足以支撐 maximal exercise 小於 2 秒。
+  - ATP resynthesis speed 大致為 phosphagen system / glycolysis 最快，其次 carbohydrate oxidation，最後是 NEFA oxidation。
+  - Exercise onset 前 30-60 秒可出現 oxidative phosphorylation lag。
+  - Type II fibers 的 ATP consumption per unit time 約為 type I fibers 的 2.5-4 倍。
+  - Higher intensity 下 glycolytic flux 可透過 free carnitine pool depletion 限制 long-chain fatty acid import。
+  - Contracting muscle 中 mitochondria 可能不是主要 ROS source；NOX pathways 可能更主要。
+  - 多種 exercise modalities 可共同改變超過 400 個 phosphorylation sites、超過 200 個 proteins。
+  - Modality divergence 在 recovery 3 小時左右更明顯；resistance exercise 較強化 mTORC1 / p38 MAPK related signaling。
+  - Training 可增加 mitochondrial respiration、mitochondrial proteome、capillarization、substrate handling、lactate clearance 與 performance measures。
+- 移除或降級的陳述：
+  - 未把 metabolic flexibility 簡化為 fat oxidation。
+  - 未把 MyHC type 直接寫成 oxidative capacity。
+  - 未把 acute mRNA / phosphorylation / epigenetic response 寫成 chronic adaptation 的直接替代指標。
+  - 未把 animal / cell model pathway finding 直接外推成人類 clinical prescription。
+  - 未把 training-induced acute response attenuation 解讀為 stimulus 失效。
+- 發現衝突：
+  - 「lactate 是 waste product」不成立；來源採用 lactate / pyruvate 可轉換並可進入 oxidation 的框架。
+  - 「type I / type II 可直接代表底物利用」不成立；來源明確把 MyHC、metabolism、mitochondria 與 myonuclear program 分開。
+  - 「acute signaling activation 直接等於 long-term adaptation」不成立；來源把 acute-to-chronic 放在 repeated bouts、recovery、training status 與 systems redundancy 下。
+- 待追蹤問題：
+  - Exercise chrono-therapy、EV miRNA cargo、lactate lactylation、NOX-driven ROS signaling 的 human clinical relevance 仍需後續來源。
+  - Biological sex、age、chronotype、ethnicity、training status、metabolic health 與 social gender 的交互作用仍需更完整 human data。
+  - AMPK / PGC-1alpha / mTOR 以外的 redundancy 與 compensation 需後續機制來源補強。
+- 待處理來源：
+  - 尚未掃描下一篇來源；需從 `C:\原始資料` 重新建立候選清單。
+
+## [2026-05-04] ingest | Juarez et al. 2024 — Cardiopulmonary Exercise Testing in Heart Failure
+
+- 新增來源摘要：
+  - `09_來源摘要/Juarez_2024_CPET_in_heart_failure.md`
+- 新增頁面：
+  - `04_CPET/CPET_in_Heart_Failure.md`
+- 更新頁面：
+  - `04_CPET/CPET_Protocol_Design.md`
+  - `04_CPET/VO2max_Measurement.md`
+  - `04_CPET/Gas_Exchange_Threshold.md`
+  - `index.md`
+  - `log.md`
+- 本輪抽出的直接事實：
+  - 來源為 narrative review。
+  - 來源使用 `C:\原始資料\jcdd-11-00070\jcdd-11-00070.md`，本輪未混入其他來源。
+  - 題名為 `Cardiopulmonary Exercise Testing in Heart Failure`。
+  - 作者為 Michel Juarez、Cristian Castillo-Rodriguez、Dina Soliman、Gaspar Del Rio-Pertuz、Kenneth Nugent。
+  - Citation 為 `J. Cardiovasc. Dev. Dis. 2024;11:70. doi:10.3390/jcdd11030070`。
+  - CPET in HF measures respiratory gases、heart rate、blood pressure、oxygen uptake、carbon dioxide output、ventilation 與 gas exchange。
+  - HF CPET report 可分 metabolics、cardiac、ventilation、gas exchange 四組資訊。
+  - Clinical HF CPET 常用 incremental / ramp protocol；ramp grades 可包括 5、7、10、15 W/min，依 expected exercise tolerance 選擇。
+  - Cycle ergometer 的 workload linearity 較 treadmill 好。
+  - HF patients 常達不到 true VO2max，因此臨床常報 peak VO2。
+  - Peak VO2 in HF 與 peak cardiac output、muscle perfusion、oxygen delivery / extraction 有關。
+  - VE/VCO2 slope in HF 反映 ventilatory inefficiency，與 dead space ventilation、lung compliance、chemo / metabolic reflex sensitivity、early metabolic acidosis、abnormal pulmonary hemodynamics 相關。
+  - VE/VCO2 slope >34-36 可辨識 high-risk HF patients；>=45 屬 high / very poor risk pattern。
+  - Peak VO2 <14 mL/kg/min 是 poor prognosis marker；beta blocker patients 可使用 <12 mL/kg/min。
+  - Peak VO2 <=10 mL/kg/min、VE/VCO2 slope >=36、EOV presence、VO2 at AT <11 mL/kg/min 形成 very poor prognosis pattern。
+  - Excellent prognosis pattern 包含 peak VO2 >=20 mL/kg/min、VE/VCO2 slope <30、absence of EOV、VO2 at AT >11 mL/kg/min。
+  - RER >1.0-1.1 可作 maximal physiologic effort 線索，但 HR-based effort assessment 受 beta blockers / chronotropic incompetence 影響。
+  - CPET 不能穩定單獨分類 HFrEF vs HFpEF；reduced VO2 可預測兩者 outcomes。
+  - HFpEF dyspnea 可涉及 chronotropic reserve、stroke volume reserve、cardiac output reserve、exercise pulmonary hypertension、peripheral O2 extraction 與 pulmonary disorders。
+  - Exercise training in HF 可與 BNP / NT-proBNP 下降及 peak VO2 上升相關。
+  - CPET 需要 specialized lab、trained personnel 與 expert interpretation。
+  - Portable metabolimeters 可連接 laboratory peak VO2 與 ADL oxygen cost；smart watches 可作 daily monitoring adjunct。
+- 移除或降級的陳述：
+  - 未把本篇 narrative review 當成 HF guideline。
+  - 未把 peak VO2 cut-off 寫成單獨 transplant listing rule。
+  - 未把 CPET 單獨寫成 HFrEF / HFpEF 分類工具。
+  - 未把 smart watches 或 portable metabolimetry 寫成 CPET 替代。
+  - 未採用原始 Markdown 中受 OCR 污染的 BNP / HFpEF 數字。
+- 發現衝突：
+  - 「HF CPET 只看 peak VO2」不成立；來源同時重視 VE/VCO2 slope、AT、RER、EOV、O2 pulse、HR / BP response 與 comorbidity context。
+  - 「HF dyspnea 一定主要來自 cardiac impairment」不成立；來源列出 pulmonary disease、anemia、sleep apnea、skeletal muscle weakness / wasting 等可能貢獻。
+  - 「wearables 可取代 CPET」不成立；來源將其定位為 monitoring / problem detection adjunct。
+- 待追蹤問題：
+  - 需用 HF guideline 或 advanced HF / transplant-specific statements 校正 peak VO2、VE/VCO2 slope 與 transplant timing。
+  - 需用 pulmonary hypertension CPET 來源處理 PH-specific VE/VCO2 / PETCO2 pattern。
+  - miRNA biomarkers、portable metabolimetry 與 wearable workflow 仍需更高品質 clinical utility evidence。
+- 待處理來源：
+  - `C:\原始資料\jcm-12-05465-v2\jcm-12-05465-v2.md`
+
+## [2026-05-04] ingest | Pezzuto & Agostoni 2023 — CPET in Pulmonary Hypertension
+
+- 新增來源摘要：
+  - `09_來源摘要/Pezzuto_Agostoni_2023_CPET_pulmonary_hypertension.md`
+- 新增頁面：
+  - `04_CPET/CPET_in_Pulmonary_Hypertension.md`
+- 更新頁面：
+  - `04_CPET/CPET_in_Heart_Failure.md`
+  - `04_CPET/Gas_Exchange_Threshold.md`
+  - `index.md`
+  - `log.md`
+- 本輪抽出的直接事實：
+  - 來源為 narrative review。
+  - 來源使用 `C:\原始資料\jcm-12-05465-v2\jcm-12-05465-v2.md`，本輪未混入其他來源。
+  - 題名為 `The Current Role of Cardiopulmonary Exercise Test in the Diagnosis and Management of Pulmonary Hypertension`。
+  - 作者為 Beatrice Pezzuto、Piergiuseppe Agostoni。
+  - Citation 為 `J. Clin. Med. 2023;12:5465. doi:10.3390/jcm12175465`。
+  - PAH 的核心病理是 PVR / mPAP 增加造成 RV afterload mismatch。
+  - RV-arterial coupling 是 PAH symptoms、clinical status 與 prognosis 的主要 determinant。
+  - PAH effort dyspnea 可來自 RV exercise reserve 不足，導致 CO 無法跟上 metabolic demand。
+  - CPET 被來源描述為 functional capacity and mechanisms of exercise limitation 的 gold standard，並可支持 early detection、differential diagnosis、prognostic stratification 與 follow-up。
+  - 來源指出 ESC/ERS PH guideline 強調 CPET 在 initial diagnostic phase 與 follow-up 的角色。
+  - PAH CPET abnormalities 可分 ventilatory、gas exchange、cardiovascular 三類。
+  - PAH patients exercise 時可出現 VD/VT >30%；正常人 exercise 時 VD/VT 應下降。
+  - PAH 可呈 high VE/VCO2、high VE/VO2、low PETCO2、positive P(a-ET)CO2、higher P(A-a)O2、reduced peak VO2、low AT、reduced VO2/work slope、low peak HR、low O2 pulse。
+  - PAH O2 pulse 可呈 flattened slope，代表 stroke volume augmentation 受限，exercise CO increase 更依賴 HR。
+  - PAH patients compared with left HF patients 可有 smaller stroke volume response and steeper HR/VO2 slope。
+  - EOV 更常見於 post-capillary PH / HF，而非典型 PAH。
+  - High VE/VCO2 plus low PETCO2 increases likelihood of pulmonary vascular disease；both normal makes PH unlikely in the cited framework。
+  - In SSc with PAH suspicion，one cited study found peak VO2 threshold 13.8 mL/kg/min sensitivity 87.5% and specificity 74.8%；peak VO2 >18.7 mL/kg/min excluded PAH in that cohort。
+  - In CTEPH / CTED study，peak exercise VD/VT >45% had sensitivity 92% and specificity 83%；peak A-a O2 gradient >32 mmHg had sensitivity 92% and specificity 67%。
+  - 來源引用 ESC/ERS risk anchors：peak VO2 >15 mL/kg/min and VE/VCO2 slope <36 = low risk；peak VO2 11-15 and VE/VCO2 slope 36-44 = intermediate risk；peak VO2 <11 and VE/VCO2 slope >44 = high risk。
+  - Delayed HR recovery <18 beats/min in first post-exercise minute has prognostic value in PAH。
+  - CPET in clinical trials requires expertise and standardization。
+- 移除或降級的陳述：
+  - 未把本篇 review 當作 ESC/ERS guideline 原文。
+  - 未把 CPET 寫成 RHC 替代品。
+  - 未把 high VE/VCO2 slope 單獨診斷為 PAH。
+  - 未把 PAH、PH-LHD、CTEPH、COPD-PH、IPF-PH 的 CPET pattern 混為同一疾病。
+  - 未把 borderline PH 的 CPET abnormality 寫成 PAH-specific drug indication。
+- 發現衝突：
+  - 「PH CPET 只是 low peak VO2」不成立；來源強調 VE/VCO2、PETCO2、VD/VT、O2 pulse、HR response 與 gas exchange pattern。
+  - 「PAH 與 HF 的 CPET pattern 可完全互換」不成立；來源指出 PAH 的 stroke volume response 較小、HR/VO2 slope 較陡，EOV 更偏 post-capillary PH / HF。
+  - 「CPET 可取代 RHC」不成立；來源將 CPET 放在 diagnostic support、likelihood stratification 與 follow-up。
+- 待追蹤問題：
+  - 需回查 2022 ESC/ERS PH guideline 原文，確認 CPET cutoffs、indications 與 clinical workflow。
+  - Borderline PH / mPAP 20-25 mmHg 的 CPET-guided treatment or observation 尚未確立。
+  - PAH clinical trials 的 CPET endpoints 需標準化與 site expertise。
+- 待處理來源：
+  - 尚未掃描下一篇來源；需從 `C:\原始資料` 重新建立候選清單。
+
+## [2026-05-04] ingest | Ibrahim, Hafner & Rocher 2026 — LLM Warmth, Accuracy, and Sycophancy
+
+- 新增來源摘要：
+  - `09_來源摘要/Ibrahim_Hafner_Rocher_2026_warmth_accuracy_sycophancy.md`
+- 新增頁面：
+  - `08_工具與Workflow/LLM_Warmth_Accuracy_Tradeoff.md`
+- 更新頁面：
+  - `00_總覽/知識百科_基礎規範總覽.md`
+  - `08_工具與Workflow/知識百科_ingest_工作流.md`
+  - `index.md`
+  - `log.md`
+- 本輪抽出的直接事實：
+  - 來源為 Nature 2026 original research article，不是醫學 guideline。
+  - 來源使用 `C:\原始資料\s41586-026-10410-0\s41586-026-10410-0.md`，本輪未混入其他來源。
+  - 題名為 `Training language models to be warm can reduce accuracy and increase sycophancy`。
+  - 作者為 Lujain Ibrahim、Franziska Sofia Hafner、Luc Rocher。
+  - DOI 為 `10.1038/s41586-026-10410-0`；published online: 2026-04-29。
+  - 研究以 SFT 對五個模型進行 warmth fine-tuning：Llama-3.1-8B-Instruct、Mistral-Small-Instruct-2409、Qwen-2.5-32B-Instruct、Llama-3.1-70B-Instruct、GPT-4o-2024-08-06。
+  - Evaluation tasks 包含 TriviaQA、TruthfulQA、MASK Disinformation 與 MedQA。
+  - Warmth fine-tuning 在研究中使 incorrect response probability 平均上升 7.43 percentage points。
+  - 任務層級錯誤率增加包含 MedQA +8.6 pp、TruthfulQA +8.4 pp、Disinfo +5.4 pp、TriviaQA +4.9 pp。
+  - Sadness cue 下 warm-original accuracy gap 增至 11.9 pp。
+  - Incorrect user beliefs 條件下，warm models 較容易 affirm wrong beliefs。
+  - MMLU、GSM8K 與 AdvBench 多數表現未明顯下降，表示常規 benchmark 可漏掉 conversational failure。
+  - Response length adjustment 後，warmth fine-tuning 仍使 incorrect response probability 增加 6.99 pp。
+  - Cold fine-tuning control 未重現一致 accuracy degradation，支持問題較可能與 warmth-related style change 有關。
+- 移除或降級的陳述：
+  - 未把本篇 AI original article 當成醫學證據。
+  - 未把結果解讀成所有 empathy 或 supportive tone 都會降低 accuracy。
+  - 未把單篇研究當成完整 AI deployment guideline。
+- 發現衝突：
+  - 「語氣只是 style，不影響 substance」不成立；來源顯示 persona / style fine-tuning 可能改變 open-ended factual behavior。
+  - 「standard benchmark pass 就代表真實對話安全」不成立；研究中 MMLU / GSM8K / AdvBench 可接近不變，但 conversational QA 與 sycophancy probes 仍惡化。
+  - 「high-stakes advice 越 validating 越安全」不成立；vulnerability cues 可能放大 affirming incorrect beliefs 的風險。
+- 待追蹤問題：
+  - 需補更多 LLM evaluation / sycophancy / medical AI safety 來源，避免單篇 original article 過度外推。
+  - 需將 wiki health check 未來納入「錯誤前提未糾正」或「推論寫成事實」的文字型檢查。
+  - 若後續有 guideline-level AI safety source，應回來校正本頁。
+- 待處理來源：
+  - health check raw backlog 中多數 high-priority medical / exercise / pediatric 來源已存在對應摘要；仍需改善 raw-source mapping，避免已處理來源反覆列入 backlog。
+
+## [2026-05-04] ingest | UpToDate — Aphasia: Prognosis and treatment
+
+- 新增來源摘要：
+  - `09_來源摘要/Aphasia_Prognosis_and_treatment.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Poststroke_Aphasia_預後與恢復.md`
+  - `02_方法學/Aphasia_語言治療_劑量與技術.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/中風復健總論.md`
+  - `03_疾病與臨床主題/Stroke_Movement_Dysfunction_Impairment_Model.md`
+  - `03_疾病與臨床主題/Poststroke_Movement_Reeducation與Compensation.md`
+  - `index.md`
+  - `log.md`
+- 本輪抽出的直接事實：
+  - 來源為 UpToDate topic review；topic last updated 2024-06-03，literature current 2026-04。
+  - 來源使用 `C:\原始資料\Aphasia_ Prognosis and treatment.md`，本輪未混入其他來源。
+  - Aphasia 出現於 15–38% 的 ischemic strokes。
+  - 多數 poststroke aphasia 患者最大改善發生於 first few months，1 年後 plateau。
+  - Initial aphasia 嚴重度與長期 deficit 強相關；mild onset 最有可能完全恢復。
+  - 1 年 outcome 預測因子（單篇 long-term study）：baseline phonology integrity、younger age、higher Barthel Index、higher educational level、hemorrhagic（vs ischemic）。
+  - Right-hemisphere lesion 引起的 aphasia 永久 deficit 通常較輕，與 incomplete language lateralization 一致。
+  - Handedness、sex、increasing age 對恢復未顯示一致影響。
+  - TBI 引起的 aphasia 病程在小規模研究中與 poststroke 類似。
+  - 急性期早期恢復與 language area reperfusion 相關（DWI/PWI）；中後期恢復伴隨 perisylvian 周邊與 contralateral homologous 區域 fMRI activation。
+  - SLT 標明 Grade 2C suggestion；review of 10 studies / 864 patients 顯示高強度短期 SLT 優於低強度長期 SLT。
+  - 116 人 subacute RCT：2 hr/week 與 5 hr/week 結果相似（與上述 review 不一致）。
+  - 沒有單一 SLT 技術被證實優於他者；CIAT、computer-assisted、AAC、tablet apps 為當前研究方向。
+  - 藥物（bromocriptine、amphetamine、piracetam、AChEi、memantine、moclobemide）皆無 unequivocal long-term benefit；memantine + CIAT 27 人 RCT 顯示 48 週 sustained benefit。
+  - TMS 與 tDCS 顯示部分 naming-level 改善（tDCS Cochrane 顯示 object-naming benefit 但 functional communication 無一致益處）；不屬 routine clinical practice。
+  - Poststroke aphasia 患者憂鬱風險升高；moclobemide 90 人 RCT 未顯示優於 placebo；prophylactic antidepressant 不被支持，但需 monitor 並在出現時治療。
+- 移除或降級的陳述：
+  - 未把 SLT 寫成有強證據；保留 Grade 2C 標籤。
+  - 未把任何藥物寫成 routine recommendation。
+  - 未把 TMS / tDCS 寫成 routine intervention。
+  - 未把單一研究的 Barthel Index、education、phonology 預測因子寫成個體 calculator。
+  - 未把「1 年 plateau」寫成「1 年後不可改善」。
+  - 未把 right-hemisphere stroke 較輕的群體統計寫成個體保證。
+  - 未把 TBI 與 stroke aphasia 預後完全等同。
+  - 未把 prophylactic antidepressant 寫成 standard practice。
+- 發現衝突：
+  - 「SLT dose 越高越好」不成立；高強度短期 review 與 116 人 subacute RCT（2 vs 5 hr/week 相當）結果不一致。
+  - 「特定 SLT technique（CIAT、computer-assisted）優於他者」不成立；來源明確指出無 head-to-head 優劣。
+  - 「藥物可促進 aphasia recovery」不成立；無 phase III RCT 支持 routine use。
+  - 「TMS 抑制 contralateral hemisphere 是唯一機制」過度單一；本來源僅引主流 model，實際有替代理論未被本來源處理。
+- 待追蹤問題：
+  - Aphasia syndrome subgroup（global、Wernicke、Broca、subcortical anomia）的 dose-response 差異未充分研究。
+  - Functional communication outcome 的標準化測量需強化。
+  - Memantine + CIAT 27 人正向訊號需更大樣本驗證。
+  - Aphasia 患者 depression screen 工具的 validity 需專門驗證。
+  - 後續 stroke 系列 UpToDate（Aneurysmal SAH、ICH、Antihypertensive secondary prevention、Stroke etiology / classification、Vascular dementia、Vascular cognitive impairment、Cerebral artery dissection 等）尚未處理。
+- 待處理來源：
+  - `C:\原始資料\Aneurysmal subarachnoid hemorrhage_ Clinical manifestations and diagnosis.md`
+  - `C:\原始資料\Aneurysmal subarachnoid hemorrhage_ Treatment and prognosis.md`
+  - `C:\原始資料\Spontaneous intracerebral hemorrhage_ Pathogenesis, clinical features, and diagnosis (1).md`
+  - `C:\原始資料\Spontaneous intracerebral hemorrhage_ Acute treatment and prognosis.md`
+  - `C:\原始資料\Antihypertensive therapy for secondary stroke prevention.md`
+  - `C:\原始資料\Clinical diagnosis of stroke subtypes.md`
+  - `C:\原始資料\Stroke_ Etiology, classification, and epidemiology.md`
+  - `C:\原始資料\Cerebral and cervical artery dissection_ Clinical features and diagnosis.md`
+  - `C:\原始資料\Etiology, clinical manifestations, and diagnosis of vascular dementia.md`
+  - `C:\原始資料\Treatment of vascular cognitive impairment and dementia.md`
+  - `C:\原始資料\Stroke in patients with atrial fibrillation.md`
+  - `C:\原始資料\Sleep-related breathing disorders and stroke.md`
+  - `C:\原始資料\Complications of stroke_ An overview.md`
+
+## [2026-05-04] correction | Poole, Rossiter, Brooks & Gladden 2020 — The anaerobic threshold: 50+ years of controversy
+
+- 修正原因：本來源於 2026-04-22 ingest，依使用者 5/1 cutoff 規則屬「之前不算」之列，須依 §6 流程重做。原摘要使用非 skill 模板的 schema（一句話定義 / 核心機制 / 臨床表現 / 評估方式 / ...），缺少 Fact / Inference / Assumption / Uncertainty 分層、缺少 Conflicts With Existing Knowledge 與 Pages That Should Be Created or Updated 段，且包含若干指向不存在頁的連結（[[Lactate_Shuttle]] 等）。
+- 重新檢查來源：
+  - `C:\原始資料\The Journal of Physiology - 2020 - Poole - The anaerobic threshold  50  years of controversy\....md`（677 行；本輪未混入其他來源）。
+  - 重讀全文 §1–§6（intro and brief history、lactate shuttle、GET、coincidence of thresholds、CP、conclusions）與 references。
+- 修正頁面：
+  - `09_來源摘要/Poole_2020_anaerobic_threshold.md`（依 skill 模板完整重寫，覆蓋舊版）。
+  - `index.md`（更新 Poole entry 描述，反映 GET/LT vs CP/CS 雙閾值論）。
+  - `log.md`。
+- 本輪重新核對的直接事實：
+  - 來源為 J Physiol 2021;599(3):737–767 topical review；DOI 10.1113/JP279963；4 位作者：Poole、Rossiter、Brooks、Gladden。
+  - Wasserman 1973 的 AT paper 為 J Appl Physiol 史上第 8 高引（1541 citations，2020-09-27）。
+  - 反 dysoxia 證據四線：Welch & Stainsby 1967 / Jöbsis & Stainsby 1968 NAD+/NADH 反向；Pagliassotti & Donovan 1990 / Gladden lab elevated [La−] 反向 uptake；Connett 1983–1986 / Richardson 1995–1998 / Mole 1999 PiO2 不破 ~2 mmHg；Whipp & Wasserman 1986 / Poole 1988/1990 heavy 域 [La−] 可達 new steady state。
+  - GET <11 mL/kg/min → 4–5× post-surgical mortality（Older 1999）；GET <8 mL/kg/min → ~8% post-surgical CV death（Older 1999）；GET >14 mL/kg/min 幾乎為零（Older 1999）。
+  - HF: GET <11 → ~4× death（Gitt 2002）；GET <8.5 mL/kg/min 或 indeterminable → 進一步增加（Agostoni 2013）。
+  - 116-人 elective surgery：GET <10.1 mL/kg/min 預測 post-op complication 優於 V̇O2peak / V̇E/V̇CO2 / age / BMI / cardiac risk index / serum creatinine（Snowden 2010）。
+  - 723-人 colorectal：GET <11.1 mL/kg/min ROC AUC 0.79；OR 7.56（95% CI 4.44–12.86）（West 2016）。
+  - GET 對 ramp rate 不敏感（5 vs 10–15 min）（Agostoni 2005；Bowen 2012）；Buchfuhrer 1983 推薦 ~10 min to maximum tolerance。
+  - CP 標準測定：4 或更多 constant-load tests 各 2–15 min 至 exhaustion；single-visit 法包含 3-min all-out（Vanhatalo 2007）、Pettitt 2012、Murgatroyd 2014。
+  - t_lim = W'/(P − CP)。
+  - CP 解釋 cyclists 17 / 40 km TT >80% performance variance（Smith 1999）；marathon ≈ 96% CS。
+  - 25+ LT 偵測方法（Faude 2009）；同一受試者 14 種 LT 範圍 243–338 W（Jamnick 2018）。
+  - Broxterman 2018 vs Keir 2018 polemics：本文支持 RCP 與 deoxy-[Hb+Mb] break point **不是** CP / MLSS 有效 surrogate。
+  - LT 在年輕健康未訓練者約 ~50% V̇O2max；heavy–severe 邊界 typically ~70% V̇O2max（trained 更高）。
+  - 80 歲女性 GET 約占 64% predicted V̇O2max（Neder 1999）。
+  - GET sensitive cutoffs 9–11 mL/kg/min ≈ 2.5–3× BMR ≈ RAUSA 跑者 nutritional intake ceiling。
+  - Lactate 三大功能：energy substrate、major gluconeogenic precursor、signaling molecule（GPR81 / histone lactylation / TGF-β2 cycle）。
+  - Endurance training 增加 muscle MCR（Donovan & Brooks 1983；Bergman 1999b；Dubouchaud 2000 連結 MCT 與 mitochondrial respiration）。
+  - 病態 lactataemia（sepsis、cancer、TBI、dengue、hepatitis、pancreatitis）並非 ipso facto 等於 dysoxia。
+- 移除或降級的陳述：
+  - 舊摘要的「來源層級：1（textbook 等級）」修為「來源層級：4（high-quality narrative review）」，以對齊 CLAUDE.md §4 來源優先序。
+  - 舊摘要對「正確的 ramp 時間：通常 8–12 min to exhaustion」改述為原文用語「~10 min to maximum tolerance（Buchfuhrer 1983），且 GET 對 5 vs 10–15 min ramp 不敏感（Agostoni 2005；Bowen 2012）」。
+  - 舊摘要直接寫「3-min all-out test（Vanhatalo 2007）」放在「方法學重點」段，現改為 single-visit method 之一並列出 Pettitt 2012、Murgatroyd 2014 的限制（需 sustained max effort、不適 vulnerable 族群）。
+  - 舊摘要的「臨床表現 / 評估方式 / 治療原則 / 臨床決策點 / 理解缺口 / 臨床使用版」等段落結構違反 skill 模板，已移除。
+  - 舊摘要 link 至 [[04_CPET/Lactate_Threshold]]、[[05_Exercise_Physiology/Lactate_Shuttle]] 等不一致或不存在頁的引用，改為列入 Pages That Should Be Created or Updated 並建議下輪 audit；未自動建立 stub。
+- 發現衝突：
+  - 「anaerobic threshold 機制（dysoxia / Pasteur effect）成立」不成立；本文以四線證據駁斥。
+  - 「lactate 為廢棄產物 / fatigue 主因」不成立；本文以 lactate shuttle theory 與多組織同時 produce/consume 取代。
+  - 「lactate 上升 = tissue dysoxia」在 sepsis、TBI、cancer 等情境不成立；本文支持以 Ra/Rd 失衡與 organ-level metabolic state 解釋。
+  - 「AT2 / RCT / RCP / MLSS / lactate turnpoint / individual anaerobic threshold / aerobic-anaerobic threshold / fatigue threshold 是不同 entity」不成立；本文主張同一 CP/CS 概念的不同名稱。
+  - 「RCP 與 deoxy-[Hb+Mb] break point 是 CP 的 valid surrogate」不成立（Broxterman 2018 立場為本文採納）。
+- 待追蹤問題：
+  - 5 個 CPET 概念頁需在下輪 audit alignment：`Gas_Exchange_Threshold.md`、`Exercise_Intensity_Domains.md`、`Critical_Power.md`、`VO2_Kinetics.md`、`CPET_Protocol_Design.md`；可能還包括 `V_Slope_Method.md`、`Lactate_Threshold.md`、`Anaerobic_Threshold_概念史.md`、`Training_Prescription_by_CP.md`。
+  - 各概念頁是否需補 Fact / Inference / Assumption / Uncertainty 分層，留待下輪逐頁處理。
+  - 是否新建獨立 `Lactate_Shuttle` 概念頁，待後續單獨 lactate metabolism 來源（如 Ferguson 2018、Brooks 2018）入庫後再決定。
+  - LT–mortality 機制 mediator 仍是 open question；未來 ingest frailty / metabolic flexibility 來源可回填。
+  - GET cutoffs 在 pediatric / non-cardiopulmonary disease cohort 的外推性需另來源補。
+- 待處理來源：
+  - 概念頁 audit 視為下一輪工作項目；外部 raw 待處理來源沿用前一輪 stroke UpToDate 系列清單，未變動。
+

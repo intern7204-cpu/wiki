@@ -1,13 +1,15 @@
 ---
 title: Early Intervention 總論
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-05-04
 type: concept
 domain: [pediatric, development, services]
-tags: [early_intervention, IDEA_Part_C, IFSP, natural_environment, coaching, family_centered_care]
+tags: [early_intervention, IDEA_Part_C, IFSP, natural_environment, coaching, family_centered_care, HCP_ECD]
 sources:
   - 09_來源摘要/Early_Intervention.md
   - 09_來源摘要/Developmental_Surveillance_and_Screening.md
+  - 09_來源摘要/WHO_2020_improving_early_childhood_development_guideline.md
+  - 09_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -15,6 +17,8 @@ contested: true
 contradictions:
   - Early intervention is not equivalent to isolated clinic-based therapy sessions.
   - Lack of eligibility for a public EI program does not mean the child's developmental needs are trivial.
+  - HCP-ECD interventions can support early development through health-system contacts, but they are not a substitute for a full EI service system.
+  - WHO first-3-years ECD recommendations support health-sector developmental inputs, not replacement of EI eligibility, IFSP, or specialist developmental evaluation.
 ---
 
 # Early Intervention 總論
@@ -54,6 +58,8 @@ Early intervention (EI) 是 birth to 2 years 的早期發展支持系統，核�
   - red flag
   - hearing / vision status
   - family context
+- 對還未進入正式 EI、但有 adversity exposure 或 developmental risk 的 infant，[[HCP_ECD_Interventions_由健康照護者交付的早期發展介入]] 可作為 bridge support；若已有明確 delay、red flag 或 domain-specific impairment，仍需正式 EI / specialist referral。
+- [[WHO_ECD_Guideline_0至3歲Nurturing_Care建議]] 支持在生命前三年的 routine health / nutrition contact 中提供 responsive caregiving、early learning、nutrition integration 與 maternal mental health support；這是 developmental support infrastructure，不等同 IFSP 或 multidisciplinary EI system。
 
 ## 臨床表現
 
@@ -62,6 +68,8 @@ Early intervention (EI) 是 birth to 2 years 的早期發展支持系統，核�
 - 幼兒發展高度依賴重複、情境化、日常化的練習。
 - 早期支持可改善 child participation，也提升 caregiver competence。
 - 對 [[晚語兒_Late_Talker]]、[[兒童聽覺障礙與Deafness]]、[[發展遲緩與Intellectual_Disability]] 都是核心連結點。
+- HCP-ECD systematic review 顯示，primary-level healthcare providers 交付的 ECD interventions 可能改善 infancy 的 cognitive / motor outcomes；這支持 health-system contact 可成為 early developmental support 的入口，但不等於完整 EI eligibility / IFSP / therapy system。
+- WHO 2020 guideline 提供更上位的政策與服務方向：第一線健康與營養服務不應只做 biomedical follow-up，而應納入 caregiver-child interaction、early learning 與 caregiver mental health support。
 
 ## 評估方式
 
@@ -100,6 +108,8 @@ Early intervention (EI) 是 birth to 2 years 的早期發展支持系統，核�
 - eligibility、funding、service intensity 與品質在不同制度間差異很大。
 - broad access 不一定等於高品質服務。
 - 美國 Part C 架構需與本地服務系統分開理解。
+- HCP-ECD 的證據主要支持 cognition / motor / home environment，不能外推成 language disorder、EF、adaptive function 或 caregiver mental health treatment。
+- WHO 2020 的 strong recommendations 不代表已有 developmental delay 的 child 可以不做 formal evaluation 或 EI referral。
 
 ### frontmatter contradictions
 
@@ -125,6 +135,8 @@ Early intervention (EI) 是 birth to 2 years 的早期發展支持系統，核�
 
 - [[09_來源摘要/Early_Intervention]]
 - [[09_來源摘要/Developmental_Surveillance_and_Screening]]
+- [[09_來源摘要/WHO_2020_improving_early_childhood_development_guideline]]
+- [[09_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes]]
 
 ### 證據標記
 
@@ -141,4 +153,6 @@ Early intervention (EI) 是 birth to 2 years 的早期發展支持系統，核�
 - [[兒童聽覺障礙與Deafness]]
 - [[發展遲緩與Intellectual_Disability]]
 - [[托育與Early_Care_and_Education]]
+- [[HCP_ECD_Interventions_由健康照護者交付的早期發展介入]]
+- [[WHO_ECD_Guideline_0至3歲Nurturing_Care建議]]
 - [[../09_來源摘要/Early_Intervention]]

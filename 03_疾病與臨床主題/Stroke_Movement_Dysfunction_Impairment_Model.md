@@ -91,5 +91,7 @@ Stroke lesion
 
 - [[Poststroke_Spasticity與Hypertonicity區分]]
 - [[Poststroke_Movement_Reeducation與Compensation]]
+- [[Poststroke_Aphasia_預後與恢復]]
+- [[Aphasia_語言治療_劑量與技術]]
 - [[中風復健總論]]
 - [[ICF_功能框架]]

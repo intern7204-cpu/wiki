@@ -99,6 +99,8 @@ Task demand exceeds impaired-side capacity
 
 - [[Stroke_Movement_Dysfunction_Impairment_Model]]
 - [[Poststroke_Spasticity與Hypertonicity區分]]
+- [[Poststroke_Aphasia_預後與恢復]]
+- [[Aphasia_語言治療_劑量與技術]]
 - [[中風復健總論]]
 - [[治療性運動處方]]
 - [[偏癱肩痛]]

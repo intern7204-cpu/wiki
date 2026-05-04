@@ -1,7 +1,7 @@
 ---
 title: Critical Power（CP）/ Critical Speed（CS）
 created: 2026-04-22
-updated: 2026-04-25
+updated: 2026-05-04
 type: concept
 domain: [CPET, exercise_physiology]
 tags: [critical_power, critical_speed, W_prime, W_BAL, MLSS, exercise_intensity, intermittent_exercise, FTP]
@@ -10,6 +10,7 @@ sources:
   - 09_來源摘要/Jones_Vanhatalo_2017_critical_power_concept.md
   - 09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance.md
   - 09_來源摘要/Goulding_2021_VO2_kinetics_exercise_tolerance.md
+  - 09_來源摘要/Goulding_Marwood_2023_critical_power_determinants.md
   - 09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training.md
   - 09_來源摘要/Triska_2017_CP_reliability.md
   - 09_來源摘要/Wright_2017_3min_allout_CP_validity.md
@@ -108,6 +109,15 @@ Critical power 是 power-duration 關係的**漸近線**：它代表可持續的
 - Goulding 2021 的觀點是：CP 反映系統是否能把 working muscle 維持在 **critical metabolite threshold** 以下。
 - [[../05_Exercise_Physiology/PCr_Resynthesis]] 補充：recovery 期的 PCr kinetics 可作為 oxidative ATP synthesis capacity 的讀出。
 
+### CP 的生理決定因子
+
+- Goulding & Marwood 2023 進一步把 CP 放回 oxygen transport and utilization cascade。
+- CP 受 convective O2 delivery、diffusive O2 delivery 與 muscle O2 utilization kinetics 共同影響。
+- Hypoxia 可降低 CP，hyperoxia 可提高 CP；這表示 CP 對 O2 availability 敏感。
+- Diffusive capacity、capillarity、fiber-type composition、relative exercising muscle mass 與 motor unit recruitment pattern 也會改變 whole-body CP。
+- 因此 CP 是 integrated aerobic function 的 emergent threshold，不是單一 lactate、PCr、Pi 或 anaerobic tank。
+- 細節已拆到 [[Critical_Power_生理決定因子]]。
+
 ### W' reconstitution：主題另立頁
 
 - recovery 只有在 power 下降到 `CP` 以下時才會真正發生，而且受 recovery power、duration、depletion pattern 與個體差異共同影響。
@@ -175,6 +185,7 @@ Critical power 是 power-duration 關係的**漸近線**：它代表可持續的
 - [[09_來源摘要/Jones_Vanhatalo_2017_critical_power_concept]]
 - [[09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
 - [[09_來源摘要/Goulding_2021_VO2_kinetics_exercise_tolerance]]
+- [[09_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]
 - [[09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
 - [[09_來源摘要/Kemp_1993_PCr_resynthesis]]
 - [[09_來源摘要/Triska_2017_CP_reliability]]
@@ -195,6 +206,7 @@ Critical power 是 power-duration 關係的**漸近線**：它代表可持續的
 ### 相關頁面
 
 - [[Training_Prescription_by_CP]]
+- [[Critical_Power_生理決定因子]]
 - [[CP_Wprime_Interval_Design]]
 - [[Wprime_Balance_Model]]
 - [[CP_Test_Reliability]]
@@ -208,6 +220,7 @@ Critical power 是 power-duration 關係的**漸近線**：它代表可持續的
 - [[../09_來源摘要/Jones_Vanhatalo_2017_critical_power_concept]]
 - [[../09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
 - [[../09_來源摘要/Goulding_2021_VO2_kinetics_exercise_tolerance]]
+- [[../09_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]
 - [[../09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
 - [[../09_來源摘要/Kemp_1993_PCr_resynthesis]]
 - [[../09_來源摘要/Skiba_Clarke_Wprime_balance_model]]

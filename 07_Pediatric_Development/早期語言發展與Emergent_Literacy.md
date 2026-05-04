@@ -1,7 +1,7 @@
 ---
 title: 早期語言發展與 Emergent Literacy
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-05-04
 type: concept
 domain: [pediatric, language, literacy]
 tags: [language_development, emergent_literacy, shared_reading, bilingualism, caregiver_coaching]
@@ -14,6 +14,7 @@ sources:
   - 09_來源摘要/The_Influence_of_Digital_Media_on_Children_and_Families.md
   - 09_來源摘要/Language_Development_and_Communication_Disorders.md
   - 09_來源摘要/Language_and_Speech_Disorders.md
+  - 09_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -21,6 +22,7 @@ contested: true
 contradictions:
   - Literacy does not begin only when formal schooling starts.
   - More books or more screen exposure is not the same thing as higher-quality language interaction.
+  - Responsive parenting support can improve language outcomes, but it does not replace formal evaluation when language delay red flags are present.
 ---
 
 # 早期語言發展與 Emergent Literacy
@@ -56,6 +58,7 @@ contradictions:
   - expanding child utterance
   - 讓 child 參與而不是被動聽
 - language nutrition 也不只是總字數；warmth、responsiveness 與 reciprocal turn taking 同樣重要。
+- RCT meta-analysis 顯示 positive parenting interventions 對 6 歲以下 child language 有顯著 pooled benefit；效果在較年幼 children 中較大，但不能被硬解讀成精確 sensitive period。
 
 ### limited-evidence 補充：嬰兒溝通與遊戲 cue
 
@@ -77,6 +80,7 @@ contradictions:
 
 - language-rich environment 有助 school readiness、social-emotional development 與 later academic success。
 - 對有風險 child，這些原則也是 [[晚語兒_Late_Talker]] 與 [[Early_Intervention_總論]] 的實務基礎。
+- 若已經有 late talking、hearing concern、regression 或 broader developmental concern，responsive parenting 是上游支持，不是 formal audiology / SLP assessment 的替代品。
 
 ## 評估方式
 
@@ -99,6 +103,7 @@ contradictions:
 - literacy environment 研究很多來自 observational data。
 - caregiver manual 類資料可用於教學，但不應單獨當成 intervention efficacy evidence。
 - 文化、語言與家庭資源會改變實作方式。
+- Positive parenting 對 language 的效果不能外推成對所有 cognition domains 都有效；同一來源對 EF 與 pre-academics 未顯示明確 direct effect。
 
 ### frontmatter contradictions
 
@@ -124,6 +129,7 @@ contradictions:
 
 - [[09_來源摘要/Emergent_literacy_including_language_development]]
 - [[09_來源摘要/Encouraging_infant_communication_and_play]]
+- [[09_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition]]
 
 ### 證據標記
 
@@ -136,11 +142,13 @@ contradictions:
 ### 相關頁面
 
 - [[晚語兒_Late_Talker]]
+- [[Infant_Cue_Based_Interaction_日常Routines與Communication_Bundles]]
 - [[兒童語言發展與Communication_Disorders]]
 - [[Early_Intervention_總論]]
 - [[托育與Early_Care_and_Education]]
 - [[數位媒體與兒少發展]]
 - [[正向教養與家庭支持]]
+- [[Positive_Parenting_Interventions_對Early_Cognition與Language]]
 - [[發展監測與篩檢]]
 - [[../09_來源摘要/Emergent_literacy_including_language_development]]
 - [[../09_來源摘要/Encouraging_infant_communication_and_play]]

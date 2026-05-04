@@ -1,7 +1,7 @@
 ---
 title: Skeletal Muscle Energy Metabolism during Exercise
 created: 2026-04-22
-updated: 2026-04-25
+updated: 2026-05-04
 type: concept
 domain: [exercise_physiology]
 tags: [muscle_metabolism, PCr, glycolysis, oxidative_phosphorylation, substrate_utilization, training_adaptation, fiber_type]
@@ -12,6 +12,8 @@ sources:
   - 09_來源摘要/Kemp_1993_PCr_resynthesis.md
   - 09_來源摘要/Oliveira_2024_polarized_training_meta_analysis.md
   - 09_來源摘要/Severinsen_Pedersen_2020_myokines_muscle_organ_crosstalk.md
+  - 09_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses.md
+  - 09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -62,6 +64,17 @@ contradictions: []
 - [[Muscle_Fiber_Types]] 已整理：MHC、CSA、specific force、oxidative phenotype 是不同軸線。
 - 因此像「type 2 fiber 所以一定 glycolytic」這種說法，在當代文獻中已太粗糙。
 
+### Smith 2023：metabolic flexibility 是 fiber phenotype、subcellular energy depots 與 mitochondrial network 的整合
+
+- Free ATP 約 20-25 mmol/kg dry mass，只足以支撐 maximal exercise 小於 2 秒；後續活動必須靠 PCr、glycolysis 與 oxidative metabolism 接續再生 ATP。
+- ATP resynthesis 速度不是同一件事：phosphagen system / glycolysis 最快，其次 carbohydrate oxidation，最後是 NEFA oxidation。
+- Higher power outputs 會增加 motor unit recruitment 與 type II fiber recruitment；type II fibers 的 ATP consumption per unit time 約為 type I fibers 的 2.5-4 倍。
+- Exercise onset 前 30-60 秒常出現 oxidative phosphorylation lag；即使 blood flow / oxygen 足夠，仍需要 oxygen-independent ATP resynthesis bridge。
+- 高強度時 glycolytic flux 可耗用 free carnitine pool，限制 long-chain fatty acid import，使 NEFA oxidation contribution 下降。
+- Glycogen、IMCL 與 mitochondria 不是只有「總量」問題；subcellular location、turnover、與 mitochondrial / myofibrillar networks 的接觸同樣影響運動代謝。
+- Training 會重塑 mitochondrial respiration、capillarization、LDHB / lactate handling、substrate use 與 hybrid fiber distribution，使同一 workload 下的代謝成本與疲勞模式改變。
+- 這部分的單一概念頁見 [[Skeletal_Muscle_Metabolic_Flexibility與Exercise_Adaptation]]。
+
 ### PCr recovery 是重要的 in vivo 代謝視窗
 
 - [[PCr_Resynthesis]] 提供了氧化系統恢復速度的直接線索。
@@ -76,6 +89,16 @@ contradictions: []
   - [[../04_CPET/Critical_Power]] 上升
   - [[../04_CPET/VO2_Kinetics]] 變快
   - [[../04_CPET/VO2_Slow_Component]] 下降
+
+### Acute exercise molecular response 是訓練適應的工作模型
+
+- 每一次 exercise session 都會造成 neuronal、mechanical、metabolic、hormonal stimuli。
+- 這些 stimuli 透過 Ca2+、ATP / ADP / Pi、redox state、glycogen availability、pH、PO2、RONS、temperature、mechanical load / tension 等 signals 進入 signal transduction。
+- Downstream regulation 包含 transcription、epigenetic regulation、mRNA handling、protein translation 與 protein degradation。
+- 反覆、漸進且可恢復的 exercise stimuli 才可能累積成 protein abundance / activity 改變，最後形成 mitochondrial、substrate handling、hypertrophy、strength 或 fatigue resistance 等 phenotype。
+- 這條 acute response -> chronic adaptation 的連結是合理工作模型，但不是可由單次 mRNA、phosphorylation 或 MPS 指標直接推導長期結果的線性公式。
+- Training status 會改變 molecular response；未訓練者的 first bout response 可能主要反映 generalized stress、damage 或 inflammatory response，而非真正的長期 specificity。
+- 這部分見 [[Acute_Exercise_Molecular_Response與Skeletal_Muscle_Adaptation]]。
 
 ### 運動適應不只靠底物，還包括訊號傳遞
 
@@ -137,6 +160,9 @@ contradictions: []
 - [[09_來源摘要/Blemker_2023_fiber_type_traps]]
 - [[09_來源摘要/Kemp_1993_PCr_resynthesis]]
 - [[09_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]
+- [[09_來源摘要/Severinsen_Pedersen_2020_myokines_muscle_organ_crosstalk]]
+- [[09_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses]]
+- [[09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]
 
 ### 證據標記
 
@@ -150,8 +176,10 @@ contradictions: []
 
 - [[Lactate_Shuttle]]
 - [[Muscle_Fiber_Types]]
+- [[Skeletal_Muscle_Metabolic_Flexibility與Exercise_Adaptation]]
 - [[PCr_Resynthesis]]
 - [[Training_Intensity_Distribution]]
+- [[Acute_Exercise_Molecular_Response與Skeletal_Muscle_Adaptation]]
 - [[../04_CPET/VO2_Kinetics]]
 - [[../04_CPET/VO2_Slow_Component]]
 - [[../04_CPET/Critical_Power]]
@@ -161,3 +189,5 @@ contradictions: []
 - [[../09_來源摘要/Blemker_2023_fiber_type_traps]]
 - [[../09_來源摘要/Kemp_1993_PCr_resynthesis]]
 - [[../09_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]
+- [[../09_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses]]
+- [[../09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]

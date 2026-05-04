@@ -1,7 +1,7 @@
 ---
 title: Executive Function 總論
 created: 2026-04-24
-updated: 2026-04-25
+updated: 2026-05-04
 type: concept
 domain: [pediatric, neurodevelopment, cognition]
 tags: [executive_function, working_memory, inhibition, planning, self_monitoring]
@@ -9,6 +9,9 @@ sources:
   - 09_來源摘要/Neurodevelopmental_and_Executive_Function_and_Dysfunction.md
   - 09_來源摘要/Cognitive_Control.md
   - 09_來源摘要/How_Early_Experiences_Shape_the_Development_of_Executive_Function.md
+  - 09_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition.md
+  - 09_來源摘要/Scionti_2020_preschool_EF_cognitive_training.md
+  - 09_來源摘要/Muir_2023_preschool_SR_EF_interventions.md
 source_tier: 1
 evidence_level: emerging
 confidence: high
@@ -18,6 +21,9 @@ contradictions:
   - Cognitive control and executive function overlap, but they are not perfectly synonymous.
   - Medication may help selected attention-related symptoms but does not correct the full executive-function profile.
   - Unsupported cognitive or sensory therapies should not be framed as standard treatment for executive dysfunction.
+  - Positive parenting interventions should not be presented as proven direct EF treatment based on cognition/language findings alone.
+  - Preschool EF cognitive training may improve EF task outcomes, but this does not prove broad learning or behavior transfer.
+  - Preschool SR/EF interventions should not be reduced to one universally superior programme label.
 ---
 
 # Executive Function 總論
@@ -59,6 +65,9 @@ Executive Function (EF) 是 **organizing, regulating, monitoring, and flexibly d
 - preschool 是快速建立期。
 - school age 到 adolescence 持續成熟。
 - early experience、stress 與 adult scaffolding 都會改變 skill expression。
+- Positive parenting interventions may improve early mental abilities and language, but one RCT meta-analysis did not find a significant direct pooled effect on EF outcomes.
+- Preschool EF cognitive training meta-analysis 顯示 EF task outcomes 可改善，near / far EF transfer 皆可顯著；但同一來源未支持 learning / behavior non-EF outcomes 的明確改善。
+- Preschool SR/EF systematic review 顯示 preschool classroom interventions 可產生急性 SR/EF gains，但 no single approach is clearly superior；cognitive challenge、movement、feedback、interventionist expertise、teacher PD / fidelity 與 context fit 會改變效果。
 
 ## 臨床或研究上的重要性
 
@@ -100,6 +109,13 @@ Executive Function (EF) 是 **organizing, regulating, monitoring, and flexibly d
 - 若合併 ADHD 或 attention-related symptom，藥物可改善某些部分
 - 但不能把藥物當成完整 EF intervention
 
+### cognitive training 的證據邊界
+
+- Preschool EF cognitive training 可被視為 child-facing EF task practice。
+- 目前較能支持的是 trained / untrained EF task performance，不是 broad school readiness、behavior 或 ADHD treatment。
+- Broader preschool SR/EF intervention 需要看 design：是否有 incremental cognitive challenge、movement / engagement、feedback、small-group fit、teacher training、fidelity 與 sustainability。
+- 若主要 complaint 是日常功能，仍要加上 routine、external cue、school collaboration、caregiver coaching 與 broader differential diagnosis。
+
 ### 實作頁
 
 - 具體 home / school / adolescent support，見 [[Executive_Function_支持策略]]。
@@ -115,6 +131,7 @@ Executive Function (EF) 是 **organizing, regulating, monitoring, and flexibly d
 
 - EF 問題本身是跨診斷現象，必須回到 component、task demand 與功能情境。
 - 最有效的介入通常不是單一 app，而是 routine、school support、behavioral scaffold 與跨場域整合。
+- General positive parenting support 可以改善互動環境，但若主要 complaint 是 EF，仍需 explicit scaffolding、task design、school collaboration 與 differential diagnosis。
 
 ### 結論
 
@@ -128,6 +145,9 @@ Executive Function (EF) 是 **organizing, regulating, monitoring, and flexibly d
 - Cognitive control and executive function overlap, but they are not perfectly synonymous.
 - Medication may help selected attention-related symptoms but does not correct the full executive-function profile.
 - Unsupported cognitive or sensory therapies should not be framed as standard treatment for executive dysfunction.
+- Positive parenting interventions should not be presented as proven direct EF treatment based on cognition/language findings alone.
+- Preschool EF cognitive training may improve EF task outcomes, but this does not prove broad learning or behavior transfer.
+- Preschool SR/EF interventions should not be reduced to one universally superior programme label.
 
 ## 理解缺口
 
@@ -147,6 +167,10 @@ Executive Function (EF) 是 **organizing, regulating, monitoring, and flexibly d
 - [[09_來源摘要/Neurodevelopmental_and_Executive_Function_and_Dysfunction]]
 - [[09_來源摘要/Cognitive_Control]]
 - [[09_來源摘要/How_Early_Experiences_Shape_the_Development_of_Executive_Function]]
+- [[09_來源摘要/Why_Sleep_Matters_in_Early_Childhood_Development]]
+- [[09_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition]]
+- [[09_來源摘要/Scionti_2020_preschool_EF_cognitive_training]]
+- [[09_來源摘要/Muir_2023_preschool_SR_EF_interventions]]
 
 ### 證據標記
 
@@ -157,6 +181,10 @@ Executive Function (EF) 是 **organizing, regulating, monitoring, and flexibly d
 ## 相關頁面
 
 - [[Executive_Function_支持策略]]
+- [[Sleep_作為Early_Childhood_Developmental_Infrastructure]]
+- [[Preschool_EF_Cognitive_Training與Transfer]]
+- [[Preschool_SR_EF_Intervention_Design特徵]]
+- [[Positive_Parenting_Interventions_對Early_Cognition與Language]]
 - [[幼兒與學齡前期發展]]
 - [[學齡期發展]]
 - [[ADHD_睡眠與常見共病]]

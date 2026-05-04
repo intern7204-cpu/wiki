@@ -1,13 +1,14 @@
 ---
 title: Myokines 與 Muscle-Organ Crosstalk
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-04
 type: concept
 domain: [exercise_physiology, rehabilitation, systemic_adaptation]
 tags: [myokines, exerkines, IL6, exercise_as_medicine, anti_inflammatory, muscle_organ_crosstalk]
 sources:
   - 09_來源摘要/Severinsen_Pedersen_2020_myokines_muscle_organ_crosstalk.md
   - 09_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism.md
+  - 09_來源摘要/Chow_2022_exerkines_health_resilience_disease.md
 source_tier: 1
 evidence_level: emerging
 confidence: medium
@@ -15,6 +16,7 @@ contested: true
 contradictions:
   - Skeletal muscle clearly functions as a secretory organ, but most proposed myokine pathways remain unevenly validated across humans, rodents, and cell systems.
   - Exercise benefits should not be reduced to one magic molecule; myokines are one layer within a broader systems response.
+  - Myokines are a subset of exerkines; exercise-induced signalling also comes from liver, adipose tissue, BAT, heart, immune cells, nervous system, bone, and extracellular vesicles.
 ---
 
 # Myokines 與 Muscle-Organ Crosstalk
@@ -47,6 +49,7 @@ Myokines 是運動時由 skeletal muscle 釋放的 signaling molecules；它們�
 所以：
 - 所有 myokines 都可算 exercise signals
 - 但不是所有 exercise signals 都是 myokines
+- 2022 exerkine review 進一步把這個概念擴大成多器官訊號：cardiokines、hepatokines、adipokines、batokines、neurokines、extracellular-vesicle cargo 都可能參與 exercise adaptation。
 
 ### 目前 human evidence 最強的是 IL-6
 
@@ -111,17 +114,22 @@ Myokines 是運動時由 skeletal muscle 釋放的 signaling molecules；它們�
   - muscle-as-secretory-organ：可接受
   - IL-6 為最強 human-supported myokine：可接受
   - 其他多數 myokines：屬 emerging / mixed / preclinical-heavy
+- 若研究使用 exerkine language，還需檢查 acute vs chronic exercise、sampling timing、fed-fasting state、circadian timing、exercise mode / intensity 與 human vs animal evidence。
 
 ## 限制與爭議點
 
 - 很多資料來自 rodent 或 cell model。
 - 同一分子在不同情境可能表現出不同方向的作用。
 - exercise 效益是 systems response，不能壓縮成單一「神奇分子」。
+- acute exerkine response 不一定等於 chronic training response；IL-6、BDNF、irisin、musclin 等都可能出現方向或解讀不一致。
+- `exercise in a pill` 目前仍是 translational aspiration，不是臨床既成事實。
 
 ## 相關頁面
 
 - [[Skeletal_Muscle_Energy_Metabolism]]
 - [[Lactate_Shuttle]]
+- [[Exerkines_運動誘發多器官訊號分子]]
 - [[運動時氧輸送與換氣]]
 - [[../02_方法學/治療性運動處方]]
 - [[../09_來源摘要/Severinsen_Pedersen_2020_myokines_muscle_organ_crosstalk]]
+- [[../09_來源摘要/Chow_2022_exerkines_health_resilience_disease]]

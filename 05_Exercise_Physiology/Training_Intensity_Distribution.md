@@ -1,13 +1,14 @@
 ---
 title: Training Intensity Distribution（TID）
 created: 2026-04-23
-updated: 2026-04-24
+updated: 2026-05-04
 type: concept
 domain: [exercise_physiology, training]
 tags: [training_intensity_distribution, polarized, pyramidal, threshold, HIIT, endurance_training]
 sources:
   - 09_來源摘要/Oliveira_2024_polarized_training_meta_analysis.md
   - 09_來源摘要/Poole_2020_anaerobic_threshold.md
+  - 09_來源摘要/Furrer_2023_molecular_athlete.md
 source_tier: 1
 evidence_level: emerging
 confidence: medium
@@ -86,6 +87,13 @@ Training intensity distribution（TID）是把總訓練量分配到不同生理�
 - 臨床族群優先順序通常是 **安全性、可依從性、恢復能力、症狀容忍度**，不是追求某一 TID 標籤。
 - 因此應先用 [[../04_CPET/Lactate_Threshold]]、[[../04_CPET/Gas_Exchange_Threshold]]、[[../04_CPET/Critical_Power]] 定位個體邊界，再決定分布。
 
+### Furrer 2023：TID 必須放回 periodization 與 recovery
+
+- TID 只是 training design 的其中一層；來源強調 adaptation 還取決於 progressive overload、specificity、reversibility 與 individuality。
+- Elite / performance training 應以 microcycle、mesocycle、macrocycle 配合 nutrition、recovery、psychology 與 skill training，而不是只選 POL、PYR 或 THR 標籤。
+- 強度區間應回到 threshold、critical power 或 validated physiological outcomes；沒有先定 domain，TID 名稱沒有機制意義。
+- 來源提醒多數 training intervention studies 樣本小且偏向 young male recreational / untrained participants，因此不可把 TID trend 直接外推到 women、elite athletes 或 clinical rehabilitation populations。
+
 ## 評估方式
 
 - 目前頁面尚未整理出 History、Physical examination、Scale / test、Imaging / lab 的實際用法。
@@ -127,6 +135,7 @@ Training intensity distribution（TID）是把總訓練量分配到不同生理�
 
 - [[09_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]
 - [[09_來源摘要/Poole_2020_anaerobic_threshold]]
+- [[09_來源摘要/Furrer_2023_molecular_athlete]]
 
 ### 證據標記
 
@@ -145,3 +154,4 @@ Training intensity distribution（TID）是把總訓練量分配到不同生理�
 - [[../04_CPET/Critical_Power]]
 - [[../04_CPET/Training_Prescription_by_CP]]
 - [[../09_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]
+- [[../09_來源摘要/Furrer_2023_molecular_athlete]]

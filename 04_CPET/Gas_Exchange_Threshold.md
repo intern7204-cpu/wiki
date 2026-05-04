@@ -12,6 +12,8 @@ sources:
   - 09_來源摘要/Hirakoba_1996_excess_CO2_lactate_prediction.md
   - 09_來源摘要/Yunoki_1999_excess_CO2_kinetics.md
   - 09_來源摘要/Stringer_Wasserman_Casaburi_1995_VCO2_VO2_heavy_constant_work.md
+  - 09_來源摘要/Juarez_2024_CPET_in_heart_failure.md
+  - 09_來源摘要/Pezzuto_Agostoni_2023_CPET_pulmonary_hypertension.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -106,6 +108,23 @@ GET 是在 ramp/incremental CPET 中，**V̇CO₂ 相對 V̇O₂ 出現非線性
 - GET <11 mL/kg/min → 死亡風險 ↑ ~4×（Gitt 2002）。
 - GET <8.5 或 indeterminable → 再升高（Agostoni 2013）。
 
+### Juarez 2024：HF 中 VO2 at AT 是 prognostic marker，但不是 specific diagnosis
+
+- Juarez et al. 2024 使用 `anaerobic threshold` 表述；在本 wiki 中應優先對應到 [[Gas_Exchange_Threshold]] / VO2 at AT 的 operational interpretation，而不要把它解讀成「肌肉缺氧點」。
+- 來源描述：peak VO2 >=20 mL/kg/min、VE/VCO2 slope <30、absence of EOV、VO2 at AT >11 mL/kg/min 可形成較佳 prognosis pattern。
+- 來源也描述：peak VO2 <10 mL/kg/min、VE/VCO2 slope >=36、presence of EOV、VO2 at AT <11 mL/kg/min 可形成 very poor prognosis pattern。
+- 若未達 maximal effort，oxygen uptake efficiency slope <1.4 與 VO2 at AT <9 mL/kg/min 可提示 poor prognosis。
+- VO2 at AT 不具 disease specificity；lung disease、anemia、myopathies、general deconditioning 皆可使 threshold 受影響。
+
+### Pezzuto & Agostoni 2023：PH 中 AT 周邊的 VE/VCO2 / PETCO2 pattern 比單一 breakpoint 更重要
+
+- PH / PAH 來源使用 `anaerobic threshold` 表述；本 wiki 解讀時仍應保留 GET / AT 的 operational caveat。
+- PAH 中 VE/VCO2 與 VE/VO2 可在 ramp 初期不呈正常下降；moderate PAH 可 flat，severe PAH 可上升。
+- VE/VCO2 slope 可能 steep 到難以辨識 respiratory compensation point 的 normal upward deflection。
+- High VE/VCO2 plus low PETCO2 at AT increases likelihood of pulmonary vascular disease；both normal makes PH unlikely in the cited framework。
+- 來源引用 ESC/ERS risk anchors：peak VO2 >15 mL/kg/min and VE/VCO2 slope <36 = low risk；peak VO2 11-15 and VE/VCO2 slope 36-44 = intermediate risk；peak VO2 <11 and VE/VCO2 slope >44 = high risk。
+- 這些 cutoffs 屬 PH-specific risk stratification，不可直接套用到 HF、COPD 或一般 exercise prescription。
+
 ### 5. 其他響應性驗證
 - Cardiac resynchronization therapy → GET 上升（Auricchio 2002）。
 - Endurance training in chronic HF / lung disease → GET 上升（Casaburi 1991、Kiilavuori 1996）。
@@ -158,6 +177,8 @@ GET 是在 ramp/incremental CPET 中，**V̇CO₂ 相對 V̇O₂ 出現非線性
 - [[09_來源摘要/Hirakoba_1996_excess_CO2_lactate_prediction]]
 - [[09_來源摘要/Yunoki_1999_excess_CO2_kinetics]]
 - [[09_來源摘要/Stringer_Wasserman_Casaburi_1995_VCO2_VO2_heavy_constant_work]]
+- [[09_來源摘要/Juarez_2024_CPET_in_heart_failure]]
+- [[09_來源摘要/Pezzuto_Agostoni_2023_CPET_pulmonary_hypertension]]
 
 ### 證據標記
 
@@ -184,3 +205,5 @@ GET 是在 ramp/incremental CPET 中，**V̇CO₂ 相對 V̇O₂ 出現非線性
 - [[VO2_Slow_Component]]
 - [[CPET_Protocol_Design]]
 - [[VO2max_Measurement]]
+- [[CPET_in_Heart_Failure]]
+- [[CPET_in_Pulmonary_Hypertension]]

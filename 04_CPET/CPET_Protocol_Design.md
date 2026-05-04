@@ -15,6 +15,7 @@ sources:
   - 09_來源摘要/Pettitt_Jamnick_2017_VO2max_verification_commentary.md
   - 09_來源摘要/Lambrick_2009_RPE13_VO2max_prediction.md
   - 09_來源摘要/Wright_2017_3min_allout_CP_validity.md
+  - 09_來源摘要/Juarez_2024_CPET_in_heart_failure.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -147,6 +148,15 @@ CPET / GXT protocol 設計的重點，不是套固定模板，而是依測試目
 - **Athletes**：若還要處理 severe-domain prescription，可考慮把 CP/W' 測試納入同次或後續 session。
 - **Athletes / performance diagnostics**：若同時想看 PPO、LT/VT、VO2max，應先決定哪個變項是主 endpoint，因為單一 protocol 未必能同時最佳化三者。
 
+### Juarez 2024：Heart failure 的 CPET protocol 與報告結構
+
+- HF CPET report 可先分成四組：metabolics（VO2、VCO2、RER）、cardiac（HR、BP）、ventilation（VE、respiratory rate、dead space ventilation）、gas exchange（FiO2、SpO2、pH、PaCO2、PaO2、A-a O2 difference、lactate）。
+- Clinical HF CPET 常用 incremental / ramp protocol；來源列出常見 ramp grades 包含 5、7、10、15 W/min，應依 expected exercise tolerance 選擇。
+- 來源建議 ramp test 通常瞄準 8-12 min，也提到 6-12 min 可作臨床有效資訊的實務範圍；這應和本頁既有原則合併理解：duration 是設計目標，不是 validity criterion。
+- Cycle ergometer 較能提供 linear workload；treadmill 較貼近日常步行，但不容易取得線性 work rate。
+- HF interpretation 不能只看 protocol 是否完成；需同步記錄 symptom limitation、ECG、BP、SpO2、RER、VE/VCO2 slope、VO2 at AT、O2 pulse 與是否有 exercise oscillatory ventilation。
+- HF patients 常有 pulmonary disease、anemia、sleep apnea、skeletal muscle weakness / wasting 或 deconditioning；protocol 設計與終止原因需能保留這些 differential clues。
+
 ## 臨床表現
 
 ### 常見錯誤
@@ -200,6 +210,7 @@ CPET / GXT protocol 設計的重點，不是套固定模板，而是依測試目
 - [[09_來源摘要/Pettitt_Jamnick_2017_VO2max_verification_commentary]]
 - [[09_來源摘要/Lambrick_2009_RPE13_VO2max_prediction]]
 - [[09_來源摘要/Wright_2017_3min_allout_CP_validity]]
+- [[09_來源摘要/Juarez_2024_CPET_in_heart_failure]]
 
 ### 證據標記
 
@@ -218,9 +229,11 @@ CPET / GXT protocol 設計的重點，不是套固定模板，而是依測試目
 - [[CP_Test_Reliability]]
 - [[Training_Prescription_by_CP]]
 - [[Exercise_Intensity_Domains]]
+- [[CPET_in_Heart_Failure]]
 - [[../09_來源摘要/Beltz_2016_GXT_protocols]]
 - [[../09_來源摘要/Bentley_Newell_Bishop_2007_incremental_exercise_test_design]]
 - [[../09_來源摘要/Midgley_2008_VO2max_test_duration]]
 - [[../09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
 - [[../09_來源摘要/Poole_Jones_2017_VO2max_verification]]
 - [[../09_來源摘要/Lambrick_2009_RPE13_VO2max_prediction]]
+- [[../09_來源摘要/Juarez_2024_CPET_in_heart_failure]]

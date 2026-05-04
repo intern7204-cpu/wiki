@@ -1,13 +1,14 @@
 ---
 title: Exercise Intensity Domains（運動強度三域）
 created: 2026-04-22
-updated: 2026-04-24
+updated: 2026-05-04
 type: concept
 domain: [CPET, exercise_physiology]
 tags: [exercise_intensity, moderate, heavy, severe, lactate_threshold, critical_power, training_distribution]
 sources:
   - 09_來源摘要/Poole_2020_anaerobic_threshold.md
   - 09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance.md
+  - 09_來源摘要/Goulding_Marwood_2023_critical_power_determinants.md
   - 09_來源摘要/Oliveira_2024_polarized_training_meta_analysis.md
 source_tier: 1
 evidence_level: consensus
@@ -51,6 +52,7 @@ contradictions: []
 - V̇O2 被拉向 V̇O2max。
 - PCr 持續下降、Pi 持續升高、pH 持續下降。
 - 耗竭時間受 [[Critical_Power]] 與 W' 共同限制。
+- Goulding & Marwood 2023 補充：這個 boundary 由 oxygen delivery、oxygen diffusion、VO2 kinetics、fiber recruitment 與 fatigue interaction 共同決定；不是單一 lactate 或 ventilatory marker。
 
 ### 方法學重點
 
@@ -128,6 +130,7 @@ contradictions: []
 
 - [[09_來源摘要/Poole_2020_anaerobic_threshold]]
 - [[09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
+- [[09_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]
 - [[09_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]
 
 ### 證據標記
@@ -143,10 +146,12 @@ contradictions: []
 - [[Lactate_Threshold]]
 - [[Gas_Exchange_Threshold]]
 - [[Critical_Power]]
+- [[Critical_Power_生理決定因子]]
 - [[Training_Prescription_by_CP]]
 - [[VO2_Kinetics]]
 - [[VO2_Slow_Component]]
 - [[../05_Exercise_Physiology/Training_Intensity_Distribution]]
 - [[../09_來源摘要/Poole_2020_anaerobic_threshold]]
 - [[../09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
+- [[../09_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]
 - [[../09_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]

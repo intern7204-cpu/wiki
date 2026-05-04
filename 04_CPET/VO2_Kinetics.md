@@ -1,12 +1,13 @@
 ---
 title: V̇O₂ Kinetics（氧耗動力學）
 created: 2026-04-22
-updated: 2026-04-25
+updated: 2026-05-04
 type: concept
 domain: [CPET, exercise_physiology]
 tags: [VO2_kinetics, time_constant, O2_deficit, metabolic_stability, CPET_interpretation, PCr]
 sources:
   - 09_來源摘要/Goulding_2021_VO2_kinetics_exercise_tolerance.md
+  - 09_來源摘要/Goulding_Marwood_2023_critical_power_determinants.md
   - 09_來源摘要/Gaesser_Poole_1996_VO2_slow_component.md
   - 09_來源摘要/Kemp_1993_PCr_resynthesis.md
   - 09_來源摘要/Modelling_the_VO2_kinetic_response_to_heavy_intensity_exercise_in_children.md
@@ -51,6 +52,8 @@ V̇O2 kinetics 描述運動開始後氧耗如何接近新平衡；其核心參�
 - [[Critical_Power]] 可視為系統能否把 working muscle 維持在 critical metabolite threshold 以下的結果。
 - τV̇O2 越快，越能延緩 severe-domain 代謝失穩，因此 CP 越高。
 - 這也是 Goulding 2021 強調的 CP 非固定常數，而是 emergent property 的原因。
+- Goulding & Marwood 2023 將這點推進為三因素交互模型：tauVO2、convective O2 delivery、diffusive O2 delivery 各自可影響 CP，並共同決定 exercise transition 時 intracellular perturbation 的大小。
+- 因此 tauVO2 不是只描述「反應快慢」，而是決定同一 ATP demand 下 O2 deficit、Pi accumulation、fatigue induction 與 CP 高低的核心機制變數之一。
 
 ### 與 PCr / ADP recovery 的連結
 
@@ -148,6 +151,7 @@ V̇O2 kinetics 描述運動開始後氧耗如何接近新平衡；其核心參�
 ### 來源摘要連結
 
 - [[09_來源摘要/Goulding_2021_VO2_kinetics_exercise_tolerance]]
+- [[09_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]
 - [[09_來源摘要/Gaesser_Poole_1996_VO2_slow_component]]
 - [[09_來源摘要/Kemp_1993_PCr_resynthesis]]
 - [[09_來源摘要/Modelling_the_VO2_kinetic_response_to_heavy_intensity_exercise_in_children]]
@@ -170,11 +174,13 @@ V̇O2 kinetics 描述運動開始後氧耗如何接近新平衡；其核心參�
 
 - [[VO2_Slow_Component]]
 - [[Critical_Power]]
+- [[Critical_Power_生理決定因子]]
 - [[CPET_Protocol_Design]]
 - [[VO2max_Measurement]]
 - [[../05_Exercise_Physiology/PCr_Resynthesis]]
 - [[../05_Exercise_Physiology/Skeletal_Muscle_Energy_Metabolism]]
 - [[../09_來源摘要/Goulding_2021_VO2_kinetics_exercise_tolerance]]
+- [[../09_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]
 - [[../09_來源摘要/Kemp_1993_PCr_resynthesis]]
 - [[../09_來源摘要/Modelling_the_VO2_kinetic_response_to_heavy_intensity_exercise_in_children]]
 - [[../09_來源摘要/Korzeniewski_Zoladz_2013_VO2_off_PCr_off_kinetics]]

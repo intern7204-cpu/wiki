@@ -12,6 +12,7 @@ sources:
   - 09_來源摘要/Poole_Jones_2017_VO2max_verification.md
   - 09_來源摘要/Pettitt_Jamnick_2017_VO2max_verification_commentary.md
   - 09_來源摘要/Lambrick_2009_RPE13_VO2max_prediction.md
+  - 09_來源摘要/Juarez_2024_CPET_in_heart_failure.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -109,6 +110,15 @@ contradictions:
   - 不是已被 verification 的 true `VO2max`
 - 若研究或臨床問題需要 ceiling，仍應優先回到 maximal test + verification framework。
 
+### Juarez 2024：HF 中多數情況應報 peak VO2，而不是硬稱 VO2max
+
+- HF patients 常因 cardiac output reserve、pulmonary comorbidity、muscle fatigue、deconditioning 或 symptom limitation 而無法達到 true VO2max；臨床報告常用 peak VO2。
+- 解讀 peak VO2 前要先確認 effort quality；RER >1.0-1.1 支持 maximal physiologic effort。
+- HR >85% predicted 可輔助判斷 effort，但在 beta blockers 或 chronotropic incompetence 下可靠性下降。
+- 來源整理的 HF risk anchors 包含：peak VO2 <14 mL/kg/min 為 poor prognosis marker；beta blocker patients 可用 <12 mL/kg/min；peak VO2 <=10 mL/kg/min 屬最差 prognosis pattern；% predicted peak VO2 <50% 也提示 poor prognosis。
+- Peak VO2 >=20 mL/kg/min 若合併 VE/VCO2 slope <30、absence of EOV、VO2 at AT >11 mL/kg/min，來源描述為較佳 prognosis pattern。
+- 這些 cutoffs 是 review-level risk stratification anchors；advanced HF / transplant decisions 仍需 current guideline、center policy、comorbidity 與 full clinical picture。
+
 ### 實務流程
 
 1. 校正 flow 與 gas。
@@ -183,6 +193,7 @@ contradictions:
 - [[09_來源摘要/Poole_Jones_2017_VO2max_verification]]
 - [[09_來源摘要/Pettitt_Jamnick_2017_VO2max_verification_commentary]]
 - [[09_來源摘要/Lambrick_2009_RPE13_VO2max_prediction]]
+- [[09_來源摘要/Juarez_2024_CPET_in_heart_failure]]
 
 ### 證據標記
 
@@ -198,9 +209,11 @@ contradictions:
 - [[VO2_Kinetics]]
 - [[Critical_Power]]
 - [[Gas_Exchange_Threshold]]
+- [[CPET_in_Heart_Failure]]
 - [[Exercise_Intensity_Domains]]
 - [[../09_來源摘要/Beltz_2016_GXT_protocols]]
 - [[../09_來源摘要/Bentley_Newell_Bishop_2007_incremental_exercise_test_design]]
 - [[../09_來源摘要/Midgley_2008_VO2max_test_duration]]
 - [[../09_來源摘要/Poole_Jones_2017_VO2max_verification]]
 - [[../09_來源摘要/Lambrick_2009_RPE13_VO2max_prediction]]
+- [[../09_來源摘要/Juarez_2024_CPET_in_heart_failure]]

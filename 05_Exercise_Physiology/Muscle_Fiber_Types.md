@@ -8,6 +8,7 @@ tags: [muscle_fiber_type, myosin, MHC, oxidative_capacity, CSA, specific_force, 
 sources:
   - 09_來源摘要/Blemker_2023_fiber_type_traps.md
   - 09_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism.md
+  - 09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -51,6 +52,15 @@ contradictions: []
 - Blemker 2023 明確指出：MHC 反映 contraction speed，oxidative capacity 則來自 mitochondrial / enzyme 系統。
 - 在不同物種與不同肌肉，MHC IIx 的 oxidative phenotype 可以差很多。
 - 結論：若研究問題是代謝能力，就必須量代謝；不能只量 MHC。
+
+### Smith 2023：fiber type 是 myonuclear、mitochondrial 與 metabolic continuum
+
+- Human torso / limb muscles 主要表達 MyHC type I、type IIA、type IIX；MyHC 主要決定 contraction speed，不足以單獨定義 metabolic phenotype。
+- Full fiber phenotype 需要 excitation-contraction machinery、ATP supply、motor unit innervation 與 myonuclear synchrony 配合。
+- Human 與 rodent data 不可直接等同：rodent type IIA 常是最 oxidative，human type I 常是最 oxidative；human fibers 整體也比 rat / mouse fibers 更慢。
+- Human vastus lateralis 的 hybrid fibers 可由小於 10% 到 40%；true hybrid fibers 在 type I、I/IIA、IIA、IIA/IIX、IIX 之間呈 mechanical / metabolic continuum。
+- Healthy human vastus lateralis 的 pure type IIX 通常小於 1%；sedentary behavior 可增加 hybrid / pure IIX fibers，exercise 常降低 hybrid content 並使 phenotype 遠離 IIX。
+- Aging、metabolic health、training status、biological sex 與 anatomical location 都可改變 fiber properties；aging-associated mitochondrial impairment 甚至可造成 glycolytic shift 而不一定伴隨 MyHC 改變。
 
 ### Trap 2：把 fiber CSA 當作 fiber type 的代理指標
 
@@ -133,6 +143,7 @@ contradictions: []
 
 - [[09_來源摘要/Blemker_2023_fiber_type_traps]]
 - [[09_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism]]
+- [[09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]
 
 ### 證據標記
 
@@ -145,9 +156,11 @@ contradictions: []
 ### 相關頁面
 
 - [[Skeletal_Muscle_Energy_Metabolism]]
+- [[Skeletal_Muscle_Metabolic_Flexibility與Exercise_Adaptation]]
 - [[PCr_Resynthesis]]
 - [[../04_CPET/VO2_Slow_Component]]
 - [[../04_CPET/VO2_Kinetics]]
 - [[../04_CPET/Critical_Power]]
 - [[../09_來源摘要/Blemker_2023_fiber_type_traps]]
 - [[../09_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism]]
+- [[../09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]

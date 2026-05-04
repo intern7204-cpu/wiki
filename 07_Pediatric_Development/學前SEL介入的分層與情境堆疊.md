@@ -7,6 +7,7 @@ domain: [pediatrics, preschool, development]
 tags: [SEL, preschool, targeted_intervention, universal_intervention, school_readiness, parent_training]
 sources:
   - 09_來源摘要/Murano_2020_preschool_SEL_interventions.md
+  - 09_來源摘要/Muir_2023_preschool_SR_EF_interventions.md
 source_tier: 1
 evidence_level: emerging
 confidence: medium
@@ -14,6 +15,7 @@ contested: true
 contradictions:
   - Universal preschool SEL and targeted preschool SEL are not interchangeable for at-risk children.
   - K-12 implementation logic cannot be directly transplanted to preschool.
+  - SEL is one preschool SR/EF approach, not the only route to regulation or school readiness.
 ---
 
 # 學前 SEL 介入的分層與情境堆疊
@@ -27,6 +29,7 @@ contradictions:
 - 這裡談的是 preschool social and emotional learning intervention 的設計邏輯。
 - 它不是泛稱任何 social skills 課程都有一樣效果。
 - 它也不是在宣稱某個單一 program 必然最好。
+- 它也不是所有 preschool SR/EF intervention 的總稱；Muir et al. 2023 把 SEL 放在 broader SR/EF intervention landscape 裡。
 
 ## Why It Matters
 
@@ -71,6 +74,7 @@ Preschool child in home + school mesosystem
   - program active ingredient
   - parent vs teacher contribution
   - fidelity 與長期 outcome
+- 若目標是 EF / SR 而不是狹義 SEL，需同時考慮 play、mindfulness、movement、curricula、physical activity 與 digital task training 的證據邊界。
 
 ## Fact
 
@@ -80,6 +84,8 @@ Preschool child in home + school mesosystem
 - universal intervention 中，teacher-only delivery 的 effect size 為 `g = .28`。
 - universal intervention 中，parent + teacher、home + school stack 的 effect size 為 `g = .53`。
 - intervention program type 解釋 universal effect heterogeneity 的大部分，meta-regression `R2 = .83`。
+- Muir et al. 2023 中，SEL programmes 有 8 studies；6 studies reported at least one significant outcome，11 of 23 evaluated effects were significant。
+- Muir et al. 2023 指出 mindfulness、mediated structured play、physical activity 也有較一致的 preschool SR/EF signal。
 
 ## Inference
 
@@ -98,6 +104,7 @@ Preschool child in home + school mesosystem
 - 不同 program 間效果差異來自 moderator analysis，不能直接做因果排名。
 - publication bias 與 cluster-randomization correction 不完整，可能使效應量被高估。
 - 長期 school readiness、academic achievement 與 participation outcome，這篇沒有充分回答。
+- Broader SR/EF review 也指出 follow-up assessments 很少，因此 preschool intervention acute gains 不可直接等同長期 school readiness。
 
 ## Limitations and Misreadings
 
@@ -112,6 +119,7 @@ Preschool child in home + school mesosystem
 ## Links
 
 - [[學齡前期的自我調節與school_readiness]]
+- [[Preschool_SR_EF_Intervention_Design特徵]]
 - [[正向教養與家庭支持]]
 - [[../09_來源摘要/Murano_2020_preschool_SEL_interventions]]
-
+- [[../09_來源摘要/Muir_2023_preschool_SR_EF_interventions]]

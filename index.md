@@ -1,7 +1,7 @@
 # 知識百科索引
 
 > 個人醫學知識百科總索引。每頁一行：`[[連結]] — 一句話摘要 — 分類：主題分類 — 來源層級`
-> Last updated: 2026-05-03 | Total pages: 465
+> Last updated: 2026-05-04 | Total pages: 540
 > Restart baseline: 2026-05-01 起改回單一來源 ingest；舊有 batch-ingest 相關頁面保留，但需逐篇 correction。
 
 ## 00 總覽
@@ -17,6 +17,7 @@
 - [[02_方法學/電生理診斷醫學]] — EDX 是 focused history / exam 的神經生理延伸，不是獨立 screening gadget — 分類：方法學 — Tier 1
 - [[02_方法學/PMR_醫療問題與功能問題清單]] — PM&R 的 H&P 輸出不是 diagnosis list，而是能直接驅動 management plan 的 medical + functional problem list — 分類：方法學 — Tier 1
 - [[02_方法學/治療性運動處方]] — exercise prescription 必須寫成 FITT + safety screen + progression logic，不能只叫病人多動 — 分類：方法學 — Tier 1
+- [[02_方法學/Repetitions_in_Reserve_RIR_阻力訓練強度處方]] — RIR 用保留幾下才到 failure 描述 resistance training intensity，但不能取代安全篩檢與疾病限制 — 分類：方法學 — Tier 2
 - [[02_方法學/徒手治療_牽引與按摩]] — manipulation / traction / massage 是 condition-specific adjunct，而不是萬用止痛捷徑 — 分類：方法學 — Tier 1
 - [[02_方法學/物理因子治療]] — modalities 是 symptom-modifying adjunct；indication 與 contraindication 比習慣更重要 — 分類：方法學 — Tier 1
 - [[02_方法學/復健整合醫學]] — integrative rehabilitation 要同時看 evidence、safety 與 medication interaction — 分類：方法學 — Tier 1
@@ -37,12 +38,24 @@
 - [[02_方法學/Neurorehabilitation_目標設定與Team_Based_Care]] — neurorehabilitation team care 需用 shared functional goals、coordinated practice 與 home/community transition 串起來 — 分類：方法學 — Tier 1
 - [[02_方法學/Neurorehabilitation_Outcome_Measurement]] — neurorehabilitation outcome 需分 impairment、activity、participation、psychosocial needs 與 HRQoL，不可只看單一 ADL 分數 — 分類：方法學 — Tier 1
 - [[02_方法學/Neurorehabilitation_Motor_Learning與Plasticity]] — motor learning 的核心是 goal-directed practice、feedback、progression 與 self-management；technology 只是 adjunct — 分類：方法學 — Tier 1
+- [[02_方法學/Neurorehabilitation_藥物效應與治療時機]] — drug therapy 會改變 arousal、tone、balance、orthostasis、cognition、pain 與 therapy timing — 分類：方法學 — Tier 1
+- [[02_方法學/Aphasia_語言治療_劑量與技術]] — poststroke aphasia 的 SLT 是 standard of care 但證據弱；intensity 與 session 總數比 technique 重要 — 分類：方法學 — Tier 2
 
 ## 03 疾病與臨床主題
 - [[03_疾病與臨床主題/PMR_評估總論]] — PM&R assessment 以功能、環境與 team planning 為核心輸出 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Cancer_Rehabilitation_總論]] — cancer rehabilitation 應跨 preventive / restorative / supportive / palliative phases 管理功能與安全 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/高齡復健與Frailty框架]] — 高齡復健需同時處理 frailty、sarcopenia、falls、polypharmacy、mentation、mobility 與 what matters — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Osteoporosis_復健與骨折預防]] — osteoporosis exercise 需依 BMD、fracture history、posture、fall risk 與 spinal loading 個別化 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Pelvic_Floor_Disorders_復健總論]] — pelvic floor disorders 需分 tone、pain、strength、coordination、visceral、nerve 與 chronic pain mechanism — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Rheumatic_Disease_復健總論]] — rheumatic disease rehab 需結合 disease activity、joint protection、exercise、orthoses、ADL 與 participation — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/慢性肺病Pulmonary_Rehabilitation]] — pulmonary rehabilitation 是 exercise、breathing、airway clearance、oxygen、education、nutrition 的整合照護 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/急性醫療虛弱與Early_Mobilization]] — acute medical frailty 不是臥床理由，而是需要監測下 early mobility 與 transition planning — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Burn_Rehabilitation_總論]] — burn rehabilitation 從急性入院開始，目標是預防 scar / contracture 並恢復長期 participation — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Sports_Medicine與Adaptive_Sports_總論]] — sports medicine 需把 tissue healing、kinetic chain、event safety、RTP 與 adaptive athlete risk 接起來 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Sports_Cardiology_概論]] — 運動心臟科主框架；分清 training adaptation、症狀與 eligibility — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Spasticity_概論]] — Spasticity 需與 weakness、co-contraction、contracture 分開看，治療以功能目標為中心 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/創傷性腦損傷復健總論]] — TBI rehab 需同時管理 DoC、agitation、PSH、sleep、vision 與 long-term participation — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/TBI_ICF照護連續體與Task_Analysis]] — moderate to severe TBI rehab 需用 ICF、phase of recovery 與 task analysis 串起評估、治療與 participation — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/中風復健總論]] — 中風復健同時包含 recurrence vigilance、secondary prevention 與 sequelae-specific therapy — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/中風急性期處置與時間窗]] — Time is brain；rtPA 0–4.5h、thrombectomy 至 24h；ischemic vs hemorrhagic 反向邏輯；permissive hypertension 與 ICH 快降的差別 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/中風次發預防]] — 90% stroke 來自 modifiable cause；mechanism-based 分流 + BP < 130/80 + atorvastatin 80 + HbA1c < 7 + 短期 DAPT 21–90d + lifestyle 五件 — 分類：疾病與臨床主題 — Tier 1
@@ -57,6 +70,7 @@
 - [[03_疾病與臨床主題/輔具與環境控制裝置]] — assistive technology 的成敗取決於 user-fit、training、follow-up 與環境匹配 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/壓力性損傷與慢性傷口復健]] — chronic ulcer 與 pressure injury 先看病因與 offloading，dressings 只是其中一層 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/性功能障礙與身心障礙復健]] — sexuality 是 rehabilitation quality-of-life 議題，不可只用 neurologic deficit 單軸解釋 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Neurogenic_Sexual_Dysfunction_三層影響框架]] — neurogenic sexual dysfunction 需同時拆 primary neural lesion、secondary impairment / medication、tertiary psychosocial participation 三層 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/血管與淋巴疾病復健]] — PAD、venous disease 與 lymphedema 會直接改變 pain、edema、wound 與 gait — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/上肢截肢復健總論]] — upper limb amputation 要整合 residual limb、prosthetic matching、one-handed adaptation 與 vocation — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/輪椅處方的四大目標]] — wheelchair prescription 要同時滿足 posture、mobility、pressure management 與 participation 四目標 — 分類：疾病與臨床主題 — Tier 1
@@ -98,6 +112,7 @@
 - [[03_疾病與臨床主題/Stroke_Movement_Dysfunction_Impairment_Model]] — poststroke movement dysfunction 要分 primary、secondary 與 composite impairment，不能只寫 hemiparesis/spasticity — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Poststroke_Spasticity與Hypertonicity區分]] — poststroke spasticity 是 velocity-dependent reflex；hypertonicity 是較廣義 passive resistance，兩者不能混用 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Poststroke_Movement_Reeducation與Compensation]] — poststroke motor reeducation 要在 active practice 與必要 compensation 之間明確取捨，避免 learned nonuse — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Poststroke_Aphasia_預後與恢復]] — poststroke aphasia 多在前數月最大改善、1 年 plateau；initial severity 是最強預後因子；comprehension deficit 會限制其他 rehab — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/上肢疼痛與功能障礙評估總論]] — upper limb pain 評估需把局部診斷放回 kinetic chain 與功能需求 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Rotator_Cuff_Tendon_Disease]] — rotator cuff spectrum 要分 tendinopathy/partial/chronic tear 與 acute traumatic full-thickness tear — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/上肢急性肌腱與腕韌帶轉介紅旗]] — distal biceps、pectoralis major、acute full-thickness cuff、scapholunate 等需早期手術評估 — 分類：疾病與臨床主題 — Tier 1
@@ -122,6 +137,7 @@
 - [[03_疾病與臨床主題/Syndesmotic_ankle_injury]] — high ankle sprain 與 common lateral sprain 不同；mortise stability、恢復時間與 referral urgency 都更重要 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Plantar_fasciitis]] — plantar fasciitis 多為 clinical diagnosis；heel spur、MRI 與熱門療法都不能取代基本臨床判讀 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/足部疼痛分區評估]] — forefoot / midfoot / hindfoot 的 anatomy-based history 與 exam，比先做影像更能縮小 differential — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Lower_Limb_Pain_分區定位與高風險分流]] — lower limb pain 先做 region map 與 high-risk structure screen，再決定 imaging、referral 或 conservative care — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/跑者運動性下腿痛]] — exertional lower-leg pain 是 differential problem；shin pain 不能直接等同 MTSS — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Hamstring_肌肉與肌腱傷害]] — posterior thigh pain 要分 acute strain、proximal tendon problem 與 avulsion risk；影像不能單獨決定 RTS — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Iliotibial_Band_Syndrome]] — lateral femoral epicondyle pain 的 diagnosis 以 clinical pattern 為主，不是先靠 MRI 或 friction label — 分類：疾病與臨床主題 — Tier 1
@@ -147,19 +163,26 @@
 - [[04_CPET/CP_Test_Reliability]] — CP/W' 重測可靠性取決於 protocol、familiarization 與 W' 較高變異 — 分類：CPET — Tier 1 + Tier 3
 - [[04_CPET/Training_Prescription_by_CP]] — 以 LT/GET、CP、W' 規劃三域與 severe-domain interval 的實務頁 — 分類：CPET — Tier 1
 - [[04_CPET/CP_Wprime_Interval_Design]] — severe-domain interval 至少要寫 work / recovery 四個旋鈕，且不能把 W'BAL 當真值 — 分類：CPET — Tier 1 + Tier 3
+- [[04_CPET/Critical_Power_生理決定因子]] — CP 由 convective / diffusive O2 delivery、VO2 kinetics、fiber type 與 motor unit recruitment 共同決定 — 分類：CPET — Tier 1
 - [[04_CPET/Wprime_Balance_Model]] — W'BAL 是 assumption-sensitive interval model；可用但不是直接量到的生理油箱 — 分類：CPET — Tier 1 + Tier 3
 - [[04_CPET/Wprime_Recovery]] — W' recovery 不是單一等速充電；short recovery 常同時有 fast 與 slow component — 分類：CPET — Tier 1 + Tier 3
 - [[04_CPET/Exercise_Intensity_Domains]] — moderate / heavy / severe 三域定義、Z1-Z3 對應與 TID 應用 — 分類：CPET — Tier 1
 - [[04_CPET/VO2_Kinetics]] — V̇O₂ kinetics 三相結構、τV̇O₂、O₂ deficit、與 PCr/CP 關聯 — 分類：CPET — Tier 1
 - [[04_CPET/VO2_Slow_Component]] — heavy/severe 域內 V̇O₂ 額外上升；muscle efficiency 下降的表徵 — 分類：CPET — Tier 1
 - [[04_CPET/CPET_Protocol_Design]] — GXT/ramp/test duration/verification/CP 測法的實務選擇 — 分類：CPET — Tier 1
+- [[04_CPET/CPET_in_Heart_Failure]] — HF 中 CPET 用 peak VO2、VE/VCO2 slope、AT、RER、EOV 與 comorbidity pattern 做 exercise limitation localization 與 risk stratification — 分類：CPET — Tier 2
+- [[04_CPET/CPET_in_Pulmonary_Hypertension]] — PH / PAH 中 CPET 用 high VE/VCO2、low PETCO2、VD/VT、O2 pulse 與 RV reserve pattern 輔助 diagnosis、risk stratification 與 follow-up — 分類：CPET — Tier 2
 - [[04_CPET/VO2max_Measurement]] — V̇O₂max vs V̇O₂peak、verification protocol 與 test duration 判讀 — 分類：CPET — Tier 1
 - [[04_CPET/V_Slope_Method]] — 以 V̇CO₂–V̇O₂ breakpoint 偵測 GET 的經典方法頁 — 分類：CPET — Tier 1 + Tier 3
 
 ## 05 Exercise Physiology
 - [[05_Exercise_Physiology/Lactate_Shuttle]] — Brooks 乳酸穿梭典範；取代 anaerobic 機制 — 分類：Exercise Physiology — Tier 1
 - [[05_Exercise_Physiology/Myokines_與_Muscle_Organ_Crosstalk]] — skeletal muscle 也是 secretory organ；IL-6 是 human evidence 最強的 myokine，但多數 pathway 仍屬 emerging evidence — 分類：Exercise Physiology — Tier 1
+- [[05_Exercise_Physiology/Exerkines_運動誘發多器官訊號分子]] — exerkines 是 exercise-induced multi-organ signalling language，不是 routine clinical biomarker 或 exercise pill — 分類：Exercise Physiology — Tier 1
+- [[05_Exercise_Physiology/Acute_Exercise_Molecular_Response與Skeletal_Muscle_Adaptation]] — acute exercise molecular response 可解釋 training adaptation，但不可把單次 mRNA / signaling 直接等同長期 phenotype — 分類：Exercise Physiology — Tier 1
+- [[05_Exercise_Physiology/Molecular_Athlete_運動表型連續體]] — molecular athlete 是 sedentary 到 elite performance 的多層次表型連續體，不是單一基因、VO2max 或 pathway — 分類：Exercise Physiology — Tier 1
 - [[05_Exercise_Physiology/Skeletal_Muscle_Energy_Metabolism]] — 三路徑 ATP 再生、調控、fiber type caveat、PCr recovery、訓練適應 — 分類：Exercise Physiology — Tier 1
+- [[05_Exercise_Physiology/Skeletal_Muscle_Metabolic_Flexibility與Exercise_Adaptation]] — skeletal muscle metabolic flexibility 是能依 intensity、substrate、fiber phenotype、mitochondrial network 與 training history 動態調整 ATP supply 與 adaptation 的能力 — 分類：Exercise Physiology — Tier 1
 - [[05_Exercise_Physiology/運動時氧輸送與換氣]] — 運動限制是 oxygen delivery、extraction、ventilation 與症狀感知的整合問題，不是只看 lungs — 分類：Exercise Physiology — Tier 1
 - [[05_Exercise_Physiology/運動時氧供調節的整合視角]] — external power 增加時，VO2、cardiac output、oxygen extraction 與 ventilation 必須同步上調；VO2 不是只代表 lungs — 分類：Exercise Physiology — Tier 1
 - [[05_Exercise_Physiology/高海拔與飛行低氧生理]] — altitude / flying 的核心是 barometric pressure 下降導致 inspired PO2 下降，不是 FiO2 改變 — 分類：Exercise Physiology — Tier 1
@@ -185,19 +208,24 @@
 - [[07_Pediatric_Development/嬰兒期發展]] — infancy assessment 要把 state regulation、attachment、play 與 adversity 一起看，不是只背 milestone — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/嬰兒期的狀態調節與互動評估]] — infancy 的核心是 state regulation、attachment、joint attention、play 與 adversity buffer 的同步組裝 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/Serve_and_Return]] — serve and return 是 contingent back-and-forth interaction；建構 brain circuit 也提供 safety cue — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/Infant_Cue_Based_Interaction_日常Routines與Communication_Bundles]] — Infant Start caregiver manual 把 cue reading、intensity matching、daily routines、babble、object play、joint attention 與 communication bundles 整理成可教的 caregiver interaction scaffold — 分類：Pediatric Development — Tier 2
 - [[07_Pediatric_Development/幼兒與學齡前期發展]] — toddler-preschool 主軸是 language、play、self-regulation 與 school readiness 的同步成熟 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/學齡前期的自我調節與school_readiness]] — school readiness 不只是 preacademic skill，而是 language、regulation、social reciprocity 與 adaptive participation 的整體成熟度 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/學前SEL介入的分層與情境堆疊]] — preschool SEL 要分 universal 與 targeted；對 at-risk child，home + school stack 比單點 classroom delivery 更值得考慮 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/學齡期發展]] — school-age development 取決於 school adaptation、peer belonging、self-regulation 與 self-concept，不只看成績 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/學齡期的同儕歸屬與自我概念]] — middle childhood 的核心任務是 school adaptation、peer belonging、self-regulation 與 self-concept 的同步重組 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/Executive_Function_總論]] — EF 是目標導向的思考與行動調節功能，不可直接簡化成 ADHD 同義詞 — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/Preschool_EF_Cognitive_Training與Transfer]] — preschool EF cognitive training 可改善 EF task outcomes，但不能外推成 broad learning / behavior treatment — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/Preschool_SR_EF_Intervention_Design特徵]] — preschool SR/EF intervention 應看 target、cognitive challenge、movement、feedback、teacher PD / fidelity 與 sustainability，而不是單一 programme label — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/Executive_Function_支持策略]] — EF 支持的重點是 task design、external cue 與逐步退場 scaffold，不是只叫孩子更自律 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/兒童睡眠與睡眠障礙總論]] — pediatric sleep 問題要先做完整 sleep history 與發展脈絡分流，不能直接跳 PSG 或 melatonin — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/Sleep_作為Early_Childhood_Developmental_Infrastructure]] — early childhood sleep 是 active developmental infrastructure，支撐 memory、emotion regulation、growth、immune function、nap learning 與環境調節 — 分類：Pediatric Development — Tier 2
 - [[07_Pediatric_Development/兒童神經學評估]] — pediatric neuro exam 是 history、play-based observation 與 age-adapted neurologic examination 的整合流程 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/兒童感覺處理問題與SPD]] — sensory profile 可整理 participation pattern，但不能取代 broader developmental differential — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/發展監測與篩檢]] — developmental care 的骨架是 every-visit surveillance 加上 age-anchored screening，而不是只做量表 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/Surveillance與Screening的區分]] — surveillance 是 routine responsibility，screening 是 standardized risk detection；兩者都不能取代 evaluation — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/Primary_Care_Developmental_Surveillance_流程]] — developmental surveillance 是每次健康檢查持續進行的 workflow，不是一次量表 — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/Pediatric_Primary_Care_作為Health_Learning_Coordination_Platform]] — pediatric primary care 可作為 health-learning coordination platform，把 stress biology、family voice、care coordination、social needs、HCP-ECD 與 early learning referral 接起來 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/發展遲緩與Intellectual_Disability]] — GDD 是早期描述；ID 要同時看 intellectual 與 adaptive function，不能只看 IQ — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/Developmental_Delay_的鑑別起點]] — GDD 是 early-life descriptive diagnosis；鑑別起點要看 adaptive function、軌跡與 regression — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/兒童視覺障礙與CVI]] — pediatric visual impairment 要同時看 ocular disease、visual pathway 與 CVI 對功能的影響 — 分類：Pediatric Development — Tier 1
@@ -229,6 +257,9 @@
 - [[07_Pediatric_Development/Early_Intervention_的時機與核心目標]] — EI 的 timing 要看 multiple / cascading critical periods；早轉介很重要，但 age 3 不是神經生物學終點 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/經驗期待型發展與早期介入窗口]] — early intervention 的 timing 應看 experience-expectant input 與多個 sensitive / critical windows，而不是單一年齡門檻 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/Caregiving_Quality_作為早期介入靶點]] — caregiving quality 會經由 stimulation、responsivity 與 stress buffering 進入 brain development，是 disadvantaged child intervention 的核心靶點之一 — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/Nurturing_Care_健康與營養服務整合]] — nurturing care 可嵌入 health / nutrition service 的日常接觸點；HCP-ECD evidence 支持部分 infancy cognition / motor outcome，但不等於只增加訪視頻率 — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/WHO_ECD_Guideline_0至3歲Nurturing_Care建議]] — WHO 2020 guideline 將 0-3 歲 responsive caregiving、early learning、nutrition integration 與 maternal mental health support 列為 strong recommendations — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/HCP_ECD_Interventions_由健康照護者交付的早期發展介入]] — HCP-ECD 是由 primary-level healthcare providers 面對面交付 responsive caregiving、early learning 或 motor stimulation 的 early development support，證據較支持 infancy cognition / motor outcomes — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/托育與Early_Care_and_Education]] — child care / ECE 是 developmental environment 與 social determinant，不只是家長托育安排 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/Child_Care_品質與發展結果]] — child care 重要的不只是有沒有位子，而是 quality、health-safety integration 與 inclusion — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/發展環境穩定性]] — 穩定性是 resources、relationships 與 routines 的可預測組合，不等於完全不變 — 分類：Pediatric Development — Tier 2
@@ -243,11 +274,21 @@
 - [[07_Pediatric_Development/早期語言發展與Emergent_Literacy]] — literacy 與語言從出生後的互動、共讀與 turn taking 就開始累積 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/早期發展與終身健康]] — early experience 會同時校準 brain、immune 與 cardiometabolic systems；健康與學習不能切開 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/照顧者健康與兒童健康發展]] — caregiver 的 mental health、sleep 與 navigation burden 會直接改變 child 的 regulation、routine 與 health outcome — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/Caregiver_Self_Care_作為Child_Stress_Buffering_Capacity]] — caregiver self-care 是維持 child stress-buffering capacity 的實際支持，核心是 regulation、routine、help-seeking、mental health 與 resource linkage — 分類：Pediatric Development — Tier 2
 - [[07_Pediatric_Development/兒童語言發展與Communication_Disorders]] — language concern 要分 receptive、expressive、speech sound、pragmatics 與 hearing differential — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/晚語兒_Late_Talker]] — late talker 是描述，不是病因；重點在分辨 receptive、hearing、ASD 與 GDD 線索 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/正向教養與家庭支持]] — positive parenting 是 warmth、consistency 與 developmentally matched limit-setting 的結合，不是放任或 punishment — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/Parenting_Interventions_防止兒童不當對待與強化親子關係]] — evidence-based parenting interventions 是降低 child maltreatment / harsh parenting 的結構化 program，不是一次性教養建議 — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/Parenting_Interventions_生命前三年ECD與Caregiving_Outcomes]] — 0-3 歲 parenting interventions 可改善多個 ECD 與 caregiving outcomes，但 heterogeneity 高且 caregiver depression 不能自動涵蓋 — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/Positive_Parenting_Interventions_對Early_Cognition與Language]] — positive parenting interventions 對 early mental abilities 與 language 證據較明確，不能外推成直接改善 EF / pre-academics — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/Caregiver_Skills_Training_CST_在地化與Implementation_Fidelity]] — CST 在地化要同時保留 core components、guided practice 與 fidelity monitoring，不能退化成家長衛教單 — 分類：Pediatric Development — Tier 2
+- [[07_Pediatric_Development/CST_Facilitator_Delivery_Model_引導式練習與Home_Practice_Loop]] — CST group delivery 的最小 fidelity unit 是教學、示範、role-play、coaching、daily home practice 與下次檢討 — 分類：Pediatric Development — Tier 2
+- [[07_Pediatric_Development/CST_Home_Visit_Model_個別化Goal_Setting與Guided_Practice]] — CST home visits 透過 CCI / FCI、goal-setting worksheet、tailored coaching 與 independent practice planning，把 group strategies 個別化到家庭 routines — 分類：Pediatric Development — Tier 2
+- [[07_Pediatric_Development/CST_Caregiver_Strategy_Practice_日常Routines與Home_Practice]] — CST participants' guide 把 key messages、tips、home practice 與 self-check questions 轉成 caregiver 在日常 routines 中可重複練習的策略 — 分類：Pediatric Development — Tier 2
+- [[07_Pediatric_Development/CST_Package_Architecture_多層教材與Training_Supervision]] — CST introduction 把 package 定義成 stepped-care、trained non-specialist delivery、9 group sessions + 3 home visits、training/supervision 與 referral boundary 的多層架構 — 分類：Pediatric Development — Tier 2
 - [[07_Pediatric_Development/Mattering_總論]] — mattering 是 feeling valued 加上 adding value；比 belonging 更深一層 — 分類：Pediatric Development — Tier 2
 - [[07_Pediatric_Development/創傷_復原力與兒童發展]] — trauma 與 resilience 都要一起看；ACE score 不能取代個別化發展與安全評估 — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/Play_作為Resilience_Building_Context]] — play 只有在 supportive relationship、manageable stress、child agency 與 core-skill practice 同時存在時，才是 resilience-building context — 分類：Pediatric Development — Tier 2
 - [[07_Pediatric_Development/Toxic_Stress]] — toxic stress 是 prolonged biologic stress overload；不是 adversity 清單的另一個名字 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/數位媒體與兒少發展]] — 數位媒體影響取決於內容、情境、家長陪伴與被擠掉的活動，不只看時數 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/兒童肥胖]] — childhood obesity 需放在 developmental、sleep、family、stigma 與 participation 脈絡下評估 — 分類：Pediatric Development — Tier 1
@@ -270,17 +311,24 @@
 - [[08_工具與Workflow/知識百科_健康檢查流程]] — lint / health check 主工作流；聚焦結構掃描、知識健康度與 Phase 1–2 判定 — 分類：工具與Workflow — Tier 1
 - [[08_工具與Workflow/知識百科_健康檢查_分級與輸出]] — health check 的 issue 分級、標準輸出格式與 raw verification queue 規則 — 分類：工具與Workflow — Tier 1
 - [[08_工具與Workflow/知識百科_ingest_工作流]] — 新來源 ingest 的候選排序、5-file batch cap、來源判級與回寫規則 — 分類：工具與Workflow — Tier 1
+- [[08_工具與Workflow/LLM_Warmth_Accuracy_Tradeoff]] — LLM 的 warm / validating style 可能降低 factual correction 並增加 sycophancy，wiki 維護時必須讓 Accuracy-First 高於 agreeableness — 分類：工具與Workflow — Tier 3
 - [[08_工具與Workflow/兒童發展聯評綜合報告骨架]] — 聯評報告應整合 child function、family / parenting 與 team recommendation，而不是多科意見拼貼 — 分類：工具與Workflow — Tier 2
 - [[08_工具與Workflow/知識百科_衝突處理規則]] — health check 與頁面更新時的衝突處理層級；定義主框架、新興證據與顯式標示原則 — 分類：工具與Workflow — Tier 1
 - [[08_工具與Workflow/Wiki_Health_Check_腳本]] — health check 腳本說明頁；整理可執行命令、測試與維護原則 — 分類：工具與Workflow — Tier 1
 
 ## 09 來源摘要
-- [[09_來源摘要/Poole_2020_anaerobic_threshold]] — Poole et al. 2020 J Physiol 50+ years AT review — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Poole_2020_anaerobic_threshold]] — Poole et al. 2020 J Physiol；AT 機制不再成立；GET/LT 為 moderate–heavy 邊界、CP/CS 為 heavy–severe 真正邊界 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Goulding_2021_VO2_kinetics_exercise_tolerance]] — Goulding/Rossiter 2021 ESSR；critical threshold + positive feedback 假說 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Goulding_Marwood_2023_critical_power_determinants]] — Sports Medicine 2023 review；CP 是 oxygen transport / utilization、fiber type 與 motor unit recruitment 共同決定的 aerobic function threshold — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Jones_Vanhatalo_2017_critical_power_concept]] — Jones & Vanhatalo 2017 Sports Med；CP 概念與 W'BAL 應用 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Gaesser_Poole_1996_VO2_slow_component]] — Gaesser & Poole 1996 ESSR 經典；V̇O₂ slow component 歷史與定義 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Beltz_2016_GXT_protocols]] — Beltz et al. 2016；GXT 歷史、verification、self-paced 趨勢 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism]] — Nature Metabolism 2020；骨骼肌運動代謝當代共識 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses]] — review article；acute exercise molecular response 可作 skeletal muscle adaptation 的工作模型，但 acute biomarker 不可直接外推 chronic phenotype — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Furrer_2023_molecular_athlete]] — review article；從 sedentary 到 elite athlete 整合 training principles、systems physiology、molecular networks 與個體差異，但機制仍不完整 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]] — Nature Reviews Molecular Cell Biology 2023 review；整理 skeletal muscle metabolic flexibility、mitochondrial subpopulations、acute substrate use、signaling / epigenetics 與 long-term adaptation — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Juarez_2024_CPET_in_heart_failure]] — JCDD 2024 narrative review；整理 heart failure 中 CPET 的 peak VO2、VE/VCO2 slope、AT、EOV、rehabilitation biomarkers 與 portable monitoring 應用 — 分類：來源摘要 — Tier 2
+- [[09_來源摘要/Pezzuto_Agostoni_2023_CPET_pulmonary_hypertension]] — JCM 2023 narrative review；整理 pulmonary hypertension 中 CPET 的 VE/VCO2、PETCO2、VD/VT、O2 pulse、risk cutoffs 與 RHC triage 應用 — 分類：來源摘要 — Tier 2
 - [[09_來源摘要/Exercise_textbook_chapter]] — textbook chapter；運動時 VO2、oxygen delivery、ventilation 與 symptom-limited testing 的整合骨架，AT/oxygen debt 屬 legacy framing — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Blemker_2023_fiber_type_traps]] — Blemker et al. 2023/2024；MHC、oxidative capacity、CSA、force 不可互相代替 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]] — Chorley & Lamb 2020；CP/W'、W' reconstitution 與 cycling prescription — 分類：來源摘要 — Tier 1
@@ -316,12 +364,14 @@
 - [[09_來源摘要/Spasticity]] — Francisco & Li；spasticity 的多成分模型與 multimodal management — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Auditory_vestibular_and_visual_impairments]] — Lew et al.；auditory / vestibular / visual rehab 與 DSI 骨架 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Traumatic_brain_injury]] — Wagner et al.；TBI 從 concussion 到 DoC、agitation、PSH 與 endocrine/sleep/vision complication — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Reina_Guerra_TBI_Umphred_neurorehabilitation]] — textbook chapter；moderate to severe TBI rehab 應用 ICF、phase-specific assessment、task analysis 與 long-term participation support 建模 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Stroke_rehabilitation]] — Yochelson et al.；stroke rehab 結合 recurrence vigilance、guideline-based sequelae care 與 exercise — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Spinal_cord_injury]] — Escalon et al.；SCI 的 ISNCSCI/AIS、autonomic/pulmonary/bowel/bladder 主架構 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Traumatic_Spinal_Cord_Injury]] — Ackerman et al.；traumatic SCI 從急性穩定、ISNCSCI/AIS、secondary complication prevention 到 lifelong community reintegration 的 textbook chapter — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Pain_Management]] — Burke-Doe & Johnson；pain management 要從 intensity-only 轉成 biopsychosocial / ICF、multidimensional assessment 與 active self-management — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Bradley_Daroff_Pain_Management]] — neurology textbook chapter；把 chronic pain 連到 sensitization、neuropathic medication、intervention 與 neurological pain syndromes — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Upper_Limb_Pain_and_Dysfunction]] — textbook chapter；upper limb pain 需同時看 kinetic chain、exam、rehab stage 與 urgent surgical referral — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Caldwell_Hamner_Hupe_Lower_Limb_Pain_Dysfunction]] — textbook chapter；lower limb pain 需用 region-based differential 與 high-risk structure screen 避免漏診 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Common_Neck_Problems]] — textbook chapter；neck pain 必須分 axial、somatic referred、radicular pain、radiculopathy 與 myelopathy — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Low_Back_Disorders]] — textbook chapter；LBP workflow 先分 red/yellow flags、radiculopathy、nonspecific pain 與 imaging intent — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Chronic_Pain]] — textbook chapter；chronic pain 是 physiology + psychosocial + function + opioid-risk 的 multidisciplinary problem — 分類：來源摘要 — Tier 1
@@ -346,12 +396,14 @@
 - [[09_來源摘要/Spinal_orthoses]] — Sanders et al.；spinal orthosis 的 prescription language、stability thinking 與 collar caveat — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Wheelchairs_and_seating_systems]] — Delgado-Lebron et al.；wheelchair/seating 是 iterative service-delivery process — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Therapeutic_exercise]] — Hryvniak et al.；FITT、screening、progression 與 special-population exercise prescription — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Maroto_2024_RIR_special_populations]] — practical review；RIR 可作 special populations 的 resistance intensity metric，但 direct clinical validation 仍不足 — 分類：來源摘要 — Tier 2
 - [[09_來源摘要/Manipulation_traction_and_massage]] — Tolchin et al.；manual therapy 條件式有效，traction 長期證據保守 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Physical_agent_modalities]] — Wu et al.；modalities 是 adjunct，acute icing evidence 並不強 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Integrative_medicine_in_rehabilitation]] — Pai et al.；integrative rehab 要同時看 evidence、drug interaction 與真實可用性 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Assistive_technology_and_environmental_control_devices]] — Chen & Kang；AT 要用 ICF 與 abandonment risk 一起解讀 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Prevention_and_management_of_pressure_injuries_and_chronic_ulcers]] — Andrews et al.；offloading 與病因分類比 dressing slogan 更重要 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Sexual_dysfunction_and_disability]] — Seemann et al.；sexual dysfunction in disability 需同時看 neurologic、psychosocial、medication 與 intimacy context — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Courtois_Cordeau_neurological_sexual_dysfunction]] — textbook chapter；neurological sexual dysfunction 應以 primary / secondary / tertiary impacts 建模，不可只看 ED 或單一路徑 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Vascular_diseases]] — Zheng et al.；PAD、venous disease 與 lymphedema 的 physiatric recognition / rehabilitation framework — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Rehabilitation_and_prosthetic_restoration_in_upper_limb_amputation]] — Hermansen & McKenty；upper limb amputation 的 surgical-prosthetic-rehab 連續路徑 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Occupational_medicine_and_vocational_rehabilitation]] — Saby et al.；return-to-work、workplace modification、FCE 與 work hardening 骨架 — 分類：來源摘要 — Tier 1
@@ -413,7 +465,7 @@
 - [[09_來源摘要/Developmental_behavioral_surveillance_and_screening_in_primary_care]] — UpToDate；surveillance、screening、evaluation 與 implementation burden 的當代 primary-care frame — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Early_Intervention]] — textbook chapter；Part C EI 的 eligibility、IFSP、natural environment 與 coaching 原則 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Emergent_literacy_including_language_development]] — UpToDate；shared reading、responsive interaction 與 emergent literacy 的預防框架 — 分類：來源摘要 — Tier 1
-- [[09_來源摘要/Encouraging_infant_communication_and_play]] — caregiver manual；讀懂 infant engagement cue 可用於教學，但僅屬 Tier 2 limited evidence — 分類：來源摘要 — Tier 2
+- [[09_來源摘要/Encouraging_infant_communication_and_play]] — Rogers/Vismara caregiver manual；用 cue reading、daily routines and communication bundles 教 infant communication/play，但 efficacy evidence limited — 分類：來源摘要 — Tier 2
 - [[09_來源摘要/Exertional_Leg_Pain_in_Runners]] — textbook chapter；跑者下腿痛需同時分辨 MTSS、CECS、PAES、bone stress injury 與 neuropathy — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Expressive_language_delay_late_talking_in_young_children]] — UpToDate；late talker 的 red flag、錯誤安慰句與早期 referral 原則 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Hamstring_muscle_and_tendon_injuries]] — UpToDate；hamstring spectrum 需分機制、位置、影像角色與 recurrence prevention — 分類：來源摘要 — Tier 1
@@ -445,7 +497,20 @@
 - [[09_來源摘要/Toddlerhood_and_the_Preschool_Years]] — textbook chapter；toddler-preschool 的核心是 self-regulation、play、language 與 school readiness — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Middle_Childhood]] — textbook chapter；school-age function 需同時看 learning、peer acceptance、self-regulation 與 self-concept — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Murano_2020_preschool_SEL_interventions]] — meta-analysis；preschool SEL 整體有益，但 program effect、risk stratification 與 home-school stacking 不能混成一條規則 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Scionti_2020_preschool_EF_cognitive_training]] — systematic review / meta-analysis；preschool EF cognitive training 改善 EF task outcomes，但 non-EF learning / behavior transfer 未建立 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Muir_2023_preschool_SR_EF_interventions]] — systematic review；preschool SR/EF interventions 可有急性效果，但 no single approach is clearly superior，design features 與 fidelity 才是關鍵 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Positive_Parenting_and_Support]] — textbook chapter；positive parenting 是可教、可練的 intervention，不是抽象勸說 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/WHO_guidelines_on_parenting_interventions]] — WHO guideline；parenting interventions 應作為 child maltreatment prevention 與 parent-child relationship enhancement 的 evidence-based program — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition]] — systematic review / meta-analysis；positive parenting interventions 改善 early mental abilities 與 language，但 EF / pre-academics direct effect 不明確 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Jeong_2021_parenting_interventions_ECD_first_three_years]] — systematic review / meta-analysis；0-3 歲 parenting interventions 改善多個 ECD 與 caregiving outcomes，但 heterogeneity、small-sample bias 與 caregiver depression null effect 限制外推 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes]] — systematic review / meta-analysis；HCP-ECD interventions 可能改善 infancy cognitive / motor outcomes 與 home environment，但 maternal mental health、language、EF / adaptive benefits 未建立 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/WHO_2020_improving_early_childhood_development_guideline]] — WHO guideline；0-3 歲 ECD recommendations 以 responsive caregiving、early learning、nutrition integration 與 maternal mental health support 為核心 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Caregiver_Skills_Training_Adaptation_and_Implementation_Guide]] — WHO implementation guide；CST adaptation 應以 minimal documented changes 保留 core components 與 implementation fidelity — 分類：來源摘要 — Tier 2
+- [[09_來源摘要/Caregiver_Skills_Training_Introduction]] — WHO CST introduction；定義 CST target population、course architecture、adult-learning methods、facilitator training/supervision 與 stepped-care boundary — 分類：來源摘要 — Tier 2
+- [[09_來源摘要/Caregiver_Skills_Training_Facilitators_Guide]] — WHO facilitators' guide；CST group sessions 以 coached practice、daily home practice 與 next-session review 形成 caregiver-mediated learning loop — 分類：來源摘要 — Tier 2
+- [[09_來源摘要/Caregiver_Skills_Training_Home_Visit_Guide_for_Facilitators]] — WHO home visit guide；三次 CST home visits 用 assessment、goal-setting、coaching 與 independent-practice planning 支撐個別化執行 — 分類：來源摘要 — Tier 2
+- [[09_來源摘要/Caregiver_Skills_Training_Participants_Guide]] — WHO participants' guide；用 caregiver-facing key messages、tips、home practice、learning checks 與 local resources template 支撐 CST 日常練習 — 分類：來源摘要 — Tier 2
+- [[09_來源摘要/Nurturing_Care_Practice_Guide]] — WHO / UNICEF practice guide；把 responsive caregiving、early learning、safety 與 caregiver well-being 嵌入 health / nutrition services — 分類：來源摘要 — Tier 2
 - [[09_來源摘要/Trauma_Resilience_and_Child_Development]] — textbook chapter；ACE、toxic stress、resilience 與 trauma-informed care 應一起構成 pediatric trauma frame — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/The_Influence_of_Digital_Media_on_Children_and_Families]] — textbook chapter；screen media 要看 content、context、parent mediation 與 developmental stage，不只看分鐘數 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Language_Development_and_Communication_Disorders]] — textbook chapter；language disorder 評估需同時看語言子系統、bilingualism、hearing 與 neurodevelopmental differential — 分類：來源摘要 — Tier 1
@@ -466,14 +531,16 @@
 - [[09_來源摘要/From_Resources_to_Routines_Stability]] — Harvard Working Paper 4；stability / predictability / routines 與 web of supports 框架 — 分類：來源摘要 — Tier 2
 - [[09_來源摘要/Mattering_in_Early_Childhood]] — Harvard working paper；mattering = feeling valued + adding value，並連回 stress buffering — 分類：來源摘要 — Tier 2
 - [[09_來源摘要/Connecting_the_Brain_to_the_Rest_of_the_Body]] — Harvard Working Paper 15；brain、immune 與 cardiometabolic systems 共同讀取早期環境，健康與學習不可切開 — 分類：來源摘要 — Tier 1
-- [[09_來源摘要/Connecting_Health_and_Learning]] — Harvard podcast；把 brain-body stress science 翻成 pediatric primary care、care coordination 與 family support 語言 — 分類：來源摘要 — Tier 2
+- [[09_來源摘要/Connecting_Health_and_Learning]] — Harvard podcast；把 brain-body stress science 轉成 pediatric primary care、family-centered care coordination、health equity 與 community resource network 的服務框架 — 分類：來源摘要 — Tier 2
 - [[09_來源摘要/Toxic_Stress_Brain_Architects_Podcast]] — Harvard podcast transcript；toxic stress 要和 resilience、social buffering 與 adult support 一起講 — 分類：來源摘要 — Tier 2
 - [[09_來源摘要/Why_Stability_Matters_Webinar]] — Harvard webinar transcript；stability 不是完全不變，sleep 與 daily reliability 也是 developmental infrastructure — 分類：來源摘要 — Tier 2
-- [[09_來源摘要/Self_Care_Isnt_Selfish]] — Harvard podcast；caregiver self-care、routine 與 mental health support 會直接影響 child buffering — 分類：來源摘要 — Tier 2
+- [[09_來源摘要/Self_Care_Isnt_Selfish]] — Harvard podcast；caregiver self-care 是維持 child stress-buffering capacity 的實際支持，不能和 caregiver mental health、basic needs、care coordination 切開 — 分類：來源摘要 — Tier 2
 - [[09_來源摘要/Mattering_Strategies]] — Harvard practical handout；把 mattering 翻成 serve-and-return、repair 與 contribution 的具體做法 — 分類：來源摘要 — Tier 2
 - [[09_來源摘要/Place_Matters]] — strategic brief；用 place、racism 與 policy 重新擴充 early childhood core story — 分類：來源摘要 — Tier 2
 - [[09_來源摘要/Connecting_Early_Childhood_Development_to_Climate_Change]] — FrameWorks brief；climate change 透過 direct exposure 與 caregiving disruption 進入 early childhood development — 分類：來源摘要 — Tier 2
+- [[09_來源摘要/Ibrahim_Hafner_Rocher_2026_warmth_accuracy_sycophancy]] — Nature 2026 original article；warmth fine-tuning 可降低 LLM factual accuracy 並增加 incorrect belief affirmation，提醒 wiki 維護需防 sycophancy — 分類：來源摘要 — Tier 3
 - [[09_來源摘要/Severinsen_Pedersen_2020_myokines_muscle_organ_crosstalk]] — Endocrine Reviews 2020；skeletal muscle 為 secretory organ，IL-6 是最強 human-supported myokine — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Chow_2022_exerkines_health_resilience_disease]] — Nature Reviews Endocrinology 2022；exerkines 以多器官 endocrine / paracrine / autocrine 訊號解釋 exercise adaptation，但臨床轉譯仍需謹慎 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/教孩子跟情緒做朋友]] — 科普書；情緒命名、先連結再引導與故事整合可作 caregiver coaching 語言 — 分類：來源摘要 — Tier 2
 - [[09_來源摘要/兒童發展聯合評估綜合報告書操作手冊_111年7月版]] — 官方手冊；聯評報告需納入 family / parenting / environment，而不只是 child deficit checklist — 分類：來源摘要 — Tier 2
 - [[09_來源摘要/Geor_2000_horse_warmup_VO2_VCO2_kinetics]] — Geor et al. 2000；equine warm-up 可加快 VO2 / VCO2 on-kinetics 並減少 O2 deficit，但 human translation 有限 — 分類：來源摘要 — Tier 3
@@ -486,9 +553,20 @@
 - [[09_來源摘要/Pettitt_Jamnick_2017_VO2max_verification_commentary]] — Pettitt & Jamnick 2017；verification bout 應結合 measurement variability 與 ramp redesign 一起解讀 — 分類：來源摘要 — Tier 3
 - [[09_來源摘要/Chorley_2021_biexponential_Wprime_reconstitution_trained_cyclists]] — Chorley et al. 2021；trained cyclists 的 repeated maximal ramps 支持 W' recovery 具 fast + slow phases — 分類：來源摘要 — Tier 3
 - [[09_來源摘要/Wright_2017_3min_allout_CP_validity]] — Wright et al. 2017；3-min all-out 的 EP 可能可估 CP，但 WEP 在兩種模式都低估 W' — 分類：來源摘要 — Tier 3
-- [[09_來源摘要/Building_Resilience_Through_Play]] — Harvard podcast；play 是 resilience-building 的 practical context，但仍需要 supportive relationship 作 scaffold — 分類：來源摘要 — Tier 2
-- [[09_來源摘要/Why_Sleep_Matters_in_Early_Childhood_Development]] — Harvard podcast；sleep 是 early childhood 的 active biologic process，不只是被動休息 — 分類：來源摘要 — Tier 2
+- [[09_來源摘要/Building_Resilience_Through_Play]] — Harvard podcast；play 可支持 resilience，但作用條件是 supportive relationship、manageable stress、child agency 與 core-skill practice — 分類：來源摘要 — Tier 2
+- [[09_來源摘要/Why_Sleep_Matters_in_Early_Childhood_Development]] — Harvard podcast；early childhood sleep 支撐 memory、emotion、growth、immune function、naps、light/circadian regulation and sleep environment — 分類：來源摘要 — Tier 2
 - [[09_來源摘要/Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery]] — Caen et al. 2019；W' 回補不只看 recovery，也受前一段 work-bout 特性影響 — 分類：來源摘要 — Tier 3
+- [[09_來源摘要/Cancer_Rehabilitation]] — textbook chapter；cancer rehabilitation 橫跨 survivorship、treatment toxicity、bone metastasis safety 與 phase-specific goals — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Geriatrics]] — textbook chapter；高齡復健以 sarcopenia、frailty、falls、4Ms、medication reconciliation 與 mobility 為骨架 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Osteoporosis]] — textbook chapter；osteoporosis rehab 需整合 BMD、fracture risk、posture、back extensor training 與 fall prevention — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Pelvic_Floor_Disorders]] — textbook chapter；pelvic floor disorder 需分 PFM tone、pain、coordination、continence、nerve 與 chronic pelvic pain — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Rehabilitation_of_Common_Rheumatological_Disorders]] — textbook chapter；rheumatic disease rehab 需結合 disease activity、joint biomechanics、education、exercise 與 joint protection — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Chronic_Medical_Conditions_Pulmonary_Disease_Organ_Transplantation_and_Diabetes]] — textbook chapter；慢性肺病、transplant 與 diabetes rehab 需 disease-specific exercise safety — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Acute_Medical_Conditions_Cardiopulmonary_Disease_Medical_Frailty_and_Renal_Failure]] — textbook chapter；acute medical rehab 以 cardiopulmonary physiology、frailty、early mobility 與 renal safety 為骨架 — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Burns]] — textbook chapter；burn rehabilitation 從 acute care 到 survivorship，重點是 pain、scar、contracture、exercise 與 reintegration — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Sports_Medicine_and_Adaptive_Sports]] — textbook chapter；sports medicine 需整合 team physician、EAP、training load、RTP、concussion 與 adaptive sports — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Impact_of_Drug_Therapy_on_Patients_Receiving_Neurological_Rehabilitation]] — textbook chapter；drug therapy 會改變 neurorehab safety、participation、motor learning 與 timing — 分類：來源摘要 — Tier 1
+- [[09_來源摘要/Aphasia_Prognosis_and_treatment]] — UpToDate topic review；poststroke aphasia 多自發改善至 1 年 plateau；SLT 為 Grade 2C 標準照護；藥物與 NIBS 無 routine 證據；需 monitor depression — 分類：來源摘要 — Tier 1
 
 ## Queries
 <!-- 高價值查詢結果回寫頁 -->

@@ -1,11 +1,12 @@
 ---
 title: 知識百科 ingest 工作流
 created: 2026-04-24
-updated: 2026-04-25
+updated: 2026-05-04
 type: workflow
 domain: [methodology]
 tags: [wiki_maintenance, ingest, source_triage, evidence_hierarchy, source_summary]
-sources: []
+sources:
+  - 09_來源摘要/Ibrahim_Hafner_Rocher_2026_warmth_accuracy_sycophancy.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -30,6 +31,14 @@ contradictions: []
 5. 單篇 `original article` 只能作補充或新興訊號，不可硬改主框架。
 6. 網站文字即使語氣肯定，也不能直接視為高等級證據。
 7. 發現與既有頁面衝突時，必須顯式標示，不能默默覆蓋。
+8. 使用 LLM 協作時，不能為了 warm / agreeable tone 接受錯誤前提；見 [[LLM_Warmth_Accuracy_Tradeoff]]。
+
+### LLM 協作 caveat：warmth 不可取代前提檢查
+
+- Ibrahim, Hafner & Rocher 2026 顯示，將 LLM 訓練成較 warm 的 persona 可在 factual QA、disinformation resistance、MedQA 與 sycophancy probes 上增加 error rates。
+- 這不是醫學證據來源；它是 workflow-level 警訊：source ingest 時若使用者前提錯誤，模型仍必須直接指出並修正。
+- 對本 repo，合理目標是 **warm but honest disagreement**，不是 validation-first。
+- 實作上，任何摘要或概念頁都應回到 source hierarchy、single-source boundary、Fact / Inference / Assumption / Uncertainty 分層。
 
 ### 來源類型與分級
 
