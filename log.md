@@ -5169,3 +5169,111 @@ index.md 更新：Total pages 7 → 16。
 - 待處理來源：
   - 概念頁 audit 視為下一輪工作項目；外部 raw 待處理來源沿用前一輪 stroke UpToDate 系列清單，未變動。
 
+## [2026-05-08] correction | Ferguson et al. 2010 — Effect of recovery duration from prior exhaustive exercise on the parameters of the power-duration relationship
+
+- 修正原因：
+  - 使用者要求跑完一輪完整 §6 流程，並選一篇運動生理相關文獻。
+  - 本來源於 2026-04-25 batch ingest（batch 29），依使用者 2026-05-01 cutoff 規則屬「之前不算」之列；舊摘要使用非 skill 模板（一句話定義 / 核心機制 / 臨床表現 / 評估方式 / ...），缺 Fact / Inference / Assumption / Uncertainty 分層、缺 Conflicts With Existing Knowledge 與 Pages That Should Be Created or Updated 段落，須依單一來源 workflow 重做。
+- 本輪單一來源：
+  - `C:\原始資料\ferguson-et-al-2010-effect-of-recovery-duration-from-prior-exhaustive-exercise-on-the-parameters-of-the-power-duration\effect of recovery duration from prior exhaustive exercise on the parameters of the power duration.md`
+  - 只完整處理此一篇來源；未混入 Skiba 2014、Skiba 2015、Caen 2019、Caen 2021、Chorley 2021、Lievens 2024 或其他 W' recovery raw source。
+- 重新建立來源摘要：
+  - `09_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion.md`（依 skill 模板完整重寫，覆蓋舊版）。
+- 更新頁面：
+  - `04_CPET/Wprime_Recovery.md`（補 t1/2 數值、CP 不變的統計、Ferguson 2010 對 fatigue-metabolite integration 假說的明確主張）。
+  - `04_CPET/Wprime_Balance_Model.md`（補 CP `P = 0.922`、三條 t1/2 與 fatigue-metabolite integration 對應）。
+  - `04_CPET/CP_Wprime_Interval_Design.md`（補 2 / 6 / 15 min 20-W recovery 對應的 W' 回補比例）。
+  - `index.md`（更新 Ferguson 2010 entry 描述；Last updated 2026-05-04 → 2026-05-08；Total pages 維持 540，本輪未新增獨立概念頁）。
+  - `log.md`（本則 correction）。
+- 抽出概念：
+  - Post-exhaustion W' recovery kinetics（與 VO2 / blood lactate 同步比對）：在 supra-CP exhaustive bout 後，CP 對 prior exhaustion 高度穩定，W' 才是承擔 fatigue 的主要參數；W' recovery 速度介於 VO2 與 blood lactate 之間，且不能用任一單一代謝 proxy 取代。
+- 本輪重新核對的直接事實：
+  - n=6 healthy recreationally active men（24 ± 4.2 yr；179.6 ± 7.5 cm；86.5 ± 15.3 kg）；cycle ergometer。
+  - Control：`CP ≈ 212 ± 34 W`、`W' ≈ 21.60 ± 5.16 kJ`、`VO2max ≈ 3.78 ± 0.56 L/min`、`θ̂L ≈ 1.87 ± 0.35 L/min`（≈ 49% VO2peak）、`WR6 ≈ 269 ± 34 W`、`[L−]LIM ≈ 10.14 mM`。
+  - Conditioning bout：`tLIM ≈ 366 ± 21 s`；`VO2peak` 與 `[L−]LIM` 與 control 不顯著差異。
+  - Postconditioning CP（`P = 0.922` vs control）：2-min Rec `213 ± 36 W`；6-min Rec `213 ± 34 W`；15-min Rec `213 ± 36 W`。
+  - Postconditioning W'（`P = 0.001` vs control）：2-min Rec `7.8 ± 1.4 kJ`（37 ± 5%）；6-min Rec `14.1 ± 3.7 kJ`（65 ± 6%）；15-min Rec `18.5 ± 4.6 kJ`（86 ± 4%）。
+  - Interpolated half-times：W' `t1/2 = 234 ± 32 s`；VO2 `t1/2 = 74 ± 2 s`；blood `[L−]` `t1/2 ≈ 1366 ± 799 s`。
+  - 「Baseline」 VO2 在 conditioning 結束後仍升高（2 min `1.37`、6 min `1.06`、15 min `0.87` L/min），代表 post-conditioning bout 起點 O2 deficit 較小，作者明文承認此為 efficiency caveat。
+  - 殘留 `[L−]`：2 min `10.00`、6 min `9.09`、15 min `6.43 mM`；即使 15 min 仍顯著高於 pre-exercise。
+  - Postconditioning P-tLIM 仍 hyperbolic（`R² > 0.994`）；CP / W' SE 維持 `< 3 W` / `< 1.25 kJ`。
+  - 作者主張：W' 不是單純 finite anaerobic store，而較可能反映 fatigue-related metabolite accumulation/clearance（Pi、K+、可能的 oxidative stress、glycogen / fiber-type-dependent depletion）的整合。
+- 移除或降級的陳述：
+  - 舊摘要的「臨床表現 / 評估方式 / 治療原則 / 臨床決策點 / 理解缺口 / 臨床使用版」段落結構違反 skill 模板，已移除；改採 Source Type / Reliability Level / One-Sentence Summary / Core Concepts Extracted / Clinically Useful Points / Research-Useful Points / Conflicts With Existing Knowledge / Pages That Should Be Created or Updated / Suggested Tags 結構。
+  - 舊摘要把 W' 與 VO2 / lactate 的比較寫成「W' recovery 介於 VO2 與 lactate recovery 之間」單行命題；改為列出三條具體 t1/2，並標明 Inference / Assumption。
+  - 舊摘要僅以「sample size 小、僅 healthy men、VO2 為 PCr proxy、exhaustion paradigm 不一定等同 partial depletion」四點限制；本輪補上 recovery power 僅 20 W、未做正式 mono / bi-exponential 模型擬合、未量 intramuscular `[PCr] / [L−] / [H+]` 等限制，並區分 Assumption（W' 在 conditioning 結束時 ≈ 0、postconditioning bout 中 W' 不再恢復、pulmonary VO2 為 muscle PCr proxy）與 Uncertainty。
+- 發現衝突：
+  - 與「W' = 一個有限 anaerobic 油箱，耗盡即 exhaustion」衝突：CP 不變、W' 曲線恢復、`[L−]LIM` 與 `VO2peak` 不隨 prior exhaustion 改變，與單純 finite-store 解釋不合。
+  - 與「W' recovery ≈ PCr / VO2 recovery」衝突：W' 慢於 VO2 約三倍 t1/2。
+  - 與「W' recovery ≈ lactate clearance」衝突：blood lactate t1/2 ≈ 1366 s，慢於 W' 約 5–6 倍。
+  - 與「prior heavy / supra-CP exercise 會降低 CP」衝突：本研究 CP 在三種 recovery 下皆不變，與 Coats et al. 2003 的 CP 可下降說法不一致；作者明確不採信 Coats 假設。
+  - 與「W'BAL 等於精確的 anaerobic balance」衝突：本研究強調 W' recovery 是 model-extracted whole-system construct，不是直接量到的儲量。
+- 待追蹤問題：
+  - 本研究 recovery power 僅 20 W、僅 cycle ergometer、僅 healthy male n=6；女性、青少年、長者、運動員、心肺患者、不同 mode 與不同 recovery power 仍待後續來源各自單一 ingest。
+  - 與 partial-depletion / non-exhaustion paradigm 的 cross-validation：本來源僅探討 full exhaustion；後續可挑 Skiba 2015、Caen 2019、Lievens 2024 進行 correction（Lievens 2024 本身已於 5/1 cutoff 後重做需求；本 worktree 仍為 4/25 batch 版本）。
+  - 是否新建獨立的 `Fatigue_Metabolite_Integration_Model_of_Wprime` 概念頁，待後續 Pi / K+ / Ca2+ handling 來源（如 Allen 2008、Sjogaard 1990 之外的近年 review）入庫後再決定。
+  - 「W'BAL 0 J 不等於精確 exhaustion 秒數」這條共通限制，目前散見於 Wprime_Balance_Model / Wprime_Recovery / CP_Wprime_Interval_Design 三頁，仍未獨立成 caveat 頁。
+- 待處理來源：
+  - 既有 raw verification queue 不變；本輪未引入新候選。
+  - W' recovery 舊 batch 來源剩餘 correction 候選：`Skiba_2014_work_recovery_durations_Wprime_reconstitution`、`Skiba_2015_intramuscular_determinants_Wprime_recovery`、`Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery`、`Bartram_2018_Wprime_recovery_elite_cyclists`、`Sreedhara_2020_Modeling_Wprime_Recovery`、`Chidnok_2013_intermittent_exercise_PCr_CP`、`Karsten_2016_intertrial_recovery_CP_Wprime`、`Karsten_2017_TT_vs_TTE_CP_Wprime`、`Chorley_2021_biexponential_Wprime_reconstitution_trained_cyclists`、`McMahon_Jenkins_PCr_resynthesis_after_intense_exercise`、`Lievens_2024_partial_Wprime_recovery`、`Caen_2021_Wprime_recovery_two_phase`、`Skiba_2012_modeling_Wprime_expenditure_reconstitution`、`Skiba_Clarke_Wprime_balance_model`、`Sreedhara_2019_power_energy_models`。
+
+## [2026-05-08] correction | Skiba et al. 2015 — Intramuscular determinants of the ability to recover work capacity above critical power
+
+- 修正原因：
+  - 使用者要求再跑一輪完整 §6 流程，並選一篇運動生理相關文獻。
+  - 上一輪 Ferguson 2010 correction 已釐清「W' recovery ≠ VO2 / lactate proxy」並列 Skiba 2015 為 W' recovery 舊 batch 來源剩餘 correction 候選；接續以 31P-MRS / 1H-MRS 直接檢驗「W' = PCr」假設的 Skiba 2015 為自然延續。
+  - 本來源於 2026-04-25 batch ingest（batch 29 後續 W' recovery 系列），依使用者 2026-05-01 cutoff 規則屬「之前不算」之列；舊摘要使用非 skill 模板（一句話定義 / 核心機制 / 臨床表現 / 評估方式 / 治療原則 / 臨床決策點 / 限制與未定論 / 理解缺口 / 臨床使用版），缺 Fact / Inference / Assumption / Uncertainty 分層、缺 Conflicts With Existing Knowledge 與 Pages That Should Be Created or Updated 段落，且把 [PCr] T1/2 寫成 38 s（與 Table 1 群均 39 ± 16 s 不一致），須依單一來源 workflow 重做。
+- 本輪單一來源：
+  - `C:\原始資料\s00421-014-3050-3\s00421-014-3050-3.md`
+  - 只完整處理此一篇來源；未混入 Ferguson 2010、Skiba 2012、Skiba 2014、Caen 2019、Caen 2021、Chorley 2021、Chidnok 2013、Lievens 2024、Sreedhara 2020 或其他 W' recovery raw source。
+- 重新建立來源摘要：
+  - `09_來源摘要/Skiba_2015_intramuscular_determinants_Wprime_recovery.md`（依 skill 模板完整重寫，覆蓋舊版）。
+- 更新頁面：
+  - `04_CPET/Wprime_Recovery.md`（補 [PCr] T1/2 修正為 39 ± 16 s、W' 個體範圍 135–426 s、`τ_[PCr]` vs `τ_W'` 不相關之 r/p、D[PCr] 與 model-predicted W' 的 r=0.99，並標 single-leg / passive recovery / CP ≈ 8.1 W / 60 s 早期採樣 caveat）。
+  - `04_CPET/Wprime_Balance_Model.md`（補新 `τ_W' = W'_0 / D_CP` 推導、Passing–Bablok systematic offset intercept ≈ 288 s、carnosine 為 exploratory）。
+  - `05_Exercise_Physiology/PCr_Resynthesis.md`（補 D[PCr] 與 oxidative reserve 概念、bulk [PCr] vs D[PCr] 對 `W'` 不同預測力，並標 single-leg passive recovery caveat；frontmatter updated 5/8）。
+  - `index.md`（更新 Skiba 2015 entry 描述以反映 D[PCr] / oxidative reserve / 新 τ 推導；Last updated 維持 2026-05-08；Total pages 維持 540，本輪未新增獨立概念頁）。
+  - `log.md`（本則 correction）。
+- 抽出概念：
+  - Intramuscular determinants of W' recovery（W' vs [PCr] vs pH vs carnosine）：使用 31P-MRS / 1H-MRS 同步追蹤 [PCr]、[Pi]、pH、carnosine，並以「conditioning bout / passive recovery / experimental bout」三段式 single-leg 模型，比較 W' recovery 與這些代謝指標的時間進程；本輪結論是 W' recovery 較貼近「再可動員的 oxidative reserve」（D[PCr] / D VO2），而不是 bulk PCr 儲量本身。
+- 本輪重新核對的直接事實：
+  - n=10 healthy recreationally trained subjects（4F/6M；age `22 ± 7 yr`；height `1.71 ± 0.1 m`；body mass `71.8 ± 15.4 kg`）；3 位 strength/power background、其餘 endurance；非高度訓練者。
+  - Phase 1（lab）：3–5 段 single-leg knee-extension to exhaustion（90–600 s，metronome 40 ext/min），以 work（`m × g × h`）對 time 線性回歸求 CP（slope）與 W'（y-intercept）；線性度 `r² = 0.99–1.0`。
+  - Phase 2（1.5T MRI bore）：4 次 trials；每次 conditioning bout（B_C）at `WR180` to exhaustion → passive 1 / 2 / 5 / 7 min recovery（leg fully extended on scanner bed）→ experimental bout（B_E）at the same `WR180` to exhaustion；W' recovery = work in B_E / work in B_C。
+  - 31P-MRS：每 12 s 一筆，spectral width 1500 Hz；jMRUI / AMARES fit `[Pi]、PCr、α/β/γ-ATP、PDE` peaks；intracellular pH 由 `Pi` 對 `PCr` chemical shift 估。
+  - 1H-MRS：right rectus femoris voxel `20 × 30 × 50 mm`、PRESS、TR 2000 ms / TE 31 ms / 96 averages；以 water peak 為內標。
+  - Group means：CP `8.1 ± 2.79 W`；W' `1.14 ± 0.93 kJ`。
+  - W' recovery：group mean `T1/2 = 232 ± 108 s`；個體範圍 `135–426 s`；group 線性回歸 `r = 0.99, p = 0.0009`；CUSUM 與 runs test 均不偏離線性；60 s 已恢復 `57%`，420 s 已恢復 `96%`。
+  - [PCr] recovery：group mean `T1/2 = 39 ± 16 s`（abstract 寫 `38 s`）；single-exp `r² = 0.99`、`τ ≈ 57 s`。
+  - B_C 結束 vs B_E 耗竭時 [PCr]、[Pi]、pH 在 4 個 recovery 條件下無顯著差異（`p = 0.98 / 0.31 / 0.07`）。
+  - `τ_[PCr]` vs interpolated `τ_W'`：`r = 0.38, p = 0.28`（無顯著相關）。
+  - D[PCr]（B_C 結束 [PCr] − B_E 耗竭 [PCr]）vs model-predicted W' recovery：`r = 0.99, p = 0.005`。
+  - 新 `τ_W' = W'_0 / D_CP` 推導（Appendix 1）vs Skiba 2012 既有 τ：`r = 0.84, p = 0.001`；Passing–Bablok systematic offset（intercept `288, 95% CI 235–350`），slope 非 proportional（`0.79, 95% CI 0.59–1.26`）。
+  - 個體層次 model vs 觀測 W' 線性回歸：6/10 顯著（`r = 0.96–0.99`，allow non-zero intercept）；強迫 zero intercept 時 10/10 顯著（`r = 0.88–0.98`）。
+  - carnosine vs `W' T1/2` inverse curvilinear `R² = 0.55`；剔除單一 outlier 後 `R² = 0.80`。
+  - pH 與 W' 強度 / W' recovery / pH 變化在所有層級皆無相關。
+  - Appendix 2：「微觀線性、巨觀曲線」假設模擬，提供 fiber/muscle 異質性建模路徑，但屬 hypothesis-level。
+- 移除或降級的陳述：
+  - 舊摘要的「臨床表現 / 評估方式 / 治療原則 / 臨床決策點 / 理解缺口 / 臨床使用版」段落結構違反 skill 模板，已移除；改採 Source Type / Reliability Level / One-Sentence Summary / Core Concepts Extracted / Clinically Useful Points / Research-Useful Points / Conflicts With Existing Knowledge / Pages That Should Be Created or Updated / Suggested Tags 結構。
+  - 舊摘要把 [PCr] T1/2 直接寫成「`38 s`」（abstract 文字），未標 group mean `39 ± 16 s` 的個體分散；本輪以 Table 1 群均為主、abstract 數字併陳。
+  - 舊摘要寫「研究中的 novel derivation 對 W' recovery 的預測和實測值相當接近」未標明 (a) Skiba 2012 既有資料與新 τ 之間 Passing–Bablok systematic offset，(b) 個體層次 6/10 顯著（須 non-zero intercept）、強迫 zero intercept 才 10/10 顯著；本輪補上。
+  - 舊摘要把 carnosine 與 `W' T1/2` 的 inverse 關係寫成「inverse curvilinear」未標 `R²` 與 outlier 敏感度；本輪補 `R² = 0.55` 含 outlier、`R² = 0.80` 排除後，並標 exploratory。
+  - 舊摘要的「W' = D[PCr] / oxidative reserve」單行寫法易被誤解為等價；本輪改述為 D[PCr] 與 model-predicted W' 高度相關（r=0.99），並區分 D[PCr] 與 actual measured W' 的 r=0.93（接近但未達 p<0.05 顯著）。
+  - 舊摘要把 single-leg 線性 vs whole-body 曲線形差異略帶過；本輪補上「微觀線性、巨觀曲線」hypothesis 與 60 s 採樣 caveat 兩種解釋。
+- 發現衝突：
+  - 與「W' = 一個 PCr / anaerobic 油箱」衝突：bulk `[PCr]` 比 `W'` 快約 6×，且 `τ_[PCr]` 與 `τ_W'` 不相關。
+  - 與「W' recovery 可用單一 universal `tau` 完整描述」衝突：本研究個體 T1/2 範圍 `135–426 s`，且 `τ_W' = W'_0 / D_CP` 由 D_CP 與 W'_0 共同決定。
+  - 與「W' recovery 在 small muscle 與 whole-body 完全相同」衝突：本研究 group mean 為線性、whole-body（Ferguson 2010、Skiba 2012）為曲線形；需以 Appendix 2 微觀 - 巨觀模型 / 取樣不足解釋。
+  - 與「pH 是 W' 主要 mediator」衝突：pH at exhaustion / pH recovery / pH 變化與 W' 無相關。
+  - 與「Skiba 2012 的 empirical `τ_W' = 546 e^(−0.01·D_CP) + 316` 為 universal recovery formula」衝突：作者自己引入的新推導顯示 systematic offset，代表舊式不該外推到不同 modality / 個體。
+  - 與「W'BAL 是直接量到的真實剩餘油箱」衝突：本研究反覆強調 W' recovery 為 model-extracted、whole-system construct。
+- 待追蹤問題：
+  - 本研究為 single-leg knee-extension、passive recovery、CP ≈ 8.1 W；女性次群體分析、trained athletes、心肺族群、不同 mode（cycle / row / run）與不同 recovery power 仍待後續來源各自單一 ingest。
+  - W' recovery 舊 batch 來源剩餘 correction 候選下一輪可挑 `Skiba_2012_modeling_Wprime_expenditure_reconstitution`（核對新 τ 推導的原始驗證資料）、`Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery`（W' 對 prior bout architecture 的依賴性）或 `Sreedhara_2020_Modeling_Wprime_Recovery`（recovery power × duration 的 over-prediction by SK2 / BAR）。
+  - carnosine vs W' 為 exploratory；後續若有 β-alanine supplementation RCT + 31P/1H-MRS 來源入庫，可獨立成 `Carnosine_and_Muscle_Performance` 概念頁。
+  - D[PCr] / oxidative reserve 概念可考慮與 `D VO2` 整合為單獨概念頁，但需多一輪 correction 後再評估。
+  - 「W'BAL 0 J 不等於精確 exhaustion 秒數」這條共通限制，目前散見於三頁，仍未獨立成 caveat 頁。
+- 待處理來源：
+  - 既有 raw verification queue 不變；本輪未引入新候選。
+  - W' recovery 舊 batch 來源剩餘 correction 候選（已扣除本輪處理之 Skiba 2015）：`Skiba_2014_work_recovery_durations_Wprime_reconstitution`、`Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery`、`Bartram_2018_Wprime_recovery_elite_cyclists`、`Sreedhara_2020_Modeling_Wprime_Recovery`、`Chidnok_2013_intermittent_exercise_PCr_CP`、`Karsten_2016_intertrial_recovery_CP_Wprime`、`Karsten_2017_TT_vs_TTE_CP_Wprime`、`Chorley_2021_biexponential_Wprime_reconstitution_trained_cyclists`、`McMahon_Jenkins_PCr_resynthesis_after_intense_exercise`、`Lievens_2024_partial_Wprime_recovery`、`Caen_2021_Wprime_recovery_two_phase`、`Skiba_2012_modeling_Wprime_expenditure_reconstitution`、`Skiba_Clarke_Wprime_balance_model`、`Sreedhara_2019_power_energy_models`。
+

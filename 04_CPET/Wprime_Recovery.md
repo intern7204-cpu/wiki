@@ -1,7 +1,7 @@
 ---
 title: W' Recovery（W' reconstitution）
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-08
 type: concept
 domain: [CPET, exercise_physiology, methodology]
 tags: [W_prime, recovery, critical_power, W_BAL, interval_exercise, aerobic_fitness]
@@ -60,19 +60,25 @@ W' recovery 指的是 severe-domain effort 後，**再次可用的 work capacity
 
 ### 2. 但 W' recovery 不等於 PCr recovery
 
-- [[../09_來源摘要/Skiba_2015_intramuscular_determinants_Wprime_recovery]] 顯示：
-  - bulk `[PCr]` recovery half-time 約 `38 s`
-  - `W'` recovery half-time 約 `232 s`
-- 結論不是 PCr 無關，而是 **W' 不是單一 PCr tank 的別名**。
+- [[../09_來源摘要/Skiba_2015_intramuscular_determinants_Wprime_recovery]] 在 single-leg knee-extension 的 31P-MRS 模型中（n=10）顯示：
+  - bulk `[PCr]` recovery half-time 約 `39 ± 16 s`（abstract 寫 `38 s`）
+  - `W'` recovery half-time 約 `232 ± 108 s`（個體 `135–426 s`）
+  - `τ_[PCr]` 與 interpolated `τ_W'` **無顯著相關**（`r = 0.38, p = 0.28`）
+  - 但 `D[PCr]`（B_C 結束 [PCr] − B_E 耗竭 [PCr]，亦即 oxidative reserve 概念）與 model-predicted W' recovery `r = 0.99, p = 0.005`
+- 結論不是 PCr 無關，而是 **W' 不是單一 PCr tank 的別名**：和 `W'` 較貼近的是「再可用的 oxidative reserve」（`D[PCr]` / `D VO2`），而非「PCr 是否回到很高」。
+- 注意 caveat：本研究為 single-leg、passive recovery、`CP ≈ 8.1 W`、最早採樣 60 s；外推到 cycling / whole-body / active recovery 須保守。
 
 ### 3. exhaustion 後 recovery 確實是曲線式，但不等於單一代謝 proxy
 
-- [[../09_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion]] 顯示：
-  - recovery `2 / 6 / 15 min` 後，`W'` 約回到 `37% / 65% / 86%`
-  - `CP` 幾乎不變
-  - `W'` recovery half-time 約 `234 s`
-  - `VO2` recovery 較快、lactate recovery 較慢
-- 結論是：**W' recovery 有自己的 whole-system kinetics，不能直接縮成單一 `VO2` 或 lactate 曲線。**
+- [[../09_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion]] 顯示（n=6 男性、cycle ergometer、20-W active recovery）：
+  - 在 supra-CP exhaustive conditioning bout 後，`recovery 2 / 6 / 15 min` 對應的 `W'` 約回到 `37 ± 5% / 65 ± 6% / 86 ± 4%`。
+  - `CP` 幾乎不變（`213 ± 36 / 213 ± 34 / 213 ± 36 W` vs control `212 ± 34 W`，`P = 0.922`）。
+  - 三條 interpolated half-time：
+    - `W'` recovery：`t1/2 ≈ 234 ± 32 s`
+    - `VO2` recovery：`t1/2 ≈ 74 ± 2 s`
+    - blood `[L−]` recovery：`t1/2 ≈ 1366 ± 799 s`
+  - 作者明確主張：W' 並非單純的 finite anaerobic store，而較可能反映 **fatigue-related metabolite accumulation/clearance 的整合過程**（Pi、K+、可能的 oxidative stress 與 glycogen/fiber-type-dependent depletion）。
+- 結論是：**W' recovery 有自己的 whole-system kinetics，不能直接縮成單一 `VO2` 或 lactate 曲線；CP 不變不代表整體未疲勞。**
 
 ### 4. exhaustion data 常支持 fast + slow phase
 

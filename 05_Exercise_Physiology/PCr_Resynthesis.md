@@ -1,7 +1,7 @@
 ---
 title: PCr Resynthesis（phosphocreatine recovery）
 created: 2026-04-23
-updated: 2026-04-25
+updated: 2026-05-08
 type: concept
 domain: [exercise_physiology, methodology]
 tags: [PCr, phosphocreatine, ADP, Pi, oxidative_phosphorylation, mitochondrial_function, 31P_MRS]
@@ -117,10 +117,13 @@ contradictions: []
 - [[../04_CPET/Critical_Power]] 上方運動會持續消耗 PCr、累積 Pi。
 - W' reconstitution 與 PCr recovery 強相關，但 **W' 恢復通常比 PCr 更慢**，因此 W' 不等於單一 PCr 儲量。
 - 這也是 [[../04_CPET/Training_Prescription_by_CP]] 中 interval recovery 必須看整體系統，而不能只看短期 PCr 的原因。
-- Skiba 2015 提供了一個更直接的 MRS-based例子：
-  - bulk `[PCr]` recovery half-time 約 **38 s**
-  - `W'` recovery half-time 約 **232 s**
-  - 與 `W'` recovery 更貼近的是 `D[PCr]` / oxidative reserve，而不是把 W' 硬翻譯成「PCr 回來多少」。
+- Skiba 2015 提供了一個更直接的 MRS-based 例子（single-leg knee-extension, n=10）：
+  - bulk `[PCr]` recovery half-time 約 **39 ± 16 s**（abstract `38 s`）
+  - `W'` recovery half-time 約 **232 ± 108 s**（個體範圍 `135–426 s`）
+  - `τ_[PCr]` 與 `τ_W'` 之間 **r = 0.38, p = 0.28**（無顯著相關）。
+  - 而 `D[PCr]`（B_C 結束 [PCr] − B_E 耗竭 [PCr]，亦即「再可動員的 oxidative reserve」）與 model-predicted `W'` recovery `r = 0.99, p = 0.005`。
+  - 因此 W' recovery 的較貼近指標是 `D[PCr]` / oxidative reserve，而不是把 W' 硬翻譯成「bulk PCr 回來多少」。
+  - Caveat：本研究為 single-leg passive recovery、`CP ≈ 8.1 W`、最早採樣 60 s；單腳 group mean 呈線性，與 whole-body 曲線形不同；外推到 cycling / running 須保守。
 - Caen 2021 的 whole-body cycling 則補上一個 practical layer：
   - exhaustion 後的 `W'` recovery 呈 fast + slow phase
   - 較快的 `VO2` kinetics 可解釋部分短休息回補

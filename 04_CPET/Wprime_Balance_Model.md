@@ -1,7 +1,7 @@
 ---
 title: W' Balance Model（W'BAL）
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-08
 type: method
 domain: [CPET, exercise_physiology, methodology]
 tags: [W_BAL, W_prime, critical_power, intermittent_exercise, modeling]
@@ -77,14 +77,17 @@ W'BAL 是把 **CP/W' 延伸到 intermittent exercise** 的實用模型，用來�
 - Chidnok 2013 用 `31P-MRS` 顯示：recovery interval 越長，PCr reconstitution 越多，intermittent `W>CP` 就越大。
 - 這不等於 `W'BAL` 已被「證明為唯一正確模型」。
 - 但它提供了一個重要方向：**reconstitution 不是純數學幻覺，而與 muscle metabolic recovery 有一致的生理訊號**。
-- Skiba 2015 進一步顯示：
-  - `W'` recovery half-time 約 **232 s**
-  - bulk `[PCr]` recovery half-time 約 **38 s**
-  - 與 W' 更貼近的是 `D[PCr]` / oxidative reserve 的概念，而不是把 `W'` 直接等同於一個 PCr tank。
+- Skiba 2015 進一步在 single-leg knee-extension（n=10）裡用 31P-MRS / 1H-MRS 顯示：
+  - `W'` recovery half-time 約 **232 ± 108 s**（個體 `135–426 s`）
+  - bulk `[PCr]` recovery half-time 約 **39 ± 16 s**（abstract `38 s`）
+  - 但 `τ_[PCr]` 與 `τ_W'` **無顯著相關**（`r = 0.38, p = 0.28`）；與 W' 較貼近的是 `D[PCr]` / oxidative reserve（`r = 0.99, p = 0.005`），而不是 bulk PCr 是否回到很高。
+  - 同篇還推導了不需 fitting 的新 `τ_W' = W'_0 / D_CP`；對 Skiba 2012 既有資料 `r = 0.84` 但 Passing–Bablok 顯示 systematic offset（intercept ≈ 288 s，slope ≈ 0.79），代表新推導要當成 starting point 而非 universal formula。
+  - carnosine 與 `W' T1/2` 的 inverse curvilinear 關係 `R² = 0.55`（剔除單一 outlier 升至 0.80）屬 exploratory，非 mechanism 結論。
 - Ferguson 2010 也支持這個方向：
-  - prior exhaustion 後 `CP` 幾乎不變
-  - `W'` recovery 呈 curvilinear，且速度慢於 `VO2` recovery、快於 lactate recovery
-  - 這代表 `W'` 不是單一 PCr / `VO2` / lactate proxy
+  - prior exhaustion 後 `CP` 幾乎不變（`P = 0.922` 跨 2 / 6 / 15 min recovery）
+  - `W'` recovery 呈 curvilinear（`37 / 65 / 86%` 對應 2 / 6 / 15 min recovery），interpolated `t1/2 ≈ 234 s`
+  - `VO2` recovery 顯著較快（`t1/2 ≈ 74 s`）、blood lactate recovery 顯著較慢（`t1/2 ≈ 1366 s`）
+  - 這代表 `W'` 不是單一 PCr / `VO2` / lactate proxy，而較可能是 **fatigue-metabolite accumulation/clearance 的整合**
 - Caen 2021 的 whole-body cycling 也支持這個方向：
   - `W'BAL` 對 `<5 min` 的 recovery 系統性偏慢
   - 更快的 `VO2` kinetics 能解釋部分短休息恢復，但不是全部

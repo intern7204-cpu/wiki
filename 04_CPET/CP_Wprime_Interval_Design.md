@@ -1,7 +1,7 @@
 ---
 title: CP / W' Interval Design（以 CP / W' 設計 severe-domain intervals）
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-08
 type: method
 domain: [CPET, exercise_physiology, training]
 tags: [critical_power, W_prime, interval_training, W_BAL, severe_domain, recovery_prescription]
@@ -87,7 +87,7 @@ contradictions:
 ### 3. recovery 不能只寫「休多久」
 
 - [[../09_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery]] 提醒 recovery power 可能比單看 duration 更關鍵。
-- [[../09_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion]] 與 [[../09_來源摘要/Caen_2021_Wprime_recovery_two_phase]] 顯示 exhaustion 後 recovery 常呈 curvilinear，短 recovery 尤其不像單一固定 `tau`。
+- [[../09_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion]] 與 [[../09_來源摘要/Caen_2021_Wprime_recovery_two_phase]] 顯示 exhaustion 後 recovery 常呈 curvilinear，短 recovery 尤其不像單一固定 `tau`；Ferguson 2010 還顯示在 20-W active recovery 之 `2 / 6 / 15 min` 後，`W'` 約只回到 `37 / 65 / 86%`，且 CP 不變。
 - [[../09_來源摘要/Lievens_2024_partial_Wprime_recovery]] 又反向提醒：
   - partial depletion 不一定需要硬套 biexponential
   - 但固定 `tau` 仍不足
