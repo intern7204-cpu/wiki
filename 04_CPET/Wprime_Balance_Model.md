@@ -48,10 +48,15 @@ W'BAL 是把 **CP/W' 延伸到 intermittent exercise** 的實用模型，用來�
 
 ### 1. integral form
 
-- 代表性來源：Skiba 早期模型。
-- 核心 original article（Skiba 2012）把 intermittent exercise 的 `W'` 消耗 / 回補寫成連續方程式，並提出早期 `tau-W'` 與 `DCP` 的經驗式。
-- 優點：實務上應用廣。
-- 問題：假設 ongoing microscopic recovery，極端情境可能出現不合理行為。
+- 代表性來源：Skiba 2012（n=7 male recreational cyclists、60 s severe / 30 s recovery）。
+- 連續方程式：`W'_bal(t) = W' − ∫₀ᵗ W'_exp · exp(−(t−u)/τ_W') du`。
+- 經驗 τ 公式：`τ_W' = 546 · exp(−0.01 · D_CP) + 316`（r² = 0.77；S20+S_M+S_H 合併迴歸）。
+- 群均 `τ_W'`：S20（20 W）`377 ± 29 s`、S_M（0.9·P_GET）`452 ± 81 s`、S_H（GET+50%·(CP−GET)）`578 ± 105 s`、S_S（>CP）`7056 ± 11 169 s`（發散，模型在 P > CP 失效）。
+- 適用範圍：recovery < CP；P > CP 時 `τ_W'` 失去物理意義，僅代表 depletion 速率變慢。
+- 假設：(a) `τ_W'` 由 iterative fit 得，強制 W'BAL = 0 在 exhaustion 時；(b) recovery 期間 power 視為固定；(c) 一個 session 內單一 τ。
+- subj 4（VO2max > 5 L/min）的 τ 在 S20 與 S_M 之間幾乎不變，提示高度有氧訓練者需 individualized τ；後續 Bartram 2018 elite cyclist 公式即此延伸。
+- 優點：實務上應用廣，提供 race-data simulation 的具體公式。
+- 問題：假設 ongoing microscopic recovery，極端情境可能出現不合理行為；Skiba & Clarke 2021 後續指出 Eq 3 原文有 dimensional ambiguity（du vs dt），需明寫成 convolution integral。
 
 ### 2. differential / ODE form
 
@@ -91,9 +96,13 @@ W'BAL 是把 **CP/W' 延伸到 intermittent exercise** 的實用模型，用來�
 - Caen 2021 的 whole-body cycling 也支持這個方向：
   - `W'BAL` 對 `<5 min` 的 recovery 系統性偏慢
   - 更快的 `VO2` kinetics 能解釋部分短休息恢復，但不是全部
-- Skiba 2014 再補一個 practical caveat：
-  - 同樣目標 depletion，不同 work / recovery duration 排列，`W'ACT` 可實際高於 `W'BAL`
-  - 也就是 session architecture 本身就會改變 model error
+- Skiba 2014 在 11 位 recreational athletes（5M/6F）的 cycle 模型，固定 work power = `P6 + 50%(P6 − CP)`、recovery power = 20 W、目標 50% depletion 的 6 種 protocol 中：
+  - 整體均值：W'_pred 6.76 ± 1.13 kJ vs W'_ACT 8.34 ± 1.42 kJ，Diff = `−1.58 ± 1.06 kJ`；模型平均 underprediction，但條件性顯著。
+  - 顯著 underprediction：20-30 (`−1.86 kJ`)、20-20 (`−2.77 kJ`)、20-10 (`−2.78 kJ`)。
+  - 不顯著：60-30 (`−0.22 kJ`)、40-30 (`−1.19 kJ`)、20-5 (`−0.75 kJ`)。
+  - 同 work-recovery ratio = 2、同 mean P 的 60-30 vs 20-10：`W'_ACT 7.35 vs 8.27 kJ`、fitted `τ_W' 403 vs 234 s`，差 ~12% / ~170 s，顯示「同 ratio 同 mean P ≠ 同效果」。
+  - subj 9（CP 366 W、`τ_W' = 104 s` in 60-30）已超出 Skiba 2012 經驗式漸近 316 s，作者明文呼籲「personalized predictive function」（後續 Bartram 2018 elite cyclist 公式即此延伸）。
+  - 也就是 session architecture 本身就會改變 model error，且 `W'BAL` 無法靠單一 D_CP-only 經驗 τ 公式描述 short-work / short-recovery 的 priming 效應。
 - Caen 2019 則再往前推一步：
   - recovery 不只受 recovery interval 決定
   - 前一段 exhaustive bout 的 intensity-duration 特性也會改變後續 `W'` reconstitution

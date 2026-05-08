@@ -5277,3 +5277,123 @@ index.md 更新：Total pages 7 → 16。
   - 既有 raw verification queue 不變；本輪未引入新候選。
   - W' recovery 舊 batch 來源剩餘 correction 候選（已扣除本輪處理之 Skiba 2015）：`Skiba_2014_work_recovery_durations_Wprime_reconstitution`、`Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery`、`Bartram_2018_Wprime_recovery_elite_cyclists`、`Sreedhara_2020_Modeling_Wprime_Recovery`、`Chidnok_2013_intermittent_exercise_PCr_CP`、`Karsten_2016_intertrial_recovery_CP_Wprime`、`Karsten_2017_TT_vs_TTE_CP_Wprime`、`Chorley_2021_biexponential_Wprime_reconstitution_trained_cyclists`、`McMahon_Jenkins_PCr_resynthesis_after_intense_exercise`、`Lievens_2024_partial_Wprime_recovery`、`Caen_2021_Wprime_recovery_two_phase`、`Skiba_2012_modeling_Wprime_expenditure_reconstitution`、`Skiba_Clarke_Wprime_balance_model`、`Sreedhara_2019_power_energy_models`。
 
+## [2026-05-08] correction | Skiba et al. 2012 — Modeling the Expenditure and Reconstitution of Work Capacity above Critical Power
+
+- 修正原因：
+  - 使用者要求繼續跑下一輪 §6 流程；上一輪 Skiba 2015 correction 顯示新 `τ_W' = W'_0 / D_CP` 推導對 Skiba 2012 既有資料 r = 0.84 但 Passing–Bablok 有 systematic offset；自然下一輪是把 W'BAL 起源論文 Skiba 2012 也改成 SKILL 模板，並把 Skiba 2015 / Skiba & Clarke 2021 / Sreedhara 2020 / Bartram 2018 的後續 caveat 反向標回起點。
+  - 本來源於 2026-04-25 batch ingest 的 W' recovery 系列，依使用者 2026-05-01 cutoff 規則屬「之前不算」之列；舊摘要使用非 skill 模板（一句話定義 / 核心機制 / 臨床表現 / 評估方式 / 治療原則 / 臨床決策點 / 限制與未定論 / 理解缺口 / 臨床使用版），缺 Fact / Inference / Assumption / Uncertainty 分層、缺 Conflicts With Existing Knowledge 與 Pages That Should Be Created or Updated 段落，且舊摘要未列出具體 τ 值（S20 377 / S_M 452 / S_H 578 / S_S 7056 s）、未引出 race simulation 的 1.5 kJ 閾值、未明寫 iterative fit 的 W'BAL = 0 boundary 假設，須依單一來源 workflow 重做。
+- 本輪單一來源：
+  - `C:\原始資料\modeling_the_expenditure_and_reconstitution_of.15\modeling_the_expenditure_and_reconstitution_of.15.md`
+  - 只完整處理此一篇來源；未混入 Ferguson 2010、Skiba 2013（biconditional / SK2）、Skiba 2014、Skiba 2015、Caen 2019、Caen 2021、Chorley 2021、Chidnok 2012/2013、Lievens 2024、Sreedhara 2020、Bartram 2018、Skiba & Clarke 2021 或其他 W' recovery raw source。
+- 重新建立來源摘要：
+  - `09_來源摘要/Skiba_2012_modeling_Wprime_expenditure_reconstitution.md`（依 skill 模板完整重寫，覆蓋舊版）。
+- 更新頁面：
+  - `04_CPET/Wprime_Balance_Model.md`（補 Eq 3 連續方程式、經驗式 r² = 0.77、四個 recovery 條件下的群均 τ 值與 S_S 條件 τ 發散、boundary condition 的 iterative fit、subj 4 outlier 對個別化 τ 的早期提示、Skiba & Clarke 2021 dimensional ambiguity 的反向 caveat）。
+  - `04_CPET/Wprime_Recovery.md`（新增 §12「跨研究 τ_W' 數量級驗證互相對齊」：Skiba 2012 S20 τ ≈ 377 s、Ferguson 2010 ≈ 336 s、Bogdanis 1995 ≈ 333 s 三者一致；recovery power 從 20 W 到 heavy 的 τ 漸大）。
+  - `04_CPET/CP_Wprime_Interval_Design.md`（在「recovery 不能只寫休多久」段補 Skiba 2012 具體 τ：S20 377 / S_M 452 / S_H 578 s 的具體 fact，且 P > CP 時 τ 直接發散）。
+  - `index.md`（更新 Skiba 2012 entry 描述以反映 integral form / 經驗 τ 公式 / 四 condition τ 值 / VO2 上升相關 r²；Last updated 維持 2026-05-08；Total pages 維持 540，本輪未新增獨立概念頁）。
+  - `log.md`（本則 correction）。
+- 抽出概念：
+  - W'BAL integral form 模型的提出與經驗 τ_W' = f(D_CP) 公式：Skiba 2012 用連續方程式 `W'_bal(t) = W' − ∫₀ᵗ W'_exp · exp(−(t−u)/τ_W') du` 將 intermittent exercise 的 W' 消耗 / 回補連起來；以 iterative fit（強制 W'BAL = 0 at exhaustion）求得 τ_W'，並提出 τ_W' = 546·exp(−0.01·D_CP) + 316 為 group-fit 經驗式（r² = 0.77）。
+- 本輪重新核對的直接事實：
+  - n=7 healthy male recreational athletes（age `26 ± 5 yr`；height `1.79 ± 0.06 m`；body mass `81 ± 6 kg`）；non-highly-trained。
+  - Lode Excalibur Sport cycle ergometer；Jaeger Oxycon Pro / Triple V breath-by-breath gas exchange。
+  - 起始：30 W/min ramp（VO2max、GET）、3-min all-out test（CP、W'）。
+  - Group means：W' `21.1 ± 4.7 kJ`；CP `240 ± 56 W`；VO2max `4.10 ± 0.778 L/min`；個體 W' 14.3–28 kJ、CP 187–351 W、VO2max 3.19–5.59 L/min。
+  - 主 protocol：60 s work at `P6 + 50% × (P6 − CP)` + 30 s recovery，重複至 exhaustion；recovery 強度 4 種：S20（20 W）、S_M（0.9·P_GET）、S_H（GET + 50% × (CP − GET)）、S_S（P6 − 50% × (P6 − CP)，仍 > CP）。
+  - 群均 τ_W'（Table 2）：S20 `377 ± 29 s`（個體 cluster 370–380、subj 4 = 321 s）、S_M `452 ± 81 s`、S_H `578 ± 105 s`、S_S `7056 ± 11 169 s`（個體 596–30 758 s，模型在 P > CP 失效）。
+  - τ_W' vs CP（per condition）：S20 r² = 0.53, p = 0.06；S_M r² = 0.64, p = 0.03；S_H r² = 0.48, p = 0.08；S_S r² = 0.07, p = 0.56。
+  - τ_W' vs D_CP（S20+S_M+S_H 合併）：r² = 0.67, p < 0.0001；最佳擬合 `τ_W' = 546·exp(−0.01·D_CP) + 316`（r² = 0.77；SE：a = 86.11、k = 0.004、b = 61.8）；亦能用 bilinear 描述。
+  - modeled W' 消耗 vs VO2 above baseline 的逐 interval 上升：representative subj 2 → S20 r² = 0.91、S_M r² = 0.87、S_H r² = 0.88；group r² 範圍 `0.82–0.96`，p = 0.0002–0.0049。
+  - Real-world race simulation（單案例）：amateur cyclist road race，CP 227 W、peak power 409 W、τ_W' = 440 s（recovery power 取 sub-CP 平均 75 W）；W' balance 接近 1.5 kJ 時被迫降功率，55.4 min 退賽。
+  - Bogdanis 1995 30 s sprint power output recovery τ ≈ 333 s 與本研究 S20 條件 τ_W' = 377 s 接近；Ferguson 2010 cycling 推算的 τ_W' ≈ 336 s 與本研究 S20 接近。
+  - 提出 two-compartment model（Eq 5）作為未來方向：`W'_bal = W' − ∫ [k₁·exp(−(t−u)/τ₁) + k₂·exp(−(t−u)/τ₂)] · w(u) du`，對應 Type I / Type II fiber pool；本研究未檢驗。
+- 移除或降級的陳述：
+  - 舊摘要的「臨床表現 / 評估方式 / 治療原則 / 臨床決策點 / 理解缺口 / 臨床使用版」段落結構違反 skill 模板，已移除；改採 Source Type / Reliability Level / One-Sentence Summary / Core Concepts Extracted / Clinically Useful Points / Research-Useful Points / Conflicts With Existing Knowledge / Pages That Should Be Created or Updated / Suggested Tags 結構。
+  - 舊摘要寫「modeled W' balance 與 VO2 rise 有相關」未量化；本輪補 r² = 0.82–0.96、p = 0.0002–0.0049。
+  - 舊摘要沒列具體 τ 值；本輪補四個 condition 的群均 τ（S20 377 / S_M 452 / S_H 578 / S_S 7056 s）與個體 SD。
+  - 舊摘要未交代 iterative fit 的 boundary condition；本輪補 W'_bal = 0 at exhaustion 的循環假設。
+  - 舊摘要未提 race simulation；本輪補 amateur cyclist 案例（CP 227 W、退賽 55.4 min、1.5 kJ 閾值）並標明為 retrospective 單案例。
+  - 舊摘要未交代 two-compartment Eq 5 為作者提出的 future direction；本輪補進 Inference / Research-Useful Points 段，並標為 hypothesis-level。
+  - 舊摘要未連回 Skiba & Clarke 2021 的 dimensional ambiguity 與 Skiba 2015 的 chemical-kinetics 推導；本輪在 Conflicts / Uncertainties / Pages to Update 段明確接回後續修正脈絡。
+- 發現衝突：
+  - 與「W' 是固定 anaerobic 油箱、與 oxidative function 無關」衝突：τ_W' 隨 D_CP 改變，且 modeled W' 消耗與 pulmonary VO2 上升強相關。
+  - 與「Morton & Billat 2004 的 linear W' depletion / linear reconstitution」衝突：本研究採 curvilinear（exponential）reconstitution。
+  - 與「W'BAL 可外推到任意 recovery power」衝突：經驗式只適用 P_recovery < CP；S_S 條件 τ_W' 發散。
+  - 與「同一 group-average τ_W' 適用所有族群」衝突：subj 4（VO2max > 5 L/min）在 S20 與 S_M 之間 τ 幾乎不變，提示高度有氧訓練者需個別化 τ；後續 Bartram 2018 elite cyclist 公式即此延伸。
+  - 與「W'BAL = 0 J 等於精確 exhaustion 秒數」衝突：本研究自身的 fitting 流程強制 W'_bal = 0 at exhaustion，是模型 boundary 而非獨立驗證；race simulation 中的 1.5 kJ 閾值更明確顯示 W'BAL = 0 不是物理零點。
+- 待追蹤問題：
+  - Skiba 2014（biconditional / SK2 model with `τ = W'_0 / D_CP`）為本來源的直接後續，可下一輪 correction；該處將連動 Sreedhara 2020 對 SK2 / BAR overprediction 的批評。
+  - Bartram 2018 elite cyclist 公式（`τ = 2287.2 · D_CP^(−0.688)`）回應本研究 subj 4 outlier；需單獨 correction，並補 elite vs recreational athlete 的應用界線。
+  - Skiba 2015 已於上輪 correction；其新 `τ_W' = W'_0 / D_CP` 推導與本來源的 `τ_W' = 546·exp(−0.01·D_CP) + 316` 之間 Passing–Bablok systematic offset，應在 Wprime_Balance_Model 概念頁的 future audit 中以表格化方式並列。
+  - 「W'BAL 0 J 不等於精確 exhaustion 秒數」這條共通限制，目前散見於 Wprime_Balance_Model / Wprime_Recovery / CP_Wprime_Interval_Design 三頁，仍未獨立成 caveat 頁；待 Sreedhara 2020 與 Bartram 2018 也完成 correction 後再考慮拆出 `Wprime_Recovery_Model_Comparison.md` 一頁集中。
+  - two-compartment hypothesis（Eq 5）對應 Caen 2021 fast + slow phase 的後續實證；可在後續 Caen 2021 重新 audit 時以反向標註方式回連。
+- 待處理來源：
+  - 既有 raw verification queue 不變；本輪未引入新候選。
+  - W' recovery 舊 batch 來源剩餘 correction 候選（已扣除本輪處理之 Skiba 2012）：`Skiba_2014_work_recovery_durations_Wprime_reconstitution`、`Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery`、`Bartram_2018_Wprime_recovery_elite_cyclists`、`Sreedhara_2020_Modeling_Wprime_Recovery`、`Chidnok_2013_intermittent_exercise_PCr_CP`、`Karsten_2016_intertrial_recovery_CP_Wprime`、`Karsten_2017_TT_vs_TTE_CP_Wprime`、`Chorley_2021_biexponential_Wprime_reconstitution_trained_cyclists`、`McMahon_Jenkins_PCr_resynthesis_after_intense_exercise`、`Lievens_2024_partial_Wprime_recovery`、`Caen_2021_Wprime_recovery_two_phase`、`Skiba_Clarke_Wprime_balance_model`、`Sreedhara_2019_power_energy_models`。
+
+## [2026-05-08] correction | Skiba et al. 2014 — Effect of Work and Recovery Durations on W' Reconstitution during Intermittent Exercise
+
+- 修正原因：
+  - 使用者要求「完整跑一次流程 就結束」；上一輪 Skiba 2012 correction 在「待追蹤問題」明白點名 Skiba 2014（biconditional / SK2 model 對應論文）為下一輪 correction 候選，且該處將連動 Sreedhara 2020 的 SK2 / BAR overprediction 批評。
+  - 本來源於 2026-04-25 batch ingest 的 W' recovery 系列，依使用者 2026-05-01 cutoff 規則屬「之前不算」之列；舊摘要使用非 skill 模板（一句話定義 / 核心機制 / 臨床表現 / 評估方式 / 治療原則 / 臨床決策點 / 限制與未定論 / 理解缺口 / 臨床使用版），缺 Fact / Inference / Assumption / Uncertainty 分層、缺 Conflicts With Existing Knowledge 與 Pages That Should Be Created or Updated 段落，且未列出 6 trial 群均的 W'_pred / W'_ACT / Diff / fitted τ / VO2_start 具體數值，未明寫 60-30 vs 20-10 同 ratio 對比、未引出 subj 9 outlier 對 personalized τ 的呼籲、未連動 Skiba 2012 boundary fit 假設，須依單一來源 workflow 重做。
+- 本輪單一來源：
+  - `C:\原始資料\effect_of_work_and_recovery_durations_on_w_.20\effect_of_work_and_recovery_durations_on_w_.20.md`
+  - 只完整處理此一篇來源；未混入 Ferguson 2010、Skiba 2012、Skiba 2015、Skiba & Clarke 2021、Caen 2019、Caen 2021、Chidnok 2012/2013、Lievens 2024、Sreedhara 2020、Bartram 2018、Burnley 2011、Vanhatalo 2010 或其他 W' recovery / priming raw source。
+- 重新建立來源摘要：
+  - `09_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution.md`（依 skill 模板完整重寫，覆蓋舊版）。
+- 更新頁面：
+  - `04_CPET/Wprime_Balance_Model.md`（補 6 trial 群均結果 + 顯著條件 vs 不顯著條件、60-30 vs 20-10 同 ratio 同 mean P 但 W'_ACT 差 12% / τ 差 170 s、subj 9 outlier 對 personalized τ 的更強支持）。
+  - `04_CPET/Wprime_Recovery.md`（在「interval structure 本身會改變回補表現」§8 補上具體數字 fitted τ_W' 60-30 = 403 vs 20-10 = 234 s、VO2_start 線性 priming 訊號、D_VO2 vs W'_ACT 相關 r = 0.79）。
+  - `04_CPET/CP_Wprime_Interval_Design.md`（在「不能只看平均功率或總工作量」段補 60-30 vs 20-10 對比、顯著 underprediction 集中在 20-30 / 20-20 / 20-10、limit work ≤ 20 s recovery 10–20 s 的 cycle / recreational 限制）。
+  - `index.md`（更新 Skiba 2014 entry 描述以反映 6 trial 結果與 60-30 vs 20-10 對比；Last updated 維持 2026-05-08；Total pages 維持 540，本輪未新增獨立概念頁）。
+  - `log.md`（本則 correction）。
+- 抽出概念：
+  - Interval architecture（work × recovery duration）對 W' reconstitution 的影響與 W'BAL 模型的條件性失準：固定 work power、recovery power、目標總 depletion，改變 work duration（60 / 40 / 20 s）或 recovery duration（30 / 20 / 10 / 5 s）後，W'BAL 平均 underprediction 約 −1.6 kJ，但 short-work 或 short-recovery 條件下 W'_ACT 系統性高於 model 預測；同 ratio 同 mean P 的 60-30 vs 20-10 給出顯著不同結果，提示 architecture 是處方獨立維度。
+- 本輪重新核對的直接事實：
+  - n = 11（5M / 6F；男 27.4 ± 6 yr / 1.84 ± 0.08 m / 85.2 ± 18 kg；女 25.2 ± 1.6 yr / 1.67 ± 0.12 m / 65.3 ± 12.7 kg）；recreational athletes、非高度訓練；familiar with lab CPET。
+  - 起始：30 W/min ramp（VO2max、GET）、3-min all-out test（CP、W'，依 Vanhatalo 2007）。
+  - Work power 共用：`P_EXP = P6 + 50% × (P6 − CP)`（super-severe）；recovery power 全 20 W；6 trials × 隨機順序 × 2 週內完成。
+  - 6 trial 結果（Table 1，群均 ± SD）：
+    - 60-30：W'_pred 7.13、W'_ACT 7.35、Diff −0.22 (NS)；τ_W' 403；VO2_start 2753。
+    - 40-30：W'_pred 7.79、W'_ACT 8.98、Diff −1.19 (NS for W')；τ_W' 302；VO2_start 2524。
+    - 20-30：W'_pred 7.74、W'_ACT 9.60、Diff −1.86 (P<0.01)；τ_W' 263；VO2_start 2229。
+    - 20-20：W'_pred 6.96、W'_ACT 9.73、Diff −2.77 (P<0.01)；τ_W' 212；VO2_start 2414。
+    - 20-10：W'_pred 5.49、W'_ACT 8.27、Diff −2.78 (P<0.01)；τ_W' 234；VO2_start 2910。
+    - 20-5：W'_pred 5.28、W'_ACT 6.03、Diff −0.75 (NS for W')；τ_W' 337；VO2_start 3333。
+  - 整體均值：W'_pred 6.76 ± 1.13、W'_ACT 8.34 ± 1.42、Diff −1.58 ± 1.06 kJ；Tlim 整體 underprediction −27 ± 19 s；fitted τ_W' 274 ± 69 s。
+  - 各 trial VO2peak 接近恆定（≈ 3436–3493 mL/min），無顯著差異。
+  - VO2_start 線性 priming 訊號：work 縮短 60→20 s 使 VO2_start 線性下降（r = 0.99, p = 0.07）；recovery 縮短 30→5 s 使 VO2_start 線性上升（r = 0.99, p < 0.01）。
+  - D_VO2 = VO2peak − VO2_start 與 W'_ACT 相關 r = 0.79, p < 0.01；Fig 5 標 r² = 0.63 並指出單一 outlier 拉動。
+  - 60-30 vs 20-10 同 ratio = 2、同 mean P：W'_ACT 7.35 vs 8.27 kJ（多 +0.92 kJ ≈ 12%）；τ_W' 403 vs 234 s（快 ~170 s）。
+  - 2 週訓練效應：CP 群均 +18 ± 20 W（顯著，~9%）；W' −0.6 ± 0.6 kJ (NS)；CP 與 W' 改變 inverse correlation r = 0.89；3MT peak VO2 +260 ± 223 mL/min（顯著，~8%）。
+  - subj 9 outlier：CP 366 W、τ_W' 104 s in 60-30，超出 Skiba 2012 經驗式漸近 316 s 達 200 s 以上；作者明文呼籲「personalized predictive function」。
+  - VO2 trace 形狀：60-30 / 40-30 sawtooth；20-30 / 20-20 / 20-10 / 20-5 變成 slow curvilinear rise。
+  - 作者實務建議：limit work ≤ 20 s + recovery 10–20 s 在本研究 condition 下後續 CWR 表現最佳（單篇 cycle / recreational 證據）。
+- 移除或降級的陳述：
+  - 舊摘要的「臨床表現 / 評估方式 / 治療原則 / 臨床決策點 / 理解缺口 / 臨床使用版」段落結構違反 skill 模板，已移除；改採 Source Type / Reliability / One-Sentence Summary / Core Concepts Extracted / Clinically Useful Points / Research-Useful Points / Conflicts With Existing Knowledge / Pages That Should Be Created or Updated / Suggested Tags 結構。
+  - 舊摘要寫「W'BAL 和 W'_ACT 的差大約 −1.6 ± 1.1 kJ」未標單位 SD；本輪改為 −1.58 ± 1.06 kJ 並列出 6 trial 個別數值與顯著性。
+  - 舊摘要寫「短 work intervals 會讓可用 W' 比預測更多」未量化；本輪補 20-30 (−1.86)、20-20 (−2.77)、20-10 (−2.78 kJ) 顯著差距與 60-30 / 20-5 不顯著。
+  - 舊摘要寫「baseline VO2 與後續可用 W' 有關 r = 0.79」未標 over-leveraging caveat；本輪補上 r² = 0.63 且作者明示單一 outlier 拉動。
+  - 舊摘要未提 60-30 vs 20-10 同 ratio 同 mean P 對比；本輪補進 fact list 與三個概念頁。
+  - 舊摘要未提 VO2_start 線性 priming 訊號 / VO2 sawtooth 退化；本輪補進 Mechanism Chain。
+  - 舊摘要未提 subj 9 outlier 對 personalized τ 的呼籲；本輪補進 Inferences 並標為 Bartram 2018 elite cyclist 公式的前置動機。
+  - 舊摘要未明寫 fitted τ 用 W'BAL = 0 at exhaustion 的 boundary 假設；本輪在 Assumptions 與 Conflicts 段重申此循環性。
+- 發現衝突：
+  - 與「W'BAL 模型可獨立於 interval architecture 預測 W'_ACT」衝突：6 trial 中 3 條（20-30 / 20-20 / 20-10）顯著 underprediction，最大差 −2.78 kJ。
+  - 與「同 mean power、同 ratio = 同效果」衝突：60-30 vs 20-10 同維度但 W'_ACT 差 +0.92 kJ、τ_W' 快 ~170 s。
+  - 與「W' = 一個固定 anaerobic 油箱、與 priming / metabolite 無關」衝突：D_VO2 與 W'_ACT 正相關支持「muscle reserve / VO2 baseline / fiber recruitment 影響可動員的 W'」。
+  - 與「Skiba 2012 的 τ_W' = 546·exp(−0.01·D_CP) + 316 為 universal recovery formula」衝突：6 trial recovery power 全固定 20 W、D_CP 幾乎相同，仍出現 fitted τ 從 212 s（20-20）到 403 s（60-30）的跨度 ~190 s。
+  - 與「W'BAL = 0 為精確 exhaustion 秒數」衝突：本研究自身強制 W'BAL = 0 at CWR exhaustion，是 fitting boundary 而非獨立驗證；20-20 / 20-10 條件 W'_ACT 比預測高 ~50%，更顯示 W'BAL = 0 不是物理零點。
+  - 與「priming exercise 必為 heavy domain 才有效」衝突：本研究 intermittent 段 mean P 多落在 heavy domain，但縮短 recovery 至 5 s 反而使 priming 消失（20-5 trial Diff −0.75 kJ, NS）；priming dose-response 需精細處方。
+  - 與「Skiba 2012 經驗式可外推到 trained athletes」衝突：subj 9（CP 366 W、τ_W' 104 s in 60-30）超出公式漸近 316 s，預示 Bartram 2018 elite cyclist 公式的必要性。
+- 待追蹤問題：
+  - Bartram 2018 elite cyclist 公式（`τ = 2287.2 · D_CP^(−0.688)`）回應本研究 subj 9 outlier；可下一輪 correction，並補 elite vs recreational athlete 的應用界線。
+  - Sreedhara 2020 用本研究的 SK2 / BAR 比較顯示 over-prediction，可下一輪 correction 補 SK2 / BAR / individualized model 的對照量化。
+  - Caen 2019（W' 對 prior bout architecture 的依賴性）為本研究 architecture effect 的另一條獨立驗證；可下一輪 correction。
+  - 後續 multi-source synthesis：完成 Bartram 2018、Sreedhara 2020、Caen 2019 三篇 single-source correction 後，可考慮拆出 `04_CPET/Wprime_Recovery_Model_Comparison.md` 一頁集中表格化各 τ formulation。
+  - VO2_slow_component 概念頁尚未補進「priming → VO2_start 降低 → 後續 W'_ACT 增加」的明確實證；待後續補。
+- 待處理來源：
+  - 既有 raw verification queue 不變；本輪未引入新候選。
+  - W' recovery 舊 batch 來源剩餘 correction 候選（已扣除本輪處理之 Skiba 2014）：`Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery`、`Bartram_2018_Wprime_recovery_elite_cyclists`、`Sreedhara_2020_Modeling_Wprime_Recovery`、`Chidnok_2013_intermittent_exercise_PCr_CP`、`Karsten_2016_intertrial_recovery_CP_Wprime`、`Karsten_2017_TT_vs_TTE_CP_Wprime`、`Chorley_2021_biexponential_Wprime_reconstitution_trained_cyclists`、`McMahon_Jenkins_PCr_resynthesis_after_intense_exercise`、`Lievens_2024_partial_Wprime_recovery`、`Caen_2021_Wprime_recovery_two_phase`、`Skiba_Clarke_Wprime_balance_model`、`Sreedhara_2019_power_energy_models`。
+

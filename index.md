@@ -344,7 +344,7 @@
 - [[09_來源摘要/Bartram_2018_Wprime_recovery_elite_cyclists]] — Bartram et al. 2018；elite cyclists 的 W' recovery 可能快於 Skiba 2 預測 — 分類：來源摘要 — Tier 3
 - [[09_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP]] — Chidnok et al. 2013；31P-MRS 顯示較長 interval recovery 伴隨更多 PCr reconstitution 與更大 W'>CP tolerance — 分類：來源摘要 — Tier 3
 - [[09_來源摘要/Skiba_Clarke_Wprime_balance_model]] — Skiba & Clarke；W'BAL integral / differential model 的方法學與限制整理 — 分類：來源摘要 — Tier 1
-- [[09_來源摘要/Skiba_2012_modeling_Wprime_expenditure_reconstitution]] — Skiba et al. 2012；早期 integral W'BAL 方程式與 tau-W' 對 DCP 的經驗式來源 — 分類：來源摘要 — Tier 3
+- [[09_來源摘要/Skiba_2012_modeling_Wprime_expenditure_reconstitution]] — Skiba et al. 2012；n=7 male recreational cyclist 60s/30s intermittent；首次提出 W'BAL integral form 與經驗 τ_W' = 546·exp(−0.01·D_CP) + 316（r²=0.77）；S20 τ ≈ 377s、S_M 452s、S_H 578s、S_S 發散；modeled W' 消耗與 VO2 上升 r²=0.82–0.96；race simulation 顯示 W'BAL < 1.5 kJ 對應 perceived exhaustion — 分類：來源摘要 — Tier 3
 - [[09_來源摘要/Skiba_2015_intramuscular_determinants_Wprime_recovery]] — Skiba et al. 2015；single-leg 31P/1H-MRS 顯示 bulk [PCr] T1/2 ≈ 39 s 而 W' T1/2 ≈ 232 s 且兩者 τ 不相關（r=0.38），但 D[PCr] / oxidative reserve 與 model-predicted W' 高度相關（r=0.99）；推導出新 τ_W' = W'_0 / D_CP — 分類：來源摘要 — Tier 3
 - [[09_來源摘要/McMahon_Jenkins_PCr_resynthesis_after_intense_exercise]] — McMahon & Jenkins；PCr recovery 有 fast / slow phase，早期較像 ADP 驅動，後段更受 pH 恢復影響 — 分類：來源摘要 — Tier 1
 - [[09_來源摘要/Caen_2021_Wprime_recovery_two_phase]] — Caen et al. 2021；exhaustion 後 W' recovery 較像 two-phase process，且短 recovery 易被單一 tau 低估 — 分類：來源摘要 — Tier 3
@@ -547,7 +547,7 @@
 - [[09_來源摘要/Zhang_1991_fitness_VO2_VCO2_step_kinetics]] — Zhang et al. 1991；fitter subjects 的 VO2 / VCO2 step kinetics 較快，且 VO2 會隨更高步階逐步變慢 — 分類：來源摘要 — Tier 3
 - [[09_來源摘要/Lievens_2024_partial_Wprime_recovery]] — Lievens et al. 2024；partial W' depletion 資料不明確支持 biexponential，但固定 tau 仍不足 — 分類：來源摘要 — Tier 3
 - [[09_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion]] — Ferguson et al. 2010；exhaustion 後 CP 幾乎不變，W' 在 2 / 6 / 15 min 20-W recovery 後曲線式回到 ~37 / 65 / 86%，速度介於 VO2（快）與 lactate（慢）之間，支持 W' 反映 fatigue-metabolite integration 而非單一 anaerobic store — 分類：來源摘要 — Tier 3
-- [[09_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution]] — Skiba et al. 2014；W'BAL 整體可用，但 interval structure 仍會改變實際 W' reconstitution — 分類：來源摘要 — Tier 3
+- [[09_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution]] — Skiba et al. 2014；n=11 cycle、6 trials × 同 50% depletion 同 recovery power 20 W；W'BAL 整體 underprediction −1.6 kJ 但條件性顯著（20-30 / 20-20 / 20-10），同 ratio 同 mean P 的 60-30 vs 20-10 卻 W'_ACT 差 ~12% / τ 差 ~170 s；D_VO2 與 W'_ACT r=0.79 — 分類：來源摘要 — Tier 3
 - [[09_來源摘要/Francescato_Cettolo_2021_VO2_fitting_window]] — Francescato & Cettolo 2021；VO2 kinetics 的 tau 會被 fitting window 明顯改變，固定 20 秒不是中性選擇 — 分類：來源摘要 — Tier 3
 - [[09_來源摘要/Ma_2010_Heaviside_VO2_kinetics_equation]] — Ma et al. 2010；above-LT VO2 kinetics 的 delayed term 若要真正分段，應明確加入 Heaviside gating — 分類：來源摘要 — Tier 3
 - [[09_來源摘要/Pettitt_Jamnick_2017_VO2max_verification_commentary]] — Pettitt & Jamnick 2017；verification bout 應結合 measurement variability 與 ramp redesign 一起解讀 — 分類：來源摘要 — Tier 3

@@ -118,10 +118,11 @@ W' recovery 指的是 severe-domain effort 後，**再次可用的 work capacity
 
 ### 8. interval structure 本身會改變回補表現
 
-- [[../09_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution]] 顯示：
-  - `W'BAL` 整體上仍有實用性
-  - 但短 work intervals 或某些短 recovery 結構，會讓 `W'ACT` 高於模型預測
-- 這代表 severe-domain interval 不能只看總工作量，還要看 session architecture。
+- [[../09_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution]]（n=11、cycle、recovery power 全 20 W、6 trials × 同 50% depletion target）顯示：
+  - `W'BAL` 整體可用，平均 underprediction 約 `−1.6 ± 1.06 kJ`；但條件性失準：20-30 / 20-20 / 20-10 trial `W'_ACT` 顯著高於預測（`−1.86` / `−2.77` / `−2.78 kJ`）。
+  - 60-30 vs 20-10 同 ratio = 2、同 mean P，但 fitted `τ_W'` 為 `403` vs `234 s`，且 `W'_ACT` 多 ~12%；recovery power 都固定 20 W、D_CP 幾乎相同，所以差異不能用 Skiba 2012 的 D_CP-only 公式解釋。
+  - VO2_start 的 priming 訊號：work duration 縮短（60→40→20 s）使 `VO2_start` 線性下降，sawtooth pattern 退化為 slow curve；recovery duration 縮短（30→5 s）使 `VO2_start` 線性上升；`D_VO2` 與 `W'_ACT` 正相關 `r = 0.79, p < 0.01`（作者標單一 outlier 拉動）。
+- 這代表 severe-domain interval 不能只看總工作量或同 ratio，還要看 session architecture（work duration、recovery duration、recovery power）三者共同決定。
 
 ### 9. athlete-specific difference 很大
 
@@ -143,6 +144,14 @@ W' recovery 指的是 severe-domain effort 後，**再次可用的 work capacity
   - `CP` 仍可接近
   - `W'` agreement 則明顯變差
 - 這提醒我們：`W'` recovery 不只是模型問題，也會直接反映在 **測試輸入值本身的脆弱性**。
+
+### 12. 跨研究的 τ_W' 數量級驗證互相對齊
+
+- [[../09_來源摘要/Skiba_2012_modeling_Wprime_expenditure_reconstitution]]（n=7 male recreational cyclists、60 s severe / 30 s recovery）：
+  - S20 條件下 `τ_W' ≈ 377 ± 29 s`（個體 cluster 370–380 s）
+  - 經驗式 `τ_W' = 546 · exp(−0.01 · D_CP) + 316`（r² = 0.77）
+  - recovery 從 20 W（S20）→ 0.9·P_GET（S_M）→ heavy（S_H），`τ_W'` 從 `377` 漲到 `452`、再到 `578 s`；越接近 CP 回補越慢。
+- 對齊 Ferguson 2010（whole-body cycling）的 interpolated `τ_W' ≈ 336 s` 與 Bogdanis 1995 的 30 s sprint power output recovery `τ ≈ 333 s`，三者數量級一致，支持 W' recovery 確實有「conserved 數百秒尺度」訊號；但個體與 recovery power 的差異仍大。
 
 ## 臨床表現
 

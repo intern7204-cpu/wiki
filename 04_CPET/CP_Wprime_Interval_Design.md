@@ -55,10 +55,12 @@ contradictions:
 
 ### 不能只看平均功率或總工作量
 
-- [[../09_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution]] 顯示：
-  - 即使 model 預測的 `W'BAL depletion` 類似
-  - 不同 work / recovery structure 仍可能保留不同的實際可用 `W'`
-- 所以 interval architecture 本身就是處方的一部分。
+- [[../09_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution]] 在 11 位 recreational athletes 的 cycle 模型中（recovery power 全固定 20 W、6 trials × 同 50% depletion target）顯示：
+  - 即使 model 預測的 `W'BAL depletion` 類似，不同 work / recovery structure 仍可能保留不同的實際可用 `W'`。
+  - **同 ratio = 2、同 mean P 不等於同效果**：60-30 vs 20-10 兩個 protocol 的 mean P 與 work-recovery ratio 全相同，但 `W'_ACT` 為 `7.35 vs 8.27 kJ`、fitted `τ_W'` 為 `403 vs 234 s`；20-10 多保留 ~12% 可用 W'，且 recovery 速度快約 170 s。
+  - 顯著 underprediction 集中在 short-work / short-recovery 條件：20-30、20-20、20-10（W'_ACT 比預測多 1.86–2.78 kJ）；60-30、40-30、20-5 則無顯著差異。
+  - 作者實務建議：limit work ≤ 20 s、recovery 10–20 s 在本研究 condition 下使後續 CWR 表現最佳；但這是 cycle / recreational athlete 單篇證據，不可作為 microinterval 通用處方。
+- 所以 interval architecture 本身就是處方的一部分；work duration、recovery duration、recovery power 三者要分別寫清楚。
 
 ## 方法學重點
 
@@ -88,6 +90,7 @@ contradictions:
 
 - [[../09_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery]] 提醒 recovery power 可能比單看 duration 更關鍵。
 - [[../09_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion]] 與 [[../09_來源摘要/Caen_2021_Wprime_recovery_two_phase]] 顯示 exhaustion 後 recovery 常呈 curvilinear，短 recovery 尤其不像單一固定 `tau`；Ferguson 2010 還顯示在 20-W active recovery 之 `2 / 6 / 15 min` 後，`W'` 約只回到 `37 / 65 / 86%`，且 CP 不變。
+- [[../09_來源摘要/Skiba_2012_modeling_Wprime_expenditure_reconstitution]] 在 60 s severe / 30 s recovery 的 intermittent protocol 中具體量化 recovery power 的影響：同樣 30 s 恢復，從 20 W（S20）→ 0.9·P_GET（S_M）→ heavy（S_H），`τ_W'` 從 `377` 漲到 `452`、再到 `578 s`；P > CP 時 `τ_W'` 直接發散，不再有淨回補。
 - [[../09_來源摘要/Lievens_2024_partial_Wprime_recovery]] 又反向提醒：
   - partial depletion 不一定需要硬套 biexponential
   - 但固定 `tau` 仍不足
