@@ -6,7 +6,7 @@ type: concept
 domain: [pediatrics, development, early_childhood_development, guideline, nurturing_care]
 tags: [WHO, ECD, guideline, responsive_caregiving, early_learning, nutrition_services, maternal_mental_health, first_three_years]
 sources:
-  - 09_來源摘要/WHO_2020_improving_early_childhood_development_guideline.md
+  - 10_來源摘要/WHO_2020_improving_early_childhood_development_guideline.md
 source_tier: 1
 evidence_level: guideline
 confidence: high
@@ -109,4 +109,4 @@ Routine health / nutrition / early-childhood contact
 - [[Parenting_Interventions_生命前三年ECD與Caregiving_Outcomes]]
 - [[Positive_Parenting_Interventions_對Early_Cognition與Language]]
 - [[兒童餵食問題的生理與行為分流]]
-- [[../09_來源摘要/WHO_2020_improving_early_childhood_development_guideline]]
+- [[../10_來源摘要/WHO_2020_improving_early_childhood_development_guideline]]

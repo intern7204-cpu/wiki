@@ -6,13 +6,13 @@ type: method
 domain: [CPET, methodology]
 tags: [VO2max, VO2peak, plateau, verification_protocol, HRmax, RER, test_duration]
 sources:
-  - 09_來源摘要/Beltz_2016_GXT_protocols.md
-  - 09_來源摘要/Bentley_Newell_Bishop_2007_incremental_exercise_test_design.md
-  - 09_來源摘要/Midgley_2008_VO2max_test_duration.md
-  - 09_來源摘要/Poole_Jones_2017_VO2max_verification.md
-  - 09_來源摘要/Pettitt_Jamnick_2017_VO2max_verification_commentary.md
-  - 09_來源摘要/Lambrick_2009_RPE13_VO2max_prediction.md
-  - 09_來源摘要/Juarez_2024_CPET_in_heart_failure.md
+  - 10_來源摘要/Beltz_2016_GXT_protocols.md
+  - 10_來源摘要/Bentley_Newell_Bishop_2007_incremental_exercise_test_design.md
+  - 10_來源摘要/Midgley_2008_VO2max_test_duration.md
+  - 10_來源摘要/Poole_Jones_2017_VO2max_verification.md
+  - 10_來源摘要/Pettitt_Jamnick_2017_VO2max_verification_commentary.md
+  - 10_來源摘要/Lambrick_2009_RPE13_VO2max_prediction.md
+  - 10_來源摘要/Juarez_2024_CPET_in_heart_failure.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -102,7 +102,7 @@ contradictions:
 
 ### 若 maximal test 不適合：submaximal estimation 是 fallback，不是替身
 
-- [[../09_來源摘要/Lambrick_2009_RPE13_VO2max_prediction]] 在 low-fit women 顯示：
+- [[../10_來源摘要/Lambrick_2009_RPE13_VO2max_prediction]] 在 low-fit women 顯示：
   - 單次 ramp test 中，做到 `RPE 13` 的 submaximal data 就可能合理估計 `VO2max`
   - 而且 `RPE` 可能比 `HR alone` 更有幫助
 - 但這類方法的正確定位是：
@@ -187,13 +187,13 @@ contradictions:
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Beltz_2016_GXT_protocols]]
-- [[09_來源摘要/Bentley_Newell_Bishop_2007_incremental_exercise_test_design]]
-- [[09_來源摘要/Midgley_2008_VO2max_test_duration]]
-- [[09_來源摘要/Poole_Jones_2017_VO2max_verification]]
-- [[09_來源摘要/Pettitt_Jamnick_2017_VO2max_verification_commentary]]
-- [[09_來源摘要/Lambrick_2009_RPE13_VO2max_prediction]]
-- [[09_來源摘要/Juarez_2024_CPET_in_heart_failure]]
+- [[10_來源摘要/Beltz_2016_GXT_protocols]]
+- [[10_來源摘要/Bentley_Newell_Bishop_2007_incremental_exercise_test_design]]
+- [[10_來源摘要/Midgley_2008_VO2max_test_duration]]
+- [[10_來源摘要/Poole_Jones_2017_VO2max_verification]]
+- [[10_來源摘要/Pettitt_Jamnick_2017_VO2max_verification_commentary]]
+- [[10_來源摘要/Lambrick_2009_RPE13_VO2max_prediction]]
+- [[10_來源摘要/Juarez_2024_CPET_in_heart_failure]]
 
 ### 證據標記
 
@@ -211,9 +211,9 @@ contradictions:
 - [[Gas_Exchange_Threshold]]
 - [[CPET_in_Heart_Failure]]
 - [[Exercise_Intensity_Domains]]
-- [[../09_來源摘要/Beltz_2016_GXT_protocols]]
-- [[../09_來源摘要/Bentley_Newell_Bishop_2007_incremental_exercise_test_design]]
-- [[../09_來源摘要/Midgley_2008_VO2max_test_duration]]
-- [[../09_來源摘要/Poole_Jones_2017_VO2max_verification]]
-- [[../09_來源摘要/Lambrick_2009_RPE13_VO2max_prediction]]
-- [[../09_來源摘要/Juarez_2024_CPET_in_heart_failure]]
+- [[../10_來源摘要/Beltz_2016_GXT_protocols]]
+- [[../10_來源摘要/Bentley_Newell_Bishop_2007_incremental_exercise_test_design]]
+- [[../10_來源摘要/Midgley_2008_VO2max_test_duration]]
+- [[../10_來源摘要/Poole_Jones_2017_VO2max_verification]]
+- [[../10_來源摘要/Lambrick_2009_RPE13_VO2max_prediction]]
+- [[../10_來源摘要/Juarez_2024_CPET_in_heart_failure]]

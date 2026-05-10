@@ -6,7 +6,7 @@ type: concept
 domain: [pediatrics, child_care, development]
 tags: [child_care, ECE, quality, inclusion, SDOH]
 sources:
-  - 09_來源摘要/Child_Care.md
+  - 10_來源摘要/Child_Care.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -59,4 +59,4 @@ ECE access + process quality
 ## Links
 
 - [[早期發展與終身健康]]
-- [[../09_來源摘要/Child_Care]]
+- [[../10_來源摘要/Child_Care]]

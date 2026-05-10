@@ -6,7 +6,7 @@ type: concept
 domain: [exercise_physiology, respiratory_physiology, hematology]
 tags: [altitude, acclimatization, hypoxic_ventilatory_response, hypocapnia, erythropoietin, oxyhemoglobin_dissociation]
 sources:
-  - 09_來源摘要/High_Altitude_and_Flying.md
+  - 10_來源摘要/High_Altitude_and_Flying.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -192,7 +192,7 @@ Acclimatization 是 **原本居住低海拔的人，在抵達高海拔後幾小�
 
 ### 來源摘要連結
 
-- [[09_來源摘要/High_Altitude_and_Flying]]
+- [[10_來源摘要/High_Altitude_and_Flying]]
 
 ### 證據標記
 

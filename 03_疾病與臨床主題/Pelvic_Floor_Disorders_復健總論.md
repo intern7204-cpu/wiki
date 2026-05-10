@@ -6,7 +6,7 @@ type: clinical
 domain: [pelvic_floor, pelvic_pain, rehabilitation]
 tags: [pelvic_floor_disorders, PFPT, chronic_pelvic_pain, urinary_incontinence, fecal_incontinence, dyspareunia]
 sources:
-  - 09_來源摘要/Pelvic_Floor_Disorders.md
+  - 10_來源摘要/Pelvic_Floor_Disorders.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -23,7 +23,7 @@ Pelvic floor disorders 是 pelvic floor muscle、viscera、peripheral nerves、l
 
 ## Definition and Boundary
 
-- 本頁根據 [[../09_來源摘要/Pelvic_Floor_Disorders]] 建立總論。
+- 本頁根據 [[../10_來源摘要/Pelvic_Floor_Disorders]] 建立總論。
 - 本頁不取代 gynecology、urology、urogynecology、colorectal surgery 或 gastroenterology 的專科診斷。
 
 ## Why It Matters

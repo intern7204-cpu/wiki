@@ -6,11 +6,11 @@ type: clinical
 domain: [pediatric, neurodevelopment, genetics, rehabilitation]
 tags: [GDD, intellectual_disability, adaptive_function, regression, genetic_workup, transition]
 sources:
-  - 09_來源摘要/Developmental_Delay_and_Intellectual_Disability.md
-  - 09_來源摘要/Intellectual_Disability.md
-  - 09_來源摘要/Intellectual_disability_ID_in_children_Clinical_features_evaluation_and_diagnosis.md
-  - 09_來源摘要/Intellectual_disability_ID_in_children_Evaluation_for_a_cause.md
-  - 09_來源摘要/Intellectual_disability_ID_in_children_Management_outcomes_and_prevention.md
+  - 10_來源摘要/Developmental_Delay_and_Intellectual_Disability.md
+  - 10_來源摘要/Intellectual_Disability.md
+  - 10_來源摘要/Intellectual_disability_ID_in_children_Clinical_features_evaluation_and_diagnosis.md
+  - 10_來源摘要/Intellectual_disability_ID_in_children_Evaluation_for_a_cause.md
+  - 10_來源摘要/Intellectual_disability_ID_in_children_Management_outcomes_and_prevention.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -227,11 +227,11 @@ GDD 是 5 歲前的 provisional developmental description；Intellectual Disabil
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Developmental_Delay_and_Intellectual_Disability]]
-- [[09_來源摘要/Intellectual_Disability]]
-- [[09_來源摘要/Intellectual_disability_ID_in_children_Clinical_features_evaluation_and_diagnosis]]
-- [[09_來源摘要/Intellectual_disability_ID_in_children_Evaluation_for_a_cause]]
-- [[09_來源摘要/Intellectual_disability_ID_in_children_Management_outcomes_and_prevention]]
+- [[10_來源摘要/Developmental_Delay_and_Intellectual_Disability]]
+- [[10_來源摘要/Intellectual_Disability]]
+- [[10_來源摘要/Intellectual_disability_ID_in_children_Clinical_features_evaluation_and_diagnosis]]
+- [[10_來源摘要/Intellectual_disability_ID_in_children_Evaluation_for_a_cause]]
+- [[10_來源摘要/Intellectual_disability_ID_in_children_Management_outcomes_and_prevention]]
 
 ### 證據標記
 
@@ -249,8 +249,8 @@ GDD 是 5 歲前的 provisional developmental description；Intellectual Disabil
 - [[Early_Intervention_總論]]
 - [[晚語兒_Late_Talker]]
 - [[ASD_評估與診斷]]
-- [[../09_來源摘要/Developmental_Delay_and_Intellectual_Disability]]
-- [[../09_來源摘要/Intellectual_Disability]]
-- [[../09_來源摘要/Intellectual_disability_ID_in_children_Clinical_features_evaluation_and_diagnosis]]
-- [[../09_來源摘要/Intellectual_disability_ID_in_children_Evaluation_for_a_cause]]
-- [[../09_來源摘要/Intellectual_disability_ID_in_children_Management_outcomes_and_prevention]]
+- [[../10_來源摘要/Developmental_Delay_and_Intellectual_Disability]]
+- [[../10_來源摘要/Intellectual_Disability]]
+- [[../10_來源摘要/Intellectual_disability_ID_in_children_Clinical_features_evaluation_and_diagnosis]]
+- [[../10_來源摘要/Intellectual_disability_ID_in_children_Evaluation_for_a_cause]]
+- [[../10_來源摘要/Intellectual_disability_ID_in_children_Management_outcomes_and_prevention]]

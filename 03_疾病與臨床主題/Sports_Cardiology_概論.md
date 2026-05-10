@@ -6,7 +6,7 @@ type: concept
 domain: [sports_cardiology, clinical_reasoning, CPET]
 tags: [sports_cardiology, athlete_heart, screening, sudden_cardiac_death, exercise_capacity]
 sources:
-  - 09_來源摘要/Thompson_Baggish_exercise_sports_cardiology.md
+  - 10_來源摘要/Thompson_Baggish_exercise_sports_cardiology.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -109,7 +109,7 @@ Sports cardiology 是處理 **運動對 cardiovascular system 的生理適應、
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Thompson_Baggish_exercise_sports_cardiology]]
+- [[10_來源摘要/Thompson_Baggish_exercise_sports_cardiology]]
 
 ### 證據標記
 
@@ -124,4 +124,4 @@ Sports cardiology 是處理 **運動對 cardiovascular system 的生理適應、
 - [[../04_CPET/CPET_Protocol_Design]]
 - [[../04_CPET/VO2max_Measurement]]
 - [[../04_CPET/Gas_Exchange_Threshold]]
-- [[../09_來源摘要/Thompson_Baggish_exercise_sports_cardiology]]
+- [[../10_來源摘要/Thompson_Baggish_exercise_sports_cardiology]]

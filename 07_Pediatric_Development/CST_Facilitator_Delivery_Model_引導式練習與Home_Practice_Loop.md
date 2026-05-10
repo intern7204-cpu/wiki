@@ -6,7 +6,7 @@ type: concept
 domain: [pediatrics, development, caregiver_intervention, implementation_science]
 tags: [CST, facilitator_training, coached_practice, home_practice, caregiver_mediated_intervention, shared_engagement, WHO]
 sources:
-  - 09_來源摘要/Caregiver_Skills_Training_Facilitators_Guide.md
+  - 10_來源摘要/Caregiver_Skills_Training_Facilitators_Guide.md
 source_tier: 2
 evidence_level: WHO facilitators guide
 confidence: high_for_delivery_structure_moderate_for_efficacy_inference
@@ -141,4 +141,4 @@ Facilitator teaches one focused strategy set
 - [[ASD_介入與預後]]
 - [[Developmental_Delay_的鑑別起點]]
 - [[照顧者健康與兒童健康發展]]
-- [[../09_來源摘要/Caregiver_Skills_Training_Facilitators_Guide]]
+- [[../10_來源摘要/Caregiver_Skills_Training_Facilitators_Guide]]

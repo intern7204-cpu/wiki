@@ -4,10 +4,10 @@ created: 2026-05-04
 updated: 2026-05-04
 type: concept
 domain: [exercise_physiology, muscle_biology, metabolism]
-tags: [skeletal_muscle, metabolic_flexibility, substrate_utilization, mitochondrial_network, exercise_adaptation, fiber_type]
+tags: [skeletal_muscle, metabolic_flexibility, substrate_utilization, mitochondrial_network, mitochondrial_reticulum, exercise_adaptation, fiber_type]
 sources:
-  - 09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle.md
-source_tier: 1
+  - 10_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle.md
+source_tier: 4
 evidence_level: high_quality_review
 confidence: high
 contested: true
@@ -54,7 +54,7 @@ Metabolic flexibility 應被理解成「需求、底物、細胞結構與訓練�
 - Type II fibers 較富含 creatine phosphate、glycogen、adenylate kinase 與 glycogenolysis / glycolysis machinery。
 - Type I fibers 較富含 mitochondria、IMCL 與 peroxisomes，符合較慢 ATP turnover 與長時間 oxidative metabolism。
 - Mitochondria 約佔 skeletal muscle volume 的 2-10%，依 fiber type 而異。
-- Subsarcolemmal / peripheral mitochondria 與 intermyofibrillar mitochondria 在位置、結構與功能上不同。
+- Subsarcolemmal / peripheral mitochondria 與 intermyofibrillar mitochondria 在位置、結構與功能上不同；這部分另見 [[Skeletal_Muscle_Mitochondrial_Reticulum]]。
 - Higher intensity 下 glycolytic flux 可耗用 free carnitine pool，限制 long-chain fatty acid import 並降低 NEFA oxidation。
 - Training 可增加 mitochondrial respiration、mitochondrial proteome、capillarization、lactate clearance 與 substrate handling。
 
@@ -122,6 +122,7 @@ external work demand
 ## Links
 
 - [[Skeletal_Muscle_Energy_Metabolism]]
+- [[Skeletal_Muscle_Mitochondrial_Reticulum]]
 - [[Muscle_Fiber_Types]]
 - [[Acute_Exercise_Molecular_Response與Skeletal_Muscle_Adaptation]]
 - [[Training_Intensity_Distribution]]
@@ -129,4 +130,4 @@ external work demand
 - [[../04_CPET/Exercise_Intensity_Domains]]
 - [[../04_CPET/VO2_Kinetics]]
 - [[../04_CPET/Critical_Power]]
-- [[../09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]
+- [[../10_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]

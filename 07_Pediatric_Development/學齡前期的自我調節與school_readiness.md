@@ -6,8 +6,8 @@ type: concept
 domain: [pediatrics, preschool, development]
 tags: [self_regulation, school_readiness, behavior, preschool]
 sources:
-  - 09_來源摘要/Toddlerhood_and_the_Preschool_Years.md
-  - 09_來源摘要/Muir_2023_preschool_SR_EF_interventions.md
+  - 10_來源摘要/Toddlerhood_and_the_Preschool_Years.md
+  - 10_來源摘要/Muir_2023_preschool_SR_EF_interventions.md
 source_tier: 1
 evidence_level: consensus_plus_systematic_review
 confidence: medium_high
@@ -68,5 +68,5 @@ Five developmental domains
 - [[幼兒與學齡前期發展]]
 - [[學前SEL介入的分層與情境堆疊]]
 - [[Preschool_SR_EF_Intervention_Design特徵]]
-- [[../09_來源摘要/Toddlerhood_and_the_Preschool_Years]]
-- [[../09_來源摘要/Muir_2023_preschool_SR_EF_interventions]]
+- [[../10_來源摘要/Toddlerhood_and_the_Preschool_Years]]
+- [[../10_來源摘要/Muir_2023_preschool_SR_EF_interventions]]

@@ -6,8 +6,8 @@ type: concept
 domain: [pediatrics, early_intervention, development]
 tags: [EI, plasticity, critical_period, routine_based_support, family_centered]
 sources:
-  - 09_來源摘要/Early_Intervention.md
-  - 09_來源摘要/Nelson_2023_early_intervention_developmental_neuroscience.md
+  - 10_來源摘要/Early_Intervention.md
+  - 10_來源摘要/Nelson_2023_early_intervention_developmental_neuroscience.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -71,5 +71,5 @@ Developmental risk or missing expected input appears
 - [[經驗期待型發展與早期介入窗口]]
 - [[Caregiving_Quality_作為早期介入靶點]]
 - [[早期發展與終身健康]]
-- [[../09_來源摘要/Early_Intervention]]
-- [[../09_來源摘要/Nelson_2023_early_intervention_developmental_neuroscience]]
+- [[../10_來源摘要/Early_Intervention]]
+- [[../10_來源摘要/Nelson_2023_early_intervention_developmental_neuroscience]]

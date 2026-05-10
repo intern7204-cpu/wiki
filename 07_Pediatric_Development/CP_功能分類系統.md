@@ -6,8 +6,8 @@ type: clinical
 domain: [pediatric, neurodevelopmental, rehabilitation, PMR, classification]
 tags: [cerebral_palsy, GMFCS, MACS, EDACS, VSS, FCCS, CFCS, VFCS, ICF]
 sources:
-  - 09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
-  - 09_來源摘要/Cerebral_Palsy.md
+  - 10_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
+  - 10_來源摘要/Cerebral_Palsy.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -221,7 +221,7 @@ CP 功能分類系統是 **以「兒童在日常生活中『通常做什麼』�
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders]]
+- [[10_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders]]
 
 ### 證據標記
 

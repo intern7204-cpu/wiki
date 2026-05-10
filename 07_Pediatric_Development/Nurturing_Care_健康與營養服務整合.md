@@ -6,9 +6,9 @@ type: concept
 domain: [pediatrics, development, health_services, nutrition_services, nurturing_care]
 tags: [nurturing_care, responsive_caregiving, early_learning, caregiver_wellbeing, health_services, nutrition_services, family_centered_care]
 sources:
-  - 09_來源摘要/WHO_2020_improving_early_childhood_development_guideline.md
-  - 09_來源摘要/Nurturing_Care_Practice_Guide.md
-  - 09_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes.md
+  - 10_來源摘要/WHO_2020_improving_early_childhood_development_guideline.md
+  - 10_來源摘要/Nurturing_Care_Practice_Guide.md
+  - 10_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes.md
 source_tier: 1
 evidence_level: guideline_plus_implementation_guide_plus_systematic_review_meta_analysis
 confidence: medium_high
@@ -131,6 +131,6 @@ Routine contact in health / nutrition service
 - [[Primary_Care_Developmental_Surveillance_流程]]
 - [[兒童餵食問題的生理與行為分流]]
 - [[兒童OT與PT復健服務]]
-- [[../09_來源摘要/Nurturing_Care_Practice_Guide]]
-- [[../09_來源摘要/WHO_2020_improving_early_childhood_development_guideline]]
-- [[../09_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes]]
+- [[../10_來源摘要/Nurturing_Care_Practice_Guide]]
+- [[../10_來源摘要/WHO_2020_improving_early_childhood_development_guideline]]
+- [[../10_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes]]

@@ -6,7 +6,7 @@ type: concept
 domain: [neurorehabilitation, pharmacology, rehabilitation_safety]
 tags: [drug_therapy, medication_timing, adverse_drug_reactions, pharmacokinetics, pharmacodynamics, motor_learning]
 sources:
-  - 09_來源摘要/Impact_of_Drug_Therapy_on_Patients_Receiving_Neurological_Rehabilitation.md
+  - 10_來源摘要/Impact_of_Drug_Therapy_on_Patients_Receiving_Neurological_Rehabilitation.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: moderate
@@ -23,7 +23,7 @@ Neurorehabilitation 中的 drug therapy 是會改變 arousal、motor output、to
 
 ## Definition and Boundary
 
-- 本頁根據 [[../09_來源摘要/Impact_of_Drug_Therapy_on_Patients_Receiving_Neurological_Rehabilitation]] 建立 medication-aware rehab frame。
+- 本頁根據 [[../10_來源摘要/Impact_of_Drug_Therapy_on_Patients_Receiving_Neurological_Rehabilitation]] 建立 medication-aware rehab frame。
 - 本頁不提供處方、停藥、換藥或 dosing recommendation；任何調整需由 prescriber / pharmacist 處理。
 
 ## Why It Matters

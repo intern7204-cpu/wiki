@@ -6,7 +6,7 @@ type: concept
 domain: [pediatric, neuro_urology, rehabilitation]
 tags: [myelomeningocele, neurogenic_bladder, CIC, urodynamics, renal_function, hydronephrosis]
 sources:
-  - 09_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms.md
+  - 10_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -105,5 +105,5 @@ MMC-related neurogenic bladder
 
 - [[Myelomeningocele_總論]]
 - [[MMC_胎兒修補與功能結果]]
-- [[../09_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms]]
+- [[../10_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms]]
 - [[../03_疾病與臨床主題/神經性下泌尿道功能障礙]]

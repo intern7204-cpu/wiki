@@ -6,7 +6,7 @@ type: clinical
 domain: [cancer_rehabilitation, oncology_rehabilitation, PMR]
 tags: [cancer_rehabilitation, cancer_survivorship, rehabilitation_precautions, fatigue, lymphedema, CIPN, bone_metastasis]
 sources:
-  - 09_來源摘要/Cancer_Rehabilitation.md
+  - 10_來源摘要/Cancer_Rehabilitation.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -23,7 +23,7 @@ Cancer rehabilitation 是把 oncology disease status、treatment toxicity、prog
 
 ## Definition and Boundary
 
-- 本頁只根據 [[../09_來源摘要/Cancer_Rehabilitation]] 建立 cancer rehabilitation 的總論骨架。
+- 本頁只根據 [[../10_來源摘要/Cancer_Rehabilitation]] 建立 cancer rehabilitation 的總論骨架。
 - 本頁不提供當前 chemotherapy、immunotherapy、radiation oncology 或 metastatic cancer treatment guideline。
 
 ## Why It Matters

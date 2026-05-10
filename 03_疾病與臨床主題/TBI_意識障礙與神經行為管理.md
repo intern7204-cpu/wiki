@@ -6,8 +6,8 @@ type: concept
 domain: [TBI, rehabilitation, neurobehavior]
 tags: [TBI, disorders_of_consciousness, agitation, amantadine, neurorecovery]
 sources:
-  - 09_來源摘要/Traumatic_brain_injury.md
-  - 09_來源摘要/Reina_Guerra_TBI_Umphred_neurorehabilitation.md
+  - 10_來源摘要/Traumatic_brain_injury.md
+  - 10_來源摘要/Reina_Guerra_TBI_Umphred_neurorehabilitation.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -71,6 +71,6 @@ Severe TBI
 ## Links
 
 - [[創傷性腦損傷復健總論]]
-- [[../09_來源摘要/Traumatic_brain_injury]]
+- [[../10_來源摘要/Traumatic_brain_injury]]
 - [[TBI_ICF照護連續體與Task_Analysis]]
-- [[../09_來源摘要/Reina_Guerra_TBI_Umphred_neurorehabilitation]]
+- [[../10_來源摘要/Reina_Guerra_TBI_Umphred_neurorehabilitation]]

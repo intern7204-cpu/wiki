@@ -6,7 +6,7 @@ type: concept
 domain: [chronic_pain, rehabilitation, psychology]
 tags: [CBT_CP, pacing, chronic_pain, fear_avoidance, catastrophizing, sleep]
 sources:
-  - 09_來源摘要/Chronic_Pain.md
+  - 10_來源摘要/Chronic_Pain.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ CBT-CP 是針對 chronic pain 的 structured behavioral treatment，透過 physi
 
 - 本頁處理 Chronic Pain 來源中的 CBT-CP 與 pacing 邏輯。
 - 本頁不是完整心理治療手冊，也不取代 pain psychologist 評估。
-- 本頁只使用單一來源：[[../09_來源摘要/Chronic_Pain]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Chronic_Pain]]。
 
 ## Why It Matters
 
@@ -96,5 +96,5 @@ Pain
 - [[Nociceptive_Neuropathic_Nociplastic_Pain]]
 - [[慢性疼痛復健的主動化治療框架]]
 - [[疼痛管理_Biopsychosocial_ICF框架]]
-- [[../09_來源摘要/Chronic_Pain]]
+- [[../10_來源摘要/Chronic_Pain]]
 

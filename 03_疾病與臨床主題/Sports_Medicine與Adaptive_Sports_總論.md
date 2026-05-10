@@ -6,7 +6,7 @@ type: clinical
 domain: [sports_medicine, adaptive_sports, PMR]
 tags: [sports_medicine, adaptive_sports, RTP, kinetic_chain, event_preparedness, concussion, REDS]
 sources:
-  - 09_來源摘要/Sports_Medicine_and_Adaptive_Sports.md
+  - 10_來源摘要/Sports_Medicine_and_Adaptive_Sports.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -23,7 +23,7 @@ Sports medicine in PM&R 是以 athlete health、event safety、training load、k
 
 ## Definition and Boundary
 
-- 本頁根據 [[../09_來源摘要/Sports_Medicine_and_Adaptive_Sports]] 建立 sports medicine / adaptive sports 主框架。
+- 本頁根據 [[../10_來源摘要/Sports_Medicine_and_Adaptive_Sports]] 建立 sports medicine / adaptive sports 主框架。
 - 本頁不取代 current concussion consensus、anti-doping list、transgender athlete policy、PPE cardiovascular screening guideline。
 
 ## Why It Matters

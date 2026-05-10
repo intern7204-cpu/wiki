@@ -6,10 +6,10 @@ type: clinical
 domain: [pediatric, neurodevelopmental, pharmacology]
 tags: [ASD, psychopharmacology, comorbidity, irritability, ADHD]
 sources:
-  - 09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Pharmacologic_interventions.md
-  - 09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Overview_of_management_and_prognosis.md
-  - 09_來源摘要/Autism_Spectrum_Disorder.md
-  - 09_來源摘要/Autism_Spectrum_Disorder_ASD.md
+  - 10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Pharmacologic_interventions.md
+  - 10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Overview_of_management_and_prognosis.md
+  - 10_來源摘要/Autism_Spectrum_Disorder.md
+  - 10_來源摘要/Autism_Spectrum_Disorder_ASD.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -106,10 +106,10 @@ ASD psychopharmacology 的邏輯是 **先定義最 impairing 的 target symptom�
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Pharmacologic_interventions]]
-- [[09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Overview_of_management_and_prognosis]]
-- [[09_來源摘要/Autism_Spectrum_Disorder]]
-- [[09_來源摘要/Autism_Spectrum_Disorder_ASD]]
+- [[10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Pharmacologic_interventions]]
+- [[10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Overview_of_management_and_prognosis]]
+- [[10_來源摘要/Autism_Spectrum_Disorder]]
+- [[10_來源摘要/Autism_Spectrum_Disorder_ASD]]
 
 ### 證據標記
 
@@ -125,7 +125,7 @@ ASD psychopharmacology 的邏輯是 **先定義最 impairing 的 target symptom�
 - [[ASD_評估與診斷]]
 - [[ASD_臨床表現]]
 - [[ADHD_藥物治療與安全]]
-- [[../09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Pharmacologic_interventions]]
-- [[../09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Overview_of_management_and_prognosis]]
-- [[../09_來源摘要/Autism_Spectrum_Disorder]]
-- [[../09_來源摘要/Autism_Spectrum_Disorder_ASD]]
+- [[../10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Pharmacologic_interventions]]
+- [[../10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Overview_of_management_and_prognosis]]
+- [[../10_來源摘要/Autism_Spectrum_Disorder]]
+- [[../10_來源摘要/Autism_Spectrum_Disorder_ASD]]

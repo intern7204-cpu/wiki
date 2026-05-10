@@ -6,7 +6,7 @@ type: workflow
 domain: [methodology]
 tags: [wiki_maintenance, ingest, source_triage, evidence_hierarchy, source_summary]
 sources:
-  - 09_來源摘要/Ibrahim_Hafner_Rocher_2026_warmth_accuracy_sycophancy.md
+  - 10_來源摘要/Ibrahim_Hafner_Rocher_2026_warmth_accuracy_sycophancy.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -96,7 +96,7 @@ contradictions: []
 
 ### Step 5 — 建立來源摘要
 
-每份已讀文件都要建立或更新一頁 `09_來源摘要/<來源頁>.md`，至少包含：
+每份已讀文件都要建立或更新一頁 `10_來源摘要/<來源頁>.md`，至少包含：
 1. bibliographic identity / 來源類型
 2. 本文核心主張
 3. 對臨床 / 方法學 / 研究的重要性
@@ -129,7 +129,7 @@ contradictions: []
 ### 最低輸出要求
 
 每完成一批 ingest，至少要有以下結果：
-1. `09_來源摘要/` 新增或更新對應來源頁
+1. `10_來源摘要/` 新增或更新對應來源頁
 2. 至少一個相關主題頁被更新，或建立新頁
 3. `index.md` 已補條目
 4. `log.md` 已留下 batch-level 紀錄

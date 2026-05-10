@@ -6,7 +6,7 @@ type: concept
 domain: [pediatric, neurosurgery, rehabilitation, airway]
 tags: [myelomeningocele, hydrocephalus, VP_shunt, chiari_ii, shunt_failure, brainstem]
 sources:
-  - 09_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms.md
+  - 10_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -117,4 +117,4 @@ MMC-associated hindbrain / CSF-flow abnormality
 - [[MMC_胎兒修補與功能結果]]
 - [[MMC_運動神經功能層級與步行預後]]
 - [[兒童餵食與吞嚥障礙]]
-- [[../09_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms]]
+- [[../10_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms]]

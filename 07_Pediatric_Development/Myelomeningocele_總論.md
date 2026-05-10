@@ -6,7 +6,7 @@ type: clinical
 domain: [pediatric, neurodevelopmental, rehabilitation, spina_bifida]
 tags: [myelomeningocele, spinal_dysraphism, chiari_ii, hydrocephalus, latex_allergy, neuropsychology]
 sources:
-  - 09_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms.md
+  - 10_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -115,4 +115,4 @@ caudal neuropore fails to close
 - [[MMC_神經性膀胱與腎功能保護]]
 - [[Early_Intervention_總論]]
 - [[小兒復健評估]]
-- [[../09_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms]]
+- [[../10_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms]]

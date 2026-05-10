@@ -6,7 +6,7 @@ type: concept
 domain: [parkinson_disease, movement_disorders, diagnosis]
 tags: [Parkinson_disease, parkinsonism, bradykinesia, resting_tremor, rigidity, DAT_scan, drug_induced_parkinsonism, vascular_parkinsonism, alpha_synuclein]
 sources:
-  - 09_來源摘要/Degenerative_Movement_Disorders_of_the_CNS.md
+  - 10_來源摘要/Degenerative_Movement_Disorders_of_the_CNS.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Parkinson disease 是以 bradykinesia、resting tremor、rigidity、postural ins
 
 - 本頁聚焦 PD clinical diagnosis 與 mimic exclusion。
 - 本頁不是 PD medication dosing guide。
-- 本頁只使用單一來源：[[../09_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]]。
 
 ## Why It Matters
 
@@ -98,4 +98,4 @@ Substantia nigra pars compacta dopaminergic neuron loss
 - [[Parkinson_Disease_復健與非運動症狀管理]]
 - [[Parkinson_Plus_Syndrome_紅旗]]
 - [[ALS_診斷框架]]
-- [[../09_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]]
+- [[../10_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]]

@@ -6,7 +6,7 @@ type: concept
 domain: [neck_pain, neurology, cervical_spine]
 tags: [cervical_radiculopathy, radicular_pain, EDX, MRI, Spurling, conservative_care]
 sources:
-  - 09_來源摘要/Common_Neck_Problems.md
+  - 10_來源摘要/Common_Neck_Problems.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Cervical radiculopathy 是 cervical nerve root 的 neurophysiologic dysfunction�
 
 - 本頁處理 cervical radicular pain / radiculopathy 的辨識、檢查與保守治療框架。
 - 本頁不涵蓋 cervical myelopathy、brachial plexopathy、peripheral entrapment 或 surgical technique 的完整內容。
-- 本頁只使用單一來源：[[../09_來源摘要/Common_Neck_Problems]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Common_Neck_Problems]]。
 
 ## Why It Matters
 
@@ -95,5 +95,5 @@ Cervical disc herniation, spondylosis, or inflammation
 
 - [[頸部疼痛評估總論]]
 - [[Cervical_Myelopathy_紅旗]]
-- [[../09_來源摘要/Common_Neck_Problems]]
+- [[../10_來源摘要/Common_Neck_Problems]]
 

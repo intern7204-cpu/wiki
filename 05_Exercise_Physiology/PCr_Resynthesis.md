@@ -6,12 +6,12 @@ type: concept
 domain: [exercise_physiology, methodology]
 tags: [PCr, phosphocreatine, ADP, Pi, oxidative_phosphorylation, mitochondrial_function, 31P_MRS]
 sources:
-  - 09_來源摘要/Kemp_1993_PCr_resynthesis.md
-  - 09_來源摘要/McMahon_Jenkins_PCr_resynthesis_after_intense_exercise.md
-  - 09_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism.md
-  - 09_來源摘要/Korzeniewski_Zoladz_2013_VO2_off_PCr_off_kinetics.md
-  - 09_來源摘要/Skiba_2015_intramuscular_determinants_Wprime_recovery.md
-  - 09_來源摘要/Caen_2021_Wprime_recovery_two_phase.md
+  - 10_來源摘要/Kemp_1993_PCr_resynthesis.md
+  - 10_來源摘要/McMahon_Jenkins_PCr_resynthesis_after_intense_exercise.md
+  - 10_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism.md
+  - 10_來源摘要/Korzeniewski_Zoladz_2013_VO2_off_PCr_off_kinetics.md
+  - 10_來源摘要/Skiba_2015_intramuscular_determinants_Wprime_recovery.md
+  - 10_來源摘要/Caen_2021_Wprime_recovery_two_phase.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -51,7 +51,7 @@ contradictions: []
 
 ### 為什麼 PCr recovery 常不像單一速度
 
-- [[../09_來源摘要/McMahon_Jenkins_PCr_resynthesis_after_intense_exercise]] 整理指出，PCr resynthesis 常可見 fast + slow component。
+- [[../10_來源摘要/McMahon_Jenkins_PCr_resynthesis_after_intense_exercise]] 整理指出，PCr resynthesis 常可見 fast + slow component。
 - 早期快相較像：
   - `ADP`
   - 或 ATP hydrolysis free energy
@@ -169,11 +169,11 @@ contradictions: []
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Kemp_1993_PCr_resynthesis]]
-- [[09_來源摘要/McMahon_Jenkins_PCr_resynthesis_after_intense_exercise]]
-- [[09_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism]]
-- [[09_來源摘要/Korzeniewski_Zoladz_2013_VO2_off_PCr_off_kinetics]]
-- [[09_來源摘要/Skiba_2015_intramuscular_determinants_Wprime_recovery]]
+- [[10_來源摘要/Kemp_1993_PCr_resynthesis]]
+- [[10_來源摘要/McMahon_Jenkins_PCr_resynthesis_after_intense_exercise]]
+- [[10_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism]]
+- [[10_來源摘要/Korzeniewski_Zoladz_2013_VO2_off_PCr_off_kinetics]]
+- [[10_來源摘要/Skiba_2015_intramuscular_determinants_Wprime_recovery]]
 
 ### 證據標記
 
@@ -192,7 +192,7 @@ contradictions: []
 - [[../04_CPET/Critical_Power]]
 - [[../04_CPET/Wprime_Recovery]]
 - [[../04_CPET/Training_Prescription_by_CP]]
-- [[../09_來源摘要/Kemp_1993_PCr_resynthesis]]
-- [[../09_來源摘要/McMahon_Jenkins_PCr_resynthesis_after_intense_exercise]]
-- [[../09_來源摘要/Korzeniewski_Zoladz_2013_VO2_off_PCr_off_kinetics]]
-- [[../09_來源摘要/Skiba_2015_intramuscular_determinants_Wprime_recovery]]
+- [[../10_來源摘要/Kemp_1993_PCr_resynthesis]]
+- [[../10_來源摘要/McMahon_Jenkins_PCr_resynthesis_after_intense_exercise]]
+- [[../10_來源摘要/Korzeniewski_Zoladz_2013_VO2_off_PCr_off_kinetics]]
+- [[../10_來源摘要/Skiba_2015_intramuscular_determinants_Wprime_recovery]]

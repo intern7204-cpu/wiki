@@ -6,12 +6,12 @@ type: clinical
 domain: [sports_medicine, rehabilitation, running, knee]
 tags: [patellofemoral_pain, anterior_knee_pain, squat_pain, hip_strength, running]
 sources:
-  - 09_來源摘要/Patellofemoral_pain.md
-  - 09_來源摘要/Knee_Injuries_in_Runners.md
-  - 09_來源摘要/Running_Gait_Assessment.md
-  - 09_來源摘要/Influence_of_Step_Rate_on_Running_Mechanics.md
-  - 09_來源摘要/Running_injuries_of_the_lower_extremities_in_adults_Patient_evaluation_and_common_conditions.md
-  - 09_來源摘要/Rehabilitation_Principles_of_the_Injured_Runner.md
+  - 10_來源摘要/Patellofemoral_pain.md
+  - 10_來源摘要/Knee_Injuries_in_Runners.md
+  - 10_來源摘要/Running_Gait_Assessment.md
+  - 10_來源摘要/Influence_of_Step_Rate_on_Running_Mechanics.md
+  - 10_來源摘要/Running_injuries_of_the_lower_extremities_in_adults_Patient_evaluation_and_common_conditions.md
+  - 10_來源摘要/Rehabilitation_Principles_of_the_Injured_Runner.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -148,12 +148,12 @@ Patellofemoral Pain (PFP) 是以 **around / behind the patella pain during loade
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Patellofemoral_pain]]
-- [[09_來源摘要/Knee_Injuries_in_Runners]]
-- [[09_來源摘要/Running_Gait_Assessment]]
-- [[09_來源摘要/Influence_of_Step_Rate_on_Running_Mechanics]]
-- [[09_來源摘要/Running_injuries_of_the_lower_extremities_in_adults_Patient_evaluation_and_common_conditions]]
-- [[09_來源摘要/Rehabilitation_Principles_of_the_Injured_Runner]]
+- [[10_來源摘要/Patellofemoral_pain]]
+- [[10_來源摘要/Knee_Injuries_in_Runners]]
+- [[10_來源摘要/Running_Gait_Assessment]]
+- [[10_來源摘要/Influence_of_Step_Rate_on_Running_Mechanics]]
+- [[10_來源摘要/Running_injuries_of_the_lower_extremities_in_adults_Patient_evaluation_and_common_conditions]]
+- [[10_來源摘要/Rehabilitation_Principles_of_the_Injured_Runner]]
 
 ### 證據標記
 
@@ -169,4 +169,4 @@ Patellofemoral Pain (PFP) 是以 **around / behind the patella pain during loade
 - [[Iliotibial_Band_Syndrome]]
 - [[../06_Gait_Biomechanics/跑步步態評估]]
 - [[../06_Gait_Biomechanics/跑步步頻調整]]
-- [[../09_來源摘要/Patellofemoral_pain]]
+- [[../10_來源摘要/Patellofemoral_pain]]

@@ -6,7 +6,7 @@ type: clinical
 domain: [pulmonary_rehabilitation, chronic_lung_disease, PMR]
 tags: [pulmonary_rehabilitation, COPD, oxygen_therapy, airway_clearance, dyspnea, exercise_prescription]
 sources:
-  - 09_來源摘要/Chronic_Medical_Conditions_Pulmonary_Disease_Organ_Transplantation_and_Diabetes.md
+  - 10_來源摘要/Chronic_Medical_Conditions_Pulmonary_Disease_Organ_Transplantation_and_Diabetes.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -23,7 +23,7 @@ Pulmonary rehabilitation 是針對 chronic lung disease 的 multidisciplinary pr
 
 ## Definition and Boundary
 
-- 本頁根據 [[../09_來源摘要/Chronic_Medical_Conditions_Pulmonary_Disease_Organ_Transplantation_and_Diabetes]] 建立慢性肺病 PR 骨架。
+- 本頁根據 [[../10_來源摘要/Chronic_Medical_Conditions_Pulmonary_Disease_Organ_Transplantation_and_Diabetes]] 建立慢性肺病 PR 骨架。
 - 本頁不替代 current GOLD、ATS / ERS、transplant 或 oxygen coverage policy。
 
 ## Why It Matters

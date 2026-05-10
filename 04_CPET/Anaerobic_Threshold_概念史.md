@@ -1,151 +1,123 @@
 ---
 title: Anaerobic Threshold（AT）概念史與當代定位
 created: 2026-04-22
-updated: 2026-04-25
+updated: 2026-05-04
 type: concept
 domain: [CPET, exercise_physiology]
-tags: [anaerobic_threshold, lactate_threshold, gas_exchange_threshold, history]
+tags: [anaerobic_threshold, lactate_threshold, gas_exchange_threshold, critical_power, lactate_shuttle]
 sources:
-  - 09_來源摘要/Poole_2020_anaerobic_threshold.md
-  - 09_來源摘要/Beaver_Wasserman_Whipp_1986_V_slope_method.md
-  - 09_來源摘要/Physiological_model_of_CO2_output_during_incremental_exercise.md
-  - 09_來源摘要/Hirakoba_1996_excess_CO2_lactate_prediction.md
-  - 09_來源摘要/Yunoki_1999_excess_CO2_kinetics.md
-source_tier: 1
-evidence_level: consensus
+  - 10_來源摘要/Poole_2020_anaerobic_threshold.md
+source_tier: 4
+evidence_level: high_quality_review
 confidence: high
-contested: false
-contradictions: []
+contested: true
+contradictions:
+  - "Wasserman 原始 dysoxia-driven AT model 與當代 lactate shuttle biology 不一致。"
 ---
 
 # Anaerobic Threshold（AT）概念史與當代定位
 
-## 一句話定義
+## One-Sentence Definition
 
-Anaerobic threshold（AT）是 Wasserman 於 1964 年提出的歷史性術語，原假設運動時肌肉缺氧 → 乳酸堆積 → HCO₃⁻ buffer → 產生 excess CO₂；此機制性解釋在當代證據下**不成立**，但其**操作面對應的 LT / GET**依然是 CPET 最重要的非侵入生理指標。
+Anaerobic threshold（AT）是 1960 年代用於描述 incremental exercise 中 lactate / gas-exchange breakpoint 的歷史術語；當代證據不支持其「muscle dysoxia → lactate accumulation」機制，但其操作面對應的 [[Lactate_Threshold]] / [[Gas_Exchange_Threshold]] 仍具臨床與研究價值。
 
-## 核心機制
+## Definition and Boundary
 
-### 概念史（極簡版）
+本頁只處理 `anaerobic threshold` 這個術語的概念史與當代定位。
 
-- 1780：Scheele 於酸奶中分離 lactate。
-- 1907：Fletcher & Hopkins — 肌肉疲勞 → [La⁻] 上升；供 O₂ → La⁻ 消失。
-- 1924：A. V. Hill 等人 — 劇烈運動血 [La⁻] 上升。
-- 1926：Warburg — Pasteur effect；癌細胞在高氧下仍大量產 La⁻（aerobic glycolysis）。
-- 1930：Owles — 血 [La⁻] 僅在超過某「critical metabolic level」後才上升。
-- 1964：Wasserman & McIlroy — 提出 **anaerobic threshold**，以 ventilatory / gas exchange 變化非侵入估計之。
-- 1986：Beaver, Wasserman & Whipp — 發表 **V-slope** 方法，以較可重現的 gas-exchange breakpoint 偵測 GET。
-- 1990s：Yano、Hirakoba、Yunoki 等人持續用 excess CO2 / buffering / hyperventilation 模型解釋 threshold 附近的 V̇CO2 變化。
-- 1985–2000s：Brooks 等人提出 **lactate shuttle**，推翻 dysoxia 前提。
-- 2020：Poole et al. 整理 50+ 年爭議，主張保留操作指標（LT/GET/CP），淘汰機制性 anaerobic 一詞。
+- 作為歷史名詞：可用來描述 Wasserman 系列研究提出的 threshold concept。
+- 作為操作指標：應改寫為 [[Lactate_Threshold]] 或 [[Gas_Exchange_Threshold]]。
+- 作為機制描述：不應解讀為 exercising muscle 在 LT / GET 即進入 anoxia 或 dysoxia。
+- 作為 sustainable vs unsustainable 邊界：不應用 LT / GET，應改用 [[Critical_Power]] / critical speed。
 
-### 1990s excess CO2 模型留下了什麼
+## Why It Matters
 
-- 這批 original articles 不是完全沒有價值。
-- 它們補充了：
-  - V̇CO2 會受 CO2 stores 影響
-  - excess CO2 與 lactate rise 有關
-  - hyperventilation 會改變你在肺端看到的 CO2 pattern
-- 但它們同時也顯示：
-  - excess V̇CO2 不是 instant lactate signal
-  - 時間走勢可延後於 lactate production
-  - 接近 threshold 時模型容易高估或失真
+AT 是 CPET 報告與 exercise physiology 教材中最容易造成機制誤讀的詞。若把 AT 低解釋成「肌肉缺氧點偏低」，會把 lactate kinetics、metabolic clearance、training status、cardiopulmonary limitation 與 disease burden 全部壓縮成單一 oxygen delivery 故事。
 
-所以這些 paper 的位置應是：
-- **歷史性 mechanistic supplement**
-- 不是當代 AT / GET 的主定義來源
+Poole et al. 2020 的核心修正是：保留 threshold 的操作價值，淘汰 `anaerobic` 這個機制暗示。
 
-### 為何「anaerobic」一詞應被淘汰
+## Preconditions or Conditions
 
-1. 肌肉在完全有氧狀態下仍**持續**產乳酸（Warburg effect 是常態）。
-2. 血 [La⁻] 上升僅意味 **Ra > Rd**（產生 > 清除），與 tissue dysoxia 無必然關係。
-3. 即便嚴重強度運動（>CP），無證據顯示肌肉 dysoxia。
-4. Sepsis、brain trauma、heart failure 等臨床 lactataemia 也不可用「缺氧」單一解釋（Marik & Bellomo 2016）。
+正確使用 AT / LT / GET 相關語言時，至少要先確認：
 
-→ 機制面：採用 **lactate shuttle** 取代 anaerobic。
-→ 操作面：保留 [[Lactate_Threshold]] 與 [[Gas_Exchange_Threshold]]。
+- 測試是 ramp / incremental exercise，而不是 constant-work endurance test。
+- breakpoint 以 V̇O2 表達，而不是只用 power / speed 表達。
+- GET 判讀需有 isocapnic buffering evidence，而不是只看 ventilation 上升。
+- 若要判定 heavy-severe boundary，必須另測 [[Critical_Power]] / critical speed。
 
-### 當代定位
+## Mechanism
 
-- **AT 作為「歷史／教學名詞」** — 仍可用，須註明語境。
-- **AT 作為「機制描述」** — 應避免。
-- **AT 作為「操作指標」** — 改用 **LT（直接血液）** 或 **GET（氣體交換非侵入）**。
-- **AT 作為「sustainable vs unsustainable 邊界」** — 實則對應 [[Critical_Power]]，而非 LT/GET。
+### Original AT Mechanism
 
-## 臨床表現
+Wasserman 原始 AT chain 可整理為：
 
-### 臨床與研究含義
+exercise work rate 增加 → muscle O2 delivery 不足 → Pasteur effect → glycolysis 與 lactate / H+ production 增加 → H+ 被 bicarbonate buffer → excess CO2 evolution → V̇CO2 / ventilation 非線性上升。
 
-- CPET report 可繼續使用 AT，但要理解其實質是 GET，且代表的是 moderate → heavy 邊界，**不代表肌肉缺氧**。
-- 患者「AT 低」不等於「氧氣運輸不足」；更正確的解讀是「[La⁻] 出現 Ra>Rd 的工作率偏低」，其背後原因可能涵蓋 circulation、mitochondrial capacity、training status、disease burden 等。
-- 真正的「obligatory non-oxidative 貢獻」邊界應用 CP/CS 定義。
+這條鏈的問題在於第一步：本文主張 LT / GET 附近的 lactate accumulation 並不需要 muscle anoxia / dysoxia。
 
-## 評估方式
+### Contemporary Mechanism
 
-- 目前頁面尚未整理出 History、Physical examination、Scale / test、Imaging / lab 的實際用法。
+當代較合理的 chain 是：
 
-## 治療原則
+work rate 增加 → glycolytic flux 增加 → lactate production 與 lactate utilization 同時增加 → 當 lactate rate of appearance（Ra）超過 rate of disappearance（Rd）時，blood [La-] 開始累積 → buffering 與 CO2 storage / output dynamics 形成 GET。
 
-- 本頁以概念或來源為主；若要進入真正 treatment plan，需連回對應臨床頁。
+這個模型把 lactate 視為 [[../05_Exercise_Physiology/Lactate_Shuttle]] 中的 substrate、gluconeogenic precursor 與 signaling molecule，而不是 anaerobic waste product。
 
-## 臨床決策點
+## Observable Patterns
 
-- 什麼情況要治療？先看是否真的改變 pain、function、safety、participation 或訓練輸出。
-- 什麼情況要轉介？遇到 red flags、診斷不確定、需要程序性介入或超出本頁可處理範圍時。
-- 什麼情況不該做？當證據不足、機制不合、風險高於預期收益，或結果不會改變決策時。
+- LT / GET 附近：blood [La-] 開始偏離 baseline；V̇CO2 對 V̇O2 出現 upward inflection。
+- Moderate domain：blood [La-] 不明顯高於 rest；V̇O2 可快速達 steady state。
+- Heavy domain：blood [La-] 與 V̇O2 可升高，但仍可達 delayed steady state。
+- Severe domain（>CP/CS）：V̇O2、blood [La-]、PCr depletion、Pi / H+ disturbance 不能穩定，直到 exhaustion。
 
-## 限制與未定論
+## Clinical / Research Implication
 
-### 證據層級
+- CPET 報告若使用 `AT`，解讀時應轉譯為 operational GET / LT，不應寫成 muscle hypoxia point。
+- GET / LT 可用於 effort-independent functional assessment、exercise prescription、perioperative risk stratification 與 heart failure prognosis。
+- 若臨床問題是「能不能長時間維持」或「何時進入不可穩定的 severe domain」，LT / GET 不夠，需用 [[Critical_Power]]。
+- 研究上，Poole 2020 支持用 LT / GET 描述 moderate-heavy boundary，用 CP / CS 描述 heavy-severe boundary。
 
-- Tier 1（topical review by Poole, Rossiter, Brooks, Gladden 2020）。
-- 與當代 exercise physiology 主流一致。
-- 少數運動生理傳統派仍保留 AT 機制用法；在臨床 CPET 教學中混用情形常見。
+## Fact
 
-## 理解缺口
+- Poole et al. 2020 是 topical review，來源層級為 Tier 4，不是 guideline 或 systematic review。
+- 作者群明確主張：目前沒有直接證據支持 exercising muscle 在 LT，或在 V̇O2max 以下任何 V̇O2，變成 anaerobic / dysoxic。
+- Elevated blood [La-] 代表 lactate Ra 超過 Rd，不等於 tissue oxygenation 不足。
+- GET / LT 仍有 construct validity，且對 endurance training、cardiac resynchronization therapy、systemic O2 delivery manipulation 等干預具敏感性。
+- CP / CS 比 LT / GET 更接近 heavy-severe boundary，也更接近原始 AT 想描述的 sustainable vs unsustainable threshold。
 
-- Anaerobic Threshold（AT）概念史與當代定位 和最相近、最常被混用的概念差在哪？
-- 這個指標或概念反映的是直接機制，還是只是 operational proxy？
-- 在什麼測試條件或族群下，這個概念最容易被錯用或外推失真？
-- 目前缺少完整評估框架：History、Physical examination、Scale / test、Imaging / lab 仍需補強。
-- 目前缺少明確處置順序：何時觀察、何時介入、何時轉介仍需補強。
+## Inference
 
-## 臨床使用版
+- 「AT 低」比較適合解讀為 integrated exercise tolerance / metabolic strain threshold 偏低，而不是直接推論為 peripheral muscle dysoxia。
+- 在臨床教學中保留 `AT` 這個字可以接受，但報告正文應明確說明它是 GET / LT surrogate。
+- 若病人或運動員的目標是 endurance performance 或 severe-domain interval 設計，CP / CS 比單一 AT / GET 更能回答負荷可否持續。
 
-- 若要把 Anaerobic Threshold（AT）概念史與當代定位 用在 bedside 或運動處方，先確認它回答的是哪一個機制或強度邊界，再決定能否改變評估與處置。
-- 若這個概念無法改變你的臨床決策，就不要只為了名詞完整而硬套到病人身上。
+## Assumption
 
-## 來源
+- 本頁採用 Poole et al. 對 dysoxia、lactate shuttle 與 CP/CS 的詮釋；此來源為 high-quality narrative / topical review，無系統檢索方法。
+- 本頁假設常規 CPET 報告中的 `AT` 多數實際上指 GET 或 VO2 at AT，而非直接血 lactate threshold。
+- 本頁假設使用者能取得足夠品質的 breath-by-breath gas exchange data；若資料品質差，AT / GET 判讀不成立。
 
-### 來源摘要連結
+## Uncertainty
 
-- [[09_來源摘要/Poole_2020_anaerobic_threshold]]
-- [[09_來源摘要/Beaver_Wasserman_Whipp_1986_V_slope_method]]
-- [[09_來源摘要/Physiological_model_of_CO2_output_during_incremental_exercise]]
-- [[09_來源摘要/Hirakoba_1996_excess_CO2_lactate_prediction]]
-- [[09_來源摘要/Yunoki_1999_excess_CO2_kinetics]]
+- LT / GET 與 morbidity / mortality 的確切 mediator 尚未明確。
+- 不同疾病、年齡、sex、training status 下，GET / LT cutoffs 的外推仍需 disease-specific evidence。
+- 學界仍存在閾值命名混亂；RCP、MLSS、LT2、CP / CS 是否能完全統一，仍有測量方法與概念邊界爭議。
 
-### 證據標記
+## Limitations and Misreadings
 
-- 來源層級：1
-- evidence_level：consensus
-- confidence：high
+- 不可把 `anaerobic threshold` 字面解讀成「開始無氧」。
+- 不可把 lactate 上升直接等同 tissue hypoxia、poor oxygen delivery 或 fatigue cause。
+- 不可用 GET / LT 取代 CP / CS 來判定 heavy-severe boundary。
+- 不可把 single topical review 的 cutoffs 當成所有族群的 guideline；perioperative、heart failure、pulmonary hypertension 與 athletic training 需要各自的 clinical source。
 
-## 相關頁面
+## Links
 
-### 相關頁面
-
-- [[09_來源摘要/Poole_2020_anaerobic_threshold]]
-- [[09_來源摘要/Beaver_Wasserman_Whipp_1986_V_slope_method]]
-- [[09_來源摘要/Physiological_model_of_CO2_output_during_incremental_exercise]]
-- [[09_來源摘要/Hirakoba_1996_excess_CO2_lactate_prediction]]
-- [[09_來源摘要/Yunoki_1999_excess_CO2_kinetics]]
+- [[10_來源摘要/Poole_2020_anaerobic_threshold]]
 - [[Lactate_Threshold]]
 - [[Gas_Exchange_Threshold]]
 - [[V_Slope_Method]]
 - [[Critical_Power]]
 - [[Exercise_Intensity_Domains]]
-- [[../05_Exercise_Physiology/Lactate_Shuttle]]
-- [[../05_Exercise_Physiology/Skeletal_Muscle_Energy_Metabolism]]
 - [[VO2_Kinetics]]
 - [[VO2_Slow_Component]]
+- [[../05_Exercise_Physiology/Lactate_Shuttle]]

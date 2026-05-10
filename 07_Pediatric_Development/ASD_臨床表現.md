@@ -6,9 +6,9 @@ type: clinical
 domain: [pediatric, neurodevelopmental, phenotype]
 tags: [ASD, joint_attention, pragmatics, sensory, regression]
 sources:
-  - 09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Clinical_features.md
-  - 09_來源摘要/Autism_Spectrum_Disorder.md
-  - 09_來源摘要/Autism_Spectrum_Disorder_ASD.md
+  - 10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Clinical_features.md
+  - 10_來源摘要/Autism_Spectrum_Disorder.md
+  - 10_來源摘要/Autism_Spectrum_Disorder_ASD.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -115,9 +115,9 @@ ASD phenotype 的核心不是「怪動作」本身，而是 **social reciprocity
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Clinical_features]]
-- [[09_來源摘要/Autism_Spectrum_Disorder]]
-- [[09_來源摘要/Autism_Spectrum_Disorder_ASD]]
+- [[10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Clinical_features]]
+- [[10_來源摘要/Autism_Spectrum_Disorder]]
+- [[10_來源摘要/Autism_Spectrum_Disorder_ASD]]
 
 ### 證據標記
 
@@ -135,6 +135,6 @@ ASD phenotype 的核心不是「怪動作」本身，而是 **social reciprocity
 - [[ASD_藥物與共病管理]]
 - [[小兒復健評估]]
 - [[ADHD_睡眠與常見共病]]
-- [[../09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Clinical_features]]
-- [[../09_來源摘要/Autism_Spectrum_Disorder]]
-- [[../09_來源摘要/Autism_Spectrum_Disorder_ASD]]
+- [[../10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Clinical_features]]
+- [[../10_來源摘要/Autism_Spectrum_Disorder]]
+- [[../10_來源摘要/Autism_Spectrum_Disorder_ASD]]

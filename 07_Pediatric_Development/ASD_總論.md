@@ -6,9 +6,9 @@ type: clinical
 domain: [pediatric, neurodevelopmental, rehabilitation]
 tags: [ASD, epidemiology, pathogenesis, neurodevelopment, comorbidity]
 sources:
-  - 09_來源摘要/Autism_spectrum_disorder_ASD_in_children_and_adolescents_Terminology_epidemiology_and_pathogenesis.md
-  - 09_來源摘要/Autism_Spectrum_Disorder.md
-  - 09_來源摘要/Autism_Spectrum_Disorder_ASD.md
+  - 10_來源摘要/Autism_spectrum_disorder_ASD_in_children_and_adolescents_Terminology_epidemiology_and_pathogenesis.md
+  - 10_來源摘要/Autism_Spectrum_Disorder.md
+  - 10_來源摘要/Autism_Spectrum_Disorder_ASD.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -106,9 +106,9 @@ ASD 是以 **persistent social communication / social interaction deficit + rest
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Autism_spectrum_disorder_ASD_in_children_and_adolescents_Terminology_epidemiology_and_pathogenesis]]
-- [[09_來源摘要/Autism_Spectrum_Disorder]]
-- [[09_來源摘要/Autism_Spectrum_Disorder_ASD]]
+- [[10_來源摘要/Autism_spectrum_disorder_ASD_in_children_and_adolescents_Terminology_epidemiology_and_pathogenesis]]
+- [[10_來源摘要/Autism_Spectrum_Disorder]]
+- [[10_來源摘要/Autism_Spectrum_Disorder_ASD]]
 
 ### 證據標記
 
@@ -127,6 +127,6 @@ ASD 是以 **persistent social communication / social interaction deficit + rest
 - [[ASD_藥物與共病管理]]
 - [[小兒復健評估]]
 - [[ADHD_總論]]
-- [[../09_來源摘要/Autism_spectrum_disorder_ASD_in_children_and_adolescents_Terminology_epidemiology_and_pathogenesis]]
-- [[../09_來源摘要/Autism_Spectrum_Disorder]]
-- [[../09_來源摘要/Autism_Spectrum_Disorder_ASD]]
+- [[../10_來源摘要/Autism_spectrum_disorder_ASD_in_children_and_adolescents_Terminology_epidemiology_and_pathogenesis]]
+- [[../10_來源摘要/Autism_Spectrum_Disorder]]
+- [[../10_來源摘要/Autism_Spectrum_Disorder_ASD]]

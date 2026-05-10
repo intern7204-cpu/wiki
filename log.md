@@ -5169,3 +5169,2251 @@ index.md 更新：Total pages 7 → 16。
 - 待處理來源：
   - 概念頁 audit 視為下一輪工作項目；外部 raw 待處理來源沿用前一輪 stroke UpToDate 系列清單，未變動。
 
+
+## [2026-05-04] ingest | UpToDate — Complications of stroke: An overview
+
+- 類型：UpToDate topic review（來源層級 6；topic last updated 2026-02-23；literature review current through 2026-04）。
+- 選擇原因：上一輪 `Aphasia: Prognosis and treatment` 後待處理 stroke UpToDate 系列中，本篇可補上 `中風復健總論` 缺少的 complication surveillance 骨架，且與 acute stroke / rehab readiness 高度相關。
+- 本輪單一來源：
+  - `C:\原始資料\Complications of stroke_ An overview.md`
+  - 只讀取此一篇來源；未混入其他來源。
+- 新增來源摘要：
+  - `09_來源摘要/Complications_of_stroke_an_overview.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/中風併發症總覽.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/中風復健總論.md`（補入 complication surveillance 作為 rehab readiness 前置檢查，並加入來源摘要連結）
+  - `index.md`（新增來源摘要與概念頁索引；更新總頁數 540 → 542）
+  - `log.md`
+- 抽出概念：
+  - Poststroke complication surveillance：acute stroke rehab 不應只看 motor recovery，必須主動監測 dysphagia、aspiration pneumonia、VTE、UTI、cardiac complications、pulmonary complications、GI bleeding、urinary incontinence、falls、depression 與 neurologic deterioration。
+  - Dysphagia–aspiration–pneumonia chain：swallow screening 是 oral medication / food 前的 safety-critical step；dysphagia 與 aspiration 會顯著增加 pneumonia risk。
+  - Complication prevention as risk tradeoff：routine prevention 應理解為 routine risk assessment，不是對所有 stroke 病人 blanket 使用 prophylactic antibiotics、stress ulcer prophylaxis 或 catheter。
+  - Stroke-heart / neurogenic cardiopulmonary complications：troponin elevation、ECG changes、arrhythmia、takotsubo-like dysfunction、neurogenic pulmonary edema 可能來自 stroke-related autonomic mechanisms，不可簡化為單一 ACS 或 pulmonary diagnosis。
+- 本輪直接事實：
+  - Medical complications after acute stroke are common and influence outcome。
+  - Any in-hospital medical complication was associated with higher 30-day readmission risk（adjusted HR 1.68, 95% CI 1.04–2.73）。
+  - Dysphagia compared with no dysphagia increased pneumonia risk（RR 3.17, 95% CI 2.07–4.87）；aspiration compared with no aspiration increased pneumonia risk more strongly（RR 11.56, 95% CI 3.36–39.77）。
+  - Formal dysphagia screen was associated with lower aspiration pneumonia risk（adjusted OR 0.10, 95% CI 0.03–0.45；2.4% vs 5.4%）。
+  - General prophylactic antibiotics may reduce overall infection but do not reduce mortality or improve functional outcome；intubated acute brain injury RCT showed single-dose ceftriaxone 2 g IV within 12h reduced VAP and 28-day mortality in a specific population.
+  - UTI risk is increased by indwelling urinary catheter use and catheter duration；catheters should be avoided when possible.
+  - Acute stroke cardiac surveillance includes ECG、troponin、continuous cardiac monitoring for at least first 24h.
+- 發現衝突：
+  - 無直接推翻既有頁面的衝突。
+  - 但 `中風復健總論` 原本對 complication surveillance 的 traceability 不足，已補入新頁與來源摘要連結。
+- 移除或降級的陳述：
+  - 無；本輪主要是補骨架與來源追溯。
+- 待追蹤問題：
+  - `吞嚥障礙復健總論` 可於後續用 dysphagia 專門來源重新校正 water swallow、VFSS/FEES、NPO、tube feeding timing 與 aspiration pneumonia prevention。
+  - 需後續分 subtype 整理 ischemic stroke、ICH、SAH 的 neurologic deterioration / cardiac-pulmonary risk 差異。
+  - `中風併發症總覽` 後續可拆出單一概念頁：stroke-heart syndrome、poststroke UTI/catheter risk、poststroke fall/fracture prevention、poststroke respiratory complication。
+- 待處理來源：
+  - `C:\原始資料\Aneurysmal subarachnoid hemorrhage_ Clinical manifestations and diagnosis.md`
+  - `C:\原始資料\Aneurysmal subarachnoid hemorrhage_ Treatment and prognosis.md`
+  - `C:\原始資料\Spontaneous intracerebral hemorrhage_ Pathogenesis, clinical features, and diagnosis (1).md`
+  - `C:\原始資料\Spontaneous intracerebral hemorrhage_ Acute treatment and prognosis.md`
+  - `C:\原始資料\Antihypertensive therapy for secondary stroke prevention.md`
+  - `C:\原始資料\Clinical diagnosis of stroke subtypes.md`
+  - `C:\原始資料\Stroke_ Etiology, classification, and epidemiology.md`
+  - `C:\原始資料\Cerebral and cervical artery dissection_ Clinical features and diagnosis.md`
+  - `C:\原始資料\Etiology, clinical manifestations, and diagnosis of vascular dementia.md`
+  - `C:\原始資料\Treatment of vascular cognitive impairment and dementia.md`
+  - `C:\原始資料\Stroke in patients with atrial fibrillation.md`
+  - `C:\原始資料\Sleep-related breathing disorders and stroke.md`
+
+## [2026-05-04] correction | Hargreaves & Spriet 2020 — Skeletal muscle energy metabolism during exercise
+
+- 類型：high-quality narrative review / landmark review（來源層級 4；Nature Metabolism 2020;2:817–828；DOI 10.1038/s42255-020-0251-4）。
+- 選擇原因：使用者要求先做運動生理；exercise physiology raw 候選多數已有舊版 batch ingest，本輪依 5/1 後單一來源 / skill workflow 選 Hargreaves & Spriet 2020 重新整理，因其是 skeletal muscle energy metabolism 的主幹來源。
+- 本輪單一來源：
+  - `C:\原始資料\HargreavesSpriet-2020-Nature_Metabolism\HargreavesSpriet-2020-Nature_Metabolism.md`
+  - 只讀取此一篇來源；未混入其他來源。
+- 修正來源摘要：
+  - `09_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism.md`（以 repo skill 模板重寫，補 Fact / Inference / Assumption / Uncertainty、Conflicts With Existing Knowledge、Pages That Should Be Created or Updated）。
+- 新增頁面：
+  - `05_Exercise_Physiology/運動營養與Ergogenic_Aids.md`
+- 更新頁面：
+  - `05_Exercise_Physiology/Skeletal_Muscle_Energy_Metabolism.md`（加入運動營養 / ergogenic aids 的限制因子判讀入口與來源連結）
+  - `index.md`（新增運動營養頁、更新 Hargreaves source-summary 描述、Total pages 542 → 543）
+  - `log.md`
+- 抽出概念：
+  - 三條 ATP resynthesis 路徑的動態協調：PCr、glycolysis、oxidative phosphorylation 不是依序切換，而是從 exercise onset 同時啟動，依 kinetics、power 與 capacity 分工。
+  - Exercise intensity and duration determine substrate selection：高強度越依賴 carbohydrate；fat oxidation capacity 大但 rate / transition speed 不足以取代高強度 carbohydrate demand。
+  - Dual-stage metabolic control：Ca2+ / epinephrine 作 feed-forward gross control，ADP / AMP / Pi / substrates 作 feedback fine-tuning。
+  - Lactate as substrate and signal：lactate 不是 waste；是 oxidative substrate、gluconeogenic precursor、muscle glycogenesis substrate 與 signaling molecule。
+  - Metabolic ergogenic interventions must match limiting mechanism：creatine、carbohydrate、caffeine、β-alanine、bicarbonate、nitrate、ketone / high-fat approaches、antioxidants 必須對齊 event demand 與 limitation。
+- 本輪直接事實：
+  - Intramuscular ATP stores 約 5 mmol/kg wet muscle；900 W all-out 若只靠 stored ATP 估計 <2 s，200 W submaximal 約 15 s。
+  - 30-s all-out sprint 中 VO2 可達 70–100% VO2max，最後 5 s 約 50% energy contribution 為 aerobic。
+  - Maximal fat oxidation occurs around 60–65% VO2max；80–100% VO2max 時 fuel use shifts to carbohydrate。
+  - Carbohydrate loading improves events longer than about 60–90 min；carbohydrate ingestion during prolonged exercise delays but does not prevent fatigue。
+  - Creatine increases total muscle creatine by 20–25% and PCr by 10–15% in cited data；long-term safety data remain limited。
+  - AMPK role in exercise glucose uptake / fat oxidation appears overstated during exercise；may be more important postexercise and for adaptation.
+- 發現衝突：
+  - 與「anaerobic first, aerobic later」的階段式教學衝突：本文支持 all systems activate from onset but with different kinetics。
+  - 與「lactate is waste / lactate causes fatigue」框架衝突：本文支持 lactate as substrate and signaling molecule；fatigue 更需看 acidosis / ionic disturbance / central-peripheral interaction。
+  - 與「fat oxidation 越多越適合 endurance performance」的簡化說法衝突：high-intensity endurance 仍高度依賴 carbohydrate。
+  - 與「AMPK controls exercise glucose uptake and fat oxidation」簡化說法衝突：本文明確指出此角色 during exercise 被高估。
+- 移除或降級的陳述：
+  - 舊摘要的「來源層級：Tier 1」改為「來源層級 4（high-quality review）」以對齊新版 AGENTS.md 來源優先序；其內容仍可作運動代謝主幹框架，但不是 guideline 或 systematic review。
+- 待追蹤問題：
+  - `運動營養與Ergogenic_Aids.md` 後續若要變成可用處方頁，需另查 IOC consensus、ISSN position stands、ACSM / sports nutrition guideline 等更直接來源。
+  - `Lactate_Shuttle.md` 需用 Brooks / lactate shuttle 專門來源重做，避免只靠 Hargreaves & Spriet 和 Poole 2020。
+  - `Skeletal_Muscle_Energy_Metabolism.md` 仍需逐步改成完全符合 skill 的 Fact / Inference / Assumption / Uncertainty 結構。
+
+## [2026-05-04] correction | Chow et al. 2022 — Exerkines in health, resilience and disease
+
+- 類型：high-quality narrative / expert review（Nature Reviews Endocrinology 2022;18:273–289；DOI 10.1038/s41574-022-00641-2）。
+- 選擇原因：延續 exercise physiology；此來源已在 5/4 建過摘要與 exerkine 概念頁，但需依新版 AGENTS.md 來源層級與單一概念拆頁邏輯補強 methodology / response variability 概念。
+- 本輪單一來源：
+  - `C:\原始資料\Exerkines in health, resilience and disease\Exerkines in health, resilience and disease.md`
+  - 只讀取此一篇來源；未混入其他來源。
+- 修正來源摘要：
+  - `09_來源摘要/Chow_2022_exerkines_health_resilience_disease.md`（來源層級由 Tier 1 修為 Tier 4 high-quality narrative / expert review；保留其概念整理價值，但不當作 guideline / systematic review）。
+- 新增頁面：
+  - `05_Exercise_Physiology/Exercise_Response_Variability與Exerkine_研究設計.md`
+- 更新頁面：
+  - `05_Exercise_Physiology/Exerkines_運動誘發多器官訊號分子.md`（來源層級修為 Tier 4，加入 response variability / study design 連結）。
+  - `index.md`（新增 methodology concept；更新 exerkines 與 Chow source-summary 的 Tier / 描述；Total pages 543 → 544）。
+  - `log.md`
+- 抽出概念：
+  - Exercise response variability：同一 exercise label 不等於同一 biological exposure；mode、intensity、duration、timing、feeding state、sampling window、fitness、genetics、phenotype、comorbidity 都會改變 response。
+  - Acute vs chronic mismatch：acute exerkine response 不一定平行 chronic training response；recent 24–72h exercise 也會干擾 resting trained-state measurement。
+  - Biomarker vs mediator：exerkine association 不等於 causal mediation；candidate exerkine 要成為臨床 target 需 human validation、mechanistic proof 與 patient-relevant outcome linkage。
+  - Methodology requirement：exerkine / exercise omics study 需記錄 exposure metadata、sampling context、assay platform、tissue / plasma / EV source 與 phenotype。
+- 本輪直接事實：
+  - Chow et al. define exerkines as signalling moieties released in response to acute and/or chronic exercise acting through endocrine / paracrine / autocrine pathways。
+  - The review states acute exerkine response does not necessarily parallel chronic training response。
+  - HERITAGE data cited: aerobic capacity response heritability around 47%；around 20% non-response for improved aerobic capacity；7–15% adverse response in selected cardiometabolic variables。
+  - MoTrPAC is cited as NIH-supported large-scale effort to characterize molecular transducers of physical activity。
+  - The review states “exercise in a pill” remains wishful thinking。
+- 發現衝突：
+  - 與「exerkine = myokine」混用衝突；myokine 只是 skeletal muscle-derived subset。
+  - 與「acute molecular signal 可直接代表 chronic adaptation」衝突；本來源明確指出兩者不一定平行。
+  - 與「animal / cell model 可直接轉譯人類處方」衝突；本來源將 animal-human inconsistency 列為 contentious question。
+- 移除或降級的陳述：
+  - `Chow_2022_exerkines_health_resilience_disease.md` 與 `Exerkines_運動誘發多器官訊號分子.md` 的 source_tier 由 1 改為 4，以對齊 AGENTS.md 來源優先序。
+- 待追蹤問題：
+  - 若要把 exerkine 轉成 clinical biomarker / therapeutic target，需後續找 MoTrPAC output、human intervention trials、mediation analyses 與 disease-specific studies。
+  - `Myokines_與_Muscle_Organ_Crosstalk.md` 可後續以 Severinsen & Pedersen 2020 單獨重做，與 broader exerkine framework 對齊。
+
+## [2026-05-04] correction | Egan & Sharples 2023 — Molecular responses to acute exercise and skeletal muscle adaptation
+
+- 類型：high-quality narrative / expert review（review article；acute exercise-induced signal transduction and skeletal muscle adaptation）。
+- 選擇原因：延續 exercise physiology；此來源是 `Acute_Exercise_Molecular_Response與Skeletal_Muscle_Adaptation` 的主來源，適合依 AGENTS.md + skill 重新整理，避免舊摘要把 acute molecular response 過度當成 chronic adaptation 預測公式。
+- 本輪單一來源：
+  - `C:\原始資料\egan-sharples-2023-molecular-responses-to-acute-exercise-and-their-relevance-for-adaptations-in-skeletal-muscle-to\egan-sharples-2023-molecular-responses-to-acute-exercise-and-their-relevance-for-adaptations-in-skeletal-muscle-to.md`
+  - 只讀取此一篇來源；未混入其他來源。
+- 修正來源摘要：
+  - `09_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses.md`（以 skill 模板重寫，補 Core Concepts、Known Facts、Mechanism Chain、Inferences、Assumptions、Uncertainties / Limitations、Conflicts With Existing Knowledge）。
+- 更新頁面：
+  - `05_Exercise_Physiology/Acute_Exercise_Molecular_Response與Skeletal_Muscle_Adaptation.md`（source_tier 1 → 4；補 What It Is Not、事實、常見誤用、與 `Exercise_Response_Variability與Exerkine_研究設計` 連結）。
+  - `index.md`（更新 Egan source-summary 與 acute molecular response concept 的 Tier / 描述；無新增頁面，Total pages 維持 544）。
+  - `log.md`
+- 抽出概念：
+  - Acute-to-chronic adaptation as a working model：每次 acute exercise 的 transient molecular response 可能在 repeated, progressive, recoverable training exposure 下累積為 protein abundance / activity 與 phenotype，但不是已完全驗證的線性公式。
+  - Exercise stimulus specificity and overlap：aerobic、resistance、HIIT、SIT、concurrent training 在 force、velocity、duration、frequency、contraction number、recovery 上不同，但分子與 phenotype response 有重疊，不是互斥盒子。
+  - Signals, sensors, transduction, effectors：intrinsic / extrinsic signals 經 sensor proteins / receptors、kinase/phosphatase/PTM/translocation networks，調控 transcription、translation、degradation、organelle remodeling。
+  - Training status / first-bout effect / response attenuation：強 first-bout response 可能反映 novelty / damage / stress；training 後 attenuation 可能代表 adaptation，不等於刺激失效。
+  - Translational limits and exercise mimetics：exercise 是 multi-organ repeated behavioral exposure，單一 pathway activation 不等於能取代 exercise。
+- 本輪直接事實：
+  - Repeated, episodic skeletal muscle contraction 是 structured exercise training 的基本 stimulus。
+  - Acute exercise signals include neuronal、mechanical、metabolic、hormonal stimuli。
+  - Intrinsic signals include Ca2+、ATP/ADP/Pi、redox、glycogen、pH、PO2、RONS、temperature、mechanical load/tension。
+  - Exercise categories include aerobic/endurance, resistance/strength, circuit, concurrent, HIIT, SIT, sprint training。
+  - Training volume and session characteristics determine type and magnitude of adaptation。
+  - The source explicitly states that the acute-to-chronic model is a working model and not fully validated。
+- 發現衝突：
+  - 與「單次 mRNA / phosphorylation / MPS 上升即可預測 chronic phenotype」衝突。
+  - 與「aerobic vs resistance 是完全分離 molecular boxes」衝突；來源支持 overlap / continuum。
+  - 與「exercise mimetic 可取代 exercise」衝突；來源支持 adjunct / target discovery，但不支持取代 exercise。
+- 移除或降級的陳述：
+  - `Egan_Sharples_2023_acute_exercise_molecular_responses.md` 與 `Acute_Exercise_Molecular_Response與Skeletal_Muscle_Adaptation.md` 的 source_tier 由 1 改為 4，以對齊 AGENTS.md 來源優先序。
+- 待追蹤問題：
+  - `Furrer_2023_molecular_athlete.md` 與 `Smith_2023_exercise_metabolism_adaptation_skeletal_muscle.md` 目前仍在 acute molecular page 中作補充，後續也應逐篇依單一來源修正來源層級與概念邊界。
+  - 若要支持 clinical exercise prescription，仍需 disease-specific guideline / trial / consensus；此 review 只能支持 mechanistic literacy。
+
+## [2026-05-04] correction | Poole et al. 2020 — The anaerobic threshold: 50+ years of controversy
+
+- 類型：topical / high-quality narrative review（J Physiol 2021;599(3):737–767；DOI: 10.1113/JP279963）。
+- 選擇原因：使用者要求以 exercise physiology 文章開始並由我選一篇完整跑 workflow；此來源是 CPET / exercise physiology 中 AT、LT、GET、CP/CS 邊界混淆的核心整理來源。
+- 本輪單一來源：
+  - `C:\原始資料\The Journal of Physiology - 2020 - Poole - The anaerobic threshold  50  years of controversy\The Journal of Physiology - 2020 - Poole - The anaerobic threshold  50  years of controversy.md`
+  - 只讀取此一篇來源；未混入第二篇 raw source。
+- 修正來源摘要：
+  - `09_來源摘要/Poole_2020_anaerobic_threshold.md`（標記本輪已更新頁面；來源層級維持 Tier 4 high-quality narrative / topical review）。
+- 更新頁面：
+  - `04_CPET/Anaerobic_Threshold_概念史.md`（改為單一概念頁；補 Definition / Mechanism / Fact / Inference / Assumption / Uncertainty；source_tier 1 → 4）。
+  - `04_CPET/Lactate_Threshold.md`（補 LT 不等於 dysoxia、LT vs CP 邊界與 uncertainty；source_tier 1 → 4）。
+  - `04_CPET/Gas_Exchange_Threshold.md`（補 GET 判讀假設、false positive / false negative caveats、clinical cutoff 外推限制；source_tier 1 → 4）。
+  - `index.md`（更新 AT / LT / GET 與 Poole source-summary 的描述與 Tier；無新增頁面，Total pages 維持 544）。
+  - `log.md`
+- 抽出概念：
+  - AT 是歷史術語，不應再作為 muscle dysoxia 的機制描述。
+  - LT / GET 是 moderate → heavy boundary；CP / CS 才是 heavy → severe / sustainable-vs-unsustainable boundary。
+  - Lactate accumulation 代表 Ra > Rd，不等於 tissue oxygenation 不足。
+  - GET 必須靠 V-slope 與 isocapnic buffering 支持；pre-test hyperventilation、高海拔、McArdle disease、severe HF / COPD 可能造成錯判或無法判讀。
+- 本輪直接事實：
+  - Poole et al. 明確主張目前沒有直接證據支持 exercising muscle 在 LT，或 V̇O2max 以下任何 V̇O2，變成 anaerobic / dysoxic。
+  - GET <40% predicted V̇O2max 通常被視為 clinically abnormal trigger。
+  - GET <11 mL/kg/min 在 heart failure 與部分 perioperative cohorts 中具有 risk signal，但 cutoffs 不可跨族群直接套用。
+- 發現衝突：
+  - 與「AT = 開始無氧 / 缺氧」的傳統教學衝突。
+  - 與「lactate 上升 = fatigue cause / waste product」的簡化說法衝突。
+  - 與「用 LT/GET 判定 severe-domain exhaustion」的做法衝突。
+- 移除或降級的陳述：
+  - `Anaerobic_Threshold_概念史.md`、`Lactate_Threshold.md`、`Gas_Exchange_Threshold.md` 與 `index.md` 中 Poole 2020 相關 Tier 1 標示修為 Tier 4。
+- 待追蹤問題：
+  - `Exercise_Intensity_Domains.md`、`Critical_Power.md`、`VO2_Kinetics.md`、`CPET_Protocol_Design.md` 後續仍可逐篇做 alignment audit。
+  - 若要把 GET cutoffs 用於 disease-specific clinical decision，需另查 guideline、consensus 或 disease-specific cohort / review。
+
+## [2026-05-04] correction | Severinsen & Pedersen 2020 — Muscle-Organ Crosstalk: The Emerging Roles of Myokines
+
+- 類型：high-quality narrative / expert review（Endocrine Reviews 2020;41:594-609）。
+- 選擇原因：使用者要求「再一次」跑 exercise physiology workflow；前一輪已把 `Myokines_與_Muscle_Organ_Crosstalk.md` 標記為後續需要用 Severinsen & Pedersen 2020 單獨重做。
+- 本輪單一來源：
+  - 主文：`C:\原始資料\bnaa016\bnaa016.md`
+  - Corrigendum：`C:\原始資料\bnaa024\bnaa024.md`，只用於同一篇文章的圖示修正：IL-6 inhibits appetite，不是 stimulates appetite。
+  - 未混入其他研究主文或第二篇 review。
+- 修正來源摘要：
+  - `09_來源摘要/Severinsen_Pedersen_2020_myokines_muscle_organ_crosstalk.md`（依 skill 模板重寫；source_tier 1 → 4；補 Core Concepts、Fact / Inference / Assumption / Uncertainty）。
+- 新增頁面：
+  - `05_Exercise_Physiology/Exercise_Induced_IL-6_作為Myokine.md`
+- 更新頁面：
+  - `05_Exercise_Physiology/Myokines_與_Muscle_Organ_Crosstalk.md`（改成單一概念總頁；移除多來源混寫；source_tier 1 → 4）。
+  - `index.md`（新增 IL-6 concept；更新 Myokines 與 Severinsen source-summary 描述；Total pages 544 → 545）。
+  - `log.md`
+- 抽出概念：
+  - Myokines：由 muscle fibers produced / expressed / released，具 autocrine、paracrine 或 endocrine effects。
+  - Myokines vs exerkines：myokines 是 muscle-derived subset；exerkines 是 broader exercise-induced multi-organ signals。
+  - Exercise-induced IL-6：目前本文中 human evidence 最強的 myokine，與 chronic basal IL-6 elevation 不能混用。
+  - Evidence stratification：muscle-brain、muscle-adipose、muscle-liver、muscle-gut、muscle-pancreas、muscle-skin、muscle-cancer axes 的 human support 不同，不可同等陳述。
+- 本輪直接事實：
+  - 本來源指出 myokinome 已識別超過 650 myokines，但 biological function 只描述約 5%。
+  - Human contracting skeletal muscle 可產生並釋放 IL-6 into circulation。
+  - IL-6 infusion in humans can improve insulin-stimulated glucose uptake, stimulate IL-1ra / IL-10, and inhibit endotoxin-induced TNF production。
+  - Exercise-induced visceral fat loss in abdominally obese humans was abolished by IL-6 receptor blockade in the cited trial。
+  - Corrigendum 修正 IL-6 appetite effect：IL-6 inhibits appetite。
+- 發現衝突：
+  - 與「IL-6 只是不好的 inflammatory marker」衝突；來源支持 exercise-induced transient IL-6 的 context-dependent metabolic / anti-inflammatory role。
+  - 與「myokine = exerkine」混用衝突；本文區分 muscle-derived myokines 與 broader exerkines。
+  - 與「所有候選 myokines 都已有 clinical biomarker utility」衝突；來源明確指出只有少數 myokines 在 humans 中有明確功能。
+- 移除或降級的陳述：
+  - `Severinsen_Pedersen_2020_myokines_muscle_organ_crosstalk.md` 與 `Myokines_與_Muscle_Organ_Crosstalk.md` 的 Tier 1 標示修正為 Tier 4 high-quality narrative review。
+  - Myokines page 移除 Hargreaves / Chow 作為同頁 source，避免本輪單一來源頁面混寫；改以 Links 連接 broader exerkine / metabolism pages。
+- 待追蹤問題：
+  - `Exerkines_運動誘發多器官訊號分子.md` 可後續補上 myokines are subset of exerkines 的明確回鏈。
+  - 若要把 IL-6 作為 clinical intervention target，需另查 disease-specific IL-6 blockade / exercise interaction studies，不可只用本 review。
+
+## [2026-05-04] correction | Smith et al. 2023 — Exercise metabolism and adaptation in skeletal muscle
+
+- 類型：high-quality narrative / expert review（Nature Reviews Molecular Cell Biology 2023;24(9):607-632；DOI: 10.1038/s41580-023-00606-x）。
+- 選擇原因：使用者要求完整跑一次 workflow 並以運動生理文獻開始；本來源是 skeletal muscle exercise metabolism、metabolic flexibility 與 training adaptation 的核心 review，且既有摘要 / 概念頁仍沿用舊版 Tier 1 標示。
+- 本輪單一來源：
+  - `C:\原始資料\nihms-1908393\nihms-1908393.md`
+  - 只讀取此一篇來源；未混入其他 raw source。
+- 修正來源摘要：
+  - `09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle.md`（source_tier 1 → 4；補 `Skeletal Muscle Mitochondrial Reticulum` 概念區塊）。
+- 新增頁面：
+  - `05_Exercise_Physiology/Skeletal_Muscle_Mitochondrial_Reticulum.md`
+- 更新頁面：
+  - `05_Exercise_Physiology/Skeletal_Muscle_Metabolic_Flexibility與Exercise_Adaptation.md`（source_tier 1 → 4；補 mitochondrial reticulum 連結）。
+  - `05_Exercise_Physiology/Skeletal_Muscle_Energy_Metabolism.md`（補 mitochondrial reticulum 作為 subcellular energy distribution / quality control 概念）。
+  - `index.md`（新增 mitochondrial reticulum 頁；更新 Smith source-summary 與 metabolic flexibility tier；Total pages 545 → 546）。
+  - `log.md`
+- 抽出概念：
+  - Skeletal muscle mitochondrial reticulum：subsarcolemmal / peripheral mitochondria 與 intermyofibrillar mitochondria 形成能量分配與 quality control 網路。
+  - Mitochondrial adaptation 不只看 total mitochondrial content；location、network connectivity、cristae / supercomplex structure 與 organelle contacts 都可能改變 interpretation。
+- 本輪直接事實：
+  - Mitochondria 約佔 skeletal muscle volume 2-10%，依 fiber type 而異。
+  - Subsarcolemmal / peripheral mitochondria 靠近 sarcolemma / capillaries，且有較多 cristae / matrix 與 ETC complex IV。
+  - Intermyofibrillar mitochondria 與 myofibrillar matrix、SR、intermyofibrillar lipid droplets 接觸，並具較高 ATP synthase expression 與 surface area-to-volume ratio。
+  - Lifelong endurance exercisers in older age 被來源整理為具有較高 mitochondrial density、較複雜與連通的 mitochondrial reticulum，並伴隨較高 OPA1 protein levels。
+- 發現衝突：
+  - 與「mitochondria 變多」即可完整描述 exercise adaptation 的簡化說法衝突；來源支持 subpopulation / network / location 層級的判讀。
+  - 與「mitochondrial content、respiration、reticulum、cristae、supercomplexes 可混用」衝突；本輪拆成不同層級。
+- 移除或降級的陳述：
+  - `Smith_2023_exercise_metabolism_adaptation_skeletal_muscle.md` 與 `Skeletal_Muscle_Metabolic_Flexibility與Exercise_Adaptation.md` 的 Tier 1 標示修正為 Tier 4 high-quality review。
+- 待追蹤問題：
+  - `Muscle_Fiber_Types.md` 與 `Acute_Exercise_Molecular_Response與Skeletal_Muscle_Adaptation.md` 仍可後續逐篇檢查是否過度混用 Smith、Blemker、Egan 等來源。
+  - 若要把 mitochondrial reticulum 轉成 clinical biomarker 或 exercise prescription，需要 human intervention outcome / disease-specific data，不能只用本 review。
+
+## [2026-05-04] correction | Furrer et al. 2023 — The Molecular Athlete
+
+- 類型：review article。
+- 選擇原因：使用者要求「再一次」完整跑 workflow；本來源是 exercise physiology、elite athlete phenotype、training response variability 與 molecular adaptation 的高品質 review，且既有頁面仍沿用舊版 Tier 1 標示。
+- 本輪單一來源：
+  - `C:\原始資料\furrer-et-al-2023-the-molecular-athlete-exercise-physiology-from-mechanisms-to-medals\furrer-et-al-2023-the-molecular-athlete-exercise-physiology-from-mechanisms-to-medals.md`
+  - 只讀取此一篇來源；未混入其他 raw source。
+- 修正來源摘要：
+  - `09_來源摘要/Furrer_2023_molecular_athlete.md`（source_tier 1 → 4；補 Source Type、Reliability Level、One-Sentence Summary、Core Concepts Extracted）。
+- 新增頁面：
+  - `05_Exercise_Physiology/Exercise_Training_Response_Low_Sensitivity.md`
+- 更新頁面：
+  - `05_Exercise_Physiology/Molecular_Athlete_運動表型連續體.md`（source_tier 1 → 4；補 low sensitivity 概念連結）。
+  - `index.md`（新增 low sensitivity concept；更新 Furrer source-summary 與 molecular athlete tier；Total pages 546 → 547）。
+  - `log.md`
+- 抽出概念：
+  - Exercise Training Response Low Sensitivity：對特定 stimulus、dose 或單一 outcome 的低反應，不應直接標記為 permanent non-responder。
+  - Molecular Athlete：inactive-to-elite performance continuum 是 intrinsic / extrinsic factors、systems physiology 與 molecular networks 的整合，不是單一 VO2max、gene 或 pathway。
+- 本輪直接事實：
+  - 來源指出 training response 存在 large interindividual variability。
+  - 來源引用 Montero and Lundby 的 6-week supervised cycling dose-response study；以 Wmax 定義時，nonresponse 比例隨每週 sessions 增加而下降，4 或 5 sessions/week 時為 0%。
+  - 來源主張 non-responder label 需謹慎，較精確說法是 low sensitivity to a given stimulus or outcome。
+  - 來源指出 exercise 是多 pathway / multi-organ 的 polypill，單一 outcome 低反應不代表所有 benefits 不存在。
+- 發現衝突：
+  - 與「non-responder 是固定體質」衝突；來源支持 outcome-specific / dose-specific 解讀。
+  - 與「單一 outcome 未改善 = exercise 無效」衝突；來源提醒 exercise 同時影響多個 organs、pathways 與 outcomes。
+  - 與「elite athlete 的 high responsiveness 可直接外推到一般人」衝突；來源區分 elite performance 與一般 health-related training response。
+- 移除或降級的陳述：
+  - `Furrer_2023_molecular_athlete.md` 與 `Molecular_Athlete_運動表型連續體.md` 的 Tier 1 標示修正為 Tier 4 review article。
+- 待追蹤問題：
+  - 若要建立 disease-specific low-response management algorithm，需另查 guideline、clinical trial 或 disease-specific cohort，不能只用本 review。
+  - `Exercise_Response_Variability與Exerkine_研究設計.md` 後續可補回本頁，區分 general training response variability 與 exerkine-specific study design。
+
+## [2026-05-04] ingest | Initial assessment and management of acute stroke
+
+- 類型：UpToDate topic review（literature review current through 2026-04；topic last updated 2026-03-24）。
+- 選擇原因：成人 acute stroke first-hours workflow 臨床風險高，來源為最新 UpToDate topic review，且尚無獨立來源摘要。
+- 本輪單一來源：
+  - `C:\原始資料\Initial assessment and management of acute stroke.md`
+  - 只讀取此一篇來源；未修改 `C:\原始資料`。
+- 新增來源摘要：
+  - `09_來源摘要/UpToDate_initial_assessment_management_acute_stroke.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Acute_Stroke_Initial_Assessment與Stabilization.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/中風急性期處置與時間窗.md`
+  - `index.md`
+  - `log.md`
+- 抽出概念：
+  - Acute stroke initial assessment 與 stabilization：first-hours workflow 以 LKW、ABC、glucose / SpO2、NCCT、NIHSS、IVT / EVT triage、BP、swallow、position 與 stroke-unit care 並行處理。
+- 本輪直接事實：
+  - 多數情境下 history、physical examination、serum glucose、oxygen saturation、noncontrast CT 足以引導 acute therapy。
+  - Additional tests 不應在 otherwise indicated 的情境延誤 therapy。
+  - Hypoxic patients 補充 oxygen 維持 saturation >94%；nonhypoxic acute ischemic stroke 不 routine 給 oxygen。
+  - IVT 前 BP 需 ≤185/110 mmHg；治療後至少 24 小時維持 ≤180/105 mmHg。
+  - 未接受 IVT / EVT 的 ischemic stroke 通常不急性降壓，除非 >220/120 mmHg 或有特定 comorbid indication。
+  - Oral medication / food 前需做 swallowing assessment；未評估前 NPO。
+  - Stable patients after 24 hours mobilization 可能減少 complications；within 24 hours very early mobilization may be harmful。
+- 發現衝突：
+  - 與「acute ischemic stroke BP 高就要降」衝突；本來源支持 first-hours 避免 reflex lowering。
+  - 與「stroke 越早下床越好」衝突；本來源支持 within 24 hours very early mobilization 可能有害。
+  - 與「nonhypoxic stroke routine oxygen」衝突；本來源不支持 routine oxygen。
+- 待追蹤問題：
+  - `中風急性期處置與時間窗.md` 舊有「lacunar / DM：SBP <140」需回查原 guideline / source；本輪 UpToDate 2026 不支持將其當 first-hours generic rule。
+  - 若要處理 IVT / EVT 細節，需另行單一來源 ingest reperfusion 專題或 AHA/ASA guideline。
+
+## [2026-05-04] correction | Blemker et al. 2023/2024 — Fiber-type Traps
+
+- 類型：synthesis / perspective review。
+- 選擇原因：使用者要求「再一次」跑 exercise physiology workflow；`Blemker_2023_fiber_type_traps.md` 與 `Muscle_Fiber_Types.md` 仍沿用舊版 Tier 1 標示，且前一輪 Smith workflow 已標記 `Muscle_Fiber_Types.md` 後續需逐篇檢查。
+- 本輪單一來源：
+  - `C:\原始資料\blemker-et-al-2023-fiber-type-traps-revisiting-common-misconceptions-about-skeletal-muscle-fiber-types-with-application\blemker-et-al-2023-fiber-type-traps-revisiting-common-misconceptions-about-skeletal-muscle-fiber-types-with-application.md`
+  - 只讀取此一篇來源；未混入 Hargreaves、Smith、Poole 或其他 raw source。
+- 修正來源摘要：
+  - `09_來源摘要/Blemker_2023_fiber_type_traps.md`（source_tier 1 → 4；改寫為 Source Type、Reliability Level、One-Sentence Summary、Core Concepts Extracted、Fact / Inference / Assumption / Uncertainty 結構）。
+- 新增頁面：
+  - `05_Exercise_Physiology/Muscle_Fiber_Type_Traps.md`
+- 更新頁面：
+  - `05_Exercise_Physiology/Muscle_Fiber_Types.md`（source_tier 1 → 4；補 Blemker 單一來源拆頁回鏈）。
+  - `index.md`（新增 fiber-type traps concept；更新 Blemker source-summary 與 Muscle Fiber Types tier；Total pages 552 → 553）。
+  - `log.md`
+- 抽出概念：
+  - Muscle Fiber Type Traps：MHC isoform、oxidative capacity、CSA 與 force-generating capacity 是不同測量軸，不能互相當作 surrogate。
+  - Muscle Fiber Types：使用 fiber type 時需明確說明分類依據是 MHC、oxidative enzymes、mitochondrial content、CSA、fatiguability、specific force 或 whole-muscle mechanics。
+- 本輪直接事實：
+  - 來源 abstract 直接列出三個 assumptions：MHC isoform 等同 oxidative capacity、CSA 是 MHC / oxidative capacity surrogate、force-generating capacity 可由 MHC isoform 推論。
+  - 來源指出這些 assumptions 會影響 experimental design、computational modeling 與 findings interpretation。
+  - 來源指出 metabolic properties across fibers form a continuum，且會受 muscle、species、habitual activity level 與 disease state 影響。
+  - 來源 discussion 建議研究者保留 experimental context、使用 precise vocabulary、清楚說明 actual measurement，並承認 fibers exist on a structure-function continuum。
+- 發現衝突：
+  - 與「type I = slow oxidative、type II = fast glycolytic」的一對一教學簡化衝突；來源支持多軸解讀。
+  - 與「CSA 可推論 fiber type」衝突；來源把 CSA 定位為 morphology measurement。
+  - 與「whole-muscle force 可由 MHC distribution 推回」衝突；來源強調 architecture、coordination、motor unit recruitment 與 force transmission 等因素。
+- 移除或降級的陳述：
+  - `Blemker_2023_fiber_type_traps.md` 與 `Muscle_Fiber_Types.md` 的 Tier 1 標示修正為 Tier 4 synthesis / perspective review。
+- 待追蹤問題：
+  - `Skeletal_Muscle_Energy_Metabolism.md` 仍可後續逐段 audit fiber type 相關語句，避免 MHC 與 oxidative capacity 混用。
+  - `VO2_Slow_Component.md` 若以 type II recruitment 解釋效率下降，需補清楚是 recruitment / ATP cost / efficiency 邏輯，不可寫成 type II 必然 low oxidative。
+
+## [2026-05-04] correction | Oliveira et al. 2024 — Polarized vs Other Training Intensity Distributions
+
+- 類型：systematic review with meta-analysis（Sports Medicine 2024；PROSPERO CRD42022365117）。
+- 選擇原因：使用者要求「再一次」跑 exercise physiology workflow；`Oliveira_2024_polarized_training_meta_analysis.md` 與 `Training_Intensity_Distribution.md` 仍沿用舊版 Tier 1 標示。
+- 本輪單一來源：
+  - `C:\原始資料\Polarized vs. Other Training Intensity Distribution Regimens and Endurance Performance\Polarized vs. Other Training Intensity Distribution Regimens and Endurance Performance.md`
+  - 只讀取此一篇來源；未混入 Furrer、Poole、CP / threshold review 或其他 raw source。
+- 修正來源摘要：
+  - `09_來源摘要/Oliveira_2024_polarized_training_meta_analysis.md`（source_tier 1 → 3；改寫為 Source Type、Reliability Level、One-Sentence Summary、Core Concepts Extracted、Fact / Inference / Assumption / Uncertainty 結構）。
+- 新增頁面：
+  - `05_Exercise_Physiology/Polarized_Training_證據邊界.md`
+- 更新頁面：
+  - `05_Exercise_Physiology/Training_Intensity_Distribution.md`（source_tier 1 → 3；補 Oliveira 單一來源拆頁回鏈）。
+  - `index.md`（新增 polarized training evidence-boundary concept；更新 Oliveira source-summary 與 TID tier；Total pages 553 → 554）。
+  - `log.md`
+- 抽出概念：
+  - Polarized Training 證據邊界：POL 對 VO2peak 有 small superiority，尤其在 <12 weeks intervention 與 highly trained / national-level athletes；但對 TT、TTE、V/P at VT2/LT2 沒有 superiority。
+  - Training Intensity Distribution：TID 比較必須先定義 physiological zones 與 outcome，不可只比較 POL / PYR / THR 名稱。
+- 本輪直接事實：
+  - 來源納入 17 studies，共 437 subjects；14 studies 進入 meta-analysis。
+  - POL 對 VO2peak 優於 other TIDs：SMD 0.24，95% CI 0.01-0.48，p=0.040，I2=0%。
+  - <12 weeks intervention 中 VO2peak 優勢較明顯：SMD 0.40，95% CI 0.08-0.71，p=0.01。
+  - Highly trained / national-level athletes 中 VO2peak 優勢較明顯：SMD 0.46，95% CI 0.10-0.82，p=0.01。
+  - TT、TTE、V/P at VT2/LT2 均未顯示 POL superiority。
+  - Sex subgroup analysis 因 sex reporting 不足而無法進行。
+- 發現衝突：
+  - 與「POL 是全面最佳耐力訓練模式」衝突；來源只支持 outcome-specific VO2peak 小幅優勢。
+  - 與「VO2peak 提升 = race performance 一定提升」衝突；TT 與 threshold-related outcomes 未顯示 superiority。
+  - 與「athlete TID 可直接套到 PM&R / cardiac rehab / pulmonary rehab」衝突；來源納入族群以 athletes / healthy adults 為主，clinical disease populations 需另查來源。
+- 移除或降級的陳述：
+  - `Oliveira_2024_polarized_training_meta_analysis.md` 與 `Training_Intensity_Distribution.md` 的 Tier 1 標示修正為 Tier 3 systematic review with meta-analysis。
+- 待追蹤問題：
+  - `Training_Intensity_Distribution.md` 仍需後續逐篇檢查 Poole / Furrer 對 intensity domains、periodization、recovery 的來源歸屬。
+  - 若要用 POL 建立 disease-specific rehabilitation prescription，需另查 clinical systematic review 或 guideline。
+
+## [2026-05-04] ingest | Spontaneous intracerebral hemorrhage: Acute treatment and prognosis
+
+- 類型：UpToDate topic review（literature review current through 2026-04；topic last updated 2026-04-29）。
+- 選擇原因：
+  - `C:\原始資料\Spontaneous intracerebral hemorrhage_ Acute treatment and prognosis.md` 尚無獨立 `09_來源摘要`。
+  - 既有 `中風急性期處置與時間窗.md` 已有 ICH 急性期段落，但 BP 目標寫成「SBP 130-150」過度簡化，需要用單一來源修正。
+- 本輪單一來源：
+  - `C:\原始資料\Spontaneous intracerebral hemorrhage_ Acute treatment and prognosis.md`
+  - 只讀取此一篇來源；未混入 ICH diagnosis、secondary prevention、SAH、ischemic reperfusion 或其他 raw source。
+- 新增來源摘要：
+  - `09_來源摘要/UpToDate_spontaneous_intracerebral_hemorrhage_acute_treatment_prognosis.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Spontaneous_ICH_急性抗擴大與Neurocritical_Stabilization.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/中風急性期處置與時間窗.md`（修正 ICH BP 分層、anticoagulation reversal、platelet transfusion、ICP / surgery、seizure prophylaxis 與早期 prognosis 邏輯）。
+  - `index.md`（新增 ICH concept 與 source summary；Total pages 554 → 556）。
+  - `log.md`
+- 抽出概念：
+  - Spontaneous ICH acute anti-expansion and neurocritical stabilization：急性處置重點是 stop antithrombotics、reverse anticoagulation、controlled BP lowering、ICP prevention / monitoring、selected surgery、seizure treatment only when present 與 delayed prognostication。
+- 本輪直接事實：
+  - Source 將 acute ICH treatment goals 定為 preventing hemorrhage extension、monitoring/managing elevated ICP、managing neurologic and medical complications。
+  - Acute ICH 初期所有 anticoagulant / antiplatelet drugs 應停用；anticoagulant reversal 應 immediate and medication-specific。
+  - Warfarin-associated ICH source 偏好 4-factor PCC，並搭配 IV vitamin K 維持 reversal。
+  - SBP 150-220 mmHg 且 clinically stable：target 140 mmHg，理想上 first hour 達成。
+  - SBP >220 mmHg：先快速降到 <220 mmHg，再於 stable 時逐步降到 140-160 mmHg。
+  - First hours 應避免 SBP <130 mmHg。
+  - 多數 antiplatelet-associated ICH 不 routine platelet transfusion；selected emergency surgery 才可能考慮。
+  - 沒有 seizure 的 acute ICH patients 不應 prophylactic antiseizure medication。
+  - ICH score / FUNC score 可估 prognosis，但不應在 first day 單獨作為新的 care limitation 依據。
+- 發現衝突：
+  - 與「ICH 一律快降到 SBP 130-150」衝突；本來源支持依 presenting SBP 分層，且避免 first-hours SBP <130。
+  - 與「antiplatelet-associated ICH 應 routine platelet transfusion」衝突；source 指出可能 harm，僅 selected emergency surgery 才考慮。
+  - 與「no seizure 也預防性給 antiseizure medication」衝突；source 不支持 prophylaxis。
+  - 與「嚴重 ICH 第一日即可用 prediction score 決定撤治療」衝突；source 強調 prognosis uncertainty 與 self-fulfilling outcome risk。
+- 待追蹤問題：
+  - `Spontaneous intracerebral hemorrhage_ Pathogenesis, clinical features, and diagnosis (1).md` 尚需另行單一來源 ingest。
+  - Spontaneous ICH secondary prevention / long-term prognosis 尚需另查來源，不能由本頁外推。
+  - 若要把 ICH treatment recommendation 升級為 guideline-grade page，需另行單一來源 ingest AHA/ASA ICH guideline。
+
+## [2026-05-05] ingest | Spontaneous intracerebral hemorrhage: Pathogenesis, clinical features, and diagnosis
+
+- 類型：UpToDate topic review（literature review current through 2026-04；topic last updated 2025-11-21）。
+- 選擇原因：
+  - `C:\原始資料\Spontaneous intracerebral hemorrhage_ Pathogenesis, clinical features, and diagnosis (1).md` 尚無獨立 `09_來源摘要`。
+  - 上一輪已建立 spontaneous ICH acute treatment/prognosis 頁；本篇是同一 ICH 主題中下一個最高相關、尚未處理的 diagnosis / etiology / expansion-risk source。
+- 本輪單一來源：
+  - `C:\原始資料\Spontaneous intracerebral hemorrhage_ Pathogenesis, clinical features, and diagnosis (1).md`
+  - 只讀取此一篇來源；未混入 acute treatment、secondary prevention、SAH、ischemic stroke evaluation 或其他 raw source。
+- 新增來源摘要：
+  - `09_來源摘要/UpToDate_spontaneous_intracerebral_hemorrhage_pathogenesis_clinical_features_diagnosis.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Spontaneous_ICH_診斷與病因分層.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/Spontaneous_ICH_急性抗擴大與Neurocritical_Stabilization.md`（補 diagnosis concept 交叉連結與來源邊界）。
+  - `03_疾病與臨床主題/中風急性期處置與時間窗.md`（補 ICH diagnosis / expansion-risk concept 連結）。
+  - `index.md`（新增 ICH diagnosis concept 與 source summary；Total pages 556 → 558）。
+  - `log.md`
+- 抽出概念：
+  - Spontaneous ICH 診斷與病因分層：CT/MRI mandatory confirmation 後，以 hemorrhage location、volume、IVH / edema / herniation、CTA/MRI clues、labs 與 expansion-risk markers 判斷 etiology、severity 與 monitoring / follow-up imaging needs。
+- 本輪直接事實：
+  - Source 明確指出 clinical characteristics alone cannot distinguish brain hemorrhage and ischemia。
+  - Source 明確指出 CT or MRI is mandatory to confirm ICH and exclude ischemic stroke / stroke mimics。
+  - ICH injury includes hematoma expansion、perilesional edema and BBB-breakdown-related secondary injury。
+  - Major risk factors include older age、hypertension and antithrombotic therapy。
+  - Common etiologies include hypertensive vasculopathy、CAA and ruptured vascular malformation；其他包含 venous thrombosis、vasculopathy、tumor、coagulopathy 等。
+  - Expansion predictors include shorter time from onset to initial imaging、ICH volume、antiplatelet/anticoagulant use and CTA spot sign。
+  - ABC/2 可估算 ICH volume。
+  - EEG reserved for seizures or encephalopathy not explained by ICH location/size。
+- 發現衝突：
+  - 與「頭痛嘔吐才是 ICH」衝突；source 指出 headache/vomiting 常見於 large ICH，但 headache may be absent。
+  - 與「CT 只用來排除出血」衝突；source 支持 CT/MRI 同時提供 severity、expansion risk and underlying cause information。
+  - 與「lobar ICH = CAA、deep ICH = hypertension」的過度簡化衝突；location 是 clue，不是 definitive diagnosis。
+- 待追蹤問題：
+  - Spontaneous ICH secondary prevention / long-term prognosis 尚未處理，不能由本 diagnosis source 外推。
+  - 若要建立 CAA、AVM、RCVS、cerebral venous thrombosis 等獨立概念頁，需各自回到單一來源。
+
+## [2026-05-05] ingest | Aneurysmal subarachnoid hemorrhage: Clinical manifestations and diagnosis
+
+- 類型：UpToDate topic review（literature review current through 2026-04；topic last updated 2026-03-06）。
+- 選擇原因：
+  - hemorrhagic stroke cluster 中 ICH treatment / diagnosis 已完成；`Aneurysmal subarachnoid hemorrhage_ Clinical manifestations and diagnosis.md` 是下一篇尚未處理且與急性 hemorrhagic stroke triage 最相關的來源。
+  - SAH treatment/prognosis 應在 diagnosis source 之後處理，避免先寫 treatment 而缺少 diagnostic gate。
+- 本輪單一來源：
+  - `C:\原始資料\Aneurysmal subarachnoid hemorrhage_ Clinical manifestations and diagnosis.md`
+  - 只讀取此一篇來源；未混入 aneurysmal SAH treatment/prognosis、unruptured aneurysm、nonaneurysmal SAH 或其他 raw source。
+- 新增來源摘要：
+  - `09_來源摘要/UpToDate_aneurysmal_SAH_clinical_manifestations_diagnosis.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Aneurysmal_SAH_臨床表現與診斷分流.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/中風急性期處置與時間窗.md`（新增 SAH diagnostic trigger、CT / LP / angiography 分流與來源連結）。
+  - `index.md`（新增 SAH diagnosis concept 與 source summary；Total pages 558 → 560）。
+  - `log.md`
+- 抽出概念：
+  - Aneurysmal SAH 臨床表現與診斷分流：sudden or rapid onset severe headache 啟動 SAH evaluation；noncontrast CT first；CT negative 但 suspicion persist 時多數仍需 LP；confirmed SAH 後用 CTA / DSA 找 bleeding source。
+- 本輪直接事實：
+  - Source 指出 thunderclap headache / sudden-onset severe headache 應評估 SAH。
+  - 即使 alert and neurologically intact，也需 immediate evaluation beginning with head CT。
+  - Noncontrast head CT 是 SAH diagnosis cornerstone；within 24 hours 可揭露 >90% cases。
+  - Normal CT 後若仍高度懷疑 SAH，多數需 lumbar puncture；只有 selected early optimal CT-negative patient 可例外。
+  - LP classic findings 包含 elevated opening pressure、CSF RBC 不由 tube 1 到 tube 4 明顯下降、xanthochromia。
+  - Confirmed SAH 後需 vascular imaging；DSA resolution 最高且為 gold standard，CTA 越來越常作 first-line vascular test。
+  - Initial angiography negative 時，除 selected perimesencephalic pattern 外，多數需 repeat angiography。
+- 發現衝突：
+  - 與「SAH 一定看起來很病重」衝突；source 指出 substantial proportion 可 awake, alert, neurologically intact。
+  - 與「CT negative 就排除 SAH」衝突；source 支持 CT-negative 但 suspicion persist 時多數仍需 LP。
+  - 與「CTA 可無條件取代 LP」衝突；source 偏好 standard CT→LP pathway，CTA 主要用於 CT/CSF positive 後找 symptomatic aneurysm。
+- 待追蹤問題：
+  - `Aneurysmal subarachnoid hemorrhage_ Treatment and prognosis.md` 應作為下一個 SAH treatment/prognosis 單一來源候選。
+  - Nonaneurysmal SAH / perimesencephalic SAH 若需獨立頁，需另查單一來源。
+
+## [2026-05-05] correction | Oliveira et al. 2024 polarized training meta-analysis
+
+- 修正原因：使用者要求跑一次完整 exercise physiology literature workflow；掃描後發現本地 exercise physiology / CPET / runner exercise-medicine 來源多已完成來源摘要，因此改採單一來源 correction/update，避免建立重複頁。
+- 重新檢查來源：
+  - `C:\原始資料\Polarized vs. Other Training Intensity Distribution Regimens and Endurance Performance\Polarized vs. Other Training Intensity Distribution Regimens and Endurance Performance.md`
+  - 本輪只讀取此一篇來源；未混入 Furrer、Poole、CP / W'、running injury 或其他 raw source。
+- 修正頁面：
+  - `09_來源摘要/Oliveira_2024_polarized_training_meta_analysis.md`
+  - `05_Exercise_Physiology/Polarized_Training_證據邊界.md`
+  - `05_Exercise_Physiology/Training_Intensity_Distribution.md`
+  - `index.md`
+- 補強內容：
+  - highly trained / national-level subgroup 與 shorter intervention duration 可能交纏，不能獨立解讀成高訓練者必然更適合 POL。
+  - 多篇研究未完整揭露實際 `%TID`、weekly TRIMP、volume、intensity、frequency；TID label 不能取代 training load 檢查。
+  - TT outcome 涵蓋 100 m 到 40 km，生理需求異質；null finding 只能說本 meta-analysis 未顯示 POL superiority。
+  - sex reporting 不足，female athlete / sex-specific response 仍不確定。
+- 移除或降級的陳述：
+  - 未移除頁面；將「highly trained / national-level athletes 中 POL 較有利」降級為受 intervention duration confounding 限制的 subgroup finding。
+- 仍不確定之處：
+  - POL 在完整 competitive season、injury risk、overreaching、recovery burden、clinical rehabilitation populations 的效應仍需另查單一來源。
+- 待處理來源：
+  - 若要補 clinical rehabilitation TID，需另找 cardiac / pulmonary / frailty population 的 guideline 或 systematic review。
+
+## [2026-05-05] concept extraction | Francescato & Cettolo 2021 VO2 fitting window
+
+- 修正原因：使用者要求再跑一次完整 exercise physiology literature workflow；掃描 `C:\原始資料` 後，未找到尚未進 wiki 的純 exercise physiology 主文，故改以既有單一來源摘要拆出尚未獨立成頁的單一方法學概念。
+- 本輪單一來源：
+  - `C:\原始資料\francescato-cettolo-2021-influence-of-the-fitting-window-on-the-o2-uptake-kinetics-at-the-onset-of-moderate-intensity\influence of the fitting window on the o2 uptake kinetics at the onset of moderate intensity.md`
+  - 只使用此一篇來源與既有來源摘要；未混入 Zacca、Goulding 等其他 VO2 kinetics sources 作綜合。
+- 來源摘要：
+  - `09_來源摘要/Francescato_Cettolo_2021_VO2_fitting_window.md` 已存在；本輪未重建摘要，只更新 related page 連結。
+- 新增頁面：
+  - `04_CPET/VO2_Kinetics_Fitting_Window.md`
+- 更新頁面：
+  - `04_CPET/VO2_Kinetics.md`（補 fitting window 作為 model assumption 的交叉連結）。
+  - `09_來源摘要/Francescato_Cettolo_2021_VO2_fitting_window.md`（補新概念頁連結）。
+  - `index.md`（新增 concept；Total pages 560 → 561）。
+  - `log.md`
+- 抽出概念：
+  - VO2 kinetics fitting window：在 moderate-intensity breath-by-breath VO2 onset data 中，phase 1 / 起始資料移除長度會改變 monoexponential `tau` 估計；fitting window 是 model assumption，不是中性背景設定。
+- 本輪直接事實：
+  - Source 分析 25 位 healthy adults 的 moderate-intensity step exercise VO2 data 與 `10^4` simulated biexponential responses。
+  - 每條 response 以 monoexponential model 重複 fitting 61 次，`Delta Tr` 從 0 到 60 秒逐秒增加。
+  - `tau` 的 minimum 大約出現在 `Delta Tr ~= 35 s`，約比 `Delta Tr ~= 0 s` 低 30%。
+  - ASE 在 `Delta Tr ~= 35 s` 前相對穩定，超過後明顯惡化。
+  - simulated data 中 `20 s-w` method 的 `tau` coverage 約 85%；`Mixed` method 約 92%。
+- 發現衝突：
+  - 與「固定移除前 20 秒就是中性慣例」衝突；本來源顯示 fitting window 可使 `tau` 產生實質差異。
+  - 與「選最短 tau 就是最佳」衝突；來源顯示移除過長會讓 precision 惡化。
+- 待追蹤問題：
+  - heavy / severe domain 的 fitting window 是否可沿用本來源結果，需另查單一來源。
+  - patient cohorts、off-transient recovery、binning / outlier removal / ensemble averaging 與 fitting window 的交互作用仍未處理。
+
+## [2026-05-05] ingest | Aneurysmal subarachnoid hemorrhage: Treatment and prognosis
+
+- 類型：UpToDate topic review（literature review current through 2026-04；topic last updated 2025-06-30）。
+- 選擇原因：
+  - 前一輪 SAH diagnosis ingest 明確留下 `Aneurysmal subarachnoid hemorrhage_ Treatment and prognosis.md` 作為下一個 treatment/prognosis source。
+  - 既有 `Aneurysmal_SAH_臨床表現與診斷分流.md` 只處理 diagnosis，急性治療、DCI / vasospasm、ICP / hydrocephalus 與 prognosis 尚未獨立成頁。
+- 本輪單一來源：
+  - `C:\原始資料\Aneurysmal subarachnoid hemorrhage_ Treatment and prognosis.md`
+  - 只讀取此一篇來源；未混入 aneurysmal SAH diagnosis、unruptured aneurysm、nonaneurysmal SAH、ICH 或 ischemic stroke raw source。
+- 新增來源摘要：
+  - `09_來源摘要/UpToDate_aneurysmal_SAH_treatment_prognosis.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Aneurysmal_SAH_急性治療與預後管理.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/Aneurysmal_SAH_臨床表現與診斷分流.md`（補 treatment/prognosis concept crosslink）。
+  - `03_疾病與臨床主題/中風急性期處置與時間窗.md`（補 SAH treatment frame、aneurysm repair、nimodipine、DCI / vasospasm、ICP / hydrocephalus 與不要做的事）。
+  - `index.md`（新增 SAH treatment concept 與 source summary；Total pages 561 → 563）。
+  - `log.md`
+- 抽出概念：
+  - Aneurysmal SAH 急性治療與預後管理：ruptured aneurysm SAH 後以 stabilization、antithrombotic reversal、BP control without hypotension、euvolemia、nimodipine、early clipping/coiling、DCI / vasospasm monitoring、ICP / hydrocephalus management 與 long-term morbidity surveillance 串成 neurocritical workflow。
+- 本輪直接事實：
+  - Source 指出 aneurysmal SAH patients 應在 intensive care setting 接受 hemodynamic、cardiac and neurologic monitoring。
+  - Source 指出所有 antithrombotic agents 應停用，所有 anticoagulation 應 reversal until aneurysm is repaired。
+  - Source 對 most acute SAH patients 使用 SBP <160 mmHg or MAP <110 mmHg，同時避免 hypotension。
+  - Source 指出 hypovolemia 是 ischemic complication risk factor，目標是 euvolemia。
+  - Nimodipine 60 mg every four hours orally / NG for 21 days 是 standard of care；source 指出 outcome benefit established，但 vasospasm incidence reduction 不明確。
+  - Surgical clipping 或 endovascular coiling 是 prevention of rebleeding 的唯一有效治療，應 as early as feasible，preferably within 24 hours。
+  - Rebleeding risk 在 first 24 hours 為 4-14%，maximal risk 在 first 2-12 hours；rebleeding mortality 可高達 70%。
+  - DCI occurs in approximately 30%；vasospasm 通常 days 4-14，days 7-8 peak。
+  - Aggressive vasospasm treatment 只應在 aneurysm 已 clipping/coiling 後進行；first-line 是 stepwise hemodynamic augmentation。
+  - Hypervolemia / triple-H 不應 routine 用於 DCI prevention or treatment。
+  - Hydrocephalus affects 20-30%；意識惡化合併 elevated ICP / hydrocephalus 時需 urgent CSF diversion。
+  - 30-day mortality approaches 30%；long-term complications 包含 neurocognitive dysfunction、epilepsy、focal deficits、mood/sleep disorders、aneurysm recurrence and late rebleeding。
+- 發現衝突：
+  - 與「nimodipine = 已證實防 vasospasm」衝突；source 支持 outcome benefit，但不支持 vasospasm incidence 必然下降。
+  - 與「tranexamic acid 可 routine 防 rebleeding」衝突；source 不支持 routine antifibrinolytics because poor outcome benefit 未建立。
+  - 與「triple-H 是 SAH vasospasm 標準」衝突；source 不 routine prophylactic hemodynamic augmentation，也不 routine hypervolemia。
+  - 與「aneurysm secured 前後 vasospasm treatment 一樣」衝突；source 指出 aggressive vasospasm therapy belongs after aneurysm occlusion。
+- 待追蹤問題：
+  - 若要把 aneurysmal SAH treatment 升級為 guideline-grade page，需另行單一來源 ingest 2023 AHA/ASA aneurysmal SAH guideline 原文。
+  - `中風併發症總覽` 可後續補一段 SAH-specific DCI / hydrocephalus / hyponatremia / cardiac complication crosslink。
+  - SAH long-term rehabilitation outcome、return to work、cognition / mood / sleep surveillance 需要另查 rehabilitation-focused source。
+
+## [2026-05-06] ingest | Poststroke neuropsychiatric disorders and symptoms
+
+- 類型：UpToDate topic review（literature review current through 2026-04；topic last updated 2025-11-24）。
+- 選擇原因：
+  - `C:\原始資料\Poststroke neuropsychiatric disorders and symptoms.md` 尚無獨立 `09_來源摘要`。
+  - 既有 stroke cluster 已處理 acute stroke、ICH、SAH、aphasia 與 complications；poststroke psychiatric / neurobehavioral surveillance 仍停留在 depression 單點，尚未整理 apathy、anxiety / PTSD、PBA、anger/aggression 與 referral threshold。
+- 本輪單一來源：
+  - `C:\原始資料\Poststroke neuropsychiatric disorders and symptoms.md`
+  - 只讀取此一篇來源；未混入 TMS、vascular cognitive impairment、neuropalliative care、dysphagia 或其他 raw source。
+- 新增來源摘要：
+  - `09_來源摘要/Poststroke_neuropsychiatric_disorders_and_symptoms.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Poststroke_Neuropsychiatric_Disorders_辨識與轉介.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/中風併發症總覽.md`（補 neuropsychiatric complications as rehab readiness domain）。
+  - `03_疾病與臨床主題/中風復健總論.md`（補 depression 以外的 neuropsychiatric surveillance 與 therapy engagement differential）。
+  - `03_疾病與臨床主題/Delirium_Depression_Dementia_鑑別.md`（補 poststroke context：問卷分數重疊、acute aggression 先想 delirium）。
+  - `index.md`（新增 poststroke neuropsychiatric concept 與 source summary；Total pages 563 → 565）。
+  - `log.md`
+- 抽出概念：
+  - Poststroke neuropsychiatric disorders 辨識與轉介：stroke recovery 中以 functional impairment、safety risk、suicidality、psychosis、dangerous/aggressive behavior、PBA vs depression、apathy vs depression / poor motivation 作為 surveillance 與 referral framework。
+- 本輪直接事實：
+  - Source 指出 poststroke psychiatric disorders common but under-recognized。
+  - Psychiatric symptoms causing functional impairment warrant mental health evaluation。
+  - Referral indications include lack of response to initial treatment、suicidal ideation or behavior、psychotic features、impulsive/dangerous/aggressive behavior、adjunctive psychotherapy need、poor judgment with imminent risk and patient interest。
+  - Depression is the most common poststroke neuropsychiatric disorder；reported prevalence approximately 25-50 percent across studies。
+  - PHQ-2 / PHQ-9 are commonly used for non-aphasic poststroke patients；PHQ-2 >= 3 should lead to PHQ-9 evaluation；ADRS is validated for aphasic patients by behavioral observation。
+  - Apathy is reduction or loss of motivation、initiation or goal-directed activity；it can coexist with depression but is not equivalent；no proven therapy exists in the source。
+  - Poststroke anxiety can affect approximately 25-33 percent of stroke/TIA patients；GAD-7、GAI、HADS can assist screening with caveats。
+  - PTSD is diagnosed only if symptoms persist beyond one month；source cites 2024 systematic review prevalence 17.5 percent after stroke, higher in SAH than ischemic stroke survivors。
+  - PBA involves involuntary or inappropriate laughing/crying with affect-mood incongruence；source cites 17 percent prevalence after stroke。
+  - PSAA has been reported in 11-35 percent of acute/subacute stroke patients；acute/subacute aggression may be delirium-related。
+- 發現衝突：
+  - 與「therapy participation 下降 = motivation poor」衝突；source 支持 depression、apathy、anxiety/PTSD、PBA、delirium、pain、sleep、communication/cognition differential。
+  - 與「poststroke crying = depression」衝突；source 明確區分 PBA 與 depression。
+  - 與「問卷總分可直接診斷 depression/anxiety」衝突；source 指出 stroke sequelae 可拉高 total score，需 item-level review 與 clinical judgment。
+  - 與「所有 acute stroke 都應 routine prophylactic SSRI」衝突；source 只支持 selected use and not standard care，且提醒 bleeding / fracture concerns。
+- 待追蹤問題：
+  - 若要建立 poststroke depression treatment 的 guideline-grade page，需另行單一來源 ingest AHA/ASA poststroke depression scientific statement 或 psychiatry guideline。
+  - PBA、poststroke apathy、poststroke anxiety/PTSD、PSAA 可後續視需求各自拆成單一概念頁。
+  - `Unipolar depression in adults_ Indications, efficacy, and safety of transcranial magnetic stimulation (TMS...).md` 可作 poststroke depression neuromodulation 的後續候選，但不得與本來源混寫。
+
+## [2026-05-06] ingest | Neuropalliative care of stroke
+
+- 類型：UpToDate topic review（literature review current through 2026-04；topic last updated 2026-04-15）。
+- 選擇原因：
+  - `C:\原始資料\Neuropalliative care of stroke.md` 尚無獨立 `09_來源摘要`。
+  - 近期 stroke cluster 已處理 acute stroke、ICH、SAH、complications 與 poststroke neuropsychiatric surveillance；但 severe stroke 的 goals-of-care、prognostic uncertainty、caregiver support、time-limited trials 與 palliative-hospice distinction 尚未獨立整理。
+- 本輪單一來源：
+  - `C:\原始資料\Neuropalliative care of stroke.md`
+  - 只讀取此一篇來源；未混入 TMS、vascular cognitive impairment、dysphagia topic、AHA statement 或 CMS 原文。
+- 新增來源摘要：
+  - `09_來源摘要/Neuropalliative_care_of_stroke.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Stroke_Neuropalliative_Care與Goals_of_Care.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/中風復健總論.md`（補 palliative care 可與 acute/rehab 並行、time-limited trial 與 goals-of-care trigger）。
+  - `03_疾病與臨床主題/中風併發症總覽.md`（補 palliative/caregiver needs as complication workflow）。
+  - `03_疾病與臨床主題/Spontaneous_ICH_急性抗擴大與Neurocritical_Stabilization.md`（補 severe ICH prognosis communication 與 palliative care 並行）。
+  - `03_疾病與臨床主題/Aneurysmal_SAH_急性治療與預後管理.md`（補 severe SAH goals-of-care handoff 與 palliative care distinction）。
+  - `index.md`（新增 neuropalliative concept 與 source summary；Total pages 565 → 567）。
+  - `log.md`
+- 抽出概念：
+  - Stroke neuropalliative care 與 goals of care：palliative care 可在 stroke presentation 開始且與 acute treatment 並行；核心是 symptom management、functional status、goals of care、advance care planning、shared decision-making、prognostic uncertainty、time-limited trials and caregiver support。
+- 本輪直接事實：
+  - Source defines neuropalliative care as optimizing symptom management and functional status、addressing goals of care、advance care planning and shared decision-making。
+  - Source distinguishes palliative care from hospice；hospice applies when patient is nearing end of life。
+  - Source states palliative care can begin at stroke presentation and can be offered concurrently with acute treatment。
+  - Primary palliative care is provided by the stroke team；specialist palliative care is provided by multidisciplinary palliative specialists。
+  - Serious illness conversation triggers include age 80 or older and hospitalized、patient/family/caregiver request、positive surprise question、mechanical ventilation、predicted major functional/cognitive dependency and long-term artificial nutrition。
+  - Source states most patients presenting with stroke do not have applicable advance directives。
+  - Source states many severe stroke patients lack decision capacity early and families must use substituted judgment。
+  - Source cites 2024 neurocritical care guidance recommending avoidance of premature prognostication after severe stroke。
+  - Source states time-limited trials can reduce uncertainty but require a clear follow-up strategy。
+  - Dysphagia affects more than 50 percent of acute stroke patients in the source；about 50 percent recover within two weeks and about 15 percent have persistent dysphagia at one month。
+- 發現衝突：
+  - 與「palliative care = hospice / withdraw treatment」衝突；source 明確支持可與 acute treatment 並行。
+  - 與「goals of care = code status」衝突；source 強調 values、treatment goals and shared decision-making。
+  - 與「prognostic score 可直接決定撤治療」衝突；source 指出 model should not be primary source for end-of-life decisions。
+  - 與「PEG 是單純出院行政需求」衝突；source 把 long-term artificial nutrition 放入 serious illness conversation triggers。
+- 待追蹤問題：
+  - 若要做 guideline-grade stroke palliative page，需另行單一來源 ingest 2025 AHA scientific statement 或 AAN position statement。
+  - Hospice eligibility / CMS criteria 若要實務化，需另行單一來源處理政策原文，不能只靠本 UpToDate 摘要。
+  - Poststroke pain 與 dysphagia feeding-tube decision 可後續各自拆成單一概念頁。
+
+## [2026-05-06] correction | Lievens et al. 2024 — Characterizing the Exponential Profile of W' Recovery Following Partial Depletion
+
+- 修正原因：
+  - 使用者要求繼續 ingest 一篇運動生理來源。
+  - 運動生理 raw candidates 多數已在舊 batch ingest 中登錄；本輪選擇較新的 W' partial depletion recovery 來源，依單一來源 workflow 重建摘要並拆出單一概念頁。
+- 本輪單一來源：
+  - `C:\原始資料\characterizing_the_exponential_profile_of_w_.24\characterizing_the_exponential_profile_of_w_.24.md`
+  - 只完整處理此一篇來源；未混入 Caen 2021、Chorley 2021、Skiba 2014、Bartram 2018 或其他 W' recovery raw source。
+- 重新建立來源摘要：
+  - `09_來源摘要/Lievens_2024_partial_Wprime_recovery.md`
+- 新增頁面：
+  - `04_CPET/Partial_Wprime_Depletion_Recovery.md`
+- 更新頁面：
+  - `04_CPET/Wprime_Recovery.md`（補 partial depletion 專頁連結與 full exhaustion 外推限制）。
+  - `04_CPET/Wprime_Balance_Model.md`（補 Lievens 2024 對 W'BAL model family 的限制）。
+  - `04_CPET/CP_Wprime_Interval_Design.md`（補 interval prescription 不應用 fixed tau 或 exhaustion model 一體套用）。
+  - `index.md`（新增 partial W' depletion recovery concept；Total pages 567 → 568）。
+  - `log.md`
+- 抽出概念：
+  - Partial W' depletion recovery：W' 尚未完全耗盡時，後續 work capacity above CP 的 recovery kinetics；不能直接等同於 full exhaustion 後 W' reconstitution，也不能用單一 fixed tau 跨 depletion state 泛用。
+- 本輪直接事實：
+  - Source 為 2024 original research article，n = 9 healthy young men。
+  - Experimental design 使用 25% 與 75% 理論 W' depletion，recovery durations 為 30、60、120、300、600 秒，recovery intensity 固定在 90% GET。
+  - W'OBS 以 WB2 to exhaustion operationally estimated。
+  - Biexponential fits 的 RMSE 較低，但 free amplitude models 的 AICc favor monoexponential；fixed amplitude models 中 DEP25% favor monoexponential、DEP75% favor biexponential。
+  - DEP25% 與 DEP75% 的 mean W'OBS 高度相關（r = 0.92）。
+  - W'OBS 與 VO2peak、CP、GET 呈正相關（r = 0.67-0.77）。
+  - 既有 Skiba-1、Skiba-2、Bartram models 未能準確描述本研究 temporal W' recovery profile。
+  - DEP25% 後 W'OBS 可超過理論 100%，作者以 WB2 aerobic priming / higher relative aerobic contribution 解釋。
+  - DEP75% 後 model fit plateau 約 83%，提示 large depletion 可能妨礙後續 high-intensity capacity 完全恢復。
+  - Perceived W' recovery 平均比 W'OBS 低約 25%，代表主觀疲勞與 model-derived work capacity recovery 可能脫鉤。
+- 發現衝突：
+  - 與「full exhaustion 後 two-phase W' recovery 可直接套到 all interval recovery」衝突；source 限制此一外推。
+  - 與「固定 universal tau 足以描述不同 depletion state」衝突；source 支持 individualized / dynamic tau direction。
+  - 與「W'BAL 是真實剩餘 anaerobic tank」衝突；source 顯示 W'OBS 受 aerobic priming、model assumptions 與 subjective fatigue mismatch 影響。
+- 待追蹤問題：
+  - 需要 women、elite athlete、older adults 與 cardiopulmonary disease / rehabilitation populations 的 partial depletion data。
+  - 需要不同 recovery power 條件下的 monoexponential vs biexponential model comparison。
+  - 後續可挑一篇 W'BAL model methodology source 做單一來源 correction，以清理舊 batch 形成的 model-form 混用風險。
+
+## [2026-05-07] correction | Skiba & Clarke — The W' Balance Model: Mathematical and Methodological Considerations
+
+- 修正原因：
+  - 前一輪 `Lievens_2024_partial_Wprime_recovery` 指出後續應處理 W'BAL model methodology source，以清理舊 batch 形成的 model-form 混用風險。
+  - 本來源曾在 2026-04-25 batch ingest 中建立摘要；本輪依單一來源 workflow 重新檢查並改寫成正式 source summary。
+- 本輪單一來源：
+  - `C:\原始資料\Mathematics of W'BAL\Mathematics of W'BAL.md`
+  - 只完整處理此一篇來源；未混入 Caen、Bartram、Sreedhara、Lievens 或其他 W' recovery raw source。
+  - 舊 batch 曾登錄 duplicate raw file `C:\原始資料\ijspp-article-p1561 (1)\ijspp-article-p1561 (1).md`；本輪不新增第二份摘要。
+- 重新建立來源摘要：
+  - `09_來源摘要/Skiba_Clarke_Wprime_balance_model.md`
+- 更新頁面：
+  - `04_CPET/Wprime_Balance_Model.md`（補 INT / ODE model-form 假設、input uncertainty、extreme-case caveat 與 field-use 解讀）。
+  - `index.md`（更新日期與 Skiba & Clarke source summary 描述；Total pages 維持 568）。
+  - `log.md`
+- 抽出概念：
+  - W'BAL model-form interpretation：W'BAL 是 intermittent severe-domain exercise 的 assumption-sensitive model family；INT 與 ODE 不是可互換版本，且 `W'BAL = 0 J` 應視為 exhaustion-risk zone 而不是精確生理瞬間。
+- 本輪直接事實：
+  - Source 為 2021 narrative / methodologic review article，討論 W'BAL theoretical basis、assumptions、calculation methods、strengths、limitations and future directions。
+  - W'BAL-INT 是 convolution-style model；其關鍵假設是 expended W' 可隨時間 exponential reconstitution，甚至可在 macroscopic depletion 時存在 microscopic recovery。
+  - Source 指出原始 INT equation 曾有 dimensional ambiguity，需明確寫成 convolution integral。
+  - Source 指出 INT best practice 需依 athlete 與 exercise mode 估 individualized `tau-W'`。
+  - INT 在 extreme simulations 可出現不合理行為，例如 continuous severe trial 下比 two-parameter CP model 更晚 exhaustion，或 exhaustion 後在 CP 立即出現 recovery。
+  - W'BAL-ODE 假設 depletion 與 recovery 互斥；power > CP 時 depletion，power < CP 時 recovery。
+  - ODE recovery rate 取決於 depleted W' fraction 與 `CP - P`；計算較直接且不需另行 fitting `tau-W'`。
+  - Source 的 Ferguson data example 中 ODE implied `tau-W'` 約 112 秒，而 simple exponential fit 約 336 秒。
+  - Source 的 interval example 中 ODE 可比 INT 早約 300 秒預測 exhaustion。
+  - Source 報告 W' typical error 約 7-20%，且一項 cited report 約 46%；因此 `W'BAL = 0 J` 不應當成 exact exhaustion point。
+  - Source 指出 CP / W' 在 within-session 與 between-session 被當成 constant 的假設可能不成立，nutrition、altitude and prior exercise 都可影響。
+  - Source 討論 KODE / multicomponent direction，但將其定位為未成熟研究方向，而非已定型實務模型。
+- 發現衝突：
+  - 與「W'BAL 是真實剩餘 anaerobic tank」衝突；source 支持 model-based estimate。
+  - 與「INT / ODE 只是同一模型的不同計算法」衝突；source 明確區分兩者對 recovery / depletion 的 assumptions。
+  - 與「更高 goodness-of-fit 即代表更真實 physiology」衝突；source 強調 mathematical fit、physiological realism and field usability 之間有 trade-off。
+- 待追蹤問題：
+  - 若要實作 W'BAL calculator，需另開工程頁明確選擇 INT、ODE 或其他 model form，並列出 input uncertainty。
+  - 若要討論 multicomponent W' recovery，需另行單一來源處理 Caen 2021 或相關原始研究，不可只靠本 review 的二手整理。
+  - `Wprime_Balance_Model.md` 仍整合多來源；後續若頁面過長，可拆出 `Wprime_BAL_INT_vs_ODE.md` 作單一概念頁。
+
+## [2026-05-07] correction | Caen et al. 2021 - W' Recovery Kinetics after Exhaustion
+
+- 修正原因：
+  - 前一輪 `Skiba_Clarke_Wprime_balance_model` 指出 multicomponent / two-component W' recovery 不可只靠 model review 二手整理。
+  - `Caen_2021_Wprime_recovery_two_phase.md` 已存在但屬舊 batch ingest 格式；本輪依單一來源 workflow 重讀原文並重建正式 source summary。
+- 本輪單一來源：
+  - `C:\原始資料\w__recovery_kinetics_after_exhaustion__a_two_phase\w__recovery_kinetics_after_exhaustion__a_two_phase.md`
+  - 只完整處理此一篇來源；未混入 Ferguson 2010、Skiba 2015、Chorley 2021、Lievens 2024、Caen 2019 或其他 W' recovery raw source。
+- 重新建立來源摘要：
+  - `09_來源摘要/Caen_2021_Wprime_recovery_two_phase.md`
+- 新增頁面：
+  - `04_CPET/Exhaustion_Based_Two_Phase_Wprime_Recovery.md`
+- 更新頁面：
+  - `04_CPET/Wprime_Recovery.md`（將 Caen 2021 exhaustion two-phase 內容連到單一概念頁，補 `W'ADJ` 與 changed `VO2` kinetics 限制）。
+  - `04_CPET/Wprime_Balance_Model.md`（補 complete-exhaustion two-phase 不是單一 anaerobic tank refill）。
+  - `04_CPET/CP_Wprime_Interval_Design.md`（補 exhaustion-based model 不等於 partial-depletion interval model）。
+  - `04_CPET/Partial_Wprime_Depletion_Recovery.md`（加入對照連結）。
+  - `index.md`（新增 concept page；Total pages 568 → 569；更新 Caen 2021 source summary 描述）。
+  - `log.md`
+- 抽出概念：
+  - Exhaustion-based two-phase W' recovery：complete severe-domain exhaustion 後，`W'OBS` recovery 可呈 fast initial phase 與 slower second phase；但這是 complete-exhaustion cycling protocol 的 operational finding，不可直接當成所有 interval recovery 的通用模型。
+- 本輪直接事實：
+  - Source 為 2021 original research article，n = 21 physically active young men。
+  - Protocol 先估 `CP` 與 `W'`，再做兩個相同 exhaustive work bouts，中間 recovery durations 為 30、60、120、180、240、300、600、900 秒。
+  - Recovery power 固定為 90% `GET`。
+  - `W'OBS` 以 WB2 TTE / WB1 TTE operationally 估計，假設 WB1 結束時 `W' = 0`。
+  - Standard `W'BAL` model 的 `tau` 為 524 ± 41 秒，對 `W'OBS` fitting RMSE 為 18.6%。
+  - `W'BAL` 在 30 秒到 5 分鐘 recovery 條件下低估 `W'OBS`。
+  - Monoexponential fitting of `W'OBS`：`tau` 約 104 秒，RMSE 6.4%。
+  - Biexponential fitting of `W'OBS`：`tau1` 約 11 秒、`tau2` 約 256 秒，RMSE 1.7%；AICc 支持 biexponential。
+  - `W'ADJ` 平均比 `W'OBS` 低 11.0% ± 1.5%，代表 changed `VO2` kinetics / reduced `O2` deficit 解釋部分短休息恢復。
+  - `W'ADJ` 的 AICc 不再支持 biexponential 優於 monoexponential。
+  - `VO2peak` 與 `W'OBS` recovery 正相關；MFT distribution 在主要分析中不是 significant predictor。
+- 發現衝突：
+  - 與「W' recovery 可用單一 universal tau 完整描述」衝突；source 支持 complete-exhaustion `W'OBS` two-phase behavior。
+  - 與「fast phase = anaerobic tank 快速補滿」衝突；source 顯示 enhanced aerobic contribution 解釋部分 short-rest recovery。
+  - 與「W' recovery = VO2 / PCr recovery」衝突；source 顯示 `VO2` recovery 多數時間快於 `W'OBS`，W'OBS 仍是 whole-system construct。
+  - 與「complete-exhaustion model 可直接套到 partial depletion」衝突；source 明確指出 partial depletion 可能不會產生同樣 steep fast phase。
+- 待追蹤問題：
+  - 若要清理 W' recovery 舊 batch 來源，可下一輪 correction `Ferguson_2010_Wprime_recovery_after_exhaustion` 或 `Skiba_2015_intramuscular_determinants_Wprime_recovery`。
+  - 若要處理 partial-depletion vs exhaustion synthesis，需先完成各來源獨立 correction，再另開 synthesis 頁。
+  - `Wprime_Recovery.md` 仍是多來源 hub；若繼續增長，應拆出 `Wprime_Recovery_Model_Comparison.md` 或 `Wprime_Recovery_Physiology.md`。
+
+## [2026-05-08] correction | Beaver, Wasserman & Whipp 1986 - V-slope method
+
+- 修正原因：
+  - 使用者要求先以運動生理或 CPET 執行一次完整 workflow。
+  - `Beaver_Wasserman_Whipp_1986_V_slope_method.md` 已存在，但屬舊 batch / 簡略格式；本輪依單一來源 workflow 重讀原文並重建正式 source summary。
+- 本輪單一來源：
+  - `C:\原始資料\beaver-et-al-1986-a-new-method-for-detecting-anaerobic-threshold-by-gas-exchange\beaver-et-al-1986-a-new-method-for-detecting-anaerobic-threshold-by-gas-exchange.md`
+  - 只完整處理此一篇來源；未混入 Poole 2020、Stringer 1995、Yano 1997、Hirakoba 1996 或其他 GET / V̇CO2 sources。
+- 重新建立來源摘要：
+  - `09_來源摘要/Beaver_Wasserman_Whipp_1986_V_slope_method.md`
+- 新增頁面：
+  - `04_CPET/Respiratory_Compensation_Point.md`
+- 更新頁面：
+  - `04_CPET/V_Slope_Method.md`（補 Beaver 1986 protocol、data conditioning、two-segment regression、主要數據與 Fact / Inference / Assumption / Uncertainty 分層）。
+  - `index.md`（新增 RCP concept；更新 V-slope 與 Beaver source summary 描述；Total pages 569 → 570）。
+  - `log.md`
+- 抽出概念：
+  - V-slope method：incremental CPET 中以 V̇CO2-V̇O2 two-segment breakpoint 偵測 buffering-related excess CO2 output onset 的 gas-exchange method。
+  - Respiratory compensation point：高於 GET/AT 的 ventilatory compensation breakpoint；在 Beaver 1986 中以 VE-V̇CO2 slope change 另行偵測，並作為 V-slope AT calculation 的 upper boundary。
+- 本輪直接事實：
+  - Source 為 1986 Journal of Applied Physiology original research article。
+  - 研究對象為 10 位健康男性，19-39 歲。
+  - Protocol 使用 cycle ergometer，4 分鐘 unloaded exercise 後以 15 W/min incremental exercise 至 tolerance。
+  - Measurement 包含 breath-by-breath V̇O2、V̇CO2、VE、heart rate、PETCO2；另以 arterial catheter 於 rest、unloaded cycling 與 incremental exercise 每 2 分鐘採血分析 lactate / bicarbonate。
+  - V-slope analysis 將 V̇CO2-V̇O2 curve 分成兩段 linear regression，以交點作 tentative AT。
+  - Data conditioning 包含 regular time interpolation、minimal moving average filtering、PETCO2-related V̇CO2 fluctuation correction、排除 incremental phase 起始約 1 分鐘的 CO2-store distortion。
+  - V-slope AT mean V̇O2 為 1.83 +/- 0.30 L/min；panel visual AT mean V̇O2 為 1.85 +/- 0.34 L/min，差異不顯著。
+  - V-slope coefficient of variation 為 0.023 +/- 0.006；panel average coefficient of variation 為 0.127 +/- 0.080。
+  - V-slope AT 對應 lactate 比 mathematically defined LT 高 0.50 +/- 0.34 meq/L。
+  - V-slope AT mean V̇O2 1.83 +/- 0.30 L/min 與 estimated HCO3 threshold 1.78 +/- 0.24 L/min 無顯著差異。
+  - RC point mean V̇O2 為 2.51 +/- 0.42 L/min，高於 V-slope AT。
+- 發現衝突：
+  - 與「anaerobic threshold = muscle dysoxia」衝突；本輪保留 Beaver 1986 operational GET / V-slope method，但不採納舊 dysoxia implication。
+  - 與「VE-based threshold alone 足以等同 V-slope GET」衝突；source 指出 ventilation response may lag or obscure metabolic CO2 signal。
+  - 與「RCP 可直接等同 GET 或 Critical Power」衝突；source 明確把 RC point 與 V-slope AT 分開，且本來源沒有支持 RCP = CP。
+- 待追蹤問題：
+  - `Respiratory_Compensation_Point.md` 目前只由 Beaver 1986 支持，後續需用 review / guideline 或 Poole 2020 類來源補齊 RCP、LT2、MLSS、CP/CS 的邊界。
+  - `Gas_Exchange_Threshold.md` 仍是多來源 hub；若要進一步 correction，需另選單一來源處理，不能在本輪混寫。
+  - 若要做 protocol-level V-slope calculator / reporting checklist，需另開方法頁整理 preprocessing、breakpoint criteria、signal quality 與 reporting minimum fields。
+
+## [2026-05-08] ingest | Goulding et al. 2023 - Priming Exercise and VO2 Kinetics
+
+- 修正原因：
+  - 使用者要求自動建立 wiki 執行一次完整 workflow。
+  - `C:\原始資料\s40279-023-01832-1\s40279-023-01832-1.md` 尚未在主 wiki 中建立來源摘要；同目錄 `nurturing care practice guide` 已於 2026-05-03 完成 ingest，故本輪不重複處理。
+- 本輪單一來源：
+  - `C:\原始資料\s40279-023-01832-1\s40279-023-01832-1.md`
+  - 只完整處理此一篇來源；未混入 Goulding 2021、Goulding & Marwood 2023、Caen 2021、Skiba / W'BAL 或其他 VO2 kinetics / critical power 來源。
+- 新增來源摘要：
+  - `09_來源摘要/Goulding_2023_priming_exercise_VO2_kinetics.md`
+- 新增頁面：
+  - `04_CPET/Priming_Exercise_and_VO2_Kinetics.md`
+- 更新頁面：
+  - `04_CPET/VO2_Kinetics.md`（補 human priming exercise 的 phase-specific 判讀：`tauVO2`、fundamental amplitude、slow component 不可混成單一「變快」）。
+  - `04_CPET/VO2_Slow_Component.md`（補 priming 後 slow component reduction 可能造成 overall kinetics 變快的誤讀風險）。
+  - `04_CPET/CP_Wprime_Interval_Design.md`（補 priming performance effect 需以 CP / W' 與 recovery duration 解讀）。
+  - `index.md`（新增 concept page 與 source summary；Total pages 569 → 571）。
+  - `log.md`
+- 抽出概念：
+  - Priming exercise effect on VO2 kinetics：prior heavy / severe exercise 會改變後續 exercise onset 的 VO2 phase response；必須分清 `tauVO2` lowering、fundamental amplitude increase 與 `VO2 slow component` reduction。
+- 本輪直接事實：
+  - Source 為 2023 *Sports Medicine* review article，DOI `10.1007/s40279-023-01832-1`。
+  - Priming 後 overall VO2 response 變快，不一定代表 fundamental phase `tauVO2` 降低。
+  - 43-study retrospective synthesis 指出 non-primed `tauVO2 <= 25 s` 的 groups 常接近 line of identity；`tauVO2 > 25 s` 的 groups 較常在 bout 2 出現較低 `tauVO2`。
+  - Healthy young active upright cycling 中，典型 priming effect 常是 increased fundamental amplitude + reduced slow component，而不一定是 `tauVO2` reduction。
+  - Supine / prone exercise、healthy elderly、type 2 diabetes mellitus、heart failure 或 baseline slow kinetics 時，prior heavy exercise 較可能降低後續 `tauVO2`。
+  - Residual lactic acidosis 與 increased muscle temperature alone 不是主要因果解釋。
+  - Priming 常增加 O2 delivery，但 O2 delivery alone 不足以解釋主要 priming effect。
+  - Altered motor unit recruitment 可解釋 fundamental amplitude increase 與 slow component reduction，但 surface EMG evidence 有方法限制。
+  - Enhanced intracellular O2 utilization 是作者最支持的機制方向之一；PDH / substrate availability 與 mitochondrial calcium 仍有未定論。
+  - Performance effect 取決於 prior exercise intensity、criterion exercise intensity、recovery duration 與兩者相對於 critical power 的位置。
+  - 若 priming 降低 `tauVO2`，critical power 較可能增加；若 priming 主要增加 fundamental amplitude 並降低 slow component，`W'` 較可能增加。
+- 發現衝突：
+  - 與「priming exercise = lactate / acidosis facilitation」衝突；來源認為 lactic acidosis 不是 quantitatively large causal mechanism。
+  - 與「warming muscle reproduces priming」衝突；human passive heating evidence 多數不支持相同 pulmonary VO2 kinetics response。
+  - 與「O2 delivery alone explains faster kinetics」衝突；來源支持 O2 delivery contributes，但 intracellular utilization 與 motor unit recruitment 更能解釋主要現象。
+  - 與「overall mean response time 變短 = tauVO2 變快」衝突；未拆 phase 時此判讀不成立。
+  - 與「priming 一定提升 performance」衝突；source 指出 severe priming recovery 太短時可能有害。
+- 待追蹤問題：
+  - 若要做 priming exercise prescription，需另行整理 intensity、recovery duration、event duration 與 athlete phenotype，不能只靠本 review 的 hypothesis。
+  - 若要處理 clinical populations，需另選 heart failure、type 2 diabetes、older adult 或 rehabilitation-specific source 做單一來源 ingest。
+  - `VO2_Kinetics.md` 仍是多來源 hub；後續可視情況拆出 `VO2_Kinetics_Phase_Modeling.md` 或 `VO2_Kinetics_Clinical_Interpretation.md`。
+
+## [2026-05-08] ingest | Currier et al. 2023 - Resistance training prescription for strength and hypertrophy
+
+- 本輪單一來源：
+  - `C:\原始資料\Resistance training prescription for muscle strength and hypertrophy in healthy adults  a systematic review and Bayesian network meta-analysis\Resistance training prescription for muscle strength and hypertrophy in healthy adults  a systematic review and Bayesian network meta-analysis.md`
+  - 只完整處理此一篇來源；未混入 Maroto 2024 RIR special populations、Therapeutic exercise textbook chapter、WHO guideline 或 disease-specific rehab sources。
+- 新增來源摘要：
+  - `09_來源摘要/Currier_2023_resistance_training_strength_hypertrophy_NMA.md`
+- 新增頁面：
+  - `05_Exercise_Physiology/Resistance_Training_Load_Set_Frequency_for_Strength_Hypertrophy.md`
+- 更新頁面：
+  - `02_方法學/治療性運動處方.md`（補 healthy adults resistance training load / set / frequency 框架，並標示不可直接外推至 rehabilitation / chronic disease）。
+  - `index.md`（新增 concept page 與 source summary；Total pages 571 → 573）。
+  - `log.md`
+- 抽出概念：
+  - Resistance training load / set / frequency for strength and hypertrophy：healthy adults 中 supervised RTx 可用 load、sets 與 weekly frequency 編碼比較；higher load 更偏 strength optimization，multiple sets / volume 更偏 hypertrophy，但 top-ranked node 不等於唯一可用處方。
+- 本輪直接事實：
+  - Source 為 2023 *British Journal of Sports Medicine* systematic review + Bayesian network meta-analysis。
+  - Search databases 包含 MEDLINE、Embase、Emcare、SPORTDiscus、CINAHL、Web of Science，搜尋至 2022-02-07。
+  - Eligible trials 為 randomized trials，研究對象為 healthy adults ≥18 years old，且比較至少 2 個 predefined RTx / CTRL nodes。
+  - Excluded populations 包含 athletes、military personnel、persons with comorbidities、injured persons、hospitalised / inpatient / outpatient / rehabilitation patients、long-term care residents、explicitly obese / overweight participants，以及 unsupervised RT。
+  - RTx coding 使用 `XY#`：`H` ≥80% 1RM、`L` <80% 1RM；`M` multiset、`S` single set；`1/2/3` 代表 once weekly、twice weekly、至少 3 days/week。
+  - Strength NMA included 178 studies, n=5097。
+  - Hypertrophy NMA included 119 studies, n=3364。
+  - Compared with CTRL，strength posterior SMD range 0.75-1.60，最大估計為 `HM3`。
+  - Compared with CTRL，hypertrophy posterior SMD range 0.10-0.66，最大估計為 `HM2`。
+  - Between-RTx comparisons 多數不排除 zero；source 報告 91% 的 between-RTx comparisons 其 95% CrI contained zero。
+  - Strength top-three probabilities 最高為 `HM3`、`HM2`、`HM1`；hypertrophy top-three probabilities 最高為 `HM2`、`LM1`、`LM2`。
+  - Network meta-regression 中 age、training status、proportion female、duration、volitional fatigue、relative weekly volume load、measurement tool / region、publication year 未顯示 obvious modifying effect。
+  - Source 明確指出 various RTx 對 health outcomes 的效果 largely unknown。
+- 發現衝突：
+  - 與「healthy adult RTx ranking 可直接當成 rehabilitation patient prescription」衝突；source 明確排除 chronic disease、injury、rehabilitation 與多個高風險族群。
+  - 與「最高排名處方就是唯一正確處方」衝突；多數 between-RTx comparisons credible interval 包含 zero，且 source 強調 preference / feasibility。
+  - 與「hypertrophy 必須 high load 或 failure」衝突；source 中 multiple sets / volume 更符合 hypertrophy top ranking，volitional fatigue NMR 未改善 model fit。
+  - 與「低負荷 RT 對 strength 沒有價值」衝突；source 支持 lower-load RT compared with no exercise 仍可增加 strength。
+- 待追蹤問題：
+  - 若要處理 special populations resistance training，需另以 Maroto 2024 或 disease-specific source 做單一來源 ingest / correction。
+  - 若要建立 clinical rehabilitation resistance training progression protocol，需額外納入 contraindications、monitoring、pain / fatigue response、technique quality 與 disease-specific precautions。
+  - 若要比較 failure、RIR、tempo、rest interval 或 periodization，需另選來源；Currier 2023 的 RTx nodes 未完整納入這些變數。
+
+## [2026-05-08] ingest | Poole & Gaesser 2025 - Oxygen uptake slow component enigma
+
+- 本輪單一來源：
+  - `C:\原始資料\Experimental Physiology - 2024 - Poole - Oxygen uptake slow component  Enigma of the  excess  oxygen used during heavy and\Experimental Physiology - 2024 - Poole - Oxygen uptake slow component  Enigma of the  excess  oxygen used during heavy and.md`
+  - 只完整處理此一篇來源；未混入 MacDougall 2025 原始研究、Gaesser & Poole 1996 review、Goulding 2021、Korzeniewski 2015 或其他 V̇O2SC / CP sources。
+- 新增來源摘要：
+  - `09_來源摘要/Poole_Gaesser_2025_VO2_slow_component_enigma.md`
+- 更新頁面：
+  - `04_CPET/VO2_Slow_Component.md`（補 expert Viewpoint 層級的概念邊界：V̇O2SC 主要來自 exercising muscle，但不應被壓成單一機制）。
+  - `index.md`（新增 source summary；Total pages 573 → 574）。
+  - `log.md`
+- 抽出概念：
+  - V̇O2 slow component as a multi-factor muscle efficiency problem：heavy / severe constant-load exercise 中 delayed excess V̇O2 多數來自 exercising muscle；fatigue、biomechanics、fiber contribution、coupling efficiency 與個體差異都可能參與，不宜用單一機制解釋。
+- 本輪直接事實：
+  - Source 為 *Experimental Physiology* peer-reviewed Viewpoint / expert commentary，citation year 2025，DOI `10.1113/EP092326`。
+  - Source 區分 incremental exercise 的近似 linear V̇O2-work rate relation 與 heavy / severe constant-load exercise 的 delayed excess V̇O2。
+  - Source 描述 V̇O2SC 通常在 fast kinetics 後、約 2-3 分鐘後變明顯。
+  - Heavy exercise 中 V̇O2SC 可在後續穩定；severe exercise 中可把 V̇O2 推向 V̇O2max 並接近 exhaustion。
+  - Source 指出極端情況下 V̇O2SC 可達約 1-1.5 L O2/min，侵蝕 muscle efficiency。
+  - Source 回顧早期候選原因包含 ventilation、body temperature、blood lactate、catecholamines，但認為以 estimated O2 cost 或 temporal correlation 判斷因果都不足。
+  - Source 指出 simultaneous leg muscle V̇O2 與 pulmonary V̇O2 量測曾支持 exercising muscles 佔 V̇O2SC majority，報告為 >80%。
+  - Source 將剩餘候選機制列為 fatiguing muscle fibres、additional less efficient fibre recruitment、decreased mitochondrial P:O ratio、less efficient chemical-mechanical coupling。
+  - Source 指出 decreased P:O ratio 作為主因似乎 unlikely，且 dog / human evidence 顯示 additional muscle fibre recruitment 不是 V̇O2SC 必要條件。
+  - Source 討論 MacDougall et al. 2025：constant external power 下，cycling biomechanics indices 與 quadriceps fatigue 可隨 V̇O2SC 發展而改變。
+  - Source 強調 interindividual variability，並反對以單一 driver 解釋所有 V̇O2SC。
+- 發現衝突：
+  - 與「V̇O2SC 主要是 ventilation / temperature / lactate / catecholamine」衝突；source 支持 exercising muscle 為主要來源。
+  - 與「type II fibre recruitment alone explains V̇O2SC」衝突；source 認為 additional fibre recruitment 不一定是必要條件。
+  - 與「constant watts = constant muscle input」衝突；source 強調 biomechanics 與 fatigue state 可能改變。
+  - 與「找到單一機制就能解釋所有 V̇O2SC」衝突；source 強調 multiple factors and individual variability。
+- 待追蹤問題：
+  - 若要寫入 MacDougall 2025 的 fatigue / biomechanics 原始資料，需另行單一來源 ingest；本輪只處理 Poole & Gaesser Viewpoint 的二手討論。
+  - `VO2_Slow_Component.md` 已是多來源 hub；若後續繼續增長，應拆出 `VO2_Slow_Component_Mechanisms.md` 或 `VO2_Slow_Component_Methodology.md`。
+  - 若要討論 HF / COPD 中 V̇O2SC 的臨床影響，需另選 clinical CPET / disease-specific source，不能只靠本 Viewpoint。
+
+## [2026-05-08] correction | Wright et al. 2017 - 3-minute all-out cycling critical power test
+
+- 修正原因：
+  - 既有 `Wright_2017_3min_allout_CP_validity.md` 為舊格式，且 source_tier 未依 AGENTS.md 區分 original research article。
+  - 既有頁面已提到 3-min all-out 的 EP / WEP 問題，但尚未拆出獨立方法頁。
+- 本輪單一來源：
+  - `C:\原始資料\the-reliability-and-validity-of-the-3-min-all-out-cycling-7xcudjg120\the-reliability-and-validity-of-the-3-min-all-out-cycling-7xcudjg120.md`
+  - 只完整處理此一篇來源；未混入 Vanhatalo 2007、Dekerle 2013、Karsten 2014 或其他 3-min all-out source。
+- 重新建立來源摘要：
+  - `09_來源摘要/Wright_2017_3min_allout_CP_validity.md`
+- 新增頁面：
+  - `04_CPET/Three_Minute_All_Out_Critical_Power_Test.md`
+- 更新頁面：
+  - `04_CPET/CP_Test_Reliability.md`
+  - `04_CPET/CPET_Protocol_Design.md`
+  - `index.md`（Total pages 574 -> 575；Wright source summary Tier 3 -> Tier 5）
+  - `log.md`
+- 抽出概念：
+  - Three-minute all-out critical power test：用 3 分鐘 all-out cycling 的 final 30 s `EP` 估計 `CP`，但 mode / cadence / resistance setup 會改變 validity，且 `WEP` 不能直接當 `W'`。
+- 本輪直接事實：
+  - Source 為 2017 *International Journal of Sports Medicine* original research article / accepted manuscript，DOI `10.1055/s-0043-102944`。
+  - Participants 為 12 位 male cyclists，age 32 +/- 6.6 years，MAP 349 +/- 36 W，V̇O2peak 4.4 +/- 0.5 L/min。
+  - 每位 participant 完成 8 tests：1 ramp test、3 fixed-power CP tests、4 three-minute all-out tests。
+  - Original CP protocol 得到 `CP` 244.9 +/- 26.2 W、`W'` 22.7 +/- 5.6 kJ。
+  - Isokinetic `EP` 240.9 +/- 23.3 W，與 `CP` 無顯著差異。
+  - Linear `EP` 275.1 +/- 41.2 W，顯著高於 `CP`。
+  - Isokinetic `WEP` 15.6 +/- 5.6 kJ，linear `WEP` 13.5 +/- 4.7 kJ，兩者都顯著低於 `W'`。
+  - EP CoV：isokinetic 1.93%、linear 1.17%；WEP CoV：isokinetic 8.44%、linear 5.39%。
+- 發現衝突：
+  - Reliable EP 不等於 valid CP estimate；linear EP 在本 protocol reliable but not valid。
+  - EP 與 WEP 不能被當成同一組 validity 行為；WEP 在兩種 mode 都低估 `W'`。
+  - 12 位 male cyclists 的 original research 不能直接外推至 clinical CPET populations。
+- 待追蹤問題：
+  - 若要建立完整 3-min all-out consensus，需分別單一來源 ingest Vanhatalo 2007、Dekerle 2013、Karsten 2014 與 alternative load-setting studies。
+  - 若要臨床化使用 3-min all-out test，需另找 HF、COPD、older adult 或 low-fit population validation source。
+
+## [2026-05-08] correction | Fawkner and Armstrong 2004 - pediatric heavy-exercise V̇O2 kinetics modeling
+
+- 修正原因：
+  - 既有 `Modelling_the_VO2_kinetic_response_to_heavy_intensity_exercise_in_children.md` 為舊格式，且 source_tier 未依 AGENTS.md 區分 original research article。
+  - 既有 `VO2_Kinetics.md` 已提到 pediatric caveat，但尚未拆出獨立概念頁。
+- 本輪單一來源：
+  - `C:\原始資料\00140130412331290899\00140130412331290899.md`
+  - 只完整處理此一篇來源；未混入 Fawkner & Armstrong 2003 review、Obert 2000、Williams 2001、adult VO2 kinetics review 或其他 pediatric CPET source。
+- 重新建立來源摘要：
+  - `09_來源摘要/Modelling_the_VO2_kinetic_response_to_heavy_intensity_exercise_in_children.md`
+- 新增頁面：
+  - `04_CPET/Pediatric_Heavy_Exercise_VO2_Kinetics_Modeling.md`
+- 更新頁面：
+  - `04_CPET/VO2_Kinetics.md`
+  - `index.md`（Total pages 575 -> 576；Fawkner source summary Tier 3 -> Tier 5）
+  - `log.md`
+- 抽出概念：
+  - Pediatric heavy-exercise V̇O2 kinetics modeling：兒童 heavy-intensity cycling 的 V̇O2 response 多數不能用單一 exponential model 充分描述，但 secondary-component parameters 不宜直接當成穩定生理指標。
+- 本輪直接事實：
+  - Source 為 2004 *Ergonomics* original research article，DOI `10.1080/00140130412331290899`。
+  - Participants 為 62 位 healthy children，35 male、27 female，aged 10-15 years。
+  - Protocol 使用 electronically braked cycle ergometer；先做 ramp test 取得 peak V̇O2 與 `T_v-slope`，再做 repeated step transitions。
+  - Step work rate designed to elicit 40% of the difference between V̇O2 at `T_v-slope` and peak V̇O2。
+  - 每位 participant 至少完成 3 次、通常 4 次 transitions，並平均 breath-by-breath responses。
+  - Model 1：single exponential with delay term；Model 2：exponential + linear term；Model 3：double exponential with independent delays；Model 4：phase-2 fitting-window model。
+  - F-test 顯示 model 1 best fit in 3/62 participants (5%)，model 2 in 11/62 (18%)，model 3 in 48/62 (77%)。
+  - Up to 95% of response profiles were better fitted by model 2 or model 3 than by model 1。
+  - Source conclusion：children exercising at 40% delta are likely to express a V̇O2 slow component after a rapid exponential rise。
+  - Source warning：secondary exponential parameters should not be relied upon for physiological significance；primary component should be parameterized by identifying slow-component onset and fitting phase 2 alone。
+- 發現衝突：
+  - 與「children lack V̇O2 slow component during heavy exercise」衝突；本 source 支持 delayed slow-component-like behavior。
+  - 與「double-exponential better fit = secondary parameters are physiologically precise」衝突；source 明確警告 secondary parameters confidence intervals and interpretability limitations。
+  - 與「單篇 healthy-child cycling study 可直接變成 clinical pediatric CPET rule」衝突；source 不是 clinical validation。
+- 待追蹤問題：
+  - 若要建立 pediatric V̇O2 kinetics consensus，需另行單一來源處理 pediatric review 或 systematic source。
+  - 若要處理 pediatric disease populations，需另找 congenital heart disease、pulmonary disease、obesity、neuromuscular disease 或 cerebral palsy CPET source。
+  - `VO2_Kinetics.md` 仍是多來源 hub；若 pediatric CPET 資料增加，應另拆 `Pediatric_CPET_Physiology.md` 或 `Pediatric_CPET_Protocol_Design.md`。
+
+## [2026-05-08] correction | Goulding et al. 2021 - VO2 kinetics and exercise tolerance
+
+- 修正原因：
+  - 既有 `Goulding_2021_VO2_kinetics_exercise_tolerance.md` 為舊格式，且 source_tier 未依 AGENTS.md 區分 high-quality mechanistic review。
+  - 既有 `VO2_Kinetics.md` 已使用 Goulding 2021 的核心模型，但尚未拆出獨立概念頁。
+- 本輪單一來源：
+  - `C:\原始資料\Bioenergetic Mechanisms Linking V̇O2 Kinetics and Exercise Tolerance\Bioenergetic Mechanisms Linking V̇O2 Kinetics and Exercise Tolerance.md`
+  - 只完整處理此一篇來源；未混入 Goulding & Marwood 2023、Korzeniewski & Rossiter 2020 原文、Goulding 2023 priming review 或其他 VO2 kinetics sources。
+- 重新建立來源摘要：
+  - `09_來源摘要/Goulding_2021_VO2_kinetics_exercise_tolerance.md`
+- 新增頁面：
+  - `04_CPET/Critical_Threshold_Positive_Feedback_Model.md`
+- 更新頁面：
+  - `04_CPET/VO2_Kinetics.md`
+  - `index.md`（Total pages 576 -> 577；Goulding 2021 source summary Tier 1 -> Tier 4）
+  - `log.md`
+- 抽出概念：
+  - Critical threshold and positive feedback model：`tauV̇O2` 決定 O2 deficit 與 metabolite accumulation；若超過 critical intramuscular range，fatigue 造成 work inefficiency，使同一 external power 需要更多 ATP turnover，進一步推動 metabolite accumulation、V̇O2SC 與 supra-CP intolerance。
+- 本輪直接事實：
+  - Source 為 *Exercise and Sport Sciences Reviews* 2021 mechanistic review / hypothesis article，DOI `10.1249/JES.0000000000000267`。
+  - Source 明確將 V̇O2 kinetics、O2 deficit、metabolic stability、CP、V̇O2 slow component 與 W' 放入同一機制模型。
+  - Steady-state cycle ergometry 中 V̇O2-power gain 約 9-11 mL/min/W。
+  - Source 例示 `tauV̇O2` 可從 elite endurance athletes 約 12 s 到 elderly COPD patients 約 120 s。
+  - 在達 steady state 的 power outputs，O2 deficit 可近似為 `Delta V̇O2 x tauV̇O2`。
+  - O2 deficit-related perturbations 包含 PCr depletion、glycolysis / glycogenolysis、H+、Pi、ADP、K+ 與 Ca2+ handling disturbance。
+  - Source 使用 `Pi` 作為 prime candidate metabolite，因其可影響 cross-bridge power stroke、myofibrillar Ca2+ sensitivity 與 SR Ca2+ handling。
+  - Source 認為 crossing critical metabolite threshold 後，fatigue 可降低 work efficiency，造成 ATP demand 增加與 metabolite accumulation 正回饋。
+  - Source 承認 whole-body CP 可能更像 boundary layer / phase transition，而非單一 sharp threshold。
+  - Source 結論明確指出 future in vivo experiments are required to test this hypothesis。
+- 發現衝突：
+  - 與「O2 deficit 可單獨、線性預測所有 exercise tolerance」衝突；source 指出 non-steady-state exercise 不能可靠用 O2 deficit 單獨預測。
+  - 與「W' 是單純 anaerobic tank」衝突；source 將 W' 視為 fatigue / inefficiency / limiting conditions 進展的 finite tolerance。
+  - 與「critical threshold 是 routine CPET 可直接量到的 cut-off」衝突；source 的 threshold 主要是 mechanistic model / hypothesis。
+- 待追蹤問題：
+  - 若要把 `Pi` / critical threshold 模型做成更嚴謹概念頁，需另行單一來源處理 Korzeniewski & Rossiter 2020。
+  - 若要臨床應用於 COPD、HF 或 diabetes，需另選 disease-specific CPET / kinetics source 校正。
+  - 若要處理 `W'` 與 V̇O2SC 的量化關係，需另行單一來源處理 original intervention studies。
+
+## [2026-05-09] correction | Gaesser and Poole 1996 - V̇O2 slow component and work-rate nonlinearity
+
+- 修正原因：
+  - 既有 `Gaesser_Poole_1996_VO2_slow_component.md` 為舊格式，且把 ESSR review chapter 誤標為 Tier 1。
+  - 既有 `VO2_Slow_Component.md` 已使用 Gaesser and Poole 1996 的核心框架，但尚未拆出 `constant-load exercise above GET` 的 V̇O2-work rate nonlinearity 概念頁。
+- 本輪單一來源：
+  - `C:\原始資料\GaesserandPoole_ESSR1996_Theslowcomponentofoxygenuptakekineticsinhumans\GaesserandPoole_ESSR1996_Theslowcomponentofoxygenuptakekineticsinhumans.md`
+  - 只完整處理此一篇來源；未混入 Poole and Gaesser 2025、Korzeniewski and Zoladz 2015、Goulding 2021 或其他 V̇O2 kinetics source。
+- 重新建立來源摘要：
+  - `09_來源摘要/Gaesser_Poole_1996_VO2_slow_component.md`（source_tier 1 -> 4）
+- 新增頁面：
+  - `04_CPET/VO2_Work_Rate_Nonlinearity_Above_GET.md`
+- 更新頁面：
+  - `04_CPET/VO2_Slow_Component.md`
+  - `index.md`（Total pages 577 -> 578；新增 V̇O2-work rate nonlinearity concept；`VO2_Slow_Component.md` hub 從 Tier 1 降級為 mixed Tier 3 + Tier 4 + Tier 6）
+  - `log.md`
+- 抽出概念：
+  - VO2-work rate nonlinearity above GET：constant-load exercise 高於 GET / LT 後，V̇O2 不再能由 sub-GET linear gain 推估；slow component 讓同一 external work rate 的 oxygen cost 隨時間增加，並形成 heavy / severe domain 判讀核心。
+- 本輪直接事實：
+  - Source 為 1996 *Exercise and Sport Sciences Reviews* Vol. 24 review chapter，pp. 35-70。
+  - Authors 指出常見 V̇O2-work rate linearity 主要適用於低於 lactate threshold 的測試，或快速 incremental exercise。
+  - Sustained constant-load exercise 高於 lactate threshold 時，rapid phase 之後會疊加 V̇O2 slow component。
+  - Moderate exercise 低於 lactate threshold 時通常約 3 分鐘內達 V̇O2 steady state，gain 約 9-11 mL O2/min/W。
+  - Heavy exercise 中 slow component 可延遲穩定；severe exercise 中 V̇O2 與 lactate 無法穩定，V̇O2 可被推向 V̇O2max。
+  - Slow component 常操作性定義為運動第 3 分鐘後仍持續上升的 V̇O2，onset 約 80-110 秒後。
+  - Slow component 可超過 1.0 L/min；極端情況約 1.0-1.5 L/min。
+  - Source 明確區分 high-intensity V̇O2 slow component 與 prolonged moderate exercise 的小幅 oxygen drift。
+  - Simultaneous pulmonary and leg V̇O2 evidence 支持 exercising limbs 為主要來源；約 86% of pulmonary V̇O2 increment beyond minute 3 可由 leg V̇O2 increase accounting。
+  - Lactate 與 slow component 高度相關，但 source 不支持 lactate 作為充分單一原因。
+- 發現衝突：
+  - 與「V̇O2-work rate relation 在所有 submaximal constant-load exercise 中全域線性」衝突。
+  - 與「oxygen drift 與 V̇O2 slow component 可混用」衝突。
+  - 與「lactate 是 V̇O2SC 的單一原因」衝突。
+  - 與「fixed %V̇O2max 足以描述 heavy / severe constant-load intensity」衝突。
+- 待追蹤問題：
+  - 若要建立現代 V̇O2SC mechanism consensus，需另行單一來源處理後續 systematic / mechanistic review。
+  - 若要整理 disease-specific CPET implication，需另選 HF、COPD、PAH 或 neuromuscular disease source。
+  - `VO2_Slow_Component.md` 已是多來源 hub；若再加入更多來源，應拆出 `VO2_Slow_Component_Mechanisms.md` 或 `VO2_Slow_Component_Methodology.md`。
+
+## [2026-05-09] correction | Stringer Wasserman Casaburi 1995 - heavy constant-work VCO2-VO2 inflection
+
+- 修正原因：
+  - 既有 `Stringer_Wasserman_Casaburi_1995_VCO2_VO2_heavy_constant_work.md` 為舊格式，且把 original physiology study 誤標為 Tier 3。
+  - 既有 `V_Slope_Method.md` 與 `Gas_Exchange_Threshold.md` 已引用此研究作 constant-work corroboration，但尚未拆出單一概念頁。
+- 本輪單一來源：
+  - `C:\原始資料\The VCO2 VO2 relationship during heavy constant work rate exercise\The VCO2 VO2 relationship during heavy constant work rate exercise.md`
+  - 只完整處理此一篇來源；未混入 Beaver 1986、Poole 2020、Yano 1997、Hirakoba 1996 或其他 V-slope / GET source。
+- 重新建立來源摘要：
+  - `09_來源摘要/Stringer_Wasserman_Casaburi_1995_VCO2_VO2_heavy_constant_work.md`（source_tier 3 -> 5）
+- 新增頁面：
+  - `04_CPET/Heavy_Constant_Work_VCO2_VO2_Inflection.md`
+- 更新頁面：
+  - `04_CPET/V_Slope_Method.md`（補入新概念頁連結；hub 證據標記從 Tier 1 修為 Tier 4 + Tier 5 + historical Tier 3）
+  - `04_CPET/Gas_Exchange_Threshold.md`
+  - `index.md`（Total pages 578 -> 579；新增 heavy constant-work VCO2-VO2 inflection concept；Stringer source summary Tier 3 -> Tier 5）
+  - `log.md`
+- 抽出概念：
+  - Heavy constant-work VCO2-VO2 inflection：heavy / very heavy constant-work exercise 中，VCO2 相對 VO2 的早期上翹與 arterial lactate rise / standard bicarbonate fall 同步，支持 bicarbonate buffering physiology，但不能取代 ramp CPET GET algorithm。
+- 本輪直接事實：
+  - Source 為 1995 original physiology study。
+  - Participants 為 8 位 healthy non-smoking men，age 26 (6) years，height 1.78 (0.06) m，mass 72.5 (4.4) kg。
+  - Protocol 先以 incremental cycle test 決定 LAT，再完成 6-min constant-work cycling bouts：moderate、heavy、very heavy。
+  - Mean VO2max 為 3.59 (0.66) L/min，49.1 mL/kg/min。
+  - Mean LAT 為 2.05 (0.39) L/min，約 57% VO2max。
+  - Mean work rates 為 120 (43)、210 (52)、267 (60) W。
+  - Gas exchange 以 breath-by-breath VO2 / VCO2 量測。
+  - Arterial blood samples 在最初 160-180 秒每 7.5 秒採樣，之後每 30 秒採樣至運動結束。
+  - Heavy / very heavy exercise 中，VCO2 約在 exercise onset 後 40-50 秒相對 VO2 abrupt increase。
+  - Heavy / very heavy exercise 中，VCO2 約在 60-90 秒內等於或超過 VO2。
+  - Lactate rise 與 standard bicarbonate fall 約在 30-40 秒開始。
+  - VCO2-VO2 inflection 的 VO2 與 lactate 增加 1 mmol/L 的 VO2 高度相關，r = 0.90。
+  - VCO2-VO2 inflection 的 VO2 與 standard bicarbonate 下降 1 mmol/L 的 VO2 高度相關，r = 0.95。
+  - Post-inflection VCO2-VO2 slope 與 lactate rise / bicarbonate fall magnitude 相關，r = 0.79 / 0.80。
+  - PaCO2 與 [H+] behavior 不支持 early respiratory alkalosis 作為主要解釋。
+- 發現衝突：
+  - 與「VCO2-VO2 inflection 只是圖形技巧」衝突；本 source 支持 acid-base physiology 對應。
+  - 與「單篇 constant-work healthy-men study 可直接當 clinical ramp GET algorithm」衝突。
+  - 與「LAT / AT 字面代表 muscle dysoxia」衝突。
+  - 與「heavy exercise 中 early excess VCO2 必然來自 hyperventilation」衝突。
+- 待追蹤問題：
+  - 若要完整重建 V-slope method，需另行單一來源校正 Beaver 1986。
+  - 若要處理 disease-specific VCO2-VO2 interpretation，需另選 HF、COPD、PAH 或 perioperative CPET source。
+  - `Gas_Exchange_Threshold.md` 仍混合 review、original method study、historical models 與 disease-specific reviews，未來可拆成 methodology / clinical application 兩頁。
+
+## [2026-05-09] correction | Beaver Wasserman Whipp 1986 - V-slope method original algorithm
+
+- 修正原因：
+  - 既有 `Beaver_Wasserman_Whipp_1986_V_slope_method.md` 為舊格式，且把 original method study 誤標為 Tier 3。
+  - 既有 `V_Slope_Method.md` 已使用 Beaver 1986 作主幹，但尚未拆出原始 algorithm 的單一概念頁。
+- 本輪單一來源：
+  - `C:\原始資料\beaver-et-al-1986-a-new-method-for-detecting-anaerobic-threshold-by-gas-exchange\beaver-et-al-1986-a-new-method-for-detecting-anaerobic-threshold-by-gas-exchange.md`
+  - 只完整處理此一篇來源；未混入 Stringer 1995、Poole 2020、Yano 1997 或其他 GET / V-slope source。
+- 重新建立來源摘要：
+  - `09_來源摘要/Beaver_Wasserman_Whipp_1986_V_slope_method.md`（source_tier 3 -> 5）
+- 新增頁面：
+  - `04_CPET/V_Slope_Method_Original_Algorithm.md`
+- 更新頁面：
+  - `04_CPET/V_Slope_Method.md`
+  - `04_CPET/Gas_Exchange_Threshold.md`
+  - `index.md`（Total pages 579 -> 580；新增 V-slope original algorithm concept；Beaver source summary Tier 3 -> Tier 5）
+  - `log.md`
+- 抽出概念：
+  - V-slope method original algorithm：incremental CPET 中，以 VCO2 對 VO2 的 two-segment regression breakpoint 偵測 bicarbonate-buffering-related excess CO2 onset；並用較高強度的 respiratory compensation point 作 upper boundary。
+- 本輪直接事實：
+  - Source 為 1986 *Journal of Applied Physiology* original method / physiology study。
+  - Participants 為 10 位 healthy male volunteers，age 19-39 years。
+  - Protocol 為 cycle ergometer，4 min unloaded exercise 後，以 15 W/min incremental exercise 至 tolerance。
+  - Measurements 包含 breath-by-breath VO2、VCO2、VE、heart rate、PETCO2。
+  - Arterial blood 於 rest、unloaded cycling 與 incremental phase 每 2 min 採樣，分析 lactate 與 bicarbonate。
+  - Breath-by-breath data 先 interpolate 成 regular time intervals，並使用 minimal moving average；source 使用 9 s。
+  - Authors 建議 filtering 越少越好，避免扭曲 underlying curve shape。
+  - Incremental phase 開始後的第 1 分鐘通常排除，因為 CO2 stores 造成 VCO2 kinetics lag VO2。
+  - Remaining initial segment 若 slope <0.6 也排除。
+  - VCO2-VCO2 noise 可依 PETCO2 fluctuation 作 physiological correction；其目的在減少 ventilation-related VCO2 fluctuation。
+  - VCO2-VO2 curve 分成兩段 linear regression，intersection 為 tentative AT。
+  - Slope change 必須 >0.1 才接受為 AT，以避免 noise 造成 spurious breakpoint。
+  - RCP 由 VE-VCO2 plot 另行偵測；若存在，作為 AT calculation upper boundary。
+  - Mean V-slope AT 為 1.83 +/- 0.30 L/min VO2。
+  - Mean panel visual AT 為 1.85 +/- 0.34 L/min VO2，差異不顯著。
+  - V-slope coefficient of variation 為 0.023 +/- 0.006；panel average coefficient of variation 為 0.127 +/- 0.080。
+  - V-slope AT 與 estimated bicarbonate threshold 無顯著差異：1.83 +/- 0.30 vs 1.78 +/- 0.24 L/min VO2。
+  - V-slope AT 對應 lactate 比 mathematically defined LT 高 0.50 +/- 0.34 meq/L。
+  - RCP 高於 V-slope AT：2.51 +/- 0.42 vs 1.83 +/- 0.30 L/min VO2。
+- 發現衝突：
+  - 與「VE-only threshold detection 等同 V-slope」衝突；source 明確指出 ventilatory response 可能 lag 或受 chemosensitivity 影響。
+  - 與「RCP 可當作 AT / GET」衝突；source 分開偵測 RCP 並將其作為 upper boundary。
+  - 與「anaerobic threshold 字面等於 muscle dysoxia」衝突；本輪只保留 operational gas-exchange method。
+  - 與「Beaver 1986 是 Tier 3 evidence」衝突；依 AGENTS.md 應為 Tier 5 original research。
+- 待追蹤問題：
+  - 若要建立現代 automated V-slope implementation，需要另選 software / methods validation source。
+  - 若要 disease-specific GET 判讀，需另行單一來源處理 HF、COPD、PAH 或 perioperative CPET source。
+  - `V_Slope_Method.md` 仍是多來源 method hub；後續可把 historical CO2 models 和 clinical application 再拆頁。
+
+## [2026-05-09] correction | Yano 1997 - physiological model of CO2 output during incremental exercise
+
+- 修正原因：
+  - 既有 `Physiological_model_of_CO2_output_during_incremental_exercise.md` 為舊格式，且把 original physiology model study 誤標為 Tier 3。
+  - 既有 `V_Slope_Method.md` 與 `Gas_Exchange_Threshold.md` 已把 Yano 1997 放在 historical model，但尚未拆出單一概念頁。
+- 本輪單一來源：
+  - `C:\原始資料\Physiological model of CO2 output during incremental exercise\Physiological model of CO2 output during incremental exercise.md`
+  - 只完整處理此一篇來源；未混入 Beaver 1986、Stringer 1995、Hirakoba 1996、Yunoki 1999 或其他 VCO2 / GET sources。
+- 重新建立來源摘要：
+  - `09_來源摘要/Physiological_model_of_CO2_output_during_incremental_exercise.md`（source_tier 3 -> 5）
+- 新增頁面：
+  - `04_CPET/Incremental_Exercise_VCO2_Partitioning_Model.md`
+- 更新頁面：
+  - `04_CPET/V_Slope_Method.md`
+  - `04_CPET/Gas_Exchange_Threshold.md`
+  - `index.md`（Total pages 580 -> 581；新增 incremental exercise VCO2 partitioning concept；Yano source summary Tier 3 -> Tier 5）
+  - `log.md`
+- 抽出概念：
+  - Incremental exercise VCO2 partitioning model：Yano 1997 將 incremental exercise 的 VCO2 概念性分成 non-lactic VCO2 與 excess VCO2，以 PvCO2、PaCO2、blood CO2 dissociation curve 與 lactate-related CO2 excess 解釋高強度時的 VCO2 訊號，但不能取代 GET / V-slope algorithm。
+- 本輪直接事實：
+  - Source 為 1997 *Ergonomics* original human physiology / model article，DOI `10.1080/001401397188008`。
+  - Participants 為 8 位 trained university athletes；raw OCR 的 age SD 顯示不合理，需視為不確定。
+  - Mean height 170 +/- 4.58 cm，mean body mass 59 +/- 4.48 kg，mean maximal oxygen uptake 3.52 +/- 0.295 L/min。
+  - Protocol 使用 Monark cycle ergometer；0.5 kp 起始、60 rpm，每分鐘增加 0.5 kp。
+  - Participants 完成 incremental exercise to exhaustion，另於其他日做到 540 與 1080 kpm/min。
+  - Expired gas 用 Douglas bags 於 rest 與 exercise 每分鐘收集；VO2 / VCO2 由 gas concentration 與 ventilation 計算。
+  - Mixed venous CO2 pressure 以 CO2 rebreathing technique 估計。
+  - PaCO2 由 PETCO2 與 tidal volume regression equation 估計，非直接 arterial sampling。
+  - Blood lactate 於 rest、1080 kpm/min 後 5 分鐘與 exhaustion 採 median cubital vein sample。
+  - Non-lactic VCO2 與 PvCO2 相關，r = 0.950。
+  - VCO2 與 PaCO2 / PvCO2 呈 multiple correlation，r = 0.971。
+  - CO2 excess 與 blood lactate increase 相關，r = 0.828。
+  - 1080 kpm/min 時，8 位中 3 位觀察到 excess VCO2。
+- 發現衝突：
+  - 與「excess VCO2 可當作直接 lactate meter」衝突。
+  - 與「Yano model 可取代 GET / V-slope algorithm」衝突。
+  - 與「AT 字面代表 discrete muscle dysoxia」衝突。
+  - 與「Yano 1997 是 Tier 3 evidence」衝突；依 AGENTS.md 應為 Tier 5 original research。
+- 待追蹤問題：
+  - Hirakoba 1996 與 Yunoki 1999 仍需各自依單一來源 correction，避免 historical VCO2 models 維持舊格式與舊 tier。
+  - 若要建立現代 automated V-slope implementation，需另行處理 VO2FITTING 或其他 software / methods validation source。
+  - `Gas_Exchange_Threshold.md` 仍混合 methodology、clinical application 與 disease-specific review，未來可拆成 method page 與 clinical CPET application page。
+
+## [2026-05-09] correction | Hirakoba et al. 1996 - excess CO2 prediction of lactate during constant exercise
+
+- 修正原因：
+  - 既有 `Hirakoba_1996_excess_CO2_lactate_prediction.md` 為舊格式，且把 original physiology prediction study 誤標為 Tier 3。
+  - 既有 `V_Slope_Method.md` 與 `Gas_Exchange_Threshold.md` 已把 Hirakoba 1996 放在 historical model，但尚未拆出單一概念頁。
+- 本輪單一來源：
+  - `C:\原始資料\La prediction from excess CO2\La prediction from excess CO2.md`
+  - 只完整處理此一篇來源；未混入 Yano 1997、Yunoki 1999、Beaver 1986、Stringer 1995 或其他 VCO2 / GET sources。
+- 重新建立來源摘要：
+  - `09_來源摘要/Hirakoba_1996_excess_CO2_lactate_prediction.md`（source_tier 3 -> 5）
+- 新增頁面：
+  - `04_CPET/Constant_Work_Excess_CO2_Lactate_Prediction.md`
+- 更新頁面：
+  - `04_CPET/V_Slope_Method.md`
+  - `04_CPET/Gas_Exchange_Threshold.md`
+  - `index.md`（Total pages 581 -> 582；新增 constant-work excess CO2 lactate prediction concept；Hirakoba source summary Tier 3 -> Tier 5）
+  - `log.md`
+- 抽出概念：
+  - Constant-work excess CO2 lactate prediction：以先前 incremental test 的 below-AT VCO2-VO2 regression 與個人 CO2 excess-Delta La factor，將 constant exercise 的 integrated excess VCO2 轉成 predicted lactate accumulation；高強度相關性佳，但 near-threshold 100% AT 顯著高估，不能取代 GET / lactate testing。
+- 本輪直接事實：
+  - Source 為 1996 *Applied Human Science* original human physiology / prediction study。
+  - Participants 為 8 位 healthy active male volunteers。
+  - Mean age 20.1 +/- 1.2 years，height 170.4 +/- 4.7 cm，body mass 57.0 +/- 5.5 kg。
+  - Mean VO2max 58.3 +/- 2.8 mL/kg/min，mean AT-VO2 36.8 +/- 2.5 mL/kg/min。
+  - Incremental test：4-min unloaded pedaling 後，每分鐘增加 30 W until exhaustion。
+  - Constant exercise：三個 4-min stages，分別為 100%、120%、150% of each subject's AT-VO2。
+  - Stage completion：stage I n=8，stage II n=7，stage III n=5。
+  - Ex CO2 per body mass across stages：15.36 +/- 8.51、34.15 +/- 16.12、62.87 +/- 4.77 mL/kg。
+  - Measured vs predicted Delta La：stage I 1.82 +/- 0.83 vs 3.19 +/- 1.70 mmol/L；stage II 5.58 +/- 3.47 vs 7.09 +/- 3.28 mmol/L；stage III 12.19 +/- 2.36 vs 12.74 +/- 1.83 mmol/L。
+  - Stage I predicted lactate significantly exceeded measured lactate；stage II / III no significant difference。
+  - Ex CO2 per body mass correlated with measured Delta La，r = 0.939，p < 0.001。
+  - Predicted Delta La correlated with measured Delta La，r = 0.954，p < 0.001，SEE 1.47 mmol/L。
+  - Individual prediction error ranged from -1.71 to 4.05 mmol/L。
+- 發現衝突：
+  - 與「excess VCO2 可當作直接 lactate meter」衝突。
+  - 與「constant-work excess CO2 prediction 可取代 GET / V-slope algorithm」衝突。
+  - 與「AT 字面代表 muscle dysoxia」衝突。
+  - 與「Hirakoba 1996 是 Tier 3 evidence」衝突；依 AGENTS.md 應為 Tier 5 original research。
+- 待追蹤問題：
+  - Yunoki 1999 仍需依單一來源 correction，釐清 excess VCO2 kinetics lag、CO2 stores 與 postexercise hyperventilation。
+  - 若要整理 modern excess VCO2 / lactate relationship，需要另行逐篇處理 contemporary validation 或 review source。
+  - `Gas_Exchange_Threshold.md` 仍混合 methodology、clinical application 與 disease-specific review，未來可拆成 method page 與 clinical CPET application page。
+
+## [2026-05-09] correction | Yunoki et al. 1999 - excess VCO2 kinetics during and after intensive exercise
+
+- 修正原因：
+  - 既有 `Yunoki_1999_excess_CO2_kinetics.md` 為舊格式，且把 original physiology kinetics study 誤標為 Tier 3。
+  - 既有 `V_Slope_Method.md` 與 `Gas_Exchange_Threshold.md` 已把 Yunoki 1999 放在 historical model，但尚未拆出單一概念頁。
+- 本輪單一來源：
+  - `C:\原始資料\kinetics of excess VCO2\kinetics of excess VCO2.md`
+  - 只完整處理此一篇來源；未混入 Yano 1997、Hirakoba 1996、Beaver 1986、Stringer 1995 或其他 VCO2 / GET sources。
+- 重新建立來源摘要：
+  - `09_來源摘要/Yunoki_1999_excess_CO2_kinetics.md`（source_tier 3 -> 5）
+- 新增頁面：
+  - `04_CPET/Excess_VCO2_Kinetics_Lag_After_Intensive_Exercise.md`
+- 更新頁面：
+  - `04_CPET/V_Slope_Method.md`
+  - `04_CPET/Gas_Exchange_Threshold.md`
+  - `index.md`（Total pages 582 -> 583；新增 excess VCO2 kinetics lag concept；Yunoki source summary Tier 3 -> Tier 5）
+  - `log.md`
+- 抽出概念：
+  - Excess VCO2 kinetics lag after intensive exercise：short intensive exercise 中 lactate production 可自運動初期開始，但 pulmonary excess VCO2 會因 CO2 stores、PCO2 change、PCr recovery、lactate diffusion 與 hyperventilation 而延遲，甚至先出現負值再於運動後達峰。
+- 本輪直接事實：
+  - Source 為 1999 *Japanese Journal of Physiology* original human physiology / kinetics study。
+  - Participants 為 6 位 active males who did not train regularly。
+  - Mean age 23.0 +/- 1.9 years，height 170.5 +/- 6.1 cm，body mass 66.1 +/- 2.9 kg。
+  - Incremental cycle test measured VO2max，mean VO2max 2.7 +/- 0.4 L/min。
+  - Wingate maximal power 726 +/- 54 W，mean power 564 +/- 18 W。
+  - Intensive tests：40、60、80 秒 cycling bouts；282 +/- 9 W，90 rpm，相當於 50% mean Wingate power。
+  - 80-s test power 約等於 incremental-test exhaustion power 的 108 +/- 11.5%。
+  - VE、VO2、VCO2、ETCO2 以 breath-by-breath 量測並取 20-s average。
+  - Fingertip lactate 於 rest、immediately postexercise、5、10、20、30 min postexercise 採樣。
+  - Excess VCO2 定義為 VCO2 minus VO2；total excess CO2 為 exercise start 到 postexercise 10 min 的 excess VCO2 sum。
+  - 80-s test 中 excess VCO2 在運動開始後 40 s 達到 peak negative value，之後轉正，於運動後 60 s 達峰，約 postexercise 9 min 回到 zero。
+  - 40-s 與 60-s tests 也在運動開始後 40 s 出現 temporary negative excess VCO2，之後約 postexercise 60-80 s 達峰，約 7 與 8 min 回到 zero。
+  - ETCO2 上升至 exercise end 後約 20 s，約 postexercise 3 min 回到 pre-exercise value，之後低於 baseline。
+  - Peak lactate values at 5 min postexercise：40-s 4.06 +/- 0.47 mM，60-s 6.00 +/- 0.62 mM，80-s 7.74 +/- 0.85 mM。
+  - Peak lactate increase 與 exercise duration linear correlation，r = 0.91，p < 0.01。
+  - Excess CO2 per body mass 與 lactate increase at 10 min postexercise 相關，r = 0.88，p < 0.01。
+- 發現衝突：
+  - 與「excess VCO2 可當作 instantaneous lactate meter」衝突。
+  - 與「total excess CO2 correlation 等於 VCO2 kinetics 同步於 lactate production」衝突。
+  - 與「short intensive exercise model 可取代 GET / V-slope algorithm」衝突。
+  - 與「Yunoki 1999 是 Tier 3 evidence」衝突；依 AGENTS.md 應為 Tier 5 original research。
+- 待追蹤問題：
+  - 若要整理 modern excess VCO2 / lactate relationship，需要另行逐篇處理 contemporary validation 或 review source。
+  - 若要處理 recovery-phase VCO2 與 performance fatigability，可接續 Wooten 2021。
+  - `Gas_Exchange_Threshold.md` 仍混合 methodology、clinical application 與 disease-specific review，未來可拆成 method page 與 clinical CPET application page。
+
+## [2026-05-09] correction | Wooten et al. 2021 - excess VCO2 and recovery VCO2 as indices of performance fatigability
+
+- 修正原因：
+  - 既有 `Wooten_2021_excess_VCO2_recovery_fatigability.md` 混入另一篇 Wooten training paper 的題名、設計與書目。
+  - 本輪依單一來源原則，只處理 `Pilot and Feasibility Studies` 2021 這篇 cross-sectional feasibility pilot。
+  - 既有 index 將此來源標為 Tier 3；依 AGENTS.md 應標為 Tier 5 original pilot study。
+- 本輪單一來源：
+  - `C:\原始資料\Wooten et al. Pilot and Feasibility Studies\Wooten et al. Pilot and Feasibility Studies.md`
+  - 未混入 `C:\原始資料\nihms-1917261\nihms-1917261.md` 或其他 Wooten training source。
+- 重新建立來源摘要：
+  - `09_來源摘要/Wooten_2021_excess_VCO2_recovery_fatigability.md`（source_tier 3 -> 5）
+- 新增頁面：
+  - `04_CPET/Estimated_Excess_VCO2_and_Performance_Fatigability.md`
+- 更新頁面：
+  - `04_CPET/V_Slope_Method.md`
+  - `04_CPET/Gas_Exchange_Threshold.md`
+  - `04_CPET/VO2_Kinetics.md`
+  - `index.md`（Total pages 583 -> 584；新增 estimated excess VCO2 / performance fatigability concept；Wooten source summary Tier 3 -> Tier 5）
+  - `log.md`
+- 抽出概念：
+  - Estimated excess VCO2 and performance fatigability：以 V-slope AT 作為 estimated excess VCO2 演算法錨點，並用 peak CPET / submaximal CWRT 後的 recovery VCO2 off-kinetics 探索 performance fatigability；目前屬 feasibility-stage research signal，不是 validated clinical biomarker。
+- 本輪直接事實：
+  - Source 為 2021 *Pilot and Feasibility Studies* original cross-sectional feasibility pilot study。
+  - Participants 為 7 位 apparently healthy adults，5 female / 2 male，mean age 30.7 +/- 5.1 years。
+  - Visit 1：Bruce protocol peak treadmill CPET、10-min recovery、10-MWT。
+  - Visit 2：submaximal CWRT at 80% AT，三個 6-min bouts、8-min active recovery、10-min passive recovery、10-MWT。
+  - All subjects completed testing with no adverse events。
+  - All subjects achieved RER >= 1.10 and peak HR >= 90% age-predicted during peak CPET。
+  - AT was determined by V-slope method。
+  - Excess VCO2 was estimated algebraically as total VCO2 area minus estimated metabolic VCO2 area above AT。
+  - Excess VCO2 accounted for 61% of variability in VO2 on-kinetic ORI and 62% of variability in PFSS。
+  - CPET recovery VCO2-off ORI and Kt accounted for 70% and 73% of variability in VO2 on-kinetic ORI。
+  - Submaximal CWRT recovery VCO2-off ORI and Kt accounted for 93% and 96% of variability in performance fatigability in this small sample。
+- 發現衝突：
+  - 與「excess VCO2 是直接測量到的 buffering chemistry」衝突。
+  - 與「estimated excess VCO2 可當 routine performance fatigability biomarker」衝突。
+  - 與「AT 字面代表 muscle dysoxia」衝突；本研究的 AT 是 V-slope operational anchor。
+  - 與舊 wiki 摘要把本來源和另一篇 Wooten training paper 混寫衝突。
+- 待追蹤問題：
+  - 若要處理另一篇 Wooten training source，需下一輪獨立 ingest / correction。
+  - 需要直接 lactate、bicarbonate、pH 對照研究，才能驗證 estimated excess VCO2 與 acid-base physiology 的關係。
+  - `Gas_Exchange_Threshold.md` 仍混合 methodology、clinical application 與 disease-specific review，未來可拆成 method page 與 clinical CPET application page。
+
+## [2026-05-09] ingest | Wooten et al. 2021 - respiratory buffering after aerobic exercise training
+
+- 本輪單一來源：
+  - `C:\原始資料\nihms-1917261\nihms-1917261.md`
+  - 只完整處理此一篇來源；未混入 `Wooten et al. Pilot and Feasibility Studies` 或其他 excess VCO2 / fatigability sources。
+- 新增來源摘要：
+  - `09_來源摘要/Wooten_2021_respiratory_buffering_AET_fatigability.md`
+- 更新頁面：
+  - `04_CPET/Estimated_Excess_VCO2_and_Performance_Fatigability.md`
+  - `index.md`（Total pages 584 -> 585；新增 Wooten AET source summary；更新 estimated excess VCO2 concept 摘要）
+  - `log.md`
+- 抽出概念：
+  - Estimated excess VCO2 as a moderator between recovery and performance fatigability：以 V-slope AT 為錨點估算 above-AT excess VCO2，並觀察 4 週 AET 後 recovery off-kinetics 與 fatigability 的關係是否受 excess VCO2 影響；此為 hypothesis-generating moderator signal，不是 validated clinical biomarker。
+- 本輪直接事實：
+  - Source 為 2021 *Cardiopulmonary Physical Therapy Journal* original single-arm longitudinal pilot study。
+  - 59 individuals pre-screened，21 enrolled，20 completed all protocol。
+  - Participants median age 52 years，IQR 46-55；11 female / 9 male；median BMI 26.5 kg/m2，IQR 23.1-29.7。
+  - Training 為 supervised cycling，4 weeks，4 sessions/week，45 min/session，70 +/- 5% HRR。
+  - Adherence 99.7%，只有 one missed session。
+  - Peak CPX used cycle ergometry with 25 W/min increments and 60 rpm target cadence。
+  - AT determined by V-slope method。
+  - Recovery VO2 / VCO2 off-kinetics used mono-exponential fitting after excluding first 20 seconds。
+  - Excess VCO2 was estimated as total VCO2 minus estimated metabolic VCO2 above AT。
+  - Peak VO2 increased 2181 (705) -> 2484 (832) mL/min；change 304，p = .000。
+  - AT-VO2 increased 1270 (401) -> 1360 (423) mL/min；change 89，p = .008。
+  - Estimated excess VCO2 increased 2536 (1478) -> 3144 (1680) mL；change 608，p = .001。
+  - Pk-Time increased 519 (151) -> 582 (147) seconds；change 63，p = .000。
+  - Pk-Watts increased 209 (61) -> 233 (59) W；change 24，p = .000。
+  - End1 increased 453 (295) -> 718 (470) seconds；change 265，p = .002。
+  - End2 increased 734 (484) -> 1054 (776) seconds；change 321，p < .002，despite 12% higher End2 wattage。
+  - VCO2 off-kinetic tau decreased 81.0 (10.9) -> 73.3 (10.6) seconds；p = .009。
+  - VCO2 off-kinetic MRT decreased 102.8 (11.2) -> 95.7 (10.5) seconds；p = .015。
+  - Recovery-fatigability correlations weakened after covarying estimated excess VCO2。
+- 發現衝突：
+  - 與「estimated excess VCO2 是直接 lactate / pH / bicarbonate measurement」衝突。
+  - 與「correlation attenuation 可直接證明 causal mediation」衝突。
+  - 與「single-arm pilot 可當 routine clinical biomarker validation」衝突。
+  - 與「這篇 Wooten AET source 可和另一篇 Wooten feasibility source 混寫」衝突。
+- 待追蹤問題：
+  - 若要建立 excess VCO2 / recovery VCO2 / fatigability synthesis，需逐篇加入直接 lactate、bicarbonate、pH 或 controlled intervention source。
+  - `Gas_Exchange_Threshold.md` 仍混合 methodology、clinical application 與 disease-specific review，未來可拆成 method page 與 clinical CPET application page。
+  - exercise physiology 待處理候選仍包含 Zone 2 training narrative review、Nuuttila 2026 low-intensity endurance training、Poole_Gaesser_2025 VO2 slow component enigma 等來源。
+
+## [2026-05-09] ingest | Storoschuk et al. 2025 - Zone 2 training narrative review
+
+- 本輪單一來源：
+  - `C:\原始資料\Much-Ado-About-Zone-2-A-Narrative-Review-Assessing-the-Efficacy-of-Zone-2-Training-for-Improving\Much-Ado-About-Zone-2-A-Narrative-Review-Assessing-the-Efficacy-of-Zone-2-Training-for-Improving.md`
+  - 只完整處理此一篇來源；未混入 Nuuttila 2026、What-Is-Zone-2-Training 或其他 low-intensity training sources。
+- 新增來源摘要：
+  - `09_來源摘要/Storoschuk_2025_zone2_training_narrative_review.md`
+- 新增頁面：
+  - `05_Exercise_Physiology/Zone_2_Training_證據邊界.md`
+- 更新頁面：
+  - `05_Exercise_Physiology/Training_Intensity_Distribution.md`
+  - `index.md`（Total pages 585 -> 587；新增 Zone 2 concept 與 Storoschuk source summary）
+  - `log.md`
+- 抽出概念：
+  - Zone 2 Training evidence boundary：Zone 2 是通常位於 LT1 / GET 以下、接近 Fatmax 或可維持 conversation 的低到中等強度工具；目前證據支持其可用性，尤其可能改善 untrained populations 的 FAO capacity，但不支持它是一般人改善 mitochondrial capacity、FAO 或 CRF 的唯一或最佳強度。
+- 本輪直接事實：
+  - Source 為 2025 *Sports Medicine* narrative review article。
+  - Accepted 2025-04-07，published online 2025-06-25。
+  - Review target population 為 general population：non-endurance-trained individuals who are insufficiently active or meeting physical activity guidelines。
+  - Review did not use a systematic literature search。
+  - Articles were obtained by database searches, reference lists, relevant systematic reviews, social-media-shared articles, and literature known to authors。
+  - Zone 2 被 operationalized as exercise below LT1 or physiological responses consistent with moderate-intensity domain。
+  - Criteria included BLa < 2.0 mmol/L, below ventilatory threshold 1, below Fatmax, or <45% VO2max。
+  - Popular claims often define Zone 2 around Fatmax, BLa about 1.7-2.0 mmol/L below LT1, and Talk Test conversational intensity。
+  - Review example showed LT1 at 23%, 45%, and 57% of WRpeak across three individuals。
+  - The authors found small and inconsistent activation of mitochondrial biogenic signaling after acute Zone 2 exercise。
+  - Few studies explicitly investigated Zone 2 training effects on mitochondrial outcomes。
+  - The review states that available evidence is mixed for Zone 2 improving mitochondrial capacity。
+  - The authors cite meta-analytic evidence suggesting exercise below 60% maximum work rate is not expected to improve mitochondrial content or mitochondrial respiratory capacity。
+  - The review argues that exercise above Zone 2 may be superior for inducing mitochondrial adaptations。
+  - The review states Zone 2 training appears capable of increasing FAO capacity, likely mainly in sedentary / untrained populations。
+  - Only one cited study measured FAO after confirmed Zone 2 training with BLa < 2.0 mmol/L and showed increased FATmax and MFO after 1 year in previously sedentary adults。
+  - FATmax-anchored training cannot always be treated as Zone 2 evidence because FATmax can occur above Zone 2 in sedentary populations。
+  - Evidence does not convincingly support Zone 2 superiority over higher intensities for FAO。
+  - For CRF, higher intensities often produce equal or greater gains；in active / trained individuals they may be required。
+- 發現衝突：
+  - 與「Zone 2 是改善 mitochondria 的最佳強度」衝突。
+  - 與「超過 Zone 2 會失去 mitochondrial benefit」衝突。
+  - 與「elite endurance athletes 做很多 low-intensity，所以一般人也應只優先 Zone 2」衝突。
+  - 與「Fatmax、LT1、GET、Talk Test、固定 heart-rate zone 是同一件事」衝突。
+- 待追蹤問題：
+  - Nuuttila 2026 low-intensity endurance training 仍需獨立處理，不能拿來補強本頁結論。
+  - `What-Is-Zone-2-Training` 若屬一般網站或教育文章，應排在較後作低層級來源處理。
+  - 未來若要做 Zone 2 synthesis，需先逐篇 ingest direct Zone 2 intervention trials 或 systematic reviews。
+
+## [2026-05-09] ingest | Nuuttila et al. 2026 - low-intensity endurance training meta-analysis
+
+- 本輪單一來源：
+  - `C:\原始資料\Scandinavian+Med+Sci+Sports+-+2026+-+Nuuttila+-+Effects+of+Low‐Intensity+Endurance+Training+on+Aerobic+Fitness+and+Risk\Scandinavian+Med+Sci+Sports+-+2026+-+Nuuttila+-+Effects+of+Low‐Intensity+Endurance+Training+on+Aerobic+Fitness+and+Risk.md`
+  - 只完整處理此一篇來源；未混入 `What-Is-Zone-2-Training`、Matomäki 2025 perspective 或 clinical exercise physiology standards source。
+- 新增來源摘要：
+  - `09_來源摘要/Nuuttila_2026_low_intensity_endurance_training_meta_analysis.md`
+- 新增頁面：
+  - `05_Exercise_Physiology/Low_Intensity_Endurance_Training_健康成人證據邊界.md`
+- 更新頁面：
+  - `05_Exercise_Physiology/Zone_2_Training_證據邊界.md`
+  - `05_Exercise_Physiology/Training_Intensity_Distribution.md`
+  - `index.md`（Total pages 587 -> 589；新增 Nuuttila source summary 與 LIT healthy adults concept）
+  - `log.md`
+- 抽出概念：
+  - Low-Intensity Endurance Training evidence boundary in healthy working-age adults：LIT 在 healthy sedentary / untrained adults 可改善 aerobic fitness，尤其 VO2max / Pmax；cardiometabolic risk marker effects 較小且異質性較高；upper LIT 可能較有利 VO2max，但不是 Zone 2 universal superiority。
+- 本輪直接事實：
+  - Source 為 2026 *Scandinavian Journal of Medicine & Science in Sports* systematic review and meta-analysis。
+  - Protocol registered at PROSPERO CRD42023469528。
+  - Included randomized controlled trials in adults aged 18-65 years。
+  - Excluded diagnosed diseases / disorders、cardiometabolic medication、pregnancy、BMI >35 kg/m2、nutrition intervention、ergogenic modalities、pharmacologic agents。
+  - LIT eligibility required training exclusively below LT1 / VT1, or <=60% VO2max, <=60% VO2 reserve, <=75% HRmax, or <=60% HRR when thresholds were not used。
+  - Search used PubMed and SPORTDiscus, English-language human studies, publication dates before 2023-10-31。
+  - 9702 records screened；50 studies included。
+  - 54 intervention groups and 50 control groups。
+  - 824 participants in intervention groups and 708 in control groups。
+  - Participants were mainly sedentary or untrained；no included studies reported trained / competitive athlete results。
+  - Mean intervention age 35.5 +/- 12.5 years；control age 33.2 +/- 11.8 years。
+  - Exercise intensity was reported by %HRmax in 21 studies, %VO2max in 20 studies, and %HRR in eight studies。
+  - Only one study used LT1 or VT1 for exercise intensity determination。
+  - Mean training frequency 3.8 +/- 1.1 sessions/week；mean session duration 41 +/- 13 min；mean intervention length 12.2 +/- 5.7 weeks。
+  - Risk of bias: 86% some concerns, 14% high risk。
+  - Relative VO2max ES 0.94, 95% CI 0.74-1.13。
+  - Absolute VO2max ES 0.84, 95% CI 0.36-1.33。
+  - Pmax ES 1.09, 95% CI 0.86-1.31。
+  - VT1 ES 0.74, 95% CI 0.26-1.22。
+  - Cardiometabolic effects were small for total cholesterol, LDL, HDL, triglycerides, SBP and DBP；glucose effect was trivial。
+  - Training intensity within LIT was associated with relative and absolute VO2max response; meta-regression supported intensity dependence only for relative VO2max。
+  - Sex and baseline BMI did not significantly modify assessed outcomes。
+  - GRADE certainty high for VO2max and Pmax, moderate for VT1 / total cholesterol / LDL / DBP, low for HDL / glucose / triglycerides / SBP。
+- 發現衝突：
+  - 與「低強度 endurance training 對 untrained adults 沒有效」衝突。
+  - 與「只有 high intensity 才能改善 cardiometabolic risk markers」衝突。
+  - 與「fixed %HRmax / %VO2max 等同 LT1 / VT1」衝突。
+  - 與「本來源證明 Zone 2 是 universal optimal intensity」衝突。
+- 待追蹤問題：
+  - `What-Is-Zone-2-Training` 屬 expert viewpoint / commentary，若要處理需下一輪單一來源 ingest，不能混入本來源。
+  - Matomäki 2025 `Why low-intensity endurance training for athletes?` 是 perspective and athlete-focused hypothesis source，需獨立處理。
+  - `International Professional Practice Standards for Clinical Exercise Physiology` 是 consensus statement，可作 clinical exercise physiology professional standards 主題的後續來源。
+
+## [2026-05-09] ingest | Reeves et al. 2026 - International Clinical Exercise Physiology Professional Standards
+
+- 本輪單一來源：
+  - `C:\原始資料\s40279-026-02407-6\s40279-026-02407-6.md`
+  - 只完整處理此一篇 consensus statement；未混入 `What-Is-Zone-2-Training`、Matomäki 2025 perspective 或 Nuuttila 2026 LIT meta-analysis。
+- 新增來源摘要：
+  - `09_來源摘要/Reeves_2026_clinical_exercise_physiology_professional_standards.md`
+- 新增頁面：
+  - `02_方法學/Clinical_Exercise_Physiology_Professional_Standards.md`
+- 更新頁面：
+  - `02_方法學/治療性運動處方.md`
+  - `02_方法學/治療性運動處方的最低必要欄位.md`
+  - `index.md`（Total pages 589 -> 591；新增 Reeves source summary 與 Clinical Exercise Physiology professional standards concept）
+  - `log.md`
+- 抽出概念：
+  - Clinical Exercise Physiology Professional Standards：以 modified e-Delphi consensus 建立 Clinical Exercise Physiologist 在 health-profession context 中執行 exercise-based care 的最低國際能力框架；核心不是某個 exercise protocol，而是 scope、ethics、documentation、cultural safety、risk management、foundational knowledge、assessment/client management 與 evidence-based intervention delivery。
+- 本輪直接事實：
+  - Source 為 2026 *Sports Medicine* consensus statement。
+  - Accepted 2026-02-03。
+  - Objective 是發展 international professional standards for clinical exercise physiologists。
+  - Method 為 modified e-Delphi model，包含 online surveys、focus groups、steering committee、expert working group 與 external stakeholder feedback。
+  - Steering committee members n = 4。
+  - Expert working group recruited n = 21。
+  - Round completion：round 1a n = 19；round 1b n = 13；round 2a/b n = 15；round 3 n = 14。
+  - Consensus threshold 預設為 80% agreement on 7-9 points of 9-point Likert scale。
+  - Final standards 包含 4 domains：professional practice、foundational knowledge、assessment and client management、case formulation and design/delivery of evidence-based interventions。
+  - Final standards 包含 20 elements。
+  - 18 of 20 final elements reached consensus as core。
+  - Reflective practice 與 self-management strategy 未達 80% inclusion threshold，但 steering committee 保留。
+  - External stakeholder feedback received from 27 individuals from seven countries。
+  - Limitations：majority experts derived from ICSESP network（15/21, 71%）；all but one expert from western countries，可能限制 cultural / regional transferability。
+- 發現衝突：
+  - 與「exercise prescription 只要 FITT」衝突。
+  - 與「clinical exercise delivery 可以不處理 contraindications、risk management、documentation、referral 或 medications effects」衝突。
+  - 與「professional standards 等於特定 intervention 療效證據」衝突。
+  - 與「international consensus 可直接取代 local licensure / scope of practice」衝突。
+- 待追蹤問題：
+  - `What-Is-Zone-2-Training` 仍可作下一輪低層級 expert viewpoint 單一來源 ingest。
+  - Matomäki 2025 athlete-focused LI training perspective 仍需獨立處理。
+  - 若要在台灣臨床制度下使用 Clinical Exercise Physiology standards，需另行整理本地法規、職類邊界與院內治理條件；本來源不能直接回答。
+
+## [2026-05-09] ingest | Sitko et al. 2025 - What Is Zone 2 Training expert viewpoint
+
+- 本輪單一來源：
+  - `C:\原始資料\What-Is-Zone-2-Training\What-Is-Zone-2-Training.md`
+  - 只完整處理此一篇 expert viewpoint / commentary；未混入 Storoschuk 2025 narrative review、Nuuttila 2026 meta-analysis 或 Matomäki 2025 perspective。
+- 新增來源摘要：
+  - `09_來源摘要/Sitko_2025_zone2_training_expert_viewpoint.md`
+- 新增頁面：
+  - `05_Exercise_Physiology/Zone_2_Training_實務定義與監測.md`
+- 更新頁面：
+  - `05_Exercise_Physiology/Zone_2_Training_證據邊界.md`
+  - `05_Exercise_Physiology/Training_Intensity_Distribution.md`
+  - `index.md`（Total pages 591 -> 593；新增 Sitko source summary 與 Zone 2 practical definition / monitoring concept）
+  - `log.md`
+- 抽出概念：
+  - Zone 2 practical definition and monitoring：expert panel 將 Zone 2 實務定位於 immediately below LT1 / VT1，並建議用 HR、RPE、breathing / talk cue、lactate、power relative to critical power 與 internal-load drift 監測；此為 prescription / communication framework，不是 superiority evidence。
+- 本輪直接事實：
+  - Source 為 expert viewpoint / commentary。
+  - Expert panel 包含 14 位 applied sport scientists and professional coaches。
+  - Expert panel 代表 8 countries。
+  - Panel focus 為 cycling。
+  - Lead authors used PubMed and MEDLINE to identify relevant peer-reviewed articles on training intensity distribution and zones in cycling。
+  - 12 experts reported using a 5-zone model for aerobic intensity distribution。
+  - LT1 or VT1 separated zones 1 and 2；LT2 or VT2 / RCP separated zones 2 and 3。
+  - Experts located Zone 2 just below LT1 / VT1。
+  - Expected profile：blood lactate around 1-2 mmol/L、HR about 70-80% HRmax or 80-90% LT1 HR、Borg RPE around 10、power about 75-80% critical power。
+  - Table I-2 described comfortable effort、CR10 RPE 2-3、Borg RPE 9-12、about 67-82% HRmax、conversation with some effort、blood lactate around 1.0-2.0 mmol/L。
+  - Experts emphasized monitoring HR and RPE when sessions are prescribed by external load because long sessions can show divergence between internal and external loads。
+  - The source identified continuous、variable continuous and interval-based Zone 2 methods。
+  - Continuous preferred method was long rides, ideally >2 h。
+  - If cardiac drift or fatigue causes HR/RPE to rise disproportionately, the recommendation is to maintain HR/RPE within Zone 2 even if external load must be reduced。
+  - Expected adaptations included capillarization、mitochondrial enzymes in type I fibers、metabolic efficiency、modest critical power and VO2max increase、LT1 / VT1 compression toward LT2 / VT2。
+  - The source states research is needed to confirm these adaptation hypotheses。
+  - The source states expected adaptations are likely not unique to Zone 2 and could also be induced by slightly higher or lower intensities。
+- 發現衝突：
+  - 與「Zone 2 只要看固定 HRmax 百分比」衝突。
+  - 與「長時間 session 只守 external load 就能保證相同 physiological intensity」衝突。
+  - 與「Zone 2 adaptations 是獨有的」衝突。
+  - 與「expert viewpoint 可證明 Zone 2 優於其他強度」衝突。
+- 待追蹤問題：
+  - Matomäki 2025 athlete-focused LI training perspective 仍需獨立處理。
+  - 若要做 Zone 2 synthesis，需先逐篇加入直接 Zone 2 intervention trials 或 systematic reviews。
+  - 若要把 Zone 2 用於 chronic disease / rehabilitation population，需另行處理 disease-specific safety and progression sources。
+
+## [2026-05-09] ingest | Matomäki 2025 - Why low-intensity endurance training for athletes?
+
+- 本輪單一來源：
+  - `C:\原始資料\s00421-025-05843-w\s00421-025-05843-w.md`
+  - 只完整處理此一篇 perspective / hypothesis article；未混入 Sitko 2025 expert viewpoint、Nuuttila 2026 meta-analysis 或其他 LI / Zone 2 sources 的未標示內容。
+- 新增來源摘要：
+  - `09_來源摘要/Matomaki_2025_low_intensity_endurance_training_athlete_hypotheses.md`
+- 新增頁面：
+  - `05_Exercise_Physiology/Low_Intensity_Endurance_Training_運動員假說框架.md`
+- 更新頁面：
+  - `05_Exercise_Physiology/Training_Intensity_Distribution.md`
+  - `index.md`（Total pages 593 -> 595；新增 Matomäki source summary 與 athlete LI hypothesis framework concept）
+  - `log.md`
+- 抽出概念：
+  - Low-Intensity Endurance Training 運動員假說框架：Matomäki 2025 將高階 endurance athletes 大量累積 LI training 的現象描述為 athlete LI paradox，並提出七個非互斥假說：low-stress maintenance、alternative molecular signals、long-term structural remodeling、unmeasured components、psychological need、strengthening HI adaptations、possible replaceability。
+- 本輪直接事實：
+  - Source 為 2025 *European Journal of Applied Physiology* perspective article。
+  - Received 2025-01-09；accepted 2025-05-16；published online 2025-06-27。
+  - Source 中 athlete 定義為至少 McKay Tier 3：national-level competition、within 20% of world record、structured and periodized training。
+  - Source 指出 high-level endurance athletes 通常將多數 training time 放在 LI zone。
+  - Source 指出對已有 training history 的 athletes，單次 LI exercise 通常不如 MI / HI 明顯挑戰 cardiopulmonary system、homeostasis 或 metabolic perturbation。
+  - Source 提出七個假說，且明確說明這些 hypotheses are not all mutually exclusive。
+  - Source 定義 exercise 為單次 planned endurance session；training 為多次 exercise 長期系統化累積。
+  - Source 指出 HI cardiac autonomic recovery 可能超過兩天；typical LI exercise recovery 常低於 24 小時，甚至數小時。
+  - Source 將 LI zone 以 physiological thresholds 定義，並指出 HR、velocity 或 race pace anchoring 會改變 training intensity distribution 計算。
+  - Source 指出 untrained individuals 沒有同樣 LI paradox，因為 LI training 仍可能充分挑戰 cardiopulmonary system 並改善 VO2max 與 threshold intensity。
+- 發現衝突：
+  - 與「LI 對 athlete 急性刺激低，所以一定無用」衝突。
+  - 與「elite athletes 做很多 LI，所以 LI 必然已被證明最佳或不可替代」衝突。
+  - 與「athlete TID 可以直接套用到 untrained adults 或 clinical populations」衝突。
+  - 與「Zone 2 / LI popular claim 已有 superiority proof」衝突。
+- 待追蹤問題：
+  - 若要建立 Zone 2 / LI synthesis，仍需逐篇加入 intervention trials、systematic reviews 或 athlete-specific longitudinal studies。
+  - 需要另行整理 high-volume LI 對 durability、recovery ability、movement economy、fat oxidation capacity、threshold intensities 與 mitochondrial mass 的直接證據。
+  - 若要應用到 PM&R / cardiopulmonary rehabilitation，需使用 clinical population-specific safety and prescription sources，不能由本 athlete perspective 直接外推。
+
+## [2026-05-09] ingest | UpToDate - Overview of secondary prevention of ischemic stroke
+
+- 本輪單一來源：
+  - `C:\原始資料\Overview of secondary prevention of ischemic stroke.md`
+  - 只完整處理此一篇 UpToDate topic review；未混入 `Long-term antithrombotic therapy for the secondary prevention of ischemic stroke`、`Antihypertensive therapy for secondary stroke prevention` 或其他 stroke-specific cause topics。
+- 新增來源摘要：
+  - `09_來源摘要/UpToDate_overview_secondary_prevention_ischemic_stroke.md`
+- 新增頁面：
+  - 無；本輪更新既有 clinical concept。
+- 更新頁面：
+  - `03_疾病與臨床主題/中風次發預防.md`
+  - `index.md`（Total pages 595 -> 596；新增 UpToDate secondary prevention source summary）
+  - `log.md`
+- 抽出概念：
+  - Ischemic stroke secondary prevention bundle：ischemic stroke / TIA 後應同時處理 antithrombotic therapy、blood pressure reduction、LDL-C lowering therapy、diabetes control、lifestyle modification 與 selected mechanism-specific interventions，而不是只選 antiplatelet 或 anticoagulation。
+- 本輪直接事實：
+  - Source 為 UpToDate official reprint / topic review。
+  - Literature review current through April 2026。
+  - Topic last updated 2025-10-13。
+  - Topic version 1120 Version 71.0。
+  - Most patients with ischemic stroke or TIA should receive antithrombotic therapy、blood pressure reduction、LDL-C lowering therapy 與 lifestyle modification。
+  - Major treatable risk factors include hypertension、dyslipidemia、diabetes、smoking、physical inactivity。
+  - Source estimates treatment of all major stroke risk factors could reduce recurrent stroke risk by 80 percent compared with no treatment。
+  - Noncardioembolic ischemic stroke / TIA long-term antiplatelet options include aspirin 50-100 mg daily、clopidogrel 75 mg daily、aspirin-extended-release dipyridamole 25/200 mg twice daily。
+  - Early short-term DAPT is beneficial for select high-risk TIA or minor ischemic stroke and may benefit recently symptomatic intracranial large artery atherosclerosis。
+  - Chronic nonvalvular atrial fibrillation after ischemic stroke / TIA should receive long-term anticoagulation with warfarin or DOAC in most patients。
+  - 2021 AHA/ASA guideline target cited by the source is office BP <130/80 mmHg for most patients to reduce recurrent stroke and vascular events。
+  - Acute ischemic stroke first hours / days should not be treated by rapidly lowering BP to the long-term target because BP may support collateral perfusion。
+  - High-intensity statin therapy such as atorvastatin 80 mg/day is used for ASCVD including TIA or ischemic stroke, aiming for LDL-C <70 mg/dL。
+  - If LDL-C remains >=70 mg/dL despite maximally tolerated statin therapy, ezetimibe or PCSK9 inhibitor is reasonable。
+  - For most patients with diabetes, A1C goal <=7 percent is reasonable。
+  - Homocysteine-lowering vitamins are not beneficial for secondary prevention of cardiovascular disease or stroke; routine homocysteine / vitamin screening is not recommended。
+- 發現衝突：
+  - 與「stroke secondary prevention = antiplatelet」衝突。
+  - 與「所有 ischemic stroke 長期都用 DAPT」衝突。
+  - 與「acute stroke BP 高就立刻壓到 <130/80」衝突。
+  - 與「statin 開立後不用追 LDL-C 或調整」衝突。
+  - 與「weight reduction 已直接證明降低 recurrent stroke」衝突。
+- 待追蹤問題：
+  - `Long-term antithrombotic therapy for the secondary prevention of ischemic stroke` 可作下一輪 antithrombotic-specific 單一來源。
+  - `Antihypertensive therapy for secondary stroke prevention` 可作下一輪 BP-specific 單一來源。
+  - `Overview of secondary prevention for specific causes of ischemic stroke and transient ischemic attack` 可作 mechanism-specific prevention 單一來源。
+
+## [2026-05-09] ingest | UpToDate - Long-term antithrombotic therapy for the secondary prevention of ischemic stroke
+
+- 本輪單一來源：
+  - `C:\原始資料\Long-term antithrombotic therapy for the secondary prevention of ischemic stroke.md`
+  - 只完整處理此一篇 UpToDate topic review；未混入 `Early antithrombotic treatment of acute ischemic stroke and transient ischemic attack`、AF oral anticoagulant 專題、BP-specific 專題或 specific-cause secondary prevention 專題。
+- 新增來源摘要：
+  - `09_來源摘要/UpToDate_long_term_antithrombotic_secondary_prevention_ischemic_stroke.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Ischemic_Stroke_Long_term_Antithrombotic_Therapy.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/中風次發預防.md`
+  - `index.md`（Total pages 596 -> 598；新增 long-term antithrombotic source summary 與 antithrombotic concept page）
+  - `log.md`
+- 抽出概念：
+  - Ischemic stroke long-term antithrombotic therapy：post-acute ischemic stroke / TIA 的 antithrombotic selection 應先依 phase 與 mechanism 分流；noncardioembolic long-term default 是 single antiplatelet，而不是 indefinite DAPT；AF/LV thrombus 等才走 anticoagulation pathway；selected nonlacunar systemic atherosclerosis patients 才考慮 aspirin + low-dose rivaroxaban。
+- 本輪直接事實：
+  - Source 為 UpToDate official reprint / topic review。
+  - Literature review current through April 2026。
+  - Topic last updated 2026-05-01。
+  - Antiplatelet therapy for secondary stroke prevention is reviewed here；acute antithrombotic treatment and primary prevention are separate topics。
+  - For noncardioembolic stroke / TIA of atherothrombotic, lacunar, or cryptogenic type, source recommends antiplatelet therapy using aspirin、clopidogrel、or aspirin-extended-release dipyridamole。
+  - Source suggests clopidogrel 75 mg daily monotherapy or aspirin-extended-release dipyridamole 25/200 mg twice daily rather than aspirin alone when feasible。
+  - Aspirin remains appropriate when clopidogrel or aspirin-extended-release dipyridamole is not affordable, tolerated, or appropriate。
+  - Aspirin dose for secondary prevention is recommended as 50-100 mg daily by the source。
+  - Cilostazol is a reasonable option for patients of East Asian ethnicity and when other agents are unavailable or not tolerated；non-East Asian data are very limited。
+  - For most noncardioembolic stroke / TIA patients, source recommends against long-term aspirin plus clopidogrel because added efficacy is lacking and bleeding risk rises。
+  - Carotid endarterectomy patients usually receive aspirin 81-325 mg daily monotherapy started before surgery and continued indefinitely unless anticoagulation is separately indicated。
+  - Carotid stenting patients usually receive aspirin plus clopidogrel for 30 days, followed by long-term single-agent antiplatelet therapy。
+  - Cryptogenic stroke, including ESUS, is generally not an indication for anticoagulation；antiplatelet therapy is preferred in most such cases。
+  - For high-risk noncardioembolic, nonlacunar stroke with systemic atherosclerosis, aspirin plus low-dose rivaroxaban 2.5 mg BID is a reasonable selected option。
+  - Routine laboratory or genetic testing for aspirin / clopidogrel resistance after antiplatelet treatment failure has no proven role in this source。
+- 發現衝突：
+  - 與「minor stroke / high-risk TIA short-term DAPT 有效，所以可以長期 DAPT」衝突。
+  - 與「cryptogenic / ESUS 看起來 embolic，所以 routine anticoagulation」衝突。
+  - 與「CYP2C19 或 platelet function testing 應成為所有 clopidogrel 使用者的 routine」衝突。
+  - 與「所有 post-stroke systemic atherosclerosis 都應 aspirin + rivaroxaban」衝突。
+- 待追蹤問題：
+  - `Early antithrombotic treatment of acute ischemic stroke and transient ischemic attack` 可另作 acute / short-term DAPT 單一來源。
+  - `Atrial fibrillation in adults: Use of oral anticoagulants` 或對應 stroke/AF source 可另作 cardioembolic anticoagulation 單一來源。
+  - `Antihypertensive therapy for secondary stroke prevention` 可作下一輪 BP-specific 單一來源。
+  - Factor XIa inhibitors 需要日後依 guideline / regulatory update 重新評估，不可由此篇直接視為 routine standard。
+
+## [2026-05-09] concept extraction | Hayes, Goggins, Caldwell - Biomechanics of the Hip, Knee, and Ankle
+
+- 本輪單一來源：
+  - `C:\原始資料\Biomechanics of the hip, knee, and ankle\Biomechanics of the hip, knee, and ankle.md`
+  - 本來源摘要已存在；本輪不重複建立新 source summary，而是補強既有摘要並拆出 missing concept page。
+  - 未混入 `Lower limb orthoses`、`Foot biomechanics`、`Clinical assessment of walking and running gait` 或 running injury sources。
+- 補強來源摘要：
+  - `09_來源摘要/Biomechanics_of_the_Hip_Knee_and_Ankle.md`
+- 新增頁面：
+  - `06_Gait_Biomechanics/髖膝踝生物力學與GRF.md`
+- 更新頁面：
+  - `06_Gait_Biomechanics/下肢矯具總論.md`
+  - `index.md`（Total pages 598 -> 599；新增 lower-limb joint biomechanics / GRF concept page）
+  - `log.md`
+- 抽出概念：
+  - 髖膝踝生物力學與GRF：stance phase 中 shank / thigh / foot segment kinematics 決定 GRF 相對於 ankle、knee、hip 的 line of action，進而產生 external joint moments；orthosis-footwear combination 的治療作用不是單純固定，而是同時透過 direct force system 與 indirect GRF manipulation 重新配置這條力學鏈。
+- 本輪直接事實：
+  - Source 為 textbook chapter，source_tier 1。
+  - Source 將 biomechanics 分為 statics 與 dynamics；dynamics 包含 kinematics 與 kinetics。
+  - Three-point force system 是控制單一關節 angular motion 的最小力學模型；相鄰兩關節可共享部分 counterforces。
+  - GRF 分析需看 point of application、magnitude、line of action。
+  - Normal stance phase 中 shank 從 reclined 轉為 inclined；midstance 約 10-12 degrees forward shank inclination 對 stability 重要。
+  - Shank 與 thigh inclination 共同決定 GRF 相對於 knee / hip 的 alignment，並影響 external extension / flexion moments。
+  - Terminal stance support 需要 ankle plantarflexion / forefoot loading 將 GRF point of application 前移，以協助 knee / hip extension moments。
+  - Gastrocnemius contracture 可讓 ankle dorsiflexion 和 knee extension 形成 length competition；允許 dorsiflexion 不一定有利於 knee extension。
+  - Footwear 的 pitch、heel design、sole stiffness、sole profile 會影響 orthosis 的 kinematic / kinetic effects。
+  - Orthoses must be dynamically tuned；小幅度 orthosis alignment 或 footwear design 改變可顯著影響 gait mechanics。
+- 發現衝突：
+  - 與「AFO 只是固定 ankle」衝突。
+  - 與「hinged AFO 必然比 fixed AFO 更接近正常 gait」衝突。
+  - 與「knee hyperextension 直接加強 knee brace 就好」衝突。
+  - 與「鞋子只是配件，不屬於下肢矯具處方」衝突。
+- 待追蹤問題：
+  - 可用 `Lower limb orthoses` 另做 AFO / KAFO prescription-specific concept refinement。
+  - 可用 `Clinical assessment of walking and running gait` 另補 bedside gait observation 與 video gait analysis 的評估流程。
+  - 若要處理 pediatric CP / neurologic gait，需要逐篇加入 disease-specific orthotic evidence，不能只由本 biomechanics chapter 外推。
+
+## [2026-05-09] concept extraction | Murphy, Lovegreen, Lovegreen - Lower Limb Orthoses | AFO prescription
+
+- 本輪單一來源：
+  - `C:\原始資料\13 - Lower limb orthoses\13 - Lower limb orthoses.md`
+  - 本來源摘要已存在；本輪不重複建立新 source summary，而是補強既有摘要並拆出 AFO-specific concept page。
+  - 未混入 `Biomechanics of the hip, knee, and ankle`、`Clinical assessment of walking and running gait`、`Foot biomechanics` 或 disease-specific AFO outcome studies。
+- 補強來源摘要：
+  - `09_來源摘要/Lower_limb_orthoses.md`
+- 新增頁面：
+  - `06_Gait_Biomechanics/AFO處方生物力學.md`
+- 更新頁面：
+  - `06_Gait_Biomechanics/下肢矯具總論.md`
+  - `index.md`（Total pages 599 -> 600；新增 AFO prescription biomechanics concept page）
+  - `log.md`
+- 抽出概念：
+  - AFO prescription biomechanics：AFO 不只是 foot-drop device；它可透過 ankle position、ankle stops、foot plate 與 shoe-ground interaction 改變 GRF 相對於 knee axis 的位置，進而控制 stance phase knee flexion / extension moment。
+- 本輪直接事實：
+  - Source 為 textbook chapter，source_tier 1。
+  - AFO 是跨過 ankle joint、但止於 knee joint 以下的 orthosis。
+  - AFO 可用於 biomechanical 或 neurophysiological foot / ankle problem。
+  - AFO 提供 dorsiflexion / plantarflexion control，也提供 mediolateral stability。
+  - AFO 直接控制 ankle motion，但也會影響 gait 中的 knee control。
+  - Foot strike 時，若 GRF 位於 knee 後方，會傾向促進 knee flexion；若 GRF 位於 knee 前方，會協助 knee extension。
+  - Foot dorsiflexion 傾向讓 GRF 位於 knee 後方並增加 knee flexion tendency。
+  - Foot plantarflexion 傾向讓 GRF 位於 knee 前方並增加 knee extension tendency。
+  - 對 quadriceps weakness 且 stance 有 knee collapse tendency 的人，dorsiflexion stop 可調向較 plantarflexed 的 stance position，使 GRF 移到 knee axis 前方以幫助 knee extension。
+  - 對 stance phase knee hyperextension 的人，plantarflexion stop 可調整使 ankle 保持較 dorsiflexed，使 GRF 移到 knee 後方，以鼓勵 knee flexion 並減少 hyperextension。
+  - Source 提醒 correction of one issue may leave other issues less well attended to；rigid brace 可能保護 wound / fracture，但增加 walking difficulty 與 energy expenditure。
+  - Orthotic checkout 需確認 fit、function、comfort、cosmesis；若目標是改善 gait dysfunction，必須重新評估 gait 是否真的達成目標。
+- 發現衝突：
+  - 與「AFO 只是 foot drop brace」衝突。
+  - 與「hinged AFO 一定比 fixed AFO 更好」衝突。
+  - 與「dorsiflexion 越多越自然、越好」衝突。
+  - 與「knee hyperextension 只能用 knee brace 處理」衝突。
+- 待追蹤問題：
+  - 可用同一來源另拆 `KAFO stance-control biomechanics`，但本輪未處理，避免把 AFO 與 KAFO 混成同一概念頁。
+  - 可用 `Clinical assessment of walking and running gait` 補上 AFO checkout 前後的 observation / video gait analysis workflow。
+  - 若要應用到 stroke、CP、SCI 或 peripheral neuropathy，需逐篇加入 disease-specific evidence，不能只由本 textbook chapter 外推療效。
+
+## [2026-05-09] concept extraction | Murphy, Lovegreen, Lovegreen - Lower Limb Orthoses | KAFO stance-control
+
+- 本輪單一來源：
+  - `C:\原始資料\13 - Lower limb orthoses\13 - Lower limb orthoses.md`
+  - 本來源摘要已存在；本輪不重複建立新 source summary，而是補強既有摘要並拆出 KAFO-specific concept page。
+  - 未混入 `Biomechanics of the hip, knee, and ankle`、`Clinical assessment of walking and running gait`、HKAFO / powered exoskeleton 區段或 disease-specific KAFO outcome studies。
+- 補強來源摘要：
+  - `09_來源摘要/Lower_limb_orthoses.md`
+- 新增頁面：
+  - `06_Gait_Biomechanics/KAFO站立控制生物力學.md`
+- 更新頁面：
+  - `06_Gait_Biomechanics/下肢矯具總論.md`
+  - `index.md`（Total pages 600 -> 601；新增 KAFO stance-control biomechanics concept page）
+  - `log.md`
+- 抽出概念：
+  - KAFO stance-control biomechanics：KAFO 的 biomechanical target 是在 stance phase 提供 knee-ankle complex stability，同時盡量保留 swing phase knee motion，避免 locked-knee gait 造成 hip hiking、circumduction 或 contralateral vaulting。
+- 本輪直接事實：
+  - Source 為 textbook chapter，source_tier 1。
+  - KAFO 被設計來提供 knee and ankle complex stability during ambulation。
+  - KAFO 可能在 loading response 防止 excessive knee flexion，也可能在 midstance-to-terminal stance 防止 knee hyperextension。
+  - 理想 KAFO 應提供 required stability while minimally interfering with normal knee and ankle ROM during gait。
+  - KAFO 可用於 functional ambulation、exercise，或兩者；部分使用者仍需 wheelchair 作 longer-distance mobility。
+  - KAFO ambulation 通常需要 good trunk control 與 upper body strength，因為常搭配 walkers 或 forearm crutches。
+  - Posterior offset knee joint 在 swing phase 允許 knee free flexion / extension；stance phase 則藉 posterior offset 讓 orthotic GRF 維持在 knee axis 前方以提供 stability。
+  - Stance-control lock mechanisms 在 stance phase lock，但允許 swing phase knee flexion / extension。
+  - Dynamic control systems 可在 stance 與 swing phases 提供不同程度的 knee motion control。
+  - Traditional locked-knee KAFO 可讓 very unstable knee 的人安全站立與行走，但 swing phase locked knee 會需要 hip hiking、circumduction 或 contralateral vaulting。
+  - Source 指出 stance control 與 dynamic knee control units 的 benefits 包含 uneven terrain stability、reduced metabolic costs、減少 hip hiking / circumduction 等 gait deviations，可能降低 back 與 contralateral limb 長期 complications。
+- 發現衝突：
+  - 與「KAFO 越穩越好」衝突。
+  - 與「locked-knee KAFO 只要能站穩就是成功」衝突。
+  - 與「stance-control KAFO 可直接套用所有 KAFO 使用者」衝突。
+  - 與「KAFO 只是 knee brace，不需要看 ankle-foot component 或 assistive device」衝突。
+- 待追蹤問題：
+  - 可用 `Clinical assessment of walking and running gait` 補上 KAFO / AFO checkout 前後的 observation / video gait analysis workflow。
+  - 若要應用到 stroke、SCI、polio、peripheral neuropathy 或 myopathy，需逐篇加入 disease-specific evidence，不能只由本 textbook chapter 外推療效。
+  - HKAFO / reciprocating gait orthosis 與 powered exoskeleton 應另拆概念頁，本輪未處理。
+
+## [2026-05-09] ingest | Dang - Biomechanics of the Foot and Ankle
+
+- 本輪單一來源：
+  - `C:\原始資料\Biomechanics of the Foot and Ankle\Biomechanics of the Foot and Ankle.md`
+  - 本來源摘要已存在舊短版；本輪依單一來源 workflow 補強為正式 source summary，並拆出 one-concept page。
+  - 未混入 `Foot biomechanics`、`Overview of foot anatomy and biomechanics and assessment of foot pain in adults`、running shoe sources 或 disease-specific treatment sources。
+- 更新來源摘要：
+  - `09_來源摘要/Biomechanics_of_the_Foot_and_Ankle.md`
+- 新增頁面：
+  - `06_Gait_Biomechanics/足部柔性到剛性轉換.md`
+- 更新頁面：
+  - `06_Gait_Biomechanics/足部解剖與生物力學.md`
+  - `index.md`（Total pages 601 -> 602；新增 foot supple-to-rigid transition concept page）
+  - `log.md`
+- 抽出概念：
+  - 足部柔性到剛性轉換：stance phase 中 foot 由 heel strike 的 supple shock absorber，透過 hindfoot eversion / inversion、transverse tarsal unlocking / locking、plantar aponeurosis / windlass mechanism 與 forefoot loading，轉為 terminal stance 的 rigid lever。
+- 本輪直接事實：
+  - Source 為 textbook chapter，source_tier 1。
+  - Walking gait cycle 中 stance phase 約 62%，swing phase 約 38%。
+  - Stance phase 可分為 three intervals：heel strike to foot flat、foot flat to heel rise、heel rise to toe-off。
+  - Source 明確指出 foot 是 dynamic structure，不只是 rigid base。
+  - Heel strike / loading response 需要 supple foot 來吸收 impact energy；end stance / toe-off 前 foot 需要轉成 rigid structure。
+  - Subtalar joint 可被視為 oblique single-axis hinge / torque converter，把 leg rotation 轉換成 hindfoot inversion / eversion。
+  - Calcaneus eversion 時，talonavicular / calcaneocuboid axes 較 parallel，transverse tarsal joint 較 flexible / unlocked。
+  - Calcaneus inversion 時，這些 axes 較 nonparallel，transverse tarsal joint 較 rigid / locked。
+  - Valgus hindfoot 傾向 unlocked and supple midfoot；varus hindfoot 傾向 locked and rigid midfoot；source 特別提醒 advanced adult acquired flatfoot deformity 不能直接套用 congenital pes planovalgus 推論。
+  - Medial column 較 rigid，lateral column 較 supple。
+  - Metatarsophalangeal break 的 oblique cascade 有助於 heel inversion 時仍讓 metatarsal heads 接觸地面並分散 forefoot load。
+  - Plantar aponeurosis 是 heel rise to toe-off 間 longitudinal arch 最重要的 stabilizer。
+  - Toe dorsiflexion 會拉緊 plantar aponeurosis，使 metatarsal heads depressed、longitudinal arch elevated，並促進 calcaneal inversion。
+  - Posterior calf muscles 控制 tibia 在 fixed foot 上向前移動；weakness 會造成 stride length shortening。
+  - Normal walking 中，center of pressure 由 heel 快速前移到 metatarsal region，停留約半個 stance phase，再移向 great toe。
+  - Running stance phase 較短、vertical force 可達約 2.5-3 倍 body weight，joint ROM 與 muscle activity demand 增加。
+- 發現衝突：
+  - 與「foot 是 rigid base」衝突。
+  - 與「flatfoot / high arch 靜態標籤足以解釋症狀」衝突。
+  - 與「toe-off 是 toes active push-off」衝突。
+  - 與「rigid foot 一定比 supple foot 好」衝突。
+- 待追蹤問題：
+  - `Foot biomechanics` 可另作單一來源，補 modern foot spring / transverse arch / intrinsic muscle model，但不能直接混進本來源結論。
+  - `Overview of foot anatomy and biomechanics and assessment of foot pain in adults` 可另作 clinical assessment workflow。
+  - 若要處理 plantar fasciitis、hallux valgus、metatarsalgia、diabetic ulcer 或 post-arthrodesis gait，需逐篇加入 disease-specific sources。
+
+## [2026-05-09] ingest | Richie Jr. - Foot biomechanics
+
+- 本輪單一來源：
+  - `C:\原始資料\Foot biomechanics\Foot biomechanics.md`
+  - 本來源摘要已存在舊版；本輪依單一來源 workflow 補強為正式 source summary，並拆出 one-concept page。
+  - 未混入 `Biomechanics of the Foot and Ankle`、UpToDate foot assessment、running shoe sources、orthosis sources 或 disease-specific treatment sources。
+- 更新來源摘要：
+  - `09_來源摘要/Foot_biomechanics.md`
+- 新增頁面：
+  - `06_Gait_Biomechanics/足部扭轉彈簧機制.md`
+- 更新頁面：
+  - `06_Gait_Biomechanics/足部解剖與生物力學.md`
+  - `index.md`（Total pages 602 -> 603；新增 foot torsional spring concept page）
+  - `log.md`
+- 抽出概念：
+  - 足部扭轉彈簧機制：closed-chain stance 中 foot plate 先 untwist 以吸收能量與適應地面，再由 plantar aponeurosis、plantar intrinsic muscles、peroneus longus 與 first ray recoil 形成 terminal-stance twist / spring-like push-off。
+- 本輪直接事實：
+  - Source 為 textbook chapter，source_tier 1。
+  - Source 將 talus 下方 foot bones 描述為 lamina pedis / calcaneopedal unit。
+  - Open kinetic chain 與 closed kinetic chain 的 foot motion 不同；open-chain pronation / supination 不能直接等同 gait 中的 closed-chain behavior。
+  - Closed-chain external leg rotation induces calcaneal inversion；internal leg rotation induces calcaneal eversion。
+  - Closed-chain rearfoot and forefoot motions reciprocal coupling：external leg rotation 時 rearfoot supination / forefoot pronation；internal leg rotation 時 rearfoot pronation / forefoot supination。
+  - Source 描述 transverse tarsal arch curvature 對 foot stiffness 的重要性，並指出 stiffness 不能只看 medial longitudinal arch。
+  - Dynamic foot vault stability 由 plantar intrinsic muscles、plantar aponeurosis 與 plantar ligaments 調節。
+  - Passive plantar ligament structures 可儲存 strain energy 並 elastic recoil，形成 foot spring。
+  - Foot 在 stance 前半段 untwists 以吸收能量、分散衝擊與適應地面，之後 recoil / twists into rearfoot inversion and forefoot pronation。
+  - Source 指出 arch height 在 final 15% of stance 明顯增加。
+  - Source 指出 first ray 約從 terminal stance 開始到 pre-swing 結束有 15 degrees plantarflexion。
+  - Heel rise 對應 maximal plantar fascia tensile strain 與 peak intrinsic muscle activity。
+  - Peroneus longus 參與 first ray stiffening，並協助 load 從 lateral 轉向 medial、經 first MTP joint 參與 windlass mechanism。
+  - Source 明確指出 windlass mechanism alone 不能完整解釋 terminal stance / pre-swing arch elevation and shortening。
+- 發現衝突：
+  - 與「foot propulsion = simple rigid lever」衝突。
+  - 與「arch height alone explains foot function」衝突。
+  - 與「windlass mechanism alone explains arch raising」衝突。
+  - 與「open-chain foot ROM 可直接外推到 closed-chain gait」衝突。
+  - Source 內部對 triceps surae / plantarflexor activity around pre-swing 的描述不完全一致，因此本輪只標記 uncertainty，不把 calf timing 寫成硬結論。
+- 待追蹤問題：
+  - 可另拆 `posterior tibialis transverse-plane stabilizer`，但本輪未處理，避免把 muscle moment analysis 混入 foot spring 概念頁。
+  - 可另拆 `first ray terminal-stance stiffness`，但本輪未處理。
+  - 若要應用到 adult acquired flatfoot deformity、plantar fasciitis、hallux valgus、metatarsalgia、diabetic neuropathy 或 post-arthrodesis gait，需逐篇加入 disease-specific sources。
+
+## [2026-05-09] ingest | Approach to Nerve Conduction Studies, Electromyography, and Neuromuscular Ultrasound
+
+- 本輪單一來源：
+  - `C:\原始資料\Approach to Nerve Conduction Studies, Electromyography, and Neuromuscular Ultrasound\Approach to Nerve Conduction Studies, Electromyography, and Neuromuscular Ultrasound.md`
+  - 本輪只處理此 textbook-style chapter；未混入 `Basic Nerve Conduction Studies`、`Repetitive Nerve Stimulation`、`Late Responses`、`Blink Reflex` 或 disease-specific EDX chapters。
+- 新增來源摘要：
+  - `09_來源摘要/Approach_NCS_EMG_Neuromuscular_Ultrasound.md`
+- 新增頁面：
+  - `02_方法學/EDX_定位導向檢查流程.md`
+- 更新頁面：
+  - `02_方法學/電生理診斷醫學.md`
+  - `02_方法學/EDX_轉介問題設計.md`
+  - `03_疾病與臨床主題/周邊神經病灶定位與EDX_US框架.md`
+  - `index.md`（Total pages 603 -> 605；新增 EDX localization workflow concept page 與 source summary）
+  - `log.md`
+- 抽出概念：
+  - EDX localization-first workflow：EDX study 應先由 brief history / directed neurologic examination 建立 differential diagnosis 與 localization hypothesis，再用 targeted NCS、needle EMG 與必要時 neuromuscular ultrasound 即時修正並輸出 clinical relevance。
+- 本輪直接事實：
+  - Source 為 textbook-style clinical chapter，source_tier 1。
+  - EDX studies 包含 NCS、repetitive nerve stimulation、late responses、blink reflexes、needle EMG 與其他 specialized examinations。
+  - NCS and needle EMG form the core of the EDX study，兩者互補，通常先做且提供最大 diagnostic information。
+  - EDX studies serve as an extension of the clinical examination。
+  - 每次 EDX study 應依 neurologic examination 與 differential diagnosis 個別化，並在檢查進行中依結果修正。
+  - The principal goal of every EDX study is localization。
+  - EDX 可先分 neuropathic、myopathic、NMJ、CNS，再進一步判斷 neuron / root / plexus / peripheral nerve、fiber type、demyelination vs axonal loss、severity 與 temporal course。
+  - Patient encounter 應包含 brief history、directed physical examination、formulate differential diagnosis、formulate study、explain test、perform NCS、perform needle EMG。
+  - NCS 結果會影響 needle EMG strategy 與 interpretation。
+  - Cardinal rules 包含：EDX 是 clinical examination extension、疑問時先考慮 technical factors、必要時 reexamine patient、報告放回 clinical context、不要 overcall diagnosis、維持 clinical-electrophysiologic correlation。
+  - Neuromuscular ultrasound 是 EDX 的 complementary tool，不取代 EDX。
+  - EDX 提供 physiologic function；ultrasound 提供 anatomy / structural / possible etiologic information。
+  - Ultrasound 在 mononeuropathy 可補 segmental localization / structural cause，在 demyelinating polyneuropathy 可補 hypertrophic pattern，在 pure lower motor neuron syndrome 可協助和 treatable motor neuropathy 鑑別，在 myopathy 可補 involvement pattern 與 biopsy target。
+- 發現衝突：
+  - 與「EDX 是固定 screening battery」衝突。
+  - 與「NCS alone 足以處理多數 neuromuscular localization 問題」衝突。
+  - 與「minor abnormal value 可直接等於臨床診斷」衝突。
+  - 與「neuromuscular ultrasound 可以取代 EDX」衝突。
+  - 與「structural imaging abnormality alone establishes symptom source」衝突。
+- 待追蹤問題：
+  - 可另處理 `Basic Nerve Conduction Studies`，補 NCS technical setup、waveform 與 normal values。
+  - 可另處理 `Repetitive Nerve Stimulation`、`Late Responses`、`Blink Reflex`，拆成 specialized EDX testing concept pages。
+  - 可另處理 `Artifacts and Technical Factors`，補 technical-error prevention 與 false positive framework。
+
+## [2026-05-10] ingest | Basic Nerve Conduction Studies
+
+- 本輪單一來源：
+  - `C:\原始資料\Basic Nerve Conduction Studies\Basic Nerve Conduction Studies.md`
+  - 本輪只處理此 textbook chapter；未混入 `Routine Upper Extremity, Facial, and Phrenic Nerve Conduction Techniques`、`Routine Lower Extremity Nerve Conduction Techniques`、`Repetitive Nerve Stimulation`、`Late Responses`、`Blink Reflex` 或 disease-specific EDX chapters。
+- 新增來源摘要：
+  - `09_來源摘要/Basic_Nerve_Conduction_Studies.md`
+- 新增頁面：
+  - `02_方法學/NCS_軸突損失與脫髓鞘判讀.md`
+- 更新頁面：
+  - `02_方法學/電生理診斷醫學.md`
+  - `02_方法學/EDX_定位導向檢查流程.md`
+  - `03_疾病與臨床主題/周邊神經病灶定位與EDX_US框架.md`
+  - `index.md`（Total pages 605 -> 607；新增 basic NCS source summary 與 NCS axonal-vs-demyelinating concept page）
+  - `log.md`
+- 抽出概念：
+  - NCS 軸突損失與脫髓鞘判讀：用 CMAP / SNAP 的 amplitude、latency、conduction velocity、area、duration、stimulation location 與 injury timing 區分 axonal loss、demyelination、conduction block、pseudo-conduction block 與 technical artifact。
+- 本輪直接事實：
+  - Source 為 textbook chapter，source_tier 1。
+  - EDX 在 history 與 directed physical examination 後以 NCS 開始；needle EMG 通常在 NCS 後執行，因 NCS 結果會影響 needle EMG planning and interpretation。
+  - Motor NCS 通常先做，因其 technical demand 較低、noise 影響較少，且可協助確認 nerve course、stimulation site、required current 與 sensory response absence 是否真實。
+  - CMAP 代表 summated muscle fiber action potentials；SNAP 代表 summated sensory fiber action potentials。
+  - Motor latency 包含 distal nerve conduction、NMJ transmission 與 muscle depolarization time，因此 motor conduction velocity 需 distal + proximal stimulation 才能計算。
+  - Sensory conduction velocity 可由 one stimulation 的 onset latency 與 distance 計算；peak latency 易標記但不可計算 conduction velocity。
+  - Latency / conduction velocity 主要反映 fastest conducting fibers；amplitude / area 反映 depolarized fiber population；duration 主要反映 synchrony / temporal dispersion。
+  - Supramaximal stimulation 應讓 waveform plateau 後再增加 20-25% current；只因 response 落在 normal range 就停止加刺激是常見錯誤。
+  - Axonal loss 的 primary abnormality 是 reduced amplitude，但 reduced amplitude 不必然等於 axonal loss。
+  - Pure axonal loss 中 conduction velocity 不應低於 lower limit of normal 的 75%，distal latency 不應超過 upper limit of normal 的 130%。
+  - Hyperacute axonal loss 可在前 3 天出現 pseudo-conduction block；Wallerian degeneration 完成後轉為典型 low amplitude pattern。
+  - Source 描述 Wallerian degeneration 較早出現在 motor fibers（約 days 3-5），sensory fibers 較晚（約 days 6-10）。
+  - Demyelination 造成 marked conduction slowing、marked distal latency prolongation 或 conduction block。
+  - Source 指出 routine motor / sensory / mixed conduction velocity 若低於 arms 35 m/s 或 legs 30 m/s，除 rare regenerating nerve fibers after complete axonal injury 外，代表 unequivocal demyelination。
+  - Sensory symptoms with normal SNAPs 應考慮 lesion proximal to the dorsal root ganglion，包括 root、spinal cord 或 brain lesion。
+  - Proximal sensory stimulation 可因 normal temporal dispersion / phase cancellation 造成 SNAP amplitude / area 下降與 duration 增加。
+  - Conduction block 判讀需看 stimulation site 與 block location；distal-to-recording block、inter-stimulation-site block 與 very proximal block 會產生不同 CMAP amplitude pattern。
+  - Source 討論舊式 >20% CMAP amplitude / area drop 或 >15% duration increase 規則，但也指出 >50% CMAP area drop 更能區分 true electrophysiologic conduction block 與 temporal dispersion / phase cancellation alone。
+  - Routine tibial motor study at popliteal fossa 是例外；normal subjects 可見 up to 50% amplitude drop，因此需謹慎稱為 conduction block。
+  - Sensory studies 通常在 myopathy 與 NMJ disorders 正常；presynaptic NMJ disorders 可有 low resting CMAP amplitude 但 latency / conduction velocity normal，需 repetitive nerve stimulation 或 exercise testing 證明 transmission disorder。
+- 發現衝突：
+  - 與「low amplitude = axonal loss」衝突。
+  - 與「normal SNAP 排除 sensory pathology」衝突。
+  - 與「proximal CMAP drop 一定是 conduction block」衝突。
+  - 與「NCS 是固定 routine panel」衝突。
+  - 與「normal-range response 就代表 stimulation 技術合格」衝突。
+- 待追蹤問題：
+  - 可另處理 `Routine Upper Extremity, Facial, and Phrenic Nerve Conduction Techniques` 與 `Routine Lower Extremity Nerve Conduction Techniques`，補常規 nerve-specific protocol。
+  - 可另處理 `Artifacts and Technical Factors`，補 false conduction block、submaximal stimulation、co-stimulation、temperature 與 anatomic variation。
+  - 可另處理 `Repetitive Nerve Stimulation`，拆 NMJ transmission testing concept page。
+  - 可另處理 `Late Responses` 與 `Blink Reflex`，補 proximal segments / reflex arc testing。
+
+## [2026-05-10] ingest | Artifacts and Technical Factors
+
+- 本輪單一來源：
+  - `C:\原始資料\Artifacts and Technical Factors\Artifacts and Technical Factors.md`
+  - 本輪只處理此 textbook chapter；未混入 `Anomalous Innervations`、`Routine Upper Extremity, Facial, and Phrenic Nerve Conduction Techniques`、`Routine Lower Extremity Nerve Conduction Techniques` 或 disease-specific EDX chapters。
+- 新增來源摘要：
+  - `09_來源摘要/Artifacts_and_Technical_Factors.md`
+- 新增頁面：
+  - `02_方法學/EDX_技術假象與品質控制.md`
+- 更新頁面：
+  - `02_方法學/電生理診斷醫學.md`
+  - `02_方法學/EDX_定位導向檢查流程.md`
+  - `02_方法學/NCS_軸突損失與脫髓鞘判讀.md`
+  - `index.md`（Total pages 607 -> 609；新增 artifacts / technical factors source summary 與 EDX technical quality-control concept page）
+  - `log.md`
+- 抽出概念：
+  - EDX 技術假象與品質控制：在判讀 NCS / EMG 前，必須系統性確認 temperature、age、height、impedance、filters、stimulation、recording montage、distance、limb position 與 display settings，避免把 technical artifact 誤診為 neuropathy、entrapment、axonal loss、demyelination 或 conduction block。
+- 本輪直接事實：
+  - Source 為 textbook chapter，source_tier 1。
+  - EDX study 的價值取決於 correct data collection 與 correct data interpretation；若資料本身 technical inaccurate，後續 interpretation 無法補救。
+  - EDX 訊號是 microvolt / millivolt 等級的小 bioelectric signals，因此容易受 physiologic 與 nonphysiologic factors 影響。
+  - Failure to recognize technical factors 可造成 type I errors 與 type II errors；source 強調 type I errors 對病人尤其嚴重，因為可能導致不必要檢查與治療。
+  - Physiologic factors 包含 temperature、age、height、proximal vs distal nerve segments、anomalous innervations。
+  - Nonphysiologic factors 包含 electrode impedance mismatch / 60-Hz interference、filters、electronic averaging、stimulus artifact、cathode position、supramaximal stimulation、co-stimulation、electrode placement、recording method、recording electrode distance、limb position / distance measurement、sweep speed / sensitivity。
+  - Temperature 是 source 描述最重要的 physiologic factor。
+  - Cooler temperature 會造成 slowed conduction velocity、prolonged distal latency、increased CMAP / SNAP amplitude and duration；SNAP effect 通常比 CMAP 更明顯。
+  - 在約 21-34°C 範圍內，conduction velocity 每下降 1°C 約慢 1.5-2.5 m/s，distal latency 約延長 0.2 ms/°C。
+  - Cool limb 可模仿 polyneuropathy、distal entrapment neuropathy，或使 axonal neuropathy 速度慢到 demyelinating range。
+  - Distal limb temperature 應 routinely recorded and monitored，理想維持 32-34°C。
+  - Profound cooling 時 underlying nerve temperature 可能需 20-40 分鐘才 equilibrate。
+  - Source 偏好 warming / rewarming，而非單靠 correction factor，因 correction factors 多由 normal nerves 推導。
+  - Full-term infant conduction velocity 約 25-30 m/s 可屬正常，但用 adult standard 會落入 demyelinating range。
+  - Adult >60 歲 conduction velocity 每 decade 約下降 0.5-4.0 m/s；advanced age 也會明顯降低 SNAP amplitude。
+  - Taller individuals 與 lower extremity nerves 的 conduction velocity 較慢；late responses 應使用 height / limb length norms。
+  - Electrode impedance mismatch 會降低 common mode rejection，使 60-Hz interference 遮蔽 small SNAPs 或 fibrillation potentials。
+  - Filters 可減少 noise，但也會改變 waveform；應只與相同 filter settings 的 normal values 比較。
+  - Electronic averaging 可改善 small sensory / mixed responses 的 baseline noise。
+  - Stimulus artifact 可扭曲 onset latency 與 amplitude，尤其 sensory potentials 或 short-distance stimulation。
+  - Depolarization starts under the cathode；cathode 應面向 active recording electrode。
+  - Reversed cathode / anode 可讓 distal latency 延長約 0.3-0.4 ms，sensory conduction velocity 慢約 10 m/s，模仿 polyneuropathy 或 distal entrapment。
+  - Supramaximal stimulation 需把 current 增加到 response plateau 後再增加約 25%；normal-range amplitude 不代表 stimulation 已經 supramaximal。
+  - Submaximal distal stimulation 可模仿 axonal loss；submaximal proximal stimulation 可模仿 conduction block。
+  - Co-stimulation 可讓低 amplitude 看似正常、製造 false conduction block、模仿 anomalous innervation，或遮蔽 true conduction block。
+  - Edema 或 recording electrode off nerve 可造成 sensory / mixed response amplitude 明顯下降甚至 absent。
+  - Active-reference electrode distance 太短會因 cancellation 降低 sensory amplitude；source 建議 sensory / mixed studies 使用 3-4 cm。
+  - Ulnar across-elbow study 若 elbow extended，surface distance 可能低估 true nerve length，造成 artifactually slow conduction velocity。
+  - Sensitivity 與 sweep speed 會影響 onset latency measurement，因此同一 nerve conduction study 中需一致。
+- 發現衝突：
+  - 與「NCS abnormal value equals disease」衝突。
+  - 與「low amplitude equals axonal loss」衝突。
+  - 與「proximal amplitude drop equals conduction block」衝突。
+  - 與「normal-range amplitude proves stimulation adequacy」衝突。
+  - 與「absent sural response in edema or advanced age automatically means neuropathy」衝突。
+  - 與「temperature correction fully replaces warming」衝突。
+- 待追蹤問題：
+  - 可另處理 `Anomalous Innervations`，補 Martin-Gruber anastomosis 等 anatomic variants 如何 mimic lesion。
+  - 可另處理 upper / lower extremity routine NCS chapters，補 nerve-specific protocol 與常見 pitfall。
+  - 可另處理 `Basic Statistics for Electrodiagnostic Studies`，補 normative values、false positive rate 與 diagnostic threshold reasoning。
+
+## [2026-05-10] ingest | Anomalous Innervations
+
+- 本輪單一來源：
+  - `C:\原始資料\Anomalous Innervations\Anomalous Innervations.md`
+  - 本輪只處理此 textbook chapter；未混入 `Routine Upper Extremity, Facial, and Phrenic Nerve Conduction Techniques`、`Routine Lower Extremity Nerve Conduction Techniques`、`Ulnar Neuropathy at the Elbow`、`Peroneal Neuropathy at the Fibular Neck` 或 disease-specific EDX criteria。
+- 新增來源摘要：
+  - `09_來源摘要/Anomalous_Innervations.md`
+- 新增頁面：
+  - `02_方法學/EDX_異常神經支配變異判讀.md`
+- 更新頁面：
+  - `02_方法學/電生理診斷醫學.md`
+  - `02_方法學/EDX_定位導向檢查流程.md`
+  - `02_方法學/EDX_技術假象與品質控制.md`
+  - `02_方法學/NCS_軸突損失與脫髓鞘判讀.md`
+  - `03_疾病與臨床主題/周邊神經病灶定位與EDX_US框架.md`
+  - `index.md`（Total pages 609 -> 612；本輪新增 anomalous innervation concept page 與 source summary，並校正既有 index count mismatch）
+  - `log.md`
+- 抽出概念：
+  - EDX 異常神經支配變異判讀：MGA、APN 等 normal anatomic variants 可改變 routine NCS / needle EMG pattern，模仿 conduction block、entrapment neuropathy、technical error 或 diffuse demyelinating neuropathy；需用 targeted stimulation 證實變異後再解讀 pathology。
+- 本輪直接事實：
+  - Source 為 textbook chapter，source_tier 1。
+  - Anomalous innervations are commonly encountered in EMG laboratory and can be mistaken for technical abnormality or pathology。
+  - MGA 是 upper extremity 最常見 anomaly，為 median-to-ulnar motor crossover；source 明確指出 sensory fibers spared。
+  - Source 報告 MGA prevalence 約 15-30%，可 unilateral 或 bilateral。
+  - MGA 可供應 hypothenar muscles、FDI、ulnar-innervated thenar muscles 或 combinations；FDI 最常見。
+  - Routine ulnar motor study recording abductor digiti minimi 中，MGA 可造成 wrist CMAP amplitude 大於 below-elbow CMAP amplitude，模仿 forearm conduction block。
+  - Source 指出 up to 10% ulnar CMAP amplitude drop from wrist to below-elbow 可由 normal temporal dispersion 解釋；超過時需檢查 MGA。
+  - Hypothenar MGA 可用 median stimulation at wrist and antecubital fossa while recording hypothenar muscles 證實；antecubital fossa CMAP amplitude 約等於 ulnar wrist-to-below-elbow drop。
+  - Proximal MGA 加上 too-distal below-elbow stimulation site 可模仿 UNE conduction block；source 建議 ulnar below-elbow stimulation site 在 medial epicondyle distal 3 cm。
+  - MGA plus CTS 可造成 prolonged distal median motor latency、proximal positive dip 與 factitiously fast median forearm conduction velocity；source 指出 median forearm CV rarely exceeds 70-75 m/s。
+  - MGA 可改變 needle EMG localization，因此 NCS 必須先於 needle EMG 並協助解讀 muscle pattern。
+  - APN 是 lower extremity 最常見 anomaly，源自 distal superficial peroneal nerve，走 posterior to lateral malleolus，供應 EDB lateral portion。
+  - APN 可讓 peroneal motor study recording EDB 出現 below-fibular-neck / lateral-popliteal-fossa CMAP amplitude 高於 ankle；可用 posterior to lateral malleolus stimulation while recording EDB 證實。
+  - MGA plus UNE 可形成 multiple ulnar conduction block-like pattern，誤導成 acquired demyelinating polyneuropathy。
+  - APN plus PNFN 可形成 ankle low、fibular-neck high、lateral-popliteal-fossa low 的 low-high-low pattern。
+  - Riche-Cannieu anastomosis 的 clinical / electrodiagnostic importance 在 source 中仍標示為 debated。
+- 發現衝突：
+  - 與「proximal amplitude drop equals conduction block」衝突。
+  - 與「forearm ulnar conduction block 一定代表 acquired demyelination」衝突。
+  - 與「median motor CTS pattern 必然直覺可讀」衝突。
+  - 與「peroneal proximal amplitude 高於 ankle 一定是 technical error」衝突。
+  - 與「needle EMG muscle distribution 可不經 NCS 直接依標準 nerve map 解讀」衝突。
+- 待追蹤問題：
+  - 可另處理 routine upper extremity NCS chapter，補 ulnar / median nerve-specific protocol 與 proper stimulation distances。
+  - 可另處理 routine lower extremity NCS chapter，補 peroneal / tibial / sural protocol 與 APN screening trigger。
+  - 可另處理 `Basic Statistics for Electrodiagnostic Studies`，補 normative values、false positive rate、conduction block threshold 與 diagnostic uncertainty。
+
+## [2026-05-10] ingest | Routine Upper Extremity, Facial, and Phrenic Nerve Conduction Techniques
+
+- 本輪單一來源：
+  - `C:\原始資料\Routine Upper Extremity, Facial, and Phrenic Nerve Conduction Techniques\Routine Upper Extremity, Facial, and Phrenic Nerve Conduction Techniques.md`
+  - 本輪只處理此 textbook chapter；未混入 `Routine Lower Extremity Nerve Conduction Techniques`、`Ulnar Neuropathy at the Elbow`、`Carpal Tunnel Syndrome`、`Blink Reflex` specialty chapter、`Phrenic Neuropathy` 或 disease-specific EDX criteria。
+- 新增來源摘要：
+  - `09_來源摘要/Routine_Upper_Extremity_Facial_Phrenic_NCS_Techniques.md`
+- 新增頁面：
+  - `02_方法學/Upper_Extremity_NCS_常規技術與陷阱.md`
+- 更新頁面：
+  - `02_方法學/電生理診斷醫學.md`
+  - `02_方法學/EDX_定位導向檢查流程.md`
+  - `02_方法學/EDX_技術假象與品質控制.md`
+  - `02_方法學/NCS_軸突損失與脫髓鞘判讀.md`
+  - `02_方法學/EDX_異常神經支配變異判讀.md`
+  - `03_疾病與臨床主題/周邊神經病灶定位與EDX_US框架.md`
+  - `index.md`（Total pages 612 -> 614；新增 upper-extremity NCS protocol concept page 與 source summary）
+  - `log.md`
+- 抽出概念：
+  - Upper Extremity NCS 常規技術與陷阱：routine NCS 的可解讀性取決於 nerve-specific recording site、stimulation site、distance、limb position、temperature、co-stimulation control、internal comparison 與 side-to-side comparison；protocol error 可直接變成 false slowing、false conduction block 或 false normal localization。
+- 本輪直接事實：
+  - Source 為 textbook chapter，source_tier 1。
+  - Median motor APB wrist distance 為 7 cm；excessive stimulation at wrist or antecubital fossa may co-stimulate ulnar nerve。
+  - Median motor CMAP amplitude 若 antecubital fossa 大於 wrist，source 要求考慮 MGA。
+  - Median motor palmar study 中 palm/wrist CMAP amplitude ratio >1.2 implies some conduction block across wrist；但因 short distance 與 recurrent thenar branch course，conduction velocity 不可靠。
+  - Median sensory digit 2 or 3 distance 為 13 cm；proximal median sensory response normally smaller and harder due to temporal dispersion and phase cancellation。
+  - Median sensory palmar study 中 palm/wrist SNAP amplitude ratio >1.6 implies some conduction block across wrist。
+  - Median wrist-to-palm conduction velocity normally faster than palm-to-digit 3；CTS 中此 pattern reverses with relative wrist-to-palm slowing。
+  - Ulnar motor ADM study 需 wrist、below-elbow、above-elbow stimulations；只做 wrist + above-elbow 會 miss ulnar slowing across elbow。
+  - Ulnar NCS optimal elbow position 是 flexed 90-135 degrees；straight-elbow position 因低估 true nerve length 會造成 factitious slowing。
+  - Ulnar below-elbow stimulation site 應在 medial epicondyle distal 3 cm；太 distal >4 cm 會使 nerve deep and difficult to stimulate。
+  - Across-elbow distance must be measured along a curved line with elbow flexed, not straight line。
+  - 若 below-elbow CMAP amplitude 比 wrist 小 >10%，需考慮 MGA。
+  - Dorsal ulnar cutaneous sensory response always spared in Guyon's canal lesions，may be abnormal in some but not all UNE。
+  - Absent dorsal ulnar cutaneous response 時，可保留 recording electrodes 並 stimulate superficial radial nerve，檢查 rare anomalous dorsal hand innervation。
+  - Deep ulnar motor branch recording FDI may be more useful than ADM for focal ulnar slowing across elbow；FDI G2 必須放在 thumb MCP，放 index MCP 會固定出現 initial positive CMAP deflection。
+  - Median-ulnar lumbrical-interossei comparison 使用 same recording electrodes and same distance；latency difference >0.5 ms definitely abnormal，且在 coexistent polyneuropathy with absent sensory / mixed potentials 時對 CTS 特別有用。
+  - Median-ulnar digit 4、median-radial digit 1 internal sensory comparisons 的 normal latency difference <0.5 ms。
+  - Median-ulnar palmar mixed latency difference normally <0.4 ms；short distance makes measurement error important。
+  - Radial motor CMAP usually has initial positive deflection due to nearby radial-innervated muscles，不需移動 active electrode 去追 motor point。
+  - Radial motor proximal distances, especially below / above spiral groove, are best measured with obstetric calipers。
+  - Radial sensory study may be abnormal in radial neuropathy or posterior cord / upper or middle trunk plexus lesions and is spared in PIN neuropathy。
+  - Medial antebrachial cutaneous study may be abnormal in medial cord / lower trunk lesions and is typically absent or very low in true neurogenic TOS。
+  - Lateral antebrachial cutaneous study may be abnormal in musculocutaneous nerve, lateral cord, or upper trunk lesions。
+  - Proximal upper-extremity stimulation at Erb's point or cervical root can be technically difficult；side-to-side amplitude and latency comparisons are necessary。
+  - Root stimulation with improper needle placement too laterally has rare pneumothorax reports。
+  - Phrenic motor study can accidentally stimulate spinal accessory nerve or brachial plexus；amplitudes are slightly larger during inspiration；study is difficult in obese individuals。
+  - Source warns not to perform phrenic study in ICU patients with external pacemaker and to use caution near internal jugular catheter, implanted cardiac pacemaker, or cardioverter-defibrillator。
+  - Facial whole-nerve stimulation can be uncomfortable and require higher current；separate facial branch stimulation is often easier and more comfortable。
+  - Blink reflex records bilateral orbicularis oculi after supraorbital stimulation and is useful for facial nerve palsies, demyelinating neuropathies, and brainstem lesions。
+  - Normal value tables assume controlled temperature and standard distances；sensory / mixed distal latencies are peak latencies but conduction velocities are calculated from onset latency；side-to-side comparison may be more useful than tables；each lab ideally develops its own normal values。
+- 發現衝突：
+  - 與「routine NCS protocol details are optional」衝突。
+  - 與「ulnar wrist + above-elbow stimulation is enough」衝突。
+  - 與「straight-line elbow measurement equals nerve path」衝突。
+  - 與「absolute normal table always overrides side-to-side comparison」衝突。
+  - 與「absent dorsal ulnar cutaneous SNAP automatically means ulnar pathology」衝突。
+  - 與「phrenic NCS is just another low-risk peripheral motor study」衝突。
+- 待追蹤問題：
+  - 可另處理 `Routine Lower Extremity Nerve Conduction Techniques`，補 peroneal / tibial / sural protocol 與 APN screening trigger。
+  - 可另處理 `Basic Statistics for Electrodiagnostic Studies`，補 normative values、false positive rate、threshold selection 與 diagnostic uncertainty。
+  - 若要建立 CTS、UNE、PIN neuropathy、brachial plexopathy、facial palsy、phrenic neuropathy 或 brainstem lesion 頁，需各自使用 disease-specific source。
+
+## [2026-05-10] structure | 新增 NCV EMG 周邊神經病變資料夾並調整來源摘要編號
+
+- 結構調整：
+  - 新增 `09_NCV EMG 周邊神經病變/` 作為 NCV / EMG / 周邊神經病變主題資料夾。
+  - 將 `09_來源摘要/` 重新命名為 `10_來源摘要/`。
+- 更新路徑：
+  - active wiki / config 文件中的 `09_來源摘要` 已改為 `10_來源摘要`。
+  - `log.md` 結構調整前的歷史紀錄保留當時的 `09_來源摘要`，不回寫成新路徑。
+  - `.claude` hidden worktree 不是主知識庫本體，已排除主庫驗證。
+- 更新文件：
+  - `AGENTS.md`
+  - `SCHEMA.md`
+  - `00_總覽/知識百科_基礎規範總覽.md`
+  - `00_總覽/主題地圖.md`
+  - `log.md`
+- 尚未執行：
+  - 尚未搬移既有 `02_方法學` 與 `03_疾病與臨床主題` 內的 EDX / NCS / peripheral neuropathy 頁面；避免在未指定頁面清單前改變既有分類與 wikilink 結構。
+
+## [2026-05-10] structure | 搬移 EDX / NCS 方法頁到 09_NCV EMG 周邊神經病變
+
+- 搬移頁面：
+  - `02_方法學/電生理診斷醫學.md` -> `09_NCV EMG 周邊神經病變/電生理診斷醫學.md`
+  - `02_方法學/EDX_轉介問題設計.md` -> `09_NCV EMG 周邊神經病變/EDX_轉介問題設計.md`
+  - `02_方法學/EDX_定位導向檢查流程.md` -> `09_NCV EMG 周邊神經病變/EDX_定位導向檢查流程.md`
+  - `02_方法學/NCS_軸突損失與脫髓鞘判讀.md` -> `09_NCV EMG 周邊神經病變/NCS_軸突損失與脫髓鞘判讀.md`
+  - `02_方法學/EDX_技術假象與品質控制.md` -> `09_NCV EMG 周邊神經病變/EDX_技術假象與品質控制.md`
+  - `02_方法學/EDX_異常神經支配變異判讀.md` -> `09_NCV EMG 周邊神經病變/EDX_異常神經支配變異判讀.md`
+  - `02_方法學/Upper_Extremity_NCS_常規技術與陷阱.md` -> `09_NCV EMG 周邊神經病變/Upper_Extremity_NCS_常規技術與陷阱.md`
+- 更新：
+  - active wiki / canvas 內指向上述 7 頁的明確路徑已更新。
+  - `.obsidian/workspace.json` 內仍指向舊路徑的 workspace state 已同步更新。
+  - `index.md` 新增 `09 NCV EMG 周邊神經病變` 區段，並將來源摘要區段調整為 `10 來源摘要`。
+  - `00_總覽/主題地圖.md` 的 NCV EMG 導航連結已改指向新資料夾。
+- 尚未執行：
+  - 尚未搬移 peripheral neuropathy disease pages；下一批應先列出頁面清單再搬。
+
+## [2026-05-10] structure | 搬移周邊神經病變主幹頁並建立 NCV EMG hub
+
+- 搬移頁面：
+  - `03_疾病與臨床主題/周邊神經病灶定位與EDX_US框架.md` -> `09_NCV EMG 周邊神經病變/周邊神經病灶定位與EDX_US框架.md`
+  - `03_疾病與臨床主題/周邊神經損傷分類與恢復機制.md` -> `09_NCV EMG 周邊神經病變/周邊神經損傷分類與恢復機制.md`
+  - `03_疾病與臨床主題/周邊多發神經病變_典型與非典型型態.md` -> `09_NCV EMG 周邊神經病變/周邊多發神經病變_典型與非典型型態.md`
+- 新增頁面：
+  - `09_NCV EMG 周邊神經病變/NCV_EMG_周邊神經病變總覽.md`
+- 更新：
+  - active wiki / canvas / workspace state 內指向上述 3 頁的明確路徑已更新。
+  - `index.md` Total pages 614 -> 615，並將 3 個周邊神經病變主幹頁移入 `09 NCV EMG 周邊神經病變` 區段。
+  - `00_總覽/主題地圖.md` 新增 NCV EMG hub link。
+- 邊界：
+  - 尚未搬移 `ALS_診斷框架`、`Myopathy_診斷框架`、`Spasticity_概論` 等 broader neuromuscular / CNS 邊界頁。

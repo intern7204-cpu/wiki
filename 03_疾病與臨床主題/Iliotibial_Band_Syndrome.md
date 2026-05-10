@@ -6,9 +6,9 @@ type: clinical
 domain: [sports_medicine, rehabilitation, running, knee]
 tags: [ITBS, lateral_knee_pain, Noble_test, hip_abductor, running]
 sources:
-  - 09_來源摘要/Iliotibial_band_syndrome.md
-  - 09_來源摘要/Hip_Pelvis_and_Thigh_Injuries_in_Runners.md
-  - 09_來源摘要/Influence_of_Step_Rate_on_Running_Mechanics.md
+  - 10_來源摘要/Iliotibial_band_syndrome.md
+  - 10_來源摘要/Hip_Pelvis_and_Thigh_Injuries_in_Runners.md
+  - 10_來源摘要/Influence_of_Step_Rate_on_Running_Mechanics.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -139,9 +139,9 @@ ITBS 是以 **lateral femoral epicondyle region pain during repetitive knee flex
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Iliotibial_band_syndrome]]
-- [[09_來源摘要/Hip_Pelvis_and_Thigh_Injuries_in_Runners]]
-- [[09_來源摘要/Influence_of_Step_Rate_on_Running_Mechanics]]
+- [[10_來源摘要/Iliotibial_band_syndrome]]
+- [[10_來源摘要/Hip_Pelvis_and_Thigh_Injuries_in_Runners]]
+- [[10_來源摘要/Influence_of_Step_Rate_on_Running_Mechanics]]
 
 ### 證據標記
 
@@ -157,5 +157,5 @@ ITBS 是以 **lateral femoral epicondyle region pain during repetitive knee flex
 - [[Hamstring_肌肉與肌腱傷害]]
 - [[../06_Gait_Biomechanics/步態評估總論]]
 - [[../06_Gait_Biomechanics/跑步步頻調整]]
-- [[../09_來源摘要/Iliotibial_band_syndrome]]
-- [[../09_來源摘要/Hip_Pelvis_and_Thigh_Injuries_in_Runners]]
+- [[../10_來源摘要/Iliotibial_band_syndrome]]
+- [[../10_來源摘要/Hip_Pelvis_and_Thigh_Injuries_in_Runners]]

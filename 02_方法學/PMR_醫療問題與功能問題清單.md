@@ -6,7 +6,7 @@ type: method
 domain: [PMR, methodology, rehabilitation]
 tags: [physiatry, problem_list, functional_assessment, ICF, care_planning]
 sources:
-  - 09_來源摘要/The_physiatric_history_and_physical_examination.md
+  - 10_來源摘要/The_physiatric_history_and_physical_examination.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -116,4 +116,4 @@ Chief complaint + diagnosis
 - [[../01_核心概念/ICF_功能框架]]
 - [[../02_方法學/跨專業團隊照護]]
 - [[../02_方法學/職業醫學與職業復健]]
-- [[../09_來源摘要/The_physiatric_history_and_physical_examination]]
+- [[../10_來源摘要/The_physiatric_history_and_physical_examination]]

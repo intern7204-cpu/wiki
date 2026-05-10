@@ -6,7 +6,7 @@ type: concept
 domain: [pediatrics, language, communication]
 tags: [speech, language, delay, prognosis, hearing]
 sources:
-  - 09_來源摘要/Language_and_Speech_Disorders.md
+  - 10_來源摘要/Language_and_Speech_Disorders.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -60,4 +60,4 @@ Observed communication concern
 ## Links
 
 - [[語言發展與溝通障礙]]
-- [[../09_來源摘要/Language_and_Speech_Disorders]]
+- [[../10_來源摘要/Language_and_Speech_Disorders]]

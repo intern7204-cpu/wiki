@@ -1,16 +1,17 @@
 ---
 title: Lactate Threshold（LT）
 created: 2026-04-22
-updated: 2026-04-24
+updated: 2026-05-04
 type: concept
 domain: [CPET, exercise_physiology]
 tags: [lactate_threshold, anaerobic_threshold, lactate]
-sources: [09_來源摘要/Poole_2020_anaerobic_threshold.md]
-source_tier: 1
-evidence_level: consensus
+sources: [10_來源摘要/Poole_2020_anaerobic_threshold.md]
+source_tier: 4
+evidence_level: high_quality_review
 confidence: high
-contested: false
-contradictions: []
+contested: true
+contradictions:
+  - "LT 常被誤稱為 anaerobic threshold，但 Poole 2020 不支持 dysoxia-driven 機制。"
 ---
 
 # Lactate Threshold（LT）
@@ -88,7 +89,26 @@ LT 是 **moderate → heavy** 的邊界，**不是** heavy → very heavy/severe
 
 ## 限制與未定論
 
-- 目前頁面尚未明確寫出證據限制、教材未講清楚處或不同來源可能衝突之處。
+### Fact
+
+- Poole et al. 2020 將 LT / GET 定位為 moderate → heavy boundary，而不是 heavy → severe boundary。
+- LT 反映 blood [La-] 的 Ra 與 Rd 平衡改變；blood [La-] 上升不等於 muscle dysoxia。
+- LT 可由直接血 lactate sampling 判讀；GET 則是以 gas exchange 非侵入估計 LT。
+
+### Inference
+
+- 臨床報告中的 `VO2 at AT` 多半應被轉譯成 GET / LT 的 operational value，而不是「anaerobic metabolism onset」。
+- 若目標是復健或運動處方，LT 可作為 heavy domain 下界；若目標是 severe-domain interval 或 exhaustion prediction，需另用 [[Critical_Power]]。
+
+### Assumption
+
+- 本頁以 Poole 2020 的 topical review 作主來源；此來源屬 Tier 4 high-quality narrative review，不是 guideline。
+- 本頁假設測試流程與 lactate / gas exchange 資料品質足以辨識 threshold。
+
+### Uncertainty
+
+- 不同 LT detection algorithms 可能給出不同 work rate / V̇O2。
+- LT 與 clinical outcome 的 mediator 仍未明確；cutoff 不應跨族群直接外推。
 
 ## 理解缺口
 
@@ -107,19 +127,19 @@ LT 是 **moderate → heavy** 的邊界，**不是** heavy → very heavy/severe
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Poole_2020_anaerobic_threshold]]
+- [[10_來源摘要/Poole_2020_anaerobic_threshold]]
 
 ### 證據標記
 
-- 來源層級：1
-- evidence_level：consensus
+- 來源層級：4（high-quality narrative / topical review）
+- evidence_level：high_quality_review
 - confidence：high
 
 ## 相關頁面
 
 ### 相關頁面
 
-- [[09_來源摘要/Poole_2020_anaerobic_threshold]]
+- [[10_來源摘要/Poole_2020_anaerobic_threshold]]
 - [[Anaerobic_Threshold_概念史]]
 - [[Gas_Exchange_Threshold]]
 - [[Critical_Power]]

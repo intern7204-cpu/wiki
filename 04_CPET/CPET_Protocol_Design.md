@@ -1,21 +1,21 @@
 ---
 title: CPET Protocol Design（CPET 測試設計）
 created: 2026-04-22
-updated: 2026-04-25
+updated: 2026-05-08
 type: method
 domain: [CPET, methodology]
-tags: [CPET, GXT, ramp_protocol, stage_protocol, verification_protocol, self_paced, critical_power]
+tags: [CPET, GXT, ramp_protocol, stage_protocol, verification_protocol, self_paced, critical_power, 3_min_all_out]
 sources:
-  - 09_來源摘要/Beltz_2016_GXT_protocols.md
-  - 09_來源摘要/Bentley_Newell_Bishop_2007_incremental_exercise_test_design.md
-  - 09_來源摘要/Poole_2020_anaerobic_threshold.md
-  - 09_來源摘要/Midgley_2008_VO2max_test_duration.md
-  - 09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training.md
-  - 09_來源摘要/Poole_Jones_2017_VO2max_verification.md
-  - 09_來源摘要/Pettitt_Jamnick_2017_VO2max_verification_commentary.md
-  - 09_來源摘要/Lambrick_2009_RPE13_VO2max_prediction.md
-  - 09_來源摘要/Wright_2017_3min_allout_CP_validity.md
-  - 09_來源摘要/Juarez_2024_CPET_in_heart_failure.md
+  - 10_來源摘要/Beltz_2016_GXT_protocols.md
+  - 10_來源摘要/Bentley_Newell_Bishop_2007_incremental_exercise_test_design.md
+  - 10_來源摘要/Poole_2020_anaerobic_threshold.md
+  - 10_來源摘要/Midgley_2008_VO2max_test_duration.md
+  - 10_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training.md
+  - 10_來源摘要/Poole_Jones_2017_VO2max_verification.md
+  - 10_來源摘要/Pettitt_Jamnick_2017_VO2max_verification_commentary.md
+  - 10_來源摘要/Lambrick_2009_RPE13_VO2max_prediction.md
+  - 10_來源摘要/Wright_2017_3min_allout_CP_validity.md
+  - 10_來源摘要/Juarez_2024_CPET_in_heart_failure.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -130,12 +130,14 @@ CPET / GXT protocol 設計的重點，不是套固定模板，而是依測試目
 
 ### 選擇 2：3-min all-out
 
-- 單次方便，但 effort 依賴高。
+- [[Three_Minute_All_Out_Critical_Power_Test]] 單次方便，但 effort 依賴高，且不是 routine clinical CPET substitute。
 - Wright 2017 顯示：
   - isokinetic `EP` 可接近 `CP`
   - linear mode 的 `EP` 則可能明顯偏高
   - `WEP` 在兩種模式都低估 `W'`
-- 所以 3-min all-out 的 mode 與 resistance / cadence setup 必須寫清楚。
+- 所以 3-min all-out 的 mode、resistance / cadence setup、familiarization、feedback policy 與 effort criteria 必須寫清楚。
+- 若有 V̇O2 data，應檢查是否達到 high effort criteria，例如 >95% ramp V̇O2max 且末段沒有 decremental V̇O2 trend。
+- 若 prescription 很吃 `W'`，不要用 `WEP` 直接代替。
 
 ### 選擇 3：Ramp all-out
 
@@ -201,16 +203,16 @@ CPET / GXT protocol 設計的重點，不是套固定模板，而是依測試目
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Beltz_2016_GXT_protocols]]
-- [[09_來源摘要/Bentley_Newell_Bishop_2007_incremental_exercise_test_design]]
-- [[09_來源摘要/Poole_2020_anaerobic_threshold]]
-- [[09_來源摘要/Midgley_2008_VO2max_test_duration]]
-- [[09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
-- [[09_來源摘要/Poole_Jones_2017_VO2max_verification]]
-- [[09_來源摘要/Pettitt_Jamnick_2017_VO2max_verification_commentary]]
-- [[09_來源摘要/Lambrick_2009_RPE13_VO2max_prediction]]
-- [[09_來源摘要/Wright_2017_3min_allout_CP_validity]]
-- [[09_來源摘要/Juarez_2024_CPET_in_heart_failure]]
+- [[10_來源摘要/Beltz_2016_GXT_protocols]]
+- [[10_來源摘要/Bentley_Newell_Bishop_2007_incremental_exercise_test_design]]
+- [[10_來源摘要/Poole_2020_anaerobic_threshold]]
+- [[10_來源摘要/Midgley_2008_VO2max_test_duration]]
+- [[10_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
+- [[10_來源摘要/Poole_Jones_2017_VO2max_verification]]
+- [[10_來源摘要/Pettitt_Jamnick_2017_VO2max_verification_commentary]]
+- [[10_來源摘要/Lambrick_2009_RPE13_VO2max_prediction]]
+- [[10_來源摘要/Wright_2017_3min_allout_CP_validity]]
+- [[10_來源摘要/Juarez_2024_CPET_in_heart_failure]]
 
 ### 證據標記
 
@@ -226,14 +228,15 @@ CPET / GXT protocol 設計的重點，不是套固定模板，而是依測試目
 - [[VO2_Kinetics]]
 - [[Gas_Exchange_Threshold]]
 - [[Critical_Power]]
+- [[Three_Minute_All_Out_Critical_Power_Test]]
 - [[CP_Test_Reliability]]
 - [[Training_Prescription_by_CP]]
 - [[Exercise_Intensity_Domains]]
 - [[CPET_in_Heart_Failure]]
-- [[../09_來源摘要/Beltz_2016_GXT_protocols]]
-- [[../09_來源摘要/Bentley_Newell_Bishop_2007_incremental_exercise_test_design]]
-- [[../09_來源摘要/Midgley_2008_VO2max_test_duration]]
-- [[../09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
-- [[../09_來源摘要/Poole_Jones_2017_VO2max_verification]]
-- [[../09_來源摘要/Lambrick_2009_RPE13_VO2max_prediction]]
-- [[../09_來源摘要/Juarez_2024_CPET_in_heart_failure]]
+- [[../10_來源摘要/Beltz_2016_GXT_protocols]]
+- [[../10_來源摘要/Bentley_Newell_Bishop_2007_incremental_exercise_test_design]]
+- [[../10_來源摘要/Midgley_2008_VO2max_test_duration]]
+- [[../10_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
+- [[../10_來源摘要/Poole_Jones_2017_VO2max_verification]]
+- [[../10_來源摘要/Lambrick_2009_RPE13_VO2max_prediction]]
+- [[../10_來源摘要/Juarez_2024_CPET_in_heart_failure]]

@@ -6,7 +6,7 @@ type: concept
 domain: [pediatrics, developmental_delay, diagnosis]
 tags: [GDD, ID, adaptive_behavior, genetics, regression]
 sources:
-  - 09_來源摘要/Developmental_Delay_and_Intellectual_Disability.md
+  - 10_來源摘要/Developmental_Delay_and_Intellectual_Disability.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -60,4 +60,4 @@ Observed developmental delay
 ## Links
 
 - [[發展遲緩與智能障礙]]
-- [[../09_來源摘要/Developmental_Delay_and_Intellectual_Disability]]
+- [[../10_來源摘要/Developmental_Delay_and_Intellectual_Disability]]

@@ -6,7 +6,7 @@ type: concept
 domain: [pediatric, gait, orthotics, rehabilitation]
 tags: [myelomeningocele, motor_level, ambulation, Hoffer, FMS, orthosis, wheelchair]
 sources:
-  - 09_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms.md
+  - 10_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -113,4 +113,4 @@ secondary complications over time
 - [[MMC_胎兒修補與功能結果]]
 - [[MMC_水腦分流與Chiari_II警訊]]
 - [[小兒復健評估]]
-- [[../09_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms]]
+- [[../10_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms]]

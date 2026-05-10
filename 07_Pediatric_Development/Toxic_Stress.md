@@ -6,11 +6,11 @@ type: concept
 domain: [pediatric, development, trauma]
 tags: [toxic_stress, cortisol, adversity, resilience, supportive_relationships, structural_inequity]
 sources:
-  - 09_來源摘要/Trauma_Resilience_and_Child_Development.md
-  - 09_來源摘要/Excessive_Stress_Disrupts_Developing_Brain.md
-  - 09_來源摘要/Finding_the_Balance_2026_early_childhood_stress.md
-  - 09_來源摘要/Connecting_the_Brain_to_the_Rest_of_the_Body.md
-  - 09_來源摘要/Toxic_Stress_Brain_Architects_Podcast.md
+  - 10_來源摘要/Trauma_Resilience_and_Child_Development.md
+  - 10_來源摘要/Excessive_Stress_Disrupts_Developing_Brain.md
+  - 10_來源摘要/Finding_the_Balance_2026_early_childhood_stress.md
+  - 10_來源摘要/Connecting_the_Brain_to_the_Rest_of_the_Body.md
+  - 10_來源摘要/Toxic_Stress_Brain_Architects_Podcast.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -160,11 +160,11 @@ Toxic Stress 是 **strong, frequent, or prolonged activation of the stress respo
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Trauma_Resilience_and_Child_Development]]
-- [[09_來源摘要/Excessive_Stress_Disrupts_Developing_Brain]]
-- [[09_來源摘要/Finding_the_Balance_2026_early_childhood_stress]]
-- [[09_來源摘要/Connecting_the_Brain_to_the_Rest_of_the_Body]]
-- [[09_來源摘要/Toxic_Stress_Brain_Architects_Podcast]]
+- [[10_來源摘要/Trauma_Resilience_and_Child_Development]]
+- [[10_來源摘要/Excessive_Stress_Disrupts_Developing_Brain]]
+- [[10_來源摘要/Finding_the_Balance_2026_early_childhood_stress]]
+- [[10_來源摘要/Connecting_the_Brain_to_the_Rest_of_the_Body]]
+- [[10_來源摘要/Toxic_Stress_Brain_Architects_Podcast]]
 
 ### 證據標記
 
@@ -182,5 +182,5 @@ Toxic Stress 是 **strong, frequent, or prolonged activation of the stress respo
 - [[早期發展與終身健康]]
 - [[托育與Early_Care_and_Education]]
 - [[嬰兒期發展]]
-- [[09_來源摘要/Excessive_Stress_Disrupts_Developing_Brain]]
-- [[09_來源摘要/Finding_the_Balance_2026_early_childhood_stress]]
+- [[10_來源摘要/Excessive_Stress_Disrupts_Developing_Brain]]
+- [[10_來源摘要/Finding_the_Balance_2026_early_childhood_stress]]

@@ -6,7 +6,7 @@ type: concept
 domain: [PMR, methodology, rehabilitation]
 tags: [physiatry, history_and_physical, bedside_exam, functional_assessment]
 sources:
-  - 09_來源摘要/The_Physiatric_History_and_Physical_Examination_handbook.md
+  - 10_來源摘要/The_Physiatric_History_and_Physical_Examination_handbook.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -61,4 +61,4 @@ Chief complaint
 ## Links
 
 - [[../03_疾病與臨床主題/PMR_評估總論]]
-- [[../09_來源摘要/The_Physiatric_History_and_Physical_Examination_handbook]]
+- [[../10_來源摘要/The_Physiatric_History_and_Physical_Examination_handbook]]

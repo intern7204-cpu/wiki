@@ -6,7 +6,7 @@ type: concept
 domain: [pediatrics, development, resilience, play, trauma_informed_care]
 tags: [play, resilience, supportive_relationships, stress_buffering, core_skills, child_agency, pediatric_guidance]
 sources:
-  - 09_來源摘要/Building_Resilience_Through_Play.md
+  - 10_來源摘要/Building_Resilience_Through_Play.md
 source_tier: 2
 evidence_level: science-translation podcast transcript
 confidence: moderate_for_conceptual_framing_low_for_intervention_efficacy
@@ -125,4 +125,4 @@ Supportive relationship
 - [[Caregiving_Quality_作為早期介入靶點]]
 - [[發展環境穩定性]]
 - [[正向教養與家庭支持]]
-- [[../09_來源摘要/Building_Resilience_Through_Play]]
+- [[../10_來源摘要/Building_Resilience_Through_Play]]

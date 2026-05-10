@@ -6,7 +6,7 @@ type: clinical
 domain: [acute_care_rehabilitation, frailty, early_mobilization]
 tags: [frailty, early_mobilization, ICU_rehabilitation, deconditioning, cardiopulmonary_rehabilitation, renal_failure]
 sources:
-  - 09_來源摘要/Acute_Medical_Conditions_Cardiopulmonary_Disease_Medical_Frailty_and_Renal_Failure.md
+  - 10_來源摘要/Acute_Medical_Conditions_Cardiopulmonary_Disease_Medical_Frailty_and_Renal_Failure.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -23,7 +23,7 @@ contradictions:
 
 ## Definition and Boundary
 
-- 本頁根據 [[../09_來源摘要/Acute_Medical_Conditions_Cardiopulmonary_Disease_Medical_Frailty_and_Renal_Failure]] 建立 acute medical rehab frame。
+- 本頁根據 [[../10_來源摘要/Acute_Medical_Conditions_Cardiopulmonary_Disease_Medical_Frailty_and_Renal_Failure]] 建立 acute medical rehab frame。
 - 本頁不提供 ICU mobilization numeric stop criteria 或 dialysis prescription；需依 local protocol。
 
 ## Why It Matters

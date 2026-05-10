@@ -6,8 +6,8 @@ type: clinical
 domain: [pediatric, hearing, rehabilitation]
 tags: [deafness, hearing_loss, cCMV, language_access, audiology, developmental_monitoring]
 sources:
-  - 09_來源摘要/Developmental_Considerations_in_Deafness.md
-  - 09_來源摘要/Auditory_vestibular_and_visual_impairments.md
+  - 10_來源摘要/Developmental_Considerations_in_Deafness.md
+  - 10_來源摘要/Auditory_vestibular_and_visual_impairments.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -117,8 +117,8 @@ contradictions:
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Developmental_Considerations_in_Deafness]]
-- [[09_來源摘要/Auditory_vestibular_and_visual_impairments]]
+- [[10_來源摘要/Developmental_Considerations_in_Deafness]]
+- [[10_來源摘要/Auditory_vestibular_and_visual_impairments]]
 
 ### 證據標記
 
@@ -139,4 +139,4 @@ contradictions:
 - [[發展障礙兒童的聽損遮蔽效應]]
 - [[依發展年齡選擇兒童聽力測試]]
 - [[../03_疾病與臨床主題/感覺障礙復健總論]]
-- [[../09_來源摘要/Developmental_Considerations_in_Deafness]]
+- [[../10_來源摘要/Developmental_Considerations_in_Deafness]]

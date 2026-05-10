@@ -6,8 +6,8 @@ type: concept
 domain: [exercise_physiology, sports_medicine]
 tags: [molecular_athlete, exercise_adaptation, elite_athlete, training_response, skeletal_muscle, exercise_prescription]
 sources:
-  - 09_來源摘要/Furrer_2023_molecular_athlete.md
-source_tier: 1
+  - 10_來源摘要/Furrer_2023_molecular_athlete.md
+source_tier: 4
 evidence_level: high_quality_review
 confidence: moderate
 contested: true
@@ -53,6 +53,7 @@ Molecular athlete 最有用的位置是作為 exercise physiology 與 clinical e
 - Acute molecular response、animal model、in vitro contraction 與 human whole-body training outcome 不能直接互相替代。
 - Chronic trained phenotype 不是 acute exercise response 的簡單加總。
 - Non-responder label 需謹慎；對單一 outcome 低反應不等於整體 exercise 無效，也不等於提高 dose 或改變 stimulus 後仍無反應。
+- Non-responder 的較精確拆解見 [[Exercise_Training_Response_Low_Sensitivity]]。
 
 ## 推論
 
@@ -110,18 +111,20 @@ baseline phenotype
 - 把單一 pathway activation 當成 adaptation 的 causal proof。
 - 把 elite athlete 的 protocol 直接套到 patient 或 sedentary person。
 - 把 non-responder 當成 permanent trait。
+- 把 low sensitivity to a specific outcome 誤寫成 whole-body exercise futility。
 - 把 exercise mimetic、antioxidant 或 supplement 當成 training stimulus 的替代品。
 - 把 animal / in vitro mechanism 直接寫成人類運動處方。
 
 ## 相關頁面
 
 - [[Acute_Exercise_Molecular_Response與Skeletal_Muscle_Adaptation]]
+- [[Exercise_Training_Response_Low_Sensitivity]]
 - [[Training_Intensity_Distribution]]
 - [[Skeletal_Muscle_Energy_Metabolism]]
 - [[Exerkines_運動誘發多器官訊號分子]]
 - [[../02_方法學/治療性運動處方]]
-- [[../09_來源摘要/Furrer_2023_molecular_athlete]]
+- [[../10_來源摘要/Furrer_2023_molecular_athlete]]
 
 ## 來源
 
-- [[../09_來源摘要/Furrer_2023_molecular_athlete]]
+- [[../10_來源摘要/Furrer_2023_molecular_athlete]]

@@ -6,8 +6,8 @@ type: concept
 domain: [pediatrics, early_childhood_development, primary_care, care_coordination, health_equity]
 tags: [pediatric_primary_care, early_childhood, lifelong_health, learning, care_coordination, family_navigation, social_drivers_of_health, systemic_racism, toxic_stress, early_intervention]
 sources:
-  - 09_來源摘要/Connecting_Health_and_Learning.md
-  - 09_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes.md
+  - 10_來源摘要/Connecting_Health_and_Learning.md
+  - 10_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes.md
 source_tier: 1
 evidence_level: science_translation_podcast_transcript_plus_systematic_review_meta_analysis
 confidence: medium_for_framing_medium_high_for_HCP_ECD_direction
@@ -123,5 +123,5 @@ Early adversity and systemic stress
 - [[Early_Intervention_總論]]
 - [[發展環境與Place]]
 - [[Developmental_Delay_的鑑別起點]]
-- [[../09_來源摘要/Connecting_Health_and_Learning]]
-- [[../09_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes]]
+- [[../10_來源摘要/Connecting_Health_and_Learning]]
+- [[../10_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes]]

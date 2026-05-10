@@ -6,8 +6,8 @@ type: clinical
 domain: [rehabilitation, PMR]
 tags: [spasticity, UMN_syndrome, contracture, botulinum_toxin, baclofen, gait]
 sources:
-  - 09_來源摘要/Spasticity.md
-  - 09_來源摘要/Upper_limb_orthoses_and_robotics.md
+  - 10_來源摘要/Spasticity.md
+  - 10_來源摘要/Upper_limb_orthoses_and_robotics.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -101,8 +101,8 @@ Spasticity 是 **velocity- and muscle length-dependent increase in resistance to
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Spasticity]]
-- [[09_來源摘要/Upper_limb_orthoses_and_robotics]]
+- [[10_來源摘要/Spasticity]]
+- [[10_來源摘要/Upper_limb_orthoses_and_robotics]]
 
 ### 證據標記
 
@@ -117,6 +117,6 @@ Spasticity 是 **velocity- and muscle length-dependent increase in resistance to
 - [[PMR_評估總論]]
 - [[../06_Gait_Biomechanics/步態評估總論]]
 - [[../06_Gait_Biomechanics/上肢矯具與復健機器人]]
-- [[../02_方法學/電生理診斷醫學]]
+- [[../09_NCV EMG 周邊神經病變/電生理診斷醫學]]
 - [[../07_Pediatric_Development/小兒復健評估]]
-- [[../09_來源摘要/Spasticity]]
+- [[../10_來源摘要/Spasticity]]

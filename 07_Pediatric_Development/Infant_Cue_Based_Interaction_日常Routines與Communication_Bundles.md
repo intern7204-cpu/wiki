@@ -6,7 +6,7 @@ type: concept
 domain: [pediatrics, infancy, development, caregiver_intervention]
 tags: [infant_communication, infant_play, cue_based_interaction, engagement_cues, daily_routines, joint_attention, preverbal_communication, communication_bundles, caregiver_coaching]
 sources:
-  - 09_來源摘要/Encouraging_infant_communication_and_play.md
+  - 10_來源摘要/Encouraging_infant_communication_and_play.md
 source_tier: 2
 evidence_level: caregiver manual with limited efficacy evidence
 confidence: moderate_for_strategy_description_low_for_efficacy_inference
@@ -145,4 +145,4 @@ Caregiver reads engagement / disengagement cues
 - [[晚語兒_Late_Talker]]
 - [[兒童語言發展與Communication_Disorders]]
 - [[發展監測與篩檢]]
-- [[../09_來源摘要/Encouraging_infant_communication_and_play]]
+- [[../10_來源摘要/Encouraging_infant_communication_and_play]]

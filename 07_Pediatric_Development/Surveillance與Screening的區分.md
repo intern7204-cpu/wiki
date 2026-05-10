@@ -6,7 +6,7 @@ type: concept
 domain: [pediatrics, development, primary_care]
 tags: [surveillance, screening, developmental_care, referral]
 sources:
-  - 09_來源摘要/Developmental_behavioral_surveillance_and_screening_in_primary_care.md
+  - 10_來源摘要/Developmental_behavioral_surveillance_and_screening_in_primary_care.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -60,4 +60,4 @@ Routine surveillance
 ## Links
 
 - [[發展監測與篩檢]]
-- [[../09_來源摘要/Developmental_behavioral_surveillance_and_screening_in_primary_care]]
+- [[../10_來源摘要/Developmental_behavioral_surveillance_and_screening_in_primary_care]]

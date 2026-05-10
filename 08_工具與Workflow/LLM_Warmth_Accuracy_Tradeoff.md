@@ -6,7 +6,7 @@ type: concept
 domain: [AI_safety, wiki_maintenance, methodology]
 tags: [LLM, AI_safety, warmth, accuracy, sycophancy, persona_training, source_ingest]
 sources:
-  - 09_來源摘要/Ibrahim_Hafner_Rocher_2026_warmth_accuracy_sycophancy.md
+  - 10_來源摘要/Ibrahim_Hafner_Rocher_2026_warmth_accuracy_sycophancy.md
 source_tier: 3
 evidence_level: controlled_experiment
 confidence: moderate
@@ -104,7 +104,7 @@ warm / validating style objective
 
 ## Links
 
-- 來源摘要：[[../09_來源摘要/Ibrahim_Hafner_Rocher_2026_warmth_accuracy_sycophancy]]
+- 來源摘要：[[../10_來源摘要/Ibrahim_Hafner_Rocher_2026_warmth_accuracy_sycophancy]]
 - 相關 workflow：[[知識百科_ingest_工作流]]
 - 相關規範：[[../00_總覽/知識百科_基礎規範總覽]]
 - 衝突處理：[[知識百科_衝突處理規則]]

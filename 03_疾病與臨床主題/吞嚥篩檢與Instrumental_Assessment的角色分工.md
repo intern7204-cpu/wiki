@@ -6,7 +6,7 @@ type: concept
 domain: [rehabilitation, swallowing, dysphagia]
 tags: [dysphagia, VFSS, FEES, screening, clinical_swallow_evaluation]
 sources:
-  - 09_來源摘要/Rehabilitation_of_swallowing_disorders.md
+  - 10_來源摘要/Rehabilitation_of_swallowing_disorders.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -60,4 +60,4 @@ Risk screening
 ## Links
 
 - [[吞嚥障礙復健總論]]
-- [[../09_來源摘要/Rehabilitation_of_swallowing_disorders]]
+- [[../10_來源摘要/Rehabilitation_of_swallowing_disorders]]

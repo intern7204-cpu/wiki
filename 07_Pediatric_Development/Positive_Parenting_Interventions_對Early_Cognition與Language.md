@@ -6,7 +6,7 @@ type: concept
 domain: [pediatrics, development, parenting, cognition, language]
 tags: [positive_parenting, early_cognition, language_development, executive_function, pre_academics, parent_training]
 sources:
-  - 09_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition.md
+  - 10_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition.md
 source_tier: 1
 evidence_level: systematic_review_meta_analysis
 confidence: medium_high
@@ -124,4 +124,4 @@ Positive parenting skill practice
 - [[早期語言發展與Emergent_Literacy]]
 - [[Executive_Function_總論]]
 - [[學前SEL介入的分層與情境堆疊]]
-- [[../09_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition]]
+- [[../10_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition]]

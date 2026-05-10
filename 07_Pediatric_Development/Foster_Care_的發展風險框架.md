@@ -6,7 +6,7 @@ type: concept
 domain: [pediatrics, foster_care, adoption]
 tags: [foster_care, adoption, trauma, identity, transition]
 sources:
-  - 09_來源摘要/Foster_Care_and_Adoption.md
+  - 10_來源摘要/Foster_Care_and_Adoption.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -59,4 +59,4 @@ Preadoptive adversity + transition load
 ## Links
 
 - [[照顧者健康與兒童健康發展]]
-- [[../09_來源摘要/Foster_Care_and_Adoption]]
+- [[../10_來源摘要/Foster_Care_and_Adoption]]

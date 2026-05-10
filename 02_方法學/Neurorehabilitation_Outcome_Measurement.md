@@ -6,7 +6,7 @@ type: concept
 domain: [neurorehabilitation, outcome_measurement, rehabilitation_quality]
 tags: [outcome_measurement, ICF, FIM, Barthel_Index, HRQoL, participation, wearable, walking_speed]
 sources:
-  - 09_來源摘要/Neurological_Rehabilitation.md
+  - 10_來源摘要/Neurological_Rehabilitation.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Neurorehabilitation outcome measurement 需依 target level 分別量測 impairm
 
 - 本頁整理 Neurological Rehabilitation 來源中的 outcome measurement framework。
 - 本頁不列出所有疾病特異量表，也不評比各量表 psychometrics。
-- 本頁只使用單一來源：[[../09_來源摘要/Neurological_Rehabilitation]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Neurological_Rehabilitation]]。
 
 ## Why It Matters
 

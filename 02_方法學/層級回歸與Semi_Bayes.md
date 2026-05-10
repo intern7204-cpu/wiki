@@ -6,7 +6,7 @@ type: method
 domain: [medical_methodology, epidemiology, research]
 tags: [hierarchical_regression, semi_Bayes, shrinkage, multiple_comparisons, correlated_exposures]
 sources:
-  - 09_來源摘要/Witte_Greenland_1994_hierarchical_regression.md
+  - 10_來源摘要/Witte_Greenland_1994_hierarchical_regression.md
 source_tier: 3
 evidence_level: limited
 confidence: medium
@@ -119,7 +119,7 @@ Hierarchical regression / semi-Bayes 的核心，是在第一層 ordinary regres
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Witte_Greenland_1994_hierarchical_regression]]
+- [[10_來源摘要/Witte_Greenland_1994_hierarchical_regression]]
 
 ### 證據標記
 
@@ -131,4 +131,4 @@ Hierarchical regression / semi-Bayes 的核心，是在第一層 ordinary regres
 
 - [[復健品質與結局指標]]
 - [[職業醫學與職業復健]]
-- [[../09_來源摘要/Witte_Greenland_1994_hierarchical_regression]]
+- [[../10_來源摘要/Witte_Greenland_1994_hierarchical_regression]]

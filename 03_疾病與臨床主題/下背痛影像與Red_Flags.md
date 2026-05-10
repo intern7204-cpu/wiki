@@ -6,7 +6,7 @@ type: concept
 domain: [low_back_pain, imaging, spine]
 tags: [low_back_pain, MRI, red_flags, cauda_equina, imaging_overuse]
 sources:
-  - 09_來源摘要/Low_Back_Disorders.md
+  - 10_來源摘要/Low_Back_Disorders.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ LBP imaging 應有明確臨床意圖：辨識 serious pathology、解釋持續�
 
 - 本頁處理 LBP red-flag triage 與 imaging intent。
 - 本頁不是完整 radiology interpretation manual，也不是 cauda equina guideline。
-- 本頁只使用單一來源：[[../09_來源摘要/Low_Back_Disorders]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Low_Back_Disorders]]。
 
 ## Why It Matters
 
@@ -93,5 +93,5 @@ LBP presentation
 - [[下背痛評估總論]]
 - [[Lumbosacral_Radiculopathy]]
 - [[Lumbar_Spinal_Stenosis]]
-- [[../09_來源摘要/Low_Back_Disorders]]
+- [[../10_來源摘要/Low_Back_Disorders]]
 

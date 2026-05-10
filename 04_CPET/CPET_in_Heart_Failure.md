@@ -6,8 +6,8 @@ type: clinical_concept
 domain: [CPET, cardiology, heart_failure, rehabilitation]
 tags: [CPET, heart_failure, peak_VO2, VE_VCO2_slope, exercise_oscillatory_ventilation, HFpEF, HFrEF]
 sources:
-  - 09_來源摘要/Juarez_2024_CPET_in_heart_failure.md
-  - 09_來源摘要/Pezzuto_Agostoni_2023_CPET_pulmonary_hypertension.md
+  - 10_來源摘要/Juarez_2024_CPET_in_heart_failure.md
+  - 10_來源摘要/Pezzuto_Agostoni_2023_CPET_pulmonary_hypertension.md
 source_tier: 2
 evidence_level: review_article
 confidence: moderate
@@ -132,5 +132,5 @@ HF pathophysiology
 - [[VO2_Kinetics]]
 - [[Exercise_Intensity_Domains]]
 - [[../05_Exercise_Physiology/Skeletal_Muscle_Metabolic_Flexibility與Exercise_Adaptation]]
-- [[../09_來源摘要/Juarez_2024_CPET_in_heart_failure]]
-- [[../09_來源摘要/Pezzuto_Agostoni_2023_CPET_pulmonary_hypertension]]
+- [[../10_來源摘要/Juarez_2024_CPET_in_heart_failure]]
+- [[../10_來源摘要/Pezzuto_Agostoni_2023_CPET_pulmonary_hypertension]]

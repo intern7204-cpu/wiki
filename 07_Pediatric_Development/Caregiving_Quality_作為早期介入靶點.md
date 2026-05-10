@@ -6,12 +6,12 @@ type: concept
 domain: [pediatrics, development, early_intervention, caregiving]
 tags: [caregiving_quality, responsivity, stimulation, stress_buffering, adversity, nurturing_care, health_services]
 sources:
-  - 09_來源摘要/Nelson_2023_early_intervention_developmental_neuroscience.md
-  - 09_來源摘要/WHO_2020_improving_early_childhood_development_guideline.md
-  - 09_來源摘要/Nurturing_Care_Practice_Guide.md
-  - 09_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition.md
-  - 09_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes.md
-  - 09_來源摘要/Jeong_2021_parenting_interventions_ECD_first_three_years.md
+  - 10_來源摘要/Nelson_2023_early_intervention_developmental_neuroscience.md
+  - 10_來源摘要/WHO_2020_improving_early_childhood_development_guideline.md
+  - 10_來源摘要/Nurturing_Care_Practice_Guide.md
+  - 10_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition.md
+  - 10_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes.md
+  - 10_來源摘要/Jeong_2021_parenting_interventions_ECD_first_three_years.md
 source_tier: 1
 evidence_level: emerging
 confidence: medium
@@ -97,8 +97,8 @@ More responsive / stable / stimulating caregiving
 - [[HCP_ECD_Interventions_由健康照護者交付的早期發展介入]]
 - [[Parenting_Interventions_生命前三年ECD與Caregiving_Outcomes]]
 - [[早期發展與終身健康]]
-- [[../09_來源摘要/Nelson_2023_early_intervention_developmental_neuroscience]]
-- [[../09_來源摘要/WHO_2020_improving_early_childhood_development_guideline]]
-- [[../09_來源摘要/Nurturing_Care_Practice_Guide]]
-- [[../09_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes]]
-- [[../09_來源摘要/Jeong_2021_parenting_interventions_ECD_first_three_years]]
+- [[../10_來源摘要/Nelson_2023_early_intervention_developmental_neuroscience]]
+- [[../10_來源摘要/WHO_2020_improving_early_childhood_development_guideline]]
+- [[../10_來源摘要/Nurturing_Care_Practice_Guide]]
+- [[../10_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes]]
+- [[../10_來源摘要/Jeong_2021_parenting_interventions_ECD_first_three_years]]

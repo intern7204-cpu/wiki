@@ -6,7 +6,7 @@ type: concept
 domain: [rehabilitation, urology, neurogenic_bladder]
 tags: [NLUTD, urodynamics, upper_tract, bladder_pressure, intermittent_catheterization]
 sources:
-  - 09_來源摘要/Neurogenic_lower_urinary_tract_dysfunction.md
+  - 10_來源摘要/Neurogenic_lower_urinary_tract_dysfunction.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -60,4 +60,4 @@ Neuroanatomic lesion
 ## Links
 
 - [[神經性下泌尿道功能障礙]]
-- [[../09_來源摘要/Neurogenic_lower_urinary_tract_dysfunction]]
+- [[../10_來源摘要/Neurogenic_lower_urinary_tract_dysfunction]]

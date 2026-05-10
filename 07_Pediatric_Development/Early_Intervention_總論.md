@@ -6,10 +6,10 @@ type: concept
 domain: [pediatric, development, services]
 tags: [early_intervention, IDEA_Part_C, IFSP, natural_environment, coaching, family_centered_care, HCP_ECD]
 sources:
-  - 09_來源摘要/Early_Intervention.md
-  - 09_來源摘要/Developmental_Surveillance_and_Screening.md
-  - 09_來源摘要/WHO_2020_improving_early_childhood_development_guideline.md
-  - 09_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes.md
+  - 10_來源摘要/Early_Intervention.md
+  - 10_來源摘要/Developmental_Surveillance_and_Screening.md
+  - 10_來源摘要/WHO_2020_improving_early_childhood_development_guideline.md
+  - 10_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -133,10 +133,10 @@ Early intervention (EI) 是 birth to 2 years 的早期發展支持系統，核�
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Early_Intervention]]
-- [[09_來源摘要/Developmental_Surveillance_and_Screening]]
-- [[09_來源摘要/WHO_2020_improving_early_childhood_development_guideline]]
-- [[09_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes]]
+- [[10_來源摘要/Early_Intervention]]
+- [[10_來源摘要/Developmental_Surveillance_and_Screening]]
+- [[10_來源摘要/WHO_2020_improving_early_childhood_development_guideline]]
+- [[10_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes]]
 
 ### 證據標記
 
@@ -155,4 +155,4 @@ Early intervention (EI) 是 birth to 2 years 的早期發展支持系統，核�
 - [[托育與Early_Care_and_Education]]
 - [[HCP_ECD_Interventions_由健康照護者交付的早期發展介入]]
 - [[WHO_ECD_Guideline_0至3歲Nurturing_Care建議]]
-- [[../09_來源摘要/Early_Intervention]]
+- [[../10_來源摘要/Early_Intervention]]

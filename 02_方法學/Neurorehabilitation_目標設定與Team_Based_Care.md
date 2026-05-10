@@ -6,7 +6,7 @@ type: concept
 domain: [neurorehabilitation, team_care, goal_setting]
 tags: [neurorehabilitation, interdisciplinary_team, goal_setting, self_management, caregiver, discharge_planning]
 sources:
-  - 09_來源摘要/Neurological_Rehabilitation.md
+  - 10_來源摘要/Neurological_Rehabilitation.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Neurorehabilitation team-based care 是以 shared functional goals、coordinated
 
 - 本頁整理 Neurological Rehabilitation 來源中的 goal setting、team structure、discipline roles 與 care transition。
 - 本頁不替代任何單一疾病的 clinical practice guideline。
-- 本頁只使用單一來源：[[../09_來源摘要/Neurological_Rehabilitation]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Neurological_Rehabilitation]]。
 
 ## Why It Matters
 

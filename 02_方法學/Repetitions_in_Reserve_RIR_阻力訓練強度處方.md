@@ -6,7 +6,7 @@ type: concept
 domain: [rehabilitation, exercise_prescription, resistance_training]
 tags: [RIR, repetitions_in_reserve, resistance_training, RPE, 1RM, special_populations]
 sources:
-  - 09_來源摘要/Maroto_2024_RIR_special_populations.md
+  - 10_來源摘要/Maroto_2024_RIR_special_populations.md
 source_tier: 2
 evidence_level: emerging
 confidence: medium
@@ -113,4 +113,4 @@ Choose exercise and starting load
 - [[../03_疾病與臨床主題/Cancer_Rehabilitation_總論]]
 - [[../03_疾病與臨床主題/MS_步態與Spasticity復健框架]]
 - [[../03_疾病與臨床主題/Myopathy_復健管理原則]]
-- [[../09_來源摘要/Maroto_2024_RIR_special_populations]]
+- [[../10_來源摘要/Maroto_2024_RIR_special_populations]]

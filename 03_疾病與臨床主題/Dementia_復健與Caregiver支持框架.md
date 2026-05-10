@@ -6,7 +6,7 @@ type: concept
 domain: [dementia, neurorehabilitation, geriatrics]
 tags: [dementia, caregiver, patient_centered_care, FAST, GDS, ADL, IADL, nonpharmacologic_treatment, exercise, occupational_therapy]
 sources:
-  - 09_來源摘要/Aging_Dementia_and_Disorders_of_Cognition.md
+  - 10_來源摘要/Aging_Dementia_and_Disorders_of_Cognition.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Dementia 復健是以 disease stage、personhood、ADL / IADL、mobility、envir
 
 - 本頁整理 dementia rehabilitation、nonpharmacologic management、caregiver education 與 stage-specific activity design。
 - 本頁不處理 antiamyloid therapy eligibility、藥物劑量或最新 FDA / guideline 狀態。
-- 本頁只使用單一來源：[[../09_來源摘要/Aging_Dementia_and_Disorders_of_Cognition]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Aging_Dementia_and_Disorders_of_Cognition]]。
 
 ## Why It Matters
 

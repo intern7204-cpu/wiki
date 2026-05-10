@@ -6,7 +6,7 @@ type: concept
 domain: [rehabilitation, quality, methodology]
 tags: [outcome_measure, process_measure, performance_measure, Donabedian, risk_adjustment]
 sources:
-  - 09_來源摘要/Quality_and_outcome_measures_for_medical_rehabilitation.md
+  - 10_來源摘要/Quality_and_outcome_measures_for_medical_rehabilitation.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -60,4 +60,4 @@ Clear measure taxonomy
 ## Links
 
 - [[復健品質與結局指標]]
-- [[../09_來源摘要/Quality_and_outcome_measures_for_medical_rehabilitation]]
+- [[../10_來源摘要/Quality_and_outcome_measures_for_medical_rehabilitation]]

@@ -6,10 +6,10 @@ type: clinical
 domain: [pediatric, neurodevelopmental, rehabilitation, PMR]
 tags: [cerebral_palsy, GMFCS, comorbidity, participation, tone, transition]
 sources:
-  - 09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
-  - 09_來源摘要/Cerebral_Palsy.md
-  - 09_來源摘要/Consequences_of_Preterm_Birth.md
-  - 09_來源摘要/Detailed_neurologic_assessment_of_infants_and_children.md
+  - 10_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
+  - 10_來源摘要/Cerebral_Palsy.md
+  - 10_來源摘要/Consequences_of_Preterm_Birth.md
+  - 10_來源摘要/Detailed_neurologic_assessment_of_infants_and_children.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -171,9 +171,9 @@ Cerebral Palsy (CP) 是 **developing fetal or infant brain 的非進行性損傷
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders]]
-- [[09_來源摘要/Consequences_of_Preterm_Birth]]
-- [[09_來源摘要/Detailed_neurologic_assessment_of_infants_and_children]]
+- [[10_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders]]
+- [[10_來源摘要/Consequences_of_Preterm_Birth]]
+- [[10_來源摘要/Detailed_neurologic_assessment_of_infants_and_children]]
 
 ### 證據標記
 
@@ -203,4 +203,4 @@ Cerebral Palsy (CP) 是 **developing fetal or infant brain 的非進行性損傷
 - [[../06_Gait_Biomechanics/下肢矯具總論]]
 - [[../03_疾病與臨床主題/輪椅與座位系統總論]]
 - [[../03_疾病與臨床主題/吞嚥障礙復健總論]]
-- [[../09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders]]
+- [[../10_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders]]

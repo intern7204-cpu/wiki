@@ -6,7 +6,7 @@ type: concept
 domain: [rehabilitation, occupational_medicine, methodology]
 tags: [return_to_work, work_ability, workplace_modification, FCE]
 sources:
-  - 09_來源摘要/Occupational_medicine_and_vocational_rehabilitation.md
+  - 10_來源摘要/Occupational_medicine_and_vocational_rehabilitation.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -61,4 +61,4 @@ Medical status
 ## Links
 
 - [[職業醫學與職業復健]]
-- [[../09_來源摘要/Occupational_medicine_and_vocational_rehabilitation]]
+- [[../10_來源摘要/Occupational_medicine_and_vocational_rehabilitation]]

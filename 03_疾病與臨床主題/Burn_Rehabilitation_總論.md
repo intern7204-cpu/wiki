@@ -6,7 +6,7 @@ type: clinical
 domain: [burn_rehabilitation, PMR, wound_rehabilitation]
 tags: [burns, burn_rehabilitation, contracture, hypertrophic_scar, burn_pain, pruritus, inhalation_injury]
 sources:
-  - 09_來源摘要/Burns.md
+  - 10_來源摘要/Burns.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -23,7 +23,7 @@ Burn rehabilitation 是從 acute burn admission 到 long-term survivorship 的 i
 
 ## Definition and Boundary
 
-- 本頁根據 [[../09_來源摘要/Burns]] 建立 burn rehabilitation 主框架。
+- 本頁根據 [[../10_來源摘要/Burns]] 建立 burn rehabilitation 主框架。
 - 本頁不替代 burn center resuscitation、surgical debridement、grafting 或 wound protocol。
 
 ## Why It Matters

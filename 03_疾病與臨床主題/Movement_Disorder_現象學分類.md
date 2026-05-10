@@ -6,7 +6,7 @@ type: concept
 domain: [movement_disorders, neurologic_examination]
 tags: [movement_disorder, hyperkinetic, hypokinetic, tremor, dystonia, chorea, myoclonus, tics, RLS, functional_movement_disorder]
 sources:
-  - 09_來源摘要/Degenerative_Movement_Disorders_of_the_CNS.md
+  - 10_來源摘要/Degenerative_Movement_Disorders_of_the_CNS.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Movement disorder 是 voluntary 或 autonomic movement 過多、過少或型態�
 
 - 本頁整理單一來源中的 movement disorder 現象學分類。
 - 本頁不是完整 basal ganglia physiology 或所有 movement disorder 的鑑別診斷表。
-- 本頁只使用單一來源：[[../09_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]]。
 
 ## Why It Matters
 
@@ -95,4 +95,4 @@ Extrapyramidal / cerebellar / cortical / functional network disturbance
 - [[Parkinson_Disease_復健與非運動症狀管理]]
 - [[Parkinson_Plus_Syndrome_紅旗]]
 - [[Spasticity與Contracture的區分]]
-- [[../09_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]]
+- [[../10_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]]

@@ -6,7 +6,7 @@ type: concept
 domain: [parkinson_disease, neurorehabilitation, nonmotor_symptoms]
 tags: [Parkinson_disease, levodopa, DBS, physical_therapy, occupational_therapy, dysphagia, cognition, depression, orthostatic_hypotension, caregiver_burden]
 sources:
-  - 09_來源摘要/Degenerative_Movement_Disorders_of_the_CNS.md
+  - 10_來源摘要/Degenerative_Movement_Disorders_of_the_CNS.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ PD care 要把 levodopa-centered motor symptom control、DBS / device-aided opti
 
 - 本頁聚焦 PD management 中與 rehabilitation、nonmotor burden、caregiver role 相關的內容。
 - 本頁不是完整 pharmacologic dosing 或 surgical candidacy guideline。
-- 本頁只使用單一來源：[[../09_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]]。
 
 ## Why It Matters
 
@@ -97,4 +97,4 @@ Progressive dopaminergic and extra-nigral alpha-synuclein pathology
 - [[吞嚥障礙復健總論]]
 - [[神經性下泌尿道功能障礙]]
 - [[復健心理社會評估與介入]]
-- [[../09_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]]
+- [[../10_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]]

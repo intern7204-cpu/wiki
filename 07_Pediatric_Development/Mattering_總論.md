@@ -6,10 +6,10 @@ type: concept
 domain: [pediatric, development, parenting]
 tags: [mattering, belonging, recognition, attunement, contribution, relational_health]
 sources:
-  - 09_來源摘要/Mattering_in_Early_Childhood.md
-  - 09_來源摘要/Serve_and_Return.md
-  - 09_來源摘要/Building_Resilience_Through_Play.md
-  - 09_來源摘要/Mattering_Strategies.md
+  - 10_來源摘要/Mattering_in_Early_Childhood.md
+  - 10_來源摘要/Serve_and_Return.md
+  - 10_來源摘要/Building_Resilience_Through_Play.md
+  - 10_來源摘要/Mattering_Strategies.md
 source_tier: 2
 evidence_level: emerging
 confidence: medium
@@ -119,10 +119,10 @@ Mattering 是 **feeling valued + adding value**；比單純 belonging 更深，�
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Mattering_in_Early_Childhood]]
-- [[09_來源摘要/Serve_and_Return]]
-- [[09_來源摘要/Building_Resilience_Through_Play]]
-- [[09_來源摘要/Mattering_Strategies]]
+- [[10_來源摘要/Mattering_in_Early_Childhood]]
+- [[10_來源摘要/Serve_and_Return]]
+- [[10_來源摘要/Building_Resilience_Through_Play]]
+- [[10_來源摘要/Mattering_Strategies]]
 
 ### 證據標記
 
@@ -136,4 +136,4 @@ Mattering 是 **feeling valued + adding value**；比單純 belonging 更深，�
 - [[正向教養與家庭支持]]
 - [[創傷_復原力與兒童發展]]
 - [[嬰兒期發展]]
-- [[09_來源摘要/Mattering_in_Early_Childhood]]
+- [[10_來源摘要/Mattering_in_Early_Childhood]]

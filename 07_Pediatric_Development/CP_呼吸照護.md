@@ -6,7 +6,7 @@ type: clinical
 domain: [pediatric, neurodevelopmental, rehabilitation, PMR, pulmonary]
 tags: [cerebral_palsy, respiratory, aspiration, sialorrhea, sleep_disordered_breathing, Gibson_2021]
 sources:
-  - 09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
+  - 10_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -274,7 +274,7 @@ Gibson 2021 共識列出的高風險組合：
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders]]
+- [[10_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders]]
 
 ### 證據標記
 

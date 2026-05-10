@@ -6,7 +6,7 @@ type: concept
 domain: [myopathy, neuromuscular_medicine, diagnosis]
 tags: [myopathy, CK, EMG, NCS, muscle_biopsy, genetic_testing, metabolic_myopathy, inflammatory_myopathy]
 sources:
-  - 09_來源摘要/Myopathic_Disorders.md
+  - 10_來源摘要/Myopathic_Disorders.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Myopathy diagnosis 是從 motor-predominant weakness pattern 出發，結合 ons
 
 - 本頁處理 suspected myopathy 的 diagnostic formulation。
 - 本頁不是各 myopathy subtype 的完整診斷標準。
-- 本頁只使用單一來源：[[../09_來源摘要/Myopathic_Disorders]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Myopathic_Disorders]]。
 
 ## Why It Matters
 
@@ -95,6 +95,6 @@ Muscle fiber structural / metabolic / inflammatory dysfunction
 
 - [[Myopathy_復健管理原則]]
 - [[Myopathy_呼吸心臟吞嚥風險]]
-- [[../02_方法學/電生理診斷醫學]]
+- [[../09_NCV EMG 周邊神經病變/電生理診斷醫學]]
 - [[周邊神經病灶定位與EDX_US框架]]
-- [[../09_來源摘要/Myopathic_Disorders]]
+- [[../10_來源摘要/Myopathic_Disorders]]

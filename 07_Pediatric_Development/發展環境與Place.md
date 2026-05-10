@@ -6,10 +6,10 @@ type: concept
 domain: [pediatric, development, public_health]
 tags: [place, developmental_environment, structural_racism, housing, pollution, green_space, policy]
 sources:
-  - 09_來源摘要/Place_Matters.md
-  - 09_來源摘要/Connecting_Early_Childhood_Development_to_Climate_Change.md
-  - 09_來源摘要/From_Resources_to_Routines_Stability.md
-  - 09_來源摘要/Connecting_the_Brain_to_the_Rest_of_the_Body.md
+  - 10_來源摘要/Place_Matters.md
+  - 10_來源摘要/Connecting_Early_Childhood_Development_to_Climate_Change.md
+  - 10_來源摘要/From_Resources_to_Routines_Stability.md
+  - 10_來源摘要/Connecting_the_Brain_to_the_Rest_of_the_Body.md
 source_tier: 2
 evidence_level: emerging
 confidence: medium
@@ -134,10 +134,10 @@ contradictions:
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Place_Matters]]
-- [[09_來源摘要/Connecting_Early_Childhood_Development_to_Climate_Change]]
-- [[09_來源摘要/From_Resources_to_Routines_Stability]]
-- [[09_來源摘要/Connecting_the_Brain_to_the_Rest_of_the_Body]]
+- [[10_來源摘要/Place_Matters]]
+- [[10_來源摘要/Connecting_Early_Childhood_Development_to_Climate_Change]]
+- [[10_來源摘要/From_Resources_to_Routines_Stability]]
+- [[10_來源摘要/Connecting_the_Brain_to_the_Rest_of_the_Body]]
 
 ### 證據標記
 
@@ -153,4 +153,4 @@ contradictions:
 - [[文化謙遜與偏誤敏感照護]]
 - [[Toxic_Stress]]
 - [[早期發展與終身健康]]
-- [[09_來源摘要/Place_Matters]]
+- [[10_來源摘要/Place_Matters]]

@@ -6,8 +6,8 @@ type: concept
 domain: [rehabilitation, PMR, methodology]
 tags: [ICF, impairment, activity_limitation, participation, functional_assessment]
 sources:
-  - 09_來源摘要/The_physiatric_history_and_physical_examination.md
-  - 09_來源摘要/Examination_of_the_pediatric_patient.md
+  - 10_來源摘要/The_physiatric_history_and_physical_examination.md
+  - 10_來源摘要/Examination_of_the_pediatric_patient.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -80,8 +80,8 @@ ICF 的核心不是把 diagnosis 換名字，而是把病人的問題拆成 **bo
 
 ### 來源摘要連結
 
-- [[09_來源摘要/The_physiatric_history_and_physical_examination]]
-- [[09_來源摘要/Examination_of_the_pediatric_patient]]
+- [[10_來源摘要/The_physiatric_history_and_physical_examination]]
+- [[10_來源摘要/Examination_of_the_pediatric_patient]]
 
 ### 證據標記
 
@@ -97,4 +97,4 @@ ICF 的核心不是把 diagnosis 換名字，而是把病人的問題拆成 **bo
 - [[../07_Pediatric_Development/小兒復健評估]]
 - [[../06_Gait_Biomechanics/步態評估總論]]
 - [[../03_疾病與臨床主題/Spasticity_概論]]
-- [[../09_來源摘要/The_physiatric_history_and_physical_examination]]
+- [[../10_來源摘要/The_physiatric_history_and_physical_examination]]

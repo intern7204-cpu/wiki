@@ -14,7 +14,7 @@
 ## Orphans
 - 00_總覽/Workflow_重啟與校正基線_2026-05-01.md | outbound=1 | non_source_outbound=1
 - 02_方法學/Disability_Adjustment_評估軸.md | outbound=2 | non_source_outbound=1
-- 02_方法學/EDX_轉介問題設計.md | outbound=2 | non_source_outbound=1
+- 09_NCV EMG 周邊神經病變/EDX_轉介問題設計.md | outbound=2 | non_source_outbound=1
 - 02_方法學/Impairment與Disability的區分.md | outbound=2 | non_source_outbound=1
 - 02_方法學/PMR_H&P_Bedside_Checklist.md | outbound=2 | non_source_outbound=1
 - 02_方法學/Return_to_Work_評估骨架.md | outbound=2 | non_source_outbound=1
@@ -49,7 +49,7 @@
 ## Weakly linked pages
 - 00_總覽/Workflow_重啟與校正基線_2026-05-01.md | outbound=1 | non_source_outbound=1
 - 02_方法學/Disability_Adjustment_評估軸.md | outbound=2 | non_source_outbound=1
-- 02_方法學/EDX_轉介問題設計.md | outbound=2 | non_source_outbound=1
+- 09_NCV EMG 周邊神經病變/EDX_轉介問題設計.md | outbound=2 | non_source_outbound=1
 - 02_方法學/Impairment與Disability的區分.md | outbound=2 | non_source_outbound=1
 - 02_方法學/Outcome_Process_Performance_Measure_區分.md | outbound=2 | non_source_outbound=1
 - 02_方法學/PMR_H&P_Bedside_Checklist.md | outbound=2 | non_source_outbound=1
@@ -107,7 +107,7 @@
 ## Frontmatter issues
 - 00_總覽/Workflow_重啟與校正基線_2026-05-01.md | missing:title, missing:created, missing:updated, missing:type, missing:domain, missing:tags, missing:source_tier, missing:evidence_level, missing:confidence, missing:contested, missing:contradictions, crosslinks:<2
 - 02_方法學/Disability_Adjustment_評估軸.md | crosslinks:<2
-- 02_方法學/EDX_轉介問題設計.md | crosslinks:<2
+- 09_NCV EMG 周邊神經病變/EDX_轉介問題設計.md | crosslinks:<2
 - 02_方法學/Impairment與Disability的區分.md | crosslinks:<2
 - 02_方法學/Outcome_Process_Performance_Measure_區分.md | crosslinks:<2
 - 02_方法學/PMR_H&P_Bedside_Checklist.md | crosslinks:<2
@@ -147,16 +147,16 @@
 - 07_Pediatric_Development/早產兒的長期神經發展風險.md | crosslinks:<2
 - 07_Pediatric_Development/視覺障礙兒童的功能評估重點.md | crosslinks:<2
 - 07_Pediatric_Development/診間中的文化敏感性與偏誤辨識.md | crosslinks:<2
-- 09_來源摘要/Bradley_Daroff_Pain_Management.md | missing:contested, missing:contradictions
-- 09_來源摘要/Chronic_Pain.md | missing:contested, missing:contradictions
-- 09_來源摘要/Common_Neck_Problems.md | missing:contested, missing:contradictions
-- 09_來源摘要/Low_Back_Disorders.md | missing:contested, missing:contradictions
-- 09_來源摘要/Pain_Management.md | missing:contested, missing:contradictions
-- 09_來源摘要/Traumatic_Spinal_Cord_Injury.md | missing:contested, missing:contradictions
-- 09_來源摘要/Upper_Limb_Pain_and_Dysfunction.md | missing:contested, missing:contradictions
+- 10_來源摘要/Bradley_Daroff_Pain_Management.md | missing:contested, missing:contradictions
+- 10_來源摘要/Chronic_Pain.md | missing:contested, missing:contradictions
+- 10_來源摘要/Common_Neck_Problems.md | missing:contested, missing:contradictions
+- 10_來源摘要/Low_Back_Disorders.md | missing:contested, missing:contradictions
+- 10_來源摘要/Pain_Management.md | missing:contested, missing:contradictions
+- 10_來源摘要/Traumatic_Spinal_Cord_Injury.md | missing:contested, missing:contradictions
+- 10_來源摘要/Upper_Limb_Pain_and_Dysfunction.md | missing:contested, missing:contradictions
 
 ## Oversized pages
-- 09_來源摘要/Traumatic_Spinal_Cord_Injury.md | lines=320
+- 10_來源摘要/Traumatic_Spinal_Cord_Injury.md | lines=320
 - 07_Pediatric_Development/CP_呼吸照護.md | lines=293
 - 03_疾病與臨床主題/偏癱肩痛.md | lines=278
 - 07_Pediatric_Development/CP_骨骼健康與骨折.md | lines=274
@@ -168,11 +168,11 @@
 - 08_工具與Workflow/知識百科_健康檢查流程.md | lines=245
 - 04_CPET/Wprime_Recovery.md | lines=241
 - 07_Pediatric_Development/CP_功能分類系統.md | lines=240
-- 09_來源摘要/Pain_Management.md | lines=237
+- 10_來源摘要/Pain_Management.md | lines=237
 - 06_Gait_Biomechanics/步態評估總論.md | lines=228
 - 07_Pediatric_Development/CP_髖部監測.md | lines=228
 - 04_CPET/CPET_Protocol_Design.md | lines=226
-- 09_來源摘要/Degenerative_Movement_Disorders_of_the_CNS.md | lines=225
+- 10_來源摘要/Degenerative_Movement_Disorders_of_the_CNS.md | lines=225
 - 07_Pediatric_Development/CP_早期辨識與診斷.md | lines=223
 - 03_疾病與臨床主題/高海拔腦水腫.md | lines=215
 - 03_疾病與臨床主題/高海拔肺水腫.md | lines=214
@@ -181,25 +181,25 @@
 - 04_CPET/VO2max_Measurement.md | lines=206
 - 07_Pediatric_Development/Cerebral_Palsy_總論.md | lines=206
 - 03_疾病與臨床主題/慢性高山症.md | lines=205
-- 09_來源摘要/Nelson_2023_early_intervention_developmental_neuroscience.md | lines=201
+- 10_來源摘要/Nelson_2023_early_intervention_developmental_neuroscience.md | lines=201
 
 ## Stale candidates
-- 01_核心概念/ICF_功能框架.md | newer_sources=09_來源摘要/The_physiatric_history_and_physical_examination.md
-- 03_疾病與臨床主題/PMR_評估總論.md | newer_sources=09_來源摘要/The_physiatric_history_and_physical_examination.md
-- 03_疾病與臨床主題/感覺障礙復健總論.md | newer_sources=09_來源摘要/Developmental_Considerations_in_Deafness.md
-- 06_Gait_Biomechanics/步態評估總論.md | newer_sources=09_來源摘要/The_physiatric_history_and_physical_examination.md
-- 07_Pediatric_Development/兒童聽覺障礙與Deafness.md | newer_sources=09_來源摘要/Developmental_Considerations_in_Deafness.md
-- 07_Pediatric_Development/小兒復健評估.md | newer_sources=09_來源摘要/The_physiatric_history_and_physical_examination.md, 09_來源摘要/Developmental_Considerations_in_Deafness.md
-- 07_Pediatric_Development/晚語兒_Late_Talker.md | newer_sources=09_來源摘要/Developmental_Considerations_in_Deafness.md
+- 01_核心概念/ICF_功能框架.md | newer_sources=10_來源摘要/The_physiatric_history_and_physical_examination.md
+- 03_疾病與臨床主題/PMR_評估總論.md | newer_sources=10_來源摘要/The_physiatric_history_and_physical_examination.md
+- 03_疾病與臨床主題/感覺障礙復健總論.md | newer_sources=10_來源摘要/Developmental_Considerations_in_Deafness.md
+- 06_Gait_Biomechanics/步態評估總論.md | newer_sources=10_來源摘要/The_physiatric_history_and_physical_examination.md
+- 07_Pediatric_Development/兒童聽覺障礙與Deafness.md | newer_sources=10_來源摘要/Developmental_Considerations_in_Deafness.md
+- 07_Pediatric_Development/小兒復健評估.md | newer_sources=10_來源摘要/The_physiatric_history_and_physical_examination.md, 10_來源摘要/Developmental_Considerations_in_Deafness.md
+- 07_Pediatric_Development/晚語兒_Late_Talker.md | newer_sources=10_來源摘要/Developmental_Considerations_in_Deafness.md
 
 ## Contradiction candidates
-- 09_來源摘要/Bradley_Daroff_Pain_Management.md | body_contains_conflict_language_without_frontmatter_flag
-- 09_來源摘要/Chronic_Pain.md | body_contains_conflict_language_without_frontmatter_flag
-- 09_來源摘要/Common_Neck_Problems.md | body_contains_conflict_language_without_frontmatter_flag
-- 09_來源摘要/Low_Back_Disorders.md | body_contains_conflict_language_without_frontmatter_flag
-- 09_來源摘要/Pain_Management.md | body_contains_conflict_language_without_frontmatter_flag
-- 09_來源摘要/Traumatic_Spinal_Cord_Injury.md | body_contains_conflict_language_without_frontmatter_flag
-- 09_來源摘要/Upper_Limb_Pain_and_Dysfunction.md | body_contains_conflict_language_without_frontmatter_flag
+- 10_來源摘要/Bradley_Daroff_Pain_Management.md | body_contains_conflict_language_without_frontmatter_flag
+- 10_來源摘要/Chronic_Pain.md | body_contains_conflict_language_without_frontmatter_flag
+- 10_來源摘要/Common_Neck_Problems.md | body_contains_conflict_language_without_frontmatter_flag
+- 10_來源摘要/Low_Back_Disorders.md | body_contains_conflict_language_without_frontmatter_flag
+- 10_來源摘要/Pain_Management.md | body_contains_conflict_language_without_frontmatter_flag
+- 10_來源摘要/Traumatic_Spinal_Cord_Injury.md | body_contains_conflict_language_without_frontmatter_flag
+- 10_來源摘要/Upper_Limb_Pain_and_Dysfunction.md | body_contains_conflict_language_without_frontmatter_flag
 
 ## Missing core topics
 - none
@@ -248,8 +248,8 @@
 - pain management Bradley and Daroff's Neurology in Clinical Practice, 52, 753-775.e2/pain management Bradley and Daroff's Neurology in Clinical Practice, 52, 753-775.e2.md | tier=3
 
 ## Raw verification queue
-- 09_來源摘要/Bradley_Daroff_Pain_Management.md | kind=contradiction | tier=1 | impact=10
-- 09_來源摘要/Chronic_Pain.md | kind=contradiction | tier=1 | impact=10
-- 09_來源摘要/Common_Neck_Problems.md | kind=contradiction | tier=1 | impact=10
-- 09_來源摘要/Low_Back_Disorders.md | kind=contradiction | tier=1 | impact=10
-- 09_來源摘要/Pain_Management.md | kind=contradiction | tier=1 | impact=10
+- 10_來源摘要/Bradley_Daroff_Pain_Management.md | kind=contradiction | tier=1 | impact=10
+- 10_來源摘要/Chronic_Pain.md | kind=contradiction | tier=1 | impact=10
+- 10_來源摘要/Common_Neck_Problems.md | kind=contradiction | tier=1 | impact=10
+- 10_來源摘要/Low_Back_Disorders.md | kind=contradiction | tier=1 | impact=10
+- 10_來源摘要/Pain_Management.md | kind=contradiction | tier=1 | impact=10

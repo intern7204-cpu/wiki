@@ -6,7 +6,7 @@ type: concept
 domain: [SCI, emergency_care, rehabilitation]
 tags: [traumatic_SCI, acute_management, ISNCSCI, MAP, early_rehabilitation]
 sources:
-  - 09_來源摘要/Traumatic_Spinal_Cord_Injury.md
+  - 10_來源摘要/Traumatic_Spinal_Cord_Injury.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Traumatic SCI 的急性處置不是單純「固定脊椎等開刀」，而是 ai
 
 - 本頁聚焦 traumatic SCI 從事故現場到 acute care、surgical stabilization、early inpatient rehabilitation 的銜接。
 - 本頁不是一般 chronic SCI complication review，也不涵蓋 pediatric SCI 的特殊處置。
-- 本頁只來自單一來源：[[../09_來源摘要/Traumatic_Spinal_Cord_Injury]]。
+- 本頁只來自單一來源：[[../10_來源摘要/Traumatic_Spinal_Cord_Injury]]。
 
 ## Why It Matters
 
@@ -96,4 +96,4 @@ Traumatic force
 - [[脊髓損傷復健總論]]
 - [[SCI_次級併發症風險框架]]
 - [[SCI_共病TBI與運動學習調整]]
-- [[../09_來源摘要/Traumatic_Spinal_Cord_Injury]]
+- [[../10_來源摘要/Traumatic_Spinal_Cord_Injury]]

@@ -6,7 +6,7 @@ type: concept
 domain: [stroke, neurorehabilitation, motor_control]
 tags: [stroke, movement_analysis, impairment, ICF, postural_control, weakness, sensory_loss, edema, pain]
 sources:
-  - 09_來源摘要/Movement_Dysfunction_in_Stroke.md
+  - 10_來源摘要/Movement_Dysfunction_in_Stroke.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Poststroke movement dysfunction 應拆成 primary neurologic impairments、secon
 
 - 本頁整理 Movement Dysfunction in Stroke 來源中的 movement analysis 與 impairment model。
 - 本頁不處理 acute stroke reperfusion、secondary prevention 或完整 gait intervention guideline。
-- 本頁只使用單一來源：[[../09_來源摘要/Movement_Dysfunction_in_Stroke]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Movement_Dysfunction_in_Stroke]]。
 
 ## Why It Matters
 

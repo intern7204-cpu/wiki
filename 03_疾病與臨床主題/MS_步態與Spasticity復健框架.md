@@ -6,7 +6,7 @@ type: concept
 domain: [multiple_sclerosis, gait, spasticity, rehabilitation]
 tags: [MS, gait_impairment, spasticity, T25FW, exercise, BoNT, intrathecal_baclofen, dalfampridine]
 sources:
-  - 09_來源摘要/Multiple_Sclerosis.md
+  - 10_來源摘要/Multiple_Sclerosis.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ MS mobility care 要把 walking speed、endurance、spasticity、weakness、fati
 
 - 本頁聚焦 MS gait impairment 與 spasticity management。
 - 本頁不是完整 DMT 或 neuro-urology 管理頁。
-- 本頁只使用單一來源：[[../09_來源摘要/Multiple_Sclerosis]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Multiple_Sclerosis]]。
 
 ## Why It Matters
 
@@ -97,4 +97,4 @@ CNS demyelination / neurodegeneration
 - [[Spasticity_概論]]
 - [[Spasticity與Contracture的區分]]
 - [[步態評估總論]]
-- [[../09_來源摘要/Multiple_Sclerosis]]
+- [[../10_來源摘要/Multiple_Sclerosis]]

@@ -1,18 +1,18 @@
 ---
 title: Critical Power Testing Reliability（CP 測試可靠性）
 created: 2026-04-23
-updated: 2026-04-25
+updated: 2026-05-08
 type: method
 domain: [CPET, methodology, exercise_physiology]
-tags: [critical_power, W_prime, reliability, repeatability, familiarization, time_trial]
+tags: [critical_power, W_prime, reliability, repeatability, familiarization, time_trial, 3_min_all_out, end_power, WEP]
 sources:
-  - 09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance.md
-  - 09_來源摘要/Jones_Vanhatalo_2017_critical_power_concept.md
-  - 09_來源摘要/Triska_2017_CP_reliability.md
-  - 09_來源摘要/Sreedhara_2019_power_energy_models.md
-  - 09_來源摘要/Karsten_2017_TT_vs_TTE_CP_Wprime.md
-  - 09_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime.md
-  - 09_來源摘要/Wright_2017_3min_allout_CP_validity.md
+  - 10_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance.md
+  - 10_來源摘要/Jones_Vanhatalo_2017_critical_power_concept.md
+  - 10_來源摘要/Triska_2017_CP_reliability.md
+  - 10_來源摘要/Sreedhara_2019_power_energy_models.md
+  - 10_來源摘要/Karsten_2017_TT_vs_TTE_CP_Wprime.md
+  - 10_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime.md
+  - 10_來源摘要/Wright_2017_3min_allout_CP_validity.md
 source_tier: 1
 evidence_level: moderate
 confidence: medium
@@ -21,6 +21,7 @@ contradictions:
   - TT-derived and TTE-derived CP can agree while W' still differs enough to alter interval prescription.
   - Reliability data from trained cyclists or triathletes should not be generalized uncritically to all populations.
   - Reliable EP from a 3-min all-out test does not guarantee valid WEP, and ergometer mode can change CP agreement.
+  - Wright 2017 is a small male-cyclist validation study; it does not validate 3-min all-out testing for clinical CPET populations.
 ---
 
 # Critical Power Testing Reliability（CP 測試可靠性）
@@ -45,7 +46,7 @@ CP testing 的可靠性不是單靠數學模型保證，而是取決於 **protoc
   - recovery interval
   - nutrition / glycogen / caffeine 狀態
   - encouragement 與 pacing instructions
-- 若用 3-min all-out，需確認末段有合理 end-test power 穩定。
+- 若用 [[Three_Minute_All_Out_Critical_Power_Test]]，需確認末段有合理 end-test power 穩定。
 - 若用 3-min all-out，還要固定：
   - ergometer mode
   - cadence / resistance setting
@@ -110,12 +111,18 @@ CP testing 的可靠性不是單靠數學模型保證，而是取決於 **protoc
 
 ### 6. 3-min all-out 的 `EP` 與 `WEP` 不能綁在一起看
 
-- Wright 2017 在 trained cyclists 顯示：
-  - isokinetic `EP` 可作 `CP` 的合理近似
-  - linear `EP` 雖可靠，卻可能顯著偏高
-  - `WEP` 在兩種模式都低估 `W'`
+- [[Three_Minute_All_Out_Critical_Power_Test]] 在 Wright 2017 的 12 位 male cyclists 中顯示：
+  - original CP protocol: `CP` 244.9 +/- 26.2 W，`W'` 22.7 +/- 5.6 kJ
+  - isokinetic `EP`: 240.9 +/- 23.3 W，與 `CP` 無顯著差異
+  - linear `EP`: 275.1 +/- 41.2 W，顯著高於 `CP`
+  - isokinetic `WEP`: 15.6 +/- 5.6 kJ，顯著低於 `W'`
+  - linear `WEP`: 13.5 +/- 4.7 kJ，顯著低於 `W'`
+- Reliability 與 validity 不能混用：
+  - `EP` CoV 低：isokinetic 1.93%、linear 1.17%
+  - `WEP` CoV 較高：isokinetic 8.44%、linear 5.39%
 - practical implication：
   - `EP` 看起來穩，不代表 `WEP` 也可用
+  - linear mode reliable 不代表能 validly estimate `CP`
   - 3-min all-out 若要用於 longitudinal follow-up，必須先界定你追的是 `CP` 還是 `W'`
 
 - 什麼情況要治療？先看是否真的改變 pain、function、safety、participation 或訓練輸出。
@@ -147,13 +154,13 @@ CP testing 的可靠性不是單靠數學模型保證，而是取決於 **protoc
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
-- [[09_來源摘要/Jones_Vanhatalo_2017_critical_power_concept]]
-- [[09_來源摘要/Triska_2017_CP_reliability]]
-- [[09_來源摘要/Sreedhara_2019_power_energy_models]]
-- [[09_來源摘要/Karsten_2017_TT_vs_TTE_CP_Wprime]]
-- [[09_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime]]
-- [[09_來源摘要/Wright_2017_3min_allout_CP_validity]]
+- [[10_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
+- [[10_來源摘要/Jones_Vanhatalo_2017_critical_power_concept]]
+- [[10_來源摘要/Triska_2017_CP_reliability]]
+- [[10_來源摘要/Sreedhara_2019_power_energy_models]]
+- [[10_來源摘要/Karsten_2017_TT_vs_TTE_CP_Wprime]]
+- [[10_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime]]
+- [[10_來源摘要/Wright_2017_3min_allout_CP_validity]]
 
 ### 證據標記
 
@@ -166,10 +173,11 @@ CP testing 的可靠性不是單靠數學模型保證，而是取決於 **protoc
 ### 相關頁面
 
 - [[Critical_Power]]
+- [[Three_Minute_All_Out_Critical_Power_Test]]
 - [[Training_Prescription_by_CP]]
 - [[Wprime_Balance_Model]]
 - [[Wprime_Recovery]]
 - [[CPET_Protocol_Design]]
-- [[../09_來源摘要/Triska_2017_CP_reliability]]
-- [[../09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
-- [[../09_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime]]
+- [[../10_來源摘要/Triska_2017_CP_reliability]]
+- [[../10_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
+- [[../10_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime]]

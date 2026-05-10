@@ -6,7 +6,7 @@ type: concept
 domain: [rehabilitation, bowel, SCI]
 tags: [neurogenic_bowel, bowel_program, social_continence, autonomic_dysreflexia]
 sources:
-  - 09_來源摘要/Neurogenic_bowel_dysfunction_and_rehabilitation.md
+  - 10_來源摘要/Neurogenic_bowel_dysfunction_and_rehabilitation.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -60,4 +60,4 @@ Lesion pattern
 ## Links
 
 - [[神經性腸道功能障礙復健]]
-- [[../09_來源摘要/Neurogenic_bowel_dysfunction_and_rehabilitation]]
+- [[../10_來源摘要/Neurogenic_bowel_dysfunction_and_rehabilitation]]

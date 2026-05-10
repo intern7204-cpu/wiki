@@ -6,7 +6,7 @@ type: concept
 domain: [pain, neurology, rehabilitation]
 tags: [CRPS, complex_regional_pain_syndrome, autonomic_pain, central_sensitization, rehabilitation]
 sources:
-  - 09_來源摘要/Bradley_Daroff_Pain_Management.md
+  - 10_來源摘要/Bradley_Daroff_Pain_Management.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ CRPS 是 trauma 後出現的 regional、disproportionate、continuous pain syndr
 
 - 本頁依 Bradley & Daroff 來源整理 CRPS 的臨床辨識與治療限制。
 - 本頁不是 Budapest criteria 或 guideline-level treatment page；正式診斷準則需另用 guideline / consensus source 補強。
-- 本頁只使用單一來源：[[../09_來源摘要/Bradley_Daroff_Pain_Management]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Bradley_Daroff_Pain_Management]]。
 
 ## Why It Matters
 
@@ -96,5 +96,5 @@ Trauma or nerve lesion
 - [[慢性疼痛中的Peripheral與Central_Sensitization]]
 - [[慢性疼痛復健的主動化治療框架]]
 - [[疼痛評估_OPQRST與多維度量測]]
-- [[../09_來源摘要/Bradley_Daroff_Pain_Management]]
+- [[../10_來源摘要/Bradley_Daroff_Pain_Management]]
 

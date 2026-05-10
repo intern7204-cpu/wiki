@@ -6,7 +6,7 @@ type: concept
 domain: [amputation, prosthetics, rehabilitation]
 tags: [lower_limb_amputation, prosthetics, K_level, socket, gait]
 sources:
-  - 09_來源摘要/Lower_limb_amputation_and_gait.md
+  - 10_來源摘要/Lower_limb_amputation_and_gait.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -61,4 +61,4 @@ Residual limb and baseline function
 ## Links
 
 - [[下肢截肢復健總論]]
-- [[../09_來源摘要/Lower_limb_amputation_and_gait]]
+- [[../10_來源摘要/Lower_limb_amputation_and_gait]]

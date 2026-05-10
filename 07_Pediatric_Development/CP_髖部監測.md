@@ -6,7 +6,7 @@ type: clinical
 domain: [pediatric, neurodevelopmental, rehabilitation, PMR, orthopedics]
 tags: [cerebral_palsy, hip_surveillance, hip_displacement, AACPDM, migration_percentage, GMFCS]
 sources:
-  - 09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
+  - 10_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -212,7 +212,7 @@ CP 髖部位移是 **動態的、漸進的多因子失衡**：
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders]]
+- [[10_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders]]
 
 ### 證據標記
 

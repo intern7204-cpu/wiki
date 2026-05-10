@@ -6,7 +6,7 @@ type: concept
 domain: [geriatrics, cognition, neurorehabilitation]
 tags: [aging, cognitive_reserve, neural_reserve, executive_function, neuroplasticity, dementia]
 sources:
-  - 09_來源摘要/Aging_Dementia_and_Disorders_of_Cognition.md
+  - 10_來源摘要/Aging_Dementia_and_Disorders_of_Cognition.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ contradictions:
 
 - 本頁處理 normal brain aging、reserve、functional cognition 與 pathological decline 的邊界。
 - 本頁不處理完整 dementia subtype diagnosis，也不替代 delirium / depression workup。
-- 本頁只使用單一來源：[[../09_來源摘要/Aging_Dementia_and_Disorders_of_Cognition]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Aging_Dementia_and_Disorders_of_Cognition]]。
 
 ## Why It Matters
 

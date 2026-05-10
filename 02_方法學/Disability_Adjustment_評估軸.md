@@ -6,7 +6,7 @@ type: concept
 domain: [rehabilitation, psychology, methodology]
 tags: [disability_adjustment, rehabilitation_psychology, family_system, risk_assessment]
 sources:
-  - 09_來源摘要/Psychological_assessment_and_intervention_in_rehabilitation.md
+  - 10_來源摘要/Psychological_assessment_and_intervention_in_rehabilitation.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -61,4 +61,4 @@ Acquired disability
 ## Links
 
 - [[復健心理社會評估與介入]]
-- [[../09_來源摘要/Psychological_assessment_and_intervention_in_rehabilitation]]
+- [[../10_來源摘要/Psychological_assessment_and_intervention_in_rehabilitation]]

@@ -6,8 +6,8 @@ type: concept
 domain: [pain, assessment, rehabilitation]
 tags: [pain_assessment, OPQRST, PROMIS, IMMPACT, VAS, MPQ, fear_avoidance]
 sources:
-  - 09_來源摘要/Pain_Management.md
-  - 09_來源摘要/Chronic_Pain.md
+  - 10_來源摘要/Pain_Management.md
+  - 10_來源摘要/Chronic_Pain.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -26,7 +26,7 @@ contradictions:
 
 - 本頁聚焦 rehabilitation pain assessment 的資料結構與量測邏輯。
 - 本頁不是特定病種 differential diagnosis，也不是所有量表的完整操作手冊。
-- 本頁目前整合兩篇單一來源摘要：[[../09_來源摘要/Pain_Management]] 與 [[../09_來源摘要/Chronic_Pain]]。
+- 本頁目前整合兩篇單一來源摘要：[[../10_來源摘要/Pain_Management]] 與 [[../10_來源摘要/Chronic_Pain]]。
 - 兩篇來源都支持 multidimensional pain assessment，但 IMMPACT domains 的列法不同，需保留來源層級。
 
 ## Why It Matters
@@ -58,8 +58,8 @@ Pain complaint
 - MPQ 可描述 sensory、affective、evaluative pain qualities，但耗時且 evaluator 不應替病人選詞。
 - PROMIS-29 涵蓋 depression、anxiety、physical function、pain interference、fatigue、sleep disturbance、social roles / activities 與 NPRS。
 - Psychosocial screening 可看 depression、catastrophizing、health anxiety、pain-related fear、avoidance、kinesiophobia；來源提到 FABQ、PCS、Tampa Scale of Kinesiophobia。
-- [[../09_來源摘要/Chronic_Pain]] 補充 pain assessment 應包含 location、intensity、quality、temporal pattern，且 neuropathic pain 常見 burning / shooting / tingling，musculoskeletal pain 常見 aching / crampy / sharp and movement-related。
-- [[../09_來源摘要/Chronic_Pain]] 補充 QST 可協助 neuropathic characterization，ENFD biopsy 可用於 small-fiber peripheral neuropathy 的特定情境；brain imaging 不作 routine pain assessment。
+- [[../10_來源摘要/Chronic_Pain]] 補充 pain assessment 應包含 location、intensity、quality、temporal pattern，且 neuropathic pain 常見 burning / shooting / tingling，musculoskeletal pain 常見 aching / crampy / sharp and movement-related。
+- [[../10_來源摘要/Chronic_Pain]] 補充 QST 可協助 neuropathic characterization，ENFD biopsy 可用於 small-fiber peripheral neuropathy 的特定情境；brain imaging 不作 routine pain assessment。
 
 ## Clinical / Research Implication
 
@@ -71,13 +71,13 @@ Pain complaint
 ## Fact
 
 - IMMPACT 建議 chronic pain trial 使用六個核心 outcome domains。
-- [[../09_來源摘要/Chronic_Pain]] 以 pain intensity、physical functioning、emotional functioning、self-rated overall improvement 作為 IMMPACT 核心 domains 的簡化列法，且建議至少使用兩種方法。
+- [[../10_來源摘要/Chronic_Pain]] 以 pain intensity、physical functioning、emotional functioning、self-rated overall improvement 作為 IMMPACT 核心 domains 的簡化列法，且建議至少使用兩種方法。
 - PROMIS 提供 chronic condition 可用的 patient-reported outcome measure。
 - VAS 對小變化敏感，但不適合 abstract thinking impaired 的病人。
 - SDPS 對 abstract thinking impaired 者較容易，但敏感度低於 VAS。
 - Faces Pain Scale 可用於幼兒或 verbal expression 受限者。
 - Caregiver-specific checklist 可用於 nonverbal disabled patients，但需要個別化建立與解讀。
-- Imaging can rule out pathology but often does not correlate with chronic pain intensity in [[../09_來源摘要/Chronic_Pain]]。
+- Imaging can rule out pathology but often does not correlate with chronic pain intensity in [[../10_來源摘要/Chronic_Pain]]。
 
 ## Inference
 
@@ -106,5 +106,5 @@ Pain complaint
 - [[慢性疼痛復健的主動化治療框架]]
 - [[Nociceptive_Neuropathic_Nociplastic_Pain]]
 - [[../02_方法學/復健心理社會評估與介入]]
-- [[../09_來源摘要/Pain_Management]]
-- [[../09_來源摘要/Chronic_Pain]]
+- [[../10_來源摘要/Pain_Management]]
+- [[../10_來源摘要/Chronic_Pain]]

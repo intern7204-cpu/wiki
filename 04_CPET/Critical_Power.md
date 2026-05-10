@@ -6,14 +6,14 @@ type: concept
 domain: [CPET, exercise_physiology]
 tags: [critical_power, critical_speed, W_prime, W_BAL, MLSS, exercise_intensity, intermittent_exercise, FTP]
 sources:
-  - 09_來源摘要/Poole_2020_anaerobic_threshold.md
-  - 09_來源摘要/Jones_Vanhatalo_2017_critical_power_concept.md
-  - 09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance.md
-  - 09_來源摘要/Goulding_2021_VO2_kinetics_exercise_tolerance.md
-  - 09_來源摘要/Goulding_Marwood_2023_critical_power_determinants.md
-  - 09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training.md
-  - 09_來源摘要/Triska_2017_CP_reliability.md
-  - 09_來源摘要/Wright_2017_3min_allout_CP_validity.md
+  - 10_來源摘要/Poole_2020_anaerobic_threshold.md
+  - 10_來源摘要/Jones_Vanhatalo_2017_critical_power_concept.md
+  - 10_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance.md
+  - 10_來源摘要/Goulding_2021_VO2_kinetics_exercise_tolerance.md
+  - 10_來源摘要/Goulding_Marwood_2023_critical_power_determinants.md
+  - 10_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training.md
+  - 10_來源摘要/Triska_2017_CP_reliability.md
+  - 10_來源摘要/Wright_2017_3min_allout_CP_validity.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -181,19 +181,19 @@ Critical power 是 power-duration 關係的**漸近線**：它代表可持續的
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Poole_2020_anaerobic_threshold]]
-- [[09_來源摘要/Jones_Vanhatalo_2017_critical_power_concept]]
-- [[09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
-- [[09_來源摘要/Goulding_2021_VO2_kinetics_exercise_tolerance]]
-- [[09_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]
-- [[09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
-- [[09_來源摘要/Kemp_1993_PCr_resynthesis]]
-- [[09_來源摘要/Triska_2017_CP_reliability]]
-- [[09_來源摘要/Wright_2017_3min_allout_CP_validity]]
-- [[09_來源摘要/Skiba_Clarke_Wprime_balance_model]]
-- [[09_來源摘要/Sreedhara_2019_power_energy_models]]
-- [[09_來源摘要/Bartram_2018_Wprime_recovery_elite_cyclists]]
-- [[09_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP]]
+- [[10_來源摘要/Poole_2020_anaerobic_threshold]]
+- [[10_來源摘要/Jones_Vanhatalo_2017_critical_power_concept]]
+- [[10_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
+- [[10_來源摘要/Goulding_2021_VO2_kinetics_exercise_tolerance]]
+- [[10_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]
+- [[10_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
+- [[10_來源摘要/Kemp_1993_PCr_resynthesis]]
+- [[10_來源摘要/Triska_2017_CP_reliability]]
+- [[10_來源摘要/Wright_2017_3min_allout_CP_validity]]
+- [[10_來源摘要/Skiba_Clarke_Wprime_balance_model]]
+- [[10_來源摘要/Sreedhara_2019_power_energy_models]]
+- [[10_來源摘要/Bartram_2018_Wprime_recovery_elite_cyclists]]
+- [[10_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP]]
 
 ### 證據標記
 
@@ -216,12 +216,12 @@ Critical power 是 power-duration 關係的**漸近線**：它代表可持續的
 - [[CPET_Protocol_Design]]
 - [[../05_Exercise_Physiology/PCr_Resynthesis]]
 - [[../05_Exercise_Physiology/Skeletal_Muscle_Energy_Metabolism]]
-- [[../09_來源摘要/Poole_2020_anaerobic_threshold]]
-- [[../09_來源摘要/Jones_Vanhatalo_2017_critical_power_concept]]
-- [[../09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
-- [[../09_來源摘要/Goulding_2021_VO2_kinetics_exercise_tolerance]]
-- [[../09_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]
-- [[../09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
-- [[../09_來源摘要/Kemp_1993_PCr_resynthesis]]
-- [[../09_來源摘要/Skiba_Clarke_Wprime_balance_model]]
-- [[../09_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP]]
+- [[../10_來源摘要/Poole_2020_anaerobic_threshold]]
+- [[../10_來源摘要/Jones_Vanhatalo_2017_critical_power_concept]]
+- [[../10_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
+- [[../10_來源摘要/Goulding_2021_VO2_kinetics_exercise_tolerance]]
+- [[../10_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]
+- [[../10_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
+- [[../10_來源摘要/Kemp_1993_PCr_resynthesis]]
+- [[../10_來源摘要/Skiba_Clarke_Wprime_balance_model]]
+- [[../10_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP]]

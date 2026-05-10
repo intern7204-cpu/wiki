@@ -6,8 +6,8 @@ type: clinical
 domain: [rehabilitation, sports_medicine, foot_ankle]
 tags: [ankle_sprain, Ottawa_ankle_rules, rehabilitation, brace, chronic_ankle_instability]
 sources:
-  - 09_來源摘要/Ankle_sprain_in_adults_Evaluation_and_diagnosis.md
-  - 09_來源摘要/Ankle_sprain_in_adults_Management.md
+  - 10_來源摘要/Ankle_sprain_in_adults_Evaluation_and_diagnosis.md
+  - 10_來源摘要/Ankle_sprain_in_adults_Management.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -112,8 +112,8 @@ Ankle sprain 是以 **acute ligamentous injury + regional pain / swelling + stab
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Ankle_sprain_in_adults_Evaluation_and_diagnosis]]
-- [[09_來源摘要/Ankle_sprain_in_adults_Management]]
+- [[10_來源摘要/Ankle_sprain_in_adults_Evaluation_and_diagnosis]]
+- [[10_來源摘要/Ankle_sprain_in_adults_Management]]
 
 ### 證據標記
 
@@ -129,5 +129,5 @@ Ankle sprain 是以 **acute ligamentous injury + regional pain / swelling + stab
 - [[Achilles_tendinopathy]]
 - [[足部疼痛分區評估]]
 - [[../06_Gait_Biomechanics/步態評估總論]]
-- [[../09_來源摘要/Ankle_sprain_in_adults_Evaluation_and_diagnosis]]
-- [[../09_來源摘要/Ankle_sprain_in_adults_Management]]
+- [[../10_來源摘要/Ankle_sprain_in_adults_Evaluation_and_diagnosis]]
+- [[../10_來源摘要/Ankle_sprain_in_adults_Management]]

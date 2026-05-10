@@ -6,10 +6,10 @@ type: clinical
 domain: [pediatric, neurodevelopmental, treatment]
 tags: [ASD, early_intervention, education, prognosis, caregiver_training]
 sources:
-  - 09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Overview_of_management_and_prognosis.md
-  - 09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Behavioral_and_educational_interventions.md
-  - 09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Complementary_and_integrative_medicine_therapies.md
-  - 09_來源摘要/Autism_Spectrum_Disorder.md
+  - 10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Overview_of_management_and_prognosis.md
+  - 10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Behavioral_and_educational_interventions.md
+  - 10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Complementary_and_integrative_medicine_therapies.md
+  - 10_來源摘要/Autism_Spectrum_Disorder.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -117,10 +117,10 @@ ASD management 是 **early, individualized, multidisciplinary, caregiver-involve
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Overview_of_management_and_prognosis]]
-- [[09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Behavioral_and_educational_interventions]]
-- [[09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Complementary_and_integrative_medicine_therapies]]
-- [[09_來源摘要/Autism_Spectrum_Disorder]]
+- [[10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Overview_of_management_and_prognosis]]
+- [[10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Behavioral_and_educational_interventions]]
+- [[10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Complementary_and_integrative_medicine_therapies]]
+- [[10_來源摘要/Autism_Spectrum_Disorder]]
 
 ### 證據標記
 
@@ -137,6 +137,6 @@ ASD management 是 **early, individualized, multidisciplinary, caregiver-involve
 - [[ASD_藥物與共病管理]]
 - [[兒童OT與PT復健服務]]
 - [[小兒復健評估]]
-- [[../09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Overview_of_management_and_prognosis]]
-- [[../09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Behavioral_and_educational_interventions]]
-- [[../09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Complementary_and_integrative_medicine_therapies]]
+- [[../10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Overview_of_management_and_prognosis]]
+- [[../10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Behavioral_and_educational_interventions]]
+- [[../10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Complementary_and_integrative_medicine_therapies]]

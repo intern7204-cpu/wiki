@@ -6,8 +6,8 @@ type: concept
 domain: [pain, rehabilitation, biopsychosocial]
 tags: [pain_management, chronic_pain, ICF, biopsychosocial]
 sources:
-  - 09_來源摘要/Pain_Management.md
-  - 09_來源摘要/Chronic_Pain.md
+  - 10_來源摘要/Pain_Management.md
+  - 10_來源摘要/Chronic_Pain.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -26,7 +26,7 @@ Pain management 的核心不是把 pain score 壓低，而是用 biopsychosocial
 
 - 本頁處理 pain rehabilitation 的高層框架，不是特定疼痛病種診斷頁。
 - 本頁不直接給藥物處方，也不替代 guideline-level opioid / interventional pain management。
-- 本頁目前整合兩篇單一來源摘要：[[../09_來源摘要/Pain_Management]] 與 [[../09_來源摘要/Chronic_Pain]]。
+- 本頁目前整合兩篇單一來源摘要：[[../10_來源摘要/Pain_Management]] 與 [[../10_來源摘要/Chronic_Pain]]。
 - 兩篇來源在本頁中只作互補，不把 textbook framing 寫成 disease-specific guideline。
 
 ## Why It Matters
@@ -60,7 +60,7 @@ Nociceptor / tissue or CNS lesion
 
 - 問題表述應從「痛幾分」升級成：pain mechanism、activity limitation、participation restriction、belief/fear、sleep/mood、family/work context、self-management capacity。
 - Long-term pain management 應以 function、activity tolerance、participation、sleep、mood、self-efficacy 與 adherence 作為 outcome，而不是只看 pain intensity。
-- [[../09_來源摘要/Chronic_Pain]] 補強：complex chronic pain 最適合 multidisciplinary pain center / team-based care，成員可包含 pain physician、psychiatry、pharmacist、pain psychologist、PT、OT、nurse、social worker、vocational rehabilitation。
+- [[../10_來源摘要/Chronic_Pain]] 補強：complex chronic pain 最適合 multidisciplinary pain center / team-based care，成員可包含 pain physician、psychiatry、pharmacist、pain psychologist、PT、OT、nurse、social worker、vocational rehabilitation。
 
 ## Fact
 
@@ -68,9 +68,9 @@ Nociceptor / tissue or CNS lesion
 - Biopsychosocial model 被來源描述為理解 population 與 individual pain variability 的 model of choice。
 - ICF 可用於 pain management，包含 impairment、activity limitation、participation restriction。
 - Chronic pain 需要 integrated、multimodal、interdisciplinary treatment。
-- [[../09_來源摘要/Chronic_Pain]] 將 chronic pain 定義為至少 3 個月且超過正常 healing 的 pain。
-- [[../09_來源摘要/Chronic_Pain]] 區分 nociceptive、neuropathic、nociplastic pain，並指出三者可重疊。
-- [[../09_來源摘要/Chronic_Pain]] 指出 chronic pain 會降低 physical function、livelihood、social contribution，並影響 stress、mental health 與 quality of life。
+- [[../10_來源摘要/Chronic_Pain]] 將 chronic pain 定義為至少 3 個月且超過正常 healing 的 pain。
+- [[../10_來源摘要/Chronic_Pain]] 區分 nociceptive、neuropathic、nociplastic pain，並指出三者可重疊。
+- [[../10_來源摘要/Chronic_Pain]] 指出 chronic pain 會降低 physical function、livelihood、social contribution，並影響 stress、mental health 與 quality of life。
 
 ## Inference
 
@@ -99,5 +99,5 @@ Nociceptor / tissue or CNS lesion
 - [[Nociceptive_Neuropathic_Nociplastic_Pain]]
 - [[../02_方法學/復健心理社會評估與介入]]
 - [[../02_方法學/物理因子治療]]
-- [[../09_來源摘要/Pain_Management]]
-- [[../09_來源摘要/Chronic_Pain]]
+- [[../10_來源摘要/Pain_Management]]
+- [[../10_來源摘要/Chronic_Pain]]

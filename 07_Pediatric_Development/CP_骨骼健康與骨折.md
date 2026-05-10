@@ -6,7 +6,7 @@ type: clinical
 domain: [pediatric, neurodevelopmental, rehabilitation, PMR, endocrinology, orthopedics]
 tags: [cerebral_palsy, bone_health, fragility_fracture, DXA, bisphosphonate, vitamin_D, low_bone_mineral_density]
 sources:
-  - 09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
+  - 10_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
 source_tier: 1
 evidence_level: consensus
 confidence: medium
@@ -256,7 +256,7 @@ CP 兒童的骨頭品質下降是 **多因子協同**：
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders]]
+- [[10_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders]]
 
 ### 證據標記
 

@@ -6,7 +6,7 @@ type: concept
 domain: [pediatrics, development, caregiver_health, toxic_stress, primary_care]
 tags: [caregiver_health, self_care, caregiver_stress, stress_buffering, co_regulation, routines, pediatric_primary_care, HealthySteps, social_drivers_of_health]
 sources:
-  - 09_來源摘要/Self_Care_Isnt_Selfish.md
+  - 10_來源摘要/Self_Care_Isnt_Selfish.md
 source_tier: 2
 evidence_level: science-translation podcast transcript
 confidence: moderate_for_conceptual_framing_low_for_intervention_specificity
@@ -150,4 +150,4 @@ Caregiver stress and basic-needs burden increase
 - [[發展環境穩定性]]
 - [[早期發展與終身健康]]
 - [[小兒復健評估]]
-- [[../09_來源摘要/Self_Care_Isnt_Selfish]]
+- [[../10_來源摘要/Self_Care_Isnt_Selfish]]

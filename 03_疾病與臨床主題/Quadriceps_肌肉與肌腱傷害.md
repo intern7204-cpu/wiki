@@ -6,9 +6,9 @@ type: clinical
 domain: [sports_medicine, rehabilitation, running, knee]
 tags: [quadriceps, rectus_femoris, quadriceps_tendon, anterior_thigh_pain, extensor_mechanism]
 sources:
-  - 09_來源摘要/Quadriceps_muscle_and_tendon_injuries.md
-  - 09_來源摘要/Running_injuries_of_the_lower_extremities_in_adults_Patient_evaluation_and_common_conditions.md
-  - 09_來源摘要/Rehabilitation_Principles_of_the_Injured_Runner.md
+  - 10_來源摘要/Quadriceps_muscle_and_tendon_injuries.md
+  - 10_來源摘要/Running_injuries_of_the_lower_extremities_in_adults_Patient_evaluation_and_common_conditions.md
+  - 10_來源摘要/Rehabilitation_Principles_of_the_Injured_Runner.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -131,9 +131,9 @@ Quadriceps injury 是 **anterior thigh and extensor mechanism spectrum**，涵�
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Quadriceps_muscle_and_tendon_injuries]]
-- [[09_來源摘要/Running_injuries_of_the_lower_extremities_in_adults_Patient_evaluation_and_common_conditions]]
-- [[09_來源摘要/Rehabilitation_Principles_of_the_Injured_Runner]]
+- [[10_來源摘要/Quadriceps_muscle_and_tendon_injuries]]
+- [[10_來源摘要/Running_injuries_of_the_lower_extremities_in_adults_Patient_evaluation_and_common_conditions]]
+- [[10_來源摘要/Rehabilitation_Principles_of_the_Injured_Runner]]
 
 ### 證據標記
 

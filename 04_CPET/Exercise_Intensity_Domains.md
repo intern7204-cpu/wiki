@@ -6,10 +6,10 @@ type: concept
 domain: [CPET, exercise_physiology]
 tags: [exercise_intensity, moderate, heavy, severe, lactate_threshold, critical_power, training_distribution]
 sources:
-  - 09_來源摘要/Poole_2020_anaerobic_threshold.md
-  - 09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance.md
-  - 09_來源摘要/Goulding_Marwood_2023_critical_power_determinants.md
-  - 09_來源摘要/Oliveira_2024_polarized_training_meta_analysis.md
+  - 10_來源摘要/Poole_2020_anaerobic_threshold.md
+  - 10_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance.md
+  - 10_來源摘要/Goulding_Marwood_2023_critical_power_determinants.md
+  - 10_來源摘要/Oliveira_2024_polarized_training_meta_analysis.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -128,10 +128,10 @@ contradictions: []
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Poole_2020_anaerobic_threshold]]
-- [[09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
-- [[09_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]
-- [[09_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]
+- [[10_來源摘要/Poole_2020_anaerobic_threshold]]
+- [[10_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
+- [[10_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]
+- [[10_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]
 
 ### 證據標記
 
@@ -151,7 +151,7 @@ contradictions: []
 - [[VO2_Kinetics]]
 - [[VO2_Slow_Component]]
 - [[../05_Exercise_Physiology/Training_Intensity_Distribution]]
-- [[../09_來源摘要/Poole_2020_anaerobic_threshold]]
-- [[../09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
-- [[../09_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]
-- [[../09_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]
+- [[../10_來源摘要/Poole_2020_anaerobic_threshold]]
+- [[../10_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
+- [[../10_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]
+- [[../10_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]

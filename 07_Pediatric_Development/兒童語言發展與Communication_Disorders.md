@@ -6,12 +6,12 @@ type: clinical
 domain: [pediatric, language, communication]
 tags: [language_development, speech_disorder, bilingualism, hearing, SLP, late_talker]
 sources:
-  - 09_來源摘要/Language_Development_and_Communication_Disorders.md
-  - 09_來源摘要/Language_and_Speech_Disorders.md
-  - 09_來源摘要/Infancy.md
-  - 09_來源摘要/Toddlerhood_and_the_Preschool_Years.md
-  - 09_來源摘要/Speech_and_language_impairment_in_children_Etiology.md
-  - 09_來源摘要/Speech_and_language_impairment_in_children_Evaluation_treatment_and_prognosis.md
+  - 10_來源摘要/Language_Development_and_Communication_Disorders.md
+  - 10_來源摘要/Language_and_Speech_Disorders.md
+  - 10_來源摘要/Infancy.md
+  - 10_來源摘要/Toddlerhood_and_the_Preschool_Years.md
+  - 10_來源摘要/Speech_and_language_impairment_in_children_Etiology.md
+  - 10_來源摘要/Speech_and_language_impairment_in_children_Evaluation_treatment_and_prognosis.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -157,12 +157,12 @@ contradictions:
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Language_Development_and_Communication_Disorders]]
-- [[09_來源摘要/Language_and_Speech_Disorders]]
-- [[09_來源摘要/Infancy]]
-- [[09_來源摘要/Toddlerhood_and_the_Preschool_Years]]
-- [[09_來源摘要/Speech_and_language_impairment_in_children_Etiology]]
-- [[09_來源摘要/Speech_and_language_impairment_in_children_Evaluation_treatment_and_prognosis]]
+- [[10_來源摘要/Language_Development_and_Communication_Disorders]]
+- [[10_來源摘要/Language_and_Speech_Disorders]]
+- [[10_來源摘要/Infancy]]
+- [[10_來源摘要/Toddlerhood_and_the_Preschool_Years]]
+- [[10_來源摘要/Speech_and_language_impairment_in_children_Etiology]]
+- [[10_來源摘要/Speech_and_language_impairment_in_children_Evaluation_treatment_and_prognosis]]
 
 ### 證據標記
 
@@ -177,5 +177,5 @@ contradictions:
 - [[發展監測與篩檢]]
 - [[兒童聽覺障礙與Deafness]]
 - [[小兒復健評估]]
-- [[../09_來源摘要/Speech_and_language_impairment_in_children_Etiology]]
-- [[../09_來源摘要/Speech_and_language_impairment_in_children_Evaluation_treatment_and_prognosis]]
+- [[../10_來源摘要/Speech_and_language_impairment_in_children_Etiology]]
+- [[../10_來源摘要/Speech_and_language_impairment_in_children_Evaluation_treatment_and_prognosis]]

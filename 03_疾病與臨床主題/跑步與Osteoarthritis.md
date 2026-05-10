@@ -6,8 +6,8 @@ type: clinical
 domain: [running, sports_medicine, osteoarthritis]
 tags: [osteoarthritis, running, knee_OA, hip_OA, counseling]
 sources:
-  - 09_來源摘要/Osteoarthritis_and_Running.md
-  - 09_來源摘要/Running_injuries_of_the_lower_extremities_in_adults_Risk_factors_and_prevention.md
+  - 10_來源摘要/Osteoarthritis_and_Running.md
+  - 10_來源摘要/Running_injuries_of_the_lower_extremities_in_adults_Risk_factors_and_prevention.md
 source_tier: 1
 evidence_level: moderate
 confidence: high
@@ -111,8 +111,8 @@ contradictions:
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Osteoarthritis_and_Running]]
-- [[09_來源摘要/Running_injuries_of_the_lower_extremities_in_adults_Risk_factors_and_prevention]]
+- [[10_來源摘要/Osteoarthritis_and_Running]]
+- [[10_來源摘要/Running_injuries_of_the_lower_extremities_in_adults_Risk_factors_and_prevention]]
 
 ### 證據標記
 

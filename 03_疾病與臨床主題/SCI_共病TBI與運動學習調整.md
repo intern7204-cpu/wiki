@@ -6,7 +6,7 @@ type: concept
 domain: [SCI, TBI, rehabilitation, motor_learning]
 tags: [SCI, TBI, dual_diagnosis, Rancho, errorless_learning, motor_learning]
 sources:
-  - 09_來源摘要/Traumatic_Spinal_Cord_Injury.md
+  - 10_來源摘要/Traumatic_Spinal_Cord_Injury.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -24,7 +24,7 @@ Co-occurring TBI in SCI 會把 rehabilitation 從單純 motor / equipment traini
 
 - 本頁聚焦 traumatic SCI 合併 TBI 時，cognition、learning strategy、cueing、environment 與 rehab length of stay 的調整。
 - 本頁不是完整 TBI 診斷頁，也不是 general SCI functional training page。
-- 本頁只使用單一來源：[[../09_來源摘要/Traumatic_Spinal_Cord_Injury]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Traumatic_Spinal_Cord_Injury]]。
 
 ## Why It Matters
 
@@ -96,4 +96,4 @@ Traumatic SCI + missed TBI
 - [[Traumatic_SCI_急性處置與復健銜接]]
 - [[創傷性腦損傷復健總論]]
 - [[TBI_意識障礙與神經行為管理]]
-- [[../09_來源摘要/Traumatic_Spinal_Cord_Injury]]
+- [[../10_來源摘要/Traumatic_Spinal_Cord_Injury]]

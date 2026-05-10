@@ -6,14 +6,14 @@ type: clinical
 domain: [pediatric, language, primary_care]
 tags: [late_talker, expressive_language_delay, receptive_language, red_flags, hearing, referral]
 sources:
-  - 09_來源摘要/Expressive_language_delay_late_talking_in_young_children.md
-  - 09_來源摘要/Developmental_behavioral_surveillance_and_screening_in_primary_care.md
-  - 09_來源摘要/Developmental_Considerations_in_Deafness.md
-  - 09_來源摘要/Early_Intervention.md
-  - 09_來源摘要/Language_Development_and_Communication_Disorders.md
-  - 09_來源摘要/Language_and_Speech_Disorders.md
-  - 09_來源摘要/Speech_and_language_impairment_in_children_Etiology.md
-  - 09_來源摘要/Speech_and_language_impairment_in_children_Evaluation_treatment_and_prognosis.md
+  - 10_來源摘要/Expressive_language_delay_late_talking_in_young_children.md
+  - 10_來源摘要/Developmental_behavioral_surveillance_and_screening_in_primary_care.md
+  - 10_來源摘要/Developmental_Considerations_in_Deafness.md
+  - 10_來源摘要/Early_Intervention.md
+  - 10_來源摘要/Language_Development_and_Communication_Disorders.md
+  - 10_來源摘要/Language_and_Speech_Disorders.md
+  - 10_來源摘要/Speech_and_language_impairment_in_children_Etiology.md
+  - 10_來源摘要/Speech_and_language_impairment_in_children_Evaluation_treatment_and_prognosis.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -143,12 +143,12 @@ late talker 是 early expressive language delay 的表面描述；臨床真正�
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Expressive_language_delay_late_talking_in_young_children]]
-- [[09_來源摘要/Developmental_behavioral_surveillance_and_screening_in_primary_care]]
-- [[09_來源摘要/Developmental_Considerations_in_Deafness]]
-- [[09_來源摘要/Early_Intervention]]
-- [[09_來源摘要/Speech_and_language_impairment_in_children_Etiology]]
-- [[09_來源摘要/Speech_and_language_impairment_in_children_Evaluation_treatment_and_prognosis]]
+- [[10_來源摘要/Expressive_language_delay_late_talking_in_young_children]]
+- [[10_來源摘要/Developmental_behavioral_surveillance_and_screening_in_primary_care]]
+- [[10_來源摘要/Developmental_Considerations_in_Deafness]]
+- [[10_來源摘要/Early_Intervention]]
+- [[10_來源摘要/Speech_and_language_impairment_in_children_Etiology]]
+- [[10_來源摘要/Speech_and_language_impairment_in_children_Evaluation_treatment_and_prognosis]]
 
 ### 證據標記
 
@@ -164,4 +164,4 @@ late talker 是 early expressive language delay 的表面描述；臨床真正�
 - [[早期語言發展與Emergent_Literacy]]
 - [[兒童語言發展與Communication_Disorders]]
 - [[發展遲緩與Intellectual_Disability]]
-- [[../09_來源摘要/Speech_and_language_impairment_in_children_Evaluation_treatment_and_prognosis]]
+- [[../10_來源摘要/Speech_and_language_impairment_in_children_Evaluation_treatment_and_prognosis]]

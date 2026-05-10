@@ -6,7 +6,7 @@ type: concept
 domain: [neurology, brainstem, ocular_motor]
 tags: [INO, MLF, Parinaud_syndrome, vertical_gaze_palsy, horizontal_gaze_paresis, one_and_a_half_syndrome, PSP, MS]
 sources:
-  - 09_來源摘要/Brainstem_Syndromes.md
+  - 10_來源摘要/Brainstem_Syndromes.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Brainstem ocular motor syndromes 是以 gaze limitation、saccade / pursuit / VO
 
 - 本頁聚焦 vertical gaze palsy、dorsal midbrain syndrome、INO、horizontal gaze paresis、global gaze paralysis 與 one-and-a-half syndrome。
 - 本頁不處理完整 neuro-ophthalmology differential 或 treatment guideline。
-- 本頁只使用單一來源：[[../09_來源摘要/Brainstem_Syndromes]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Brainstem_Syndromes]]。
 
 ## Why It Matters
 

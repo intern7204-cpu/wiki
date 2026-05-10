@@ -6,15 +6,15 @@ type: concept
 domain: [pediatric, language, literacy]
 tags: [language_development, emergent_literacy, shared_reading, bilingualism, caregiver_coaching]
 sources:
-  - 09_來源摘要/Emergent_literacy_including_language_development.md
-  - 09_來源摘要/Encouraging_infant_communication_and_play.md
-  - 09_來源摘要/Infancy.md
-  - 09_來源摘要/Toddlerhood_and_the_Preschool_Years.md
-  - 09_來源摘要/Positive_Parenting_and_Support.md
-  - 09_來源摘要/The_Influence_of_Digital_Media_on_Children_and_Families.md
-  - 09_來源摘要/Language_Development_and_Communication_Disorders.md
-  - 09_來源摘要/Language_and_Speech_Disorders.md
-  - 09_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition.md
+  - 10_來源摘要/Emergent_literacy_including_language_development.md
+  - 10_來源摘要/Encouraging_infant_communication_and_play.md
+  - 10_來源摘要/Infancy.md
+  - 10_來源摘要/Toddlerhood_and_the_Preschool_Years.md
+  - 10_來源摘要/Positive_Parenting_and_Support.md
+  - 10_來源摘要/The_Influence_of_Digital_Media_on_Children_and_Families.md
+  - 10_來源摘要/Language_Development_and_Communication_Disorders.md
+  - 10_來源摘要/Language_and_Speech_Disorders.md
+  - 10_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -127,9 +127,9 @@ contradictions:
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Emergent_literacy_including_language_development]]
-- [[09_來源摘要/Encouraging_infant_communication_and_play]]
-- [[09_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition]]
+- [[10_來源摘要/Emergent_literacy_including_language_development]]
+- [[10_來源摘要/Encouraging_infant_communication_and_play]]
+- [[10_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition]]
 
 ### 證據標記
 
@@ -150,5 +150,5 @@ contradictions:
 - [[正向教養與家庭支持]]
 - [[Positive_Parenting_Interventions_對Early_Cognition與Language]]
 - [[發展監測與篩檢]]
-- [[../09_來源摘要/Emergent_literacy_including_language_development]]
-- [[../09_來源摘要/Encouraging_infant_communication_and_play]]
+- [[../10_來源摘要/Emergent_literacy_including_language_development]]
+- [[../10_來源摘要/Encouraging_infant_communication_and_play]]

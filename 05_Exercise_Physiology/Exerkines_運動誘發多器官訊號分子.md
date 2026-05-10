@@ -6,8 +6,8 @@ type: concept
 domain: [exercise_physiology, endocrinology, metabolism, rehabilitation]
 tags: [exerkines, exercise_signalling, inter_organ_crosstalk, extracellular_vesicles, omics, resilience, exercise_as_medicine]
 sources:
-  - 09_來源摘要/Chow_2022_exerkines_health_resilience_disease.md
-source_tier: 1
+  - 10_來源摘要/Chow_2022_exerkines_health_resilience_disease.md
+source_tier: 4
 evidence_level: high_quality_review
 confidence: high
 contested: true
@@ -43,6 +43,7 @@ Exerkines 是 acute 或 chronic exercise 後釋放或改變的 signalling moieti
 - 已明確記錄 sampling context：during / immediately after / 1-2 h after / resting state、fed-fasting state、post-exercise diet、circadian timing。
 - 已區分 measurement target：plasma、tissue、extracellular vesicle cargo、RNA、protein、metabolite、lipid、epigenomic signal。
 - 已區分 evidence layer：human、animal、cell model、association、causal mediation、therapeutic manipulation。
+- 若要判讀 study design 與 response heterogeneity，先連到 [[Exercise_Response_Variability與Exerkine_研究設計]]，避免把 acute signal、chronic adaptation、biomarker association 與 causal mediator 混在一起。
 
 ## Mechanism
 
@@ -114,9 +115,10 @@ Exercise exposure
 ## Links
 
 - [[Myokines_與_Muscle_Organ_Crosstalk]]
+- [[Exercise_Response_Variability與Exerkine_研究設計]]
 - [[Skeletal_Muscle_Energy_Metabolism]]
 - [[Lactate_Shuttle]]
 - [[Training_Intensity_Distribution]]
 - [[治療性運動處方]]
 - [[治療性運動處方的最低必要欄位]]
-- [[../09_來源摘要/Chow_2022_exerkines_health_resilience_disease]]
+- [[../10_來源摘要/Chow_2022_exerkines_health_resilience_disease]]

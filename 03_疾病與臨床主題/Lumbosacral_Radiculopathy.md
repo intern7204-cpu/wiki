@@ -6,7 +6,7 @@ type: concept
 domain: [low_back_pain, neurology, spine]
 tags: [lumbosacral_radiculopathy, radicular_pain, disc_herniation, cauda_equina, epidural_steroid_injection]
 sources:
-  - 09_來源摘要/Low_Back_Disorders.md
+  - 10_來源摘要/Low_Back_Disorders.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Lumbosacral radiculopathy / radicular pain 是 lumbosacral nerve root irritation
 
 - 本頁處理 lumbosacral radicular pain / radiculopathy 的 source-specific framework。
 - 本頁不涵蓋 peripheral neuropathy、hip pathology、vascular claudication 或 full surgical decision-making。
-- 本頁只使用單一來源：[[../09_來源摘要/Low_Back_Disorders]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Low_Back_Disorders]]。
 
 ## Why It Matters
 
@@ -96,5 +96,5 @@ Disc protrusion / extrusion or foraminal pathology
 - [[下背痛評估總論]]
 - [[下背痛影像與Red_Flags]]
 - [[Lumbar_Spinal_Stenosis]]
-- [[../09_來源摘要/Low_Back_Disorders]]
+- [[../10_來源摘要/Low_Back_Disorders]]
 

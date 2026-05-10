@@ -6,7 +6,7 @@ type: concept
 domain: [pediatrics, rehabilitation, examination]
 tags: [pediatric_exam, play, observation, developmental_history]
 sources:
-  - 09_來源摘要/Examination_of_the_pediatric_patient.md
+  - 10_來源摘要/Examination_of_the_pediatric_patient.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -61,4 +61,4 @@ Age and developmental level
 
 - [[Play_作為Resilience_Building_Context]]
 - [[小兒復健評估]]
-- [[../09_來源摘要/Examination_of_the_pediatric_patient]]
+- [[../10_來源摘要/Examination_of_the_pediatric_patient]]

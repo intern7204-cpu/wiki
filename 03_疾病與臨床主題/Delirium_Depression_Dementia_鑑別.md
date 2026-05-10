@@ -1,12 +1,13 @@
 ---
 title: Delirium Depression Dementia 鑑別
 created: 2026-05-03
-updated: 2026-05-03
+updated: 2026-05-06
 type: concept
 domain: [geriatrics, cognition, neurorehabilitation]
 tags: [delirium, depression, dementia, MCI, cognitive_screening, GDS, MMSE, MoCA, Mini_Cog]
 sources:
-  - 09_來源摘要/Aging_Dementia_and_Disorders_of_Cognition.md
+  - 10_來源摘要/Aging_Dementia_and_Disorders_of_Cognition.md
+  - 10_來源摘要/Poststroke_neuropsychiatric_disorders_and_symptoms.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +26,7 @@ Delirium 是急性、波動、以 attention / awareness disturbance 為核心的
 
 - 本頁整理單一來源中 delirium、depression、MCI / minor neurocognitive disorder 與 dementia / major neurocognitive disorder 的鑑別框架。
 - 本頁不是 DSM 診斷手冊，也不是完整 geriatric psychiatry guideline。
-- 本頁只使用單一來源：[[../09_來源摘要/Aging_Dementia_and_Disorders_of_Cognition]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Aging_Dementia_and_Disorders_of_Cognition]]。
 
 ## Why It Matters
 
@@ -60,6 +61,7 @@ Depressive syndrome in older adult
 - Dementia：progressive cognitive decline with increasing IADL / ADL dependence。
 - Depression in older adults：pain、weakness、headache、agitation、fatigue、appetite / weight change、constipation、insomnia / hypersomnia、irritability。
 - Major vs minor neurocognitive disorder：主要差異是認知下降是否明顯干擾日常獨立性。
+- Poststroke context：acute/subacute aggression 可能來自 delirium；depression/anxiety questionnaire score 也可能被 fatigue、sleep、concentration、psychomotor slowing 等 stroke sequelae 拉高。
 
 ## Clinical / Research Implication
 
@@ -93,9 +95,11 @@ Depressive syndrome in older adult
 - 「老人住院後變混亂就是 dementia」不成立；急性波動先想 delirium。
 - 「MMSE 低於 cut-off 就能直接診斷 dementia」不成立。
 - 「病人說記性差一定只是正常老化」不成立；來源引用 AAN guidance 反對這種假設。
+- 「poststroke therapy participation 下降就是不配合」不成立；需鑑別 delirium、depression、apathy、anxiety、PBA、pain、sleep 與 communication/cognitive barrier。
 
 ## Links
 
 - [[正常老化與Pathological_Cognitive_Decline]]
 - [[Dementia_復健與Caregiver支持框架]]
 - [[復健心理社會評估與介入]]
+- [[Poststroke_Neuropsychiatric_Disorders_辨識與轉介]]

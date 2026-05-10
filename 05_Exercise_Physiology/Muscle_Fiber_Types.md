@@ -6,10 +6,10 @@ type: concept
 domain: [exercise_physiology, muscle_biology]
 tags: [muscle_fiber_type, myosin, MHC, oxidative_capacity, CSA, specific_force, hybrid_fibers]
 sources:
-  - 09_來源摘要/Blemker_2023_fiber_type_traps.md
-  - 09_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism.md
-  - 09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle.md
-source_tier: 1
+  - 10_來源摘要/Blemker_2023_fiber_type_traps.md
+  - 10_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism.md
+  - 10_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle.md
+source_tier: 4
 evidence_level: consensus
 confidence: high
 contested: true
@@ -21,6 +21,8 @@ contradictions: []
 ## 一句話定義
 
 「muscle fiber type」不是單一軸線，而是至少包含 **myosin heavy chain（MHC）isoform、oxidative capacity、fiber cross-sectional area（CSA）、specific force** 等彼此只部分相關的屬性集合。
+
+本頁是多來源 composite page；Blemker et al. 2023/2024 的單一來源拆頁見 [[Muscle_Fiber_Type_Traps]]。
 
 ## 核心機制
 
@@ -46,6 +48,8 @@ contradictions: []
 - 單靠 fiber type 分布，不能可靠推回整塊肌肉的 force-generating capacity。
 
 ### 三個常見陷阱
+
+Blemker et al. 2023/2024 的完整單一來源拆解見 [[Muscle_Fiber_Type_Traps]]。
 
 ### Trap 1：把 MHC 與 oxidative capacity 視為同一件事
 
@@ -141,13 +145,13 @@ contradictions: []
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Blemker_2023_fiber_type_traps]]
-- [[09_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism]]
-- [[09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]
+- [[10_來源摘要/Blemker_2023_fiber_type_traps]]
+- [[10_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism]]
+- [[10_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]
 
 ### 證據標記
 
-- 來源層級：1
+- 來源層級：4
 - evidence_level：consensus
 - confidence：high
 
@@ -156,11 +160,12 @@ contradictions: []
 ### 相關頁面
 
 - [[Skeletal_Muscle_Energy_Metabolism]]
+- [[Muscle_Fiber_Type_Traps]]
 - [[Skeletal_Muscle_Metabolic_Flexibility與Exercise_Adaptation]]
 - [[PCr_Resynthesis]]
 - [[../04_CPET/VO2_Slow_Component]]
 - [[../04_CPET/VO2_Kinetics]]
 - [[../04_CPET/Critical_Power]]
-- [[../09_來源摘要/Blemker_2023_fiber_type_traps]]
-- [[../09_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism]]
-- [[../09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]
+- [[../10_來源摘要/Blemker_2023_fiber_type_traps]]
+- [[../10_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism]]
+- [[../10_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]

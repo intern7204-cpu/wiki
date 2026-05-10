@@ -6,7 +6,7 @@ type: concept
 domain: [neurorehabilitation, motor_learning, neuroplasticity]
 tags: [motor_learning, neuroplasticity, task_practice, feedback, self_management, robotics, FNS, BCI, tDCS, pharmacologic_adjunct]
 sources:
-  - 09_來源摘要/Neurological_Rehabilitation.md
+  - 10_來源摘要/Neurological_Rehabilitation.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Neurorehabilitation motor learning 是用 goal-directed practice、feedback、pr
 
 - 本頁整理 Neurological Rehabilitation 來源中的 motor learning、biological bases of recovery、technology adjuncts 與 self-management。
 - 本頁不做 robotics、BCI、tDCS、FNS 或 pharmacologic adjunct 的最新證據統整。
-- 本頁只使用單一來源：[[../09_來源摘要/Neurological_Rehabilitation]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Neurological_Rehabilitation]]。
 
 ## Why It Matters
 

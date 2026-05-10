@@ -1,16 +1,20 @@
 ---
 title: Training Intensity Distribution（TID）
 created: 2026-04-23
-updated: 2026-05-04
+updated: 2026-05-09
 type: concept
 domain: [exercise_physiology, training]
 tags: [training_intensity_distribution, polarized, pyramidal, threshold, HIIT, endurance_training]
 sources:
-  - 09_來源摘要/Oliveira_2024_polarized_training_meta_analysis.md
-  - 09_來源摘要/Poole_2020_anaerobic_threshold.md
-  - 09_來源摘要/Furrer_2023_molecular_athlete.md
-source_tier: 1
-evidence_level: emerging
+  - 10_來源摘要/Oliveira_2024_polarized_training_meta_analysis.md
+  - 10_來源摘要/Poole_2020_anaerobic_threshold.md
+  - 10_來源摘要/Furrer_2023_molecular_athlete.md
+  - 10_來源摘要/Storoschuk_2025_zone2_training_narrative_review.md
+  - 10_來源摘要/Nuuttila_2026_low_intensity_endurance_training_meta_analysis.md
+  - 10_來源摘要/Sitko_2025_zone2_training_expert_viewpoint.md
+  - 10_來源摘要/Matomaki_2025_low_intensity_endurance_training_athlete_hypotheses.md
+source_tier: 3
+evidence_level: systematic_review_meta_analysis_with_review_and_perspective_context
 confidence: medium
 contested: true
 contradictions: []
@@ -21,6 +25,8 @@ contradictions: []
 ## 一句話定義
 
 Training intensity distribution（TID）是把總訓練量分配到不同生理強度域的方式；其核心不是「哪個模型名字較流行」，而是**用客觀 domain 邊界分配 volume**。
+
+Oliveira et al. 2024 對 POL vs other TIDs 的單一來源證據邊界見 [[Polarized_Training_證據邊界]]。Storoschuk et al. 2025 對 popular Zone 2 claim 的證據邊界見 [[Zone_2_Training_證據邊界]]。Nuuttila et al. 2026 對 healthy working-age sedentary / untrained adults 的 LIT systematic review 見 [[Low_Intensity_Endurance_Training_健康成人證據邊界]]。Sitko et al. 2025 expert viewpoint 對 Zone 2 practical definition / monitoring 的整理見 [[Zone_2_Training_實務定義與監測]]。Matomäki 2025 對高階 endurance athletes 大量 LI training 的 hypothesis framework 見 [[Low_Intensity_Endurance_Training_運動員假說框架]]。
 
 ## 核心機制
 
@@ -48,6 +54,8 @@ Training intensity distribution（TID）是把總訓練量分配到不同生理�
 
 ### Oliveira 2024 systematic review + meta-analysis
 
+完整單一來源拆解見 [[Polarized_Training_證據邊界]]。
+
 - 17 studies，437 位受試者。
 - 與其他 TID 相比，**POL 只在 V̇O₂peak 有 small but significant 優勢**。
 - 效果量：
@@ -72,6 +80,39 @@ Training intensity distribution（TID）是把總訓練量分配到不同生理�
 - 研究之間對 Z2 的定義並不一致：有些用 VT1-VT2，有些用 LT1-LT2，有些用 HR 區間。
 - 「POL」操作定義也不一致，常見 75/5/20 到 85/5/10 都被歸為 POL。
 - 若沒有實測 threshold，只用 %HRmax 或 %V̇O₂max 分 zone，誤差會很大。
+- Oliveira 2024 也提醒，部分 included reports 未揭露實際 %TID，且 weekly TRIMP、volume、intensity、frequency reporting 不完整；因此比較 TID 時，不能只看 POL / PYR / THR label，還要檢查實際 training load 是否等量。
+
+### Nuuttila 2026：LIT 對 untrained adults 有效，但強度錨點仍是限制
+
+完整單一來源拆解見 [[Low_Intensity_Endurance_Training_健康成人證據邊界]]。
+
+- 50 RCTs，824 intervention participants，708 controls。
+- 族群主要是 healthy sedentary / untrained adults；不是 athlete 或疾病復健族群。
+- LIT 對 relative VO2max、absolute VO2max 與 Pmax 有 large effect，對 VT1 有 moderate effect。
+- 對 total cholesterol、LDL、HDL、triglycerides、SBP、DBP 的效果較小；glucose effect trivial。
+- Higher intensity within LIT 主要和 VO2max response 有關；health-related biomarkers 沒有同樣一致的 intensity relationship。
+- 只有一篇 included study 用 LT1 / VT1 prescription；因此 fixed %HRmax / %VO2max 的 LIT label 不能保證每個人都在相同 physiological domain。
+
+### Sitko 2025：Zone 2 實務定義是 internal-load target，不是只守 external load
+
+完整單一來源拆解見 [[Zone_2_Training_實務定義與監測]]。
+
+- Expert panel 將 practical Zone 2 定位於 immediately below LT1 / VT1。
+- 常用 markers 包含 lactate 約 1-2 mmol/L、HR 約 70-80% HRmax 或 80-90% LT1 HR、Borg RPE 約 10、power 約 75-80% critical power。
+- Long sessions 中 power / pace 與 HR / RPE 可因 fatigue、dehydration、glycogen depletion 或 cardiac drift 逐漸 decouple。
+- 因此若目標是維持 Zone 2 internal load，後段降低 external load 可能比硬守 wattage / pace 更合理。
+- 本來源是 expert viewpoint，不證明 Zone 2 adaptations 獨有或優於其他強度。
+
+### Matomäki 2025：athlete LI paradox 是 hypothesis framework，不是 proof
+
+完整單一來源拆解見 [[Low_Intensity_Endurance_Training_運動員假說框架]]。
+
+- Source 將 athlete 定義為至少 McKay Tier 3：national-level competition、within 20% of world record、structured / periodized training。
+- 核心 paradox：高階 endurance athletes 大量累積 LI training，但單次 LI exercise 對 cardiopulmonary system、homeostasis 與 metabolic perturbation 的急性挑戰較小。
+- Source 提出七個非互斥假說：low-stress maintenance、alternative molecular signals、long-term structural remodeling、unmeasured components、psychological need、strengthening HI adaptations、possible replaceability。
+- 這是 perspective / hypothesis article；不能寫成 high-volume LI training 的必要性、superiority 或不可替代性已被證明。
+- Source 指出 intensity-zone prescription 會受 HR、velocity、threshold velocity 或 race pace anchoring 影響；但 group-level pattern 仍顯示 physiological LI zone 是主要 training zone。
+- 對 untrained individuals，source 自身指出沒有同樣 paradox，因為 LI training 仍可能充分挑戰 cardiopulmonary system 並改善 VO2max 與 threshold intensity。
 
 ## 臨床表現
 
@@ -115,6 +156,7 @@ Training intensity distribution（TID）是把總訓練量分配到不同生理�
 - 女性樣本不足。
 - 很多研究依賴 retrospective training diary。
 - 長期介入（≥12 週）與真實賽季情境的比較仍不足。
+- Oliveira 2024 的 highly trained / national-level subgroup 與 shorter intervention duration 無法完全拆開；不能把 subgroup finding 直接當作獨立機制證明。
 
 ## 理解缺口
 
@@ -133,14 +175,18 @@ Training intensity distribution（TID）是把總訓練量分配到不同生理�
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]
-- [[09_來源摘要/Poole_2020_anaerobic_threshold]]
-- [[09_來源摘要/Furrer_2023_molecular_athlete]]
+- [[10_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]
+- [[10_來源摘要/Poole_2020_anaerobic_threshold]]
+- [[10_來源摘要/Furrer_2023_molecular_athlete]]
+- [[10_來源摘要/Nuuttila_2026_low_intensity_endurance_training_meta_analysis]]
+- [[10_來源摘要/Sitko_2025_zone2_training_expert_viewpoint]]
+- [[10_來源摘要/Storoschuk_2025_zone2_training_narrative_review]]
+- [[10_來源摘要/Matomaki_2025_low_intensity_endurance_training_athlete_hypotheses]]
 
 ### 證據標記
 
-- 來源層級：1
-- evidence_level：emerging
+- 來源層級：3（最高層級來源為 systematic review / meta-analysis；Matomäki 2025 為 Tier 4 perspective）
+- evidence_level：systematic_review_meta_analysis_with_review_and_perspective_context
 - confidence：medium
 
 ## 相關頁面
@@ -148,10 +194,18 @@ Training intensity distribution（TID）是把總訓練量分配到不同生理�
 ### 相關頁面
 
 - [[Skeletal_Muscle_Energy_Metabolism]]
+- [[Polarized_Training_證據邊界]]
+- [[Low_Intensity_Endurance_Training_運動員假說框架]]
+- [[Zone_2_Training_證據邊界]]
+- [[Zone_2_Training_實務定義與監測]]
 - [[../04_CPET/Exercise_Intensity_Domains]]
 - [[../04_CPET/Lactate_Threshold]]
 - [[../04_CPET/Gas_Exchange_Threshold]]
 - [[../04_CPET/Critical_Power]]
 - [[../04_CPET/Training_Prescription_by_CP]]
-- [[../09_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]
-- [[../09_來源摘要/Furrer_2023_molecular_athlete]]
+- [[../10_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]
+- [[../10_來源摘要/Furrer_2023_molecular_athlete]]
+- [[../10_來源摘要/Storoschuk_2025_zone2_training_narrative_review]]
+- [[../10_來源摘要/Nuuttila_2026_low_intensity_endurance_training_meta_analysis]]
+- [[../10_來源摘要/Sitko_2025_zone2_training_expert_viewpoint]]
+- [[../10_來源摘要/Matomaki_2025_low_intensity_endurance_training_athlete_hypotheses]]

@@ -6,7 +6,7 @@ type: concept
 domain: [stroke, neurorehabilitation, motor_learning]
 tags: [movement_reeducation, compensation, learned_nonuse, postural_control, task_practice, motor_learning, stroke]
 sources:
-  - 09_來源摘要/Movement_Dysfunction_in_Stroke.md
+  - 10_來源摘要/Movement_Dysfunction_in_Stroke.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Poststroke movement reeducation 是以 active patient-initiated movement、task-
 
 - 本頁整理 poststroke motor reeducation、assisted movement、learned nonuse 與 compensation decision。
 - 本頁不宣稱任何單一 stroke rehab technique 絕對優於其他方法。
-- 本頁只使用單一來源：[[../09_來源摘要/Movement_Dysfunction_in_Stroke]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Movement_Dysfunction_in_Stroke]]。
 
 ## Why It Matters
 

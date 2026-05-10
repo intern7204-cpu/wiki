@@ -6,9 +6,9 @@ type: clinical
 domain: [pediatric, neurodevelopmental, treatment]
 tags: [ADHD, PTBM, school_support, prognosis, chronic_care]
 sources:
-  - 09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Overview_of_treatment_and_prognosis.md
-  - 09_來源摘要/Attention_Deficit_Hyperactivity_Disorder.md
-  - 09_來源摘要/Attention_Deficit_Hyperactivity_Disorder_ADHD.md
+  - 10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Overview_of_treatment_and_prognosis.md
+  - 10_來源摘要/Attention_Deficit_Hyperactivity_Disorder.md
+  - 10_來源摘要/Attention_Deficit_Hyperactivity_Disorder_ADHD.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -95,9 +95,9 @@ ADHD treatment 是以 **measurable goal setting + psychosocial intervention + sc
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Overview_of_treatment_and_prognosis]]
-- [[09_來源摘要/Attention_Deficit_Hyperactivity_Disorder]]
-- [[09_來源摘要/Attention_Deficit_Hyperactivity_Disorder_ADHD]]
+- [[10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Overview_of_treatment_and_prognosis]]
+- [[10_來源摘要/Attention_Deficit_Hyperactivity_Disorder]]
+- [[10_來源摘要/Attention_Deficit_Hyperactivity_Disorder_ADHD]]
 
 ### 證據標記
 
@@ -114,5 +114,5 @@ ADHD treatment 是以 **measurable goal setting + psychosocial intervention + sc
 - [[ADHD_藥物治療與安全]]
 - [[ADHD_睡眠與常見共病]]
 - [[兒童OT與PT復健服務]]
-- [[../09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Overview_of_treatment_and_prognosis]]
-- [[../09_來源摘要/Attention_Deficit_Hyperactivity_Disorder_ADHD]]
+- [[../10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Overview_of_treatment_and_prognosis]]
+- [[../10_來源摘要/Attention_Deficit_Hyperactivity_Disorder_ADHD]]

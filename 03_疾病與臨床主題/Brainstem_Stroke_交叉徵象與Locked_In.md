@@ -6,7 +6,7 @@ type: concept
 domain: [stroke, brainstem, neurorehabilitation]
 tags: [vertebrobasilar_stroke, crossed_signs, locked_in_syndrome, pseudobulbar_palsy, dysphagia, posterior_circulation]
 sources:
-  - 09_來源摘要/Brainstem_Syndromes.md
+  - 10_來源摘要/Brainstem_Syndromes.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Brainstem stroke 常以 cranial nerve deficit 加 long tract sign 呈現；當 b
 
 - 本頁整理 brainstem ischemic stroke 的 crossed signs、posterior circulation pattern、locked-in syndrome 與 pseudobulbar / bulbar implication。
 - 本頁不處理 reperfusion eligibility、血壓目標或 antithrombotic prescription。
-- 本頁只使用單一來源：[[../09_來源摘要/Brainstem_Syndromes]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Brainstem_Syndromes]]。
 
 ## Why It Matters
 

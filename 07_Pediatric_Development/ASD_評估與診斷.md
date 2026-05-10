@@ -6,9 +6,9 @@ type: clinical
 domain: [pediatric, neurodevelopmental, diagnosis]
 tags: [ASD, diagnosis, ADOS-2, ADI-R, differential_diagnosis, genetics]
 sources:
-  - 09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Evaluation_and_diagnosis.md
-  - 09_來源摘要/Autism_Spectrum_Disorder.md
-  - 09_來源摘要/Autism_Spectrum_Disorder_ASD.md
+  - 10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Evaluation_and_diagnosis.md
+  - 10_來源摘要/Autism_Spectrum_Disorder.md
+  - 10_來源摘要/Autism_Spectrum_Disorder_ASD.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -105,9 +105,9 @@ ASD diagnosis 是 **multi-informant, developmental, function-oriented comprehens
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Evaluation_and_diagnosis]]
-- [[09_來源摘要/Autism_Spectrum_Disorder]]
-- [[09_來源摘要/Autism_Spectrum_Disorder_ASD]]
+- [[10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Evaluation_and_diagnosis]]
+- [[10_來源摘要/Autism_Spectrum_Disorder]]
+- [[10_來源摘要/Autism_Spectrum_Disorder_ASD]]
 
 ### 證據標記
 
@@ -124,6 +124,6 @@ ASD diagnosis 是 **multi-informant, developmental, function-oriented comprehens
 - [[ASD_篩檢與早期辨識]]
 - [[ASD_介入與預後]]
 - [[小兒復健評估]]
-- [[../09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Evaluation_and_diagnosis]]
-- [[../09_來源摘要/Autism_Spectrum_Disorder]]
-- [[../09_來源摘要/Autism_Spectrum_Disorder_ASD]]
+- [[../10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Evaluation_and_diagnosis]]
+- [[../10_來源摘要/Autism_Spectrum_Disorder]]
+- [[../10_來源摘要/Autism_Spectrum_Disorder_ASD]]

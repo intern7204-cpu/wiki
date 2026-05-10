@@ -6,7 +6,7 @@ type: concept
 domain: [rehabilitation, neuromuscular, spasticity]
 tags: [spasticity, contracture, stiffness, weakness, botulinum_toxin]
 sources:
-  - 09_來源摘要/Spasticity.md
+  - 10_來源摘要/Spasticity.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -61,4 +61,4 @@ CNS lesion
 ## Links
 
 - [[Spasticity_概論]]
-- [[../09_來源摘要/Spasticity]]
+- [[../10_來源摘要/Spasticity]]

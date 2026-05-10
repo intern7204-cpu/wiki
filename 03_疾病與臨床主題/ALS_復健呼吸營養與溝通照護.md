@@ -6,7 +6,7 @@ type: concept
 domain: [ALS, rehabilitation, respiratory_care, nutrition, communication]
 tags: [ALS, rehabilitation, NIV, PEG, RIG, AAC, exercise, dysphagia, palliative_care]
 sources:
-  - 09_來源摘要/Motor_Neuron_Diseases.md
+  - 10_來源摘要/Motor_Neuron_Diseases.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -24,7 +24,7 @@ ALS care 是 anticipatory multidisciplinary care：用 stage-based rehabilitatio
 ## Definition and Boundary
 
 - 本頁整理 ALS supportive / rehabilitation care，不是 disease-modifying medication protocol。
-- 本頁只使用單一來源：[[../09_來源摘要/Motor_Neuron_Diseases]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Motor_Neuron_Diseases]]。
 
 ## Why It Matters
 
@@ -102,4 +102,4 @@ Progressive UMN / LMN loss
 - [[Myopathy_呼吸心臟吞嚥風險]]
 - [[輪椅與座位系統總論]]
 - [[輔具匹配失敗的常見機制]]
-- [[../09_來源摘要/Motor_Neuron_Diseases]]
+- [[../10_來源摘要/Motor_Neuron_Diseases]]

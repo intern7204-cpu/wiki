@@ -6,14 +6,15 @@ type: concept
 domain: [exercise_physiology]
 tags: [muscle_metabolism, PCr, glycolysis, oxidative_phosphorylation, substrate_utilization, training_adaptation, fiber_type]
 sources:
-  - 09_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism.md
-  - 09_來源摘要/Poole_2020_anaerobic_threshold.md
-  - 09_來源摘要/Blemker_2023_fiber_type_traps.md
-  - 09_來源摘要/Kemp_1993_PCr_resynthesis.md
-  - 09_來源摘要/Oliveira_2024_polarized_training_meta_analysis.md
-  - 09_來源摘要/Severinsen_Pedersen_2020_myokines_muscle_organ_crosstalk.md
-  - 09_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses.md
-  - 09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle.md
+  - 10_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism.md
+  - 10_來源摘要/Poole_2020_anaerobic_threshold.md
+  - 10_來源摘要/Blemker_2023_fiber_type_traps.md
+  - 10_來源摘要/Kemp_1993_PCr_resynthesis.md
+  - 10_來源摘要/Oliveira_2024_polarized_training_meta_analysis.md
+  - 10_來源摘要/Severinsen_Pedersen_2020_myokines_muscle_organ_crosstalk.md
+  - 10_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses.md
+  - 10_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle.md
+  - 10_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -72,6 +73,7 @@ contradictions: []
 - Exercise onset 前 30-60 秒常出現 oxidative phosphorylation lag；即使 blood flow / oxygen 足夠，仍需要 oxygen-independent ATP resynthesis bridge。
 - 高強度時 glycolytic flux 可耗用 free carnitine pool，限制 long-chain fatty acid import，使 NEFA oxidation contribution 下降。
 - Glycogen、IMCL 與 mitochondria 不是只有「總量」問題；subcellular location、turnover、與 mitochondrial / myofibrillar networks 的接觸同樣影響運動代謝。
+- [[Skeletal_Muscle_Mitochondrial_Reticulum]] 專門處理 subsarcolemmal / peripheral mitochondria、intermyofibrillar mitochondria 與 mitochondrial reticulum 如何支撐 fiber 內能量配送與 quality control。
 - Training 會重塑 mitochondrial respiration、capillarization、LDHB / lactate handling、substrate use 與 hybrid fiber distribution，使同一 workload 下的代謝成本與疲勞模式改變。
 - 這部分的單一概念頁見 [[Skeletal_Muscle_Metabolic_Flexibility與Exercise_Adaptation]]。
 
@@ -119,6 +121,7 @@ contradictions: []
 
 - 這一頁是連接 CPET 現象、muscle bioenergetics、recovery physiology 與 training adaptation 的主幹頁。
 - 研究或臨床解釋若忽略 fiber type 解耦、PCr recovery 或 domain 概念，常會過度簡化。
+- 若要討論 carbohydrate loading、creatine、caffeine、β-alanine、bicarbonate、nitrate、ketone / high-fat approach 或 antioxidant，先到 [[運動營養與Ergogenic_Aids]]，用 event demand 與 limiting mechanism 判斷是否合理。
 
 ## 評估方式
 
@@ -155,14 +158,14 @@ contradictions: []
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism]]
-- [[09_來源摘要/Poole_2020_anaerobic_threshold]]
-- [[09_來源摘要/Blemker_2023_fiber_type_traps]]
-- [[09_來源摘要/Kemp_1993_PCr_resynthesis]]
-- [[09_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]
-- [[09_來源摘要/Severinsen_Pedersen_2020_myokines_muscle_organ_crosstalk]]
-- [[09_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses]]
-- [[09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]
+- [[10_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism]]
+- [[10_來源摘要/Poole_2020_anaerobic_threshold]]
+- [[10_來源摘要/Blemker_2023_fiber_type_traps]]
+- [[10_來源摘要/Kemp_1993_PCr_resynthesis]]
+- [[10_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]
+- [[10_來源摘要/Severinsen_Pedersen_2020_myokines_muscle_organ_crosstalk]]
+- [[10_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses]]
+- [[10_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]
 
 ### 證據標記
 
@@ -176,18 +179,20 @@ contradictions: []
 
 - [[Lactate_Shuttle]]
 - [[Muscle_Fiber_Types]]
+- [[Skeletal_Muscle_Mitochondrial_Reticulum]]
 - [[Skeletal_Muscle_Metabolic_Flexibility與Exercise_Adaptation]]
 - [[PCr_Resynthesis]]
 - [[Training_Intensity_Distribution]]
+- [[運動營養與Ergogenic_Aids]]
 - [[Acute_Exercise_Molecular_Response與Skeletal_Muscle_Adaptation]]
 - [[../04_CPET/VO2_Kinetics]]
 - [[../04_CPET/VO2_Slow_Component]]
 - [[../04_CPET/Critical_Power]]
 - [[../04_CPET/Exercise_Intensity_Domains]]
 - [[Myokines_與_Muscle_Organ_Crosstalk]]
-- [[../09_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism]]
-- [[../09_來源摘要/Blemker_2023_fiber_type_traps]]
-- [[../09_來源摘要/Kemp_1993_PCr_resynthesis]]
-- [[../09_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]
-- [[../09_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses]]
-- [[../09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]
+- [[../10_來源摘要/Hargreaves_Spriet_2020_muscle_energy_metabolism]]
+- [[../10_來源摘要/Blemker_2023_fiber_type_traps]]
+- [[../10_來源摘要/Kemp_1993_PCr_resynthesis]]
+- [[../10_來源摘要/Oliveira_2024_polarized_training_meta_analysis]]
+- [[../10_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses]]
+- [[../10_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]

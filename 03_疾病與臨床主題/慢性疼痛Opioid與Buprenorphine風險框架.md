@@ -6,7 +6,7 @@ type: concept
 domain: [chronic_pain, medication, opioid_safety]
 tags: [opioids, buprenorphine, chronic_pain, OUD, opioid_induced_hyperalgesia, tapering]
 sources:
-  - 09_來源摘要/Chronic_Pain.md
+  - 10_來源摘要/Chronic_Pain.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Chronic noncancer pain 的 opioid decision 需同時評估 function benefit、lo
 
 - 本頁整理 Chronic Pain 來源中的 long-term opioid therapy 與 buprenorphine 風險邏輯。
 - 本頁不是 opioid prescribing protocol，不提供劑量、轉換比或 taper schedule。
-- 本頁只使用單一來源：[[../09_來源摘要/Chronic_Pain]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Chronic_Pain]]。
 
 ## Why It Matters
 
@@ -93,5 +93,5 @@ Chronic pain and opioid exposure
 - [[神經痛藥物治療框架]]
 - [[Nociceptive_Neuropathic_Nociplastic_Pain]]
 - [[疼痛管理_Biopsychosocial_ICF框架]]
-- [[../09_來源摘要/Chronic_Pain]]
+- [[../10_來源摘要/Chronic_Pain]]
 

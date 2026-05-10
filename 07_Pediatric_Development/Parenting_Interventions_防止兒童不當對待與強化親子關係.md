@@ -6,9 +6,9 @@ type: concept
 domain: [pediatrics, development, parenting, child_maltreatment]
 tags: [parenting_interventions, child_maltreatment, harsh_parenting, positive_parenting, parent_child_relationship, WHO_guideline]
 sources:
-  - 09_來源摘要/WHO_guidelines_on_parenting_interventions.md
-  - 09_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition.md
-  - 09_來源摘要/Jeong_2021_parenting_interventions_ECD_first_three_years.md
+  - 10_來源摘要/WHO_guidelines_on_parenting_interventions.md
+  - 10_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition.md
+  - 10_來源摘要/Jeong_2021_parenting_interventions_ECD_first_three_years.md
 source_tier: 1
 evidence_level: guideline
 confidence: high
@@ -136,5 +136,5 @@ Caregiver receives structured skill practice
 - [[創傷_復原力與兒童發展]]
 - [[Toxic_Stress]]
 - [[早期發展與終身健康]]
-- [[../09_來源摘要/WHO_guidelines_on_parenting_interventions]]
-- [[../09_來源摘要/Jeong_2021_parenting_interventions_ECD_first_three_years]]
+- [[../10_來源摘要/WHO_guidelines_on_parenting_interventions]]
+- [[../10_來源摘要/Jeong_2021_parenting_interventions_ECD_first_three_years]]

@@ -6,7 +6,7 @@ type: concept
 domain: [pediatrics, development, sleep, early_childhood]
 tags: [sleep, early_childhood, naps, memory_consolidation, emotional_regulation, light_exposure, melatonin, temperature, childcare]
 sources:
-  - 09_來源摘要/Why_Sleep_Matters_in_Early_Childhood_Development.md
+  - 10_來源摘要/Why_Sleep_Matters_in_Early_Childhood_Development.md
 source_tier: 2
 evidence_level: science-translation podcast transcript
 confidence: moderate_for_mechanism_framing_low_for_medication_guidance
@@ -137,4 +137,4 @@ Young child receives high cognitive, sensory, motor, and emotional input
 - [[照顧者健康與兒童健康發展]]
 - [[發展環境穩定性]]
 - [[氣候變遷與兒童發展]]
-- [[../09_來源摘要/Why_Sleep_Matters_in_Early_Childhood_Development]]
+- [[../10_來源摘要/Why_Sleep_Matters_in_Early_Childhood_Development]]

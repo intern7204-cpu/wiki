@@ -6,8 +6,8 @@ type: clinical
 domain: [rehabilitation, sports_medicine, foot_ankle]
 tags: [syndesmosis, high_ankle_sprain, AITFL, mortise_stability, return_to_sport]
 sources:
-  - 09_來源摘要/Syndesmotic_ankle_injury_high_ankle_sprain.md
-  - 09_來源摘要/Ankle_sprain_in_adults_Evaluation_and_diagnosis.md
+  - 10_來源摘要/Syndesmotic_ankle_injury_high_ankle_sprain.md
+  - 10_來源摘要/Ankle_sprain_in_adults_Evaluation_and_diagnosis.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -111,8 +111,8 @@ Syndesmotic ankle injury 是 distal tibiofibular syndesmosis 的穩定性損傷�
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Syndesmotic_ankle_injury_high_ankle_sprain]]
-- [[09_來源摘要/Ankle_sprain_in_adults_Evaluation_and_diagnosis]]
+- [[10_來源摘要/Syndesmotic_ankle_injury_high_ankle_sprain]]
+- [[10_來源摘要/Ankle_sprain_in_adults_Evaluation_and_diagnosis]]
 
 ### 證據標記
 
@@ -128,4 +128,4 @@ Syndesmotic ankle injury 是 distal tibiofibular syndesmosis 的穩定性損傷�
 - [[Achilles_tendinopathy]]
 - [[足部疼痛分區評估]]
 - [[../06_Gait_Biomechanics/步態評估總論]]
-- [[../09_來源摘要/Syndesmotic_ankle_injury_high_ankle_sprain]]
+- [[../10_來源摘要/Syndesmotic_ankle_injury_high_ankle_sprain]]

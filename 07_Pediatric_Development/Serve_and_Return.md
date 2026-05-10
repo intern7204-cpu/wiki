@@ -6,9 +6,9 @@ type: concept
 domain: [pediatric, development, parenting]
 tags: [serve_and_return, responsive_relationships, attachment, early_language, co_regulation]
 sources:
-  - 09_來源摘要/Infancy.md
-  - 09_來源摘要/Serve_and_Return.md
-  - 09_來源摘要/Mattering_in_Early_Childhood.md
+  - 10_來源摘要/Infancy.md
+  - 10_來源摘要/Serve_and_Return.md
+  - 10_來源摘要/Mattering_in_Early_Childhood.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -128,10 +128,10 @@ Serve and Return 是 **child 發出 cue，adult notice 並 contingently respond 
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Infancy]]
-- [[09_來源摘要/Serve_and_Return]]
-- [[09_來源摘要/Mattering_in_Early_Childhood]]
-- [[09_來源摘要/Encouraging_infant_communication_and_play]]
+- [[10_來源摘要/Infancy]]
+- [[10_來源摘要/Serve_and_Return]]
+- [[10_來源摘要/Mattering_in_Early_Childhood]]
+- [[10_來源摘要/Encouraging_infant_communication_and_play]]
 
 ### 證據標記
 
@@ -146,4 +146,4 @@ Serve and Return 是 **child 發出 cue，adult notice 並 contingently respond 
 - [[幼兒與學齡前期發展]]
 - [[托育與Early_Care_and_Education]]
 - [[Mattering_總論]]
-- [[09_來源摘要/Serve_and_Return]]
+- [[10_來源摘要/Serve_and_Return]]

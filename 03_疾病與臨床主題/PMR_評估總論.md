@@ -6,15 +6,15 @@ type: clinical
 domain: [rehabilitation, PMR, methodology]
 tags: [physiatry, history_and_physical, functional_assessment, care_planning, gait]
 sources:
-  - 09_來源摘要/The_physiatric_history_and_physical_examination.md
-  - 09_來源摘要/The_Physiatric_History_and_Physical_Examination_handbook.md
-  - 09_來源摘要/Examination_of_the_pediatric_patient.md
-  - 09_來源摘要/Wheelchairs_and_seating_systems.md
-  - 09_來源摘要/Assistive_technology_and_environmental_control_devices.md
-  - 09_來源摘要/Therapeutic_exercise.md
-  - 09_來源摘要/Occupational_medicine_and_vocational_rehabilitation.md
-  - 09_來源摘要/Practical_aspects_of_impairment_rating_and_disability_determination.md
-  - 09_來源摘要/Interprofessional_Team_Based_Care.md
+  - 10_來源摘要/The_physiatric_history_and_physical_examination.md
+  - 10_來源摘要/The_Physiatric_History_and_Physical_Examination_handbook.md
+  - 10_來源摘要/Examination_of_the_pediatric_patient.md
+  - 10_來源摘要/Wheelchairs_and_seating_systems.md
+  - 10_來源摘要/Assistive_technology_and_environmental_control_devices.md
+  - 10_來源摘要/Therapeutic_exercise.md
+  - 10_來源摘要/Occupational_medicine_and_vocational_rehabilitation.md
+  - 10_來源摘要/Practical_aspects_of_impairment_rating_and_disability_determination.md
+  - 10_來源摘要/Interprofessional_Team_Based_Care.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -104,15 +104,15 @@ PM&R assessment 的任務是回答三件事：**病灶在哪裡、它如何限�
 
 ### 來源摘要連結
 
-- [[09_來源摘要/The_physiatric_history_and_physical_examination]]
-- [[09_來源摘要/The_Physiatric_History_and_Physical_Examination_handbook]]
-- [[09_來源摘要/Examination_of_the_pediatric_patient]]
-- [[09_來源摘要/Wheelchairs_and_seating_systems]]
-- [[09_來源摘要/Assistive_technology_and_environmental_control_devices]]
-- [[09_來源摘要/Therapeutic_exercise]]
-- [[09_來源摘要/Occupational_medicine_and_vocational_rehabilitation]]
-- [[09_來源摘要/Practical_aspects_of_impairment_rating_and_disability_determination]]
-- [[09_來源摘要/Interprofessional_Team_Based_Care]]
+- [[10_來源摘要/The_physiatric_history_and_physical_examination]]
+- [[10_來源摘要/The_Physiatric_History_and_Physical_Examination_handbook]]
+- [[10_來源摘要/Examination_of_the_pediatric_patient]]
+- [[10_來源摘要/Wheelchairs_and_seating_systems]]
+- [[10_來源摘要/Assistive_technology_and_environmental_control_devices]]
+- [[10_來源摘要/Therapeutic_exercise]]
+- [[10_來源摘要/Occupational_medicine_and_vocational_rehabilitation]]
+- [[10_來源摘要/Practical_aspects_of_impairment_rating_and_disability_determination]]
+- [[10_來源摘要/Interprofessional_Team_Based_Care]]
 
 ### 證據標記
 
@@ -126,7 +126,7 @@ PM&R assessment 的任務是回答三件事：**病灶在哪裡、它如何限�
 
 - [[../01_核心概念/ICF_功能框架]]
 - [[../02_方法學/PMR_醫療問題與功能問題清單]]
-- [[../02_方法學/電生理診斷醫學]]
+- [[../09_NCV EMG 周邊神經病變/電生理診斷醫學]]
 - [[../06_Gait_Biomechanics/步態評估總論]]
 - [[../07_Pediatric_Development/小兒復健評估]]
 - [[../02_方法學/治療性運動處方]]
@@ -146,5 +146,5 @@ PM&R assessment 的任務是回答三件事：**病灶在哪裡、它如何限�
 - [[吞嚥障礙復健總論]]
 - [[../02_方法學/復健心理社會評估與介入]]
 - [[../02_方法學/復健品質與結局指標]]
-- [[../09_來源摘要/The_physiatric_history_and_physical_examination]]
-- [[../09_來源摘要/The_Physiatric_History_and_Physical_Examination_handbook]]
+- [[../10_來源摘要/The_physiatric_history_and_physical_examination]]
+- [[../10_來源摘要/The_Physiatric_History_and_Physical_Examination_handbook]]

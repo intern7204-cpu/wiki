@@ -1,23 +1,24 @@
 ---
 title: CP / W' Interval Design（以 CP / W' 設計 severe-domain intervals）
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-08
 type: method
 domain: [CPET, exercise_physiology, training]
 tags: [critical_power, W_prime, interval_training, W_BAL, severe_domain, recovery_prescription]
 sources:
-  - 09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training.md
-  - 09_來源摘要/Skiba_Clarke_Wprime_balance_model.md
-  - 09_來源摘要/Bartram_2018_Wprime_recovery_elite_cyclists.md
-  - 09_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion.md
-  - 09_來源摘要/Caen_2021_Wprime_recovery_two_phase.md
-  - 09_來源摘要/Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery.md
-  - 09_來源摘要/Lievens_2024_partial_Wprime_recovery.md
-  - 09_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution.md
-  - 09_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery.md
-  - 09_來源摘要/Karsten_2017_TT_vs_TTE_CP_Wprime.md
-  - 09_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime.md
-  - 09_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP.md
+  - 10_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training.md
+  - 10_來源摘要/Skiba_Clarke_Wprime_balance_model.md
+  - 10_來源摘要/Bartram_2018_Wprime_recovery_elite_cyclists.md
+  - 10_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion.md
+  - 10_來源摘要/Caen_2021_Wprime_recovery_two_phase.md
+  - 10_來源摘要/Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery.md
+  - 10_來源摘要/Lievens_2024_partial_Wprime_recovery.md
+  - 10_來源摘要/Goulding_2023_priming_exercise_VO2_kinetics.md
+  - 10_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution.md
+  - 10_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery.md
+  - 10_來源摘要/Karsten_2017_TT_vs_TTE_CP_Wprime.md
+  - 10_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime.md
+  - 10_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP.md
 source_tier: 1
 evidence_level: moderate
 confidence: medium
@@ -53,9 +54,16 @@ contradictions:
 
 只寫「`120% CP` 做 `6 x 2 min`」還不夠，因為 recovery 寫法不同，實際 session stress 會差很多。
 
+### priming exercise 不是通用 warm-up bonus
+
+- [[../10_來源摘要/Goulding_2023_priming_exercise_VO2_kinetics]] 提醒 prior heavy / severe exercise 對 performance 的影響，要看後續 exercise 相對於 [[Critical_Power]] 的位置與 recovery duration。
+- 若 priming 主要降低 `tauVO2`，CP 較可能增加。
+- 若 priming 主要增加 fundamental VO2 amplitude 並降低 [[VO2_Slow_Component]]，`W'` 較可能增加而 CP 不變。
+- prior severe-intensity priming 若 recovery 太短，可能降低後續 severe-domain tolerance；因此不能把 priming 寫成「越強越好」。
+
 ### 不能只看平均功率或總工作量
 
-- [[../09_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution]] 顯示：
+- [[../10_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution]] 顯示：
   - 即使 model 預測的 `W'BAL depletion` 類似
   - 不同 work / recovery structure 仍可能保留不同的實際可用 `W'`
 - 所以 interval architecture 本身就是處方的一部分。
@@ -65,16 +73,16 @@ contradictions:
 ### 1. 先確認輸入值是不是可信
 
 - `CP / W'` 從哪個 protocol 來，要先交代。
-- [[../09_來源摘要/Karsten_2017_TT_vs_TTE_CP_Wprime]] 提醒：
+- [[../10_來源摘要/Karsten_2017_TT_vs_TTE_CP_Wprime]] 提醒：
   - `CP` 可相近
   - 但 `W'` 不一定可在 `TT` 與 `TTE` 間直接互換
-- [[../09_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime]] 也提醒：
+- [[../10_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime]] 也提醒：
   - same-day exhaustive trials 若 inter-trial recovery 不夠
   - `W'` 比 `CP` 更容易失真
 
 ### 2. `W'BAL` 的角色是 guide，不是真值
 
-- [[../09_來源摘要/Skiba_Clarke_Wprime_balance_model]] 支持 `W'BAL` 有實用價值，
+- [[../10_來源摘要/Skiba_Clarke_Wprime_balance_model]] 支持 `W'BAL` 有實用價值，
   但它是建立在 model form 與 recovery parameter 上的估計。
 - 比較合理的用途是：
   - 同一受試者內前後追蹤
@@ -86,15 +94,16 @@ contradictions:
 
 ### 3. recovery 不能只寫「休多久」
 
-- [[../09_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery]] 提醒 recovery power 可能比單看 duration 更關鍵。
-- [[../09_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion]] 與 [[../09_來源摘要/Caen_2021_Wprime_recovery_two_phase]] 顯示 exhaustion 後 recovery 常呈 curvilinear，短 recovery 尤其不像單一固定 `tau`。
-- [[../09_來源摘要/Lievens_2024_partial_Wprime_recovery]] 又反向提醒：
+- [[../10_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery]] 提醒 recovery power 可能比單看 duration 更關鍵。
+- [[../10_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion]] 與 [[Exhaustion_Based_Two_Phase_Wprime_Recovery]] 顯示 exhaustion 後 recovery 常呈 curvilinear，短 recovery 尤其不像單一固定 `tau`。
+- [[../10_來源摘要/Lievens_2024_partial_Wprime_recovery]] 又反向提醒：
+  - 詳見 [[Partial_Wprime_Depletion_Recovery]]
   - partial depletion 不一定需要硬套 biexponential
   - 但固定 `tau` 仍不足
 
 ### 4. 前一段 work bout 也會改變後續 recovery
 
-- [[../09_來源摘要/Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery]] 顯示：
+- [[../10_來源摘要/Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery]] 顯示：
   - recovery 不只受 recovery power / duration 決定
   - 前一段 exhaustive bout 的 intensity-duration 特性也會改變回補速度
 - 實務語言就是：
@@ -103,7 +112,7 @@ contradictions:
 
 ### 5. physiology 可以支持方向，但不能把 model 直接當機制本體
 
-- [[../09_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP]] 顯示較長 recovery 伴隨更多 PCr reconstitution 與更高後續耐受。
+- [[../10_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP]] 顯示較長 recovery 伴隨更多 PCr reconstitution 與更高後續耐受。
 - 但這不等於 `W' = PCr tank`，也不等於所有 interval prescription 都能用單一代謝 proxy 決定。
 
 ## 實務處方框架
@@ -141,18 +150,19 @@ contradictions:
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
-- [[09_來源摘要/Skiba_Clarke_Wprime_balance_model]]
-- [[09_來源摘要/Bartram_2018_Wprime_recovery_elite_cyclists]]
-- [[09_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion]]
-- [[09_來源摘要/Caen_2021_Wprime_recovery_two_phase]]
-- [[09_來源摘要/Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery]]
-- [[09_來源摘要/Lievens_2024_partial_Wprime_recovery]]
-- [[09_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution]]
-- [[09_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery]]
-- [[09_來源摘要/Karsten_2017_TT_vs_TTE_CP_Wprime]]
-- [[09_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime]]
-- [[09_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP]]
+- [[10_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
+- [[10_來源摘要/Skiba_Clarke_Wprime_balance_model]]
+- [[10_來源摘要/Bartram_2018_Wprime_recovery_elite_cyclists]]
+- [[10_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion]]
+- [[10_來源摘要/Caen_2021_Wprime_recovery_two_phase]]
+- [[10_來源摘要/Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery]]
+- [[10_來源摘要/Lievens_2024_partial_Wprime_recovery]]
+- [[10_來源摘要/Goulding_2023_priming_exercise_VO2_kinetics]]
+- [[10_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution]]
+- [[10_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery]]
+- [[10_來源摘要/Karsten_2017_TT_vs_TTE_CP_Wprime]]
+- [[10_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime]]
+- [[10_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP]]
 
 ### 證據標記
 
@@ -166,7 +176,9 @@ contradictions:
 - [[Critical_Power]]
 - [[Wprime_Balance_Model]]
 - [[Wprime_Recovery]]
+- [[Exhaustion_Based_Two_Phase_Wprime_Recovery]]
+- [[Partial_Wprime_Depletion_Recovery]]
+- [[Priming_Exercise_and_VO2_Kinetics]]
 - [[CP_Test_Reliability]]
 - [[Exercise_Intensity_Domains]]
 - [[../05_Exercise_Physiology/PCr_Resynthesis]]
-

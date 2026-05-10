@@ -6,7 +6,7 @@ type: concept
 domain: [pediatric, neurodevelopmental, rehabilitation, transition, adult_CP]
 tags: [cerebral_palsy, transition, aging, GMFCS, pain, fatigue, participation]
 sources:
-  - 09_來源摘要/Cerebral_Palsy.md
+  - 10_來源摘要/Cerebral_Palsy.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -125,4 +125,4 @@ chronic altered biomechanics + multisystem comorbidity + aging
 - [[CP_功能分類系統]]
 - [[CP_呼吸照護]]
 - [[CP_骨骼健康與骨折]]
-- [[../09_來源摘要/Cerebral_Palsy]]
+- [[../10_來源摘要/Cerebral_Palsy]]

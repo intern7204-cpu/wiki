@@ -6,7 +6,7 @@ type: concept
 domain: [stroke, spasticity, neurorehabilitation]
 tags: [spasticity, hypertonicity, UMN, stroke, contracture, botulinum_toxin, baclofen, phenol]
 sources:
-  - 09_來源摘要/Movement_Dysfunction_in_Stroke.md
+  - 10_來源摘要/Movement_Dysfunction_in_Stroke.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Poststroke spasticity 是 passive stretch 下 velocity-dependent reflex overacti
 
 - 本頁只處理 Movement Dysfunction in Stroke 來源中的 spasticity / hypertonicity 概念與功能導向治療邏輯。
 - 本頁不提供 botulinum toxin、phenol、baclofen、dantrolene 或 intrathecal baclofen 的處方劑量。
-- 本頁只使用單一來源：[[../09_來源摘要/Movement_Dysfunction_in_Stroke]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Movement_Dysfunction_in_Stroke]]。
 
 ## Why It Matters
 

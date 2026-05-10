@@ -6,7 +6,7 @@ type: clinical
 domain: [rheumatology, musculoskeletal_rehabilitation, arthritis]
 tags: [rheumatic_disease, osteoarthritis, rheumatoid_arthritis, ankylosing_spondylitis, gout, septic_arthritis, joint_protection]
 sources:
-  - 09_來源摘要/Rehabilitation_of_Common_Rheumatological_Disorders.md
+  - 10_來源摘要/Rehabilitation_of_Common_Rheumatological_Disorders.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -23,7 +23,7 @@ Rheumatic disease rehabilitation 是把 disease activity、joint biomechanics、
 
 ## Definition and Boundary
 
-- 本頁根據 [[../09_來源摘要/Rehabilitation_of_Common_Rheumatological_Disorders]] 建立 common rheumatologic disorders 的復健骨架。
+- 本頁根據 [[../10_來源摘要/Rehabilitation_of_Common_Rheumatological_Disorders]] 建立 common rheumatologic disorders 的復健骨架。
 - 本頁不提供 current DMARD / biologic / gout / septic arthritis 藥物 guideline。
 
 ## Why It Matters

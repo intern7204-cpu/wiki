@@ -6,14 +6,17 @@ type: concept
 domain: [exercise_physiology]
 tags: [acute_exercise, molecular_response, skeletal_muscle, training_adaptation, exercise_prescription]
 sources:
-  - 09_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses.md
-  - 09_來源摘要/Furrer_2023_molecular_athlete.md
-  - 09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle.md
-source_tier: 1
+  - 10_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses.md
+  - 10_來源摘要/Furrer_2023_molecular_athlete.md
+  - 10_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle.md
+source_tier: 4
 evidence_level: high_quality_review
 confidence: moderate
 contested: true
-contradictions: []
+contradictions:
+  - Acute molecular response is a working model for chronic adaptation, not a validated deterministic prediction rule.
+  - Aerobic and resistance exercise are useful categories but not mutually exclusive molecular boxes.
+  - Animal, cell, and untrained first-bout data cannot be directly translated into human clinical exercise prescription.
 ---
 
 # Acute Exercise Molecular Response 與 Skeletal Muscle Adaptation
@@ -25,6 +28,12 @@ Acute exercise molecular response 是每一次 exercise session 造成的 transi
 ## 概念邊界
 
 本頁只處理 skeletal muscle 中 acute exercise molecular response 如何連到 training adaptation。它不處理全身 exerkines、cardiovascular adaptation、CPET threshold 判讀或完整 exercise prescription。
+
+### What It Is Not
+
+- 不是從單次 biomarker 預測長期 phenotype 的公式。
+- 不是把 aerobic / resistance / HIIT / SIT 切成完全互斥的 molecular boxes。
+- 不是把 rodent、cell、untrained first-bout data 直接轉成 human rehabilitation prescription。
 
 ## 反對論點
 
@@ -45,9 +54,10 @@ Acute molecular data 可以提高 exercise prescription 的 mechanistic literacy
 - Intrinsic signals 包含 Ca2+ flux、ATP / ADP / Pi、redox state、glycogen availability、pH、PO2、RONS、temperature、mechanical load / tension。
 - Extrinsic signals 包含 catecholamines、cytokines、GH、IGF-I、testosterone、glucose、amino acids、free fatty acids。
 - Sensor proteins 與 receptors 將這些 signals 轉成 intracellular signal transduction。
-- Effector processes 包含 transcription、epigenetic regulation、mRNA handling、protein translation、protein degradation、autophagy / lysosome 與 satellite-cell-related regulation。
+- Effector processes 包含 transcription、epigenetic regulation、mRNA handling、protein translation、protein degradation、autophagy / lysosome、mitophagy、ribosomal biogenesis 與 satellite-cell-related regulation。
+- Aerobic exercise、resistance exercise、HIIT / SIT、concurrent training 都會產生部分重疊但權重不同的 molecular and phenotypic responses。
 - Training status 會改變 acute molecular response；訓練後許多 response 會 attenuate，但不是所有 response 都下降。
-- Acute mRNA response 的 individual repeatability 有限制，且 baseline variability 與 biopsy methodology 會影響解讀。
+- Acute mRNA response 的 individual repeatability 有限制，且 baseline variability、fiber-type composition、biopsy timing 與 biopsy methodology 會影響解讀。
 
 ## 推論
 
@@ -87,6 +97,7 @@ exercise stimulus
 - 把 mRNA response 當成 adaptation。
 - 把 single pathway activation 當成 causal proof。
 - 把 untrained first bout response 外推到 trained patient。
+- 把 training response attenuation 解讀成刺激失效，而不考慮它可能代表更有效率的 trained state。
 - 把 aerobic 與 resistance exercise 說成完全不同且互斥的分子分類。
 - 把 exercise mimetic 視為可以取代 exercise 的治療。
 
@@ -119,17 +130,18 @@ exercise stimulus
 
 - [[Skeletal_Muscle_Energy_Metabolism]]
 - [[Training_Intensity_Distribution]]
+- [[Exercise_Response_Variability與Exerkine_研究設計]]
 - [[Myokines_與_Muscle_Organ_Crosstalk]]
 - [[Exerkines_運動誘發多器官訊號分子]]
 - [[Muscle_Fiber_Types]]
 - [[Skeletal_Muscle_Metabolic_Flexibility與Exercise_Adaptation]]
 - [[Molecular_Athlete_運動表型連續體]]
-- [[../09_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses]]
-- [[../09_來源摘要/Furrer_2023_molecular_athlete]]
-- [[../09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]
+- [[../10_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses]]
+- [[../10_來源摘要/Furrer_2023_molecular_athlete]]
+- [[../10_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]
 
 ## 來源
 
-- [[../09_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses]]
-- [[../09_來源摘要/Furrer_2023_molecular_athlete]]
-- [[../09_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]
+- [[../10_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses]]
+- [[../10_來源摘要/Furrer_2023_molecular_athlete]]
+- [[../10_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle]]

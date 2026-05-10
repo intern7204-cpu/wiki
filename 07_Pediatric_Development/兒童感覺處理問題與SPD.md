@@ -6,7 +6,7 @@ type: clinical
 domain: [pediatric, sensory_processing, occupational_therapy]
 tags: [SPD, sensory_modulation, dyspraxia, participation, occupational_therapy, differential_diagnosis]
 sources:
-  - 09_來源摘要/Sensory_Processing_Disorders.md
+  - 10_來源摘要/Sensory_Processing_Disorders.md
 source_tier: 1
 evidence_level: conflicting
 confidence: medium
@@ -137,7 +137,7 @@ contradictions:
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Sensory_Processing_Disorders]]
+- [[10_來源摘要/Sensory_Processing_Disorders]]
 
 ### 證據標記
 
@@ -152,5 +152,5 @@ contradictions:
 - [[兒童語言發展與Communication_Disorders]]
 - [[發展監測與篩檢]]
 - [[ASD_臨床表現]]
-- [[../09_來源摘要/Sensory_Processing_Disorders]]
+- [[../10_來源摘要/Sensory_Processing_Disorders]]
 

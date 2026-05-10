@@ -6,7 +6,7 @@ type: concept
 domain: [TBI, rehabilitation, neurorehabilitation, ICF]
 tags: [TBI, moderate_to_severe_TBI, ICF, task_analysis, Rancho_Los_Amigos, early_mobility, participation, outcome_measures]
 sources:
-  - 09_來源摘要/Reina_Guerra_TBI_Umphred_neurorehabilitation.md
+  - 10_來源摘要/Reina_Guerra_TBI_Umphred_neurorehabilitation.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -120,5 +120,5 @@ TBI health condition
 - [[Neurorehabilitation_Outcome_Measurement]]
 - [[感覺障礙復健總論]]
 - [[疼痛管理_Biopsychosocial_ICF框架]]
-- [[../09_來源摘要/Reina_Guerra_TBI_Umphred_neurorehabilitation]]
+- [[../10_來源摘要/Reina_Guerra_TBI_Umphred_neurorehabilitation]]
 

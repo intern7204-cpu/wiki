@@ -6,7 +6,7 @@ type: concept
 domain: [parkinsonism, atypical_parkinsonism, neurodegenerative_disease]
 tags: [Parkinson_plus, PSP, MSA, CBGD, atypical_parkinsonism, autonomic_failure, supranuclear_gaze_palsy, alien_limb, early_falls]
 sources:
-  - 09_來源摘要/Degenerative_Movement_Disorders_of_the_CNS.md
+  - 10_來源摘要/Degenerative_Movement_Disorders_of_the_CNS.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Parkinson-plus syndrome 是帶有 parkinsonism 但同時有 early falls / gaze p
 
 - 本頁整理來源中的 PSP、MSA、CBGD clinical red flags。
 - 本頁不是完整 atypical parkinsonism guideline 或 neuropathology review。
-- 本頁只使用單一來源：[[../09_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]]。
 
 ## Why It Matters
 
@@ -99,4 +99,4 @@ Non-idiopathic PD neurodegenerative pathology
 - [[Movement_Disorder_現象學分類]]
 - [[吞嚥障礙復健總論]]
 - [[神經性下泌尿道功能障礙]]
-- [[../09_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]]
+- [[../10_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]]

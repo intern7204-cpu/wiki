@@ -6,7 +6,7 @@ type: concept
 domain: [shoulder, upper_limb, rehabilitation]
 tags: [rotator_cuff, shoulder_pain, tendinopathy, full_thickness_tear, scapular_dyskinesis]
 sources:
-  - 09_來源摘要/Upper_Limb_Pain_and_Dysfunction.md
+  - 10_來源摘要/Upper_Limb_Pain_and_Dysfunction.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Rotator cuff tendon disease 是從 tendinopathy、partial tear、chronic full-th
 
 - 本頁聚焦 rotator cuff spectrum 與 rehab / referral decision。
 - 本頁不涵蓋 adhesive capsulitis、glenohumeral OA、labral tear、instability 或 cervical referred pain 的完整鑑別。
-- 本頁只使用單一來源：[[../09_來源摘要/Upper_Limb_Pain_and_Dysfunction]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Upper_Limb_Pain_and_Dysfunction]]。
 
 ## Why It Matters
 
@@ -93,5 +93,5 @@ Overload or trauma
 
 - [[上肢疼痛與功能障礙評估總論]]
 - [[上肢急性肌腱與腕韌帶轉介紅旗]]
-- [[../09_來源摘要/Upper_Limb_Pain_and_Dysfunction]]
+- [[../10_來源摘要/Upper_Limb_Pain_and_Dysfunction]]
 

@@ -6,7 +6,7 @@ type: concept
 domain: [CPET, exercise_physiology]
 tags: [critical_power, oxygen_transport, VO2_kinetics, diffusive_oxygen_delivery, convective_oxygen_delivery, motor_unit_recruitment, exercise_tolerance]
 sources:
-  - 09_來源摘要/Goulding_Marwood_2023_critical_power_determinants.md
+  - 10_來源摘要/Goulding_Marwood_2023_critical_power_determinants.md
 source_tier: 1
 evidence_level: high_quality_review
 confidence: high
@@ -123,8 +123,8 @@ external power demand
 - [[Training_Prescription_by_CP]]
 - [[../05_Exercise_Physiology/運動時氧供調節的整合視角]]
 - [[../05_Exercise_Physiology/Skeletal_Muscle_Energy_Metabolism]]
-- [[../09_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]
+- [[../10_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]
 
 ## 來源
 
-- [[../09_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]
+- [[../10_來源摘要/Goulding_Marwood_2023_critical_power_determinants]]

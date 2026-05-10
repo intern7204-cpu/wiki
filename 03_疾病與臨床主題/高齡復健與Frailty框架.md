@@ -6,7 +6,7 @@ type: clinical
 domain: [geriatrics, geriatric_rehabilitation, frailty]
 tags: [frailty, sarcopenia, falls, 4Ms, medication_reconciliation, delirium, mobility]
 sources:
-  - 09_來源摘要/Geriatrics.md
+  - 10_來源摘要/Geriatrics.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -23,7 +23,7 @@ contradictions:
 
 ## Definition and Boundary
 
-- 本頁根據 [[../09_來源摘要/Geriatrics]] 建立 geriatric rehabilitation 主框架。
+- 本頁根據 [[../10_來源摘要/Geriatrics]] 建立 geriatric rehabilitation 主框架。
 - 本頁不替代 current osteoporosis、delirium、falls prevention 或 medication guideline。
 
 ## Why It Matters

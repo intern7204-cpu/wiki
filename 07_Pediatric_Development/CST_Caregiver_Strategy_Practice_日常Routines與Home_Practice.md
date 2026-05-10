@@ -6,7 +6,7 @@ type: concept
 domain: [pediatrics, development, caregiver_intervention]
 tags: [CST, caregiver_skills_training, participants_guide, home_practice, everyday_routines, shared_engagement, communication, challenging_behaviour, caregiver_wellbeing, WHO]
 sources:
-  - 09_來源摘要/Caregiver_Skills_Training_Participants_Guide.md
+  - 10_來源摘要/Caregiver_Skills_Training_Participants_Guide.md
 source_tier: 2
 evidence_level: WHO participants guide
 confidence: high_for_participant_facing_strategy_structure_moderate_for_efficacy_inference
@@ -129,4 +129,4 @@ Session key message
 - [[照顧者健康與兒童健康發展]]
 - [[Developmental_Delay_的鑑別起點]]
 - [[ASD_介入與預後]]
-- [[../09_來源摘要/Caregiver_Skills_Training_Participants_Guide]]
+- [[../10_來源摘要/Caregiver_Skills_Training_Participants_Guide]]

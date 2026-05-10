@@ -6,7 +6,7 @@ type: concept
 domain: [pediatrics, development, caregiver_intervention, implementation_science]
 tags: [CST, caregiver_skills_training, developmental_delay, developmental_disability, stepped_care, facilitator_training, supervision, non_specialist_delivery, WHO]
 sources:
-  - 09_來源摘要/Caregiver_Skills_Training_Introduction.md
+  - 10_來源摘要/Caregiver_Skills_Training_Introduction.md
 source_tier: 2
 evidence_level: WHO introduction
 confidence: high_for_package_structure_moderate_for_efficacy_inference
@@ -133,4 +133,4 @@ Developmental delay or disability is identified
 - [[Caregiving_Quality_作為早期介入靶點]]
 - [[Nurturing_Care_健康與營養服務整合]]
 - [[照顧者健康與兒童健康發展]]
-- [[../09_來源摘要/Caregiver_Skills_Training_Introduction]]
+- [[../10_來源摘要/Caregiver_Skills_Training_Introduction]]

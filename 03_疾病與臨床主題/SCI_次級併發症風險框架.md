@@ -6,8 +6,8 @@ type: concept
 domain: [SCI, rehabilitation, complications]
 tags: [SCI, autonomic_dysreflexia, pulmonary, pressure_injury, UTI, orthostatic_hypotension, lifelong_rehabilitation]
 sources:
-  - 09_來源摘要/Spinal_cord_injury.md
-  - 09_來源摘要/Traumatic_Spinal_Cord_Injury.md
+  - 10_來源摘要/Spinal_cord_injury.md
+  - 10_來源摘要/Traumatic_Spinal_Cord_Injury.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -32,7 +32,7 @@ SCI 的長期 morbidity / mortality 主要不來自 motor weakness 本身，而�
 - autonomic dysreflexia 是 clinical emergency。
 - 另需長期處理 orthostatic hypotension、VTE、pressure injury、neurogenic bowel dysfunction、neurogenic lower urinary tract dysfunction、pain、spasticity、bone loss。
 - rehabilitation 被定義為 lifelong process，而不只是 inpatient training。
-- [[../09_來源摘要/Traumatic_Spinal_Cord_Injury]] 指出，約 70% SCI inpatient rehab 期間至少出現一個 nonneurological complication / secondary condition；C1-C4 injury 發生至少一項 complication 的風險約 2.2 倍。
+- [[../10_來源摘要/Traumatic_Spinal_Cord_Injury]] 指出，約 70% SCI inpatient rehab 期間至少出現一個 nonneurological complication / secondary condition；C1-C4 injury 發生至少一項 complication 的風險約 2.2 倍。
 - High cervical SCI 發生 respiratory condition 的風險約 3.3 倍；機制包含 diaphragm / intercostal / abdominal muscle impairment、weak cough、secretion retention、atelectasis 與 aspiration risk。
 - Pressure injury prevention 從 acute stage 即開始，包含 skin inspection、risk assessment、bony prominence protection 與 turning schedule；初始床上翻身至少每 2 小時一次，後續才依 skin monitoring 調整。
 - SCI first-year UTI incidence 來源報告約 62%；voiding method 會改變風險，indwelling catheter 最高，其次 CIC、external drainage device，volitional voiding 較低。
@@ -88,5 +88,5 @@ High cervical SCI
 ## Links
 
 - [[脊髓損傷復健總論]]
-- [[../09_來源摘要/Spinal_cord_injury]]
-- [[../09_來源摘要/Traumatic_Spinal_Cord_Injury]]
+- [[../10_來源摘要/Spinal_cord_injury]]
+- [[../10_來源摘要/Traumatic_Spinal_Cord_Injury]]

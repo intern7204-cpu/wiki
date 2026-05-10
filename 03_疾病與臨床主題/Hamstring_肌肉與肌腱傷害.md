@@ -6,8 +6,8 @@ type: clinical
 domain: [sports_medicine, rehabilitation, running]
 tags: [hamstring, posterior_thigh_pain, proximal_hamstring_tendinopathy, avulsion, return_to_sport]
 sources:
-  - 09_來源摘要/Hamstring_muscle_and_tendon_injuries.md
-  - 09_來源摘要/Hip_Pelvis_and_Thigh_Injuries_in_Runners.md
+  - 10_來源摘要/Hamstring_muscle_and_tendon_injuries.md
+  - 10_來源摘要/Hip_Pelvis_and_Thigh_Injuries_in_Runners.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -148,8 +148,8 @@ Hamstring injury 是一個 **posterior thigh pain spectrum**，涵蓋 acute stra
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Hamstring_muscle_and_tendon_injuries]]
-- [[09_來源摘要/Hip_Pelvis_and_Thigh_Injuries_in_Runners]]
+- [[10_來源摘要/Hamstring_muscle_and_tendon_injuries]]
+- [[10_來源摘要/Hip_Pelvis_and_Thigh_Injuries_in_Runners]]
 
 ### 證據標記
 
@@ -164,5 +164,5 @@ Hamstring injury 是一個 **posterior thigh pain spectrum**，涵蓋 acute stra
 - [[跑者髖骨盆與大腿疼痛]]
 - [[Iliotibial_Band_Syndrome]]
 - [[../06_Gait_Biomechanics/步態評估總論]]
-- [[../09_來源摘要/Hamstring_muscle_and_tendon_injuries]]
-- [[../09_來源摘要/Hip_Pelvis_and_Thigh_Injuries_in_Runners]]
+- [[../10_來源摘要/Hamstring_muscle_and_tendon_injuries]]
+- [[../10_來源摘要/Hip_Pelvis_and_Thigh_Injuries_in_Runners]]

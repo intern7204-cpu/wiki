@@ -5,7 +5,7 @@ updated: 2026-04-24
 type: concept
 domain: [exercise_physiology]
 tags: [lactate, lactate_shuttle, glycolysis, mitochondria, MCT, anaerobic_threshold]
-sources: [09_來源摘要/Poole_2020_anaerobic_threshold.md]
+sources: [10_來源摘要/Poole_2020_anaerobic_threshold.md]
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -125,7 +125,7 @@ Poole 2020 整理：
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Poole_2020_anaerobic_threshold]]
+- [[10_來源摘要/Poole_2020_anaerobic_threshold]]
 
 ### 證據標記
 
@@ -137,7 +137,7 @@ Poole 2020 整理：
 
 ### 相關頁面
 
-- [[09_來源摘要/Poole_2020_anaerobic_threshold]]
+- [[10_來源摘要/Poole_2020_anaerobic_threshold]]
 - [[../04_CPET/Anaerobic_Threshold_概念史]]
 - [[../04_CPET/Lactate_Threshold]]
 - [[../04_CPET/Gas_Exchange_Threshold]]

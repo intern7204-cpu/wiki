@@ -6,7 +6,7 @@ type: concept
 domain: [pediatrics, hearing, language]
 tags: [language_access, Deaf, ASL, AAC, family_centered]
 sources:
-  - 09_來源摘要/Developmental_Considerations_in_Deafness.md
+  - 10_來源摘要/Developmental_Considerations_in_Deafness.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -61,4 +61,4 @@ Deafness
 
 - [[兒童聽覺障礙與Deafness]]
 - [[聽損兒童的發展脈絡評估]]
-- [[../09_來源摘要/Developmental_Considerations_in_Deafness]]
+- [[../10_來源摘要/Developmental_Considerations_in_Deafness]]

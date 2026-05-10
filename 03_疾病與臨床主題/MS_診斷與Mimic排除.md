@@ -6,7 +6,7 @@ type: concept
 domain: [multiple_sclerosis, diagnosis, demyelinating_disease]
 tags: [MS, McDonald_criteria, MRI, DIS, DIT, oligoclonal_bands, NMOSD, MOGAD, ADEM]
 sources:
-  - 09_來源摘要/Multiple_Sclerosis.md
+  - 10_來源摘要/Multiple_Sclerosis.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ MS diagnosis 需證明 CNS demyelinating disease 在 space 與 time 上 dissemin
 
 - 本頁只整理 Multiple Sclerosis 來源中的 diagnosis / MRI / mimic logic。
 - 本頁不是 DMT selection guideline。
-- 本頁只使用單一來源：[[../09_來源摘要/Multiple_Sclerosis]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Multiple_Sclerosis]]。
 
 ## Why It Matters
 
@@ -97,4 +97,4 @@ CNS inflammatory demyelination
 - [[MS_Fatigue與Heat_Sensitivity管理]]
 - [[ALS_診斷框架]]
 - [[Cervical_Myelopathy_紅旗]]
-- [[../09_來源摘要/Multiple_Sclerosis]]
+- [[../10_來源摘要/Multiple_Sclerosis]]

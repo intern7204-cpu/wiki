@@ -6,7 +6,7 @@ type: clinical
 domain: [pediatric, rehabilitation, therapy_services]
 tags: [occupational_therapy, physical_therapy, pediatric_rehabilitation, ICF_CY, family_centered_care]
 sources:
-  - 09_來源摘要/Rehabilitation_services_occupational_therapy_and_physical_therapy.md
+  - 10_來源摘要/Rehabilitation_services_occupational_therapy_and_physical_therapy.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -87,7 +87,7 @@ Pediatric OT 與 PT 的共同目標，是在 child- and family-centered framewor
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Rehabilitation_services_occupational_therapy_and_physical_therapy]]
+- [[10_來源摘要/Rehabilitation_services_occupational_therapy_and_physical_therapy]]
 
 ### 證據標記
 
@@ -105,4 +105,4 @@ Pediatric OT 與 PT 的共同目標，是在 child- and family-centered framewor
 - [[文化謙遜與偏誤敏感照護]]
 - [[../02_方法學/跨專業團隊照護]]
 - [[../03_疾病與臨床主題/PMR_評估總論]]
-- [[../09_來源摘要/Rehabilitation_services_occupational_therapy_and_physical_therapy]]
+- [[../10_來源摘要/Rehabilitation_services_occupational_therapy_and_physical_therapy]]

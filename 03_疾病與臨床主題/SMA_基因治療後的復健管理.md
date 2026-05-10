@@ -6,7 +6,7 @@ type: concept
 domain: [SMA, pediatric_rehabilitation, motor_neuron_disease]
 tags: [SMA, SMN1, SMN2, nusinersen, onasemnogene_abeparvovec, risdiplam, pulmonary_care, scoliosis, nutrition]
 sources:
-  - 09_來源摘要/Motor_Neuron_Diseases.md
+  - 10_來源摘要/Motor_Neuron_Diseases.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ SMA 是 SMN1-related LMN disorder；SMN-restoring therapies 改變 motor traject
 
 - 本頁聚焦 Motor Neuron Diseases 來源中的 proximal SMA 與 treatment-era rehab needs。
 - 本頁不是 SMA medication prescribing guide，也不涵蓋完整 newborn screening policy。
-- 本頁只使用單一來源：[[../09_來源摘要/Motor_Neuron_Diseases]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Motor_Neuron_Diseases]]。
 
 ## Why It Matters
 
@@ -103,4 +103,4 @@ SMN1 loss or dysfunction
 - [[ALS_復健呼吸營養與溝通照護]]
 - [[Myopathy_呼吸心臟吞嚥風險]]
 - [[小兒復健評估]]
-- [[../09_來源摘要/Motor_Neuron_Diseases]]
+- [[../10_來源摘要/Motor_Neuron_Diseases]]

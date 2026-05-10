@@ -6,10 +6,10 @@ type: clinical
 domain: [pediatric, neurodevelopmental, pharmacology]
 tags: [ADHD, stimulant, nonstimulant, cardiac_safety, growth]
 sources:
-  - 09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Treatment_with_stimulant_medications.md
-  - 09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Treatment_with_nonstimulant_medications.md
-  - 09_來源摘要/Cardiac_evaluation_of_patients_receiving_pharmacotherapy_for_attention_deficit_hyperactivity_disorder_ADHD.md
-  - 09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Overview_of_treatment_and_prognosis.md
+  - 10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Treatment_with_stimulant_medications.md
+  - 10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Treatment_with_nonstimulant_medications.md
+  - 10_來源摘要/Cardiac_evaluation_of_patients_receiving_pharmacotherapy_for_attention_deficit_hyperactivity_disorder_ADHD.md
+  - 10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Overview_of_treatment_and_prognosis.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -105,10 +105,10 @@ ADHD pharmacotherapy 的核心不是「選一顆藥」，而是 **who needs medi
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Treatment_with_stimulant_medications]]
-- [[09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Treatment_with_nonstimulant_medications]]
-- [[09_來源摘要/Cardiac_evaluation_of_patients_receiving_pharmacotherapy_for_attention_deficit_hyperactivity_disorder_ADHD]]
-- [[09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Overview_of_treatment_and_prognosis]]
+- [[10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Treatment_with_stimulant_medications]]
+- [[10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Treatment_with_nonstimulant_medications]]
+- [[10_來源摘要/Cardiac_evaluation_of_patients_receiving_pharmacotherapy_for_attention_deficit_hyperactivity_disorder_ADHD]]
+- [[10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Overview_of_treatment_and_prognosis]]
 
 ### 證據標記
 
@@ -123,6 +123,6 @@ ADHD pharmacotherapy 的核心不是「選一顆藥」，而是 **who needs medi
 - [[ADHD_治療總論]]
 - [[ADHD_評估與診斷]]
 - [[ADHD_睡眠與常見共病]]
-- [[../09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Treatment_with_stimulant_medications]]
-- [[../09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Treatment_with_nonstimulant_medications]]
-- [[../09_來源摘要/Cardiac_evaluation_of_patients_receiving_pharmacotherapy_for_attention_deficit_hyperactivity_disorder_ADHD]]
+- [[../10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Treatment_with_stimulant_medications]]
+- [[../10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Treatment_with_nonstimulant_medications]]
+- [[../10_來源摘要/Cardiac_evaluation_of_patients_receiving_pharmacotherapy_for_attention_deficit_hyperactivity_disorder_ADHD]]

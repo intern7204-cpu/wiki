@@ -6,22 +6,22 @@ type: method
 domain: [CPET, exercise_physiology, training]
 tags: [critical_power, W_prime, training_prescription, FTP, interval_training, W_BAL]
 sources:
-  - 09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training.md
-  - 09_來源摘要/Jones_Vanhatalo_2017_critical_power_concept.md
-  - 09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance.md
-  - 09_來源摘要/Poole_2020_anaerobic_threshold.md
-  - 09_來源摘要/Triska_2017_CP_reliability.md
-  - 09_來源摘要/Skiba_Clarke_Wprime_balance_model.md
-  - 09_來源摘要/Bartram_2018_Wprime_recovery_elite_cyclists.md
-  - 09_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion.md
-  - 09_來源摘要/Caen_2021_Wprime_recovery_two_phase.md
-  - 09_來源摘要/Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery.md
-  - 09_來源摘要/Lievens_2024_partial_Wprime_recovery.md
-  - 09_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution.md
-  - 09_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery.md
-  - 09_來源摘要/Karsten_2017_TT_vs_TTE_CP_Wprime.md
-  - 09_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime.md
-  - 09_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP.md
+  - 10_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training.md
+  - 10_來源摘要/Jones_Vanhatalo_2017_critical_power_concept.md
+  - 10_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance.md
+  - 10_來源摘要/Poole_2020_anaerobic_threshold.md
+  - 10_來源摘要/Triska_2017_CP_reliability.md
+  - 10_來源摘要/Skiba_Clarke_Wprime_balance_model.md
+  - 10_來源摘要/Bartram_2018_Wprime_recovery_elite_cyclists.md
+  - 10_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion.md
+  - 10_來源摘要/Caen_2021_Wprime_recovery_two_phase.md
+  - 10_來源摘要/Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery.md
+  - 10_來源摘要/Lievens_2024_partial_Wprime_recovery.md
+  - 10_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution.md
+  - 10_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery.md
+  - 10_來源摘要/Karsten_2017_TT_vs_TTE_CP_Wprime.md
+  - 10_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime.md
+  - 10_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -154,22 +154,22 @@ contradictions:
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
-- [[09_來源摘要/Jones_Vanhatalo_2017_critical_power_concept]]
-- [[09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
-- [[09_來源摘要/Poole_2020_anaerobic_threshold]]
-- [[09_來源摘要/Triska_2017_CP_reliability]]
-- [[09_來源摘要/Skiba_Clarke_Wprime_balance_model]]
-- [[09_來源摘要/Bartram_2018_Wprime_recovery_elite_cyclists]]
-- [[09_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion]]
-- [[09_來源摘要/Caen_2021_Wprime_recovery_two_phase]]
-- [[09_來源摘要/Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery]]
-- [[09_來源摘要/Lievens_2024_partial_Wprime_recovery]]
-- [[09_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution]]
-- [[09_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery]]
-- [[09_來源摘要/Karsten_2017_TT_vs_TTE_CP_Wprime]]
-- [[09_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime]]
-- [[09_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP]]
+- [[10_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
+- [[10_來源摘要/Jones_Vanhatalo_2017_critical_power_concept]]
+- [[10_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
+- [[10_來源摘要/Poole_2020_anaerobic_threshold]]
+- [[10_來源摘要/Triska_2017_CP_reliability]]
+- [[10_來源摘要/Skiba_Clarke_Wprime_balance_model]]
+- [[10_來源摘要/Bartram_2018_Wprime_recovery_elite_cyclists]]
+- [[10_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion]]
+- [[10_來源摘要/Caen_2021_Wprime_recovery_two_phase]]
+- [[10_來源摘要/Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery]]
+- [[10_來源摘要/Lievens_2024_partial_Wprime_recovery]]
+- [[10_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution]]
+- [[10_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery]]
+- [[10_來源摘要/Karsten_2017_TT_vs_TTE_CP_Wprime]]
+- [[10_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime]]
+- [[10_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP]]
 
 ### 證據標記
 
@@ -192,7 +192,7 @@ contradictions:
 - [[CP_Test_Reliability]]
 - [[../05_Exercise_Physiology/PCr_Resynthesis]]
 - [[../05_Exercise_Physiology/Training_Intensity_Distribution]]
-- [[../09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
-- [[../09_來源摘要/Jones_Vanhatalo_2017_critical_power_concept]]
-- [[../09_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
-- [[../09_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP]]
+- [[../10_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
+- [[../10_來源摘要/Jones_Vanhatalo_2017_critical_power_concept]]
+- [[../10_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance]]
+- [[../10_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP]]

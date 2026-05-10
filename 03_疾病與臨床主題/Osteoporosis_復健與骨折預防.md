@@ -6,7 +6,7 @@ type: clinical
 domain: [osteoporosis, musculoskeletal_rehabilitation, fracture_prevention]
 tags: [osteoporosis, osteopenia, vertebral_fracture, hip_fracture, fall_prevention, back_extensor_training]
 sources:
-  - 09_來源摘要/Osteoporosis.md
+  - 10_來源摘要/Osteoporosis.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -23,7 +23,7 @@ Osteoporosis rehabilitation 是以 BMD / fracture risk、姿勢、fall preventio
 
 ## Definition and Boundary
 
-- 本頁根據 [[../09_來源摘要/Osteoporosis]] 建立 rehabilitation frame。
+- 本頁根據 [[../10_來源摘要/Osteoporosis]] 建立 rehabilitation frame。
 - 本頁不作藥物處方 guideline；bisphosphonates、denosumab、PTH analog、hormone therapy 等需另查 current guideline。
 
 ## Why It Matters

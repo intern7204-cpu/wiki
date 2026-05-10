@@ -6,9 +6,9 @@ type: clinical
 domain: [rehabilitation, sports_medicine, foot_ankle]
 tags: [plantar_fasciitis, heel_pain, heel_spur, stretching, conservative_care]
 sources:
-  - 09_來源摘要/Plantar_fasciitis.md
-  - 09_來源摘要/Hindfoot_pain_in_adults_Evaluation_and_diagnosis_of_common_causes.md
-  - 09_來源摘要/Overview_of_foot_anatomy_and_biomechanics_and_assessment_of_foot_pain_in_adults.md
+  - 10_來源摘要/Plantar_fasciitis.md
+  - 10_來源摘要/Hindfoot_pain_in_adults_Evaluation_and_diagnosis_of_common_causes.md
+  - 10_來源摘要/Overview_of_foot_anatomy_and_biomechanics_and_assessment_of_foot_pain_in_adults.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -117,9 +117,9 @@ Plantar fasciitis 是以 **first-step heel pain + medial calcaneal insertion ten
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Plantar_fasciitis]]
-- [[09_來源摘要/Hindfoot_pain_in_adults_Evaluation_and_diagnosis_of_common_causes]]
-- [[09_來源摘要/Overview_of_foot_anatomy_and_biomechanics_and_assessment_of_foot_pain_in_adults]]
+- [[10_來源摘要/Plantar_fasciitis]]
+- [[10_來源摘要/Hindfoot_pain_in_adults_Evaluation_and_diagnosis_of_common_causes]]
+- [[10_來源摘要/Overview_of_foot_anatomy_and_biomechanics_and_assessment_of_foot_pain_in_adults]]
 
 ### 證據標記
 
@@ -135,4 +135,4 @@ Plantar fasciitis 是以 **first-step heel pain + medial calcaneal insertion ten
 - [[足部疼痛分區評估]]
 - [[Ankle_sprain_總論]]
 - [[../06_Gait_Biomechanics/足部解剖與生物力學]]
-- [[../09_來源摘要/Plantar_fasciitis]]
+- [[../10_來源摘要/Plantar_fasciitis]]

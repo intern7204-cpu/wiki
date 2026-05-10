@@ -6,7 +6,7 @@ type: concept
 domain: [pain, neurology, chronic_pain]
 tags: [central_sensitization, peripheral_sensitization, wind_up, chronic_pain, neuropathic_pain]
 sources:
-  - 09_來源摘要/Bradley_Daroff_Pain_Management.md
+  - 10_來源摘要/Bradley_Daroff_Pain_Management.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -24,7 +24,7 @@ Peripheral / central sensitization 是 pain system 的 gain 被調高，使 mino
 ## Definition and Boundary
 
 - 本頁處理 chronic pain 的 sensitization 機制，不是 fibromyalgia、CRPS、radiculopathy 或 small fiber neuropathy 的完整疾病頁。
-- 本頁只使用單一來源：[[../09_來源摘要/Bradley_Daroff_Pain_Management]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Bradley_Daroff_Pain_Management]]。
 
 ## Why It Matters
 
@@ -91,5 +91,5 @@ Peripheral injury or neural irritation
 - [[疼痛管理_Biopsychosocial_ICF框架]]
 - [[神經痛藥物治療框架]]
 - [[CRPS_臨床辨識與治療限制]]
-- [[../09_來源摘要/Bradley_Daroff_Pain_Management]]
+- [[../10_來源摘要/Bradley_Daroff_Pain_Management]]
 

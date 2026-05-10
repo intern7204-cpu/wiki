@@ -40,7 +40,8 @@
 - `06_Gait_Biomechanics/`
 - `07_Pediatric_Development/`
 - `08_工具與Workflow/`
-- `09_來源摘要/`
+- `09_NCV EMG 周邊神經病變/`
+- `10_來源摘要/`
 
 ## 4. 語言與檔名
 
@@ -75,7 +76,7 @@ updated: YYYY-MM-DD
 type: overview | concept | method | clinical | source_summary | workflow | query
 domain: [CPET, exercise_physiology, rehabilitation, PMR, gait, pediatric, methodology, ...]
 tags: []
-sources: [09_來源摘要/xxx.md]
+sources: [10_來源摘要/xxx.md]
 source_tier: 1 | 2 | 3           # 主要來源層級
 evidence_level: consensus | emerging | limited | conflicting | expert_opinion
 confidence: high | medium | low
@@ -116,11 +117,11 @@ contradictions: []
 每次新增 `C:\原始資料` 文件：
 1. 先列出與本次主題最相關的候選文件
 2. 依來源優先級與相關性排序
-3. 本回合最多只選讀 5 個文件
-4. 逐一讀取這 5 個文件
+3. 本回合最多只選讀 1 個文件
+4. 讀取這 1 個文件
 5. 判定來源類型：review article / textbook chapter / UpToDate / 科普書 / 網站資料 / original article
 6. 給每個文件一個來源等級與可信度標籤
-7. 產生來源摘要頁到 `09_來源摘要/`
+7. 產生來源摘要頁到 `10_來源摘要/`
 8. 更新相關主題頁
 9. 必要時建立新頁
 10. 更新 `index.md`

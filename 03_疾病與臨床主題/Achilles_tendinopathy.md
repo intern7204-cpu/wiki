@@ -6,9 +6,9 @@ type: clinical
 domain: [rehabilitation, sports_medicine, foot_ankle]
 tags: [Achilles_tendinopathy, midportion, insertional, loading_program, heel_lift]
 sources:
-  - 09_來源摘要/Achilles_tendinopathy.md
-  - 09_來源摘要/Hindfoot_pain_in_adults_Evaluation_and_diagnosis_of_common_causes.md
-  - 09_來源摘要/Overview_of_foot_anatomy_and_biomechanics_and_assessment_of_foot_pain_in_adults.md
+  - 10_來源摘要/Achilles_tendinopathy.md
+  - 10_來源摘要/Hindfoot_pain_in_adults_Evaluation_and_diagnosis_of_common_causes.md
+  - 10_來源摘要/Overview_of_foot_anatomy_and_biomechanics_and_assessment_of_foot_pain_in_adults.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -111,9 +111,9 @@ Achilles tendinopathy 是一組以 **posterior heel / tendon pain、load intoler
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Achilles_tendinopathy]]
-- [[09_來源摘要/Hindfoot_pain_in_adults_Evaluation_and_diagnosis_of_common_causes]]
-- [[09_來源摘要/Overview_of_foot_anatomy_and_biomechanics_and_assessment_of_foot_pain_in_adults]]
+- [[10_來源摘要/Achilles_tendinopathy]]
+- [[10_來源摘要/Hindfoot_pain_in_adults_Evaluation_and_diagnosis_of_common_causes]]
+- [[10_來源摘要/Overview_of_foot_anatomy_and_biomechanics_and_assessment_of_foot_pain_in_adults]]
 
 ### 證據標記
 
@@ -130,4 +130,4 @@ Achilles tendinopathy 是一組以 **posterior heel / tendon pain、load intoler
 - [[Ankle_sprain_總論]]
 - [[../06_Gait_Biomechanics/步態評估總論]]
 - [[../06_Gait_Biomechanics/足部解剖與生物力學]]
-- [[../09_來源摘要/Achilles_tendinopathy]]
+- [[../10_來源摘要/Achilles_tendinopathy]]

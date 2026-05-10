@@ -6,7 +6,7 @@ type: concept
 domain: [pediatrics, development, caregiver_intervention, implementation_science]
 tags: [CST, caregiver_skills_training, developmental_delay, developmental_disability, cultural_adaptation, implementation_fidelity, caregiver_mediated_intervention, WHO]
 sources:
-  - 09_來源摘要/Caregiver_Skills_Training_Adaptation_and_Implementation_Guide.md
+  - 10_來源摘要/Caregiver_Skills_Training_Adaptation_and_Implementation_Guide.md
 source_tier: 2
 evidence_level: WHO implementation guide
 confidence: high_for_implementation_process_moderate_for_efficacy_inference
@@ -129,4 +129,4 @@ Local service mapping
 - [[ASD_介入與預後]]
 - [[Developmental_Delay_的鑑別起點]]
 - [[Nurturing_Care_健康與營養服務整合]]
-- [[../09_來源摘要/Caregiver_Skills_Training_Adaptation_and_Implementation_Guide]]
+- [[../10_來源摘要/Caregiver_Skills_Training_Adaptation_and_Implementation_Guide]]

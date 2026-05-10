@@ -6,9 +6,9 @@ type: clinical
 domain: [pediatric, neurodevelopmental, rehabilitation, PMR]
 tags: [cerebral_palsy, AACPDM, early_detection, HINE, general_movements, MRI, neuroimaging]
 sources:
-  - 09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
-  - 09_來源摘要/Cerebral_Palsy.md
-  - 09_來源摘要/Detailed_neurologic_assessment_of_infants_and_children.md
+  - 10_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
+  - 10_來源摘要/Cerebral_Palsy.md
+  - 10_來源摘要/Detailed_neurologic_assessment_of_infants_and_children.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -204,8 +204,8 @@ CP 早期辨識與診斷是 **整合 history + 結構化神經學評估 + 標準
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders]]
-- [[09_來源摘要/Detailed_neurologic_assessment_of_infants_and_children]]
+- [[10_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders]]
+- [[10_來源摘要/Detailed_neurologic_assessment_of_infants_and_children]]
 
 ### 證據標記
 

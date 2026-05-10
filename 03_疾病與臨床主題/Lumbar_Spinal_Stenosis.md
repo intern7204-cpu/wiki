@@ -6,7 +6,7 @@ type: concept
 domain: [low_back_pain, spine, rehabilitation]
 tags: [lumbar_spinal_stenosis, neurogenic_claudication, flexion_bias, walking_tolerance]
 sources:
-  - 09_來源摘要/Low_Back_Disorders.md
+  - 10_來源摘要/Low_Back_Disorders.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Lumbar spinal stenosis 在臨床上最重要的表現是 neurogenic claudication
 
 - 本頁處理 lumbar spinal stenosis 的臨床辨識與 rehabilitation framework。
 - 本頁不涵蓋所有 surgical decompression / fusion indication 或 vascular claudication differential。
-- 本頁只使用單一來源：[[../09_來源摘要/Low_Back_Disorders]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Low_Back_Disorders]]。
 
 ## Why It Matters
 
@@ -93,5 +93,5 @@ Degenerative canal / foraminal narrowing
 - [[下背痛評估總論]]
 - [[下背痛影像與Red_Flags]]
 - [[Lumbosacral_Radiculopathy]]
-- [[../09_來源摘要/Low_Back_Disorders]]
+- [[../10_來源摘要/Low_Back_Disorders]]
 

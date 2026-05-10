@@ -6,7 +6,7 @@ type: concept
 domain: [neurology, brainstem, localization]
 tags: [brainstem, localization, cranial_nerve, long_tract, crossed_signs, posterior_circulation]
 sources:
-  - 09_來源摘要/Brainstem_Syndromes.md
+  - 10_來源摘要/Brainstem_Syndromes.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Brainstem localization 是用 cranial nerve level、ocular motor pattern、long 
 
 - 本頁聚焦 brainstem lesion localization 的 bedside logic。
 - 本頁不處理 acute reperfusion therapy decision。
-- 本頁只使用單一來源：[[../09_來源摘要/Brainstem_Syndromes]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Brainstem_Syndromes]]。
 
 ## Why It Matters
 

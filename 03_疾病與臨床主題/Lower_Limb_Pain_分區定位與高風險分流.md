@@ -6,7 +6,7 @@ type: concept
 domain: [rehabilitation, sports_medicine, musculoskeletal_medicine, lower_limb_pain]
 tags: [lower_limb_pain, regional_differential_diagnosis, red_flags, stress_fracture, orthopedic_referral]
 sources:
-  - 09_來源摘要/Caldwell_Hamner_Hupe_Lower_Limb_Pain_Dysfunction.md
+  - 10_來源摘要/Caldwell_Hamner_Hupe_Lower_Limb_Pain_Dysfunction.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -144,4 +144,4 @@ Pain complaint
 - [[Achilles_tendinopathy]]
 - [[Ankle_sprain_總論]]
 - [[Plantar_fasciitis]]
-- [[../09_來源摘要/Caldwell_Hamner_Hupe_Lower_Limb_Pain_Dysfunction]]
+- [[../10_來源摘要/Caldwell_Hamner_Hupe_Lower_Limb_Pain_Dysfunction]]

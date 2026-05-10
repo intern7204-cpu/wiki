@@ -6,9 +6,9 @@ type: clinical
 domain: [pediatric, neurodevelopmental, rehabilitation, vision]
 tags: [visual_impairment, CVI, prematurity, ROP, screening, developmental_disability]
 sources:
-  - 09_來源摘要/Blindness_and_Visual_Impairment.md
-  - 09_來源摘要/Auditory_vestibular_and_visual_impairments.md
-  - 09_來源摘要/Consequences_of_Preterm_Birth.md
+  - 10_來源摘要/Blindness_and_Visual_Impairment.md
+  - 10_來源摘要/Auditory_vestibular_and_visual_impairments.md
+  - 10_來源摘要/Consequences_of_Preterm_Birth.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -125,9 +125,9 @@ contradictions:
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Blindness_and_Visual_Impairment]]
-- [[09_來源摘要/Auditory_vestibular_and_visual_impairments]]
-- [[09_來源摘要/Consequences_of_Preterm_Birth]]
+- [[10_來源摘要/Blindness_and_Visual_Impairment]]
+- [[10_來源摘要/Auditory_vestibular_and_visual_impairments]]
+- [[10_來源摘要/Consequences_of_Preterm_Birth]]
 
 ### 證據標記
 
@@ -143,4 +143,4 @@ contradictions:
 - [[早產兒長期結局]]
 - [[Cerebral_Palsy_總論]]
 - [[../03_疾病與臨床主題/感覺障礙復健總論]]
-- [[../09_來源摘要/Blindness_and_Visual_Impairment]]
+- [[../10_來源摘要/Blindness_and_Visual_Impairment]]

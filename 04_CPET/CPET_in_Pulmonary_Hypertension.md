@@ -6,7 +6,7 @@ type: clinical_concept
 domain: [CPET, pulmonary_hypertension, cardiopulmonary_physiology]
 tags: [CPET, pulmonary_hypertension, PAH, VE_VCO2_slope, PETCO2, VD_VT, right_ventricle]
 sources:
-  - 09_來源摘要/Pezzuto_Agostoni_2023_CPET_pulmonary_hypertension.md
+  - 10_來源摘要/Pezzuto_Agostoni_2023_CPET_pulmonary_hypertension.md
 source_tier: 2
 evidence_level: review_article
 confidence: moderate
@@ -129,4 +129,4 @@ pulmonary vascular disease
 - [[VO2max_Measurement]]
 - [[CPET_Protocol_Design]]
 - [[VO2_Kinetics]]
-- [[../09_來源摘要/Pezzuto_Agostoni_2023_CPET_pulmonary_hypertension]]
+- [[../10_來源摘要/Pezzuto_Agostoni_2023_CPET_pulmonary_hypertension]]

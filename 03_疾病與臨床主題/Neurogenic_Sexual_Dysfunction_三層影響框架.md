@@ -6,7 +6,7 @@ type: concept
 domain: [rehabilitation, sexuality, neurological_disorders]
 tags: [sexual_dysfunction, neurogenic_sexual_dysfunction, SCI, MS, stroke, TBI, Parkinson_disease, autonomic, participation]
 sources:
-  - 09_來源摘要/Courtois_Cordeau_neurological_sexual_dysfunction.md
+  - 10_來源摘要/Courtois_Cordeau_neurological_sexual_dysfunction.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -126,5 +126,5 @@ Neurological disorder
 - [[創傷性腦損傷復健總論]]
 - [[MS_Fatigue與Heat_Sensitivity管理]]
 - [[Parkinson_Disease_復健與非運動症狀管理]]
-- [[../09_來源摘要/Courtois_Cordeau_neurological_sexual_dysfunction]]
+- [[../10_來源摘要/Courtois_Cordeau_neurological_sexual_dysfunction]]
 

@@ -6,7 +6,7 @@ type: concept
 domain: [pediatric, fetal_surgery, prenatal_diagnosis, rehabilitation]
 tags: [myelomeningocele, prenatal_repair, MOMS, fetal_ultrasound, shunt, mobility]
 sources:
-  - 09_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms.md
+  - 10_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -119,4 +119,4 @@ maternal uterine surgery + premature delivery risk increase
 - [[Myelomeningocele_總論]]
 - [[MMC_運動神經功能層級與步行預後]]
 - [[MMC_神經性膀胱與腎功能保護]]
-- [[../09_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms]]
+- [[../10_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms]]

@@ -6,7 +6,7 @@ type: concept
 domain: [ALS, motor_neuron_disease, diagnosis]
 tags: [ALS, motor_neuron_disease, Gold_Coast_criteria, EDX, UMN, LMN, mimic]
 sources:
-  - 09_來源摘要/Motor_Neuron_Diseases.md
+  - 10_來源摘要/Motor_Neuron_Diseases.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ ALS diagnosis 是 progressive motor impairment 加上正確分布的 UMN / LMN d
 
 - 本頁只整理 Motor Neuron Diseases 來源中的 ALS diagnostic frame。
 - 本頁不是 ALS treatment guideline，也不處理所有 ALS genetic subtypes。
-- 本頁只使用單一來源：[[../09_來源摘要/Motor_Neuron_Diseases]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Motor_Neuron_Diseases]]。
 
 ## Why It Matters
 
@@ -103,5 +103,5 @@ Motor neuron degeneration
 - [[周邊神經病灶定位與EDX_US框架]]
 - [[Myopathy_診斷框架]]
 - [[Cervical_Myelopathy_紅旗]]
-- [[../02_方法學/電生理診斷醫學]]
-- [[../09_來源摘要/Motor_Neuron_Diseases]]
+- [[../09_NCV EMG 周邊神經病變/電生理診斷醫學]]
+- [[../10_來源摘要/Motor_Neuron_Diseases]]

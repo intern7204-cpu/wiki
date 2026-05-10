@@ -1,21 +1,22 @@
 ---
 title: Gas Exchange Threshold（GET）
 created: 2026-04-22
-updated: 2026-04-25
+updated: 2026-05-09
 type: concept
 domain: [CPET, exercise_physiology]
-tags: [gas_exchange_threshold, anaerobic_threshold, V_slope, CPET_interpretation]
+tags: [gas_exchange_threshold, anaerobic_threshold, V_slope, CPET_interpretation, bicarbonate_buffering, CO2_transport]
 sources:
-  - 09_來源摘要/Poole_2020_anaerobic_threshold.md
-  - 09_來源摘要/Beaver_Wasserman_Whipp_1986_V_slope_method.md
-  - 09_來源摘要/Physiological_model_of_CO2_output_during_incremental_exercise.md
-  - 09_來源摘要/Hirakoba_1996_excess_CO2_lactate_prediction.md
-  - 09_來源摘要/Yunoki_1999_excess_CO2_kinetics.md
-  - 09_來源摘要/Stringer_Wasserman_Casaburi_1995_VCO2_VO2_heavy_constant_work.md
-  - 09_來源摘要/Juarez_2024_CPET_in_heart_failure.md
-  - 09_來源摘要/Pezzuto_Agostoni_2023_CPET_pulmonary_hypertension.md
-source_tier: 1
-evidence_level: consensus
+  - 10_來源摘要/Poole_2020_anaerobic_threshold.md
+  - 10_來源摘要/Beaver_Wasserman_Whipp_1986_V_slope_method.md
+  - 10_來源摘要/Physiological_model_of_CO2_output_during_incremental_exercise.md
+  - 10_來源摘要/Hirakoba_1996_excess_CO2_lactate_prediction.md
+  - 10_來源摘要/Yunoki_1999_excess_CO2_kinetics.md
+  - 10_來源摘要/Wooten_2021_excess_VCO2_recovery_fatigability.md
+  - 10_來源摘要/Stringer_Wasserman_Casaburi_1995_VCO2_VO2_heavy_constant_work.md
+  - 10_來源摘要/Juarez_2024_CPET_in_heart_failure.md
+  - 10_來源摘要/Pezzuto_Agostoni_2023_CPET_pulmonary_hypertension.md
+source_tier: 4
+evidence_level: high_quality_review
 confidence: high
 contested: false
 contradictions: []
@@ -40,6 +41,8 @@ GET 是在 ramp/incremental CPET 中，**V̇CO₂ 相對 V̇O₂ 出現非線性
    - 此為 **isocapnic buffering region**，介於 LT 與 respiratory compensation point（RCP）之間。
 4. 以 **V̇O₂ 表達** GET（不用 power/speed，因後者對 ramp-slope 敏感）。
 
+原始 V-slope algorithm 細節見 [[V_Slope_Method_Original_Algorithm]]；Beaver 1986 是 Tier 5 original method study，不是 guideline。
+
 ### 為何 V-slope 比單看 ventilatory equivalents 更重要
 
 - 它直接利用 **V̇CO2 對 V̇O2** 的關係找 breakpoint。
@@ -53,21 +56,23 @@ GET 是在 ramp/incremental CPET 中，**V̇CO₂ 相對 V̇O₂ 出現非線性
 - 形成一段通氣增加卻 PCO₂ 恆定的 window → isocapnic buffering。
 - 進一步上升至 RCP 後才出現 frank hyperventilation（PCO₂ 下降）。
 
-### constant-work corroboration（Tier 3）
+### constant-work corroboration（Tier 5）
 
-- [[../09_來源摘要/Stringer_Wasserman_Casaburi_1995_VCO2_VO2_heavy_constant_work]] 顯示：
+- [[Heavy_Constant_Work_VCO2_VO2_Inflection]] 是此機制的單一概念頁。
+- [[../10_來源摘要/Stringer_Wasserman_Casaburi_1995_VCO2_VO2_heavy_constant_work]] 顯示：
   - heavy / very heavy constant-work exercise 中，`VCO2` 相對 `VO2` 的上翹約出現在 `40–50 s`
   - 並與 lactate 上升、standard bicarbonate 下降高度同步
 - 這不能取代 ramp CPET 的 GET operational definition，
   但很有力地支持了 **buffering physiology** 這條機制線。
 
-### 歷史性補充模型（Tier 3）
+### 歷史性補充模型（Tier 5 original physiology studies）
 
-- Yano 1997 嘗試用 non-lactic V̇CO2、excess V̇CO2、PvCO2 與 PaCO2 來解釋 incremental exercise 時的 CO2 output。
-- Hirakoba 1996 則在 constant exercise 顯示：excess CO2 與 blood lactate accumulation 高度相關，但在 100% AT 會高估 lactate rise。
-- Yunoki 1999 進一步顯示：在短時 intensive exercise 中，excess V̇CO2 甚至可先出現負值、並在運動後才達峰，表示它明顯落後 lactate production，且受 CO2 stores 與 hyperventilation 影響。
-- 這個模型可作 mechanistic teaching aid，說明高強度時 V̇CO2 同時受 venous CO2 transport、lactate-related buffering 與 hyperventilation 影響。
-- 但它不是當代 GET operational definition，也不取代 V-slope 與 ventilatory equivalent framework。
+- [[Incremental_Exercise_VCO2_Partitioning_Model]] 整理 Yano 1997 的單一來源模型；Yano 嘗試用 non-lactic V̇CO2、excess V̇CO2、PvCO2 與 PaCO2 來解釋 incremental exercise 時的 CO2 output。
+- [[Constant_Work_Excess_CO2_Lactate_Prediction]] 整理 Hirakoba 1996 的單一來源模型；constant exercise 的 excess CO2 與 blood lactate accumulation 高度相關，但在 100% AT 會高估 lactate rise。
+- [[Excess_VCO2_Kinetics_Lag_After_Intensive_Exercise]] 整理 Yunoki 1999 的單一來源模型；在短時 intensive exercise 中，excess V̇CO2 甚至可先出現負值、並在運動後才達峰，表示它明顯落後 lactate production，且受 CO2 stores 與 hyperventilation 影響。
+- 這些 historical physiology models 可作 mechanistic teaching aid，說明高強度時 V̇CO2 同時受 venous CO2 transport、lactate-related buffering 與 hyperventilation 影響。
+- 但它們不是當代 GET operational definition，也不取代 V-slope 與 ventilatory equivalent framework。
+- [[Estimated_Excess_VCO2_and_Performance_Fatigability]] 整理 Wooten et al. 2021 的後續 feasibility-stage application；該 pilot study 把 V-slope AT 作為 estimated excess VCO2 的演算法錨點，探索 recovery VCO2 off-kinetics 與 performance fatigability，但不是 GET validation。
 
 ### GET vs LT
 
@@ -87,7 +92,7 @@ GET 是在 ramp/incremental CPET 中，**V̇CO₂ 相對 V̇O₂ 出現非線性
 
 ## 臨床表現
 
-### 臨床應用（Tier 1 證據）
+### 臨床應用（以 Poole 2020 Tier 4 review 整理之 clinical evidence 為主）
 
 ### 1. 整合性生理功能評估
 - GET 絕對值 <1 L/min 或 <40% predicted V̇O₂max → 通常視為臨床異常。
@@ -152,7 +157,28 @@ GET 是在 ramp/incremental CPET 中，**V̇CO₂ 相對 V̇O₂ 出現非線性
 
 ## 限制與未定論
 
-- 目前頁面尚未明確寫出證據限制、教材未講清楚處或不同來源可能衝突之處。
+### Fact
+
+- GET 是 LT 的 non-invasive surrogate；Poole 2020 建議以 V-slope 加上 isocapnic buffering 證據判讀，而不是只看 ventilation profile。
+- GET / LT 標示 moderate → heavy boundary；heavy → severe boundary 應另以 [[Critical_Power]] / critical speed 描述。
+- GET / LT 具有 effort-independent 優勢，因此對 clinical CPET、perioperative risk stratification 與 heart failure prognosis 特別有價值。
+
+### Inference
+
+- 臨床報告若沿用 `anaerobic threshold`，應在解讀上轉譯為 GET / LT，避免把它寫成 muscle hypoxia point。
+- 在 vulnerable population，GET 的 effort-independent 特性通常比需要 maximal effort 的 CP / CS 測法更實用，但它回答的是不同問題。
+
+### Assumption
+
+- GET = LT 的推論依賴 isocapnic buffering region 存在；若 frank hyperventilation、CO2 storage disturbance 或早停，等同性失效。
+- 本頁的 surgery / heart failure cutoffs 來自 Poole 2020 引述的臨床 cohort，不是本頁獨立重新系統檢索。
+
+### Uncertainty
+
+- LT / GET 與 morbidity / mortality 的 causal mediator 尚未確立。
+- 高海拔、McArdle disease、severe HF / COPD、anxiety-related pre-test hyperventilation 等情境可能造成 false positive、false negative 或 indeterminable GET。
+- 不同 disease cohort 的 cutoffs 不可互相直接替換。
+- Wooten 2021 這類 estimated excess VCO2 / recovery VCO2 pilot data 不能回推成 GET diagnostic validation，因為沒有 lactate、bicarbonate 或 pH 對照。
 
 ## 理解缺口
 
@@ -171,33 +197,37 @@ GET 是在 ramp/incremental CPET 中，**V̇CO₂ 相對 V̇O₂ 出現非線性
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Poole_2020_anaerobic_threshold]]
-- [[09_來源摘要/Beaver_Wasserman_Whipp_1986_V_slope_method]]
-- [[09_來源摘要/Physiological_model_of_CO2_output_during_incremental_exercise]]
-- [[09_來源摘要/Hirakoba_1996_excess_CO2_lactate_prediction]]
-- [[09_來源摘要/Yunoki_1999_excess_CO2_kinetics]]
-- [[09_來源摘要/Stringer_Wasserman_Casaburi_1995_VCO2_VO2_heavy_constant_work]]
-- [[09_來源摘要/Juarez_2024_CPET_in_heart_failure]]
-- [[09_來源摘要/Pezzuto_Agostoni_2023_CPET_pulmonary_hypertension]]
+- [[10_來源摘要/Poole_2020_anaerobic_threshold]]
+- [[10_來源摘要/Beaver_Wasserman_Whipp_1986_V_slope_method]]
+- [[10_來源摘要/Physiological_model_of_CO2_output_during_incremental_exercise]]
+- [[10_來源摘要/Hirakoba_1996_excess_CO2_lactate_prediction]]
+- [[10_來源摘要/Yunoki_1999_excess_CO2_kinetics]]
+- [[10_來源摘要/Wooten_2021_excess_VCO2_recovery_fatigability]]
+- [[10_來源摘要/Stringer_Wasserman_Casaburi_1995_VCO2_VO2_heavy_constant_work]]
+- [[10_來源摘要/Juarez_2024_CPET_in_heart_failure]]
+- [[10_來源摘要/Pezzuto_Agostoni_2023_CPET_pulmonary_hypertension]]
 
 ### 證據標記
 
-- 來源層級：1
-- evidence_level：consensus
+- 來源層級：4（high-quality narrative / topical review；另含本頁已整理之 disease-specific review / original cohort）
+- evidence_level：high_quality_review
 - confidence：high
 
 ## 相關頁面
 
 ### 相關頁面
 
-- [[09_來源摘要/Poole_2020_anaerobic_threshold]]
-- [[09_來源摘要/Beaver_Wasserman_Whipp_1986_V_slope_method]]
-- [[09_來源摘要/Physiological_model_of_CO2_output_during_incremental_exercise]]
-- [[09_來源摘要/Hirakoba_1996_excess_CO2_lactate_prediction]]
-- [[09_來源摘要/Yunoki_1999_excess_CO2_kinetics]]
-- [[09_來源摘要/Stringer_Wasserman_Casaburi_1995_VCO2_VO2_heavy_constant_work]]
+- [[10_來源摘要/Poole_2020_anaerobic_threshold]]
+- [[10_來源摘要/Beaver_Wasserman_Whipp_1986_V_slope_method]]
+- [[10_來源摘要/Physiological_model_of_CO2_output_during_incremental_exercise]]
+- [[10_來源摘要/Hirakoba_1996_excess_CO2_lactate_prediction]]
+- [[10_來源摘要/Yunoki_1999_excess_CO2_kinetics]]
+- [[10_來源摘要/Stringer_Wasserman_Casaburi_1995_VCO2_VO2_heavy_constant_work]]
 - [[Anaerobic_Threshold_概念史]]
 - [[V_Slope_Method]]
+- [[V_Slope_Method_Original_Algorithm]]
+- [[Heavy_Constant_Work_VCO2_VO2_Inflection]]
+- [[Estimated_Excess_VCO2_and_Performance_Fatigability]]
 - [[Lactate_Threshold]]
 - [[Critical_Power]]
 - [[Exercise_Intensity_Domains]]

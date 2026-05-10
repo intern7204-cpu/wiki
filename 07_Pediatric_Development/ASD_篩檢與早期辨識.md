@@ -6,9 +6,9 @@ type: clinical
 domain: [pediatric, neurodevelopmental, screening]
 tags: [ASD, screening, surveillance, M-CHAT-R/F, early_identification]
 sources:
-  - 09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Screening_tools.md
-  - 09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Surveillance_and_screening_in_primary_care.md
-  - 09_來源摘要/Autism_Spectrum_Disorder.md
+  - 10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Screening_tools.md
+  - 10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Surveillance_and_screening_in_primary_care.md
+  - 10_來源摘要/Autism_Spectrum_Disorder.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -110,9 +110,9 @@ ASD 的 early identification 依賴 **continuous surveillance + age-appropriate 
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Screening_tools]]
-- [[09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Surveillance_and_screening_in_primary_care]]
-- [[09_來源摘要/Autism_Spectrum_Disorder]]
+- [[10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Screening_tools]]
+- [[10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Surveillance_and_screening_in_primary_care]]
+- [[10_來源摘要/Autism_Spectrum_Disorder]]
 
 ### 證據標記
 
@@ -128,6 +128,6 @@ ASD 的 early identification 依賴 **continuous surveillance + age-appropriate 
 - [[ASD_臨床表現]]
 - [[ASD_介入與預後]]
 - [[小兒復健評估]]
-- [[../09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Screening_tools]]
-- [[../09_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Surveillance_and_screening_in_primary_care]]
-- [[../09_來源摘要/Autism_Spectrum_Disorder]]
+- [[../10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Screening_tools]]
+- [[../10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Surveillance_and_screening_in_primary_care]]
+- [[../10_來源摘要/Autism_Spectrum_Disorder]]

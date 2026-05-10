@@ -1,26 +1,26 @@
 ---
 title: W' Balance Model（W'BAL）
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-07
 type: method
 domain: [CPET, exercise_physiology, methodology]
 tags: [W_BAL, W_prime, critical_power, intermittent_exercise, modeling]
 sources:
-  - 09_來源摘要/Jones_Vanhatalo_2017_critical_power_concept.md
-  - 09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training.md
-  - 09_來源摘要/Chorley_2021_biexponential_Wprime_reconstitution_trained_cyclists.md
-  - 09_來源摘要/Skiba_Clarke_Wprime_balance_model.md
-  - 09_來源摘要/Skiba_2012_modeling_Wprime_expenditure_reconstitution.md
-  - 09_來源摘要/Skiba_2015_intramuscular_determinants_Wprime_recovery.md
-  - 09_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion.md
-  - 09_來源摘要/Caen_2021_Wprime_recovery_two_phase.md
-  - 09_來源摘要/Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery.md
-  - 09_來源摘要/Lievens_2024_partial_Wprime_recovery.md
-  - 09_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution.md
-  - 09_來源摘要/Sreedhara_2019_power_energy_models.md
-  - 09_來源摘要/Bartram_2018_Wprime_recovery_elite_cyclists.md
-  - 09_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery.md
-  - 09_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP.md
+  - 10_來源摘要/Jones_Vanhatalo_2017_critical_power_concept.md
+  - 10_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training.md
+  - 10_來源摘要/Chorley_2021_biexponential_Wprime_reconstitution_trained_cyclists.md
+  - 10_來源摘要/Skiba_Clarke_Wprime_balance_model.md
+  - 10_來源摘要/Skiba_2012_modeling_Wprime_expenditure_reconstitution.md
+  - 10_來源摘要/Skiba_2015_intramuscular_determinants_Wprime_recovery.md
+  - 10_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion.md
+  - 10_來源摘要/Caen_2021_Wprime_recovery_two_phase.md
+  - 10_來源摘要/Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery.md
+  - 10_來源摘要/Lievens_2024_partial_Wprime_recovery.md
+  - 10_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution.md
+  - 10_來源摘要/Sreedhara_2019_power_energy_models.md
+  - 10_來源摘要/Bartram_2018_Wprime_recovery_elite_cyclists.md
+  - 10_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery.md
+  - 10_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP.md
 source_tier: 1
 evidence_level: moderate
 confidence: medium
@@ -29,6 +29,7 @@ contradictions:
   - W'BAL is a useful modeling tool, not a direct measurement of a single physiologic tank.
   - Integral, differential, and athlete-specific recovery models should not be mixed without explicitly stating their assumptions.
   - Work/recovery structure and depletion state can change observed W' reconstitution, so one fixed tau should not be treated as universally valid.
+  - Mathematical fit, physiological realism, and field usability can diverge; better fit alone is not proof of mechanism.
 ---
 
 # W' Balance Model（W'BAL）
@@ -48,29 +49,76 @@ W'BAL 是把 **CP/W' 延伸到 intermittent exercise** 的實用模型，用來�
 
 ### 1. integral form
 
-- 代表性來源：Skiba 早期模型。
-- 核心 original article（Skiba 2012）把 intermittent exercise 的 `W'` 消耗 / 回補寫成連續方程式，並提出早期 `tau-W'` 與 `DCP` 的經驗式。
-- 優點：實務上應用廣。
-- 問題：假設 ongoing microscopic recovery，極端情境可能出現不合理行為。
+- 代表性來源：Skiba early model，後續由 [[../10_來源摘要/Skiba_Clarke_Wprime_balance_model]] 重新整理其數學假設。
+- 核心想法：把 expended `W'` 視為隨時間以 exponential kernel 回補的 convolution。
+- 這個寫法代表：即使整體仍在 supra-CP work 中持續 depleting，模型內仍可能有 microscopic recovery。
+- 優點：
+  - 實務上應用廣。
+  - 可用於 field power file、pacing simulation、race retrospective analysis。
+- 方法學限制：
+  - 需要 `tau-W'`。
+  - group-derived `tau-W'` 不宜視為 universal physiology。
+  - source 明確指出 best practice 是依 athlete 與 exercise mode 估 individualized `tau-W'`。
+  - 若把 `DCP` 固定成 protocol mean，會掩蓋 recovery power 在時間中動態變化。
+- 極端情境 caveat：
+  - continuous severe trial 模擬時，INT 可能預測比原始 two-parameter CP model 更晚 exhaustion。
+  - exhaustion 後立刻在 CP 騎乘時，INT 可能預測不合理 recovery。
+- 實務定位：
+  - 比較適合 work above CP 以 short bursts 為主的 time trial / triathlon / race-simulation 使用。
 
 ### 2. differential / ODE form
 
-- recovery 與 depletion 互斥，計算較直接。
-- 但 recovery 有時可能預測過快。
+- 核心想法：把 W' 視為動態 state variable，power > CP 時只 depletion，power < CP 時才 recovery。
+- recovery rate 取決於：
+  - 已耗掉的 W' fraction
+  - `CP - P`，也就是 recovery power below CP 的距離
+- 優點：
+  - recovery / depletion 互斥，直覺上比 INT 更清楚。
+  - 計算較直接。
+  - 不需要另行 fitting `tau-W'`。
+  - 可每秒更新新的 `DCP`，理論上比使用固定 recovery power 更貼近 field data。
+- 方法學限制：
+  - source 用 Ferguson data 舉例：ODE implied `tau-W'` 約 `112 s`，比 simple exponential fit 的約 `336 s` 快很多。
+  - 在一個 `60 s work / 30 s recovery` 的 interval example，ODE 比 INT 約早 `300 s` 預測 exhaustion。
+  - ODE 受 chemical reaction kinetics 啟發，會簡化肌肉、motor units、metabolite distribution 的空間異質性。
+- 實務定位：
+  - 若資料包含較長 continuous supra-CP segment，ODE 可能比 INT 少一些 ongoing-recovery artifact。
+  - 但 source 的建議不是固定選一個，而是對同一情境跑不同 model，並使用對該 athlete / scenario 較可用的版本。
 
-### 3. athlete-specific refinement
+### 3. input uncertainty
+
+- `W'BAL` 的誤差不只來自 recovery equation，也來自 `CP / W'` 輸入。
+- [[../10_來源摘要/Skiba_Clarke_Wprime_balance_model]] 整理：
+  - `W'` typical error 可約 `7-20%`
+  - 某些 method report 可到約 `46%`
+  - 因此 `W'BAL = 0 J` 不應被當成精確 exhaustion second
+- `CP / W'` 也不一定在 within-session 或 between-session 完全固定：
+  - nutrition
+  - altitude
+  - prior exercise
+  - intermittent exercise-induced functional CP change
+- 實務上要把 `W'BAL = 0` 看成 exhaustion-risk zone，而不是硬性生理閾值。
+
+### 4. athlete-specific refinement
 
 - elite cyclists 或個別受試者可能需要更快或不同的 recovery parameter。
 - 這類修正較適合個體內應用，不適合直接外推。
 - Caen 2021 的 exhaustion model 更進一步提醒：
-  - `W'` recovery 可能呈現 fast + slow 兩階段
+  - 詳見 [[Exhaustion_Based_Two_Phase_Wprime_Recovery]]
+  - complete exhaustion 後 `W'OBS` recovery 可能呈現 fast + slow 兩階段
   - 若硬用單一 `tau`，短 recovery 常被低估
+  - 但 changed `VO2` kinetics 可解釋部分 fast phase，因此它不是單純 anaerobic tank refill
 - Chorley 2021 也在 trained cyclists 的 repeated maximal ramp 資料中看到：
   - biexponential fit 優於 monoexponential
   - repeated bouts 主要讓 slow component 變慢
 - 但 Lievens 2024 也提醒：
+  - 詳見 [[Partial_Wprime_Depletion_Recovery]]
   - 在 partial depletion 條件下，資料不一定支持 biexponential 優於 monoexponential
   - 所以 exhaustion-based two-phase behavior 不能直接外推到所有 interval 情境
+- Skiba & Clarke 也提醒：
+  - W'BAL-INT 的 apparent success 可能部分來自「像是模擬 intermittent exercise 中 functional CP 上升」
+  - 這不等於證明 supra-CP work 中真的存在同等量的 ongoing recovery
+  - 2-component / multicomponent W'BAL 是合理研究方向，但仍不是成熟 prescription model
 
 ### 生理支撐來自哪裡
 
@@ -103,6 +151,7 @@ W'BAL 是把 **CP/W' 延伸到 intermittent exercise** 的實用模型，用來�
 - CP / W' 是如何得到的
 - 用的是哪一種 W'BAL form
 - recovery parameter 是 group-derived 還是 individual-derived
+- model output 是否有被解讀成 exact physiology，而不是 assumption-sensitive estimate
 
 ### 什麼時候比較有用
 
@@ -116,6 +165,8 @@ W'BAL 是把 **CP/W' 延伸到 intermittent exercise** 的實用模型，用來�
 - 跨研究比較
 - 把 `W'BAL = 0` 當精確 exhaustion time
 - 使用與原驗證情境差很大的族群
+- 用 INT / ODE / individualized model 交叉比較絕對數值，卻沒有標示 model form
+- 用更高 goodness-of-fit 宣稱已找到真正 W' mechanism
 
 ## 治療原則
 
@@ -163,21 +214,21 @@ W'BAL 是把 **CP/W' 延伸到 intermittent exercise** 的實用模型，用來�
 
 ### 來源摘要連結
 
-- [[../09_來源摘要/Jones_Vanhatalo_2017_critical_power_concept]]
-- [[../09_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
-- [[../09_來源摘要/Chorley_2021_biexponential_Wprime_reconstitution_trained_cyclists]]
-- [[../09_來源摘要/Skiba_Clarke_Wprime_balance_model]]
-- [[../09_來源摘要/Skiba_2012_modeling_Wprime_expenditure_reconstitution]]
-- [[../09_來源摘要/Skiba_2015_intramuscular_determinants_Wprime_recovery]]
-- [[../09_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion]]
-- [[../09_來源摘要/Caen_2021_Wprime_recovery_two_phase]]
-- [[../09_來源摘要/Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery]]
-- [[../09_來源摘要/Lievens_2024_partial_Wprime_recovery]]
-- [[../09_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution]]
-- [[../09_來源摘要/Sreedhara_2019_power_energy_models]]
-- [[../09_來源摘要/Bartram_2018_Wprime_recovery_elite_cyclists]]
-- [[../09_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery]]
-- [[../09_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP]]
+- [[../10_來源摘要/Jones_Vanhatalo_2017_critical_power_concept]]
+- [[../10_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training]]
+- [[../10_來源摘要/Chorley_2021_biexponential_Wprime_reconstitution_trained_cyclists]]
+- [[../10_來源摘要/Skiba_Clarke_Wprime_balance_model]]
+- [[../10_來源摘要/Skiba_2012_modeling_Wprime_expenditure_reconstitution]]
+- [[../10_來源摘要/Skiba_2015_intramuscular_determinants_Wprime_recovery]]
+- [[../10_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion]]
+- [[../10_來源摘要/Caen_2021_Wprime_recovery_two_phase]]
+- [[../10_來源摘要/Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery]]
+- [[../10_來源摘要/Lievens_2024_partial_Wprime_recovery]]
+- [[../10_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution]]
+- [[../10_來源摘要/Sreedhara_2019_power_energy_models]]
+- [[../10_來源摘要/Bartram_2018_Wprime_recovery_elite_cyclists]]
+- [[../10_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery]]
+- [[../10_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP]]
 
 ### 證據標記
 
@@ -189,6 +240,8 @@ W'BAL 是把 **CP/W' 延伸到 intermittent exercise** 的實用模型，用來�
 
 - [[Critical_Power]]
 - [[Wprime_Recovery]]
+- [[Exhaustion_Based_Two_Phase_Wprime_Recovery]]
+- [[Partial_Wprime_Depletion_Recovery]]
 - [[CP_Wprime_Interval_Design]]
 - [[Training_Prescription_by_CP]]
 - [[CP_Test_Reliability]]

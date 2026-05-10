@@ -6,12 +6,12 @@ type: concept
 domain: [pediatric, neurodevelopment, cognition]
 tags: [executive_function, working_memory, inhibition, planning, self_monitoring]
 sources:
-  - 09_來源摘要/Neurodevelopmental_and_Executive_Function_and_Dysfunction.md
-  - 09_來源摘要/Cognitive_Control.md
-  - 09_來源摘要/How_Early_Experiences_Shape_the_Development_of_Executive_Function.md
-  - 09_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition.md
-  - 09_來源摘要/Scionti_2020_preschool_EF_cognitive_training.md
-  - 09_來源摘要/Muir_2023_preschool_SR_EF_interventions.md
+  - 10_來源摘要/Neurodevelopmental_and_Executive_Function_and_Dysfunction.md
+  - 10_來源摘要/Cognitive_Control.md
+  - 10_來源摘要/How_Early_Experiences_Shape_the_Development_of_Executive_Function.md
+  - 10_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition.md
+  - 10_來源摘要/Scionti_2020_preschool_EF_cognitive_training.md
+  - 10_來源摘要/Muir_2023_preschool_SR_EF_interventions.md
 source_tier: 1
 evidence_level: emerging
 confidence: high
@@ -164,13 +164,13 @@ Executive Function (EF) 是 **organizing, regulating, monitoring, and flexibly d
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Neurodevelopmental_and_Executive_Function_and_Dysfunction]]
-- [[09_來源摘要/Cognitive_Control]]
-- [[09_來源摘要/How_Early_Experiences_Shape_the_Development_of_Executive_Function]]
-- [[09_來源摘要/Why_Sleep_Matters_in_Early_Childhood_Development]]
-- [[09_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition]]
-- [[09_來源摘要/Scionti_2020_preschool_EF_cognitive_training]]
-- [[09_來源摘要/Muir_2023_preschool_SR_EF_interventions]]
+- [[10_來源摘要/Neurodevelopmental_and_Executive_Function_and_Dysfunction]]
+- [[10_來源摘要/Cognitive_Control]]
+- [[10_來源摘要/How_Early_Experiences_Shape_the_Development_of_Executive_Function]]
+- [[10_來源摘要/Why_Sleep_Matters_in_Early_Childhood_Development]]
+- [[10_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition]]
+- [[10_來源摘要/Scionti_2020_preschool_EF_cognitive_training]]
+- [[10_來源摘要/Muir_2023_preschool_SR_EF_interventions]]
 
 ### 證據標記
 
@@ -190,4 +190,4 @@ Executive Function (EF) 是 **organizing, regulating, monitoring, and flexibly d
 - [[ADHD_睡眠與常見共病]]
 - [[發展監測與篩檢]]
 - [[小兒復健評估]]
-- [[../09_來源摘要/Cognitive_Control]]
+- [[../10_來源摘要/Cognitive_Control]]

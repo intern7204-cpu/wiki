@@ -6,7 +6,7 @@ type: concept
 domain: [pain, chronic_pain, pain_classification]
 tags: [nociceptive_pain, neuropathic_pain, nociplastic_pain, IASP, chronic_pain]
 sources:
-  - 09_來源摘要/Chronic_Pain.md
+  - 10_來源摘要/Chronic_Pain.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Chronic pain 的 mechanism classification 至少要分 nociceptive pain、neurop
 
 - 本頁整理 Chronic Pain 來源中的 pain mechanism language。
 - 本頁不是所有疾病的分型診斷標準，也不是 IASP 原始文件摘要。
-- 本頁只使用單一來源：[[../09_來源摘要/Chronic_Pain]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Chronic_Pain]]。
 
 ## Why It Matters
 
@@ -90,5 +90,5 @@ Mixed drivers → overlapping clinical phenotype
 - [[慢性疼痛中的Peripheral與Central_Sensitization]]
 - [[疼痛管理_Biopsychosocial_ICF框架]]
 - [[慢性疼痛的CBT_CP與Pacing]]
-- [[../09_來源摘要/Chronic_Pain]]
+- [[../10_來源摘要/Chronic_Pain]]
 

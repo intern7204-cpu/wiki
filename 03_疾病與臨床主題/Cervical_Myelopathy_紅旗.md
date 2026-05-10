@@ -6,7 +6,7 @@ type: concept
 domain: [neck_pain, neurology, spine]
 tags: [cervical_myelopathy, UMN_sign, gait, spinal_cord, red_flags]
 sources:
-  - 09_來源摘要/Common_Neck_Problems.md
+  - 10_來源摘要/Common_Neck_Problems.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -24,7 +24,7 @@ Cervical myelopathy 是 cervical spinal cord dysfunction；gait disturbance、UM
 
 - 本頁整理 cervical myelopathy 的臨床紅旗與轉介邏輯。
 - 本頁不是手術術式選擇頁，也不取代 neurosurgery / spine guideline。
-- 本頁只使用單一來源：[[../09_來源摘要/Common_Neck_Problems]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Common_Neck_Problems]]。
 
 ## Why It Matters
 
@@ -94,5 +94,5 @@ Cervical canal stenosis or cord compression
 
 - [[頸部疼痛評估總論]]
 - [[Cervical_Radiculopathy]]
-- [[../09_來源摘要/Common_Neck_Problems]]
+- [[../10_來源摘要/Common_Neck_Problems]]
 

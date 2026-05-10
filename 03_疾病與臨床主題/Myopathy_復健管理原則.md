@@ -6,7 +6,7 @@ type: concept
 domain: [myopathy, rehabilitation, assistive_technology]
 tags: [myopathy, rehabilitation, exercise, contracture, wheelchair, orthosis, ADL, pain_management, equipment]
 sources:
-  - 09_來源摘要/Myopathic_Disorders.md
+  - 10_來源摘要/Myopathic_Disorders.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Myopathy rehabilitation 是長期 interdisciplinary care，核心是反覆評估
 
 - 本頁處理 myopathic disorders 的通用復健管理原則。
 - 本頁不是 DMD、FSHD、IBM、Pompe disease 或 inflammatory myopathy 的 disease-specific protocol。
-- 本頁只使用單一來源：[[../09_來源摘要/Myopathic_Disorders]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Myopathic_Disorders]]。
 
 ## Why It Matters
 
@@ -97,4 +97,4 @@ Myopathic weakness
 - [[疼痛管理_Biopsychosocial_ICF框架]]
 - [[輪椅與座位系統總論]]
 - [[輔具匹配失敗的常見機制]]
-- [[../09_來源摘要/Myopathic_Disorders]]
+- [[../10_來源摘要/Myopathic_Disorders]]

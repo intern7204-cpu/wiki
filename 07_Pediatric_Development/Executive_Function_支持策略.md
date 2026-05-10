@@ -6,11 +6,11 @@ type: method
 domain: [pediatric, executive_function, parenting, education]
 tags: [executive_function, scaffolding, routines, school_support, adolescence, autonomy_support]
 sources:
-  - 09_來源摘要/Cognitive_Control.md
-  - 09_來源摘要/Smart_but_Scattered.md
-  - 09_來源摘要/How_Early_Experiences_Shape_the_Development_of_Executive_Function.md
-  - 09_來源摘要/Enhancing_and_Practicing_Executive_Function_Skills_with_Children_from_Infancy_to_Adolescence.md
-  - 09_來源摘要/HCDC_BuildingAdolescentCoreLifeSkills.md
+  - 10_來源摘要/Cognitive_Control.md
+  - 10_來源摘要/Smart_but_Scattered.md
+  - 10_來源摘要/How_Early_Experiences_Shape_the_Development_of_Executive_Function.md
+  - 10_來源摘要/Enhancing_and_Practicing_Executive_Function_Skills_with_Children_from_Infancy_to_Adolescence.md
+  - 10_來源摘要/HCDC_BuildingAdolescentCoreLifeSkills.md
 source_tier: 1
 evidence_level: emerging
 confidence: medium
@@ -149,11 +149,11 @@ Executive Function 支持策略的核心，不是叫 child 更自律，而是把
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Cognitive_Control]]
-- [[09_來源摘要/Smart_but_Scattered]]
-- [[09_來源摘要/How_Early_Experiences_Shape_the_Development_of_Executive_Function]]
-- [[09_來源摘要/Enhancing_and_Practicing_Executive_Function_Skills_with_Children_from_Infancy_to_Adolescence]]
-- [[09_來源摘要/HCDC_BuildingAdolescentCoreLifeSkills]]
+- [[10_來源摘要/Cognitive_Control]]
+- [[10_來源摘要/Smart_but_Scattered]]
+- [[10_來源摘要/How_Early_Experiences_Shape_the_Development_of_Executive_Function]]
+- [[10_來源摘要/Enhancing_and_Practicing_Executive_Function_Skills_with_Children_from_Infancy_to_Adolescence]]
+- [[10_來源摘要/HCDC_BuildingAdolescentCoreLifeSkills]]
 
 ### 證據標記
 
@@ -167,6 +167,6 @@ Executive Function 支持策略的核心，不是叫 child 更自律，而是把
 - [[發展監測與篩檢]]
 - [[正向教養與家庭支持]]
 - [[創傷_復原力與兒童發展]]
-- [[../09_來源摘要/Cognitive_Control]]
-- [[../09_來源摘要/Smart_but_Scattered]]
+- [[../10_來源摘要/Cognitive_Control]]
+- [[../10_來源摘要/Smart_but_Scattered]]
 

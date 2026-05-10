@@ -6,7 +6,7 @@ type: clinical
 domain: [pediatric, neurodevelopmental, rehabilitation, PMR, pharmacology]
 tags: [cerebral_palsy, spasticity, dystonia, baclofen, botulinum_toxin, intrathecal_baclofen, selective_dorsal_rhizotomy]
 sources:
-  - 09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
+  - 10_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -239,7 +239,7 @@ CP 張力管理是 **以兒童的功能目標為核心，在 spasticity / dyston
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders]]
+- [[10_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders]]
 
 ### 證據標記
 

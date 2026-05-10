@@ -6,7 +6,7 @@ type: concept
 domain: [myopathy, respiratory_care, cardiology, dysphagia]
 tags: [myopathy, restrictive_lung_disease, NIV, cough_assist, cardiomyopathy, conduction_abnormality, dysphagia, aspiration]
 sources:
-  - 09_來源摘要/Myopathic_Disorders.md
+  - 10_來源摘要/Myopathic_Disorders.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ Myopathy 的臨床風險不能只看 limb weakness；respiratory muscle weakness
 
 - 本頁聚焦 myopathic disorders 的 respiratory、cardiac、bulbar / dysphagia risk frame。
 - 本頁不是 DMD、Pompe、IBM、OPMD、myotonic dystrophy 等疾病的完整監測 guideline。
-- 本頁只使用單一來源：[[../09_來源摘要/Myopathic_Disorders]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Myopathic_Disorders]]。
 
 ## Why It Matters
 
@@ -106,4 +106,4 @@ Myopathic involvement of cardiac or bulbar muscles
 - [[Myopathy_復健管理原則]]
 - [[吞嚥障礙復健總論]]
 - [[輪椅與座位系統總論]]
-- [[../09_來源摘要/Myopathic_Disorders]]
+- [[../10_來源摘要/Myopathic_Disorders]]

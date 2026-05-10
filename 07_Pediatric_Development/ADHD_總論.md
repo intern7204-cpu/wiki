@@ -6,9 +6,9 @@ type: clinical
 domain: [pediatric, neurodevelopmental, rehabilitation]
 tags: [ADHD, inattention, hyperactivity, impulsivity, comorbidity]
 sources:
-  - 09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Epidemiology_and_pathogenesis.md
-  - 09_來源摘要/Attention_Deficit_Hyperactivity_Disorder.md
-  - 09_來源摘要/Attention_Deficit_Hyperactivity_Disorder_ADHD.md
+  - 10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Epidemiology_and_pathogenesis.md
+  - 10_來源摘要/Attention_Deficit_Hyperactivity_Disorder.md
+  - 10_來源摘要/Attention_Deficit_Hyperactivity_Disorder_ADHD.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -104,9 +104,9 @@ ADHD 是以 **developmentally inappropriate inattention and/or hyperactivity-imp
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Epidemiology_and_pathogenesis]]
-- [[09_來源摘要/Attention_Deficit_Hyperactivity_Disorder]]
-- [[09_來源摘要/Attention_Deficit_Hyperactivity_Disorder_ADHD]]
+- [[10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Epidemiology_and_pathogenesis]]
+- [[10_來源摘要/Attention_Deficit_Hyperactivity_Disorder]]
+- [[10_來源摘要/Attention_Deficit_Hyperactivity_Disorder_ADHD]]
 
 ### 證據標記
 
@@ -124,6 +124,6 @@ ADHD 是以 **developmentally inappropriate inattention and/or hyperactivity-imp
 - [[ADHD_睡眠與常見共病]]
 - [[小兒復健評估]]
 - [[兒童OT與PT復健服務]]
-- [[../09_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Epidemiology_and_pathogenesis]]
-- [[../09_來源摘要/Attention_Deficit_Hyperactivity_Disorder]]
-- [[../09_來源摘要/Attention_Deficit_Hyperactivity_Disorder_ADHD]]
+- [[../10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Epidemiology_and_pathogenesis]]
+- [[../10_來源摘要/Attention_Deficit_Hyperactivity_Disorder]]
+- [[../10_來源摘要/Attention_Deficit_Hyperactivity_Disorder_ADHD]]

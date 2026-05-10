@@ -6,14 +6,14 @@ type: concept
 domain: [pediatric, development, public_health]
 tags: [child_care, ECE, social_determinants, inclusion, quality, IFSP, IEP]
 sources:
-  - 09_來源摘要/Child_Care.md
-  - 09_來源摘要/Foster_Care_and_Adoption.md
-  - 09_來源摘要/Positive_Parenting_and_Support.md
-  - 09_來源摘要/The_Influence_of_Digital_Media_on_Children_and_Families.md
-  - 09_來源摘要/From_Resources_to_Routines_Stability.md
-  - 09_來源摘要/Serve_and_Return.md
-  - 09_來源摘要/Why_Stability_Matters_Webinar.md
-  - 09_來源摘要/Place_Matters.md
+  - 10_來源摘要/Child_Care.md
+  - 10_來源摘要/Foster_Care_and_Adoption.md
+  - 10_來源摘要/Positive_Parenting_and_Support.md
+  - 10_來源摘要/The_Influence_of_Digital_Media_on_Children_and_Families.md
+  - 10_來源摘要/From_Resources_to_Routines_Stability.md
+  - 10_來源摘要/Serve_and_Return.md
+  - 10_來源摘要/Why_Stability_Matters_Webinar.md
+  - 10_來源摘要/Place_Matters.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -133,11 +133,11 @@ contradictions:
 
 ### 來源摘要連結
 
-- [[09_來源摘要/Child_Care]]
-- [[09_來源摘要/From_Resources_to_Routines_Stability]]
-- [[09_來源摘要/Serve_and_Return]]
-- [[09_來源摘要/Why_Stability_Matters_Webinar]]
-- [[09_來源摘要/Place_Matters]]
+- [[10_來源摘要/Child_Care]]
+- [[10_來源摘要/From_Resources_to_Routines_Stability]]
+- [[10_來源摘要/Serve_and_Return]]
+- [[10_來源摘要/Why_Stability_Matters_Webinar]]
+- [[10_來源摘要/Place_Matters]]
 
 ### 證據標記
 
@@ -160,4 +160,4 @@ contradictions:
 - [[發展環境與Place]]
 - [[Serve_and_Return]]
 - [[數位媒體與兒少發展]]
-- [[../09_來源摘要/Child_Care]]
+- [[../10_來源摘要/Child_Care]]

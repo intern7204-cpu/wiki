@@ -6,7 +6,7 @@ type: concept
 domain: [multiple_sclerosis, fatigue, thermoregulation, exercise]
 tags: [MS, fatigue, heat_sensitivity, Uhthoff_phenomenon, exercise, sleep, mood, energy_conservation]
 sources:
-  - 09_來源摘要/Multiple_Sclerosis.md
+  - 10_來源摘要/Multiple_Sclerosis.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +25,7 @@ MS fatigue and heat sensitivity management 要先區分 central / peripheral fat
 
 - 本頁聚焦 MS fatigue、Uhthoff phenomenon、heat sensitivity 與 exercise dosing。
 - 本頁不是 pharmacologic fatigue prescribing guide。
-- 本頁只使用單一來源：[[../09_來源摘要/Multiple_Sclerosis]]。
+- 本頁只使用單一來源：[[../10_來源摘要/Multiple_Sclerosis]]。
 
 ## Why It Matters
 
@@ -97,4 +97,4 @@ CNS demyelination and reduced conduction reserve
 - [[MS_步態與Spasticity復健框架]]
 - [[慢性疼痛復健的主動化治療框架]]
 - [[復健心理社會評估與介入]]
-- [[../09_來源摘要/Multiple_Sclerosis]]
+- [[../10_來源摘要/Multiple_Sclerosis]]

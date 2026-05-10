@@ -6,7 +6,7 @@ type: concept
 domain: [rehabilitation, medicolegal, methodology]
 tags: [impairment, disability, ICF, AMA_Guides, IME]
 sources:
-  - 09_來源摘要/Practical_aspects_of_impairment_rating_and_disability_determination.md
+  - 10_來源摘要/Practical_aspects_of_impairment_rating_and_disability_determination.md
 source_tier: 1
 evidence_level: consensus
 confidence: high
@@ -60,4 +60,4 @@ Body impairment
 ## Links
 
 - [[障礙評定與失能判定]]
-- [[../09_來源摘要/Practical_aspects_of_impairment_rating_and_disability_determination]]
+- [[../10_來源摘要/Practical_aspects_of_impairment_rating_and_disability_determination]]
