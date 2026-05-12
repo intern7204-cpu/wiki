@@ -70,8 +70,8 @@ contradictions:
 
 ### 對現有 wiki 的意義
 
-- 直接支撐 [[../03_疾病與臨床主題/受傷跑者復健原則]]。
-- 也應作為 [[../03_疾病與臨床主題/跑者下肢傷害評估總論]]、[[../06_Gait_Biomechanics/跑步步態評估]]、[[../06_Gait_Biomechanics/跑步步頻調整]] 的上游骨架。
+- 直接支撐 [[../06_Gait_Biomechanics/受傷跑者復健原則]]。
+- 也應作為 [[../06_Gait_Biomechanics/跑者下肢傷害評估總論]]、[[../06_Gait_Biomechanics/跑步步態評估]]、[[../06_Gait_Biomechanics/跑步步頻調整]] 的上游骨架。
 
 ## 評估方式
 
@@ -130,8 +130,8 @@ contradictions:
 
 ## 相關頁面
 
-- [[../03_疾病與臨床主題/受傷跑者復健原則]]
-- [[../03_疾病與臨床主題/跑者下肢傷害評估總論]]
-- [[../03_疾病與臨床主題/跑者膝部疼痛]]
+- [[../06_Gait_Biomechanics/受傷跑者復健原則]]
+- [[../06_Gait_Biomechanics/跑者下肢傷害評估總論]]
+- [[../06_Gait_Biomechanics/跑者膝部疼痛]]
 - [[../06_Gait_Biomechanics/跑步步態評估]]
 - [[../06_Gait_Biomechanics/跑步步頻調整]]

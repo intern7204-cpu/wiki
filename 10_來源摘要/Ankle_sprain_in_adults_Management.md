@@ -63,7 +63,7 @@ contradictions:
 
 ### 對現有 wiki 的意義
 
-- 與診斷篇一起構成 [[../03_疾病與臨床主題/Ankle_sprain_總論]] 的主要 Tier 1 框架。
+- 與診斷篇一起構成 [[../06_Gait_Biomechanics/Ankle_sprain_總論]] 的主要 Tier 1 框架。
 - 也為 chronic ankle instability 的 rehab / prevention 提供主幹。
 
 - 什麼情況要治療？先看是否真的改變 pain、function、safety、participation 或訓練輸出。
@@ -116,6 +116,6 @@ contradictions:
 
 ### 相關 wiki 頁面
 
-- [[../03_疾病與臨床主題/Ankle_sprain_總論]]
-- [[../03_疾病與臨床主題/Syndesmotic_ankle_injury]]
+- [[../06_Gait_Biomechanics/Ankle_sprain_總論]]
+- [[../06_Gait_Biomechanics/Syndesmotic_ankle_injury]]
 - [[../06_Gait_Biomechanics/步態評估總論]]

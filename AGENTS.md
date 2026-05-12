@@ -173,6 +173,40 @@ C:\知識百科
 - `log.md`：時間順序紀錄。
 - `10_來源摘要`：每個來源的獨立摘要頁。
 
+### 3.4 Session Orientation
+
+每次開始 ingest、query、lint、rewrite 或大型整理前，先建立本輪工作方向，不直接改頁：
+
+1. 讀 `SCHEMA.md`，確認目前 schema 與目錄規則。
+2. 讀 `index.md`，找出既有頁面、hub pages 與可能重複頁。
+3. 讀 `log.md` 最近紀錄，避免重複近期工作或忽略待追蹤項目。
+4. 對預計新增的 concept 先搜尋 wiki；既有頁面優先更新，不重複建頁。
+
+### 3.5 Source Fingerprint 與 Source Drift
+
+`C:\原始資料` 仍然 immutable；不得為了追蹤 hash 而修改 raw layer。
+
+source drift 只在 `C:\知識百科` 端記錄：
+
+```text
+C:\知識百科\08_工具與Workflow\source_manifest.json
+```
+
+規則：
+
+- 每個已 ingest raw source 以 relative path、size、mtime、sha256 記錄。
+- 新增或更新來源摘要後，更新對應 manifest entry。
+- health check 若發現同一路徑 sha256 改變，標記 `source_drift`，不可默默覆蓋原摘要。
+- 若來源摘要有 `source_path` 或 `原始檔：...`，但 manifest 缺 entry，標記 `source_manifest_missing`。
+- 若 raw source 不存在，標記 `raw_source_missing`，不得自行改寫成另一個來源。
+
+### 3.6 Index Scaling 與 Archive Policy
+
+- `index.md` 維持全站可掃描索引；若條目過多，新增或更新 `00_總覽/主題地圖.md` 與各 domain hub pages，不用一次重寫整個 index。
+- 大型重構、合併或拆頁前，先確認是否會改變臨床結論或來源歸屬。
+- 不刪除舊頁；過時或被取代的頁面移入 `_archive` 或相同資料夾下的 archive 區，並在 `log.md` 記錄原因與替代頁。
+- 臨床主幹頁若要 archive，除非只是明顯重複檔，否則先詢問使用者。
+
 ---
 
 ## 4. 來源優先序
@@ -209,6 +243,13 @@ C:\知識百科
 ---
 
 ## 6. Ingest Workflow
+
+### 6.0 Orientation
+
+1. 讀 `SCHEMA.md`。
+2. 讀 `index.md`，確認是否已有相關 concept page、source summary 或 hub page。
+3. 讀 `log.md` 最近紀錄，確認 pending source、近期 correction 與本輪不能重複的工作。
+4. 搜尋 wiki 中的同義概念與相鄰概念，先決定更新既有頁或新增頁。
 
 ### 6.1 掃描來源
 
@@ -295,6 +336,17 @@ C:\知識百科\10_來源摘要
 - 待處理來源：
 ```
 
+### 6.8 更新 source manifest
+
+若來源摘要包含 raw source path，本輪完成後更新：
+
+```text
+08_工具與Workflow/source_manifest.json
+```
+
+記錄 raw relative path、sha256、size、mtime、last_checked 與對應 source summary。
+若同一路徑 hash 與既有 manifest 不同，先在 `log.md` 標記 `source_drift`，再決定是否需要重新 ingest 或 correction。
+
 ---
 
 ## 7. 批次萃取錯誤修正
@@ -337,7 +389,7 @@ C:\知識百科\10_來源摘要
 
 當使用者提問時：
 
-1. 先讀 `index.md`。
+1. 先讀 `SCHEMA.md`、`index.md` 與 `log.md` 最近紀錄。
 2. 找出相關頁面。
 3. 讀取必要 wiki 頁面。
 4. 若 wiki 不足，再回查 `C:\原始資料`。
@@ -365,6 +417,12 @@ C:\知識百科\10_來源摘要
 10. 是否有把推論寫成事實。
 11. 是否違反 `feynman-euclidean-summary` skill 的單一概念、事實/推論分層與推導鏈要求。
 12. 是否把單一來源中的多個概念硬塞進同一頁，導致概念邊界混亂。
+13. 是否有 broken wikilinks 或 index 指向不存在頁面。
+14. 是否有 source summary 指向不存在 raw source。
+15. 是否有 `source_manifest_missing` 或 `source_drift`。
+16. 是否有 tag sprawl、frontmatter 欄位缺漏或 page type 不合 schema。
+17. 是否需要把大型 `index.md` 導航壓力移到 `00_總覽/主題地圖.md` 或 hub pages。
+18. 是否需要 log rotation 或 archive 過時 workflow 頁。
 
 Lint 後輸出：
 

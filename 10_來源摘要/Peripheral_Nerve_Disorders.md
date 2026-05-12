@@ -1,7 +1,7 @@
 ---
 title: Peripheral Nerve Disorders
 created: 2026-05-03
-updated: 2026-05-03
+updated: 2026-05-11
 type: source_summary
 domain: [peripheral_nerve, neuropathy, electrodiagnosis, rehabilitation]
 tags: [peripheral_nerve_disorders, focal_neuropathy, polyneuropathy, EDX, neuromuscular_ultrasound, GBS, CIDP, neuropathic_pain, falls]
@@ -11,27 +11,27 @@ evidence_level: textbook_chapter
 confidence: high
 contested: true
 contradictions:
-  - Early EDX can be falsely reassuring if performed before Wallerian degeneration and denervation signs evolve.
-  - Typical diabetic / metabolic neuropathy should not be assumed when the pattern is asymmetric, proximal, rapid, motor-predominant, or demyelinating.
+  - 太早做的 EDX 可能尚未顯現 Wallerian degeneration 與 denervation，因此 normal 結果可能造成 false reassurance。
+  - 不能因病人有糖尿病 / 代謝疾病就把任何 polyneuropathy 都當作典型；asymmetric、proximal、rapid、motor-predominant 或 demyelinating 都應升級鑑別。
 ---
 
 # Source Summary: Peripheral Nerve Disorders
 
 ## Source Type
 
-- Textbook chapter / rehabilitation and neuromuscular medicine chapter.
-- Authors listed in source: Monica Barnes, Anita Craig, and Sandra L. Hearn.
-- Single-source ingest only; this page does not synthesize with other neuropathy guidelines.
+- 教科書型 / 復健與神經肌肉醫學章節。
+- 來源作者：Monica Barnes、Anita Craig、Sandra L. Hearn。
+- 本輪僅以這篇單一來源 ingest，未混入其他 neuropathy guideline。
 
 ## Reliability Level
 
-- Tier 1 within this wiki because it is a textbook-style clinical chapter.
-- Strongest for lesion localization, Seddon / Sunderland classification, EDX timing, neuromuscular ultrasound role, common focal neuropathies, typical polyneuropathy pattern, inflammatory neuropathy recognition, and rehabilitation implications.
-- Treatment details for GBS / CIDP and neuropathic pain should still be checked against current guideline / prescribing sources before direct clinical use.
+- 在本 wiki 對 textbook clinical chapter 的層級中屬 Tier 1。
+- 強項：lesion 定位、Seddon / Sunderland 分類、EDX timing、neuromuscular ultrasound 角色、常見 focal neuropathy、典型 polyneuropathy 型態、inflammatory neuropathy 辨識，以及復健意涵。
+- 限制：GBS / CIDP 與 neuropathic pain 的具體治療細節仍應對照最新 guideline / 處方來源後再用於臨床。
 
 ## One-Sentence Summary
 
-Peripheral nerve disorders should be formulated by localization, fiber type, lesion mechanism, time course, EDX / ultrasound correlation, and functional complication risk rather than by a nonspecific label such as "neuropathy."
+Peripheral nerve disorder 應依「定位、fiber type、lesion 機制、time course、EDX / ultrasound 對應、功能性併發症風險」逐項建模，而不是用「neuropathy」這種不具體標籤代表診斷。
 
 ## Core Concepts Extracted
 
@@ -39,144 +39,144 @@ Peripheral nerve disorders should be formulated by localization, fiber type, les
 
 #### One-Sentence Definition
 
-Focal peripheral nerve injury prognosis depends on whether the lesion is neurapraxic, axonal, or transected, and whether recovery can occur by remyelination, collateral sprouting, or axonal regrowth.
+Focal peripheral nerve injury 的 prognosis 取決於 lesion 是 neurapraxic、axonal 還是 transected，以及恢復來自 remyelination、collateral sprouting 或 axonal regrowth。
 
 #### Known Facts
 
-- Seddon classification separates neurapraxia, axonotmesis, and neurotmesis.
-- Sunderland classification adds connective tissue layer severity; higher degree injury has worse spontaneous recovery.
-- EDX can evaluate axonal continuity but cannot directly determine integrity of supportive connective tissue structures.
-- Wallerian degeneration occurs over about 7 days for motor axons and about 10 days for sensory axons.
-- Denervation potentials become evident around 3 weeks after injury.
-- Remyelination after neurapraxia is usually complete by about 3 months.
-- Collateral sprouting takes about 2-3 months to appear on EMG and works best when enough neighboring axons remain intact.
-- Axonal regrowth proceeds about 1-5 mm/day and is time- and distance-dependent.
-- Distal muscle fibers and connective tissues remain viable for reinnervation for about 18-24 months after denervation.
+- Seddon classification 把損傷分為 neurapraxia、axonotmesis 與 neurotmesis。
+- Sunderland classification 額外納入 connective tissue layer 嚴重度；級數越高，自發恢復越差。
+- EDX 可評估 axonal continuity，但無法直接判斷 connective tissue 結構是否完整。
+- Wallerian degeneration 在 motor axons 約 7 天、sensory axons 約 10 天演變完整。
+- Denervation potentials 通常在受傷後約 3 週才在 needle EMG 上明顯。
+- Neurapraxia 後的 remyelination 通常於約 3 個月內完成。
+- Collateral sprouting 約於 2–3 個月在 EMG 上看得到，前提是鄰近仍有足夠完整 axons。
+- Axonal regrowth 速率約 1–5 mm/day，受時間與距離限制。
+- Distal muscle fiber 與 connective tissue 在被去神經後，仍可在約 18–24 個月內接受 reinnervation。
 
 #### Mechanism Chain
 
 ```text
-Mechanical / compressive / traction / laceration insult
-→ demyelination, axonal loss, or nerve discontinuity
-→ EDX abnormalities evolve with time
-→ remyelination, collateral sprouting, or axonal regrowth
-→ recovery potential limited by axon continuity, connective tissue scaffold, distance, and end-organ viability
+機械性 / 壓迫 / 牽張 / 切割性損傷
+→ demyelination、axonal loss 或神經完全斷裂
+→ EDX 異常隨時間演變
+→ remyelination、collateral sprouting 或 axonal regrowth
+→ 恢復潛力受 axon continuity、connective tissue scaffold、距離與末端器官存活時間限制
 ```
 
 #### Inferences
 
-- A "normal" very early study after acute nerve injury can be misleading because Wallerian degeneration and denervation signs need time to emerge.
-- Surgical timing cannot be decided from EDX alone when the key uncertainty is connective tissue continuity.
+- 急性神經損傷後過早做 EDX 而結果 normal，容易造成 false reassurance；Wallerian degeneration 與 denervation 需要時間才能浮現。
+- 當主要不確定性是 connective tissue continuity 時，手術時機不能僅靠 EDX 判定。
 
 #### Assumptions
 
-- The lesion has been correctly localized to peripheral nerve rather than root, plexus, muscle, or central nervous system.
-- Serial EDX is interpreted in relation to the injury date and functional target muscles.
+- Lesion 已被正確定位到 peripheral nerve，而非 root、plexus、肌肉或中樞神經。
+- Serial EDX 在解讀時對照受傷日期與功能性目標肌肉。
 
 #### Uncertainties / Limitations
 
-- The chapter gives general EDX / prognosis timing, but individual recovery varies by mechanism, surgical repair, scar, distance, age, comorbidity, and rehabilitation context.
+- 本章提供一般 EDX / 預後 timing；實際恢復受機制、手術修復、瘢痕、距離、年齡、共病與復健的影響而個別變異。
 
 ### Concept: 周邊神經病灶定位與 EDX / ultrasound 框架
 
 #### One-Sentence Definition
 
-Peripheral nerve localization requires matching motor, sensory, reflex, and anatomic vulnerability patterns with EDX physiology and, when useful, neuromuscular ultrasound structure.
+Peripheral nerve 的定位需把 motor、sensory、reflex 與解剖易受傷部位的型態，與 EDX 生理（必要時加 neuromuscular ultrasound 結構）相互對應。
 
 #### Known Facts
 
-- Peripheral nerve branches may carry motor, sensory, or mixed fascicles; the distribution of deficits helps localize lesion to nerve, plexus, or root.
-- EDX can confirm, localize, characterize severity / chronicity, and assist prognosis in focal and generalized neuropathies.
-- Neuromuscular ultrasound complements EDX by showing structure, including focal compression or nerve discontinuity.
-- In acute trauma, ultrasound may identify structural injury before denervation becomes visible on needle EMG.
-- Ultrasound can sometimes find abnormalities when EDX is normal and can help assess persistent symptoms after surgery.
-- Acquired demyelinating neuropathies such as CIDP may show multifocal enlargement, fascicular enlargement, and increased nerve vascularity.
-- Hereditary demyelinating neuropathies tend to show diffuse and symmetric enlargement rather than patchy acquired changes.
+- Peripheral nerve 分支可帶 motor、sensory 或 mixed fascicle；deficit 分布有助把 lesion 定位到 nerve、plexus 或 root。
+- EDX 可用以確認、定位、刻劃嚴重度 / 慢性化，並協助 focal 與 generalized neuropathy 的 prognosis。
+- Neuromuscular ultrasound 補上結構資訊，例如局部壓迫或神經斷裂。
+- 急性外傷時，ultrasound 可在 needle EMG 出現 denervation 之前先看到結構性損傷。
+- 在 EDX normal 的情況下，ultrasound 仍可能找到異常；對術後仍有症狀的評估也常有助。
+- Acquired demyelinating neuropathy（例如 CIDP）可顯示 multifocal enlargement、fascicular enlargement 與 nerve vascularity 增加。
+- Hereditary demyelinating neuropathy 較傾向 diffuse、symmetric enlargement，而非 acquired 的 patchy change。
 
 #### Mechanism Chain
 
 ```text
-History + neurologic exam pattern
-→ hypothesized nerve / plexus / root / generalized process
-→ EDX tests fiber type, distribution, axonal vs demyelinating pattern, and chronicity
-→ ultrasound adds nerve morphology and structural continuity
-→ diagnosis, prognosis, and treatment / surgical referral decision
+History + 神經學檢查型態
+→ 假設 nerve / plexus / root / generalized 的 process
+→ EDX 測 fiber type、分布、axonal vs demyelinating、慢性化
+→ ultrasound 加上神經型態與結構連續性
+→ 診斷、prognosis 與治療 / 手術轉介決策
 ```
 
 #### Inferences
 
-- EDX and ultrasound answer different questions: physiology vs structure.
-- A focal entrapment label is weak if it does not explain the full distribution of weakness, sensory loss, and reflex change.
+- EDX 與 ultrasound 回答不同問題：生理 vs 結構。
+- 若「focal entrapment」標籤無法解釋整體 weakness、sensory loss 與 reflex change 的分布，那麼這個診斷強度不足。
 
 #### Assumptions
 
-- The examiner uses a targeted protocol rather than a fixed "screening" battery.
+- 操作者使用 targeted protocol，而不是固定的 screening battery。
 
 #### Uncertainties / Limitations
 
-- Ultrasound criteria and clinical impact vary by nerve and operator expertise.
+- Ultrasound 的判讀標準與臨床影響會因神經、操作者經驗而差異。
 
 ### Concept: 周邊多發神經病變的典型與非典型型態
 
 #### One-Sentence Definition
 
-Most peripheral polyneuropathies are chronic, length-dependent, symmetric, axonal, sensory-motor processes, and deviations from this pattern should trigger search for treatable atypical neuropathies.
+多數 peripheral polyneuropathy 是 chronic、length-dependent、symmetric、axonal、sensory-motor process；偏離此型態時應主動搜尋可治療的 atypical neuropathy。
 
 #### Known Facts
 
-- Typical neuropathy often begins gradually in toes / forefeet with distal-to-proximal sensory symptoms over months or years.
-- Functional complaints can include balance difficulty on uneven terrain or in darkness, and repeated falls may be the presenting problem.
-- Common causes of typical axonal neuropathy include diabetes mellitus, alcohol toxicity, hypothyroidism, renal failure, and metabolic syndrome.
-- Exam should assess sensory function, motor involvement, reflexes, autonomic signs, gait, balance, and foot skin integrity.
-- Loss of Achilles reflex, impaired great-toe movement perception, and reduced 128-Hz vibration detection at the great toe predict electrodiagnostically confirmed neuropathy in older adults.
-- Standard EDX does not assess small fibers adequately.
-- Nonlength dependence, marked asymmetry, proximal involvement early, rapid progression, motor-predominant findings, or demyelinating features suggest atypical patterns.
-- GBS usually has progressive weakness reaching nadir in 2-4 weeks, early reflex loss, possible cranial / bulbar / respiratory / autonomic involvement, and requires acute multidisciplinary care.
-- CIDP progresses over at least 2 months and involves proximal and distal weakness with demyelinating-range EDX features across multiple nerves.
-- Polyneuropathy complications include foot ulceration, Charcot neuroarthropathy, neuropathic pain, dynamic postural instability, falls, activity restriction, isolation, and depression.
+- 典型 neuropathy 常以腳趾 / 前足為起點，呈 distal-to-proximal sensory symptom，歷時數月到數年。
+- 功能性主訴可包含不平地面或暗處的平衡困難；反覆跌倒可能是首次就醫原因。
+- 典型 axonal neuropathy 常見成因：糖尿病、酒精中毒、甲狀腺低下、腎衰竭與代謝症候群。
+- 檢查應同時評估 sensory、motor、reflex、autonomic、gait、平衡與足部皮膚完整性。
+- 在年長族群中，Achilles reflex 缺失、大趾運動覺受損與 128-Hz 振動覺降低能預測電生理確認的 neuropathy。
+- 標準 EDX 無法充分評估 small fibers。
+- 非 length-dependent、明顯不對稱、早期近端受累、進展快速、以 motor 為主，或具 demyelinating 特徵時，應視為 atypical pattern。
+- GBS 通常在 2–4 週內進展到 nadir，早期出現 reflex loss，可能伴 cranial / bulbar / respiratory / autonomic 受累，需要急性多專科照護。
+- CIDP 進展超過至少 2 個月，伴近端與遠端 weakness 與多條神經呈現 demyelinating-range 的 EDX 特徵。
+- Polyneuropathy 併發症包括 foot ulceration、Charcot neuroarthropathy、neuropathic pain、動態姿勢不穩、跌倒、活動受限、孤立感與憂鬱。
 
 #### Mechanism Chain
 
 ```text
 Length-dependent axonal loss
-→ distal sensory and proprioceptive impairment
-→ delayed balance correction and foot trauma unawareness
-→ falls, ulceration, deformity, pain, and participation restriction
+→ 遠端 sensory / 本體覺受損
+→ 平衡修正延遲、對足部創傷不易察覺
+→ 跌倒、潰瘍、變形、疼痛與 participation 受限
 ```
 
 #### Inferences
 
-- Neuropathy assessment is incomplete if it stops at "numb feet" and does not assess falls, footwear, skin, lighting, assistive devices, and proximal compensation.
-- Atypical neuropathy recognition matters because inflammatory, nutritional, toxic, infectious, vasculitic, and hereditary processes may require different management.
+- Neuropathy 評估若停在「腳麻」就結束，會漏掉 falls、footwear、皮膚、照明、輔具與近端代償。
+- Atypical neuropathy 的辨識很重要，因為 inflammatory、nutritional、toxic、infectious、vasculitic 與 hereditary 各有不同處置。
 
 #### Assumptions
 
-- Diabetes and metabolic risk factors are not automatically assumed to be the only cause when the pattern is atypical.
+- 在 atypical pattern 下，不能直接把糖尿病或代謝風險因素視為唯一成因。
 
 #### Uncertainties / Limitations
 
-- This chapter provides broad patterns, not a complete diagnostic algorithm for every neuropathy etiology.
+- 本章提供大方向 pattern，並非每一種 neuropathy 病因的完整診斷算法。
 
 ## Clinically Useful Points
 
-- In focal neuropathy, document date of onset / injury because EDX timing changes interpretation.
-- When acute nerve laceration or discontinuity is clinically or structurally apparent, surgical evaluation should not wait for late denervation findings.
-- CTS differential includes proximal median neuropathy, C6 / C7 radiculopathy, and brachial plexopathy; Phalen / Tinel must be interpreted in context.
-- In neuropathy-related falls, evaluate ankle proprioception, unipedal stance, lighting, footwear, vision, cane / orthosis use, and proximal hip / trunk strength.
-- Neuropathic pain medications may worsen gait and cognition in older adults; function and fall risk are part of medication safety.
-- Foot protection includes daily inspection, appropriate footwear, offloading, skin care, temperature avoidance, callus / nail care, and rapid treatment of skin breakdown.
+- 在 focal neuropathy 中，紀錄發病 / 受傷日期，因為 EDX timing 會改變判讀。
+- 臨床或結構性已明顯顯示的急性神經斷裂，應盡早安排手術評估，不應等到 denervation 出現。
+- CTS 的 differential 包含 proximal median neuropathy、C6 / C7 radiculopathy 與 brachial plexopathy；Phalen / Tinel 須在 context 下解讀。
+- 在 neuropathy 相關跌倒中，評估 ankle 本體覺、單腳站立、照明、鞋具、視力、拐杖 / orthosis 使用，以及近端髖 / 軀幹力量。
+- Neuropathic pain 用藥可能在年長者惡化步態與認知；功能與跌倒風險是用藥安全的一部分。
+- Foot protection 包含每日檢查、合適鞋具、offloading、皮膚照護、避免極端溫度、繭 / 趾甲照護，以及破皮後立即處置。
 
 ## Research-Useful Points
 
-- Neuromuscular ultrasound can refine physiology-structure correlation in focal neuropathy and inflammatory / hereditary neuropathy differentiation.
-- The hip-strength-to-ankle-proprioception relationship in diabetic neuropathy suggests proximal strengthening may compensate for distal sensory imprecision.
+- Neuromuscular ultrasound 可在 focal neuropathy 與 inflammatory / hereditary neuropathy 鑑別中強化生理—結構對應。
+- 糖尿病 neuropathy 中「髖 strength 與 ankle 本體覺」的關係，提示近端肌力訓練可能補償遠端 sensory imprecision。
 
 ## Conflicts / Cautions
 
-- "Neuropathy" is not a complete diagnosis; pattern, fiber type, distribution, time course, and mechanism must be specified.
-- Normal standard EDX does not rule out pure or predominant small-fiber neuropathy.
-- A single demyelinating feature at a common entrapment site should not be overcalled as CIDP.
-- Opioids may improve pain / sleep in neuropathic pain but not function or mood in the cited source; cognitive side effects, dependence, and addiction require caution.
+- 「Neuropathy」並非完整診斷；pattern、fiber type、分布、time course 與機制都需指明。
+- 標準 EDX normal 不能排除純粹或主要的 small-fiber neuropathy。
+- 在常見 entrapment site 出現的單一 demyelinating feature 不應被過度判讀為 CIDP。
+- 來源指出 opioids 在 neuropathic pain 中可能改善疼痛 / 睡眠，但不一定改善功能 / 情緒；認知副作用、依賴與成癮需謹慎。
 
 ## Pages Created / Updated From This Source
 

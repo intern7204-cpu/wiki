@@ -1,7 +1,7 @@
 # 知識百科索引
 
 > 個人醫學知識百科總索引。每頁一行：`wikilink — 一句話摘要 — 分類：主題分類 — 來源層級`
-> Last updated: 2026-05-10 | Total pages: 615
+> Last updated: 2026-05-13 | Total pages: 695
 > Restart baseline: 2026-05-01 起改回單一來源 ingest；舊有 batch-ingest 相關頁面保留，但需逐篇 correction。
 
 ## 00 總覽
@@ -17,6 +17,8 @@
 - [[02_方法學/PMR_醫療問題與功能問題清單]] — PM&R 的 H&P 輸出不是 diagnosis list，而是能直接驅動 management plan 的 medical + functional problem list — 分類：方法學 — Tier 1
 - [[02_方法學/治療性運動處方]] — exercise prescription 必須寫成 FITT + safety screen + progression logic，不能只叫病人多動 — 分類：方法學 — Tier 1
 - [[02_方法學/Clinical_Exercise_Physiology_Professional_Standards]] — Clinical Exercise Physiology professional standards 將臨床運動介入能力分成 professional practice、foundational knowledge、assessment/client management 與 evidence-based intervention delivery 四域 — 分類：方法學 — Tier 1
+- [[02_方法學/Exercise_ECG_Testing_適用條件與安全流程]] — Exercise ECG testing 需先確認 exercise capacity、resting ECG 可判讀與 contraindications，再以 symptom-limited protocol 監測 HR、BP、ECG、RPE 與 symptoms — 分類：方法學 — Tier 6
+- [[02_方法學/Exercise_ECG_ST_Segment_判讀]] — exercise-induced ischemic ECG 判讀以 ≥1 mm horizontal/downsloping ST depression、ST elevation、recovery abnormalities 與 arrhythmia context 為核心 — 分類：方法學 — Tier 6
 - [[02_方法學/Repetitions_in_Reserve_RIR_阻力訓練強度處方]] — RIR 用保留幾下才到 failure 描述 resistance training intensity，但不能取代安全篩檢與疾病限制 — 分類：方法學 — Tier 2
 - [[02_方法學/徒手治療_牽引與按摩]] — manipulation / traction / massage 是 condition-specific adjunct，而不是萬用止痛捷徑 — 分類：方法學 — Tier 1
 - [[02_方法學/物理因子治療]] — modalities 是 symptom-modifying adjunct；indication 與 contraindication 比習慣更重要 — 分類：方法學 — Tier 1
@@ -58,19 +60,49 @@
 - [[03_疾病與臨床主題/中風復健總論]] — 中風復健同時包含 complication surveillance、recurrence vigilance、secondary prevention 與 sequelae-specific therapy — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/中風急性期處置與時間窗]] — Time is brain；rtPA 0–4.5h、thrombectomy 至 24h；first-hours triage 需同時處理 LKW、ABC、NCCT、BP、oxygen、swallow 與 mobilization timing — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Acute_Stroke_Initial_Assessment與Stabilization]] — acute stroke first-hours workflow 以 LKW、ABC、glucose/SpO2、NCCT、NIHSS、IVT/EVT triage、BP、swallow、position 與 stroke-unit care 並行處理 — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Stroke_Subtype_Clinical_Diagnosis]] — stroke subtype bedside clues 用 onset/course、associated symptoms、risk factors 與 exam 形成 presumptive diagnosis，但必須由 brain / vascular imaging confirmation — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Stroke_Evaluation_病因確認與Directed_Diagnostic_Testing]] — stroke evaluation 需從急性穩定與初始影像形成病因假說，再以 neurovascular imaging、cardiac evaluation、selected labs 與 ICH workup 確認 mechanism — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Stroke_Etiologic_Classification]] — stroke etiologic classification 把 bedside suspicion 轉成 ischemic / hemorrhagic 與 TOAST / CCS / ISPS25-like mechanism label，避免把 AF、PFO、lacunar syndrome 或 carotid plaque 自動當成病因 — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Ischemic_Stroke_Cerebral_Autoregulation與灌流閾值]] — ischemic stroke 會 impaired cerebral autoregulation；CBF thresholds 解釋急性 BP normalization 可能傷害 pressure-dependent tissue — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Ischemic_Core與Penumbra]] — ischemic core 是 irreversible infarct tissue，penumbra 是 residual perfusion 支持下可能 salvage 的 tissue，不可由症狀直接判定 — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Ischemic_Stroke_Cell_Injury_Cascade]] — ischemic injury 從 ATP depletion 進入 ion failure、glutamate excitotoxicity、calcium influx、oxidative injury、inflammation 與 necrosis / apoptosis — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Ischemic_Stroke_Cerebral_Edema與Hemorrhagic_Conversion]] — ischemic edema 與 hemorrhagic conversion 來自 ion transport failure、BBB disruption and neurovascular structural failure，可造成 secondary deterioration — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Ischemic_Stroke_預後判讀與恢復時間軸]] — adult ischemic stroke prognosis 需動態整合 NIHSS、age、imaging、mechanism、complications、treatment response 與 domain-specific recovery，不可只看初始分數 — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Stroke_Epidemiology_全球與美國分布]] — stroke epidemiology 是 population-level burden 與 subtype distribution 框架；美國比例不能直接外推全球或個別病人 — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Lacunar_Infarcts_診斷與病因邊界]] — lacunar infarct 是 small noncortical penetrating-artery infarct，但 syndrome 或 small deep lesion 不能自動證明 small vessel occlusion — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Lacunar_Stroke_Syndromes_臨床表現與影像確認]] — classic lacunar syndromes 提示 subcortical stroke，但 CT sensitivity 低且 DWI / vascular / cardiac evaluation 可改變 final mechanism — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/AF_Related_Stroke_病因歸屬與診斷評估]] — AF patient 的 ischemic stroke 需判斷 LAA / cardioembolic causality，同時排除 large artery、small vessel、aortic 或其他 competing mechanisms — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Posterior_Circulation_Stroke_臨床定位與診斷陷阱]] — posterior circulation stroke 需整合 vertebrobasilar territory、ocular/bulbar/gait/visual signs、HINTS 邊界與 early posterior fossa imaging false negative — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/HINTS_急性前庭症候群中樞與周邊鑑別]] — HINTS 只適用於 continuous acute vestibular syndrome；central pattern 或 new hearing loss 不可被 early negative imaging 輕易排除 — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Cervicocephalic_Artery_Dissection_臨床辨識]] — cervicocephalic artery dissection 需由 acute/subacute head or neck pain、Horner syndrome、cranial neuropathy、TIA/stroke、SAH pattern and minor trigger 啟動 suspicion — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Cervicocephalic_Artery_Dissection_影像確認與Pitfalls]] — dissection 診斷需 head/neck MRI/MRA 或 CT/CTA 確認，ultrasound negative 不能在高 suspicion 下排除 — 分類：疾病與臨床主題 — Tier 6
 - [[03_疾病與臨床主題/Aneurysmal_SAH_臨床表現與診斷分流]] — aneurysmal SAH 診斷從 thunderclap headache 啟動，依 noncontrast CT、必要時 LP、再 CTA / DSA 找 bleeding source，避免 neurologically intact patient 漏診 — 分類：疾病與臨床主題 — Tier 6
 - [[03_疾病與臨床主題/Aneurysmal_SAH_急性治療與預後管理]] — aneurysmal SAH acute management 以 early aneurysm repair、nimodipine、euvolemia、DCI / vasospasm monitoring、ICP / hydrocephalus 與 prognosis framing 為核心 — 分類：疾病與臨床主題 — Tier 6
 - [[03_疾病與臨床主題/Spontaneous_ICH_急性抗擴大與Neurocritical_Stabilization]] — spontaneous ICH acute care 以 hematoma anti-expansion、anticoagulation reversal、BP 分層、ICP prevention、selected surgery 與 delayed prognosis 為核心 — 分類：疾病與臨床主題 — Tier 6
 - [[03_疾病與臨床主題/Spontaneous_ICH_診斷與病因分層]] — spontaneous ICH diagnosis 需以 CT/MRI mandatory confirmation 為起點，再用 location、volume、IVH、CTA/MRI clues 與 expansion-risk markers 分層 — 分類：疾病與臨床主題 — Tier 6
-- [[03_疾病與臨床主題/中風併發症總覽]] — acute stroke rehab readiness 需監測 dysphagia、aspiration pneumonia、VTE、UTI、cardiac/pulmonary complications、GI bleeding、falls、depression 與 neurologic deterioration — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Moyamoya_Disease與Moyamoya_Syndrome_病因分層]] — Moyamoya 是 angiographic vasculopathy pattern；MMD 是無 associated condition 的 primary form，MMS 則需追查 radiation、sickle cell disease、NF1、Down syndrome、thyroid / autoimmune 等 underlying condition — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Moyamoya_臨床辨識與診斷影像]] — recurrent or triggered TIA、young stroke、unexplained deep ICH / IVH 與 basal ganglia collateral imaging clues 應觸發 CTA/MRA/DSA diagnostic pathway — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Moyamoya_治療決策與Revascularization]] — Moyamoya treatment 需依 symptoms、cerebral blood flow、perfusion reserve 與 progression risk 決定 surgical referral 或 structured surveillance — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Moyamoya_Antithrombotic與急性支持管理]] — Moyamoya antithrombotic 管理需分 ischemic-type、hemorrhagic-type、postoperative and pregnancy；long-term anticoagulation generally contraindicated — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/中風併發症總覽]] — acute stroke rehab readiness 需監測 dysphagia、aspiration pneumonia、VTE、UTI、cardiac/pulmonary complications、sleep-disordered breathing、falls、depression 與 neurologic deterioration — 分類：疾病與臨床主題 — Tier 6
 - [[03_疾病與臨床主題/Poststroke_Neuropsychiatric_Disorders_辨識與轉介]] — poststroke neuropsychiatric surveillance 需區分 depression、apathy、anxiety/PTSD、PBA、anger/aggression 與 delirium，functional impairment / safety risk 決定轉介 — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/OSA_as_Stroke_Risk_Factor_機制與證據邊界]] — OSA 是 ischemic stroke vascular risk signal，但 CPAP 對 recurrent vascular events 的 randomized evidence 仍 mixed — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Poststroke_Sleep_Related_Breathing_Disorders_篩檢與診斷]] — poststroke sleep apnea 不能靠 snoring / sleepiness 排除，需 oximetry triage 加 polysomnography 或 HSAT 確認 — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Poststroke_Sleep_Apnea_PAP治療與預後邊界]] — poststroke PAP 治療需依 OSA / CSA predominance、adherence、tolerance 與 recovery trajectory 反覆重評 — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/rTMS_for_Treatment_Resistant_Unipolar_Depression_適應症與安全]] — rTMS 是 adult unipolar major depression 在至少一種 antidepressant 失敗後的 noninvasive neuromodulation option；須篩查 seizure / metal / implanted device contraindications，且療效不應高估為優於 ECT — 分類：疾病與臨床主題 — Tier 6
 - [[03_疾病與臨床主題/Stroke_Neuropalliative_Care與Goals_of_Care]] — stroke neuropalliative care 可和 acute treatment 並行，重點是 symptom burden、prognostic uncertainty、goals of care、time-limited trials 與 caregiver support — 分類：疾病與臨床主題 — Tier 6
-- [[03_疾病與臨床主題/中風次發預防]] — ischemic stroke / TIA secondary prevention 是 antithrombotic、BP < 130/80、LDL-C < 70、高強度 statin、diabetes control 與 lifestyle 的 bundle，不是單一藥物 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/中風次發預防]] — ischemic stroke / TIA secondary prevention 是 antithrombotic、BP、LDL-C、diabetes、lifestyle、sleep apnea screening and mechanism-specific care 的 bundle — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Stroke_Antihypertensive_Therapy_次發預防]] — stroke / TIA 後 antihypertensive therapy 需依 acute vs chronic phase、neurologic stability、stroke type、ASCVD risk 與 tolerability 決定 timing、regimen 與 BP target — 分類：疾病與臨床主題 — Tier 6
 - [[03_疾病與臨床主題/Ischemic_Stroke_Long_term_Antithrombotic_Therapy]] — ischemic stroke / TIA 的 long-term antithrombotic selection 以 mechanism 和 phase 分流；noncardioembolic default 是 single antiplatelet，不是 indefinite DAPT — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Symptomatic_ICAS_次發預防與DAPT邊界]] — symptomatic ICAS 的 secondary prevention 依 stenosis severity 與 qualifying event risk 決定 DAPT duration，同時控制 SBP、LDL-C、physical activity 與 lifestyle — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/ICAS_Stenting與介入治療限制]] — recently symptomatic ICAS 不應 routine stenting；SAMMPRIS、VISSIT、CASSISS 等證據支持 intensive medical therapy 優先，介入只屬未證實 rescue option — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/ICAS_復發風險與血流動力邊界]] — ICAS recurrence risk 受 severe stenosis、recent symptoms、borderzone pattern、collateral / low-flow signals 影響，但 hemodynamic markers 不能單獨決定 intervention — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/AF_Stroke_Anticoagulation_時機與長期策略]] — AF stroke anticoagulation 需把 acute hemorrhagic transformation risk 與 long-term embolic prevention 分開，依 infarct size / bleeding risk 決定重啟時機 — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/AF_Stroke_Anticoagulation_Failure]] — stroke on DOAC / VKA 先查 adherence、dose、renal function、interaction、LAA thrombus 與 competing mechanism，不是自動換藥或加 antiplatelet — 分類：疾病與臨床主題 — Tier 6
 - [[03_疾病與臨床主題/偏癱肩痛]] — HSP 是五條病因（subluxation / spasticity / soft tissue / neuropathic / iatrogenic）同時在燒；overhead pulley 是 IIIC 不可做；Botox + NMES + positioning 是核心工具 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/脊髓損傷復健總論]] — SCI 以 ISNCSCI/AIS、pulmonary/autonomic risk 與 lifelong rehabilitation 為骨架 — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/下肢截肢復健總論]] — 下肢截肢復健從 surgery level、K-level prescription 到 prosthetic gait deviation correction — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/吞嚥障礙復健總論]] — swallow screening 不能取代 instrumental assessment；VFSS/FEES 用來定義 pathophysiology 與治療方向 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Oropharyngeal_Dysphagia_成人臨床辨識診斷與管理]] — adult oropharyngeal dysphagia 是 alarm symptom；需先區分 esophageal dysphagia / globus，再用 etiology 與 aspiration severity 決定 VFSS、FEES、manometry、rehab、enteral nutrition 或 procedural referral — 分類：疾病與臨床主題 — Tier 6
 - [[03_疾病與臨床主題/神經性腸道功能障礙復健]] — bowel program 目標是 predictable social continence；supraconal vs infraconal 需要不同 bowel care — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/神經性下泌尿道功能障礙]] — NLUTD 以 renal preservation、social continence 與 urodynamic pattern 為核心，不可只看 symptoms 或 PVR — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/感覺障礙復健總論]] — auditory / vestibular / visual impairment 與 DSI 會直接改變 rehab participation 與 mobility — 分類：疾病與臨床主題 — Tier 1
@@ -94,7 +126,10 @@
 - [[03_疾病與臨床主題/慢性疼痛復健的主動化治療框架]] — chronic pain rehab 應把被動止痛轉成 active self-management、graded activity、CBT-style strategy 與 participation — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/慢性疼痛中的Peripheral與Central_Sensitization]] — chronic pain 的 sensitization 是 pain gain 被調高，不等於單一組織還在受傷 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/神經痛藥物治療框架]] — neuropathic pain 藥物先用 TCA/SNRI/gabapentinoid 等 adjuvant，而非直接長期 opioid — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/CRPS_臨床辨識與治療限制]] — CRPS 是 regional pain + autonomic/sensory/motor/trophic pattern；診斷臨床且需排除 mimic — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/CRPS_臨床辨識與治療限制]] — CRPS 是 regional pain + sensory/autonomic/motor/trophic pattern；診斷需排除 mimic，治療以 multidisciplinary rehab-first 升階 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/CRPS_Budapest_Criteria與Mimic排除]] — CRPS diagnosis 需用 Budapest criteria：disproportionate regional pain、四域 symptom/sign 門檻、且沒有更好的替代診斷；影像、自律神經測試與 sympathetic block 不能單獨確診 — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/CRPS_多模式治療與升階流程]] — adult CRPS treatment 應以 education、PT/OT、psychosocial assessment 與 analgesia enabling rehabilitation 起始，再對 refractory / progressive case 升階 pain specialist — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/CRPS_預後復發與預防]] — CRPS prognosis variable；six-month improvement 常見但 prolonged disability / recurrence 也不少見，vitamin C prevention 只屬 selective low-certainty use — 分類：疾病與臨床主題 — Tier 6
 - [[03_疾病與臨床主題/Myopathy_診斷框架]] — myopathy workup 從 motor-predominant weakness pattern 進入 CK、EDX、imaging、biopsy 與 genetic testing — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Myopathy_復健管理原則]] — myopathy rehabilitation 應以疾病特異 exercise safety、contracture prevention、equipment 與 participation 為主軸 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Myopathy_呼吸心臟吞嚥風險]] — myopathy 風險不能只看 limb weakness；respiratory、cardiac、bulbar 系統會決定安全性 — 分類：疾病與臨床主題 — Tier 1
@@ -110,7 +145,11 @@
 - [[03_疾病與臨床主題/Parkinson_Plus_Syndrome_紅旗]] — PSP、MSA、CBGD 的 early falls、autonomic failure、cerebellar / cortical signs 與 poor levodopa response 會改變 prognosis-aware rehab — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/正常老化與Pathological_Cognitive_Decline]] — normal brain aging 可有 executive demand vulnerability，但不等於 pathological cognitive decline 或 dementia — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Delirium_Depression_Dementia_鑑別]] — 急性波動先想 delirium；depression 可模擬 dementia；dementia 需看 progressive decline 與 independence loss — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/Dementia_復健與Caregiver支持框架]] — dementia rehabilitation 以 stage、ADL/IADL、mobility、environment、caregiver 與 quality of life 為核心 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Dementia_復健與Caregiver支持框架]] — dementia rehabilitation 以 stage、ADL/IADL、mobility、environment、caregiver 與 quality of life 為核心；VaD 需另處理診斷/評估、vascular risk 與認知藥物小效益 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/Vascular_Cognitive_Impairment_血管風險與Antithrombotic邊界]] — VCI/VaD 治療先看 vascular risk and recurrent stroke prevention，但 antithrombotic 需依 stroke/TIA、imaging infarction 與 bleeding risk 分流 — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Vascular_Dementia_診斷與病因分層]] — VaD/VCID 診斷核心是 cognitive impairment 加上 cerebrovascular disease 足以造成症狀；不能只靠 neuroimaging lesion 下診斷 — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Vascular_Dementia_臨床表現與評估路徑]] — suspected VaD 評估需整合 trajectory、function、stroke timing、MoCA / neuropsychology、MRI / STRIVE findings 與 AD/Lewy body/NPH/depression differential — 分類：疾病與臨床主題 — Tier 6
+- [[03_疾病與臨床主題/Vascular_Dementia_認知藥物與預後限制]] — VaD cognitive medication 只有有限角色；donepezil/galantamine 可選擇性 trial，memantine 不建議 routine，預後高度異質 — 分類：疾病與臨床主題 — Tier 6
 - [[03_疾病與臨床主題/Brainstem_Localization_客觀徵象框架]] — brainstem localization 先看 cranial nerve level、long tract 與 crossed signs，不先硬套 eponym — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Brainstem_Ocular_Motor_Syndromes]] — ocular motor pattern 可定位 riMLF、posterior commissure、MLF、PPRF/CN VI nucleus 並排除 extraaxial mimic — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Brainstem_Stroke_交叉徵象與Locked_In]] — brainstem stroke 需辨識 crossed signs、bulbar risk 與 locked-in syndrome；locked-in 不是 coma — 分類：疾病與臨床主題 — Tier 1
@@ -128,32 +167,16 @@
 - [[03_疾病與臨床主題/下背痛影像與Red_Flags]] — lumbar imaging 要有明確意圖；急性 uncomplicated LBP 早期 MRI 可能增加手術與成本 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Lumbosacral_Radiculopathy]] — lumbosacral radicular pain 多是 inflamed root problem，不是單純被壓就痛 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Lumbar_Spinal_Stenosis]] — lumbar stenosis 的 neurogenic claudication 以 extension load 與 walking tolerance 為臨床核心 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/脊椎裝具總論]] — spinal orthosis 處方要寫出 diagnosis、stability target 與 precautions，不能只寫 brace 名稱 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Nociceptive_Neuropathic_Nociplastic_Pain]] — chronic pain 分型至少要分 nociceptive、neuropathic、nociplastic，且可重疊 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/慢性疼痛的CBT_CP與Pacing]] — CBT-CP 不是否定疼痛，而是改變 pain、thought、emotion、behavior 的惡性迴圈 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/慢性疼痛Opioid與Buprenorphine風險框架]] — chronic pain opioid decision 要同時看 function、risk、taper harm、OUD ambiguity 與 buprenorphine option — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/下肢義肢_K_Level_處方邏輯]] — K-level 是下肢義肢處方骨架，但不能脫離殘肢、皮膚、平衡與真實目標單獨使用 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/上肢義肢匹配決策]] — 上肢義肢處方不是 technology race，而是把 level、device category、tasks 與維修現實配對起來 — 分類：疾病與臨床主題 — Tier 1
+- [[03_疾病與臨床主題/上肢矯具與復健機器人]] — upper limb orthosis 與 robotics 的重點是目標導向設計，不是把手固定住或用機器取代治療 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/Bowel_Program_的社會性控便目標]] — NBD bowel program 的成功標準是可預測、可接受且 time-efficient 的 social continence — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/NLUTD_腎臟保護優先原則]] — NLUTD 先保護 upper tract；symptom relief 與 PVR 都不能取代對高壓 bladder 的警覺 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/吞嚥篩檢與Instrumental_Assessment的角色分工]] — swallow screening、CSE、VFSS 與 FEES 是同一條 dysphagia decision chain 的不同節點 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/雙重感覺障礙與復健參與]] — hearing 與 vision 問題同時存在時，communication、balance、self-care 與 safety burden 會被放大 — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/Achilles_tendinopathy]] — Achilles pain 要分 midportion vs insertional；progressive loading 是主軸，注射與器材多半只是 adjunct — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/Ankle_sprain_總論]] — ankle sprain 先做 mechanism + Ottawa rule + staged rehab；不是一律久休或一開始就 MRI — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/Syndesmotic_ankle_injury]] — high ankle sprain 與 common lateral sprain 不同；mortise stability、恢復時間與 referral urgency 都更重要 — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/Plantar_fasciitis]] — plantar fasciitis 多為 clinical diagnosis；heel spur、MRI 與熱門療法都不能取代基本臨床判讀 — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/足部疼痛分區評估]] — forefoot / midfoot / hindfoot 的 anatomy-based history 與 exam，比先做影像更能縮小 differential — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/Lower_Limb_Pain_分區定位與高風險分流]] — lower limb pain 先做 region map 與 high-risk structure screen，再決定 imaging、referral 或 conservative care — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/跑者運動性下腿痛]] — exertional lower-leg pain 是 differential problem；shin pain 不能直接等同 MTSS — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/Hamstring_肌肉與肌腱傷害]] — posterior thigh pain 要分 acute strain、proximal tendon problem 與 avulsion risk；影像不能單獨決定 RTS — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/Iliotibial_Band_Syndrome]] — lateral femoral epicondyle pain 的 diagnosis 以 clinical pattern 為主，不是先靠 MRI 或 friction label — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/Patellofemoral_Pain]] — loaded flexed-knee anterior pain 的處理以 clinical pattern、dynamic exam 與 load-based rehab 為主 — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/跑者膝部疼痛]] — runner knee pain 先按區域做 differential 與風險分流，再進單病種 treatment — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/Quadriceps_肌肉與肌腱傷害]] — anterior thigh / extensor mechanism problem 要分 strain、contusion、tendinopathy 與 rupture risk — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/跑者髖骨盆與大腿疼痛]] — runner hip / pelvis / thigh pain 先做 differential 與 risk stratification，再談單病種 treatment — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/跑步傷害風險因子與預防]] — runner injury prevention 應回到 prior injury、load、conditioning 與 energy availability，而不是單一口號 — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/跑步與Osteoarthritis]] — recreational running 不等於 OA 惡化；風險判讀要看 dose、症狀與既有 joint risk factor — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/跑者下肢傷害評估總論]] — injured runner evaluation 應先做 history、whole-chain exam 與 selective imaging，而不是先猜單一 diagnosis — 分類：疾病與臨床主題 — Tier 1
-- [[03_疾病與臨床主題/受傷跑者復健原則]] — injured runner rehab 以 tissue capacity restoration、load redistribution 與 staged return-to-run 為雙主軸 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/急性高山症]] — AMS = 頭痛 + 全身性症狀；下撤決策不靠 Lake Louise 分數，靠 ataxia / 休息時喘 / 意識變化三個紅旗 — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/高海拔肺水腫]] — HAPE 是 patchy 過強 HPV 引起的 capillary stress failure；非心因性、非發炎主導，治法是下撤 + 氧氣 + nifedipine — 分類：疾病與臨床主題 — Tier 1
 - [[03_疾病與臨床主題/高海拔腦水腫]] — HACE 是 vasogenic cerebral edema；ataxia + 意識變化即下撤 + 氧氣 + dexamethasone，不要等 — 分類：疾病與臨床主題 — Tier 1
@@ -228,16 +251,34 @@
 - [[06_Gait_Biomechanics/足部解剖與生物力學]] — foot 在 gait 中同時扮演 flexible shock absorber 與 rigid lever；看 structure 也要看 motion — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
 - [[06_Gait_Biomechanics/足部柔性到剛性轉換]] — stance phase 中 foot 由 heel strike 的 supple shock absorber，經 subtalar / transverse tarsal / plantar aponeurosis chain 轉為 terminal stance 的 rigid lever — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
 - [[06_Gait_Biomechanics/足部扭轉彈簧機制]] — closed-chain stance 中 foot plate 先 untwist 以吸收能量，再由 plantar aponeurosis、intrinsic muscles、peroneus longus 與 first ray recoil 形成 spring-like push-off — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/髖膝踝生物力學與GRF]] — lower-limb stance phase 需用 shank/thigh segment kinematics、GRF line of action 與 external joint moment 串起 ankle-knee-hip mechanics — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/跑步步態評估]] — 跑步評估應先整合 history、functional test 與結構檢查，再做 video gait analysis — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/Foot_Strike與Footwear交互作用]] — foot strike 對 running load 的意義取決於 footwear geometry 與 transition history，不是單獨決定 injury risk 的分類標籤 — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/跑步步頻調整]] — cadence 調整應以個人 preferred cadence 為基準並固定速度；不存在萬用 180 spm — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
 - [[06_Gait_Biomechanics/跑鞋選擇原則]] — 跑鞋應保護 foot 而非過度干擾 foot mechanics；越厚越穩不是預設答案 — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
 - [[06_Gait_Biomechanics/治療性鞋具與鞋修改]] — therapeutic footwear 的核心是 fit、volume、rocker 與 condition-specific modification，不是品牌標籤 — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
-- [[06_Gait_Biomechanics/跑步步態評估]] — 跑步評估應先整合 history、functional test 與結構檢查，再做 video gait analysis — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
-- [[06_Gait_Biomechanics/跑步步頻調整]] — cadence 調整應以個人 preferred cadence 為基準並固定速度；不存在萬用 180 spm — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
-- [[06_Gait_Biomechanics/上肢矯具與復健機器人]] — upper limb orthosis 與 robotics 的重點是目標導向設計，不是把手固定住或用機器取代治療 — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
 - [[06_Gait_Biomechanics/下肢矯具總論]] — lower limb orthosis 透過 shoe-interface、GRF 與 joint moment 改變 gait mechanics — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
 - [[06_Gait_Biomechanics/AFO處方生物力學]] — AFO 透過 ankle position、ankle stops 與 shoe-ground interaction 改變 GRF 相對於 knee axis 的位置，進而控制 stance phase knee flexion / extension moment — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
 - [[06_Gait_Biomechanics/KAFO站立控制生物力學]] — KAFO 的 biomechanical target 是在 stance phase 提供 knee-ankle complex stability，同時盡量保留 swing phase knee motion，避免 locked-knee gait compensations — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
-- [[06_Gait_Biomechanics/髖膝踝生物力學與GRF]] — lower-limb stance phase 需用 shank/thigh segment kinematics、GRF line of action 與 external joint moment 串起 ankle-knee-hip mechanics — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
-- [[06_Gait_Biomechanics/脊椎裝具總論]] — spinal orthosis 處方要寫出 diagnosis、stability target 與 precautions，不能只寫 brace 名稱 — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/下肢截肢復健總論]] — 下肢截肢復健從 surgery level、K-level prescription 到 prosthetic gait deviation correction — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/下肢義肢_K_Level_處方邏輯]] — K-level 是下肢義肢處方骨架，但不能脫離殘肢、皮膚、平衡與真實目標單獨使用 — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/Lower_Limb_Pain_分區定位與高風險分流]] — lower limb pain 先做 region map 與 high-risk structure screen，再決定 imaging、referral 或 conservative care — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/足部疼痛分區評估]] — forefoot / midfoot / hindfoot 的 anatomy-based history 與 exam，比先做影像更能縮小 differential — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/Achilles_tendinopathy]] — Achilles pain 要分 midportion vs insertional；progressive loading 是主軸，注射與器材多半只是 adjunct — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/Ankle_sprain_總論]] — ankle sprain 先做 mechanism + Ottawa rule + staged rehab；不是一律久休或一開始就 MRI — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/Syndesmotic_ankle_injury]] — high ankle sprain 與 common lateral sprain 不同；mortise stability、恢復時間與 referral urgency 都更重要 — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/Plantar_fasciitis]] — plantar fasciitis 多為 clinical diagnosis；heel spur、MRI 與熱門療法都不能取代基本臨床判讀 — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/跑者下肢傷害評估總論]] — injured runner evaluation 應先做 history、whole-chain exam 與 selective imaging，而不是先猜單一 diagnosis — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/受傷跑者復健原則]] — injured runner rehab 以 tissue capacity restoration、load redistribution 與 staged return-to-run 為雙主軸 — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/跑步傷害風險因子與預防]] — runner injury prevention 應回到 prior injury、load、conditioning 與 energy availability，而不是單一口號 — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/跑步與Osteoarthritis]] — recreational running 不等於 OA 惡化；風險判讀要看 dose、症狀與既有 joint risk factor — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/跑者運動性下腿痛]] — exertional lower-leg pain 是 differential problem；shin pain 不能直接等同 MTSS — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/跑者膝部疼痛]] — runner knee pain 先按區域做 differential 與風險分流，再進單病種 treatment — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/Patellofemoral_Pain]] — loaded flexed-knee anterior pain 的處理以 clinical pattern、dynamic exam 與 load-based rehab 為主 — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/Iliotibial_Band_Syndrome]] — lateral femoral epicondyle pain 的 diagnosis 以 clinical pattern 為主，不是先靠 MRI 或 friction label — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/跑者髖骨盆與大腿疼痛]] — runner hip / pelvis / thigh pain 先做 differential 與 risk stratification，再談單病種 treatment — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/Hamstring_肌肉與肌腱傷害]] — posterior thigh pain 要分 acute strain、proximal tendon problem 與 avulsion risk；影像不能單獨決定 RTS — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
+- [[06_Gait_Biomechanics/Quadriceps_肌肉與肌腱傷害]] — anterior thigh / extensor mechanism problem 要分 strain、contusion、tendinopathy 與 rupture risk — 分類：Gait / Biomechanics / Orthotics / Shoes — Tier 1
 
 ## 07 Pediatric Development
 - [[07_Pediatric_Development/小兒復健評估]] — 小兒復健評估需依 developmental stage、family context 與 play / observation 設計 — 分類：Pediatric Development — Tier 1
@@ -295,6 +336,7 @@
 - [[07_Pediatric_Development/經驗期待型發展與早期介入窗口]] — early intervention 的 timing 應看 experience-expectant input 與多個 sensitive / critical windows，而不是單一年齡門檻 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/Caregiving_Quality_作為早期介入靶點]] — caregiving quality 會經由 stimulation、responsivity 與 stress buffering 進入 brain development，是 disadvantaged child intervention 的核心靶點之一 — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/Nurturing_Care_健康與營養服務整合]] — nurturing care 可嵌入 health / nutrition service 的日常接觸點；HCP-ECD evidence 支持部分 infancy cognition / motor outcome，但不等於只增加訪視頻率 — 分類：Pediatric Development — Tier 1
+- [[07_Pediatric_Development/Disability-Inclusive_Nurturing_Care_發展遲緩與發展障礙兒童]] — developmental delay / disability child 仍需要完整 nurturing care；inclusive universal services 與 targeted / indicated supports 必須並行 — 分類：Pediatric Development — Tier 7
 - [[07_Pediatric_Development/WHO_ECD_Guideline_0至3歲Nurturing_Care建議]] — WHO 2020 guideline 將 0-3 歲 responsive caregiving、early learning、nutrition integration 與 maternal mental health support 列為 strong recommendations — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/HCP_ECD_Interventions_由健康照護者交付的早期發展介入]] — HCP-ECD 是由 primary-level healthcare providers 面對面交付 responsive caregiving、early learning 或 motor stimulation 的 early development support，證據較支持 infancy cognition / motor outcomes — 分類：Pediatric Development — Tier 1
 - [[07_Pediatric_Development/托育與Early_Care_and_Education]] — child care / ECE 是 developmental environment 與 social determinant，不只是家長托育安排 — 分類：Pediatric Development — Tier 1
@@ -352,16 +394,26 @@
 - [[08_工具與Workflow/兒童發展聯評綜合報告骨架]] — 聯評報告應整合 child function、family / parenting 與 team recommendation，而不是多科意見拼貼 — 分類：工具與Workflow — Tier 2
 - [[08_工具與Workflow/知識百科_衝突處理規則]] — health check 與頁面更新時的衝突處理層級；定義主框架、新興證據與顯式標示原則 — 分類：工具與Workflow — Tier 1
 - [[08_工具與Workflow/Wiki_Health_Check_腳本]] — health check 腳本說明頁；整理可執行命令、測試與維護原則 — 分類：工具與Workflow — Tier 1
+- [[08_工具與Workflow/Source_Manifest與Source_Drift]] — 用 raw source sha256 fingerprint 偵測 source drift，讓來源摘要可追溯且可驗證 — 分類：工具與Workflow — Tier 1
 
 ## 09 NCV EMG 周邊神經病變
 - [[09_NCV EMG 周邊神經病變/NCV_EMG_周邊神經病變總覽]] — NCV / EMG 周邊神經病變 hub page；串接 referral question、localization、NCS / needle EMG interpretation、technical validity、anatomic variant 與 peripheral neuropathy pattern — 分類：NCV EMG 周邊神經病變 — Tier 1
 - [[09_NCV EMG 周邊神經病變/電生理診斷醫學]] — EDX 是 focused history / exam 的神經生理延伸，不是獨立 screening gadget — 分類：NCV EMG 周邊神經病變 — Tier 1
 - [[09_NCV EMG 周邊神經病變/EDX_轉介問題設計]] — 高品質 EDX 先定義 referral question，再決定 NCS / needle EMG，不是先做檢查再想問題 — 分類：NCV EMG 周邊神經病變 — Tier 1
+- [[09_NCV EMG 周邊神經病變/EDX_解剖與神經生理基礎]] — EDX 判讀需先知道 DRG、large-fiber selectivity、myelin / saltatory conduction、motor unit 與 volume conduction 的限制 — 分類：NCV EMG 周邊神經病變 — Tier 1
+- [[09_NCV EMG 周邊神經病變/EDX_統計閾值與False_Positive控制]] — EDX abnormality 是 post-test probability，不是疾病存在本身；cutoff、pre-test probability、likelihood ratio 與 multiple testing 會改變 false-positive risk — 分類：NCV EMG 周邊神經病變 — Tier 1
 - [[09_NCV EMG 周邊神經病變/EDX_定位導向檢查流程]] — EDX 先由 brief history、directed exam 與 differential diagnosis 建立 localization hypothesis，再用 NCS / needle EMG 即時修正並維持 clinical-electrophysiologic correlation — 分類：NCV EMG 周邊神經病變 — Tier 1
 - [[09_NCV EMG 周邊神經病變/NCS_軸突損失與脫髓鞘判讀]] — NCS 判讀需用 CMAP / SNAP 的 amplitude、latency、conduction velocity、area、duration、stimulation location 與 injury timing 區分 axonal loss、demyelination 與 conduction block — 分類：NCV EMG 周邊神經病變 — Tier 1
 - [[09_NCV EMG 周邊神經病變/EDX_技術假象與品質控制]] — EDX technical validity 是診斷前提；temperature、impedance、stimulus artifact、supramaximal stimulation、co-stimulation、electrode placement 與 distance measurement 都可製造假異常 — 分類：NCV EMG 周邊神經病變 — Tier 1
 - [[09_NCV EMG 周邊神經病變/EDX_異常神經支配變異判讀]] — EDX 中 MGA、APN 等 anomalous innervations 可模仿 conduction block、entrapment neuropathy 或 technical error，需用 targeted stimulation 證實 — 分類：NCV EMG 周邊神經病變 — Tier 1
 - [[09_NCV EMG 周邊神經病變/Upper_Extremity_NCS_常規技術與陷阱]] — Upper extremity NCS 的判讀依賴 standard recording / stimulation / distance / limb position；internal comparison 與 side-to-side comparison 常比單套 normal table 更有用 — 分類：NCV EMG 周邊神經病變 — Tier 1
+- [[09_NCV EMG 周邊神經病變/Lower_Extremity_NCS_常規技術與陷阱]] — Lower extremity NCS 判讀需處理 tibial / peroneal normal amplitude drop、small sensory / plantar responses、APN、actual-distance velocity 與 H-reflex nonspecificity — 分類：NCV EMG 周邊神經病變 — Tier 1
+- [[09_NCV EMG 周邊神經病變/F_Response_F_Estimate判讀]] — F response 是 antidromic 折返產生的純 motor 晚期 potential，測整條 motor nerve；F estimate 校正 distal latency / CV / 肢長後判讀，但對 radiculopathy 的 sensitivity 約 4-8%，prolonged F 不能特異定位 — 分類：NCV EMG 周邊神經病變 — Tier 1
+- [[09_NCV EMG 周邊神經病變/H_Reflex_臨床用途與限制]] — H reflex 是 1 ms submaximal 刺激下選擇活化 Ia afferent 的 monosynaptic reflex，是 S1 ankle jerk 的電生理對應物；對 polyneuropathy、tibial / sciatic / 腰薦叢 / S1 病變敏感但定位非特異，老年雙側 absent 可為正常變異 — 分類：NCV EMG 周邊神經病變 — Tier 1
+- [[09_NCV EMG 周邊神經病變/A_Wave_Axon_Reflex判讀]] — A wave (axon reflex) 是 reinnervated / demyelinated 神經 submaximal 刺激下沿 collateral branch 折返產生的晚期 potential；以每次刺激 latency / configuration 完美一致與 F response 區分，是 reinnervation、demyelination 或 distal stim 不足 supramaximal 的 marker — 分類：NCV EMG 周邊神經病變 — Tier 1
+- [[09_NCV EMG 周邊神經病變/RNS_Decrement_Increment判讀]] — RNS 用 slow 2-3 Hz stimulation、brief exercise / rapid RNS 與 prolonged-exercise exhaustion 觀察 CMAP decrement / increment，以判讀 NMJ safety factor，但 decrement 不等於 myasthenia gravis，increment 需排除 pseudofacilitation — 分類：NCV EMG 周邊神經病變 — Tier 1
+- [[09_NCV EMG 周邊神經病變/RNS_Protocol與技術陷阱]] — RNS 判讀前必須控制 temperature、immobilization、supramaximal stimulation、AChE inhibitor status、exercise timing、facial CMAP limitation 與 needle EMG confounders — 分類：NCV EMG 周邊神經病變 — Tier 1
+- [[09_NCV EMG 周邊神經病變/Blink_Reflex_R1_R2判讀]] — blink reflex 以 supraorbital V1 stimulation 與 bilateral orbicularis oculi recording 判讀 R1/R2 pattern，可提示 trigeminal、facial、pontine、medullary 或 demyelinating pathway involvement — 分類：NCV EMG 周邊神經病變 — Tier 1
 - [[09_NCV EMG 周邊神經病變/周邊神經病灶定位與EDX_US框架]] — peripheral nerve localization 需把 clinical distribution、EDX physiology 與 ultrasound structure 對齊 — 分類：NCV EMG 周邊神經病變 — Tier 1
 - [[09_NCV EMG 周邊神經病變/周邊神經損傷分類與恢復機制]] — peripheral nerve injury prognosis 取決於 demyelination、axonal loss、scaffold integrity 與 recovery mechanism — 分類：NCV EMG 周邊神經病變 — Tier 1
 - [[09_NCV EMG 周邊神經病變/周邊多發神經病變_典型與非典型型態]] — polyneuropathy 先分 typical length-dependent axonal pattern 與需升級診斷的 atypical pattern — 分類：NCV EMG 周邊神經病變 — Tier 1
@@ -390,6 +442,7 @@
 - [[10_來源摘要/Nuuttila_2026_low_intensity_endurance_training_meta_analysis]] — Nuuttila et al. 2026 systematic review + meta-analysis；healthy sedentary / untrained adults 中 LIT 可改善 aerobic fitness，cardiometabolic effects 較小且異質性較高 — 分類：來源摘要 — Tier 3
 - [[10_來源摘要/Matomaki_2025_low_intensity_endurance_training_athlete_hypotheses]] — Matomäki 2025 perspective；提出高階 endurance athletes 大量 LI training 的七個非互斥假說，並標示 causal mechanism 仍未確定 — 分類：來源摘要 — Tier 4
 - [[10_來源摘要/Reeves_2026_clinical_exercise_physiology_professional_standards]] — Reeves et al. 2026 consensus statement；Clinical Exercise Physiology professional standards 以 modified e-Delphi 建立 4 domains / 20 elements，但不等於特定 exercise protocol 的療效證據 — 分類：來源摘要 — Tier 1
+- [[10_來源摘要/UpToDate_exercise_ECG_testing_performing_interpreting]] — UpToDate topic review；Exercise ECG testing 應先檢查 contraindications、exercise capacity 與 resting ECG 可判讀性，並以 symptom-limited protocol 監測 ECG / BP / symptoms / recovery ST changes — 分類：來源摘要 — Tier 6
 - [[10_來源摘要/Sitko_2025_zone2_training_expert_viewpoint]] — Sitko et al. expert viewpoint；Zone 2 training 實務上定位於 immediately below LT1 / VT1，可用 HR、RPE、lactate、breathing 與 internal-load drift 監測，但不證明 superiority — 分類：來源摘要 — Tier 4
 - [[10_來源摘要/Storoschuk_2025_zone2_training_narrative_review]] — Sports Medicine 2025 narrative review；Zone 2 可用但不具唯一最優證據，尤其不能取代所有 above-Zone-2 intensity 來改善 mitochondrial capacity、FAO 或 CRF — 分類：來源摘要 — Tier 4
 - [[10_來源摘要/Physiological_model_of_CO2_output_during_incremental_exercise]] — Yano 1997 original physiology model；以 PvCO2、PaCO2、blood CO2 dissociation curve 與 lactate-related CO2 excess 解釋 incremental exercise V̇CO2，但不是 GET algorithm — 分類：來源摘要 — Tier 5
@@ -419,10 +472,16 @@
 - [[10_來源摘要/Examination_of_the_pediatric_patient]] — Miller et al.；小兒復健 history / exam / developmental test selection 骨架 — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Electrodiagnostic_medicine]] — Seidel et al.；EDX standard、pitfall 與 reporting 原則 — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Approach_NCS_EMG_Neuromuscular_Ultrasound]] — textbook chapter；EDX 是 localization-first clinical examination extension，NCS / needle EMG 提供 physiology，neuromuscular ultrasound 補 anatomy / etiology — 分類：來源摘要 — Tier 1
+- [[10_來源摘要/Anatomy_and_Neurophysiology_for_Electrodiagnostic_Studies]] — textbook chapter；EDX interpretation 依賴 DRG location、large-fiber recording、myelin / saltatory conduction、motor unit、NMJ 與 volume conduction — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Basic_Nerve_Conduction_Studies]] — textbook chapter；basic NCS 以 CMAP / SNAP parameter meaning、supramaximal stimulation、axonal loss vs demyelination 與 conduction block criteria 建立基礎判讀 — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Artifacts_and_Technical_Factors]] — textbook chapter；temperature、age、height、impedance、filters、stimulus artifact、cathode orientation、supramaximal stimulation、co-stimulation 與 electrode placement 是 EDX false diagnosis 的主要來源 — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Anomalous_Innervations]] — textbook chapter；MGA 與 APN 是 routine EMG lab 最常遇到的 anomalous innervations，未辨識會把 normal variant 誤診為 conduction block、entrapment neuropathy 或 demyelinating polyneuropathy — 分類：來源摘要 — Tier 1
+- [[10_來源摘要/Basic_Statistics_for_Electrodiagnostic_Studies]] — textbook chapter；EDX normal / abnormal 判讀需用 cutoff、sensitivity / specificity、Bayes theorem、likelihood ratio 與 multiple-testing false-positive risk 控制過度診斷 — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Routine_Upper_Extremity_Facial_Phrenic_NCS_Techniques]] — textbook chapter；routine upper-extremity, facial, blink reflex and phrenic NCS 需要 standard distances、controlled temperature、internal comparison 與 safety caveats 才能可靠判讀 — 分類：來源摘要 — Tier 1
+- [[10_來源摘要/Routine_Lower_Extremity_NCS_Techniques]] — textbook chapter；routine lower-extremity NCS 需要 standard protocol、side-to-side comparison、actual-distance sensory velocity、APN review 與 height-adjusted late-response context 才能可靠判讀 — 分類：來源摘要 — Tier 1
+- [[10_來源摘要/Late_Responses]] — textbook chapter；F response、H reflex、axon reflex (A wave) 擴展 NCS 至 proximal segment 與 reflex arc，但 site / disease specificity 低；F response 對 EMG-confirmed S1 radiculopathy sensitivity 約 4-8%，A wave 是 reinnervation / demyelination marker — 分類：來源摘要 — Tier 1
+- [[10_來源摘要/Repetitive_Nerve_Stimulation]] — textbook chapter；RNS 以 CMAP decrement / increment 評估 NMJ safety factor，但 technical validity、exercise timing、藥物狀態與 denervation / myotonia confounders 會決定能否判讀 — 分類：來源摘要 — Tier 1
+- [[10_來源摘要/Blink_Reflex]] — textbook chapter；blink reflex 是 trigeminal-facial brainstem true reflex，需以 R1/R2 的 stimulus side + recording side pattern 定位 V1、VII、pons、medulla 或 demyelinating pathway abnormality — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Spasticity]] — Francisco & Li；spasticity 的多成分模型與 multimodal management — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Auditory_vestibular_and_visual_impairments]] — Lew et al.；auditory / vestibular / visual rehab 與 DSI 骨架 — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Traumatic_brain_injury]] — Wagner et al.；TBI 從 concussion 到 DoC、agitation、PSH 與 endocrine/sleep/vision complication — 分類：來源摘要 — Tier 1
@@ -432,6 +491,8 @@
 - [[10_來源摘要/Traumatic_Spinal_Cord_Injury]] — Ackerman et al.；traumatic SCI 從急性穩定、ISNCSCI/AIS、secondary complication prevention 到 lifelong community reintegration 的 textbook chapter — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Pain_Management]] — Burke-Doe & Johnson；pain management 要從 intensity-only 轉成 biopsychosocial / ICF、multidimensional assessment 與 active self-management — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Bradley_Daroff_Pain_Management]] — neurology textbook chapter；把 chronic pain 連到 sensitization、neuropathic medication、intervention 與 neurological pain syndromes — 分類：來源摘要 — Tier 1
+- [[10_來源摘要/UpToDate_CRPS_pathogenesis_clinical_manifestations_diagnosis]] — UpToDate topic review；adult CRPS 的 consensus definition、type I/II、proposed pathogenesis、clinical manifestations、Budapest criteria、adjunctive test limits 與 differential diagnosis — 分類：來源摘要 — Tier 6
+- [[10_來源摘要/UpToDate_CRPS_treatment_prognosis_prevention]] — UpToDate topic review；adult CRPS management 以 multidisciplinary education、PT/OT、psychosocial assessment 與 pain control enabling rehabilitation 為核心，refractory 才升階介入，prognosis / recurrence / vitamin C prevention 證據需保留不確定性 — 分類：來源摘要 — Tier 6
 - [[10_來源摘要/Upper_Limb_Pain_and_Dysfunction]] — textbook chapter；upper limb pain 需同時看 kinetic chain、exam、rehab stage 與 urgent surgical referral — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Caldwell_Hamner_Hupe_Lower_Limb_Pain_Dysfunction]] — textbook chapter；lower limb pain 需用 region-based differential 與 high-risk structure screen 避免漏診 — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Common_Neck_Problems]] — textbook chapter；neck pain 必須分 axial、somatic referred、radicular pain、radiculopathy 與 myelopathy — 分類：來源摘要 — Tier 1
@@ -443,11 +504,14 @@
 - [[10_來源摘要/Multiple_Sclerosis]] — textbook chapter；MS 需把 McDonald diagnosis、DMT、gait / spasticity、fatigue / heat sensitivity 與 hidden symptom screening 一起管理 — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Degenerative_Movement_Disorders_of_the_CNS]] — textbook chapter；movement disorders 需先做 phenomenology，再分 PD、hyperkinetic disorders 與 Parkinson-plus red flags — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Aging_Dementia_and_Disorders_of_Cognition]] — textbook chapter；dementia care 要先鑑別 normal aging、delirium、depression，再以 stage、function、caregiver 與 nonpharmacologic care 管理 — 分類：來源摘要 — Tier 1
+- [[10_來源摘要/UpToDate_vascular_cognitive_impairment_dementia_treatment]] — UpToDate topic review；VCI/VaD management 以 vascular risk modification 與 stroke-subtype prevention 為核心，white matter lesions alone 不用 antithrombotics，cholinesterase inhibitor 效益小且不確定 — 分類：來源摘要 — Tier 6
+- [[10_來源摘要/UpToDate_vascular_dementia_etiology_clinical_manifestations_diagnosis]] — UpToDate topic review；VaD/VCID diagnosis 需確認客觀 cognitive impairment、stroke history 或 neuroimaging cerebrovascular disease，並判斷 vascular injury 足以解釋 impairment — 分類：來源摘要 — Tier 6
 - [[10_來源摘要/Brainstem_Syndromes]] — textbook chapter；brainstem diagnosis 以 objective signs、ocular motor pattern、crossed signs 與 posterior circulation context 定位 — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Movement_Dysfunction_in_Stroke]] — textbook chapter；poststroke movement rehab 應分析 weakness、timing、sensory、tone、pain、edema、compensation 與 task performance — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Neurological_Rehabilitation]] — textbook chapter；neurorehabilitation 是 goal-directed、team-based、measurement-driven motor learning and self-management process — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Lower_limb_amputation_and_gait]] — Lovegreen et al.；下肢截肢的 level selection、K-level prescription 與 prosthetic gait deviations — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Rehabilitation_of_swallowing_disorders]] — Singer et al.；dysphagia 的 screening/CSE/VFSS/FEES 與 compensatory/restorative treatment 框架 — 分類：來源摘要 — Tier 1
+- [[10_來源摘要/UpToDate_oropharyngeal_dysphagia_clinical_features_diagnosis_management]] — UpToDate topic review；adult oropharyngeal dysphagia 的 clinical features、urgent etiologic evaluation、VFSS / FEES / manometry 選擇、swallow rehabilitation、enteral nutrition、cricopharyngeal intervention 與 NMES evidence limits — 分類：來源摘要 — Tier 6
 - [[10_來源摘要/Neurogenic_bowel_dysfunction_and_rehabilitation]] — Rodriguez et al.；NBD 的 bowel program、social continence 與 supraconal/infraconal 分型 — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Neurogenic_lower_urinary_tract_dysfunction]] — Goetz & Klausner；NLUTD 的 urodynamic pattern、upper tract protection 與 management ladder — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Psychological_assessment_and_intervention_in_rehabilitation]] — Carter & Lewis；rehab psychology 的 biopsychosocial assessment、family support 與 suicide risk thinking — 分類：來源摘要 — Tier 1
@@ -575,6 +639,7 @@
 - [[10_來源摘要/Caregiver_Skills_Training_Home_Visit_Guide_for_Facilitators]] — WHO home visit guide；三次 CST home visits 用 assessment、goal-setting、coaching 與 independent-practice planning 支撐個別化執行 — 分類：來源摘要 — Tier 2
 - [[10_來源摘要/Caregiver_Skills_Training_Participants_Guide]] — WHO participants' guide；用 caregiver-facing key messages、tips、home practice、learning checks 與 local resources template 支撐 CST 日常練習 — 分類：來源摘要 — Tier 2
 - [[10_來源摘要/Nurturing_Care_Practice_Guide]] — WHO / UNICEF practice guide；把 responsive caregiving、early learning、safety 與 caregiver well-being 嵌入 health / nutrition services — 分類：來源摘要 — Tier 2
+- [[10_來源摘要/Nurturing_Care_for_Children_with_Developmental_Delays_and_Disabilities]] — UNICEF / WHO thematic brief；用 disability-inclusive lens 把 developmental delay / disability child 納入 nurturing care、ECI、caregiver support 與 coordinated services — 分類：來源摘要 — Tier 7
 - [[10_來源摘要/Trauma_Resilience_and_Child_Development]] — textbook chapter；ACE、toxic stress、resilience 與 trauma-informed care 應一起構成 pediatric trauma frame — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/The_Influence_of_Digital_Media_on_Children_and_Families]] — textbook chapter；screen media 要看 content、context、parent mediation 與 developmental stage，不只看分鐘數 — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/Language_Development_and_Communication_Disorders]] — textbook chapter；language disorder 評估需同時看語言子系統、bilingualism、hearing 與 neurodevelopmental differential — 分類：來源摘要 — Tier 1
@@ -633,13 +698,28 @@
 - [[10_來源摘要/Aphasia_Prognosis_and_treatment]] — UpToDate topic review；poststroke aphasia 多自發改善至 1 年 plateau；SLT 為 Grade 2C 標準照護；藥物與 NIBS 無 routine 證據；需 monitor depression — 分類：來源摘要 — Tier 1
 - [[10_來源摘要/UpToDate_aneurysmal_SAH_clinical_manifestations_diagnosis]] — UpToDate topic review；aneurysmal SAH diagnosis 以 thunderclap headache、CT first、CT-negative 時多數 LP、CTA / DSA source identification 與 repeat angiography 為核心 — 分類：來源摘要 — Tier 6
 - [[10_來源摘要/UpToDate_aneurysmal_SAH_treatment_prognosis]] — UpToDate topic review；aneurysmal SAH treatment 以 ICU monitoring、antithrombotic reversal、BP/euvolemia、nimodipine、early aneurysm repair、DCI/ICP complication management 與 prognosis 為核心 — 分類：來源摘要 — Tier 6
+- [[10_來源摘要/UpToDate_moyamoya_etiology_clinical_features_diagnosis]] — UpToDate topic review；moyamoya diagnosis 需確認 distal ICA / circle of Willis stenosis plus collaterals、區分 MMD vs MMS、辨識 recurrent triggered ischemia / deep hemorrhage clues 並排除 intracranial vasculopathy mimics — 分類：來源摘要 — Tier 6
+- [[10_來源摘要/UpToDate_moyamoya_treatment_prognosis]] — UpToDate topic review；moyamoya treatment 以 surgical referral threshold、surveillance、antiplatelet boundary、avoid anticoagulation、acute perfusion support and prognosis 為核心 — 分類：來源摘要 — Tier 6
 - [[10_來源摘要/Complications_of_stroke_an_overview]] — UpToDate topic review；acute stroke complications 需系統監測 dysphagia、pneumonia、VTE、UTI、cardiac/pulmonary events、GI bleeding、falls、depression 與 neurologic deterioration — 分類：來源摘要 — Tier 6
+- [[10_來源摘要/UpToDate_clinical_diagnosis_stroke_subtypes]] — UpToDate topic review；stroke subtype bedside diagnosis 依 symptom course、associated symptoms、risk factors 與 exam clues 形成推定，但必須由 brain / vascular imaging confirmation — 分類：來源摘要 — Tier 6
 - [[10_來源摘要/UpToDate_initial_assessment_management_acute_stroke]] — UpToDate topic review；acute stroke first-hours assessment 以 LKW、ABC、glucose/SpO2、NCCT、IVT/EVT eligibility、BP、swallow、position 與 stroke-unit care 串成不延誤治療的流程 — 分類：來源摘要 — Tier 6
+- [[10_來源摘要/UpToDate_overview_evaluation_of_stroke]] — UpToDate topic review；stroke evaluation 應先穩定與分流，再以 history/exam/initial imaging 形成假說，並用 directed neurovascular、cardiac、lab 與 hemorrhage workup 確認病因 — 分類：來源摘要 — Tier 6
+- [[10_來源摘要/UpToDate_stroke_etiology_classification_epidemiology]] — UpToDate topic review；stroke classification 需分 ischemia / hemorrhage，再用 TOAST、CCS 或 ISPS25-like framework 將 ischemic stroke 機制與 diagnostic confidence 寫清楚 — 分類：來源摘要 — Tier 6
+- [[10_來源摘要/UpToDate_intracranial_large_artery_atherosclerosis_treatment_prognosis]] — UpToDate topic review；symptomatic ICAS 以 intensive medical therapy 為主，依 stenosis severity 決定 DAPT duration，routine stenting 不建議 — 分類：來源摘要 — Tier 6
+- [[10_來源摘要/UpToDate_cerebral_cervical_artery_dissection_clinical_features_diagnosis]] — UpToDate topic review；cervicocephalic artery dissection 以 head/neck pain、Horner syndrome、TIA/stroke、SAH pattern 與 urgent MRI/MRA 或 CT/CTA 診斷框架為核心 — 分類：來源摘要 — Tier 6
+- [[10_來源摘要/UpToDate_posterior_circulation_cerebrovascular_syndromes]] — UpToDate topic review；posterior circulation stroke 以 vertebral/basilar/PCA territory、topographic signs、HINTS 適用條件與 posterior fossa imaging limitations 為核心 — 分類：來源摘要 — Tier 6
+- [[10_來源摘要/UpToDate_stroke_in_patients_with_atrial_fibrillation]] — UpToDate topic review；AF stroke 需分病因歸屬、acute anticoagulation restart、long-term DOAC / VKA selection 與 anticoagulation failure workup — 分類：來源摘要 — Tier 6
+- [[10_來源摘要/UpToDate_lacunar_infarcts]] — UpToDate topic review；lacunar infarcts 需把 classic syndrome、DWI/CT topography、parent artery mimic、embolic pattern 與 long-term DAPT harm 分開處理 — 分類：來源摘要 — Tier 6
+- [[10_來源摘要/UpToDate_pathophysiology_of_ischemic_stroke]] — UpToDate topic review；ischemic stroke pathophysiology 以 autoregulation failure、core / penumbra、cell injury cascade、edema / BBB breakdown and genetics overview 建模 — 分類：來源摘要 — Tier 6
+- [[10_來源摘要/UpToDate_overview_ischemic_stroke_prognosis_adults]] — UpToDate topic review；adult ischemic stroke prognosis 應整合 severity、age、imaging、mechanism、comorbidity、complications、recovery timing and rehab-domain outcomes — 分類：來源摘要 — Tier 6
+- [[10_來源摘要/UpToDate_sleep_related_breathing_disorders_and_stroke]] — UpToDate topic review；poststroke sleep-related breathing disorders 常見且需 objective testing，PAP 治療可用但 recurrent stroke prevention 證據仍有限 — 分類：來源摘要 — Tier 6
 - [[10_來源摘要/UpToDate_overview_secondary_prevention_ischemic_stroke]] — UpToDate topic review；ischemic stroke / TIA secondary prevention 需同時處理 antithrombotic、BP、LDL-C、diabetes、lifestyle 與 selected mechanism-specific interventions — 分類：來源摘要 — Tier 6
 - [[10_來源摘要/UpToDate_long_term_antithrombotic_secondary_prevention_ischemic_stroke]] — UpToDate topic review；noncardioembolic ischemic stroke / TIA 的 long-term prevention 以 single antiplatelet 為主，並界定 long-term DAPT、ESUS anticoagulation、cilostazol 與 aspirin-rivaroxaban 的使用邊界 — 分類：來源摘要 — Tier 6
+- [[10_來源摘要/UpToDate_antihypertensive_therapy_secondary_stroke_prevention]] — UpToDate topic review；stroke / TIA 後 BP secondary prevention 要分 phase、neurologic stability、drug class、target intensity 與 gradual titration，不能把 acute permissive hypertension 和 long-term goal 混用 — 分類：來源摘要 — Tier 6
 - [[10_來源摘要/UpToDate_spontaneous_intracerebral_hemorrhage_acute_treatment_prognosis]] — UpToDate topic review；spontaneous ICH acute treatment 以防 hematoma expansion、BP 分層、anticoagulation reversal、ICP / surgery triage、seizure management 與 prognosis caution 為骨架 — 分類：來源摘要 — Tier 6
 - [[10_來源摘要/UpToDate_spontaneous_intracerebral_hemorrhage_pathogenesis_clinical_features_diagnosis]] — UpToDate topic review；spontaneous ICH diagnosis 以 CT/MRI confirmation、location-based etiology clues、ABC/2 volume、CTA spot sign 與 follow-up imaging 為骨架 — 分類：來源摘要 — Tier 6
 - [[10_來源摘要/Poststroke_neuropsychiatric_disorders_and_symptoms]] — UpToDate topic review；poststroke psychiatric symptoms 以 functional impairment、suicidality / psychosis / dangerous behavior、PBA vs depression 與 apathy vs poor motivation 作辨識與轉介骨架 — 分類：來源摘要 — Tier 6
+- [[10_來源摘要/UpToDate_unipolar_depression_TMS_indications_efficacy_safety]] — UpToDate topic review；adult unipolar major depression 的 rTMS 適應症、surface / theta burst / deep TMS 療效、安全篩檢、seizure risk、maintenance uncertainty 與 ECT 比較 — 分類：來源摘要 — Tier 6
 - [[10_來源摘要/Neuropalliative_care_of_stroke]] — UpToDate topic review；stroke neuropalliative care 不是 hospice，而是從 presentation 起整合 symptom management、goals of care、prognostic uncertainty、advance care planning and caregiver support — 分類：來源摘要 — Tier 6
 
 ## Queries

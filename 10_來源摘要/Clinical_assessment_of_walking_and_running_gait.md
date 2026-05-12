@@ -62,7 +62,7 @@ contradictions:
 ### 對現有 wiki 的意義
 
 - 直接支撐 [[../06_Gait_Biomechanics/步態評估總論]]。
-- 可與 [[../06_Gait_Biomechanics/足部解剖與生物力學]]、[[../03_疾病與臨床主題/Achilles_tendinopathy]]、[[../03_疾病與臨床主題/Ankle_sprain_總論]] 串接。
+- 可與 [[../06_Gait_Biomechanics/足部解剖與生物力學]]、[[../06_Gait_Biomechanics/Achilles_tendinopathy]]、[[../06_Gait_Biomechanics/Ankle_sprain_總論]] 串接。
 
 - 什麼情況要治療？先看是否真的改變 pain、function、safety、participation 或訓練輸出。
 - 什麼情況要轉介？遇到 red flags、診斷不確定、需要程序性介入或超出本頁可處理範圍時。
@@ -115,5 +115,5 @@ contradictions:
 
 - [[../06_Gait_Biomechanics/步態評估總論]]
 - [[../06_Gait_Biomechanics/足部解剖與生物力學]]
-- [[../03_疾病與臨床主題/Achilles_tendinopathy]]
-- [[../03_疾病與臨床主題/Ankle_sprain_總論]]
+- [[../06_Gait_Biomechanics/Achilles_tendinopathy]]
+- [[../06_Gait_Biomechanics/Ankle_sprain_總論]]

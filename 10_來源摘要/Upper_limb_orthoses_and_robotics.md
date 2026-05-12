@@ -60,7 +60,7 @@ Upper limb orthosis prescription 的核心，是把 **protection、positioning�
 
 ### 對現有 wiki 的意義
 
-- 支撐 [[../06_Gait_Biomechanics/上肢矯具與復健機器人]] 的 Tier 1 主框架。
+- 支撐 [[../03_疾病與臨床主題/上肢矯具與復健機器人]] 的 Tier 1 主框架。
 - 可與 [[../03_疾病與臨床主題/Spasticity_概論]]、[[../03_疾病與臨床主題/中風復健總論]] 串接上肢 positioning 與 motor recovery。
 
 - 什麼情況要治療？先看是否真的改變 pain、function、safety、participation 或訓練輸出。
@@ -111,6 +111,6 @@ Upper limb orthosis prescription 的核心，是把 **protection、positioning�
 
 ### 相關 wiki 頁面
 
-- [[../06_Gait_Biomechanics/上肢矯具與復健機器人]]
+- [[../03_疾病與臨床主題/上肢矯具與復健機器人]]
 - [[../03_疾病與臨床主題/Spasticity_概論]]
 - [[../03_疾病與臨床主題/中風復健總論]]

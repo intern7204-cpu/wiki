@@ -63,8 +63,8 @@ contradictions:
 
 ### 對現有 wiki 的意義
 
-- 直接支撐 [[../03_疾病與臨床主題/Patellofemoral_Pain]]。
-- 也應作為 [[../03_疾病與臨床主題/跑者膝部疼痛]] 的 anterior-knee branch。
+- 直接支撐 [[../06_Gait_Biomechanics/Patellofemoral_Pain]]。
+- 也應作為 [[../06_Gait_Biomechanics/跑者膝部疼痛]] 的 anterior-knee branch。
 - 對 [[../06_Gait_Biomechanics/跑步步態評估]] 與 [[../06_Gait_Biomechanics/跑步步頻調整]] 有直接 gait-retraining 意義。
 
 ## 評估方式
@@ -73,7 +73,7 @@ contradictions:
 
 ## 治療原則
 
-- 本頁以來源整理為主；實際 treatment flow 應回連 [[../03_疾病與臨床主題/Patellofemoral_Pain]]。
+- 本頁以來源整理為主；實際 treatment flow 應回連 [[../06_Gait_Biomechanics/Patellofemoral_Pain]]。
 
 ## 臨床決策點
 
@@ -119,8 +119,8 @@ contradictions:
 
 ## 相關頁面
 
-- [[../03_疾病與臨床主題/Patellofemoral_Pain]]
-- [[../03_疾病與臨床主題/跑者膝部疼痛]]
+- [[../06_Gait_Biomechanics/Patellofemoral_Pain]]
+- [[../06_Gait_Biomechanics/跑者膝部疼痛]]
 - [[../06_Gait_Biomechanics/跑步步態評估]]
 - [[../06_Gait_Biomechanics/跑步步頻調整]]
-- [[../03_疾病與臨床主題/Iliotibial_Band_Syndrome]]
+- [[../06_Gait_Biomechanics/Iliotibial_Band_Syndrome]]

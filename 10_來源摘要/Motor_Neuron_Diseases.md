@@ -1,7 +1,7 @@
 ---
 title: Motor Neuron Diseases
 created: 2026-05-03
-updated: 2026-05-03
+updated: 2026-05-11
 type: source_summary
 domain: [motor_neuron_disease, ALS, SMA, rehabilitation]
 tags: [motor_neuron_disease, ALS, SMA, Gold_Coast_criteria, EDX, NIV, PEG, AAC, multidisciplinary_care]
@@ -11,27 +11,27 @@ evidence_level: textbook_chapter
 confidence: high
 contested: true
 contradictions:
-  - ALS diagnosis cannot be made or excluded by a single laboratory or imaging test.
-  - Mild cervical spondylosis or nonspecific MRI findings should not be assumed causal when clinical and EDX features fit ALS.
+  - ALS 的診斷不能由單一 lab 或影像確認或排除。
+  - 在臨床與 EDX 都符合 ALS pattern 時，輕度 cervical spondylosis 或非特異 MRI 變化不應被當作主因。
 ---
 
 # Source Summary: Motor Neuron Diseases
 
 ## Source Type
 
-- Textbook chapter / rehabilitation and neuromuscular medicine chapter.
-- Authors listed in source: Shawn P. Jorgensen, Arsh Ketabforoush, and W. David Arnold.
-- Single-source ingest only; this page does not synthesize with current ALS / SMA guidelines.
+- 教科書型 / 復健與神經肌肉醫學章節。
+- 來源作者：Shawn P. Jorgensen、Arsh Ketabforoush、W. David Arnold。
+- 本輪僅以這篇單一來源 ingest，未混入最新 ALS / SMA guideline。
 
 ## Reliability Level
 
-- Tier 1 within this wiki because it is a textbook-style clinical chapter.
-- Strongest for MND classification, ALS diagnostic framing, electrodiagnostic mimic exclusion, ALS stage-based rehabilitation, respiratory / nutrition / communication care, palliative care, and SMA treatment-era rehabilitation needs.
-- Drug approval, dosing, and coverage thresholds are source-dated and must be checked against current prescribing / payer rules before clinical use.
+- 在本 wiki 對 textbook clinical chapter 的層級中屬 Tier 1。
+- 強項：MND 分類、ALS 診斷框架、電生理 mimic 排除、ALS 分期復健、呼吸 / 營養 / 溝通照護、palliative care，以及 SMA 治療年代下的復健需求。
+- 限制：藥物核准、劑量與保險閾值屬 source-dated，臨床使用前需對照最新 prescribing / payer 規則。
 
 ## One-Sentence Summary
 
-Motor neuron diseases are primarily motor neuron disorders in which diagnosis requires careful UMN / LMN pattern recognition and mimic exclusion, while survival and quality of life depend heavily on multidisciplinary rehabilitation, respiratory care, nutrition, communication support, and early palliative planning.
+Motor neuron disease 是以 motor neuron 為主的疾病；診斷需要謹慎辨識 UMN / LMN 型態並排除 mimic，而存活率與生活品質高度依賴跨專科復健、呼吸照護、營養、溝通支持與早期 palliative 規劃。
 
 ## Core Concepts Extracted
 
@@ -39,153 +39,153 @@ Motor neuron diseases are primarily motor neuron disorders in which diagnosis re
 
 #### One-Sentence Definition
 
-ALS diagnosis requires progressive motor impairment plus UMN / LMN involvement in the correct regional pattern and exclusion of mimics, with EDX serving as the main tool for identifying LMN loss.
+ALS 的診斷需呈現進行性 motor 受累 + 在正確 region pattern 中同時有 UMN / LMN 受累 + 排除 mimic；EDX 是辨識 LMN loss 的主要工具。
 
 #### Known Facts
 
-- MNDs affect anterior horn cells, cortical motor neurons, or both.
-- MNDs may show UMN signs such as spasticity, increased tone, and brisk reflexes, and LMN signs such as weakness, atrophy, and fasciculations.
-- Most MNDs lack overt sensory symptoms such as pain, numbness, and tingling.
-- ALS uniquely involves both UMN and LMN degeneration.
-- Focal painless weakness without sensory complaints is suspicious for ALS.
-- Fasciculations in isolation are nonspecific; fasciculations with weakness and EMG denervation are more concerning.
-- EDX is the main test for identifying LMN loss and excluding mimics such as MMN, NMJ disorders, and focal radiculomyelopathy.
-- Gold Coast criteria require progressive motor impairment, UMN and LMN dysfunction in at least one body region or LMN dysfunction in at least two body regions, and investigations excluding mimics.
-- No laboratory or imaging test can diagnose ALS in isolation; in a patient with clinical features of ALS, no diagnostic test can rule it out.
+- MND 影響 anterior horn cells、cortical motor neurons 或兩者。
+- MND 可有 UMN 徵象（spasticity、tone 增高、reflex brisk）與 LMN 徵象（weakness、atrophy、fasciculation）。
+- 多數 MND 缺少明顯 sensory 症狀（pain、numbness、tingling）。
+- ALS 的特點是同時有 UMN 與 LMN 退化。
+- 局部、無痛的 weakness、無 sensory complaint 時，應提高 ALS 的臨床懷疑。
+- 單純 fasciculation 不具特異性；fasciculation 配合 weakness 與 EMG denervation 才較具意義。
+- EDX 是辨識 LMN loss 與排除 mimic（例如 MMN、NMJ disorder、focal radiculomyelopathy）的主要工具。
+- Gold Coast criteria 要求：progressive motor 受累、至少 1 region 同時有 UMN + LMN，或至少 2 region 有 LMN，並由檢查排除 mimic。
+- 沒有 lab 或 影像可單獨診斷 ALS；在臨床符合 ALS 的病人中，也沒有 diagnostic test 能單獨排除 ALS。
 
 #### Mechanism Chain
 
 ```text
-Progressive motor neuron degeneration
-→ LMN loss and / or UMN tract dysfunction
-→ painless focal weakness, atrophy, fasciculations, spasticity, hyperreflexia, bulbar signs
-→ EDX confirms LMN loss and tests mimics
-→ diagnosis by pattern + progression + exclusion
+Motor neuron 進行性退化
+→ LMN loss 與 / 或 UMN tract dysfunction
+→ 無痛局部 weakness、atrophy、fasciculation、spasticity、hyperreflexia、bulbar 徵象
+→ EDX 證實 LMN loss、排除 mimic
+→ 以 pattern + 進展 + 排除診斷
 ```
 
 #### Inferences
 
-- ALS diagnostic delay can occur when common incidental spinal imaging findings are over-attributed as the primary cause.
-- False ALS diagnosis can occur when treatable mimics such as MMN or cervical spondylotic myelopathy are not excluded.
+- 將常見的脊椎影像 incidental finding 過度歸因，會延遲 ALS 的診斷。
+- 若未排除 MMN 或 cervical spondylotic myelopathy 等可治療 mimic，可能造成 false ALS 診斷。
 
 #### Assumptions
 
-- Diagnosis is confirmed by a clinician with MND expertise when possible.
-- EDX protocol is designed to test ALS pattern and mimics, not simply to perform a generic limb study.
+- 條件允許下由具 MND 經驗的臨床醫師確認診斷。
+- EDX protocol 設計符合 ALS pattern 與 mimic 評估，而不是泛泛的肢體 study。
 
 #### Uncertainties / Limitations
 
-- Early ALS may be focal and not yet meet a confident diagnostic threshold.
-- Genetic testing utility is rapidly evolving, especially as gene-targeted therapy expands.
+- 早期 ALS 可能仍 focal、未達穩定診斷閾值。
+- 隨著 gene-targeted therapy 擴展，遺傳檢測的角色快速演變。
 
 ### Concept: ALS 復健、呼吸、營養與溝通照護
 
 #### One-Sentence Definition
 
-ALS care is stage-based supportive and disease-modifying care that anticipates mobility loss, respiratory failure, dysphagia, malnutrition, communication loss, mood / cognition issues, and end-of-life decisions.
+ALS 照護是以分期為基礎的支持性與 disease-modifying 照護，需預先處理行動喪失、呼吸衰竭、dysphagia、營養不良、溝通喪失、情緒 / 認知問題與 end-of-life 決策。
 
 #### Known Facts
 
-- Riluzole is described as safe and effective in slowing progression, with survival prolongation around 4 months in the cited source.
-- Edaravone benefit is source-described as limited to a selected subgroup; broader benefit and survival / quality-of-life effect remain uncertain.
-- Tofersen is specifically for SOD1-ALS and was granted accelerated approval in 2023.
-- ALSFRS-R is the most commonly used tool for longitudinal functional assessment but has multidimensionality limitations.
-- Multidisciplinary clinics extend survival and should be pursued when feasible.
-- Therapeutic exercise should avoid fatigue, dyspnea, eccentric exercise, cramps, and overuse weakness.
-- Respiratory measurements such as FVC and MIP should be measured at every visit regardless of symptoms.
-- NIV improves respiratory function and quality of life and prolongs survival in the source.
-- Supplemental oxygen can worsen hypercapnia and should generally be avoided except for palliation of symptomatic hypoxia.
-- PEG / RIG discussions should occur before FVC declines too far; PEG does not reduce aspiration pneumonia.
-- Effective communication is a major determinant of quality of life, and AAC / voice banking should be considered early.
-- Palliative care should be involved early.
+- 來源描述 riluzole 安全且能延緩進展，存活延長約 4 個月。
+- 來源描述 edaravone 的 benefit 限於部分 subgroup；對更廣族群的存活 / 生活品質效益仍不確定。
+- Tofersen 專供 SOD1-ALS，於 2023 年獲 accelerated approval。
+- ALSFRS-R 是最常用的 longitudinal 功能評估工具，但有 multidimensionality 的限制。
+- 多專科 clinic 可延長存活，可行時應主動轉介。
+- Therapeutic exercise 應避免疲勞、呼吸困難、eccentric exercise、cramps 與 overuse weakness。
+- 不論症狀如何，每次門診都應測 FVC 與 MIP 等呼吸指標。
+- NIV 可改善呼吸功能、生活品質並延長存活。
+- 補充氧氣可加重 hypercapnia，除症狀性 hypoxia 之 palliation 外應避免。
+- PEG / RIG 應在 FVC 尚未過低時討論；PEG 不能降低 aspiration pneumonia。
+- 有效的溝通是 quality of life 的主要決定因子，AAC 與 voice banking 應早期討論。
+- Palliative care 應早期介入。
 
 #### Mechanism Chain
 
 ```text
-Progressive UMN / LMN loss
-→ mobility, bulbar, respiratory, nutrition, communication, mood, cognition decline
-→ anticipatory rehabilitation + respiratory testing + nutrition / PEG discussion + AAC + palliative care
-→ prolonged survival, lower crisis burden, and better quality of life
+進行性 UMN / LMN loss
+→ 行動、bulbar、呼吸、營養、溝通、情緒、認知衰退
+→ 預期性復健 + 呼吸測試 + 營養 / PEG 討論 + AAC + palliative care
+→ 延長存活、降低 crisis 負擔，提升生活品質
 ```
 
 #### Inferences
 
-- ALS follow-up should be proactive rather than symptom-triggered because respiratory and nutrition decline may be underreported.
-- Communication preservation may influence perceived quality of life as much as limb function.
+- ALS 追蹤應主動預期，而不是等症狀出現；呼吸與營養衰退常被低報。
+- 溝通保留可能對 perceived 生活品質的影響不亞於肢體功能。
 
 #### Assumptions
 
-- Patient goals, caregiver capacity, and local access to NIV, PEG / RIG, AAC, and palliative care are actively assessed.
+- 病人目標、家屬照顧能量，以及 NIV、PEG / RIG、AAC、palliative care 的可近性被主動評估。
 
 #### Uncertainties / Limitations
 
-- Drug effects, coverage thresholds, and genetic therapy indications require current source review before prescribing decisions.
+- 藥物效果、保險閾值與 gene therapy 適應症需以最新來源為主。
 
 ### Concept: SMA 基因治療後的復健管理
 
 #### One-Sentence Definition
 
-SMA is a genetic LMN disorder transformed by SMN-restoring therapies, but patients still require rehabilitation, pulmonary, nutritional, orthopedic, and family-centered care.
+SMA 是 genetic LMN disorder，新一代 SMN-restoring therapy 改變了臨床走向，但病人仍需復健、肺部、營養、骨科與家庭中心照護。
 
 #### Known Facts
 
-- Proximal SMA is an autosomal recessive lower MND with frequency about 1/11,000 births and carrier frequency about 1/50.
-- Untreated proximal SMA was historically the most common genetic cause of infant death.
-- SMA is caused by homozygous deletions or loss-of-function mutations of the SMN1 gene.
-- SMN2 copy number generally correlates inversely with severity but cannot precisely predict individual severity.
-- Type 1 SMA accounts for 60-70% of cases, starts before 6 months, and historically most untreated patients did not survive beyond age 2.
-- Genetic testing for homozygous SMN1 deletion identifies about 95% of proximal SMA cases.
-- Three genetic-based SMA treatments are listed: nusinersen, onasemnogene abeparvovec, and risdiplam.
-- Earlier SMN-restoring treatment produces more pronounced motor benefit.
-- Despite disease-modifying therapy, many patients still need management of musculoskeletal, pulmonary, nutritional, gastrointestinal, and scoliosis-related complications.
+- Proximal SMA 為 autosomal recessive lower MND，發生率約 1/11,000、carrier frequency 約 1/50。
+- 未治療的 proximal SMA 過去是嬰幼兒最常見的遺傳性死因。
+- SMA 由 SMN1 gene 的 homozygous deletion 或 loss-of-function mutation 造成。
+- SMN2 copy number 與嚴重度大致呈反向，但無法精確預測個別嚴重度。
+- Type 1 SMA 占 60–70%，6 個月前發病；歷史上未治療者多在 2 歲前無法存活。
+- Homozygous SMN1 deletion 的遺傳檢測可辨識約 95% 的 proximal SMA。
+- 來源列出三個 genetic-based SMA 治療：nusinersen、onasemnogene abeparvovec、risdiplam。
+- 越早接受 SMN-restoring 治療，動作改善越明顯。
+- 即使有 disease-modifying therapy，許多病人仍需處理 musculoskeletal、肺部、營養、消化道與 scoliosis 相關併發症。
 
 #### Mechanism Chain
 
 ```text
-SMN1 loss with residual SMN2-derived protein
-→ reduced SMN protein
-→ LMN dysfunction and proximal weakness
-→ early genetic diagnosis and SMN-restoring therapy
-→ changed survival / motor trajectory
-→ ongoing rehab, pulmonary, nutrition, orthopedic, and family support needs
+SMN1 缺失，僅靠殘餘 SMN2-derived protein
+→ SMN protein 減少
+→ LMN dysfunction 與近端 weakness
+→ 早期遺傳診斷與 SMN-restoring therapy
+→ 存活與動作軌跡改變
+→ 仍需 longitudinal 的復健、肺部、營養、骨科與家庭支持
 ```
 
 #### Inferences
 
-- Gene-based therapy changes expected development but does not eliminate the need for longitudinal rehabilitation surveillance.
-- Early diagnosis, including screening pathways, matters because treatment effect is time-sensitive.
+- Gene-based therapy 改變了預期發展，但不消除長期復健監測的需求。
+- 早期診斷（包含篩檢路徑）很重要，因為治療效果有 time-sensitive。
 
 #### Assumptions
 
-- Disease subtype, treatment status, respiratory status, feeding safety, and orthopedic trajectory are reviewed together.
+- 把疾病子型、治療狀態、呼吸、餵食安全與骨科軌跡一起綜合追蹤。
 
 #### Uncertainties / Limitations
 
-- Long-term adult outcomes after newer SMA therapies remain incompletely defined in the source.
+- 新一代 SMA 治療後的長期成人 outcome 在來源中尚未完整呈現。
 
 ## Clinically Useful Points
 
-- Pure motor progressive weakness without sensory complaint should trigger MND / pure motor mimic evaluation.
-- MMN, cervical spondylotic myelopathy, NMJ disorders, Kennedy disease, myopathy, and adult-onset SMA are important ALS mimics.
-- Mild CK elevation can occur in ALS and should not automatically lead to muscle biopsy.
-- Genetic counseling and testing should be considered in newly diagnosed ALS, even without clear family history, because actionable mutation-specific therapy is emerging.
-- ALS respiratory testing should be routine, not symptom-dependent.
-- PEG / RIG is for nutrition and survival support, not aspiration pneumonia prevention.
-- AAC and voice banking should be discussed early while voice strength is still adequate.
+- 純粹的 motor 進行性 weakness、無 sensory complaint，應啟動 MND / pure motor mimic 評估。
+- 重要 ALS mimic：MMN、cervical spondylotic myelopathy、NMJ disorders、Kennedy disease、myopathy、adult-onset SMA。
+- ALS 也可有輕度 CK 升高，不應自動直接做 muscle biopsy。
+- 即使無明顯家族史，新診斷 ALS 仍應考慮遺傳諮詢與檢測，因為 mutation-specific therapy 正在發展中。
+- ALS 呼吸測試應 routine，不應 symptom-driven。
+- PEG / RIG 是支持營養與存活的工具，不是預防 aspiration pneumonia 的方法。
+- AAC 與 voice banking 應在聲音尚足時就提早討論。
 
 ## Research-Useful Points
 
-- NFL is a promising biomarker for axonal injury but its role in monitoring progression and severity remains uncertain in the source.
-- MUNE is mostly research-oriented but may serve as outcome measure in ALS, SMA, and Kennedy disease trials.
-- SMA treatment era creates new long-term rehabilitation questions.
+- NFL 是 axonal injury 的有前景 biomarker，但其在監測進展與嚴重度的角色仍待釐清。
+- MUNE 多數仍為研究用；可作為 ALS、SMA、Kennedy disease trial 的 outcome measure。
+- SMA 治療年代帶來新的長期復健研究問題。
 
 ## Conflicts / Cautions
 
-- False-positive ALS diagnosis is estimated in the source at 5-10%; many false positives involve treatable disorders such as MMN or cervical spondylotic myelopathy.
-- Nearly half of patients later diagnosed with ALS were initially misdiagnosed in cited data.
-- Common imaging abnormalities such as cervical spondylosis or nonspecific ischemic brain changes should not be overcalled as causal without clinical correlation.
-- Oxygen therapy in ALS can worsen CO2 retention and cause respiratory arrest; it is not routine dyspnea treatment.
-- Diaphragmatic pacers are described as no benefit or possibly harmful in ALS.
+- 來源指出 false-positive ALS 約 5–10%；許多 false positive 是 MMN 或 cervical spondylotic myelopathy 等可治療疾病。
+- 引用資料顯示，最終診斷為 ALS 的病人中，將近半數最初被誤診。
+- Cervical spondylosis 或非特異 ischemic brain changes 等常見影像 abnormality，沒有臨床 correlation 不應被當作主因。
+- ALS 中氧氣治療可加重 CO2 retention、引發呼吸停止；不應作為 dyspnea 的常規治療。
+- 來源描述 diaphragmatic pacer 在 ALS 中無 benefit，甚至可能有害。
 
 ## Pages Created / Updated From This Source
 

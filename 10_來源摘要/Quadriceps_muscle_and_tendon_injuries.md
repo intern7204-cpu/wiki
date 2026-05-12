@@ -54,8 +54,8 @@ contradictions:
 
 ### 對現有 wiki 的意義
 
-- 直接支撐 [[../03_疾病與臨床主題/Quadriceps_肌肉與肌腱傷害]]。
-- 也應補進 [[../03_疾病與臨床主題/跑者膝部疼痛]] 與 [[../03_疾病與臨床主題/跑者髖骨盆與大腿疼痛]] 的 anterior-thigh / superior-knee branch。
+- 直接支撐 [[../06_Gait_Biomechanics/Quadriceps_肌肉與肌腱傷害]]。
+- 也應補進 [[../06_Gait_Biomechanics/跑者膝部疼痛]] 與 [[../06_Gait_Biomechanics/跑者髖骨盆與大腿疼痛]] 的 anterior-thigh / superior-knee branch。
 
 ## 評估方式
 
@@ -117,7 +117,7 @@ contradictions:
 
 ## 相關頁面
 
-- [[../03_疾病與臨床主題/Quadriceps_肌肉與肌腱傷害]]
-- [[../03_疾病與臨床主題/跑者膝部疼痛]]
-- [[../03_疾病與臨床主題/跑者髖骨盆與大腿疼痛]]
-- [[../03_疾病與臨床主題/Hamstring_肌肉與肌腱傷害]]
+- [[../06_Gait_Biomechanics/Quadriceps_肌肉與肌腱傷害]]
+- [[../06_Gait_Biomechanics/跑者膝部疼痛]]
+- [[../06_Gait_Biomechanics/跑者髖骨盆與大腿疼痛]]
+- [[../06_Gait_Biomechanics/Hamstring_肌肉與肌腱傷害]]

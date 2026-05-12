@@ -11,6 +11,7 @@ sources:
   - 10_來源摘要/Basic_Nerve_Conduction_Studies.md
   - 10_來源摘要/Peripheral_Nerve_Disorders.md
   - 10_來源摘要/Routine_Upper_Extremity_Facial_Phrenic_NCS_Techniques.md
+  - 10_來源摘要/Routine_Lower_Extremity_NCS_Techniques.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -29,7 +30,7 @@ Peripheral nerve localization 是把 motor / sensory / reflex pattern、anatomic
 
 - 本頁聚焦 focal neuropathy、plexopathy、root-vs-nerve 鑑別與 EDX / ultrasound 的角色分工。
 - 本頁不逐一整理所有 mononeuropathy treatment。
-- 本頁以 [[../10_來源摘要/Peripheral_Nerve_Disorders]] 建立臨床定位框架，並連結 [[../10_來源摘要/Approach_NCS_EMG_Neuromuscular_Ultrasound]]、[[../10_來源摘要/Basic_Nerve_Conduction_Studies]]、[[../10_來源摘要/Anomalous_Innervations]] 與 [[../10_來源摘要/Routine_Upper_Extremity_Facial_Phrenic_NCS_Techniques]] 補足 EDX workflow、NCS parameter interpretation、anatomic variant pitfall 與 upper-extremity protocol pitfall。
+- 本頁以 [[../10_來源摘要/Peripheral_Nerve_Disorders]] 建立臨床定位框架，並連結 [[../10_來源摘要/Approach_NCS_EMG_Neuromuscular_Ultrasound]]、[[../10_來源摘要/Basic_Nerve_Conduction_Studies]]、[[../10_來源摘要/Anomalous_Innervations]]、[[../10_來源摘要/Routine_Upper_Extremity_Facial_Phrenic_NCS_Techniques]] 與 [[../10_來源摘要/Routine_Lower_Extremity_NCS_Techniques]] 補足 EDX workflow、NCS parameter interpretation、anatomic variant pitfall 與 routine protocol pitfall。
 
 ## Why It Matters
 
@@ -63,6 +64,9 @@ Symptom distribution
 - Radial sensory sparing supports PIN neuropathy over more proximal radial / plexus lesion。
 - Medial and lateral antebrachial cutaneous SNAPs can help localize lower trunk / medial cord versus upper trunk / lateral cord plexus patterns。
 - APN 可讓 peroneal motor study recording EDB 出現 proximal amplitude 高於 ankle；若合併 PNFN，可能出現 low-high-low amplitude pattern。
+- Peroneal neuropathy at fibular neck 的 routine NCS 必須包含 ankle、below-fibular-neck、above-fibular-neck stimulation；TA recording 可比 EDB 更容易顯示 focal slowing / block。
+- Distal tibial neuropathy across the ankle 評估中，plantar mixed nerve studies 在此來源中比 orthodromic plantar sensory studies preferred，且 small / absent response 需 side-to-side context。
+- H reflex delayed / absent 可出現在 polyneuropathy、tibial neuropathy、sciatic neuropathy、lumbosacral plexopathy 或 S1 radiculopathy，因此只能作為 proximal pathway clue。
 - Ultrasound 在 CTS 可見 median nerve enlargement、flattening、flexor retinaculum bowing、increased vascularity 或 reduced mobility。
 - Acquired demyelinating neuropathy 可有 multifocal nerve enlargement；hereditary demyelinating neuropathy 較傾向 diffuse symmetric enlargement。
 
@@ -117,9 +121,11 @@ Symptom distribution
 - [[../09_NCV EMG 周邊神經病變/EDX_異常神經支配變異判讀]]
 - [[../09_NCV EMG 周邊神經病變/NCS_軸突損失與脫髓鞘判讀]]
 - [[../09_NCV EMG 周邊神經病變/Upper_Extremity_NCS_常規技術與陷阱]]
+- [[../09_NCV EMG 周邊神經病變/Lower_Extremity_NCS_常規技術與陷阱]]
 - [[Cervical_Radiculopathy]]
 - [[../10_來源摘要/Anomalous_Innervations]]
 - [[../10_來源摘要/Approach_NCS_EMG_Neuromuscular_Ultrasound]]
 - [[../10_來源摘要/Basic_Nerve_Conduction_Studies]]
 - [[../10_來源摘要/Peripheral_Nerve_Disorders]]
 - [[../10_來源摘要/Routine_Upper_Extremity_Facial_Phrenic_NCS_Techniques]]
+- [[../10_來源摘要/Routine_Lower_Extremity_NCS_Techniques]]

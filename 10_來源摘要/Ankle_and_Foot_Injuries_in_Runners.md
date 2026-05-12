@@ -76,8 +76,8 @@ contradictions:
 
 ### 對現有 wiki 的意義
 
-- 可回填 [[../03_疾病與臨床主題/足部疼痛分區評估]]、[[../03_疾病與臨床主題/跑者下肢傷害評估總論]]。
-- 也支撐 [[../03_疾病與臨床主題/Achilles_tendinopathy]]、[[../03_疾病與臨床主題/Plantar_fasciitis]]、[[../03_疾病與臨床主題/Ankle_sprain_總論]]。
+- 可回填 [[../06_Gait_Biomechanics/足部疼痛分區評估]]、[[../06_Gait_Biomechanics/跑者下肢傷害評估總論]]。
+- 也支撐 [[../06_Gait_Biomechanics/Achilles_tendinopathy]]、[[../06_Gait_Biomechanics/Plantar_fasciitis]]、[[../06_Gait_Biomechanics/Ankle_sprain_總論]]。
 
 ## 評估方式
 
@@ -133,8 +133,8 @@ contradictions:
 
 ## 相關頁面
 
-- [[../03_疾病與臨床主題/足部疼痛分區評估]]
-- [[../03_疾病與臨床主題/跑者下肢傷害評估總論]]
-- [[../03_疾病與臨床主題/Achilles_tendinopathy]]
-- [[../03_疾病與臨床主題/Plantar_fasciitis]]
-- [[../03_疾病與臨床主題/Ankle_sprain_總論]]
+- [[../06_Gait_Biomechanics/足部疼痛分區評估]]
+- [[../06_Gait_Biomechanics/跑者下肢傷害評估總論]]
+- [[../06_Gait_Biomechanics/Achilles_tendinopathy]]
+- [[../06_Gait_Biomechanics/Plantar_fasciitis]]
+- [[../06_Gait_Biomechanics/Ankle_sprain_總論]]

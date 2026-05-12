@@ -151,4 +151,4 @@ contradictions:
 - [[../06_Gait_Biomechanics/治療性鞋具與鞋修改]]
 - [[../06_Gait_Biomechanics/下肢矯具總論]]
 - [[../06_Gait_Biomechanics/跑鞋選擇原則]]
-- [[../03_疾病與臨床主題/足部疼痛分區評估]]
+- [[../06_Gait_Biomechanics/足部疼痛分區評估]]

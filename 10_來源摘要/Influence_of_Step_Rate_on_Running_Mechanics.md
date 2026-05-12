@@ -82,9 +82,9 @@ contradictions:
 - 建立 [[../06_Gait_Biomechanics/跑步步頻調整]] 主頁骨架。
 - 補強 [[../06_Gait_Biomechanics/步態評估總論]] 的 running retraining 節點。
 - 可回寫到：
-  - [[../03_疾病與臨床主題/Iliotibial_Band_Syndrome]]
-  - [[../03_疾病與臨床主題/跑者運動性下腿痛]]
-  - [[../03_疾病與臨床主題/跑者髖骨盆與大腿疼痛]]
+  - [[../06_Gait_Biomechanics/Iliotibial_Band_Syndrome]]
+  - [[../06_Gait_Biomechanics/跑者運動性下腿痛]]
+  - [[../06_Gait_Biomechanics/跑者髖骨盆與大腿疼痛]]
 
 ## 限制與未定論
 
@@ -126,6 +126,6 @@ contradictions:
 
 - [[../06_Gait_Biomechanics/跑步步頻調整]]
 - [[../06_Gait_Biomechanics/步態評估總論]]
-- [[../03_疾病與臨床主題/Iliotibial_Band_Syndrome]]
-- [[../03_疾病與臨床主題/跑者運動性下腿痛]]
-- [[../03_疾病與臨床主題/跑者髖骨盆與大腿疼痛]]
+- [[../06_Gait_Biomechanics/Iliotibial_Band_Syndrome]]
+- [[../06_Gait_Biomechanics/跑者運動性下腿痛]]
+- [[../06_Gait_Biomechanics/跑者髖骨盆與大腿疼痛]]

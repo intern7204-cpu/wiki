@@ -1,7 +1,7 @@
 ---
 title: Basic Nerve Conduction Studies
 created: 2026-05-10
-updated: 2026-05-10
+updated: 2026-05-11
 type: source_summary
 domain: [PMR, methodology, electrodiagnosis]
 tags: [EDX, NCS, CMAP, SNAP, axonal_loss, demyelination, conduction_block, textbook]
@@ -11,234 +11,234 @@ evidence_level: textbook_chapter
 confidence: high
 contested: true
 contradictions:
-  - Reduced amplitude is not automatically axonal loss; demyelinating conduction block, NMJ disorders, and some myopathies can also lower CMAP amplitude.
-  - Normal SNAPs do not exclude sensory symptoms when the lesion is proximal to the dorsal root ganglion.
-  - A proximal CMAP drop can reflect temporal dispersion / phase cancellation, pseudo-conduction block, or technical factors, not only true conduction block.
+  - 低 amplitude 不必然等於 axonal loss；demyelinating conduction block、NMJ disorders 與部分 myopathies 也可降低 CMAP amplitude。
+  - 在 dorsal root ganglion 近端的 lesion 中，sensory symptoms 可與 normal SNAP 並存。
+  - 近端 CMAP 下降可能來自 temporal dispersion / phase cancellation、pseudo-conduction block 或 technical factor，不只是 true conduction block。
 ---
 
 # Source Summary: Basic Nerve Conduction Studies
 
 ## Source Type
 
-- Textbook chapter on basic NCS technique, CMAP / SNAP waveform parameters, stimulation principles, and foundational axonal-vs-demyelinating interpretation.
-- Single-source ingest only; this page does not synthesize with later chapters on routine limb-specific techniques, repetitive nerve stimulation, late responses, blink reflex, artifacts, or disease-specific EDX criteria.
+- 電生理診斷 textbook chapter；內容涵蓋基本 NCS 技術、CMAP / SNAP 波形參數、刺激原理，以及 axonal vs. demyelinating 的判讀基礎。
+- 本輪僅以這篇單一來源 ingest，未混入後續章節（routine 肢段 NCS、repetitive nerve stimulation、late responses、blink reflex、artifacts）或 disease-specific EDX criteria。
 
 ## Reliability Level
 
-- Tier 1 within this wiki's convention for textbook clinical chapters.
-- Strongest for basic NCS physiology, waveform parameter meaning, stimulation technique, and broad pattern recognition.
-- Not a guideline and not a complete disease-specific diagnostic criteria source; condition-specific cutoffs and lab-specific normative values still require appropriate references.
+- 在本 wiki 對 EDX textbook chapter 的層級中屬 Tier 1。
+- 強項：基本 NCS 生理、波形參數意義、刺激技術，以及廣義型態辨識。
+- 限制：本來源不是 guideline，也不是完整 disease-specific diagnostic criteria；condition-specific cutoff 與 lab-specific normative values 仍需另行參考。
 
 ## One-Sentence Summary
 
-Basic NCS interpretation depends on matching the physiology measured by CMAP / SNAP parameters with technical adequacy and clinical localization, especially when separating axonal loss from demyelination.
+Basic NCS 判讀必須把 CMAP / SNAP 各參數所反映的生理對應到技術品質與臨床定位，特別是在區分 axonal loss 與 demyelination 時。
 
 ## Core Concepts Extracted
 
-### Concept: CMAP / SNAP waveform parameters
+### Concept: CMAP / SNAP 波形參數
 
 #### One-Sentence Definition
 
-CMAP and SNAP are compound potentials whose latency, amplitude, area, duration, and conduction velocity measure different physiologic properties and should not be collapsed into one abnormality label.
+CMAP 與 SNAP 都是 compound potentials；其 latency、amplitude、area、duration 與 conduction velocity 各自代表不同生理特性，不能合併成單一「abnormal」標籤。
 
 #### Known Facts
 
-- After history and directed physical examination, EDX studies begin with NCS; needle EMG follows because NCS results guide EMG planning and interpretation.
-- Nerve selection depends on symptoms, signs, and differential diagnosis.
-- Motor studies are often performed first because they are technically less demanding, less noise-sensitive, and help define nerve course, stimulation site, required current, and whether sensory absence is technical or true.
-- CMAP represents summated muscle fiber action potentials after motor nerve stimulation.
-- Motor latency reflects distal nerve conduction time, NMJ transmission time, and muscle depolarization time; therefore distal motor latency alone cannot calculate motor conduction velocity.
-- Motor conduction velocity requires distal and proximal stimulation so the distal non-nerve components can be subtracted.
-- CMAP latency and conduction velocity reflect the fastest conducting motor fibers; amplitude and area reflect the number of depolarized muscle fibers; duration reflects synchrony.
-- SNAP represents summated sensory fiber action potentials and assesses sensory nerve fibers only.
-- Sensory onset latency can calculate sensory conduction velocity with one stimulation because no NMJ or muscle depolarization time is included.
-- Sensory peak latency is easier to mark but cannot calculate conduction velocity and depends on standard distances.
-- SNAPs are much smaller than CMAPs, so technical noise and artifact matter more.
+- 在 history 與 directed physical examination 之後，EDX 通常先做 NCS；needle EMG 接著進行，因為 NCS 結果會影響 EMG 規劃與判讀。
+- 神經選擇取決於症狀、徵象與 differential diagnosis。
+- Motor studies 通常先做，因為技術需求較低、對 noise 較不敏感，並可協助界定神經走向、刺激位置、所需電流，以及 sensory 缺失是技術性還是真實。
+- CMAP 是 motor nerve 受刺激後 muscle fiber action potentials 的總和。
+- Motor latency 包含 distal 神經傳導時間、NMJ transmission 時間與 muscle depolarization 時間，所以單靠 distal motor latency 無法計算 motor conduction velocity。
+- 計算 motor conduction velocity 需要 distal 與 proximal 兩處刺激，才能扣除非神經部分的時間。
+- CMAP 的 latency 與 conduction velocity 反映最快傳導的 motor fibers；amplitude 與 area 反映被去極化的 muscle fiber 數量；duration 反映同步性。
+- SNAP 是 sensory fibers action potentials 的總和，僅評估 sensory 神經纖維。
+- Sensory onset latency 加上一次刺激即可計算 sensory conduction velocity，因為其中不含 NMJ 與 muscle depolarization 時間。
+- Sensory peak latency 較容易標記但無法計算 conduction velocity，且依賴 standard distance。
+- SNAP 比 CMAP 小很多，因此 noise 與 artifact 對 SNAP 的影響更大。
 
 #### Mechanism Chain
 
 ```text
-Stimulate nerve
-→ record compound response
-→ latency / conduction velocity = fastest fibers
-→ amplitude / area = number of depolarized fibers
-→ duration = synchrony / temporal dispersion
-→ interpret only after technique and clinical localization are checked
+刺激 nerve
+→ 記錄 compound response
+→ latency / conduction velocity = 最快 fibers
+→ amplitude / area = 被去極化的 fiber 數
+→ duration = 同步性 / temporal dispersion
+→ 技術品質與臨床定位確認後才可判讀
 ```
 
 #### Inferences
 
-- "Abnormal NCS" is not a single physiologic state; the abnormal parameter determines which pathophysiology is plausible.
-- A report should specify which parameter is abnormal and why it changes the localization or pathophysiologic interpretation.
+- 「Abnormal NCS」不是單一生理狀態；異常的參數會決定可能的病態生理。
+- 報告應寫明哪一個參數異常，以及它如何改變定位或病態生理判讀。
 
 #### Assumptions
 
-- Limb temperature, electrode placement, stimulation site, distance measurement, and lab-specific norms are controlled well enough for interpretation.
+- Limb temperature、electrode placement、刺激位置、距離測量與 lab-specific norms 都已被控制到可判讀的程度。
 
 #### Uncertainties / Limitations
 
-- The chapter gives general principles; it does not replace local normative datasets or disease-specific criteria.
+- 本章提供一般原則，不能取代各 lab 的 normative dataset 或疾病特異 criteria。
 
 ### Concept: NCS 軸突損失與脫髓鞘判讀
 
 #### One-Sentence Definition
 
-NCS separates axonal loss from demyelination by combining amplitude, latency, conduction velocity, waveform duration / area, stimulation location, and timing after injury.
+NCS 透過綜合 amplitude、latency、conduction velocity、波形 duration / area、刺激位置與受傷時序，把 axonal loss 與 demyelination 區分開來。
 
 #### Known Facts
 
-- Axonal loss is the most common NCS abnormality pattern.
-- Reduced amplitude is the primary abnormality associated with axonal loss because CMAP, SNAP, and MNAP amplitudes reflect the number of functioning motor, sensory, and mixed nerve axons.
-- Reduced amplitude does not necessarily mean axonal loss; demyelinating conduction block, some NMJ disorders, and some myopathies can also lower CMAP amplitude.
-- In axonal loss, conduction velocity and distal latency are normal or only mildly abnormal if the fastest conducting axons remain.
-- The source states that pure axonal loss should not slow conduction velocity below 75% of the lower limit of normal or prolong distal latency beyond 130% of the upper limit of normal.
-- Hyperacute axonal loss is an exception: within the first 3-4 days after nerve transection, distal stimulation and recording can remain normal until Wallerian degeneration evolves.
-- Wallerian degeneration in this source is described as earlier for motor fibers, typically days 3-5, than for sensory fibers, typically days 6-10.
-- During the first 3 days after acute axonal injury, distal stimulation may be normal while proximal stimulation is reduced, creating pseudo-conduction block.
-- Demyelination produces markedly slowed conduction velocity, markedly prolonged distal latency, or both.
-- The source states that routine motor, sensory, or mixed conduction velocity below 35 m/s in arms or 30 m/s in legs signifies unequivocal demyelination, except rare regeneration after complete axonal injury.
-- Borderline slowing should be interpreted with amplitude: normal amplitude near cutoff favors demyelination; very low amplitude near cutoff may reflect severe axonal loss.
-- Sensory amplitudes are often low or absent in demyelinating lesions because demyelinating slowing exaggerates temporal dispersion and phase cancellation.
-- Conduction block location determines CMAP amplitude: distal-to-recording block can make both distal and proximal responses low, inter-stimulation-site block can make proximal response low with distal response preserved, and very proximal block can leave routine distal / proximal CMAP amplitudes normal.
-- The source discusses older rules in which >20% CMAP amplitude / area drop or >15% duration increase suggests conduction block / abnormal temporal dispersion in routine distal-proximal segments, but also states that >50% CMAP area drop better defines electrophysiologic conduction block when distinguishing it from temporal dispersion / phase cancellation alone.
-- Routine tibial motor study at the popliteal fossa is an exception; normal subjects may show up to 50% amplitude drop, so proximal tibial CMAP drop should be called conduction block cautiously.
-- Conduction block and abnormal temporal dispersion are markers of acquired demyelination; inherited demyelinating neuropathies tend toward uniform slowing without conduction block except at common entrapment / compression sites.
+- Axonal loss 是 NCS 上最常見的異常型態。
+- Reduced amplitude 是 axonal loss 的主要異常，因為 CMAP、SNAP、MNAP 的 amplitude 反映可運作 motor、sensory、mixed nerve axons 的數量。
+- Reduced amplitude 不一定代表 axonal loss；demyelinating conduction block、部分 NMJ disorders 與部分 myopathies 也可降低 CMAP amplitude。
+- 在 axonal loss 中，若最快 axons 仍保留，conduction velocity 與 distal latency 可 normal 或僅 mildly abnormal。
+- 來源指出 pure axonal loss 的 conduction velocity 不應低於 lower limit of normal 的 75%、distal latency 不應超過 upper limit of normal 的 130%。
+- Hyperacute axonal loss 為例外：神經斷裂後最初 3–4 天內，distal 刺激與記錄可保持 normal，直到 Wallerian degeneration 演變。
+- 來源描述 Wallerian degeneration 的 motor fibers 約於第 3–5 天、sensory fibers 約於第 6–10 天表現出來。
+- 急性 axonal injury 後最初 3 天，distal 刺激可保持 normal，但 proximal 刺激下降，形成 pseudo-conduction block。
+- Demyelination 可造成 markedly slowed conduction velocity、markedly prolonged distal latency 或兩者並存。
+- 來源指出 routine motor、sensory 或 mixed nerve 的 conduction velocity 在上肢低於 35 m/s、下肢低於 30 m/s，除完全 axonal injury 後罕見的 regenerating fibers 外，意指 unequivocal demyelination。
+- Borderline slowing 應與 amplitude 一起看：cutoff 附近 amplitude 仍正常時偏向 demyelination；cutoff 附近 amplitude 極低則可能是嚴重 axonal loss。
+- Demyelinating lesion 中 sensory amplitude 常低或 absent，因 demyelinating slowing 放大了 temporal dispersion 與 phase cancellation。
+- Conduction block 位置決定 CMAP 樣態：距離 recording 太遠的 distal block 可使 distal 與 proximal response 都低；介於兩刺激點之間的 block 可使 proximal response 低、distal response 正常；極近端的 block 可保留 routine distal / proximal CMAP amplitude 都正常。
+- 來源討論較舊的判定規則：在 routine distal-proximal segment 中，CMAP amplitude / area 下降 > 20% 或 duration 增加 > 15% 暗示 conduction block / 異常 temporal dispersion；同時來源也指出 CMAP area 下降 > 50% 較能把 conduction block 從 temporal dispersion / phase cancellation 中區分出來。
+- Routine tibial motor study 在 popliteal fossa 為例外：normal 受試者的 amplitude 可下降高達 50%，因此對 proximal tibial CMAP 下降的 conduction block 判讀必須謹慎。
+- Conduction block 與異常 temporal dispersion 是 acquired demyelination 的 markers；inherited demyelinating neuropathies 較傾向 uniform slowing，除常見壓迫處外通常無 conduction block。
 
 #### Mechanism Chain
 
 ```text
 Axonal loss
-→ fewer functioning axons
-→ lower amplitude / area
-→ fastest remaining fibers may keep latency and conduction velocity near normal
+→ 可運作 axons 變少
+→ amplitude / area 下降
+→ 仍存活的最快 fibers 可能維持 latency 與 conduction velocity 接近正常
 
 Demyelination
-→ saltatory conduction failure or nonuniform slowing
-→ marked latency prolongation / conduction slowing
-→ temporal dispersion, phase cancellation, and possible conduction block
-→ localization and prognosis depend on where the block or slowing occurs
+→ saltatory conduction 失敗或 nonuniform slowing
+→ 顯著 latency prolongation / conduction slowing
+→ temporal dispersion、phase cancellation 與可能的 conduction block
+→ 定位與 prognosis 取決於 block 或 slowing 的位置
 ```
 
 #### Inferences
 
-- "Low amplitude = axonal loss" is unsafe unless conduction block, timing, NMJ / myopathy pattern, and technical adequacy have been considered.
-- In focal neuropathy, conduction block-dominant weakness implies more reversible demyelinating physiology than severe distal CMAP loss, which implies more axonal loss.
+- 「Low amplitude = axonal loss」在未檢視 conduction block、injury timing、NMJ / myopathy 型態與技術品質前並不安全。
+- 在 focal neuropathy 中，以 conduction block 為主的 weakness 暗示較可逆的 demyelinating physiology；以 distal CMAP loss 為主則代表較多 axonal loss。
 
 #### Assumptions
 
-- The study used supramaximal stimulation at each site and did not create false amplitude differences through submaximal stimulation, co-stimulation, or poor stimulator placement.
-- Contralateral comparison, prior baseline, or validated normal controls are available when estimating axonal loss severity.
+- 各刺激位置都使用 supramaximal stimulation，沒有因 submaximal stimulation、co-stimulation 或不良 stimulator placement 製造假性 amplitude 差異。
+- 估計 axonal loss 程度時，可使用 contralateral 比較、過去 baseline 或 validated normal controls。
 
 #### Uncertainties / Limitations
 
-- The source gives broad cutoffs, but actual diagnosis still depends on local normal values, nerve segment, temperature, disease-specific criteria, and technical factors.
-- The source does not provide a full diagnostic algorithm for CIDP, GBS, entrapment neuropathies, radiculopathy, or motor neuron disease.
+- 來源給出的 cutoff 較廣；實際診斷仍取決於 lab 的 normal values、所測 segment、temperature、disease-specific criteria 與技術因素。
+- 來源不提供 CIDP、GBS、entrapment neuropathy、radiculopathy 或 motor neuron disease 的完整診斷流程。
 
-### Concept: Sensory NCS localization and temporal dispersion
+### Concept: Sensory NCS 定位與 temporal dispersion
 
 #### One-Sentence Definition
 
-SNAP interpretation is strongly shaped by dorsal root ganglion anatomy and by normal temporal dispersion / phase cancellation, especially with proximal stimulation.
+SNAP 判讀深受 dorsal root ganglion 解剖以及 normal temporal dispersion / phase cancellation 影響，特別是在 proximal stimulation 時。
 
 #### Known Facts
 
-- Sensory neurons are derived from dorsal root ganglion cells, whose peripheral processes remain intact in lesions proximal to the DRG.
-- SNAPs remain normal in lesions proximal to the DRG, including nerve root, spinal cord, and brain lesions.
-- A patient can have sensory symptoms or sensory loss with normal SNAPs in the same distribution when the lesion is proximal to the DRG.
-- Proximal sensory stimulation normally produces smaller, longer-duration SNAPs because temporal dispersion and phase cancellation increase with conduction distance.
-- Temporal dispersion also occurs in motor studies but is less marked because motor unit action potentials are broader and normal motor conduction velocity range is narrower.
-- Antidromic sensory recordings usually have higher SNAP amplitude than orthodromic recordings, but antidromic studies may be confused by volume-conducted motor potentials when the SNAP is absent.
+- Sensory neurons 來自 dorsal root ganglion；當 lesion 在 DRG 近端時，DRG 的 peripheral process 仍完整。
+- 在 DRG 近端的 lesion（包括 nerve root、spinal cord 與 brain lesion）中，SNAP 可保持 normal。
+- 病人在同一分布範圍內可同時出現 sensory symptoms 或 sensory loss 與 normal SNAP，當 lesion 在 DRG 近端時即如此。
+- Proximal sensory stimulation 通常產生較小、持續較久的 SNAP，因為 temporal dispersion 與 phase cancellation 隨傳導距離增加。
+- Motor studies 也有 temporal dispersion，但較不顯著，因為 motor unit action potentials 較寬、且 motor conduction velocity 範圍較窄。
+- Antidromic sensory recordings 通常 amplitude 比 orthodromic 高，但若 SNAP 不存在，antidromic 容易被 volume-conducted motor potentials 混淆。
 
 #### Mechanism Chain
 
 ```text
-DRG distal process intact
-→ peripheral sensory axon remains electrically recordable
-→ SNAP can remain normal despite root / CNS sensory symptoms
+DRG 之 distal process 完整
+→ peripheral sensory axon 仍可被電性記錄
+→ 即使有 root / CNS 的 sensory symptom，SNAP 仍可 normal
 
-Longer stimulation-recording distance
-→ fast and slow sensory fibers arrive less synchronously
+刺激—記錄距離增加
+→ 快、慢 sensory fibers 抵達不同步
 → temporal dispersion + phase cancellation
-→ lower amplitude / area and longer duration
+→ 較低 amplitude / area、較長 duration
 ```
 
 #### Inferences
 
-- Normal sensory NCS in a sensory complaint should shift localization thinking toward root / CNS only when the clinical pattern supports it; it should not be used alone.
-- Proximal SNAP amplitude loss should not be overcalled without accounting for normal dispersion and phase cancellation.
+- 在 sensory 主訴下出現 normal sensory NCS，只有在臨床型態支持時才應把定位往 root / CNS 移動，不可僅憑 NCS。
+- 對 proximal SNAP amplitude 的下降，需先扣除 normal dispersion 與 phase cancellation，再下異常結論。
 
 #### Assumptions
 
-- Sensory response identity is confirmed and not confused with a volume-conducted motor response.
+- Sensory response 已確認為真，未被 volume-conducted motor response 混淆。
 
 #### Uncertainties / Limitations
 
-- The source notes rare exceptions can produce sensory symptoms with normal SNAPs; it does not enumerate all such exceptions.
+- 來源指出有少數例外可在 normal SNAP 下仍出現 sensory symptom；本章未列舉所有例外。
 
-### Concept: Supramaximal stimulation and technical adequacy
+### Concept: Supramaximal stimulation 與技術品質
 
 #### One-Sentence Definition
 
-NCS data are interpretable only when stimulation is supramaximal at all sites while avoiding unnecessary co-stimulation and patient discomfort.
+NCS 數據只有在所有刺激點都達 supramaximal stimulation、且避免不必要 co-stimulation 與病人不適時，才具可解讀性。
 
 #### Known Facts
 
-- Correct and reproducible NCS require stimulation of all fibers within the tested nerve at every location.
-- Submaximal stimulation underestimates true amplitude and may distort conduction velocity.
-- Excessively high current can co-stimulate nearby nerves and increase pain.
-- Supramaximal stimulation is achieved by increasing current until the recorded potential plateaus, then increasing by an additional 20-25%.
-- The source names stopping once the response is merely in the normal range as a common NCS mistake.
-- Optimal stimulator placement over the nerve gives the highest response at the least current and reduces technical error and discomfort.
+- 正確、可重複的 NCS 必須在每個位置刺激所有受測 fibers。
+- Submaximal stimulation 會低估真實 amplitude，並可能扭曲 conduction velocity。
+- 過高電流可 co-stimulate 鄰近神經並增加疼痛。
+- Supramaximal stimulation 的標準作法：增加電流直到 recorded potential 達 plateau，再額外增加 20–25%。
+- 來源指出常見錯誤之一是 response 一進入 normal range 就停止加流。
+- Stimulator 放在 nerve 正上方時，可在最低電流下獲得最大 response，並降低技術錯誤與不適。
 
 #### Mechanism Chain
 
 ```text
-Suboptimal stimulation
-→ incomplete axon depolarization or co-stimulation
-→ false amplitude / velocity / block pattern
-→ wrong pathophysiologic interpretation
+不理想的刺激
+→ axon 去極化不完全或 co-stimulation
+→ 假性 amplitude / velocity / block 型態
+→ 錯誤的病態生理判讀
 
-Optimize stimulator site
-→ reach plateau response at lower current
-→ add 20-25% current
-→ reproducible supramaximal response
+最佳化 stimulator 位置
+→ 在較低電流下達 plateau response
+→ 再加 20–25% 電流
+→ 可重複的 supramaximal response
 ```
 
 #### Inferences
 
-- Before labeling conduction block, the examiner must first exclude submaximal proximal stimulation and other technical artifacts.
+- 在診斷 conduction block 之前，檢查者必須先排除 proximal stimulation 不足夠 supramaximal 與其他技術假象。
 
 #### Assumptions
 
-- The examiner can adjust stimulator position and intensity based on real-time waveform changes.
+- 操作者能即時依波形變化調整 stimulator 位置與強度。
 
 #### Uncertainties / Limitations
 
-- The source discusses basic technique but defers detailed artifact handling to other chapters.
+- 本章主要談基本技術，artifact 處理細節留給其他章節。
 
 ## Clinically Useful Points
 
-- Motor NCS first is efficient and helps determine whether an absent sensory response is technical or true.
-- Motor latency and conduction velocity reflect fastest fibers, not the whole nerve.
-- Sensory onset latency is physiologically useful for conduction velocity; peak latency is easier to mark but has a narrower use.
-- Normal SNAPs with sensory symptoms point toward a lesion proximal to the DRG when the clinical pattern fits.
-- Low amplitude should not be equated with axonal loss until demyelinating conduction block, timing after injury, NMJ / myopathy pattern, and stimulation adequacy have been checked.
-- True demyelination implies marked slowing / latency prolongation or conduction block / temporal dispersion beyond what axonal loss can explain.
-- Repeat study after Wallerian degeneration may be needed to separate hyperacute pseudo-conduction block from true demyelinating conduction block.
+- Motor NCS 先做的順序很有效率，並可協助判別 absent sensory response 是技術性還是真實。
+- Motor latency 與 conduction velocity 反映最快 fibers，而非整條神經。
+- Sensory onset latency 對 conduction velocity 計算較有生理意義；peak latency 較易標記但用途較窄。
+- 在臨床型態合適時，sensory symptoms 加 normal SNAPs 暗示 lesion 在 DRG 近端。
+- 在沒有先排除 demyelinating conduction block、injury timing、NMJ / myopathy 型態與刺激充足性之前，不要把 low amplitude 直接等同 axonal loss。
+- True demyelination 暗示 marked slowing / latency prolongation，或 conduction block / temporal dispersion 超出 axonal loss 所能解釋的程度。
+- 在區分 hyperacute pseudo-conduction block 與真正 demyelinating conduction block 時，可能需在 Wallerian degeneration 完成後 repeat study。
 
 ## Research-Useful Points
 
-- The chapter supports parameter-level interpretation rather than binary normal / abnormal labeling.
-- Useful research abstractions include amplitude as functioning axon count proxy, latency / conduction velocity as fastest-fiber metrics, and duration / area change as synchrony / dispersion metrics.
-- Conduction block criteria are not purely amplitude-based; area drop and temporal dispersion modeling matter.
+- 本章支持 parameter-level 判讀，而非 binary normal / abnormal 標籤。
+- 有用的研究抽象：把 amplitude 視為可運作 axon 數量的代理；latency / conduction velocity 為最快 fiber 指標；duration / area change 為同步性 / dispersion 指標。
+- Conduction block 的判定不僅靠 amplitude；area drop 與 temporal dispersion modeling 都重要。
 
 ## Conflicts With Existing Knowledge
 
-- Conflicts with "NCS is a fixed routine panel independent of symptoms and signs."
-- Conflicts with "low amplitude automatically equals axonal neuropathy."
-- Conflicts with "normal SNAP excludes sensory pathology."
-- Conflicts with "proximal amplitude drop always equals conduction block."
-- Conflicts with "a normal-range waveform is adequate even without supramaximal stimulation."
+- 與「NCS 是與症狀、徵象無關的固定 panel」衝突。
+- 與「low amplitude 自動等於 axonal neuropathy」衝突。
+- 與「normal SNAP 排除 sensory pathology」衝突。
+- 與「proximal amplitude drop 一律等於 conduction block」衝突。
+- 與「未達 supramaximal 但 waveform 在 normal range 即可」衝突。
 
 ## Pages That Should Be Created or Updated
 

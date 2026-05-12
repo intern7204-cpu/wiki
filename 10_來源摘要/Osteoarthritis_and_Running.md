@@ -61,8 +61,8 @@ contradictions:
 
 ### 對現有 wiki 的意義
 
-- 直接支撐 [[../03_疾病與臨床主題/跑步與Osteoarthritis]]。
-- 也能補強 [[../03_疾病與臨床主題/跑步傷害風險因子與預防]]。
+- 直接支撐 [[../06_Gait_Biomechanics/跑步與Osteoarthritis]]。
+- 也能補強 [[../06_Gait_Biomechanics/跑步傷害風險因子與預防]]。
 
 ## 評估方式
 
@@ -128,6 +128,6 @@ contradictions:
 
 ## 相關頁面
 
-- [[../03_疾病與臨床主題/跑步與Osteoarthritis]]
-- [[../03_疾病與臨床主題/跑步傷害風險因子與預防]]
-- [[../03_疾病與臨床主題/跑者下肢傷害評估總論]]
+- [[../06_Gait_Biomechanics/跑步與Osteoarthritis]]
+- [[../06_Gait_Biomechanics/跑步傷害風險因子與預防]]
+- [[../06_Gait_Biomechanics/跑者下肢傷害評估總論]]

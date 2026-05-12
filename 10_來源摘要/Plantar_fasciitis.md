@@ -62,8 +62,8 @@ contradictions:
 
 ### 對現有 wiki 的意義
 
-- 直接支撐 [[../03_疾病與臨床主題/Plantar_fasciitis]]。
-- 也能和 [[../03_疾病與臨床主題/足部疼痛分區評估]]、[[../06_Gait_Biomechanics/足部解剖與生物力學]] 連結。
+- 直接支撐 [[../06_Gait_Biomechanics/Plantar_fasciitis]]。
+- 也能和 [[../06_Gait_Biomechanics/足部疼痛分區評估]]、[[../06_Gait_Biomechanics/足部解剖與生物力學]] 連結。
 
 - 什麼情況要治療？先看是否真的改變 pain、function、safety、participation 或訓練輸出。
 - 什麼情況要轉介？遇到 red flags、診斷不確定、需要程序性介入或超出本頁可處理範圍時。
@@ -115,6 +115,6 @@ contradictions:
 
 ### 相關 wiki 頁面
 
-- [[../03_疾病與臨床主題/Plantar_fasciitis]]
-- [[../03_疾病與臨床主題/足部疼痛分區評估]]
+- [[../06_Gait_Biomechanics/Plantar_fasciitis]]
+- [[../06_Gait_Biomechanics/足部疼痛分區評估]]
 - [[../06_Gait_Biomechanics/足部解剖與生物力學]]

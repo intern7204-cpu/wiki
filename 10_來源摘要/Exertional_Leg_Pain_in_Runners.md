@@ -96,7 +96,7 @@ contradictions:
 
 ### 這篇對 wiki 主幹的價值
 
-- 建立 [[../03_疾病與臨床主題/跑者運動性下腿痛]] 的骨架。
+- 建立 [[../06_Gait_Biomechanics/跑者運動性下腿痛]] 的骨架。
 - 也補強 [[../06_Gait_Biomechanics/步態評估總論]] 與 [[../06_Gait_Biomechanics/跑鞋選擇原則]] 的 running injury context。
 
 - 什麼情況要治療？先看是否真的改變 pain、function、safety、participation 或訓練輸出。
@@ -148,7 +148,7 @@ contradictions:
 
 ### 相關頁面
 
-- [[../03_疾病與臨床主題/跑者運動性下腿痛]]
+- [[../06_Gait_Biomechanics/跑者運動性下腿痛]]
 - [[../06_Gait_Biomechanics/步態評估總論]]
 - [[../06_Gait_Biomechanics/跑鞋選擇原則]]
 - [[../06_Gait_Biomechanics/足部解剖與生物力學]]

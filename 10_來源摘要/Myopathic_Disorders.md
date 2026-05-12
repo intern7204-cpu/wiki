@@ -1,7 +1,7 @@
 ---
 title: Myopathic Disorders
 created: 2026-05-03
-updated: 2026-05-03
+updated: 2026-05-11
 type: source_summary
 domain: [myopathy, neuromuscular_medicine, rehabilitation]
 tags: [myopathy, muscular_dystrophy, inflammatory_myopathy, metabolic_myopathy, EDX, CK, genetic_testing, respiratory_care, dysphagia, cardiac_screening]
@@ -11,27 +11,27 @@ evidence_level: textbook_chapter
 confidence: high
 contested: true
 contradictions:
-  - CK elevation is nonspecific and cannot diagnose inflammatory myopathy by itself.
-  - Myopathy risk cannot be judged by limb weakness alone because respiratory, cardiac, and bulbar systems may dominate prognosis.
+  - CK 升高不具特異性，無法單獨診斷 inflammatory myopathy。
+  - Myopathy 的風險不能只靠肢體 weakness 判斷；respiratory、cardiac 與 bulbar 系統可能主導 prognosis。
 ---
 
 # Source Summary: Myopathic Disorders
 
 ## Source Type
 
-- Textbook chapter / rehabilitation and neuromuscular medicine chapter.
-- Authors listed in source: Haibi (Daniel) Cai and Sarah Smith.
-- Single-source ingest only; this page does not synthesize with external myopathy guidelines.
+- 教科書型 / 復健與神經肌肉醫學章節。
+- 來源作者：Haibi (Daniel) Cai 與 Sarah Smith。
+- 本輪僅以這篇單一來源 ingest，未混入其他 myopathy guideline。
 
 ## Reliability Level
 
-- Tier 1 within this wiki because it is a textbook-style clinical chapter.
-- Strongest for myopathy clinical pattern recognition, diagnostic test categories, rehabilitation principles, and multisystem risk framing.
-- Drug approvals and disease-modifying therapy details should be treated as source-dated and checked against current prescribing / regulatory sources before clinical application.
+- 在本 wiki 對 textbook clinical chapter 的層級中屬 Tier 1。
+- 強項：myopathy 臨床型態辨識、診斷檢查分類、復健原則，以及多系統風險的整體框架。
+- 限制：藥物核准與 disease-modifying therapy 細節屬於 source-dated；用於臨床前需對照最新 prescribing / regulatory 來源。
 
 ## One-Sentence Summary
 
-Myopathic disorders are muscle-fiber diseases that require pattern-based diagnosis and longitudinal rehabilitation care, with special attention to respiratory, cardiac, bulbar, mobility, contracture, pain, equipment, nutrition, and neuropsychiatric risk.
+Myopathic disorder 是 muscle fiber 疾病，需以型態為先的診斷加上長期復健照護，並特別注意 respiratory、cardiac、bulbar、行動、contracture、疼痛、輔具、營養與神經精神風險。
 
 ## Core Concepts Extracted
 
@@ -39,149 +39,149 @@ Myopathic disorders are muscle-fiber diseases that require pattern-based diagnos
 
 #### One-Sentence Definition
 
-Myopathy diagnosis starts from motor-predominant weakness pattern without primary sensory loss, then uses history, exam, CK / labs, EDX, imaging, biopsy, exercise testing, and genetic testing to separate hereditary from acquired causes.
+Myopathy 的診斷以「motor 為主的 weakness、無 primary sensory loss」為起點，再以 history、exam、CK / labs、EDX、影像、biopsy、exercise testing 與 genetic testing 區分 hereditary 與 acquired 兩大類。
 
 #### Known Facts
 
-- Myopathies are diseases of muscle fibers with weakness, cramps, rhabdomyolysis, and exercise intolerance.
-- Major categories are hereditary myopathies and acquired myopathies.
-- Most myopathies present with symmetric proximal weakness, but FSHD and IBM have characteristic asymmetric / selective patterns.
-- Myopathies usually lack sensory symptoms.
-- Age of onset and rate of progression help distinguish hereditary from acquired myopathies.
-- Episodic weakness with normal strength between episodes suggests metabolic myopathy or periodic paralysis.
-- CK is useful but nonspecific; it may be elevated after strenuous exercise or in many hereditary / acquired muscle diseases.
-- Sensory NCS are usually normal in myopathy; conduction block, temporal dispersion, and marked slowing suggest neuropathy rather than myopathy.
-- Needle EMG in myopathy classically shows low-amplitude, short-duration, polyphasic motor units with early recruitment, but exceptions exist.
-- Genetic testing can confirm diagnosis, guide organ screening, prognosis, family counseling, and targeted therapy eligibility.
+- Myopathy 是 muscle fiber 疾病，可有 weakness、cramps、rhabdomyolysis 與 exercise intolerance。
+- 主要分為 hereditary myopathy 與 acquired myopathy。
+- 多數 myopathy 呈現對稱性 proximal weakness；FSHD 與 IBM 為典型的 asymmetric / selective pattern。
+- Myopathy 通常沒有 sensory symptoms。
+- 發病年齡與進展速度有助區分 hereditary 與 acquired。
+- 發作性 weakness、發作之間 strength normal 時，提示 metabolic myopathy 或 periodic paralysis。
+- CK 是有用但非特異的指標；高強度運動後或多種 hereditary / acquired 肌肉疾病都可升高。
+- Myopathy 中 sensory NCS 通常 normal；conduction block、temporal dispersion 或顯著 slowing 反而支持 neuropathy。
+- 經典的 myopathy needle EMG：低 amplitude、短 duration、polyphasic motor units、early recruitment；但有例外。
+- Genetic testing 可確認診斷、引導器官篩檢、prognosis、家族遺傳諮詢以及 targeted therapy 適用性。
 
 #### Mechanism Chain
 
 ```text
-Muscle fiber structural / metabolic / inflammatory dysfunction
-→ motor-predominant weakness, cramps, exercise intolerance, or rhabdomyolysis
-→ pattern recognition by onset, progression, distribution, family history, and extramuscular signs
-→ targeted labs, EDX, imaging, biopsy, exercise testing, genetic testing
-→ disease-specific management and rehabilitation plan
+Muscle fiber 結構 / 代謝 / 發炎異常
+→ motor 為主的 weakness、cramps、exercise intolerance 或 rhabdomyolysis
+→ 以 onset、進展、分布、家族史與 extramuscular sign 做型態辨識
+→ targeted labs、EDX、影像、biopsy、exercise testing、genetic testing
+→ disease-specific 的處置與復健計畫
 ```
 
 #### Inferences
 
-- A weakness workup that does not ask about sensory symptoms, onset age, exercise triggers, family history, respiratory symptoms, cardiac symptoms, dysphagia, and rhabdomyolysis is incomplete.
-- Normal sensory NCS supports myopathy in the right context but does not by itself identify the myopathy subtype.
+- Weakness workup 若未詢問 sensory symptom、發病年齡、運動誘因、家族史、呼吸症狀、心臟症狀、dysphagia 與 rhabdomyolysis，便不完整。
+- Sensory NCS normal 在合適臨床 context 下支持 myopathy，但本身無法指明 myopathy 子型。
 
 #### Assumptions
 
-- The examiner can distinguish true weakness from pain-limited effort, fatigue, spasticity, or joint contracture.
+- 操作者能把真正 weakness 與「pain-limited effort、疲勞、spasticity、joint contracture」區分開來。
 
 #### Uncertainties / Limitations
 
-- The chapter is broad; disease-specific diagnostic criteria require specialized neuromuscular and genetics sources.
+- 本章較廣；具體 disease-specific 診斷 criteria 仍需 specialized neuromuscular 與遺傳學來源。
 
 ### Concept: Myopathy 復健管理原則
 
 #### One-Sentence Definition
 
-Myopathy rehabilitation is a longitudinal interdisciplinary care model that maintains mobility, prevents contracture, matches equipment, manages pain and swallowing, and adapts exercise to disease-specific safety limits.
+Myopathy 的復健是長期跨專科的照護模式：維持行動、預防 contracture、配對輔具、處理疼痛與吞嚥，並依 disease-specific 安全範圍調整 exercise。
 
 #### Known Facts
 
-- Strength and mobility assessment should occur at each visit, ideally with physical therapy input.
-- Mobility needs range from cane to power wheelchair, depending on weakness distribution and severity.
-- Transfer boards, benches, and lifts can improve safe transfers.
-- Exercise literature is sparse across muscle diseases, but low-intensity exercise appears safe and beneficial for FSHD in cited AAN guidance.
-- Eccentric high-resistance exercise is not recommended in diseases such as DMD.
-- Exercise causing delayed-onset muscle soreness is generally not recommended by many neuromuscular physicians.
-- Passive ROM should be used when active movement is significantly reduced or no longer possible.
-- Contracture prevention includes ROM assessment, stretching, passive ROM, bracing, nocturnal foot splints, and resting hand splints.
-- Equipment can include seating systems, cushions, positioning aids, bathroom safety aids, speech-generating devices, adaptive keyboards, ramps, stairlifts, widened doorways, and grab bars.
-- Pain is common and may arise from cramps, altered biomechanics, posture strain, contractures, osteoporosis, or regional musculoskeletal pathology.
+- 每次門診都應評估 strength 與行動能力，理想上由物理治療師參與。
+- 行動需求可從拐杖到電動輪椅，依 weakness 分布與嚴重度決定。
+- 移位板、長椅與升降機可改善移位安全。
+- Exercise 文獻在多數 muscle disease 仍稀疏；對 FSHD，AAN 引用的 guidance 顯示低強度運動安全且有益。
+- 在 DMD 等疾病中，不建議高 resistance、eccentric 訓練。
+- 多數 neuromuscular 醫師不建議會造成 delayed-onset muscle soreness 的運動。
+- Active movement 顯著減少或無法時，應使用 passive ROM。
+- Contracture 預防：ROM 評估、伸展、passive ROM、bracing、夜間 foot splint 與 resting hand splint。
+- 輔具選擇：seating systems、cushions、姿勢輔具、浴室安全裝置、speech-generating devices、adaptive keyboards、坡道、樓梯升降機、加寬門框與抓桿。
+- 疼痛常見，可源自 cramps、生物力學改變、姿勢勞損、contracture、osteoporosis 或局部 musculoskeletal 病因。
 
 #### Mechanism Chain
 
 ```text
-Progressive or fluctuating muscle weakness
-→ altered biomechanics, falls, fatigue, contracture, pain, ADL difficulty
-→ repeated strength / mobility / ROM / ADL assessment
-→ individualized exercise, bracing, seating, assistive technology, home modification
-→ preserved function, safety, comfort, and participation
+進行性或波動性肌肉 weakness
+→ 生物力學改變、跌倒、疲勞、contracture、疼痛、ADL 困難
+→ 反覆評估 strength / 行動 / ROM / ADL
+→ 個別化 exercise、bracing、seating、輔具與居家改造
+→ 維持功能、安全、舒適與 participation
 ```
 
 #### Inferences
 
-- Exercise prescription in myopathy should be disease-specific and symptom-monitored, not a generic strengthening plan.
-- Equipment prescription is not a sign of failure; it is part of preserving independence and reducing caregiver burden.
+- Myopathy 的 exercise 處方應 disease-specific 並追蹤症狀，而非 generic 強化計畫。
+- 開立輔具不是失敗的象徵，而是維持 independence、降低照顧者負擔的一部分。
 
 #### Assumptions
 
-- Care team can adjust intensity and equipment as disease stage changes.
+- 照護團隊可隨疾病分期調整強度與輔具。
 
 #### Uncertainties / Limitations
 
-- Evidence for optimal exercise dose is sparse for many myopathies; guideline confidence varies by disease.
+- 多數 myopathy 的最適 exercise dose 證據不足；guideline 確信度因疾病而異。
 
 ### Concept: Myopathy 呼吸、心臟與吞嚥風險
 
 #### One-Sentence Definition
 
-Many myopathies are multisystem diseases; respiratory muscle weakness, cardiomyopathy / conduction disease, and oropharyngeal weakness can become major determinants of morbidity, mortality, and rehabilitation safety.
+許多 myopathy 是多系統疾病；呼吸肌 weakness、cardiomyopathy / 傳導疾病與 oropharyngeal weakness 可成為決定 morbidity、mortality 與復健安全的主因。
 
 #### Known Facts
 
-- Respiratory muscle weakness can cause restrictive lung disease, dyspnea on exertion, orthopnea, nocturnal hypoventilation, impaired cough, and frequent respiratory infections.
-- Late-onset Pompe disease may present with significant diaphragm weakness.
-- Cardiomyopathy and conduction abnormalities are common in myotonic muscular dystrophy, DMD, EDMD, and select LGMD.
-- Dysphagia can occur in IBM and OPMD and can also appear late in DMD.
-- In DMD, loss of ambulation is associated with decreasing FVC and onset of pulmonary dysfunction.
-- DMD pulmonary monitoring includes FVC, maximum inspiratory pressure, and maximum expiratory pressure in the source.
-- Nocturnal hypoventilation symptoms include poor sleep quality, fatigue, impaired concentration, nighttime arousals, morning headaches, and daytime naps.
-- Mechanical insufflation-exsufflation can help clear secretions when cough is weak.
-- NIV at night improves survival and nocturnal hypoventilation in DMD according to the chapter.
-- IBM aspiration pneumonia from dysphagia is described as a leading cause of mortality.
+- 呼吸肌 weakness 可造成 restrictive lung disease、運動性 dyspnea、orthopnea、夜間 hypoventilation、咳嗽無力與反覆呼吸道感染。
+- Late-onset Pompe disease 可呈現顯著橫膈肌 weakness。
+- Cardiomyopathy 與傳導異常常見於 myotonic muscular dystrophy、DMD、EDMD 與部分 LGMD。
+- Dysphagia 可見於 IBM 與 OPMD，亦可在 DMD 後期出現。
+- DMD 中，停止 ambulation 與 FVC 下降及肺功能異常出現相關。
+- DMD 的肺部監測本來源使用 FVC、maximum inspiratory pressure 與 maximum expiratory pressure。
+- 夜間 hypoventilation 的症狀包含睡眠品質差、疲勞、注意力受損、夜間覺醒、晨起頭痛與白天打盹。
+- Mechanical insufflation-exsufflation 可在咳嗽無力時協助分泌物清除。
+- 本章指出 NIV 於夜間使用可改善 DMD 的存活與夜間 hypoventilation。
+- 來源描述 IBM 因 dysphagia 引發的 aspiration pneumonia 是 leading cause of mortality。
 
 #### Mechanism Chain
 
 ```text
-Myopathic weakness beyond limb muscles
-→ diaphragm / cough / bulbar / cardiac muscle involvement
-→ hypoventilation, aspiration, cardiomyopathy, arrhythmia
-→ reduced therapy tolerance and increased mortality risk
-→ routine screening, early referral, NIV / cough assist / swallow planning / cardiology care
+Myopathy 的 weakness 越過肢體肌肉
+→ 牽涉 diaphragm / cough / bulbar / cardiac
+→ hypoventilation、誤吸、cardiomyopathy、arrhythmia
+→ 治療耐受度下降、死亡風險上升
+→ 例行篩檢、早期轉介、NIV / cough assist / 吞嚥計畫 / 心臟科照護
 ```
 
 #### Inferences
 
-- Limb strength alone is an unsafe proxy for disease severity when respiratory, cardiac, and swallowing systems may be involved.
-- Enteral feeding decisions should happen early enough to avoid procedural risk when respiratory function has already declined.
+- 在可能涉及呼吸、心臟、吞嚥的 myopathy 中，僅以肢體力量代理疾病嚴重度並不安全。
+- 鼻胃管 / 胃造口等 enteral feeding 決策應在呼吸功能尚可承受手術風險前及早討論。
 
 #### Assumptions
 
-- Disease subtype and stage are known enough to identify organ systems at risk.
+- 已確認 disease 子型與分期，足以辨識需要篩檢的器官系統。
 
 #### Uncertainties / Limitations
 
-- Specific surveillance intervals and thresholds differ by diagnosis and require disease-specific guideline confirmation.
+- 具體監測週期與閾值因診斷而異，需 disease-specific guideline 確認。
 
 ## Clinically Useful Points
 
-- Myopathy suspicion rises when weakness is proximal, symmetric, motor-predominant, and without sensory loss, but selective patterns such as FSHD and IBM are important exceptions.
-- CK is useful but nonspecific; liver enzyme elevation needs GGT or other context to avoid mistaking muscle injury for hepatic disease.
-- Steroid myopathy may have normal EMG because type II fibers are preferentially affected and EMG mostly assesses type I fibers.
-- Muscle biopsy site should avoid end-stage muscle and recently needled muscles; imaging can help select target muscle.
-- Nonischemic forearm exercise testing is preferred over ischemic testing because of rhabdomyolysis / compartment syndrome risk.
-- Respiratory symptoms, dysphagia, cardiac symptoms, cognitive / neuropsychiatric issues, nutrition, pain, contracture, and equipment needs should be followed longitudinally.
+- Weakness 為對稱、proximal、motor-predominant 且無 sensory loss 時提高 myopathy 的臨床懷疑；FSHD、IBM 等 selective pattern 為重要例外。
+- CK 升高有用但非特異；轉胺酶升高可能來自肌肉，需 GGT 或其他 context 才能避免誤判為 hepatic disease。
+- Steroid myopathy 中 EMG 可 normal，因主要影響 type II fibers，而 EMG 主要量 type I fibers。
+- 肌肉 biopsy 應避開 end-stage 與最近曾被針 needle 過的 muscle；影像可協助挑選 biopsy target。
+- 前臂運動測試以 nonischemic 為佳，因為 ischemic 測試有 rhabdomyolysis / compartment syndrome 風險。
+- 呼吸症狀、dysphagia、心臟症狀、認知 / 神經精神問題、營養、疼痛、contracture 與輔具需求應 longitudinal 追蹤。
 
 ## Research-Useful Points
 
-- Quantitative MRI is increasingly used as an outcome measure in trials.
-- Genetic testing has changed diagnosis, prognosis, organ screening, family counseling, and trial / treatment eligibility.
-- Myopathy exercise prescription remains an evidence gap across many diagnoses.
+- Quantitative MRI 越來越常作為臨床試驗的 outcome measure。
+- Genetic testing 改變了診斷、prognosis、器官篩檢、家族諮詢，以及試驗 / 治療資格。
+- 多數 myopathy 的 exercise 處方仍存在重要的證據缺口。
 
 ## Conflicts / Cautions
 
-- CK elevation does not equal a specific myopathy diagnosis.
-- Myopathy does not always mean symmetric proximal weakness; FSHD, IBM, distal myopathies, myotonic disorders, and metabolic myopathies can break the pattern.
-- DMD disease-modifying treatments in the chapter are source-dated; regulatory status and indications must be checked before use.
-- IBM does not improve with immunosuppressive therapies in this source, unlike many other inflammatory myopathies.
+- CK 升高不等於特定 myopathy 診斷。
+- Myopathy 不一定都是對稱性近端 weakness；FSHD、IBM、distal myopathy、myotonic disorder、metabolic myopathy 都會打破常見型態。
+- DMD 的 disease-modifying 治療屬 source-dated；用前需確認最新核准狀態與適應症。
+- 本來源指出 IBM 不像多數 inflammatory myopathy 對 immunosuppressive therapy 有反應。
 
 ## Pages Created / Updated From This Source
 

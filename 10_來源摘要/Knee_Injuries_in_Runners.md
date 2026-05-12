@@ -58,8 +58,8 @@ contradictions:
 
 ### 對現有 wiki 的意義
 
-- 直接支撐 [[../03_疾病與臨床主題/跑者膝部疼痛]]。
-- 也補強 [[../03_疾病與臨床主題/Patellofemoral_Pain]] 與 [[../03_疾病與臨床主題/Iliotibial_Band_Syndrome]] 的區域分流。
+- 直接支撐 [[../06_Gait_Biomechanics/跑者膝部疼痛]]。
+- 也補強 [[../06_Gait_Biomechanics/Patellofemoral_Pain]] 與 [[../06_Gait_Biomechanics/Iliotibial_Band_Syndrome]] 的區域分流。
 
 ## 評估方式
 
@@ -112,8 +112,8 @@ contradictions:
 
 ## 相關頁面
 
-- [[../03_疾病與臨床主題/跑者膝部疼痛]]
-- [[../03_疾病與臨床主題/Patellofemoral_Pain]]
-- [[../03_疾病與臨床主題/Iliotibial_Band_Syndrome]]
+- [[../06_Gait_Biomechanics/跑者膝部疼痛]]
+- [[../06_Gait_Biomechanics/Patellofemoral_Pain]]
+- [[../06_Gait_Biomechanics/Iliotibial_Band_Syndrome]]
 - [[../06_Gait_Biomechanics/跑步步態評估]]
 - [[../06_Gait_Biomechanics/跑步步頻調整]]

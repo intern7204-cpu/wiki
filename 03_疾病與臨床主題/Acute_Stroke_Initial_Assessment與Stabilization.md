@@ -1,12 +1,16 @@
 ---
 title: Acute Stroke Initial Assessment 與 Stabilization
 created: 2026-05-04
-updated: 2026-05-04
+updated: 2026-05-13
 type: clinical
 domain: [neurology, stroke, emergency_medicine, rehabilitation]
-tags: [stroke, acute_ischemic_stroke, initial_assessment, last_known_well, ABC, noncontrast_CT, NIHSS, telestroke, dysphagia_screening, stroke_unit]
+tags: [stroke, acute_ischemic_stroke, posterior_circulation_stroke, initial_assessment, last_known_well, ABC, noncontrast_CT, NIHSS, telestroke, cerebral_autoregulation, penumbra, dysphagia_screening, HINTS, stroke_unit, atrial_fibrillation, anticoagulant_exposure]
 sources:
   - 10_來源摘要/UpToDate_initial_assessment_management_acute_stroke.md
+  - 10_來源摘要/UpToDate_overview_evaluation_of_stroke.md
+  - 10_來源摘要/UpToDate_posterior_circulation_cerebrovascular_syndromes.md
+  - 10_來源摘要/UpToDate_stroke_in_patients_with_atrial_fibrillation.md
+  - 10_來源摘要/UpToDate_pathophysiology_of_ischemic_stroke.md
 source_tier: 6
 evidence_level: clinical_topic_review
 confidence: moderate_to_high
@@ -14,6 +18,9 @@ contested: true
 contradictions:
   - 初始處置必須快速，但不是省略安全；ABC、glucose、SpO2、NCCT 是避免錯誤治療的最低必要框架。
   - Acute ischemic stroke 的 BP 與 mobilization 邏輯不同於 hemorrhagic stroke，也不同於 chronic secondary prevention。
+  - Posterior circulation stroke 可能 NIHSS 低估且 early posterior fossa imaging false negative。
+  - AF 本身不是 reperfusion contraindication；recent anticoagulant exposure and coagulation status 才是急性 IVT eligibility 的關鍵限制。
+  - Acute ischemic stroke may impair cerebral autoregulation; rapid BP normalization can worsen perfusion in pressure-dependent tissue.
 ---
 
 # Acute Stroke Initial Assessment 與 Stabilization
@@ -30,7 +37,7 @@ Acute stroke initial assessment 與 stabilization 是 suspected acute stroke 在
 
 - IVT / EVT 的完整 eligibility、dose、術式與 post-treatment protocol。
 - ICH / SAH 的完整 acute treatment。
-- subacute etiologic workup、secondary prevention 與長期 rehabilitation prescription。
+- subacute etiologic workup、secondary prevention 與長期 rehabilitation prescription；病因確認與 directed diagnostic testing 見 [[Stroke_Evaluation_病因確認與Directed_Diagnostic_Testing]]。
 
 這些內容應連到 [[中風急性期處置與時間窗]]、[[中風次發預防]]、[[中風併發症總覽]]。
 
@@ -87,9 +94,20 @@ Acute focal neurologic deficit
 ### BP logic
 
 - 急性 ischemic stroke 中，penumbra perfusion 可能依賴 systemic BP；因此不能看到高 BP 就 reflex lowering。
+- [[Ischemic_Stroke_Cerebral_Autoregulation與灌流閾值]] 補上 physiology：autoregulation 通常在 MAP 約 60-150 mmHg 內維持相對穩定 CBF，但 ischemic stroke 可 impaired autoregulation；chronic hypertension 可把 autoregulation range 推向較高 arterial pressure。
+- Flow 降到低閾值時會依序出現 protein synthesis inhibition、anaerobic glycolysis / acidosis、neuronal electrical failure and membrane ion homeostasis failure；這些是理解 permissive hypertension 的生理背景，不是 bedside BP cutoffs。
 - IVT 前 BP 需 ≤185/110 mmHg；IVT 後至少 24 小時維持 ≤180/105 mmHg。
 - 未接受 IVT / EVT 的 ischemic stroke，通常不急性降壓，除非 BP >220/120 mmHg 或有 acute coronary event、acute heart failure、aortic dissection、hypertensive encephalopathy、preeclampsia/eclampsia 等 comorbid indication。
 - 若需降壓，來源建議 first 24 hours 約降 15%，避免過度下降。
+
+### AF and anticoagulant exposure
+
+- [[AF_Stroke_Anticoagulation_時機與長期策略]] 補上 AF-specific acute boundary：AF 本身不排除 reperfusion therapy，但 current VKA effect、recent DOAC exposure、renal function and relevant coagulation tests 會限制 IV thrombolysis。
+- Current VKA use with INR >1.7 or PT >15 seconds is a contraindication-relevant anticoagulant effect in the source.
+- Recent DOAC use generally excludes IV thrombolysis unless no DOAC dose for more than 48 hours with normal kidney function or relevant coagulation assays are normal.
+- Mechanical thrombectomy should still be assessed for selected LVO patients within the appropriate window.
+- Acute anticoagulation is usually temporarily withheld after ischemic stroke due to hemorrhagic transformation risk; early heparin after cardioembolic stroke should generally be avoided.
+- Acute antiplatelet therapy may be used while anticoagulation is withheld when appropriate, but it is not equivalent to long-term AF anticoagulation.
 
 ### Swallow, position, mobilization
 
@@ -106,6 +124,8 @@ Acute focal neurologic deficit
 - Headache / vomiting 提高 ICH / SAH 懷疑，但臨床判斷 hemorrhage 不精準，仍需 early CT / MRI。
 - Stroke mimics 包含 hypoglycemia、hyperglycemia、seizure、syncope、migraine、peripheral vestibular dysfunction、drug toxicity、functional neurological symptom disorder。
 - NIHSS 可追蹤 severity，但 posterior circulation deficits 可能被低估。
+- Posterior circulation ischemia 可表現為 altered alertness / behavior / memory、visual loss、eye movement or pupillary abnormalities、bulbar weakness、somatosensory loss、dizziness / vertigo and limb / gait ataxia。
+- Continuous acute vertigo/dizziness 若有 central HINTS signs、severe gait/truncal ataxia 或 new hearing loss，需提高 brainstem / cerebellar ischemia 警覺；early CT / DWI MRI negative 不足以單獨排除。
 
 ## Clinical / Research Implication
 
@@ -120,6 +140,11 @@ Acute focal neurologic deficit
 - 本來源明確指出 additional tests 不應在 otherwise indicated 的情境延誤 therapy。
 - 本來源支持 suspected acute stroke admission to specialized stroke unit when available。
 - 本來源支持 awake and alert acute stroke patients oral medication / food 前進行 bedside water swallow test。
+- Posterior circulation source states that CT has lower sensitivity than DWI MRI for acute ischemic stroke, especially in posterior fossa stroke, and DWI MRI can still miss small acute posterior circulation infarcts.
+- Posterior circulation source states HINTS is useful for continuous acute vertigo/dizziness but not momentary positional vertigo or resolved TIA symptoms.
+- AF stroke source states that all patients with acute ischemic stroke should be evaluated for possible reperfusion therapy.
+- AF stroke source lists current VKA effect, recent DOAC use under specified conditions, and intracranial hemorrhage as IV thrombolysis-relevant contraindication boundaries.
+- AF stroke source states anticoagulation is usually withheld immediately after ischemic stroke and restarted within days to two weeks based mainly on infarct size and bleeding risk.
 
 ## Inference
 
@@ -145,12 +170,27 @@ Acute focal neurologic deficit
 - 不要把 ischemic stroke 的 permissive hypertension 套到 ICH / SAH。
 - 不要把 stable after 24 hours mobilization 誤讀成 within 24 hours 越早越好。
 - 不要 routine 給 nonhypoxic acute ischemic stroke oxygen。
+- 不要把 AF-related stroke 誤讀成 acute heparin indication。
+- 不要把 NIHSS 低分或 early posterior fossa imaging negative 當成 posterior circulation stroke 排除證據。
+- 不要把 acute continuous vertigo/dizziness 在未做合適 bedside eye movement / gait assessment 前直接標為 peripheral vestibular dysfunction。
 
 ## Links
 
 - [[中風急性期處置與時間窗]]
+- [[Stroke_Evaluation_病因確認與Directed_Diagnostic_Testing]]
+- [[Posterior_Circulation_Stroke_臨床定位與診斷陷阱]]
+- [[HINTS_急性前庭症候群中樞與周邊鑑別]]
 - [[中風併發症總覽]]
 - [[中風復健總論]]
 - [[中風次發預防]]
+- [[Ischemic_Stroke_Cerebral_Autoregulation與灌流閾值]]
+- [[Ischemic_Core與Penumbra]]
+- [[Ischemic_Stroke_Cerebral_Edema與Hemorrhagic_Conversion]]
+- [[AF_Stroke_Anticoagulation_時機與長期策略]]
+- [[AF_Related_Stroke_病因歸屬與診斷評估]]
 - [[吞嚥障礙復健總論]]
 - [[10_來源摘要/UpToDate_initial_assessment_management_acute_stroke]]
+- [[10_來源摘要/UpToDate_overview_evaluation_of_stroke]]
+- [[10_來源摘要/UpToDate_posterior_circulation_cerebrovascular_syndromes]]
+- [[10_來源摘要/UpToDate_stroke_in_patients_with_atrial_fibrillation]]
+- [[10_來源摘要/UpToDate_pathophysiology_of_ischemic_stroke]]

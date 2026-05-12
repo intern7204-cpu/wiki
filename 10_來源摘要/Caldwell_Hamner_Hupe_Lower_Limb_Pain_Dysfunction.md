@@ -123,15 +123,15 @@ Lower limb pain complaint
 
 ## Conflicts With Existing Knowledge
 
-- Reinforces [[03_疾病與臨床主題/跑者下肢傷害評估總論]] by broadening the evaluation frame beyond runners and emphasizing high-risk structures.
-- Refines [[03_疾病與臨床主題/足部疼痛分區評估]] with a textbook high-risk stress fracture list.
-- Supports condition-specific pages such as [[03_疾病與臨床主題/跑者髖骨盆與大腿疼痛]], [[03_疾病與臨床主題/跑者膝部疼痛]], [[03_疾病與臨床主題/跑者運動性下腿痛]], [[03_疾病與臨床主題/Achilles_tendinopathy]], [[03_疾病與臨床主題/Ankle_sprain_總論]], and [[03_疾病與臨床主題/Plantar_fasciitis]] without replacing their narrower sources.
+- Reinforces [[06_Gait_Biomechanics/跑者下肢傷害評估總論]] by broadening the evaluation frame beyond runners and emphasizing high-risk structures.
+- Refines [[06_Gait_Biomechanics/足部疼痛分區評估]] with a textbook high-risk stress fracture list.
+- Supports condition-specific pages such as [[06_Gait_Biomechanics/跑者髖骨盆與大腿疼痛]], [[06_Gait_Biomechanics/跑者膝部疼痛]], [[06_Gait_Biomechanics/跑者運動性下腿痛]], [[06_Gait_Biomechanics/Achilles_tendinopathy]], [[06_Gait_Biomechanics/Ankle_sprain_總論]], and [[06_Gait_Biomechanics/Plantar_fasciitis]] without replacing their narrower sources.
 
 ## Pages That Should Be Created or Updated
 
-- Created: [[03_疾病與臨床主題/Lower_Limb_Pain_分區定位與高風險分流]]
-- Updated: [[03_疾病與臨床主題/跑者下肢傷害評估總論]]
-- Updated: [[03_疾病與臨床主題/足部疼痛分區評估]]
+- Created: [[06_Gait_Biomechanics/Lower_Limb_Pain_分區定位與高風險分流]]
+- Updated: [[06_Gait_Biomechanics/跑者下肢傷害評估總論]]
+- Updated: [[06_Gait_Biomechanics/足部疼痛分區評估]]
 
 ## Suggested Tags
 

@@ -67,9 +67,9 @@ contradictions:
 
 ### 對現有 wiki 的意義
 
-- 直接建立 [[../03_疾病與臨床主題/Hamstring_肌肉與肌腱傷害]] 的 Tier 1 骨架。
-- 也補強 [[../03_疾病與臨床主題/跑者髖骨盆與大腿疼痛]] 的 posterior thigh differential。
-- 與 [[../03_疾病與臨床主題/Iliotibial_Band_Syndrome]] 形成 lateral knee vs posterior thigh pain 的互補 differential。
+- 直接建立 [[../06_Gait_Biomechanics/Hamstring_肌肉與肌腱傷害]] 的 Tier 1 骨架。
+- 也補強 [[../06_Gait_Biomechanics/跑者髖骨盆與大腿疼痛]] 的 posterior thigh differential。
+- 與 [[../06_Gait_Biomechanics/Iliotibial_Band_Syndrome]] 形成 lateral knee vs posterior thigh pain 的互補 differential。
 
 ## 評估方式
 
@@ -132,7 +132,7 @@ contradictions:
 
 ### 相關 wiki 頁面
 
-- [[../03_疾病與臨床主題/Hamstring_肌肉與肌腱傷害]]
-- [[../03_疾病與臨床主題/跑者髖骨盆與大腿疼痛]]
-- [[../03_疾病與臨床主題/Iliotibial_Band_Syndrome]]
+- [[../06_Gait_Biomechanics/Hamstring_肌肉與肌腱傷害]]
+- [[../06_Gait_Biomechanics/跑者髖骨盆與大腿疼痛]]
+- [[../06_Gait_Biomechanics/Iliotibial_Band_Syndrome]]
 - [[../06_Gait_Biomechanics/步態評估總論]]

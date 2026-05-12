@@ -1,0 +1,2588 @@
+{
+  "schema_version": 1,
+  "generated_on": "2026-05-13",
+  "wiki_root": "C:\\知識百科",
+  "raw_root": "C:\\原始資料",
+  "entries": {
+    "00001648-199411000-00009/00001648-199411000-00009.md": {
+      "source_summaries": [
+        "10_來源摘要/Witte_Greenland_1994_hierarchical_regression.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "7bf17aec2076d2f2ac03c295406cdea7fc52a89a6d032db3eca7870d49a2d84b",
+      "size_bytes": 53569,
+      "mtime_ns": 1775924328878355300,
+      "status": "ok"
+    },
+    "10567_2022_Article_423/10567_2022_Article_423.md": {
+      "source_summaries": [
+        "10_來源摘要/Prime_2023_positive_parenting_early_childhood_cognition.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "79e8c9236aa7765b089a380b171f66f26f2b408bf7299cc03d026afe33450954",
+      "size_bytes": 232976,
+      "mtime_ns": 1777610964863000000,
+      "status": "ok"
+    },
+    "12 - Upper limb orthoses and robotics/12 - Upper limb orthoses and robotics.md": {
+      "source_summaries": [
+        "10_來源摘要/Upper_limb_orthoses_and_robotics.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "85fb193449433fa3b2f5add90ffb4888b02e705944cfc351b81352c3b59c042d",
+      "size_bytes": 110207,
+      "mtime_ns": 1776951132531000000,
+      "status": "ok"
+    },
+    "13 - Lower limb orthoses/13 - Lower limb orthoses.md": {
+      "source_summaries": [
+        "10_來源摘要/Lower_limb_orthoses.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "0fda76c0c723011c304b3727d2f919a92f5dd9b96c1feb6eeae5b631df94fbaf",
+      "size_bytes": 106618,
+      "mtime_ns": 1776951175009000000,
+      "status": "ok"
+    },
+    "14 - Spinal orthoses/14 - Spinal orthoses.md": {
+      "source_summaries": [
+        "10_來源摘要/Spinal_orthoses.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "421aa97b3b767565eee9cb7bd1ce0fd73d9554168cee8a47caf30a8f5075819f",
+      "size_bytes": 71507,
+      "mtime_ns": 1776951210354000000,
+      "status": "ok"
+    },
+    "15 - Wheelchairs and seating systems/15 - Wheelchairs and seating systems.md": {
+      "source_summaries": [
+        "10_來源摘要/Wheelchairs_and_seating_systems.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "6aa369e6ccf906590e384f91fc5d0fa53ee0474f308a23c8f6a485c5c6b50e2e",
+      "size_bytes": 156562,
+      "mtime_ns": 1776951256761000000,
+      "status": "ok"
+    },
+    "16 - Therapeutic exercise/16 - Therapeutic exercise.md": {
+      "source_summaries": [
+        "10_來源摘要/Therapeutic_exercise.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "edf5eb6b163851762eae5659fde8dd589201871942a0fe96933eb9a9e41d624b",
+      "size_bytes": 186873,
+      "mtime_ns": 1776951392149000000,
+      "status": "ok"
+    },
+    "16 high altitude/16 high altitude.md": {
+      "source_summaries": [
+        "10_來源摘要/High_Altitude_and_Flying.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "1610e05684f8abfc192063d8ade90f2fbd75c7c5f981107c2973f49447cc0e21",
+      "size_bytes": 66136,
+      "mtime_ns": 1775702799334658300,
+      "status": "ok"
+    },
+    "17 - Manipulation, traction, and massage/17 - Manipulation, traction, and massage.md": {
+      "source_summaries": [
+        "10_來源摘要/Manipulation_traction_and_massage.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "6f5dbf4497571dbc3a463255e2b1c68856c9c4ae2c4a03adabd3dc3a9d54ba53",
+      "size_bytes": 216224,
+      "mtime_ns": 1776951441137000000,
+      "status": "ok"
+    },
+    "18 - Physical agent modalities/18 - Physical agent modalities.md": {
+      "source_summaries": [
+        "10_來源摘要/Physical_agent_modalities.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "404af46929354a621e00cf42ca76fcf67f18cde79eff9b56f8dee84782452daa",
+      "size_bytes": 171918,
+      "mtime_ns": 1776951487422000000,
+      "status": "ok"
+    },
+    "19 - Integrative medicine in rehabilitation/19 - Integrative medicine in rehabilitation.md": {
+      "source_summaries": [
+        "10_來源摘要/Integrative_medicine_in_rehabilitation.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "203356bde2ec92800da5b5223fcdb0a7d6a4ec873dc285265781182a54ef0aae",
+      "size_bytes": 104807,
+      "mtime_ns": 1776951524079000000,
+      "status": "ok"
+    },
+    "20 - Assistive technology and environmental control devices/20 - Assistive technology and environmental control devices.md": {
+      "source_summaries": [
+        "10_來源摘要/Assistive_technology_and_environmental_control_devices.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "a5b45e04c45b15539635b1ab0b202d621c3764f7abe8e3328f6764b255d4ca60",
+      "size_bytes": 96741,
+      "mtime_ns": 1776951560910000000,
+      "status": "ok"
+    },
+    "23 - Sexual dysfunction and disability/23 - Sexual dysfunction and disability.md": {
+      "source_summaries": [
+        "10_來源摘要/Sexual_dysfunction_and_disability.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "24c3f3db7fddfd9f67756552f25846ee36c2a8210b53d2a7dfb6e4861bc2d883",
+      "size_bytes": 157230,
+      "mtime_ns": 1776951604742000000,
+      "status": "ok"
+    },
+    "247.full/247.full.md": {
+      "source_summaries": [
+        "10_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "e99f0988eaa9d76f68e440ce50aaa7da95d3809530b8e1b6f8278bd50d958e49",
+      "size_bytes": 96689,
+      "mtime_ns": 1777611009492000000,
+      "status": "ok"
+    },
+    "25 - Prevention and management of pressure injuries and chronic ulcers/25 - Prevention and management of pressure injuries and chronic ulcers.md": {
+      "source_summaries": [
+        "10_來源摘要/Prevention_and_management_of_pressure_injuries_and_chronic_ulcers.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "b2655e862f937327bd62904793daf07ba35586d1a38db490d8140300038a0c86",
+      "size_bytes": 140208,
+      "mtime_ns": 1776951654411000000,
+      "status": "ok"
+    },
+    "26 - Vascular diseases/26 - Vascular diseases.md": {
+      "source_summaries": [
+        "10_來源摘要/Vascular_diseases.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "1793b77e1db468b8ece2167726fbc220aff899f8e7bfc70fa8b8e7b8904f1c68",
+      "size_bytes": 84223,
+      "mtime_ns": 1776951690401000000,
+      "status": "ok"
+    },
+    "27 burn/27 burn.md": {
+      "source_summaries": [
+        "10_來源摘要/Burns.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "feb6f1625af1cda28a7dee573c3150359fe7e854e8a0f6f2c780854b6fcc4191",
+      "size_bytes": 117311,
+      "mtime_ns": 1777529346543000000,
+      "status": "ok"
+    },
+    "28 Acute medical conditions Cardiopulmonary disease, medical frailty, and renal failure/28 Acute medical conditions Cardiopulmonary disease, medical frailty, and renal failure.md": {
+      "source_summaries": [
+        "10_來源摘要/Acute_Medical_Conditions_Cardiopulmonary_Disease_Medical_Frailty_and_Renal_Failure.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "b7a35a2f221e6e08f4724e6805cd64e142bcf04ffcea79f0d5566ca32bac2237",
+      "size_bytes": 214247,
+      "mtime_ns": 1777527303393000000,
+      "status": "ok"
+    },
+    "Accuracy of W’ Recovery Kinetics in High Performance Cyclists – Modelling Intermittent Work Capacity/Accuracy of W’ Recovery Kinetics in High Performance Cyclists – Modelling Intermittent Work Capacity.md": {
+      "source_summaries": [
+        "10_來源摘要/Bartram_2018_Wprime_recovery_elite_cyclists.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "27b99d3ec862c15b1eb91e48aa9ceaf4ada34e1074ebbf4c1acc86c12307fac2",
+      "size_bytes": 29986,
+      "mtime_ns": 1775924328181862900,
+      "status": "ok"
+    },
+    "Achilles tendinopathy - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Achilles_tendinopathy.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "a48b5f31c021a4bfc188aba47e348c5bfb66bb850d768fee7006b30af30c88c6",
+      "size_bytes": 125466,
+      "mtime_ns": 1775759817675414600,
+      "status": "ok"
+    },
+    "Aging, Dementia, and Disorders of Cognition/Aging, Dementia, and Disorders of Cognition.md": {
+      "source_summaries": [
+        "10_來源摘要/Aging_Dementia_and_Disorders_of_Cognition.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "49b27c87bb369c98e9f295efab18cd38a80747aa7a94858485fc94e77a647129",
+      "size_bytes": 231941,
+      "mtime_ns": 1777529385919000000,
+      "status": "ok"
+    },
+    "Anatomy and Neurophysiology for Electrodiagnostic Studies/Anatomy and Neurophysiology for Electrodiagnostic Studies.md": {
+      "source_summaries": [
+        "10_來源摘要/Anatomy_and_Neurophysiology_for_Electrodiagnostic_Studies.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "2125dfa37eacb050369865b66b5a965ef4b2276332486e968b0ae67defd5d9ab",
+      "size_bytes": 41427,
+      "mtime_ns": 1778261311115000000,
+      "status": "ok"
+    },
+    "Aneurysmal subarachnoid hemorrhage_ Clinical manifestations and diagnosis.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_aneurysmal_SAH_clinical_manifestations_diagnosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "866bb6a1da3943b38f7992345a9ff96e0d7ad0f1dfd184f01c923b3d622d6c06",
+      "size_bytes": 129217,
+      "mtime_ns": 1777895610521179900,
+      "status": "ok"
+    },
+    "Aneurysmal subarachnoid hemorrhage_ Treatment and prognosis.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_aneurysmal_SAH_treatment_prognosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "1b28bc02a67418485816ec89926b3847e7c30859c35dcc3ba78818593a4bec78",
+      "size_bytes": 233116,
+      "mtime_ns": 1777895258913476500,
+      "status": "ok"
+    },
+    "Ankle and Foot Injuries in Runners/Ankle and Foot Injuries in Runners.md": {
+      "source_summaries": [
+        "10_來源摘要/Ankle_and_Foot_Injuries_in_Runners.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "0c9b3753a9cfb6a8c9293c08ea907fed0c7c7cf66bd731fead3e1eadfafcf598",
+      "size_bytes": 58275,
+      "mtime_ns": 1776479830389000000,
+      "status": "ok"
+    },
+    "Ankle sprain in adults_ Evaluation and diagnosis - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Ankle_sprain_in_adults_Evaluation_and_diagnosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "93f6700708eb04cd743bc7af8b4951a5661c581e0fe1e2f5d09839216161476f",
+      "size_bytes": 79531,
+      "mtime_ns": 1775759710614689100,
+      "status": "ok"
+    },
+    "Ankle sprain in adults_ Management - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Ankle_sprain_in_adults_Management.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "32166f86b5425c2070dfa0700b5c1ec1a491da3ff60aaaf30ca39ae4f6c6a69c",
+      "size_bytes": 113387,
+      "mtime_ns": 1775759737205354300,
+      "status": "ok"
+    },
+    "Anomalous Innervations/Anomalous Innervations.md": {
+      "source_summaries": [
+        "10_來源摘要/Anomalous_Innervations.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "1438b00e90dd02279f90faa501deb5805888720b680840a84e08b88c50589ba7",
+      "size_bytes": 40114,
+      "mtime_ns": 1778261345570000000,
+      "status": "ok"
+    },
+    "Approach to Nerve Conduction Studies, Electromyography, and Neuromuscular Ultrasound/Approach to Nerve Conduction Studies, Electromyography, and Neuromuscular Ultrasound.md": {
+      "source_summaries": [
+        "10_來源摘要/Approach_NCS_EMG_Neuromuscular_Ultrasound.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "e4abb362b7d807cf41f8fbafb5e6929e3ed725b6df37ae5925ce0ca36a64340d",
+      "size_bytes": 48265,
+      "mtime_ns": 1778261375946000000,
+      "status": "ok"
+    },
+    "Artifacts and Technical Factors/Artifacts and Technical Factors.md": {
+      "source_summaries": [
+        "10_來源摘要/Artifacts_and_Technical_Factors.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "5598373dd70d51e64933c8db63f595d6bc10d562d3fa9fe059694404b73d5f25",
+      "size_bytes": 82965,
+      "mtime_ns": 1778261443177000000,
+      "status": "ok"
+    },
+    "Attention deficit hyperactivity disorder in children and adolescents_ Clinical features and diagnosis (1).md": {
+      "source_summaries": [
+        "10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Clinical_features_and_diagnosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "76845d5442d2bb2777945f64144cbf2adac2ad694282a465abb394e068f17d57",
+      "size_bytes": 142674,
+      "mtime_ns": 1776560816788866300,
+      "status": "ok"
+    },
+    "Attention deficit hyperactivity disorder in children and adolescents_ Epidemiology and pathogenesis.md": {
+      "source_summaries": [
+        "10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Epidemiology_and_pathogenesis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "f6713888d903d7e99448e31268f5bd966e14d67f855b2fb92308642416aef24b",
+      "size_bytes": 100741,
+      "mtime_ns": 1776560789909225600,
+      "status": "ok"
+    },
+    "Attention deficit hyperactivity disorder in children and adolescents_ Overview of treatment and prognosis (1).md": {
+      "source_summaries": [
+        "10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Overview_of_treatment_and_prognosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "3c93e463ff8ba467d2a3a71b6eaeb19534711a8fe7a9695fe50dc327c1473783",
+      "size_bytes": 289913,
+      "mtime_ns": 1776560770620461000,
+      "status": "ok"
+    },
+    "Attention deficit hyperactivity disorder in children and adolescents_ Treatment with nonstimulant medications.md": {
+      "source_summaries": [
+        "10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Treatment_with_nonstimulant_medications.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "5e5a8f37a54ead52a528efb93d115c7878ad03cee3b701e9937262bc2dff356f",
+      "size_bytes": 203282,
+      "mtime_ns": 1776560865454108600,
+      "status": "ok"
+    },
+    "Attention deficit hyperactivity disorder in children and adolescents_ Treatment with stimulant medications.md": {
+      "source_summaries": [
+        "10_來源摘要/Attention_deficit_hyperactivity_disorder_in_children_and_adolescents_Treatment_with_stimulant_medications.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "925a606079e64c1bbbede9c018360825eb4a8bc80a58655ef4ba98824d4da691",
+      "size_bytes": 256857,
+      "mtime_ns": 1776560843509874300,
+      "status": "ok"
+    },
+    "Attention-Deficit Hyperactivity Disorder (ADHD)/Attention-Deficit Hyperactivity Disorder (ADHD).md": {
+      "source_summaries": [
+        "10_來源摘要/Attention_Deficit_Hyperactivity_Disorder_ADHD.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "587cd13ccaa6b156dda4ee02f53012c652917e65b9aa97894f335ce2dc208cf4",
+      "size_bytes": 86232,
+      "mtime_ns": 1775891068673837000,
+      "status": "ok"
+    },
+    "Attention-Deficit Hyperactivity Disorder/Attention-Deficit Hyperactivity Disorder.md": {
+      "source_summaries": [
+        "10_來源摘要/Attention_Deficit_Hyperactivity_Disorder.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "749badf113a3701d02aac358b06442a15dfdfa54c75374294e2968b486c22beb",
+      "size_bytes": 50672,
+      "mtime_ns": 1776113508000000000,
+      "status": "ok"
+    },
+    "Auditory, vestibular, and visual impairments/Auditory, vestibular, and visual impairments.md": {
+      "source_summaries": [
+        "10_來源摘要/Auditory_vestibular_and_visual_impairments.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "d8393d960d67dd2b70ebc8b317822351c3a5f1b1708636dd646ba5b109e31a50",
+      "size_bytes": 148526,
+      "mtime_ns": 1776864901885000000,
+      "status": "ok"
+    },
+    "Autism Spectrum Disorder/Autism Spectrum Disorder (ASD).md": {
+      "source_summaries": [
+        "10_來源摘要/Autism_Spectrum_Disorder_ASD.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "52a3605106d04ad2a80a3046f757583871ae7d25de39aaa4b6f1dc1171d747b2",
+      "size_bytes": 107815,
+      "mtime_ns": 1776113604000000000,
+      "status": "ok"
+    },
+    "Autism Spectrum Disorder/Autism Spectrum Disorder.md": {
+      "source_summaries": [
+        "10_來源摘要/Autism_Spectrum_Disorder.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "4523eee478e6e1aa6e6665eb96cad45069afbb81641ae7e7ba4a9cea61044e45",
+      "size_bytes": 89805,
+      "mtime_ns": 1775891068798232200,
+      "status": "ok"
+    },
+    "Autism spectrum disorder (ASD) in children and adolescents_ Terminology, epidemiology, and pathogenesis.md": {
+      "source_summaries": [
+        "10_來源摘要/Autism_spectrum_disorder_ASD_in_children_and_adolescents_Terminology_epidemiology_and_pathogenesis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "f2e5e0ca507425855ef7c8aaecf573e64c7c9ba297961fec3fc1cbb066645873",
+      "size_bytes": 124561,
+      "mtime_ns": 1776562125707079200,
+      "status": "ok"
+    },
+    "Autism spectrum disorder in children and adolescents_ Behavioral and educational interventions.md": {
+      "source_summaries": [
+        "10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Behavioral_and_educational_interventions.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "d884b0f56cb6f79513478e860db8ed2bde43a996169a016d4e59c45872888a41",
+      "size_bytes": 134202,
+      "mtime_ns": 1776562146687389400,
+      "status": "ok"
+    },
+    "Autism spectrum disorder in children and adolescents_ Clinical features.md": {
+      "source_summaries": [
+        "10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Clinical_features.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "81e1b968627157c562219625728804647f3041154d97a4672c7e61756a3d2c1a",
+      "size_bytes": 108390,
+      "mtime_ns": 1776562029676695300,
+      "status": "ok"
+    },
+    "Autism spectrum disorder in children and adolescents_ Complementary and integrative medicine therapies.md": {
+      "source_summaries": [
+        "10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Complementary_and_integrative_medicine_therapies.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "ba714059dc605386aed52d1e1edf08e26860b8f9e02068a6b54debabe41ee686",
+      "size_bytes": 160916,
+      "mtime_ns": 1776562194072090500,
+      "status": "ok"
+    },
+    "Autism spectrum disorder in children and adolescents_ Evaluation and diagnosis.md": {
+      "source_summaries": [
+        "10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Evaluation_and_diagnosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "d02ce32dde775d0ce3e52bf6dcdc8c23def581105c261fedacecacda9740d0de",
+      "size_bytes": 166391,
+      "mtime_ns": 1776562054682857100,
+      "status": "ok"
+    },
+    "Autism spectrum disorder in children and adolescents_ Overview of management and prognosis.md": {
+      "source_summaries": [
+        "10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Overview_of_management_and_prognosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "5c3939880603206e274094ed2852c1ee9464c51e975216cc512873f9fa3668f5",
+      "size_bytes": 71819,
+      "mtime_ns": 1776561994525872600,
+      "status": "ok"
+    },
+    "Autism spectrum disorder in children and adolescents_ Pharmacologic interventions.md": {
+      "source_summaries": [
+        "10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Pharmacologic_interventions.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "9c859739a85fc976e37b1efcb38193cfae939ede55306c37034785368d92689a",
+      "size_bytes": 116329,
+      "mtime_ns": 1776562074906340200,
+      "status": "ok"
+    },
+    "Autism spectrum disorder in children and adolescents_ Screening tools.md": {
+      "source_summaries": [
+        "10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Screening_tools.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "7b6013e31a5ccba8497c41be2b1296a2a299c51ee8986d9dc9ef6f72e218f014",
+      "size_bytes": 93555,
+      "mtime_ns": 1776562101297603800,
+      "status": "ok"
+    },
+    "Autism spectrum disorder in children and adolescents_ Surveillance and screening in primary care.md": {
+      "source_summaries": [
+        "10_來源摘要/Autism_spectrum_disorder_in_children_and_adolescents_Surveillance_and_screening_in_primary_care.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "488402994748bb4d27ba0c8d251656f1dfe77016631f3b5dcfc6a4e40a349781",
+      "size_bytes": 113276,
+      "mtime_ns": 1776562172362484000,
+      "status": "ok"
+    },
+    "Basic Nerve Conduction Studies/Basic Nerve Conduction Studies.md": {
+      "source_summaries": [
+        "10_來源摘要/Basic_Nerve_Conduction_Studies.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "09c1485623abf8f8e4ba0c50d00ec4957368089e0887ee43c939216e3af41135",
+      "size_bytes": 80769,
+      "mtime_ns": 1778261480182000000,
+      "status": "ok"
+    },
+    "Basic Statistics for Electrodiagnostic Studies/Basic Statistics for Electrodiagnostic Studies.md": {
+      "source_summaries": [
+        "10_來源摘要/Basic_Statistics_for_Electrodiagnostic_Studies.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "0bca070251e95b3f74c6fa4fce0d9b7ec1b2d5053e44de8af2f49d715e26533e",
+      "size_bytes": 30231,
+      "mtime_ns": 1778261597554000000,
+      "status": "ok"
+    },
+    "Biomechanics of the Foot and Ankle/Biomechanics of the Foot and Ankle.md": {
+      "source_summaries": [
+        "10_來源摘要/Biomechanics_of_the_Foot_and_Ankle.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "4f712b96e8261df8c62ab3346201b5d34cab90f38c326bfd857dde47aa199a1b",
+      "size_bytes": 132399,
+      "mtime_ns": 1776478689172000000,
+      "status": "ok"
+    },
+    "Biomechanics of the hip, knee, and ankle/Biomechanics of the hip, knee, and ankle.md": {
+      "source_summaries": [
+        "10_來源摘要/Biomechanics_of_the_Hip_Knee_and_Ankle.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "7761ed09857aae4d0293f838f36c2645f79a39ebf8d4c9cc0cde3cce2b67f06e",
+      "size_bytes": 33254,
+      "mtime_ns": 1775649282745304500,
+      "status": "ok"
+    },
+    "Blindness and Visual Impairment/Blindness and Visual Impairment.md": {
+      "source_summaries": [
+        "10_來源摘要/Blindness_and_Visual_Impairment.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "1a0c354cc499fd28e2c22c84a71e661b0674f4855b6296ab3889e38d6f6e8565",
+      "size_bytes": 69080,
+      "mtime_ns": 1775891069065205200,
+      "status": "ok"
+    },
+    "Blink Reflex/Blink Reflex.md": {
+      "source_summaries": [
+        "10_來源摘要/Blink_Reflex.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "a07dcccf6cff1fba732561278869123d46590bed48f4fada1852ba45222cfc3a",
+      "size_bytes": 17678,
+      "mtime_ns": 1778261623799000000,
+      "status": "ok"
+    },
+    "Brainstem Syndromes/Brainstem Syndromes.md": {
+      "source_summaries": [
+        "10_來源摘要/Brainstem_Syndromes.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "5402a0b275bc9e56e5e6401cb3eb45c2a4a923a2f4cd4f875bd5ef2782aada68",
+      "size_bytes": 58206,
+      "mtime_ns": 1777529422320000000,
+      "status": "ok"
+    },
+    "CP in HIIT/CP in HIIT.md": {
+      "source_summaries": [
+        "10_來源摘要/Jones_Vanhatalo_2017_critical_power_concept.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "517581b8d901709aedf72cc3003f80d8abfe514255cd5fc44a38ea680ea340aa",
+      "size_bytes": 70865,
+      "mtime_ns": 1776478099019000000,
+      "status": "ok"
+    },
+    "CRITICAL POWER AND EXERCISE TOLERANCE/CRITICAL POWER AND EXERCISE TOLERANCE.md": {
+      "source_summaries": [
+        "10_來源摘要/Jones_Vanhatalo_Burnley_Morton_Poole_2010_CP_exercise_tolerance.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "eef1cbd6f55888b3f1d685643507df01de4c81665cd591e5df84d9851880d5a8",
+      "size_bytes": 80918,
+      "mtime_ns": 1775924294648112000,
+      "status": "ok"
+    },
+    "Cancer Rehabilitation/Cancer Rehabilitation.md": {
+      "source_summaries": [
+        "10_來源摘要/Cancer_Rehabilitation.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "d1ff9ab1aca5ad95e7ea79a1847a5ce7cf35bcd0b0fe3ec232df5ffe81559cd6",
+      "size_bytes": 149214,
+      "mtime_ns": 1777527349168000000,
+      "status": "ok"
+    },
+    "Cardiac evaluation of patients receiving pharmacotherapy for attention deficit hyperactivity disorder (ADHD).md": {
+      "source_summaries": [
+        "10_來源摘要/Cardiac_evaluation_of_patients_receiving_pharmacotherapy_for_attention_deficit_hyperactivity_disorder_ADHD.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "67658ba8ae9d0e6becabe5e78cd5579dcf8ab9f56b86e00d4e9f17d8fe4b0b9a",
+      "size_bytes": 85450,
+      "mtime_ns": 1776561031552062900,
+      "status": "ok"
+    },
+    "Celebrating Sociocultural Diversity in the Exam Room and Addressing Racism and Bias/Celebrating Sociocultural Diversity in the Exam Room and Addressing Racism and Bias.md": {
+      "source_summaries": [
+        "10_來源摘要/Celebrating_sociocultural_diversity_in_the_exam_room_and_addressing_racism_and_bias.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "61445b3c619d320e949f5178b19400cb1540be388a9234ba4848534237af330b",
+      "size_bytes": 82412,
+      "mtime_ns": 1775891068994682300,
+      "status": "ok"
+    },
+    "Cerebral Palsy and Other Motor Disorders/Cerebral Palsy and Other Motor Disorders.md": {
+      "source_summaries": [
+        "10_來源摘要/Cerebral_Palsy_and_Other_Motor_Disorders.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "2c62018afcda2cdf4c8777e4b1617750cb58c6cd35cdf222d80fa6e24c8d2456",
+      "size_bytes": 80114,
+      "mtime_ns": 1775891069131819700,
+      "status": "ok"
+    },
+    "Cerebral and cervical artery dissection_ Clinical features and diagnosis.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_cerebral_cervical_artery_dissection_clinical_features_diagnosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "210688ef06f494dc42d8af9ac8e9797c6505b2cd115470c1ea379ea510932fa6",
+      "size_bytes": 154175,
+      "mtime_ns": 1777895288619259200,
+      "status": "ok"
+    },
+    "Cerebral palsy/Cerebral palsy.md": {
+      "source_summaries": [
+        "10_來源摘要/Cerebral_Palsy.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "85b2ceaee105f446e6e76bd6017becf5c9e9b353099000854d60e9180f2f36da",
+      "size_bytes": 151762,
+      "mtime_ns": 1777527440218000000,
+      "status": "ok"
+    },
+    "Chidnoketal.AJP2013/Chidnoketal.AJP2013.md": {
+      "source_summaries": [
+        "10_來源摘要/Chidnok_2013_intermittent_exercise_PCr_CP.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "418da4809d889750ac557ea12c7c93a148f4d64ac19999b914a23fe479f9a44c",
+      "size_bytes": 50435,
+      "mtime_ns": 1775924328966870300,
+      "status": "ok"
+    },
+    "Child Care/Child Care.md": {
+      "source_summaries": [
+        "10_來源摘要/Child_Care.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "1ba8703076a02a741ba1ef6e7501154b7a5dbd8d97377bbaac5e133f7b4bdcce",
+      "size_bytes": 171541,
+      "mtime_ns": 1776113580000000000,
+      "status": "ok"
+    },
+    "Child Psychology Psychiatry - 2023 - Nelson - Annual Research Review  Early intervention viewed through the lens of/Child Psychology Psychiatry - 2023 - Nelson - Annual Research Review  Early intervention viewed through the lens of.md": {
+      "source_summaries": [
+        "10_來源摘要/Nelson_2023_early_intervention_developmental_neuroscience.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "f82df9067ca4c716b707d8fcedebdac202d5e7ec58bd3ff1fe559b39e0ec9588",
+      "size_bytes": 134564,
+      "mtime_ns": 1777459695562000000,
+      "status": "ok"
+    },
+    "Childhood Obesity/Childhood Obesity.md": {
+      "source_summaries": [
+        "10_來源摘要/Childhood_Obesity.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "66a77e66b9a0cb389869d11df518e67d0210dbae80c761ad0eb21c5a1cfe1c0c",
+      "size_bytes": 49819,
+      "mtime_ns": 1775891068949422700,
+      "status": "ok"
+    },
+    "Chronic medical conditions Pulmonary disease, organ transplantation, and diabetes/Chronic medical conditions Pulmonary disease, organ transplantation, and diabetes.md": {
+      "source_summaries": [
+        "10_來源摘要/Chronic_Medical_Conditions_Pulmonary_Disease_Organ_Transplantation_and_Diabetes.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "3498b0bfb9b09b879c3412611782a6e43ae71a20515d2b3ac5c2afdd18abae13",
+      "size_bytes": 303884,
+      "mtime_ns": 1777527586705000000,
+      "status": "ok"
+    },
+    "Chronic pain/Chronic pain.md": {
+      "source_summaries": [
+        "10_來源摘要/Chronic_Pain.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "37e2d869bb32466e2335fa403865e05fb7d4bc2e20e30d6b3379490e6b52855d",
+      "size_bytes": 237003,
+      "mtime_ns": 1777527641321000000,
+      "status": "ok"
+    },
+    "Clinical assessment of walking and running gait - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Clinical_assessment_of_walking_and_running_gait.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "b38b6428e1579c2ee1e8256baa410ea6bf1592878699a69a8d65b7941f0e6606",
+      "size_bytes": 95376,
+      "mtime_ns": 1775757669465212100,
+      "status": "ok"
+    },
+    "Common neck problems/Common neck problems.md": {
+      "source_summaries": [
+        "10_來源摘要/Common_Neck_Problems.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "6349e70e15e0e741c8d84a6399621b82753e7d39af964784ffb666582d68bcd2",
+      "size_bytes": 167416,
+      "mtime_ns": 1777527813493000000,
+      "status": "ok"
+    },
+    "Complex regional pain syndrome in adults_ Pathogenesis, clinical manifestations, and diagnosis.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_CRPS_pathogenesis_clinical_manifestations_diagnosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "bb8c14fb95ac06bcd3ece0cb33fe983db5dcb5027d7a17e06f3e2af9ae7ddffc",
+      "size_bytes": 86615,
+      "mtime_ns": 1777895842474164200,
+      "status": "ok"
+    },
+    "Complex regional pain syndrome in adults_ Treatment, prognosis, and prevention (1).md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_CRPS_treatment_prognosis_prevention.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "4e7727b2d727be71915fb1793f195e180d9121caa617325ccead4ad5820dcd4f",
+      "size_bytes": 150491,
+      "mtime_ns": 1777895989832075600,
+      "status": "ok"
+    },
+    "Connecting Health & Learning.md": {
+      "source_summaries": [
+        "10_來源摘要/Connecting_Health_and_Learning.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "2f32ede80f53b5e8f692256da884889efced6e96f52bbe3cc441fbaeacfee829",
+      "size_bytes": 80923,
+      "mtime_ns": 1777119176215707800,
+      "status": "ok"
+    },
+    "Consequences of Preterm Birth/Consequences of Preterm Birth.md": {
+      "source_summaries": [
+        "10_來源摘要/Consequences_of_Preterm_Birth.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "51b845ec0cffe73fb1cad718fb865d91d143a1ffda005ad711dd6e7ae1ea66b0",
+      "size_bytes": 72517,
+      "mtime_ns": 1775891069036440600,
+      "status": "ok"
+    },
+    "Considerations in the Selection of a Running Shoe/Considerations in the Selection of a Running Shoe.md": {
+      "source_summaries": [
+        "10_來源摘要/Considerations_in_the_Selection_of_a_Running_Shoe.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "f9d86955638173863780dc3fe15f42c9614b6026882fb980ec6b33acafcf1510",
+      "size_bytes": 29342,
+      "mtime_ns": 1776479210295000000,
+      "status": "ok"
+    },
+    "Degenerative movement disorders of the central nervous system/Degenerative movement disorders of the central nervous system.md": {
+      "source_summaries": [
+        "10_來源摘要/Degenerative_Movement_Disorders_of_the_CNS.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "b3148009463935f60e9f71fd0e7ab2d09b9e078fb0ee6ede2fec6a16a800a754",
+      "size_bytes": 69689,
+      "mtime_ns": 1777527848483000000,
+      "status": "ok"
+    },
+    "Detailed neurologic assessment of infants and children - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Detailed_neurologic_assessment_of_infants_and_children.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "c1c597e42eeff578a2c699e9818bee634f8ba92a040b17c9b20b54b8a7b56cde",
+      "size_bytes": 103711,
+      "mtime_ns": 1775780828821186400,
+      "status": "ok"
+    },
+    "Developmental Considerations in Deafness/Developmental Considerations in Deafness.md": {
+      "source_summaries": [
+        "10_來源摘要/Developmental_Considerations_in_Deafness.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "ef46e081108a55b84b0ffd59ea4f3b8d5614f825ad7d2b6ab48994c843da4de4",
+      "size_bytes": 68207,
+      "mtime_ns": 1775891068829856500,
+      "status": "ok"
+    },
+    "Developmental Delay and Intellectual Disability/Developmental Delay and Intellectual Disability.md": {
+      "source_summaries": [
+        "10_來源摘要/Developmental_Delay_and_Intellectual_Disability.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "7077fb7ad281fb77aa4526fc4302dda0b0b6b9e438df9f90fba313892430bc88",
+      "size_bytes": 181072,
+      "mtime_ns": 1776113668000000000,
+      "status": "ok"
+    },
+    "Developmental Surveillance and Screening/Developmental Surveillance and Screening.md": {
+      "source_summaries": [
+        "10_來源摘要/Developmental_Surveillance_and_Screening.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "eeba3641563fdf1fe48f2450cc5255d90586d14d396129c8f38da1f1f233dd25",
+      "size_bytes": 56856,
+      "mtime_ns": 1775891068861939700,
+      "status": "ok"
+    },
+    "Developmental and Behavioral Surveillance and Screening/Developmental and Behavioral Surveillance and Screening.md": {
+      "source_summaries": [
+        "10_來源摘要/Developmental_and_Behavioral_Surveillance_and_Screening.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "00ddf14aab6850ff386f9a1f70da69622c5a5a59f76790ddf28127e48566f921",
+      "size_bytes": 43455,
+      "mtime_ns": 1776113296000000000,
+      "status": "ok"
+    },
+    "Developmental-behavioral surveillance and screening in primary care - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Developmental_behavioral_surveillance_and_screening_in_primary_care.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "7b0d9339fb3aa864c7914fd367cbb6346aa7b96fbc8aa763689bebd3fe5d8a1c",
+      "size_bytes": 140499,
+      "mtime_ns": 1775780788656875100,
+      "status": "ok"
+    },
+    "Early Intervention/Early Intervention.md": {
+      "source_summaries": [
+        "10_來源摘要/Early_Intervention.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "2f05e375471bf8c85f8b73d3c5f49326462bd279b73c9d9a986470c1b8f76de1",
+      "size_bytes": 62049,
+      "mtime_ns": 1775891069100323900,
+      "status": "ok"
+    },
+    "Electrodiagnostic medicine/Electrodiagnostic medicine.md": {
+      "source_summaries": [
+        "10_來源摘要/Electrodiagnostic_medicine.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "a2ddbe7f4c8b6f9104ffffa74b4d321a4bf5aff882e9b72ccb7711b8a14b83e4",
+      "size_bytes": 339823,
+      "mtime_ns": 1776865112853000000,
+      "status": "ok"
+    },
+    "Emergent literacy including language development - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Emergent_literacy_including_language_development.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "476ebf8b674978574298872c88de4bb9da4c7f30d7561f53b2ebc754b6b00eff",
+      "size_bytes": 56043,
+      "mtime_ns": 1775780973049873400,
+      "status": "ok"
+    },
+    "Enhancing-and-Practicing-Executive-Function-Skills-with-Children-from-Infancy-to-Adolescence-1/Enhancing-and-Practicing-Executive-Function-Skills-with-Children-from-Infancy-to-Adolescence-1.md": {
+      "source_summaries": [
+        "10_來源摘要/Enhancing_and_Practicing_Executive_Function_Skills_with_Children_from_Infancy_to_Adolescence.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "007c15ed8dafccf02dde114efa43e103828371d4d4c4ded784b2f3cb878b90e0",
+      "size_bytes": 57600,
+      "mtime_ns": 1776092490000000000,
+      "status": "ok"
+    },
+    "Etiology, clinical manifestations, and diagnosis of vascular dementia.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_vascular_dementia_etiology_clinical_manifestations_diagnosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "324a9790a9010837e3025edb30e8d36d01c754292489c99d8477ceefb8b4410a",
+      "size_bytes": 133990,
+      "mtime_ns": 1777895527252785100,
+      "status": "ok"
+    },
+    "Examination of the pediatric patient/Examination of the pediatric patient.md": {
+      "source_summaries": [
+        "10_來源摘要/Examination_of_the_pediatric_patient.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "78ca4311b95f21bea02948740010a206604ba4802152d3a2051c0b9cad336f55",
+      "size_bytes": 84715,
+      "mtime_ns": 1776865155138000000,
+      "status": "ok"
+    },
+    "Exercise ECG testing_ Performing the test and interpreting the ECG results.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_exercise_ECG_testing_performing_interpreting.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "b8792651f996825b36ffeaab33dc60fcd184984380a3ab188f2260185dbb4642",
+      "size_bytes": 113342,
+      "mtime_ns": 1778587581643856900,
+      "status": "ok"
+    },
+    "Exercise Test Design and Analysis/Exercise Test Design and Analysis.md": {
+      "source_summaries": [
+        "10_來源摘要/Bentley_Newell_Bishop_2007_incremental_exercise_test_design.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "583bf8d647ea42cb2e1c829a6f79744faf57ce95295e60ce3bf639bdc7d5df99",
+      "size_bytes": 56802,
+      "mtime_ns": 1775924293900596400,
+      "status": "ok"
+    },
+    "Exercise and sports cardiology/Exercise and sports cardiology.md": {
+      "source_summaries": [
+        "10_來源摘要/Thompson_Baggish_exercise_sports_cardiology.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "4508c69ba91006db78105dd1bf7c32849810d75246337e20c7893b2977f6c68e",
+      "size_bytes": 64254,
+      "mtime_ns": 1776480007676000000,
+      "status": "ok"
+    },
+    "Exercise/Exercise.md": {
+      "source_summaries": [
+        "10_來源摘要/Exercise_textbook_chapter.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "1c5f90ce4aff559134ea88de1064c11235a2ab83692bd63bc645a584276ecf3c",
+      "size_bytes": 36050,
+      "mtime_ns": 1775778416558324500,
+      "status": "ok"
+    },
+    "Exertional Leg Pain in Runners/Exertional Leg Pain in Runners.md": {
+      "source_summaries": [
+        "10_來源摘要/Exertional_Leg_Pain_in_Runners.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "40f7ed1727c1d749aec294dd34578f79176402b057b83b4c20d9e8002563ce1f",
+      "size_bytes": 76943,
+      "mtime_ns": 1776479799629000000,
+      "status": "ok"
+    },
+    "Expressive language delay (_late talking_) in young children - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Expressive_language_delay_late_talking_in_young_children.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "23bfc8af03c2cc52ecf85baec00bc8d5faa819dd6ff8c5aa78d2cd18f87d8b66",
+      "size_bytes": 121830,
+      "mtime_ns": 1775780865547749100,
+      "status": "ok"
+    },
+    "FWI_HPM-Strategic-Brief-V4/FWI_HPM-Strategic-Brief-V4.md": {
+      "source_summaries": [
+        "10_來源摘要/Place_Matters.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "629af5bff1203244547c8785fb68eb51f61d15f33564ea96362727f8f2d97f17",
+      "size_bytes": 72638,
+      "mtime_ns": 1777122797377000000,
+      "status": "ok"
+    },
+    "Feeding and Swallowing Disorders/Feeding and Swallowing Disorders.md": {
+      "source_summaries": [
+        "10_來源摘要/Feeding_and_Swallowing_Disorders.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "4104e4ccf79332cb1e3912ef2972bc61d5cfa851fa423fd04d3751924b5642a9",
+      "size_bytes": 37222,
+      "mtime_ns": 1775891068624197300,
+      "status": "ok"
+    },
+    "Finding the Balance Transforming How We Think About the Body’s Response to Stress in Early Childhood/Finding the Balance Transforming How We Think About the Body’s Response to Stress in Early Childhood.md": {
+      "source_summaries": [
+        "10_來源摘要/Finding_the_Balance_2026_early_childhood_stress.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "e0cb43028baf6058c1880c129af50fe0a1193a0f724cdc2b1edb69a1e150e105",
+      "size_bytes": 121134,
+      "mtime_ns": 1777122844156000000,
+      "status": "ok"
+    },
+    "Forefoot pain in adults_ Evaluation, diagnosis, and select management of common causes - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Forefoot_pain_in_adults_Evaluation_diagnosis_and_select_management_of_common_causes.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "ecab0f0a69f533a4b8a840accd346f9171b5251ee935db6a596dadebd0e251dc",
+      "size_bytes": 173294,
+      "mtime_ns": 1775644413596717500,
+      "status": "ok"
+    },
+    "Foster Care and Adoption/Foster Care and Adoption.md": {
+      "source_summaries": [
+        "10_來源摘要/Foster_Care_and_Adoption.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "dcfb185cb4350e43cf10b1b11742f503c271fdc474302f521ce78497f77f20da",
+      "size_bytes": 65698,
+      "mtime_ns": 1775891068923334100,
+      "status": "ok"
+    },
+    "Geriatrics/Geriatrics.md": {
+      "source_summaries": [
+        "10_來源摘要/Geriatrics.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "10dd9ad2b1c72324eca0a2608aa21a638958c20d359c2f6c912d5683b78ad974",
+      "size_bytes": 69636,
+      "mtime_ns": 1777527882604000000,
+      "status": "ok"
+    },
+    "HCDC-ECSCEE-Stability/HCDC-ECSCEE-Stability.md": {
+      "source_summaries": [
+        "10_來源摘要/From_Resources_to_Routines_Stability.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "4c76641095960766e639824e00df83383ce44d5a46cbaa72e749a148295b6428",
+      "size_bytes": 57246,
+      "mtime_ns": 1777122879600000000,
+      "status": "ok"
+    },
+    "HCDC_BuildingAdolescentCoreLifeSkills/HCDC_BuildingAdolescentCoreLifeSkills.md": {
+      "source_summaries": [
+        "10_來源摘要/HCDC_BuildingAdolescentCoreLifeSkills.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "7419fb16a90fbf395677d04e75e5f787f3ab6e2f6021124d8aea8decf586a3a7",
+      "size_bytes": 10611,
+      "mtime_ns": 1776092536000000000,
+      "status": "ok"
+    },
+    "HCDC_BuildingCoreLifeSkills/HCDC_BuildingCoreLifeSkills.md": {
+      "source_summaries": [
+        "10_來源摘要/HCDC_BuildingCoreLifeSkills.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "315164ef32860e5b4918c9554bad67d5dc89ddf2f45408d003480decb89f71dd",
+      "size_bytes": 9151,
+      "mtime_ns": 1776092534000000000,
+      "status": "ok"
+    },
+    "Hamstring muscle and tendon injuries - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Hamstring_muscle_and_tendon_injuries.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "6ef51c2a87a189ad9a3e496ec0eaab6ea4bd0c57019fe5348a703f0ad3d16c6f",
+      "size_bytes": 194321,
+      "mtime_ns": 1775759584311780200,
+      "status": "ok"
+    },
+    "Harvard-Kids-and-Climate-Long-Report_V6/Harvard-Kids-and-Climate-Long-Report_V6.md": {
+      "source_summaries": [
+        "10_來源摘要/Connecting_Early_Childhood_Development_to_Climate_Change.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "d80ae9ae9dc7a2d361108bdd0d718bc04117e43bd60fdefefc66cae449bae593",
+      "size_bytes": 163549,
+      "mtime_ns": 1777122945479000000,
+      "status": "ok"
+    },
+    "Hindfoot pain in adults_ Evaluation and diagnosis of common causes - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Hindfoot_pain_in_adults_Evaluation_and_diagnosis_of_common_causes.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "0640afc408ab7353e0baf7e81403b52b239da729a30bfa08173a8bf0c3b1bcf3",
+      "size_bytes": 144005,
+      "mtime_ns": 1775644507466479300,
+      "status": "ok"
+    },
+    "Hip, Pelvis, and Thigh Injuries in Runners/Hip, Pelvis, and Thigh Injuries in Runners.md": {
+      "source_summaries": [
+        "10_來源摘要/Hip_Pelvis_and_Thigh_Injuries_in_Runners.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "e66a64c6dd74216e043037af7a9835ecc8d4271cc9f9a01714613b6d9bf78f81",
+      "size_bytes": 73628,
+      "mtime_ns": 1776479509849000000,
+      "status": "ok"
+    },
+    "How-Early-Experiences-Shape-the-Development-of-Executive-Function/How-Early-Experiences-Shape-the-Development-of-Executive-Function.md": {
+      "source_summaries": [
+        "10_來源摘要/How_Early_Experiences_Shape_the_Development_of_Executive_Function.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "0e1eea1677db01f7670a3454549ad25af06e4d4816c7c1b4431f2c2ee5b4aa6c",
+      "size_bytes": 84003,
+      "mtime_ns": 1776092486000000000,
+      "status": "ok"
+    },
+    "Iliotibial band syndrome - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Iliotibial_band_syndrome.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "433869bd0eab9a58785e8d1c4ab2463a13f9e0fb12dbd2548d9379b60c293da8",
+      "size_bytes": 110460,
+      "mtime_ns": 1775759539025454900,
+      "status": "ok"
+    },
+    "Impact of Drug Therapy on Patients Receiving Neurological Rehabilitation/Impact of Drug Therapy on Patients Receiving Neurological Rehabilitation.md": {
+      "source_summaries": [
+        "10_來源摘要/Impact_of_Drug_Therapy_on_Patients_Receiving_Neurological_Rehabilitation.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "26ab96b9bb975e392b5901f3a5814313d5a5ac8987628faba5f7c0d4165fef78",
+      "size_bytes": 160407,
+      "mtime_ns": 1777529499446000000,
+      "status": "ok"
+    },
+    "Infancy/Infancy.md": {
+      "source_summaries": [
+        "10_來源摘要/Infancy.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "5b64f9ece42687d058fb4f3e6dacd9056838969ac2742377a9b5ef2084e0fb49",
+      "size_bytes": 61130,
+      "mtime_ns": 1775891068592476000,
+      "status": "ok"
+    },
+    "Influence of Step Rate on Running Mechanics/Influence of Step Rate on Running Mechanics.md": {
+      "source_summaries": [
+        "10_來源摘要/Influence_of_Step_Rate_on_Running_Mechanics.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "2b15b0bc7e8193d130b8150028d2e52796101a13a6d4cc92325b24e493fbb4cc",
+      "size_bytes": 48985,
+      "mtime_ns": 1776479012848000000,
+      "status": "ok"
+    },
+    "Initial assessment and management of acute stroke.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_initial_assessment_management_acute_stroke.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "593bdee331007212f09fa769803f0d2682f93a8f24f6521f63c31cc698eeea35",
+      "size_bytes": 193930,
+      "mtime_ns": 1777894646157619600,
+      "status": "ok"
+    },
+    "Intellectual Disability/Intellectual Disability.md": {
+      "source_summaries": [
+        "10_來源摘要/Intellectual_Disability.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "865b12681b8d3853cf674f41361087806ba5ace119fa95c56b79c1425b5899a3",
+      "size_bytes": 68479,
+      "mtime_ns": 1775891068972953000,
+      "status": "ok"
+    },
+    "Intellectual disability (ID) in children_ Clinical features, evaluation, and diagnosis.md": {
+      "source_summaries": [
+        "10_來源摘要/Intellectual_disability_ID_in_children_Clinical_features_evaluation_and_diagnosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "13dbd5a5940833f53aa27e4cf9d1885f6d1d1f96472a414d6affa85c3f7e2da7",
+      "size_bytes": 139807,
+      "mtime_ns": 1776564554508194000,
+      "status": "ok"
+    },
+    "Intellectual disability (ID) in children_ Evaluation for a cause.md": {
+      "source_summaries": [
+        "10_來源摘要/Intellectual_disability_ID_in_children_Evaluation_for_a_cause.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "c1e2a0136e1c30fd255ac3fbdd93945cd5c58486930c713370ac2cc8bf92d59c",
+      "size_bytes": 160631,
+      "mtime_ns": 1776564575052380600,
+      "status": "ok"
+    },
+    "Intellectual disability (ID) in children_ Management, outcomes, and prevention.md": {
+      "source_summaries": [
+        "10_來源摘要/Intellectual_disability_ID_in_children_Management_outcomes_and_prevention.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "dbce38ab4d0ed88bef5d11d2da1885ec2c7f56fbed61121c5161df98f340afb4",
+      "size_bytes": 123584,
+      "mtime_ns": 1776564601098435500,
+      "status": "ok"
+    },
+    "Interprofessional Team-Based Care/Interprofessional Team-Based Care.md": {
+      "source_summaries": [
+        "10_來源摘要/Interprofessional_Team_Based_Care.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "8b3b4a1d91cb28779a15ddd248ca77972bcd09ad4f79e5f2521b309c51301a56",
+      "size_bytes": 53301,
+      "mtime_ns": 1775891068560696600,
+      "status": "ok"
+    },
+    "Intracranial large artery atherosclerosis_ Treatment and prognosis.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_intracranial_large_artery_atherosclerosis_treatment_prognosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "b5698347302154ad809f789ce234b1133a15a01397ece59b807c1f84c9c601d5",
+      "size_bytes": 127338,
+      "mtime_ns": 1777895447808382200,
+      "status": "ok"
+    },
+    "Journal of Sports Medicine - 2016 - Beltz - Graded Exercise Testing Protocols for the Determination of VO2max  Historical (1)/Journal of Sports Medicine - 2016 - Beltz - Graded Exercise Testing Protocols for the Determination of VO2max  Historical (1).md": {
+      "source_summaries": [
+        "10_來源摘要/Beltz_2016_GXT_protocols.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "0d10c702be7e49ede2b1a0b8a5f5c8716128960dbc5c00df45a3b3197ae26024",
+      "size_bytes": 80476,
+      "mtime_ns": 1775918702000000000,
+      "status": "ok"
+    },
+    "Karstenetal.2016Comparisonofinter-trialrecoverytimes/Karstenetal.2016Comparisonofinter-trialrecoverytimes.md": {
+      "source_summaries": [
+        "10_來源摘要/Karsten_2016_intertrial_recovery_CP_Wprime.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "bdb675c8183b635ab737cd4ccdeb320b3cc70a1d5cf811ce6bf825506ecf68f6",
+      "size_bytes": 39832,
+      "mtime_ns": 1775924294283785100,
+      "status": "ok"
+    },
+    "Karstenetal.2017TimeTrialsversusTimetoExhaustionTests_EffectsonCriticalPowerWandOxygenUptakeKinetics_2017/Karstenetal.2017TimeTrialsversusTimetoExhaustionTests_EffectsonCriticalPowerWandOxygenUptakeKinetics_2017.md": {
+      "source_summaries": [
+        "10_來源摘要/Karsten_2017_TT_vs_TTE_CP_Wprime.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "51004826646fa7e4d8d29836e99f61ee75530fa11a2f2bfc8005d1a1266957e6",
+      "size_bytes": 42311,
+      "mtime_ns": 1775924320207406200,
+      "status": "ok"
+    },
+    "Knee Injuries in Runners/Knee Injuries in Runners.md": {
+      "source_summaries": [
+        "10_來源摘要/Knee_Injuries_in_Runners.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "767d0cdd3a7472ac87a24ed04543f95e391f2db00232e81069978662a329e481",
+      "size_bytes": 101340,
+      "mtime_ns": 1776479609076000000,
+      "status": "ok"
+    },
+    "Lacunar infarcts.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_lacunar_infarcts.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "a69474e5cc07dbde5e0586eb750c63b02c6999ec5dea9b629dd1e677fa6e555f",
+      "size_bytes": 139274,
+      "mtime_ns": 1777895343837000500,
+      "status": "ok"
+    },
+    "LambricketalEJAP2009/LambricketalEJAP2009.md": {
+      "source_summaries": [
+        "10_來源摘要/Lambrick_2009_RPE13_VO2max_prediction.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "a7035a2b0440971f23100bdf827d59ca6edde3dbadae0397efb12068dba728cf",
+      "size_bytes": 50777,
+      "mtime_ns": 1775924320726476300,
+      "status": "ok"
+    },
+    "Language Development and Communication Disorders/Language Development and Communication Disorders.md": {
+      "source_summaries": [
+        "10_來源摘要/Language_Development_and_Communication_Disorders.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "4cabd3b4e253112ab49c2f0ab0eeaae06d551028a6989dd49a626b66e1159b0b",
+      "size_bytes": 98633,
+      "mtime_ns": 1776113582000000000,
+      "status": "ok"
+    },
+    "Language and Speech Disorders/Language and Speech Disorders.md": {
+      "source_summaries": [
+        "10_來源摘要/Language_and_Speech_Disorders.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "786e5726b3b720c15aa4a39fdf42d90e287eebac17d15d3818a8aaaa5cb8c786",
+      "size_bytes": 74175,
+      "mtime_ns": 1775891068703201700,
+      "status": "ok"
+    },
+    "Late Responses/Late Responses.md": {
+      "source_summaries": [
+        "10_來源摘要/Late_Responses.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "2c3684bf1a4106c87ced26c77a8e3bd30e5a17739a664cf670776d455274bbcb",
+      "size_bytes": 43598,
+      "mtime_ns": 1778261680795000000,
+      "status": "ok"
+    },
+    "Low back disorders/Low back disorders.md": {
+      "source_summaries": [
+        "10_來源摘要/Low_Back_Disorders.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "844bbb49d88ef88af7bea98ead9fdd291e7eb12b6cd270ef35a3277f687effe7",
+      "size_bytes": 451993,
+      "mtime_ns": 1777528013975000000,
+      "status": "ok"
+    },
+    "Lower limb amputation and gait/Lower limb amputation and gait.md": {
+      "source_summaries": [
+        "10_來源摘要/Lower_limb_amputation_and_gait.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "ce049e45e2bbf46dfddb0285b7df1d08a9212d7122c3cf84af381cec72bdea00",
+      "size_bytes": 208434,
+      "mtime_ns": 1776865250143000000,
+      "status": "ok"
+    },
+    "MODELING THE RECOVERY OF W′ BELOW CP/MODELING THE RECOVERY OF W′ BELOW CP.md": {
+      "source_summaries": [
+        "10_來源摘要/Sreedhara_2020_Modeling_Wprime_Recovery.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "af7010c3454144a2472d69741fe6751dad81888161bcc749e9ad61944b4a2867",
+      "size_bytes": 53153,
+      "mtime_ns": 1776478337893000000,
+      "status": "ok"
+    },
+    "Mattering-Paper-center-on-the-developing-child/Mattering-Paper-center-on-the-developing-child.md": {
+      "source_summaries": [
+        "10_來源摘要/Mattering_in_Early_Childhood.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "3e4b1041593f503dee61c55210ca9e8e1091ae1ee5bb06f927a33ad5ad4bc19f",
+      "size_bytes": 42061,
+      "mtime_ns": 1777982912787000000,
+      "status": "ok"
+    },
+    "Mattering-Strategies-/Mattering-Strategies-.md": {
+      "source_summaries": [
+        "10_來源摘要/Mattering_Strategies.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "8f2de2e70354f5fddeed2b3ad64fb3cc34b4683eb58b339d5f91c31cdac8ff71",
+      "size_bytes": 3035,
+      "mtime_ns": 1777123000681000000,
+      "status": "ok"
+    },
+    "Middle Childhood/Middle Childhood.md": {
+      "source_summaries": [
+        "10_來源摘要/Middle_Childhood.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "4f98c8cd1e5f51eea82cb3af2c2357e543257a077eac68be026499df3cb99992",
+      "size_bytes": 120541,
+      "mtime_ns": 1775891068480551600,
+      "status": "ok"
+    },
+    "Midfoot pain in adults_ Evaluation, diagnosis, and select management of common causes - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Midfoot_pain_in_adults_Evaluation_diagnosis_and_select_management_of_common_causes.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "097fa26f38b9f2786c7aedbff7ce8e59b61023a2aeaa9dbe40a53f41330129b9",
+      "size_bytes": 139152,
+      "mtime_ns": 1775644461308884300,
+      "status": "ok"
+    },
+    "MidgleySportsMed08Challengingadogmaofexercisephysiology/MidgleySportsMed08Challengingadogmaofexercisephysiology.md": {
+      "source_summaries": [
+        "10_來源摘要/Midgley_2008_VO2max_test_duration.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "2227832e91bd61fb4cdd4aa374820fabee2bfa18e6bf5e92304426f508d63a29",
+      "size_bytes": 38101,
+      "mtime_ns": 1775924293580371200,
+      "status": "ok"
+    },
+    "Motor neuron diseases/Motor neuron diseases.md": {
+      "source_summaries": [
+        "10_來源摘要/Motor_Neuron_Diseases.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "17c54644eee9ca0f6ad76a79bf0a44bf10f93bfa7c4324cb09e0ef8cebb8a19a",
+      "size_bytes": 184525,
+      "mtime_ns": 1777528134297000000,
+      "status": "ok"
+    },
+    "Movement Dysfunction in Stroke/Movement Dysfunction in Stroke.md": {
+      "source_summaries": [
+        "10_來源摘要/Movement_Dysfunction_in_Stroke.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "3af912c744b9063673ff2f4abbad08dda399b8ef8ce44c06eb3ca9f2bbdc1e57",
+      "size_bytes": 284576,
+      "mtime_ns": 1777529573272000000,
+      "status": "ok"
+    },
+    "Moyamoya disease and moyamoya syndrome_ Etiology, clinical features, and diagnosis.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_moyamoya_etiology_clinical_features_diagnosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "01cbd226b5e2185c7a9e33baa990f36ff5abfe367018ef0d62300c403a8cba79",
+      "size_bytes": 189755,
+      "mtime_ns": 1777895594991965200,
+      "status": "ok"
+    },
+    "Moyamoya disease and moyamoya syndrome_ Treatment and prognosis.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_moyamoya_treatment_prognosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "d693d431341c4254550ea922126feddbbf1c0759fdf726b2cbc0d03422a74460",
+      "size_bytes": 121766,
+      "mtime_ns": 1777895581651577300,
+      "status": "ok"
+    },
+    "Multiple sclerosis/Multiple sclerosis.md": {
+      "source_summaries": [
+        "10_來源摘要/Multiple_Sclerosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "b3a7dad1eedd489c7b4ecd27cc7857eec00c9feed96329bb941abadf85739bbe",
+      "size_bytes": 243698,
+      "mtime_ns": 1777528274984000000,
+      "status": "ok"
+    },
+    "Murano-et-al-2020-preschool-SEL-interventions-copy/Murano-et-al-2020-preschool-SEL-interventions-copy.md": {
+      "source_summaries": [
+        "10_來源摘要/Murano_2020_preschool_SEL_interventions.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "57b423d672245dc43087f4815b35a4f43e5e8eaac9f32b78d8f05893a1d6e4cc",
+      "size_bytes": 145966,
+      "mtime_ns": 1777524368365000000,
+      "status": "ok"
+    },
+    "Myelomeningocele and other spinal dysraphisms/Myelomeningocele and other spinal dysraphisms.md": {
+      "source_summaries": [
+        "10_來源摘要/Myelomeningocele_and_other_spinal_dysraphisms.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "092d7221f86082bcaf61d2eacd04029c1955802ff400567f420d36cd61527c3c",
+      "size_bytes": 128772,
+      "mtime_ns": 1777528317435000000,
+      "status": "ok"
+    },
+    "Myopathic disorders/Myopathic disorders.md": {
+      "source_summaries": [
+        "10_來源摘要/Myopathic_Disorders.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "9c37229afd76f4dc34a9eea3296c1e00cfb8d40a05582ffa02906aa29e8a9a18",
+      "size_bytes": 146888,
+      "mtime_ns": 1777528389086000000,
+      "status": "ok"
+    },
+    "Neurodevelopmental and Executive Function and Dysfunction/Neurodevelopmental and Executive Function and Dysfunction.md": {
+      "source_summaries": [
+        "10_來源摘要/Neurodevelopmental_and_Executive_Function_and_Dysfunction.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "93489810da015f45747c76689388b362c4a20d5f785aa179173a0ca26bb892b1",
+      "size_bytes": 80996,
+      "mtime_ns": 1776113494000000000,
+      "status": "ok"
+    },
+    "Neurogenic bowel Dysfunction and rehabilitation/Neurogenic bowel Dysfunction and rehabilitation.md": {
+      "source_summaries": [
+        "10_來源摘要/Neurogenic_bowel_dysfunction_and_rehabilitation.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "507486190574c810d455932c2ce97cfcc1aaf2f8d0f60404f223544d6d2e359f",
+      "size_bytes": 215925,
+      "mtime_ns": 1776865378062000000,
+      "status": "ok"
+    },
+    "Neurogenic lower urinary tract dysfunction.pdf 的副本/Neurogenic lower urinary tract dysfunction.pdf 的副本.md": {
+      "source_summaries": [
+        "10_來源摘要/Neurogenic_lower_urinary_tract_dysfunction.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "8cdcfaee9e26a7c05d2504769f88a61fac8d35894511a69d3fb611ca79021601",
+      "size_bytes": 119925,
+      "mtime_ns": 1776773732385000000,
+      "status": "ok"
+    },
+    "Neurological Rehabilitation/Neurological Rehabilitation.md": {
+      "source_summaries": [
+        "10_來源摘要/Neurological_Rehabilitation.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "3fa596f6e4a20706fd992af9db43c53908eccabe41610f756af373cfcea6bfcc",
+      "size_bytes": 230097,
+      "mtime_ns": 1777529682187000000,
+      "status": "ok"
+    },
+    "Neuropalliative care of stroke.md": {
+      "source_summaries": [
+        "10_來源摘要/Neuropalliative_care_of_stroke.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "e99153944e1d021c3bb480145954a876a272cb40d54067ffec4aaece720516a9",
+      "size_bytes": 145464,
+      "mtime_ns": 1777896226386793800,
+      "status": "ok"
+    },
+    "Nurturing Care for Children with Developmental Delays and Disabilities/Nurturing Care for Children with Developmental Delays and Disabilities.md": {
+      "source_summaries": [
+        "10_來源摘要/Nurturing_Care_for_Children_with_Developmental_Delays_and_Disabilities.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "c296fc15a65c663a59e2f8977c4e14b59a1ab6ab29b57c12002c5303a045b75e",
+      "size_bytes": 82541,
+      "mtime_ns": 1777982992358000000,
+      "status": "ok"
+    },
+    "Occupational medicine and vocational rehabilitation/Occupational medicine and vocational rehabilitation.md": {
+      "source_summaries": [
+        "10_來源摘要/Occupational_medicine_and_vocational_rehabilitation.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "f36bf92ab05c68a3ab1abea29b8bd4062a5709889f809ea025da50ce42ffe0f2",
+      "size_bytes": 76054,
+      "mtime_ns": 1776865451928000000,
+      "status": "ok"
+    },
+    "Oropharyngeal dysphagia_ Clinical features, diagnosis, and management.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_oropharyngeal_dysphagia_clinical_features_diagnosis_management.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "ff78663aed6c8790df5ae4a21ffaac7d3915ea283d9252e80ae6469676ce02db",
+      "size_bytes": 96380,
+      "mtime_ns": 1777896044145553600,
+      "status": "ok"
+    },
+    "Osteoarthritis and Running/Osteoarthritis and Running.md": {
+      "source_summaries": [
+        "10_來源摘要/Osteoarthritis_and_Running.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "6cd3d519365009b30f84e8fee6429a927caca73ea342acbcd0cf7f473e636f04",
+      "size_bytes": 57014,
+      "mtime_ns": 1776479405461000000,
+      "status": "ok"
+    },
+    "Osteoporosis/Osteoporosis.md": {
+      "source_summaries": [
+        "10_來源摘要/Osteoporosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "3426871e4647b599897dccc9a3fcdf93395ad63c0f2307b8871bd94606b2630b",
+      "size_bytes": 126627,
+      "mtime_ns": 1777528525910000000,
+      "status": "ok"
+    },
+    "Overview of foot anatomy and biomechanics and assessment of foot pain in adults - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Overview_of_foot_anatomy_and_biomechanics_and_assessment_of_foot_pain_in_adults.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "22b94999067b2be79480e4bc45b72367da11da8eb4460757f34273de0896c6c3",
+      "size_bytes": 108499,
+      "mtime_ns": 1775641390613539700,
+      "status": "ok"
+    },
+    "Overview of the evaluation of stroke.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_overview_evaluation_of_stroke.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "49e9f33ebb350b0f3105664b497021922cb6da8fe87d09834443dc80c1dc1ecf",
+      "size_bytes": 141435,
+      "mtime_ns": 1777894684350455800,
+      "status": "ok"
+    },
+    "Pathophysiology of ischemic stroke.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_pathophysiology_of_ischemic_stroke.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "6e989f255e7b18618dc15c0e27bc6bf405c89c93557c9438ad53c4fe98b1fe2c",
+      "size_bytes": 71669,
+      "mtime_ns": 1777866112148270592,
+      "status": "ok"
+    },
+    "PHOSPHOCREATINE RESYNTHESIS AFTER EXERCISE/PHOSPHOCREATINE RESYNTHESIS AFTER EXERCISE.md": {
+      "source_summaries": [
+        "10_來源摘要/Kemp_1993_PCr_resynthesis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "01eda6228f26d32bb14c30f65ec924fba1870b192b3f61359fde500bffdd3c41",
+      "size_bytes": 37499,
+      "mtime_ns": 1775924293425158900,
+      "status": "ok"
+    },
+    "Pain Management/Pain Management.md": {
+      "source_summaries": [
+        "10_來源摘要/Pain_Management.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "8ef69f741e6453f1a7b957bc052c3e3d2f26d06fce8a8f308de95097b1b0bf23",
+      "size_bytes": 225321,
+      "mtime_ns": 1777529731363000000,
+      "status": "ok"
+    },
+    "Patellofemoral pain - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Patellofemoral_pain.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "9de8b303efac6552ee282b5bc48b32003b64dad6f08963241353be32a87c82e4",
+      "size_bytes": 129498,
+      "mtime_ns": 1775759504888120600,
+      "status": "ok"
+    },
+    "Pelvic floor disorders/Pelvic floor disorders.md": {
+      "source_summaries": [
+        "10_來源摘要/Pelvic_Floor_Disorders.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "519074591a7956962f58d918399a841de0758bc9764a43b76ea83d219bb4e829",
+      "size_bytes": 156894,
+      "mtime_ns": 1777528653571000000,
+      "status": "ok"
+    },
+    "Peripheral nerve disorders/Peripheral nerve disorders.md": {
+      "source_summaries": [
+        "10_來源摘要/Peripheral_Nerve_Disorders.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "43e7b4ac6840c968b7e7786b6400101aea308ae25742e48ecc9426ee9dc594e9",
+      "size_bytes": 243545,
+      "mtime_ns": 1777528744523000000,
+      "status": "ok"
+    },
+    "Phosphocreatine Resynthesis After Intense Exercise/Phosphocreatine Resynthesis After Intense Exercise.md": {
+      "source_summaries": [
+        "10_來源摘要/McMahon_Jenkins_PCr_resynthesis_after_intense_exercise.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "8fd6e001f7d836e92fcde5170cde8ca90c6b4ecf4913e0db1001064d124cf86a",
+      "size_bytes": 103982,
+      "mtime_ns": 1775924293551949700,
+      "status": "ok"
+    },
+    "Plantar fasciitis - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Plantar_fasciitis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "74b2adae2bde034b87f39ae163da7842e1cdd2f62c31b78b4d7af93c446a1e54",
+      "size_bytes": 139985,
+      "mtime_ns": 1775759865744835300,
+      "status": "ok"
+    },
+    "Podcast_ Toxic Stress.md": {
+      "source_summaries": [
+        "10_來源摘要/Toxic_Stress_Brain_Architects_Podcast.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "6872100e66c838973896752fc0698f79d4554124601ee0dd5ac2f848eea742c9",
+      "size_bytes": 37771,
+      "mtime_ns": 1777119865823264500,
+      "status": "ok"
+    },
+    "Polarized vs. Other Training Intensity Distribution Regimens and Endurance Performance/Polarized vs. Other Training Intensity Distribution Regimens and Endurance Performance.md": {
+      "source_summaries": [
+        "10_來源摘要/Oliveira_2024_polarized_training_meta_analysis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "2211c12156e6d528515951e233bd511fb5908d3272e8e7302cb0478a3e8ddb20",
+      "size_bytes": 137756,
+      "mtime_ns": 1776698734372000000,
+      "status": "ok"
+    },
+    "Positive Parenting and Support/Positive Parenting and Support.md": {
+      "source_summaries": [
+        "10_來源摘要/Positive_Parenting_and_Support.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "27a0733057b89a57b9b5522ddd3477b9cb5547c0ad77203cf471f2f8b22df9a0",
+      "size_bytes": 35775,
+      "mtime_ns": 1776113292000000000,
+      "status": "ok"
+    },
+    "Posterior circulation cerebrovascular syndromes.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_posterior_circulation_cerebrovascular_syndromes.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "38b3bde82942fcfec6ff3864cff4dfb30eddd0a64427ab13331c3e367e387eae",
+      "size_bytes": 131393,
+      "mtime_ns": 1777895271506250600,
+      "status": "ok"
+    },
+    "Poststroke neuropsychiatric disorders and symptoms.md": {
+      "source_summaries": [
+        "10_來源摘要/Poststroke_neuropsychiatric_disorders_and_symptoms.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "5c9aba3a1f3944fb374be92b32ac2e6803ed25139b57f9f5cb2a977a817fbb25",
+      "size_bytes": 160545,
+      "mtime_ns": 1777896265469652100,
+      "status": "ok"
+    },
+    "Practical aspects of impairment rating and disability determination/Practical aspects of impairment rating and disability determination.md": {
+      "source_summaries": [
+        "10_來源摘要/Practical_aspects_of_impairment_rating_and_disability_determination.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "1146b6eed53473c23e29025ad792b1e8a043e3349ba5eea55a27af43d1b85b66",
+      "size_bytes": 113597,
+      "mtime_ns": 1776865513039000000,
+      "status": "ok"
+    },
+    "Psychological assessment and intervention in rehabilitation/Psychological assessment and intervention in rehabilitation.md": {
+      "source_summaries": [
+        "10_來源摘要/Psychological_assessment_and_intervention_in_rehabilitation.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "c3c5fe5fb210264d8cf8204ec2610467c9292f031c59b426d91af982e7b11c36",
+      "size_bytes": 64539,
+      "mtime_ns": 1776865546488000000,
+      "status": "ok"
+    },
+    "Quadriceps muscle and tendon injuries - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Quadriceps_muscle_and_tendon_injuries.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "d20918e1af642be8abbfe9725adbc75f765eae818884356e8c13af5ab0f76b6d",
+      "size_bytes": 148398,
+      "mtime_ns": 1775759669271789200,
+      "status": "ok"
+    },
+    "Quality and outcome measures for medical rehabilitation/Quality and outcome measures for medical rehabilitation.md": {
+      "source_summaries": [
+        "10_來源摘要/Quality_and_outcome_measures_for_medical_rehabilitation.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "ddc1ef7c47633c1acbb370b3af020cbdd2fbbceacf3f7b3099587f9356e00311",
+      "size_bytes": 107781,
+      "mtime_ns": 1776865587032000000,
+      "status": "ok"
+    },
+    "Rehabilitation Principles of the Injured Runner/Rehabilitation Principles of the Injured Runner.md": {
+      "source_summaries": [
+        "10_來源摘要/Rehabilitation_Principles_of_the_Injured_Runner.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "211b99af5d7f8c160de72664da476bdc2ad5e02930b425d94f3d811b89b795b2",
+      "size_bytes": 50512,
+      "mtime_ns": 1776479259442000000,
+      "status": "ok"
+    },
+    "Rehabilitation Services Occupational Therapy and Physical Therapy/Rehabilitation Services Occupational Therapy and Physical Therapy.md": {
+      "source_summaries": [
+        "10_來源摘要/Rehabilitation_services_occupational_therapy_and_physical_therapy.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "fac58d5a19e3cd074d4095bf3b233f0e460743d41529910a82c15aacb7ac57f3",
+      "size_bytes": 39946,
+      "mtime_ns": 1775891069201169200,
+      "status": "ok"
+    },
+    "Rehabilitation and prosthetic restoration in upper limb amputation/Rehabilitation and prosthetic restoration in upper limb amputation.md": {
+      "source_summaries": [
+        "10_來源摘要/Rehabilitation_and_prosthetic_restoration_in_upper_limb_amputation.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "98d57366951be3202c3c60c94fe82229053ba02f82f864ebed19cd0628f23b53",
+      "size_bytes": 105088,
+      "mtime_ns": 1776865628278000000,
+      "status": "ok"
+    },
+    "Rehabilitation of common rheumatological disorders/Rehabilitation of common rheumatological disorders.md": {
+      "source_summaries": [
+        "10_來源摘要/Rehabilitation_of_Common_Rheumatological_Disorders.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "0c1956f00d61b26fc64081c3d93d13412da75ec4f84cf702e3e633b728966653",
+      "size_bytes": 140221,
+      "mtime_ns": 1777528790879000000,
+      "status": "ok"
+    },
+    "Rehabilitation of swallowing disorders.pdf 的副本/Rehabilitation of swallowing disorders.pdf 的副本.md": {
+      "source_summaries": [
+        "10_來源摘要/Rehabilitation_of_swallowing_disorders.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "32901a063984a259b0b4d45b7bf2310bf23dd13997535f1f788132615dab9dd9",
+      "size_bytes": 116730,
+      "mtime_ns": 1776773428827000000,
+      "status": "ok"
+    },
+    "Reliability of critical power testing/Reliability of critical power testing.md": {
+      "source_summaries": [
+        "10_來源摘要/Triska_2017_CP_reliability.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "2dedcca96c7bc5d22fc91352553bcac4c22109dcb8ea0c4320b2bea0cc29f6d2",
+      "size_bytes": 48919,
+      "mtime_ns": 1775924293317161000,
+      "status": "ok"
+    },
+    "Repetitive Nerve Stimulation/Repetitive Nerve Stimulation.md": {
+      "source_summaries": [
+        "10_來源摘要/Repetitive_Nerve_Stimulation.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "f2b7129810bf5c578ebd19a148966364213b4ba8dd2d6021b89fcfc23c9d0da5",
+      "size_bytes": 40858,
+      "mtime_ns": 1778261867499000000,
+      "status": "ok"
+    },
+    "Routine Lower Extremity Nerve Conduction Techniques/Routine Lower Extremity Nerve Conduction Techniques.md": {
+      "source_summaries": [
+        "10_來源摘要/Routine_Lower_Extremity_NCS_Techniques.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "c88675495bd00e16fd4c5be440e0e37853086afc0af833641499b1fd3ba956ce",
+      "size_bytes": 27713,
+      "mtime_ns": 1778261918566000000,
+      "status": "ok"
+    },
+    "Routine Upper Extremity, Facial, and Phrenic Nerve Conduction Techniques/Routine Upper Extremity, Facial, and Phrenic Nerve Conduction Techniques.md": {
+      "source_summaries": [
+        "10_來源摘要/Routine_Upper_Extremity_Facial_Phrenic_NCS_Techniques.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "4d9a9ed61d535f77fc7377a4870f71930d016a9c8dc86d63a8e18f05bc7bdc07",
+      "size_bytes": 44757,
+      "mtime_ns": 1778261996519000000,
+      "status": "ok"
+    },
+    "Running Gait Assessment/Running Gait Assessment.md": {
+      "source_summaries": [
+        "10_來源摘要/Running_Gait_Assessment.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "8de2bb8d290f7737ba7e72abfc2790c40fb03e404d7b32adbbfd28d266a3b9ef",
+      "size_bytes": 58857,
+      "mtime_ns": 1776478882641000000,
+      "status": "ok"
+    },
+    "Running injuries of the lower extremities in adults_ Patient evaluation and common conditions - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Running_injuries_of_the_lower_extremities_in_adults_Patient_evaluation_and_common_conditions.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "ccdc421199c74b98af12c9100bfbd881162a19b5fcac70a5a35cf956b936013a",
+      "size_bytes": 153657,
+      "mtime_ns": 1775757766806786500,
+      "status": "ok"
+    },
+    "Running injuries of the lower extremities in adults_ Risk factors and prevention - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Running_injuries_of_the_lower_extremities_in_adults_Risk_factors_and_prevention.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "9022a7176442dd52853a50ab981462c5541baeffb30f7b5d72903b9cc0a56ae8",
+      "size_bytes": 119649,
+      "mtime_ns": 1775757716273091600,
+      "status": "ok"
+    },
+    "Sensory Processing Disorders/Sensory Processing Disorders.md": {
+      "source_summaries": [
+        "10_來源摘要/Sensory_Processing_Disorders.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "af8f4ad8d5072ce5cc5583de32e20cdfb6dbba561fc1265c631374e0b30cfa56",
+      "size_bytes": 39983,
+      "mtime_ns": 1775891068576394900,
+      "status": "ok"
+    },
+    "Serve and Return.md": {
+      "source_summaries": [
+        "10_來源摘要/Serve_and_Return.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "7c4276443e652128e6b4eae2851d1d0c3a0b71afe9ec86b6ef8edde8e7c3b626",
+      "size_bytes": 28548,
+      "mtime_ns": 1777122128637614900,
+      "status": "ok"
+    },
+    "Shoes and shoe modifications/Shoes and shoe modifications.md": {
+      "source_summaries": [
+        "10_來源摘要/Shoes_and_shoe_modifications.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "68d4a94ace47b7a72412d31f5d04e4ff7c4b0764852fcbc8d655f267897a9331",
+      "size_bytes": 34557,
+      "mtime_ns": 1776208940000000000,
+      "status": "ok"
+    },
+    "Sleep and Sleep Disorders in Children/Sleep and Sleep Disorders in Children.md": {
+      "source_summaries": [
+        "10_來源摘要/Sleep_and_Sleep_Disorders_in_Children.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "7cad1df2bc94d1418fd0b93eaa327f2a97370806d21b2ee026589d573cd2b763",
+      "size_bytes": 67692,
+      "mtime_ns": 1775891069171341900,
+      "status": "ok"
+    },
+    "Sleep in children and adolescents with attention deficit hyperactivity disorder.md": {
+      "source_summaries": [
+        "10_來源摘要/Sleep_in_children_and_adolescents_with_attention_deficit_hyperactivity_disorder.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "232afad7ccaffed4f2d670b02989c7001b053d3eaad00f9bc0f061cb28aa13a6",
+      "size_bytes": 108571,
+      "mtime_ns": 1776561000499634300,
+      "status": "ok"
+    },
+    "Smart_but_Scattered/Smart_but_Scattered.md": {
+      "source_summaries": [
+        "10_來源摘要/Smart_but_Scattered.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "91db79e3ba491847ac6dc451285fcd6276bc014cc6f1c05c8db4be30feb9ffd9",
+      "size_bytes": 949038,
+      "mtime_ns": 1775692212562650100,
+      "status": "ok"
+    },
+    "Sleep-related breathing disorders and stroke.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_sleep_related_breathing_disorders_and_stroke.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "9a212786e055dfede9c0f26a66ef47f8c786363df8763719e08bdfaa9bb14791",
+      "size_bytes": 88705,
+      "mtime_ns": 1777866445797795840,
+      "status": "ok"
+    },
+    "Spasticity/Spasticity.md": {
+      "source_summaries": [
+        "10_來源摘要/Spasticity.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "e49a7d3323705d5680ebba09f18e954a405fed58db344df01a2eaa7fe4e6fafb",
+      "size_bytes": 180622,
+      "mtime_ns": 1776865800506000000,
+      "status": "ok"
+    },
+    "Speech and language impairment in children_ Etiology - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Speech_and_language_impairment_in_children_Etiology.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "3ea47eb0a8b94fa77ea5b4252bd10d4ffa70ae69fd96a29461d772d6eea256fa",
+      "size_bytes": 54205,
+      "mtime_ns": 1775780889393471500,
+      "status": "ok"
+    },
+    "Speech and language impairment in children_ Evaluation, treatment, and prognosis - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Speech_and_language_impairment_in_children_Evaluation_treatment_and_prognosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "8a2e89a4abeabfe67e4eecb79272b5fcdc08ccec1edf1fb350b928b812a5495a",
+      "size_bytes": 66842,
+      "mtime_ns": 1775780914521685100,
+      "status": "ok"
+    },
+    "Spinal cord injury/Spinal cord injury.md": {
+      "source_summaries": [
+        "10_來源摘要/Spinal_cord_injury.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "3d6bc1372dfece6f473566adddf00e073361d52fec97d002add13c007d38b5ca",
+      "size_bytes": 441536,
+      "mtime_ns": 1776865926584000000,
+      "status": "ok"
+    },
+    "Spontaneous intracerebral hemorrhage_ Acute treatment and prognosis.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_spontaneous_intracerebral_hemorrhage_acute_treatment_prognosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "9d652bb68d829c0cd2e2ae26eb0dd2c81d562c59492e1e5b5c839c74190a14b4",
+      "size_bytes": 276766,
+      "mtime_ns": 1777895301208007500,
+      "status": "ok"
+    },
+    "Spontaneous intracerebral hemorrhage_ Pathogenesis, clinical features, and diagnosis (1).md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_spontaneous_intracerebral_hemorrhage_pathogenesis_clinical_features_diagnosis.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "2b4f62b5408ce1d9d11b77fc314f9b73247fdc5bc102699641967ffee623132a",
+      "size_bytes": 221304,
+      "mtime_ns": 1777895476424933500,
+      "status": "ok"
+    },
+    "Sports medicine and adaptive sports/Sports medicine and adaptive sports.md": {
+      "source_summaries": [
+        "10_來源摘要/Sports_Medicine_and_Adaptive_Sports.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "e1c897aa207406c14746c538f65401fd8cf7883dca623f20d7dc7214a46e3158",
+      "size_bytes": 236974,
+      "mtime_ns": 1777528843416000000,
+      "status": "ok"
+    },
+    "Sreedhara et al. Sports Medicine- Open/Sreedhara et al. Sports Medicine- Open.md": {
+      "source_summaries": [
+        "10_來源摘要/Sreedhara_2019_power_energy_models.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "58ec87851526e43fa27fe0d896e42eb7c51d8572eab93eb23700f03e7eb399cc",
+      "size_bytes": 72596,
+      "mtime_ns": 1775924328753281100,
+      "status": "ok"
+    },
+    "Stress_Disrupts_Architecture_Developing_Brain/Stress_Disrupts_Architecture_Developing_Brain.md": {
+      "source_summaries": [
+        "10_來源摘要/Excessive_Stress_Disrupts_Developing_Brain.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "a8385c04422e88913a7e2ee2ebe710cc4ee6faeb5479dbdacebb33c7d20d19d6",
+      "size_bytes": 47751,
+      "mtime_ns": 1777123034606000000,
+      "status": "ok"
+    },
+    "Stroke in patients with atrial fibrillation.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_stroke_in_patients_with_atrial_fibrillation.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "563674f52cdd247022a75384ee6fed86df57563a67e77ef46eb9db4dcdde8d20",
+      "size_bytes": 143333,
+      "mtime_ns": 1777894925676562500,
+      "status": "ok"
+    },
+    "Stroke rehabilitation/Stroke rehabilitation.md": {
+      "source_summaries": [
+        "10_來源摘要/Stroke_rehabilitation.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "532a6810b6fa1231b279980d062925ccc10da3b95f26519c91d4867cb7e1ed81",
+      "size_bytes": 161214,
+      "mtime_ns": 1776866011089000000,
+      "status": "ok"
+    },
+    "Stroke_ Etiology, classification, and epidemiology.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_stroke_etiology_classification_epidemiology.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "7813126dddc5f96d762a9603f931f7e17844a082765701438364b3943b1b5182",
+      "size_bytes": 95903,
+      "mtime_ns": 1777894741286259000,
+      "status": "ok"
+    },
+    "Syndesmotic ankle injury (high ankle sprain) - UpToDate.md": {
+      "source_summaries": [
+        "10_來源摘要/Syndesmotic_ankle_injury_high_ankle_sprain.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "a22839f7c73d9f938e519a8c364cfb30670b65ad29335e26cd0bbabc3376efdc",
+      "size_bytes": 134241,
+      "mtime_ns": 1775759758975176500,
+      "status": "ok"
+    },
+    "The Application of Critical Power, theWork Capacity/The Application of Critical Power, theWork Capacity.md": {
+      "source_summaries": [
+        "10_來源摘要/Chorley_Lamb_2020_CP_W_reconstitution_training.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "3388018eff02343dfaeef5e9a9a7a9205307f2481bba3da05ae112da1841b72c",
+      "size_bytes": 121556,
+      "mtime_ns": 1775924293770603900,
+      "status": "ok"
+    },
+    "The Critical Power Concept/The Critical Power Concept.md": {
+      "source_summaries": [
+        "10_來源摘要/Jones_Vanhatalo_2017_critical_power_concept.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "7ad08056e25bc2827e023edd414a27128f13dd79cd6bad0762e2ef31ae27fd97",
+      "size_bytes": 71048,
+      "mtime_ns": 1775761524677949100,
+      "status": "ok"
+    },
+    "The Influence of Digital Media on Children and Families/The Influence of Digital Media on Children and Families.md": {
+      "source_summaries": [
+        "10_來源摘要/The_Influence_of_Digital_Media_on_Children_and_Families.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "66ad36b3e62f178f1525b30b5effce1dc664bf2f87d3fb0395a417aa7a41b8ab",
+      "size_bytes": 51776,
+      "mtime_ns": 1775891068893823400,
+      "status": "ok"
+    },
+    "The Interaction of Foot Strike and Footwear in Runners/The Interaction of Foot Strike and Footwear in Runners.md": {
+      "source_summaries": [
+        "10_來源摘要/The_Interaction_of_Foot_Strike_and_Footwear_in_Runners.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "12b45e0f98a5572e9a54ed06184a73334d85d70782b99caaabcedf85a3a14bfa",
+      "size_bytes": 32082,
+      "mtime_ns": 1776479059514000000,
+      "status": "ok"
+    },
+    "The Physiatric History and Physical Examination handbook/The Physiatric History and Physical Examination handbook.md": {
+      "source_summaries": [
+        "10_來源摘要/The_Physiatric_History_and_Physical_Examination_handbook.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "96fb3a9740e1c75af95af26f15db7b4c00eb7303af81959c84fede20bf22144b",
+      "size_bytes": 70657,
+      "mtime_ns": 1776866060765000000,
+      "status": "ok"
+    },
+    "The physiatric history and physical examination/The physiatric history and physical examination.md": {
+      "source_summaries": [
+        "10_來源摘要/The_physiatric_history_and_physical_examination.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "5920171400a56d5eec964b5789dc78536bddfde64f39af2f17ff01a81cb26c30",
+      "size_bytes": 209833,
+      "mtime_ns": 1776866162525000000,
+      "status": "ok"
+    },
+    "Toddlerhood and the Preschool Years/Toddlerhood and the Preschool Years.md": {
+      "source_summaries": [
+        "10_來源摘要/Toddlerhood_and_the_Preschool_Years.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "8ce9f8802d5ec3f7595530e4d7411b57bf1ab41ea0c21aa67ce838126e1b1529",
+      "size_bytes": 81158,
+      "mtime_ns": 1775891068719176400,
+      "status": "ok"
+    },
+    "Trauma, Resilience, and Child Development/Trauma, Resilience, and Child Development.md": {
+      "source_summaries": [
+        "10_來源摘要/Trauma_Resilience_and_Child_Development.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "31adeed8b5bed878762b10bf6bce8c86447b26ab226b5a858d1fe1be52c1edba",
+      "size_bytes": 58082,
+      "mtime_ns": 1775891068766765600,
+      "status": "ok"
+    },
+    "Traumatic Spinal Cord Injury/Traumatic Spinal Cord Injury.md": {
+      "source_summaries": [
+        "10_來源摘要/Traumatic_Spinal_Cord_Injury.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "07323f3ea03a21534ff395e7c5832b663a96be71d1292a76490fa7c289dd127f",
+      "size_bytes": 469619,
+      "mtime_ns": 1777530135145000000,
+      "status": "ok"
+    },
+    "Traumatic brain injury/Traumatic brain injury.md": {
+      "source_summaries": [
+        "10_來源摘要/Traumatic_brain_injury.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "0218eee9cd82adb95112001d3a1cc785748443f73d9dd7177764e4f403e8ccd2",
+      "size_bytes": 454303,
+      "mtime_ns": 1776866234798000000,
+      "status": "ok"
+    },
+    "Treatment of vascular cognitive impairment and dementia.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_vascular_cognitive_impairment_dementia_treatment.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "6df75a01ee30d6063ac28e0c5458e942d462b28e2a0ad5a4f34fcbb30ce2107c",
+      "size_bytes": 63449,
+      "mtime_ns": 1777896183097194000,
+      "status": "ok"
+    },
+    "Unipolar depression in adults_ Indications, efficacy, and safety of transcranial magnetic stimulation (TMS).md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_unipolar_depression_TMS_indications_efficacy_safety.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "c51794f7133bf89850f2fff9847173b82017cbd9b22e4fad7b1fe3848c77d5b5",
+      "size_bytes": 173227,
+      "mtime_ns": 1777896246055154000,
+      "status": "ok"
+    },
+    "Upper limb pain and dysfunction/Upper limb pain and dysfunction.md": {
+      "source_summaries": [
+        "10_來源摘要/Upper_Limb_Pain_and_Dysfunction.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "09ac079f76eb70181ffa20386d4e006bc4659d70095cca23a0a8a5a847a8c0ec",
+      "size_bytes": 105127,
+      "mtime_ns": 1777528882554000000,
+      "status": "ok"
+    },
+    "WHO guidelines on parenting interventions/WHO guidelines on parenting interventions.md": {
+      "source_summaries": [
+        "10_來源摘要/WHO_guidelines_on_parenting_interventions.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "6fdd846c1068e1643e6153a1f9783857c30f767821325ccc87a00f8a11f5b2c8",
+      "size_bytes": 207109,
+      "mtime_ns": 1777612144616000000,
+      "status": "ok"
+    },
+    "Webinar_Transcript_Stability/Webinar_Transcript_Stability.md": {
+      "source_summaries": [
+        "10_來源摘要/Why_Stability_Matters_Webinar.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "4062f6746530bf3566400e228b3534e44cc0bd3d9e0500d2fedc266255dc904c",
+      "size_bytes": 66410,
+      "mtime_ns": 1777123069230000000,
+      "status": "ok"
+    },
+    "ajvr-ajvr.2000.61.638/ajvr-ajvr.2000.61.638.md": {
+      "source_summaries": [
+        "10_來源摘要/Geor_2000_horse_warmup_VO2_VCO2_kinetics.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "c96b5b05f6d60c5ccb44c4e9cb8004a8c68ea5abd3edb2ef2d6fe99f393f2fbf",
+      "size_bytes": 45757,
+      "mtime_ns": 1775906004000000000,
+      "status": "ok"
+    },
+    "bf00235176/bf00235176.md": {
+      "source_summaries": [
+        "10_來源摘要/Zhang_1991_fitness_VO2_VCO2_step_kinetics.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "ff84cd27eba008deb336153e1a7b9dcdbfc8c65969d64087844643cc8cd6ee10",
+      "size_bytes": 24851,
+      "mtime_ns": 1775924328108248200,
+      "status": "ok"
+    },
+    "blemker-et-al-2023-fiber-type-traps-revisiting-common-misconceptions-about-skeletal-muscle-fiber-types-with-application/blemker-et-al-2023-fiber-type-traps-revisiting-common-misconceptions-about-skeletal-muscle-fiber-types-with-application.md": {
+      "source_summaries": [
+        "10_來源摘要/Blemker_2023_fiber_type_traps.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "aa47622093d228c289405a60384159fd82c68263815bdead68877f2d9f59a630",
+      "size_bytes": 93299,
+      "mtime_ns": 1776697270350000000,
+      "status": "ok"
+    },
+    "characterizing_the_exponential_profile_of_w_.24/characterizing_the_exponential_profile_of_w_.24.md": {
+      "source_summaries": [
+        "10_來源摘要/Lievens_2024_partial_Wprime_recovery.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "24dac63780ac240f0f7e9a935bb8c952010a159902fb8253a27d8ea82d199855",
+      "size_bytes": 65768,
+      "mtime_ns": 1775919004000000000,
+      "status": "ok"
+    },
+    "cognitive control.md": {
+      "source_summaries": [
+        "10_來源摘要/Cognitive_Control.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "a4946a4316a582ebb4bf9207ea5ea223913336a9a9a99b89a7da11e06205968a",
+      "size_bytes": 118056,
+      "mtime_ns": 1776565139227000000,
+      "status": "ok"
+    },
+    "effect_of_work_and_recovery_durations_on_w_.20/effect_of_work_and_recovery_durations_on_w_.20.md": {
+      "source_summaries": [
+        "10_來源摘要/Skiba_2014_work_recovery_durations_Wprime_reconstitution.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "6fede6ff41c0fcbfcf6a78b75b9273ab69ad8e0121156b81dd1c9862185b71e0",
+      "size_bytes": 40607,
+      "mtime_ns": 1775924294537571400,
+      "status": "ok"
+    },
+    "egan-sharples-2023-molecular-responses-to-acute-exercise-and-their-relevance-for-adaptations-in-skeletal-muscle-to/egan-sharples-2023-molecular-responses-to-acute-exercise-and-their-relevance-for-adaptations-in-skeletal-muscle-to.md": {
+      "source_summaries": [
+        "10_來源摘要/Egan_Sharples_2023_acute_exercise_molecular_responses.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "b4c331e453c16eee3f7a02e5557b05ec42869b0ff00b772f5a686fae65381715",
+      "size_bytes": 786886,
+      "mtime_ns": 1777460722924000000,
+      "status": "ok"
+    },
+    "ferguson-et-al-2010-effect-of-recovery-duration-from-prior-exhaustive-exercise-on-the-parameters-of-the-power-duration/effect of recovery duration from prior exhaustive exercise on the parameters of the power duration.md": {
+      "source_summaries": [
+        "10_來源摘要/Ferguson_2010_Wprime_recovery_after_exhaustion.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "4034a145f470e0628c85b1d89ae831b08352d4b33a83528c3c98704011e7bc8f",
+      "size_bytes": 58696,
+      "mtime_ns": 1775924533861666300,
+      "status": "ok"
+    },
+    "francescato-cettolo-2021-influence-of-the-fitting-window-on-the-o2-uptake-kinetics-at-the-onset-of-moderate-intensity/influence of the fitting window on the o2 uptake kinetics at the onset of moderate intensity.md": {
+      "source_summaries": [
+        "10_來源摘要/Francescato_Cettolo_2021_VO2_fitting_window.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "ac3a0f5d97150a1a8dbf66f17bf7f106a60b0a1d5aae25e9f075e69dee891bf0",
+      "size_bytes": 62962,
+      "mtime_ns": 1775924457227086200,
+      "status": "ok"
+    },
+    "furrer-et-al-2023-the-molecular-athlete-exercise-physiology-from-mechanisms-to-medals/furrer-et-al-2023-the-molecular-athlete-exercise-physiology-from-mechanisms-to-medals.md": {
+      "source_summaries": [
+        "10_來源摘要/Furrer_2023_molecular_athlete.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "18a483ea6eade40caa436a36650cb6d2d552254f35e7deaaff262d22f6e66cd3",
+      "size_bytes": 600156,
+      "mtime_ns": 1777461249636000000,
+      "status": "ok"
+    },
+    "jcdd-11-00070/jcdd-11-00070.md": {
+      "source_summaries": [
+        "10_來源摘要/Juarez_2024_CPET_in_heart_failure.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "d0ad6e115b8352b1f4a6160550bb4ac869d3740274b9b2850840db2cbd65d403",
+      "size_bytes": 79334,
+      "mtime_ns": 1777461502198000000,
+      "status": "ok"
+    },
+    "jcm-12-05465-v2/jcm-12-05465-v2.md": {
+      "source_summaries": [
+        "10_來源摘要/Pezzuto_Agostoni_2023_CPET_pulmonary_hypertension.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "f01def7c4d0157022a5f0cbe0c53962936beb4d0e9f157c10a788c475fba6c79",
+      "size_bytes": 116964,
+      "mtime_ns": 1777461686509000000,
+      "status": "ok"
+    },
+    "journal.pmed.1003602/journal.pmed.1003602.md": {
+      "source_summaries": [
+        "10_來源摘要/Jeong_2021_parenting_interventions_ECD_first_three_years.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "7053ee7332d30fea56c99db35915ce9e8908feafdefe1531dd9a76415b6dcb4c",
+      "size_bytes": 318996,
+      "mtime_ns": 1777524818734000000,
+      "status": "ok"
+    },
+    "korzeniewski-zoladz-2013-slow-v̇o2-off-kinetics-in-skeletal-muscle-is-associated-with-fast-pcr-off-kinetics-and/korzeniewski-zoladz-2013-slow-v̇o2-off-kinetics-in-skeletal-muscle-is-associated-with-fast-pcr-off-kinetics-and.md": {
+      "source_summaries": [
+        "10_來源摘要/Korzeniewski_Zoladz_2013_VO2_off_PCr_off_kinetics.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "edb8f3604ca0bdc95599664ac385b000619f0313935070e6e0b64063c3086055",
+      "size_bytes": 51581,
+      "mtime_ns": 1775924293833606400,
+      "status": "ok"
+    },
+    "korzeniewski-zoladz-2015-possible-mechanisms-underlying-slow-component-of-v̇o2-on-kinetics-in-skeletal-muscle/korzeniewski-zoladz-2015-possible-mechanisms-underlying-slow-component-of-v̇o2-on-kinetics-in-skeletal-muscle.md": {
+      "source_summaries": [
+        "10_來源摘要/Korzeniewski_Zoladz_2015_VO2_slow_component_mechanisms.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "7384b24a7eca58e4ed4aae4971671ab2a1336c176f8b6dae0598134df2f8fa5b",
+      "size_bytes": 61494,
+      "mtime_ns": 1775924293523950700,
+      "status": "ok"
+    },
+    "ma-et-al-2010-clarifying-the-equation-for-modeling-of-v̇o2-kinetics-above-the-lactate-threshold (2)/ma-et-al-2010-clarifying-the-equation-for-modeling-of-v̇o2-kinetics-above-the-lactate-threshold (2).md": {
+      "source_summaries": [
+        "10_來源摘要/Ma_2010_Heaviside_VO2_kinetics_equation.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "4bafd91390a2d4ae36ba5092dda2bf3ead4d7bf8c6e1389751a465ff694c1302",
+      "size_bytes": 7005,
+      "mtime_ns": 1775918486000000000,
+      "status": "ok"
+    },
+    "modeling_the_expenditure_and_reconstitution_of.15/modeling_the_expenditure_and_reconstitution_of.15.md": {
+      "source_summaries": [
+        "10_來源摘要/Skiba_2012_modeling_Wprime_expenditure_reconstitution.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "3e27ca75f3d5890e3d2432bfbb32ab53e60f6b5f4504a0c94a172d2da343dc48",
+      "size_bytes": 37608,
+      "mtime_ns": 1775924328827515100,
+      "status": "ok"
+    },
+    "nihms-1908393/nihms-1908393.md": {
+      "source_summaries": [
+        "10_來源摘要/Smith_2023_exercise_metabolism_adaptation_skeletal_muscle.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "b67fa1af73d3dcfe6f581f4505dad2b9d8777a590e88a6c5dde55d95af5dd8af",
+      "size_bytes": 198674,
+      "mtime_ns": 1777461950392000000,
+      "status": "ok"
+    },
+    "nurturing care practice guide/nurturing care practice guide.md": {
+      "source_summaries": [
+        "10_來源摘要/Nurturing_Care_Practice_Guide.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "663b40732ff1c6a02f5d5159db9c9b95ecdf86ebe300300785dba3202c2af623",
+      "size_bytes": 189893,
+      "mtime_ns": 1777983336506000000,
+      "status": "ok"
+    },
+    "pain management Bradley and Daroff's Neurology in Clinical Practice, 52, 753-775.e2/pain management Bradley and Daroff's Neurology in Clinical Practice, 52, 753-775.e2.md": {
+      "source_summaries": [
+        "10_來源摘要/Bradley_Daroff_Pain_Management.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "7e7a953d38fcea6f3bee02da10e4750824ad4b7a4ab700f469c20c5f2bc4172f",
+      "size_bytes": 167324,
+      "mtime_ns": 1777530255187000000,
+      "status": "ok"
+    },
+    "pettitt-jamnick-2017-commentary-on-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable/pettitt-jamnick-2017-commentary-on-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable.md": {
+      "source_summaries": [
+        "10_來源摘要/Pettitt_Jamnick_2017_VO2max_verification_commentary.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "5e236150ca6466262c03abdfd3dd834adbab85105edc4cfb77d7f6210cc0e3cc",
+      "size_bytes": 5145,
+      "mtime_ns": 1776698716592000000,
+      "status": "ok"
+    },
+    "poole-jones-2017-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable/poole-jones-2017-measurement-of-the-maximum-oxygen-uptake-v̇o2max-v̇o2peak-is-no-longer-acceptable.md": {
+      "source_summaries": [
+        "10_來源摘要/Poole_Jones_2017_VO2max_verification.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "6ca0d6248bb2023637c90c63c57214f677e71c994142d99c22b7041904f6d791",
+      "size_bytes": 41249,
+      "mtime_ns": 1776698843293000000,
+      "status": "ok"
+    },
+    "s00421-014-3050-3/s00421-014-3050-3.md": {
+      "source_summaries": [
+        "10_來源摘要/Skiba_2015_intramuscular_determinants_Wprime_recovery.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "e77f19d499b7051b701cca4926d71013c466236e07c9a11da0f9c786baaeda97",
+      "size_bytes": 57379,
+      "mtime_ns": 1775924328609756200,
+      "status": "ok"
+    },
+    "s00421-021-04874-3/s00421-021-04874-3.md": {
+      "source_summaries": [
+        "10_來源摘要/Chorley_2021_biexponential_Wprime_reconstitution_trained_cyclists.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "009484af2e2f64b2b76df63be2813476f64f65572d8449105f7ccacb7e2b3a39",
+      "size_bytes": 71358,
+      "mtime_ns": 1775924320525346000,
+      "status": "ok"
+    },
+    "s40279-022-01805-w/s40279-022-01805-w.md": {
+      "source_summaries": [
+        "10_來源摘要/Goulding_Marwood_2023_critical_power_determinants.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "bc18f2d16a755cc5592cf0a47c143929e6c9fe3259c668bf409e15fed38abf1b",
+      "size_bytes": 131660,
+      "mtime_ns": 1777462196085000000,
+      "status": "ok"
+    },
+    "s40279-023-01832-1/s40279-023-01832-1.md": {
+      "source_summaries": [
+        "10_來源摘要/Goulding_2023_priming_exercise_VO2_kinetics.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "7d22fe724bfb71199fb2708bcc973b45bb0c02dc9170f975c2b4f8dde5c96d1c",
+      "size_bytes": 107584,
+      "mtime_ns": 1777983509924000000,
+      "status": "ok"
+    },
+    "s41586-026-10410-0/s41586-026-10410-0.md": {
+      "source_summaries": [
+        "10_來源摘要/Ibrahim_Hafner_Rocher_2026_warmth_accuracy_sycophancy.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "b280b6c6fb806ec89e0f25a70f2ee26ff632a24ea451f8f124f0968852226a37",
+      "size_bytes": 59992,
+      "mtime_ns": 1777612304096000000,
+      "status": "ok"
+    },
+    "sports-07-00031-v2/sports-07-00031-v2.md": {
+      "source_summaries": [
+        "10_來源摘要/Zacca_2019_VO2FITTING_software.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "b8b366971cc6417ef9db6cab85ea55a08ee273cbf71904943a9852bacdc3c42b",
+      "size_bytes": 58002,
+      "mtime_ns": 1775905866000000000,
+      "status": "ok"
+    },
+    "sports7020031/sports7020031.md": {
+      "source_summaries": [
+        "10_來源摘要/Zacca_2019_VO2FITTING_software.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "879b033a304f2bbb7bf14547ce54cbd4bcc68ca568d45468b914a6adf98df67b",
+      "size_bytes": 58252,
+      "mtime_ns": 1775924328306397700,
+      "status": "ok"
+    },
+    "the-real-happy-pill-power-up-your-brain-by-moving-your-body-1/the-real-happy-pill-power-up-your-brain-by-moving-your-body-1.md": {
+      "source_summaries": [
+        "10_來源摘要/The_Real_Happy_Pill.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "1756d7e0559956fe85f2a4cf0abb472d02448b0b8d687fca2b40bd7c7a79d8e9",
+      "size_bytes": 403510,
+      "mtime_ns": 1776685166687000000,
+      "status": "ok"
+    },
+    "the_reconstitution_of_w__depends_on_both_work_and.22/the_reconstitution_of_w__depends_on_both_work_and.22.md": {
+      "source_summaries": [
+        "10_來源摘要/Caen_2019_Wprime_reconstitution_depends_on_work_and_recovery.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "3c2f0dc19982ce17fa8dd9b5387ea49f1f5f458c3c58ab7d74302c4f4585ac55",
+      "size_bytes": 41428,
+      "mtime_ns": 1775924294337390800,
+      "status": "ok"
+    },
+    "w__recovery_kinetics_after_exhaustion__a_two_phase/w__recovery_kinetics_after_exhaustion__a_two_phase.md": {
+      "source_summaries": [
+        "10_來源摘要/Caen_2021_Wprime_recovery_two_phase.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "2820f565a0c3250769e14daead21f3bf5a0ecbf6357115624a017d8530346bd5",
+      "size_bytes": 65518,
+      "mtime_ns": 1775924294047029700,
+      "status": "ok"
+    },
+    "wp15_health_FINALv2/wp15_health_FINALv2.md": {
+      "source_summaries": [
+        "10_來源摘要/Connecting_the_Brain_to_the_Rest_of_the_Body.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "56928dd128d2a282298cf14fdd01a14f9646acc4f3c524df1f69d13a498b1665",
+      "size_bytes": 99322,
+      "mtime_ns": 1777123115926000000,
+      "status": "ok"
+    },
+    "兒童發展聯合評估綜合報告書操作手冊(111年7月版)/兒童發展聯合評估綜合報告書操作手冊(111年7月版).md": {
+      "source_summaries": [
+        "10_來源摘要/兒童發展聯合評估綜合報告書操作手冊_111年7月版.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "053e6ae2a9d0d5b0b492f0f241c635ed525fdf09acb11dab7625b41661e77506",
+      "size_bytes": 427218,
+      "mtime_ns": 1776565225187000000,
+      "status": "ok"
+    },
+    "教孩子跟情緒做朋友.md": {
+      "source_summaries": [
+        "10_來源摘要/教孩子跟情緒做朋友.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "69552714a669305bbd9d145f9c95c6254ab4ed424cb1c19e4f07e2ff736e1c56",
+      "size_bytes": 270489,
+      "mtime_ns": 1775758027456175800,
+      "status": "ok"
+    },
+    "Overview of ischemic stroke prognosis in adults.md": {
+      "source_summaries": [
+        "10_來源摘要/UpToDate_overview_ischemic_stroke_prognosis_adults.md"
+      ],
+      "last_checked": "2026-05-13",
+      "sha256": "8fbe19b11e62712699f45bfa0285707f8bf212a9c48f99b3d8594c44bd9f463b",
+      "size_bytes": 165452,
+      "mtime_ns": 1777894820140000000,
+      "status": "ok"
+    }
+  }
+}

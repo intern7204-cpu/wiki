@@ -131,5 +131,5 @@ contradictions:
 - [[../06_Gait_Biomechanics/跑步步態評估]]
 - [[../06_Gait_Biomechanics/步態評估總論]]
 - [[../06_Gait_Biomechanics/跑步步頻調整]]
-- [[../03_疾病與臨床主題/Patellofemoral_Pain]]
-- [[../03_疾病與臨床主題/跑者膝部疼痛]]
+- [[../06_Gait_Biomechanics/Patellofemoral_Pain]]
+- [[../06_Gait_Biomechanics/跑者膝部疼痛]]

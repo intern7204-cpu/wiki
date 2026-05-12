@@ -8,6 +8,7 @@ tags: [EDX, NCS, EMG, anomalous_innervation, Martin_Gruber_anastomosis, accessor
 sources:
   - 10_來源摘要/Anomalous_Innervations.md
   - 10_來源摘要/Routine_Upper_Extremity_Facial_Phrenic_NCS_Techniques.md
+  - 10_來源摘要/Routine_Lower_Extremity_NCS_Techniques.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -27,7 +28,7 @@ EDX 異常神經支配變異判讀，是在 NCS / EMG 出現不合解剖預期�
 
 - 本頁聚焦 anomalous innervation 如何改變 EDX interpretation。
 - 本頁不整理 routine upper / lower extremity NCS protocol，也不建立 CTS、UNE、PNFN、CIDP 或 GBS 的完整 diagnostic criteria。
-- 本頁以 [[../10_來源摘要/Anomalous_Innervations]] 為主要來源，並用 [[../10_來源摘要/Routine_Upper_Extremity_Facial_Phrenic_NCS_Techniques]] 補足 routine upper-extremity NCS 中應觸發 variant review 的 protocol clue。
+- 本頁以 [[../10_來源摘要/Anomalous_Innervations]] 為主要來源，並用 [[../10_來源摘要/Routine_Upper_Extremity_Facial_Phrenic_NCS_Techniques]] 與 [[../10_來源摘要/Routine_Lower_Extremity_NCS_Techniques]] 補足 routine NCS 中應觸發 variant review 的 protocol clue。
 - Anomalous innervation 不是 technical error；它是正常 anatomic variant，但可以製造看起來像 technical error 或 pathology 的 waveform pattern。
 
 ## Why It Matters
@@ -74,6 +75,7 @@ Variant motor / sensory pathway
 - MGA 會改變 needle EMG：proximal median lesion 可異常影響 ulnar-innervated hand muscles；proximal ulnar lesion 可 paradoxically spare 部分 ulnar hand muscles。
 - APN 是 lower extremity 常見 anomalous innervation，來自 distal superficial peroneal nerve，走 lateral calf、posterior to lateral malleolus，供應 EDB lateral portion。
 - Routine peroneal motor study recording EDB：APN 可使 below-fibular-neck / lateral-popliteal-fossa CMAP amplitude 高於 ankle stimulation。
+- Routine lower-extremity protocol 也指出 peroneal EDB below-fibular-head or popliteal-fossa CMAP amplitude higher than ankle should trigger APN consideration。
 - APN confirmation：刺激 posterior to lateral malleolus while recording EDB；若 APN 存在會有 small CMAP。
 - APN plus peroneal neuropathy at fibular neck 可形成 ankle low、fibular-neck high、lateral-popliteal-fossa low 的 low-high-low pattern。
 - MGA plus UNE 可形成 forearm "block" 加 across-elbow block 的 multiple block-like pattern，模仿 acquired demyelinating polyneuropathy。
@@ -132,6 +134,8 @@ Variant motor / sensory pathway
 - [[EDX_技術假象與品質控制]]
 - [[NCS_軸突損失與脫髓鞘判讀]]
 - [[Upper_Extremity_NCS_常規技術與陷阱]]
+- [[Lower_Extremity_NCS_常規技術與陷阱]]
 - [[../09_NCV EMG 周邊神經病變/周邊神經病灶定位與EDX_US框架]]
 - [[../10_來源摘要/Anomalous_Innervations]]
 - [[../10_來源摘要/Routine_Upper_Extremity_Facial_Phrenic_NCS_Techniques]]
+- [[../10_來源摘要/Routine_Lower_Extremity_NCS_Techniques]]

@@ -1,12 +1,13 @@
 ---
 title: Spontaneous ICH 診斷與病因分層
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-12
 type: clinical
 domain: [neurology, stroke, emergency_medicine, neurocritical_care, rehabilitation]
-tags: [intracerebral_hemorrhage, ICH, hemorrhagic_stroke, diagnosis, CT, MRI, CTA, spot_sign, hematoma_expansion, hypertensive_vasculopathy, cerebral_amyloid_angiopathy]
+tags: [intracerebral_hemorrhage, ICH, hemorrhagic_stroke, diagnosis, CT, MRI, CTA, spot_sign, hematoma_expansion, hypertensive_vasculopathy, cerebral_amyloid_angiopathy, moyamoya]
 sources:
   - 10_來源摘要/UpToDate_spontaneous_intracerebral_hemorrhage_pathogenesis_clinical_features_diagnosis.md
+  - 10_來源摘要/UpToDate_moyamoya_etiology_clinical_features_diagnosis.md
 source_tier: 6
 evidence_level: clinical_topic_review
 confidence: moderate_to_high
@@ -32,7 +33,7 @@ Spontaneous ICH 診斷與病因分層是 adult atraumatic intracerebral hemorrha
 - Acute treatment protocol：見 [[Spontaneous_ICH_急性抗擴大與Neurocritical_Stabilization]]。
 - Secondary prevention / recurrence prevention。
 - SAH、traumatic ICH、pediatric hemorrhagic stroke、newborn stroke。
-- CAA、AVM、RCVS、moyamoya、cerebral venous thrombosis 的完整專題。
+- CAA、AVM、RCVS、[[Moyamoya_臨床辨識與診斷影像|moyamoya]]、cerebral venous thrombosis 的完整專題。
 
 ## Why It Matters
 
@@ -70,7 +71,7 @@ Small-vessel disease, CAA, vascular lesion, venous thrombosis, coagulopathy, tum
 - Hypertensive vasculopathy commonly affects penetrating artery territories：putamen、thalamus、pons/midbrain、basal ganglia、cerebellar nuclei。
 - CAA weakens small- to medium-sized cortical/leptomeningeal vessels and is an important cause of lobar ICH in older adults。
 - CMB distribution helps: deep CMBs favor hypertensive vasculopathy；lobar CMBs favor CAA。
-- Less common causes include AVM/cavernous malformation、cerebral venous thrombosis、hemorrhagic infarction、RCVS、tumor、CNS infection、moyamoya、vasculitis、coagulopathy and sympathomimetic drug exposure。
+- Less common causes include AVM/cavernous malformation、cerebral venous thrombosis、hemorrhagic infarction、RCVS、tumor、CNS infection、[[Moyamoya_臨床辨識與診斷影像|moyamoya]]、vasculitis、coagulopathy and sympathomimetic drug exposure。
 
 ### Clinical Localization
 
@@ -162,3 +163,4 @@ Small-vessel disease, CAA, vascular lesion, venous thrombosis, coagulopathy, tum
 - [[Acute_Stroke_Initial_Assessment與Stabilization]]
 - [[中風併發症總覽]]
 - [[中風復健總論]]
+- [[Moyamoya_臨床辨識與診斷影像]]

@@ -64,7 +64,7 @@ class WikiHealthCheckTests(unittest.TestCase):
                 "06_Gait_Biomechanics",
                 "07_Pediatric_Development",
                 "08_工具與Workflow",
-                "09_來源摘要",
+                "10_來源摘要",
             ]:
                 (wiki / folder).mkdir(parents=True, exist_ok=True)
 
@@ -88,7 +88,7 @@ class WikiHealthCheckTests(unittest.TestCase):
                 ## 04 CPET
                 - [[04_CPET/Page_A]] — page a
                 ## 09 來源摘要
-                - [[09_來源摘要/Source_One]] — source one
+                - [[10_來源摘要/Source_One]] — source one
                 """,
             )
             write(
@@ -101,7 +101,7 @@ class WikiHealthCheckTests(unittest.TestCase):
                 type: concept
                 domain: [CPET]
                 tags: [a]
-                sources: [09_來源摘要/Source_One.md]
+                sources: [10_來源摘要/Source_One.md]
                 source_tier: 1
                 evidence_level: consensus
                 confidence: high
@@ -122,7 +122,7 @@ class WikiHealthCheckTests(unittest.TestCase):
                 type: concept
                 domain: [CPET]
                 tags: [b]
-                sources: [09_來源摘要/Source_One.md]
+                sources: [10_來源摘要/Source_One.md]
                 source_tier: 1
                 evidence_level: consensus
                 confidence: high
@@ -143,7 +143,7 @@ class WikiHealthCheckTests(unittest.TestCase):
                 type: concept
                 domain: [CPET]
                 tags: [orphan]
-                sources: [09_來源摘要/Source_One.md]
+                sources: [10_來源摘要/Source_One.md]
                 source_tier: 1
                 evidence_level: consensus
                 confidence: high
@@ -155,7 +155,7 @@ class WikiHealthCheckTests(unittest.TestCase):
                 """,
             )
             write(
-                wiki / "09_來源摘要/Source_One.md",
+                wiki / "10_來源摘要/Source_One.md",
                 """
                 ---
                 title: Source One
@@ -237,7 +237,7 @@ class WikiHealthCheckTests(unittest.TestCase):
 
             for folder in [
                 "08_工具與Workflow",
-                "09_來源摘要",
+                "10_來源摘要",
             ]:
                 (wiki / folder).mkdir(parents=True, exist_ok=True)
 
@@ -248,7 +248,7 @@ class WikiHealthCheckTests(unittest.TestCase):
             raw_file = raw / "opaque" / "00140130412331290899.md"
             write(raw_file, "raw content\n")
             write(
-                wiki / "09_來源摘要/opaque_summary.md",
+                wiki / "10_來源摘要/opaque_summary.md",
                 f"""
                 ---
                 title: opaque summary
@@ -265,7 +265,7 @@ class WikiHealthCheckTests(unittest.TestCase):
                 ---
 
                 - 原始檔：`原始資料/opaque/00140130412331290899.md`
-                [[09_來源摘要/opaque_summary]]
+                [[10_來源摘要/opaque_summary]]
                 """,
             )
 
@@ -282,7 +282,7 @@ class WikiHealthCheckTests(unittest.TestCase):
             for folder in [
                 "08_工具與Workflow",
                 "04_CPET",
-                "09_來源摘要",
+                "10_來源摘要",
             ]:
                 (wiki / folder).mkdir(parents=True, exist_ok=True)
 
@@ -334,7 +334,7 @@ class WikiHealthCheckTests(unittest.TestCase):
                 """,
             )
             write(
-                wiki / "09_來源摘要/real_conflict.md",
+                wiki / "10_來源摘要/real_conflict.md",
                 """
                 ---
                 title: real conflict
@@ -358,7 +358,65 @@ class WikiHealthCheckTests(unittest.TestCase):
             paths = {item["path"] for item in report["contradiction_candidates"]}
             self.assertNotIn("08_工具與Workflow/flow.md", paths)
             self.assertNotIn("04_CPET/method.md", paths)
-            self.assertIn("09_來源摘要/real_conflict.md", paths)
+            self.assertIn("10_來源摘要/real_conflict.md", paths)
+
+    def test_source_manifest_detects_missing_manifest_and_source_drift(self):
+        module = load_module()
+        with tempfile.TemporaryDirectory() as wiki_dir, tempfile.TemporaryDirectory() as raw_dir:
+            wiki = Path(wiki_dir)
+            raw = Path(raw_dir) / "原始資料"
+            raw_file = raw / "topic" / "source.md"
+            write(raw_file, "original content\n")
+
+            for folder in [
+                "08_工具與Workflow",
+                "10_來源摘要",
+            ]:
+                (wiki / folder).mkdir(parents=True, exist_ok=True)
+
+            write(wiki / "index.md", "# index\n")
+            write(wiki / "SCHEMA.md", "# schema\n")
+            write(wiki / "log.md", "# log\n")
+            write(
+                wiki / "10_來源摘要/source_summary.md",
+                f"""
+                ---
+                title: source summary
+                created: 2026-05-12
+                updated: 2026-05-12
+                type: source_summary
+                domain: [methodology]
+                tags: [summary]
+                source_path: '{raw_file}'
+                source_tier: 1
+                evidence_level: consensus
+                confidence: high
+                contested: false
+                contradictions: []
+                ---
+
+                [[10_來源摘要/source_summary]]
+                """,
+            )
+
+            missing_report = module.analyze_wiki(wiki, raw)
+            self.assertEqual(
+                [item["path"] for item in missing_report["source_manifest_missing"]],
+                ["topic/source.md"],
+            )
+
+            pages = module.iter_wiki_pages(wiki)
+            module.write_source_manifest(pages, wiki, raw)
+            clean_report = module.analyze_wiki(wiki, raw)
+            self.assertEqual(clean_report["source_manifest_missing"], [])
+            self.assertEqual(clean_report["source_drift"], [])
+
+            write(raw_file, "changed content\n")
+            drift_report = module.analyze_wiki(wiki, raw)
+            self.assertEqual(
+                [item["path"] for item in drift_report["source_drift"]],
+                ["topic/source.md"],
+            )
 
     def test_caps_raw_verification_queue_at_five_by_priority(self):
         module = load_module()

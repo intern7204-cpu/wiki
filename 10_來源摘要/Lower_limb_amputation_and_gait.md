@@ -61,7 +61,7 @@ contradictions:
 
 ### 對現有 wiki 的意義
 
-- 為 [[../03_疾病與臨床主題/下肢截肢復健總論]] 提供主骨架。
+- 為 [[../06_Gait_Biomechanics/下肢截肢復健總論]] 提供主骨架。
 - 補強 [[../06_Gait_Biomechanics/步態評估總論]] 中義肢步態的專門段落。
 
 - 什麼情況要治療？先看是否真的改變 pain、function、safety、participation 或訓練輸出。
@@ -111,6 +111,6 @@ contradictions:
 
 ### 相關 wiki 頁面
 
-- [[../03_疾病與臨床主題/下肢截肢復健總論]]
+- [[../06_Gait_Biomechanics/下肢截肢復健總論]]
 - [[../06_Gait_Biomechanics/步態評估總論]]
 - [[../03_疾病與臨床主題/PMR_評估總論]]

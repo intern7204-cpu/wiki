@@ -61,8 +61,8 @@ contradictions:
 
 ### 對現有 wiki 的意義
 
-- 直接支撐 [[../03_疾病與臨床主題/Syndesmotic_ankle_injury]]。
-- 也補強 [[../03_疾病與臨床主題/Ankle_sprain_總論]] 的 red flag 與 differential。
+- 直接支撐 [[../06_Gait_Biomechanics/Syndesmotic_ankle_injury]]。
+- 也補強 [[../06_Gait_Biomechanics/Ankle_sprain_總論]] 的 red flag 與 differential。
 
 - 什麼情況要治療？先看是否真的改變 pain、function、safety、participation 或訓練輸出。
 - 什麼情況要轉介？遇到 red flags、診斷不確定、需要程序性介入或超出本頁可處理範圍時。
@@ -114,6 +114,6 @@ contradictions:
 
 ### 相關 wiki 頁面
 
-- [[../03_疾病與臨床主題/Syndesmotic_ankle_injury]]
-- [[../03_疾病與臨床主題/Ankle_sprain_總論]]
+- [[../06_Gait_Biomechanics/Syndesmotic_ankle_injury]]
+- [[../06_Gait_Biomechanics/Ankle_sprain_總論]]
 - [[../06_Gait_Biomechanics/步態評估總論]]

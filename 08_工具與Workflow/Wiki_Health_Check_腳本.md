@@ -1,7 +1,7 @@
 ---
 title: Wiki health check 腳本
 created: 2026-04-23
-updated: 2026-04-24
+updated: 2026-05-12
 type: workflow
 domain: [methodology]
 tags: [wiki_maintenance, lint, automation, health_check]
@@ -32,6 +32,7 @@ contradictions: []
 python C:\知識百科\08_工具與Workflow\wiki_health_check.py `
   --wiki C:\知識百科 `
   --raw C:\原始資料 `
+  --update-source-manifest `
   --format markdown `
   --output C:\知識百科\08_工具與Workflow\health_check_report_latest.md
 ```
@@ -61,6 +62,9 @@ python C:\知識百科\08_工具與Workflow\wiki_health_check.py `
 - stale candidates（舊結論未被新來源更新）
 - contradiction candidates（相互矛盾但未標示）
 - missing core topics（應建未建）
+- source manifest missing（source summary 有 raw path 但 manifest 缺 entry）
+- source drift（raw file sha256 與 manifest 不一致）
+- raw source missing（source summary 指向不存在的 raw file）
 - raw backlog（raw 已存在但尚未編入）
 - raw verification queue（每回合最多 5 個 raw files）
 

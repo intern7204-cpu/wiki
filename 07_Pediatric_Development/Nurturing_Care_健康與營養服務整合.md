@@ -1,7 +1,7 @@
 ---
 title: Nurturing Care 健康與營養服務整合
 created: 2026-05-03
-updated: 2026-05-04
+updated: 2026-05-11
 type: concept
 domain: [pediatrics, development, health_services, nutrition_services, nurturing_care]
 tags: [nurturing_care, responsive_caregiving, early_learning, caregiver_wellbeing, health_services, nutrition_services, family_centered_care]
@@ -9,6 +9,7 @@ sources:
   - 10_來源摘要/WHO_2020_improving_early_childhood_development_guideline.md
   - 10_來源摘要/Nurturing_Care_Practice_Guide.md
   - 10_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes.md
+  - 10_來源摘要/Nurturing_Care_for_Children_with_Developmental_Delays_and_Disabilities.md
 source_tier: 1
 evidence_level: guideline_plus_implementation_guide_plus_systematic_review_meta_analysis
 confidence: medium_high
@@ -19,6 +20,7 @@ contradictions:
   - Developmental screening without referral and family-centred support is a weak workflow.
   - Health-service ECD support requires actual ECD content and coaching, not only more visits.
   - WHO 2020 makes first-3-years ECD recommendations strong, but does not identify a single superior programme or erase implementation constraints.
+  - Universal health / nutrition services are not truly universal if developmental disability, stigma, accessibility, caregiver burden, or service-navigation barriers exclude high-need families.
 ---
 
 # Nurturing Care 健康與營養服務整合
@@ -35,6 +37,7 @@ contradictions:
 - 本頁整合 guideline 與 implementation guide：[[WHO_ECD_Guideline_0至3歲Nurturing_Care建議]] 提供 recommendation 層級，practice guide 提供服務現場 workflow。
 - 它不是替代訓練課程，也不是單一 programme manual；它是把 nurturing care framework 轉成服務現場可做的 implementation approach。
 - Specialist mental health、child protection、rehabilitation、developmental disability service 仍需 referral network；primary care 不能假裝全包。
+- 對 children at risk of or with developmental delays and disabilities，health / nutrition service 還要採用 disability-inclusive lens：inclusive universal services 與 targeted / indicated supports 必須並行，且 family-centred support 不應等 formal diagnosis 才開始。
 
 ## Why It Matters
 
@@ -49,6 +52,7 @@ contradictions:
 - Protocols 需要納入 developmental monitoring、home environment observation、caregiver mental / physical health、safety risk 與 referral triggers。
 - Managers 需要處理 provider time、training、mentoring、turnover、supervision checklist 與 referral mapping。
 - 有 safety、abuse、severe caregiver mental health 或 developmental disability concern 時，要有 escalation pathway。
+- 對 developmental delay / disability child，還需要處理 physical accessibility、assistive technology access、care coordination、community stigma、transport / cost barrier 與 caregiver navigation burden。
 
 ## Mechanism
 
@@ -77,6 +81,7 @@ Routine contact in health / nutrition service
 - 對 low-resource 或 humanitarian context，低成本 play material、brief counselling、poster / radio / text message 可作為補充，但不能完全取代面對面的 skill coaching。
 - WHO 2020 guideline 將 first-3-years responsive caregiving、early learning、nutrition integration 與 maternal mental health psychosocial support 列為 strong recommendations；但 programme dose、active ingredient 與 long-term outcome 仍需保守處理。
 - Hirve et al. 2023 支持把部分 early development intervention 放進 health-system delivery：HCP-ECD 對 0-36 months cognitive / motor outcomes 與 HOME inventory 有正向 pooled signal；但 maternal mental health、language、socioemotional、behaviour outcome 不明確，EF / adaptive function 未被報告。
+- UNICEF / WHO 2025 thematic brief 補上 disability inclusion 邏輯：children with developmental delays or disabilities 仍需要完整 nurturing care，且 early family-centred support 不應被 formal diagnosis requirement 延誤。
 
 ## Fact
 
@@ -85,6 +90,8 @@ Routine contact in health / nutrition service
 - Responsive caregiving 是 caregiver notice、understand、respond to child signals 的能力，並被來源視為 supporting other components 的 foundational capacity。
 - The guide uses universal、targeted、indicated 三層 support。
 - The guide explicitly states that simply encouraging primary care providers to assess developmental milestones is unlikely to be effective when referral networks and indicated supports are not ready.
+- UNICEF / WHO 2025 thematic brief 將 developmental delay / disability support 放在 twin-track approach：inclusive universal services 加上 targeted / indicated supports。
+- UNICEF / WHO 2025 thematic brief 指出 early identification 應促成 timely intervention，但不應要求 diagnosis 完成才給 family-centred services。
 - Managers can modify facilities, protocols, training, supervision, caregiver-participation policies, crisis adaptation, and referral maps.
 - Providers can use antenatal、postnatal、well-child、sick-child、inpatient、home visit、nutritional rehabilitation contacts to strengthen caregiving practice and caregiver well-being.
 - WHO 2020 guideline recommends responsive care and early learning during the first 3 years of life, integration of responsive care and early learning into optimal nutrition interventions, and integration of psychosocial maternal mental health interventions into ECD services.
@@ -118,10 +125,12 @@ Routine contact in health / nutrition service
 - 誤讀 2：設 play corner 就完成 early learning intervention。錯；play space 需要 trained staff / volunteer 示範、清潔、安全與 caregiver practice。
 - 誤讀 3：問 milestone 就是 developmental care。錯；沒有 referral capacity 與 family-centred support 時，篩檢資訊可能無法轉成幫助。
 - 誤讀 4：照顧者健康是 adult issue。錯；來源將 caregiver well-being 明確放進 child nurturing care support。
+- 誤讀 5：developmental disability child 只需要 specialist therapy。錯；disability-specific therapy 不能取代 health、nutrition、safety、responsive caregiving、early learning 與 caregiver support。
 
 ## Links
 
 - [[Caregiving_Quality_作為早期介入靶點]]
+- [[Disability-Inclusive_Nurturing_Care_發展遲緩與發展障礙兒童]]
 - [[HCP_ECD_Interventions_由健康照護者交付的早期發展介入]]
 - [[照顧者健康與兒童健康發展]]
 - [[Caregiver_Self_Care_作為Child_Stress_Buffering_Capacity]]
@@ -134,3 +143,4 @@ Routine contact in health / nutrition service
 - [[../10_來源摘要/Nurturing_Care_Practice_Guide]]
 - [[../10_來源摘要/WHO_2020_improving_early_childhood_development_guideline]]
 - [[../10_來源摘要/Hirve_2023_HCP_ECD_interventions_cognitive_outcomes]]
+- [[../10_來源摘要/Nurturing_Care_for_Children_with_Developmental_Delays_and_Disabilities]]

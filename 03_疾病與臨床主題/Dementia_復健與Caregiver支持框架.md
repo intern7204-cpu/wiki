@@ -1,12 +1,14 @@
 ---
 title: Dementia 復健與 Caregiver 支持框架
 created: 2026-05-03
-updated: 2026-05-03
+updated: 2026-05-11
 type: concept
 domain: [dementia, neurorehabilitation, geriatrics]
 tags: [dementia, caregiver, patient_centered_care, FAST, GDS, ADL, IADL, nonpharmacologic_treatment, exercise, occupational_therapy]
 sources:
   - 10_來源摘要/Aging_Dementia_and_Disorders_of_Cognition.md
+  - 10_來源摘要/UpToDate_vascular_cognitive_impairment_dementia_treatment.md
+  - 10_來源摘要/UpToDate_vascular_dementia_etiology_clinical_manifestations_diagnosis.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -25,7 +27,8 @@ Dementia 復健是以 disease stage、personhood、ADL / IADL、mobility、envir
 
 - 本頁整理 dementia rehabilitation、nonpharmacologic management、caregiver education 與 stage-specific activity design。
 - 本頁不處理 antiamyloid therapy eligibility、藥物劑量或最新 FDA / guideline 狀態。
-- 本頁只使用單一來源：[[../10_來源摘要/Aging_Dementia_and_Disorders_of_Cognition]]。
+- 本頁以 textbook chapter 建立 dementia rehabilitation / caregiver support framework；另以單一 UpToDate topic review 補充 vascular dementia / vascular cognitive impairment 的治療邊界。
+- Vascular dementia diagnosis / evaluation、vascular risk、antithrombotic 與 VaD cognitive medication 詳見 [[Vascular_Dementia_診斷與病因分層]]、[[Vascular_Dementia_臨床表現與評估路徑]]、[[Vascular_Cognitive_Impairment_血管風險與Antithrombotic邊界]] 與 [[Vascular_Dementia_認知藥物與預後限制]]。
 
 ## Why It Matters
 
@@ -60,6 +63,7 @@ Progressive neurocognitive disorder
 - Nonpharmacologic treatment should be individualized; no single package is universally best.
 - Exercise and motor rehabilitation remain relevant because inactivity worsens strength, endurance, flexibility, balance, gait, and fall risk.
 - OT strategies include activity simplification, environment modification, adaptive aids, problem-solving, skill training, and caregiver education.
+- In vascular dementia, vascular risk modification and recurrent stroke prevention are central; cognitive medication benefit is limited and should not replace vascular management.
 
 ## Fact
 
@@ -67,6 +71,9 @@ Progressive neurocognitive disorder
 - Patient-centered dementia care recommendations include knowing the person, accepting the person’s reality, supporting meaningful engagement, building caring relationships, creating supportive community, and evaluating care practices.
 - Nonpharmacologic treatment categories in the source include exercise / motor rehabilitation, cognitive intervention, OT, psychological therapy, stimulation therapy, complementary approaches, and technologies.
 - Physical performance measures used in dementia research / practice include 6MWT / 2MWT, 30-second chair stand, 5xSTS, TUG, POMA, FIM, SPPB, gait speed, BBS, Functional Reach, FICSIT, and strength measures.
+- UpToDate VaD source states that cholinesterase inhibitor benefit is slight and of uncertain clinical significance, and does not suggest routine memantine for VaD.
+- UpToDate VaD source states that lifestyle interventions such as exercise and social interaction are suggested, but high-quality evidence for cognitive benefit in established VaD is lacking.
+- UpToDate VaD etiology / diagnosis source states that neuroimaging evidence of cerebrovascular brain injury alone is not sufficient to diagnose vascular dementia.
 
 ## Inference
 
@@ -91,7 +98,13 @@ Progressive neurocognitive disorder
 ## Links
 
 - [[正常老化與Pathological_Cognitive_Decline]]
+- [[Vascular_Dementia_診斷與病因分層]]
+- [[Vascular_Dementia_臨床表現與評估路徑]]
+- [[Vascular_Cognitive_Impairment_血管風險與Antithrombotic邊界]]
+- [[Vascular_Dementia_認知藥物與預後限制]]
 - [[Delirium_Depression_Dementia_鑑別]]
 - [[ICF_功能框架]]
 - [[Outcome_Process_Performance_Measure_區分]]
 - [[治療性運動處方]]
+- [[../10_來源摘要/UpToDate_vascular_cognitive_impairment_dementia_treatment]]
+- [[../10_來源摘要/UpToDate_vascular_dementia_etiology_clinical_manifestations_diagnosis]]

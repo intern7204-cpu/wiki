@@ -1,10 +1,10 @@
 ---
 title: 知識百科 ingest 工作流
 created: 2026-04-24
-updated: 2026-05-04
+updated: 2026-05-12
 type: workflow
 domain: [methodology]
-tags: [wiki_maintenance, ingest, source_triage, evidence_hierarchy, source_summary]
+tags: [wiki_maintenance, ingest, source_triage, evidence_hierarchy, source_summary, source_manifest]
 sources:
   - 10_來源摘要/Ibrahim_Hafner_Rocher_2026_warmth_accuracy_sycophancy.md
 source_tier: 1
@@ -18,7 +18,7 @@ contradictions: []
 
 ## 一句話定義
 
-當 `C:\原始資料` 新增文件時，先做主題相關候選排序，再以**單批最多 5 份文件**的小批次讀取、判級、摘要、回寫 `C:\知識百科`，且所有衝突都要顯式標示。
+當 `C:\原始資料` 新增文件時，先做 orientation 與候選排序，但每輪只完整處理**一篇來源**，再判級、摘要、拆出必要概念頁、更新索引與 source manifest；所有衝突都要顯式標示。
 
 ## 核心機制
 
@@ -26,12 +26,13 @@ contradictions: []
 
 1. `C:\原始資料` 是 evidence pool，不修改、不搬移、不覆寫。
 2. 先決定本次 ingest 的主題，再列候選，不做無主題的大範圍亂讀。
-3. 每一批最多只選讀 5 份文件；超出的保留到下一批。
+3. 每一輪只能完整處理一篇來源；超出的候選列入 `待處理來源`。
 4. 來源排序先看來源優先級，再看與本次主題的直接相關性。
 5. 單篇 `original article` 只能作補充或新興訊號，不可硬改主框架。
 6. 網站文字即使語氣肯定，也不能直接視為高等級證據。
 7. 發現與既有頁面衝突時，必須顯式標示，不能默默覆蓋。
 8. 使用 LLM 協作時，不能為了 warm / agreeable tone 接受錯誤前提；見 [[LLM_Warmth_Accuracy_Tradeoff]]。
+9. 來源摘要若記錄 raw path，必須同步更新 `source_manifest.json` 或標記待更新。
 
 ### LLM 協作 caveat：warmth 不可取代前提檢查
 
@@ -53,9 +54,15 @@ contradictions: []
 
 ### 來源層級
 
-1. Tier 1：review article、textbook chapter、UpToDate
-2. Tier 2：科普書、網站資料
-3. Tier 3：original article
+1. Tier 1：guideline
+2. Tier 2：textbook chapter
+3. Tier 3：systematic review / meta-analysis
+4. Tier 4：narrative review / scoping review
+5. Tier 5：original research article
+6. Tier 6：UpToDate / ClinicalKey topic review
+7. Tier 7：專業機構網站
+8. Tier 8：臨床經驗或個人筆記
+9. Tier 9：一般網站、社群文章、未審查內容
 
 ### 可信度標籤
 
@@ -64,6 +71,13 @@ contradictions: []
 - `low`：商業網站、未清楚揭露方法的網站、內容品質不穩定的輔助來源
 
 ### 固定步驟
+
+### Step 0 — Orientation
+
+1. 讀 `SCHEMA.md`。
+2. 讀 `index.md`，確認是否已有相關 source summary、concept page 或 hub page。
+3. 讀 `log.md` 最近紀錄，確認近期 ingest、correction、pending source 與待追蹤問題。
+4. 搜尋 wiki 內同義概念；既有頁面優先更新，不重複建頁。
 
 ### Step 1 — 列候選文件
 
@@ -79,16 +93,15 @@ contradictions: []
 3. 是否能補現有主題頁缺口或來源摘要缺口
 4. 是否可能引入需顯式處理的新衝突
 
-### Step 3 — 選批次
+### Step 3 — 選定本輪單一來源
 
-1. 本回合最多只選讀 5 個文件。
-2. 若候選超過 5 個，未入選者標記為 `下一批待處理`。
-3. 對入選文件逐一讀取；若本批實際少於 5 份，就讀完本批全部。
-4. `health check` 的 raw verification 5-file cap 與本頁屬不同流程；數字相同也不可混用，見 [[知識百科_健康檢查流程]]。
+1. 本回合只選讀 1 個來源。
+2. 若候選超過 1 個，未入選者標記為 `待處理來源`。
+3. 本輪只讀取選定來源；不得把第二篇來源內容帶入摘要或概念頁。
+4. `health check` 的 raw verification 5-file cap 與本頁屬不同流程；它只用於驗證佇列，不等於 ingest 可處理 5 篇。
 
-### Step 4 — 逐一讀取與判級
+### Step 4 — 讀取與判級
 
-對入選文件逐一完成：
 1. 讀取文件內容。
 2. 判定來源類型。
 3. 給予來源層級與可信度標籤。
@@ -96,12 +109,13 @@ contradictions: []
 
 ### Step 5 — 建立來源摘要
 
-每份已讀文件都要建立或更新一頁 `10_來源摘要/<來源頁>.md`，至少包含：
+每篇已讀來源都要建立或更新一頁 `10_來源摘要/<來源頁>.md`，至少包含：
 1. bibliographic identity / 來源類型
 2. 本文核心主張
 3. 對臨床 / 方法學 / 研究的重要性
 4. 限制與不該過度外推之處
 5. 與既有主題頁的關聯
+6. `source_path` 或正文中的 `原始檔：...`，用於 source manifest 追蹤
 
 ### Step 6 — 更新主題頁
 
@@ -118,28 +132,31 @@ contradictions: []
 ### Step 8 — 維護索引與紀錄
 
 1. 更新 `index.md`
-2. 更新 `log.md`
-3. 在 `log.md` 記下：
+2. 更新 `08_工具與Workflow/source_manifest.json`
+3. 更新 `log.md`
+4. 在 `log.md` 記下：
    - 本次 ingest 主題
-   - 本批實際已處理文件
-   - 每份文件的來源類型 / tier / 可信度
+   - 本輪實際已處理的單一來源
+   - 該來源的來源類型 / tier / 可信度
    - 是否有新頁、更新頁、衝突標示
-   - 下一批待處理名單
+   - source manifest 是否新增、更新或發現 source drift
+   - 待處理來源名單
 
 ### 最低輸出要求
 
-每完成一批 ingest，至少要有以下結果：
-1. `10_來源摘要/` 新增或更新對應來源頁
+每完成一輪 ingest，至少要有以下結果：
+1. `10_來源摘要/` 新增或更新該來源頁
 2. 至少一個相關主題頁被更新，或建立新頁
 3. `index.md` 已補條目
-4. `log.md` 已留下 batch-level 紀錄
-5. 若仍有候選未讀，已明確列為下一批待處理
+4. `08_工具與Workflow/source_manifest.json` 已同步或明確標記待更新
+5. `log.md` 已留下 single-source ingest 紀錄
+6. 若仍有候選未讀，已明確列為 `待處理來源`
 
 ### 與其他工作流的邊界
 
 - 本頁處理的是「主動編譯新來源進知識百科」。
 - [[知識百科_健康檢查流程]] 處理的是「先掃已編譯 wiki，再決定是否回查 raw」。
-- ingest 的 5-file cap 與 health check 的 5-file verification cap 是不同流程上限；數字相同也不可混用。
+- ingest 是單一來源流程；health check 的 5-file verification cap 是不同流程上限，不可混用。
 
 ## 臨床表現
 

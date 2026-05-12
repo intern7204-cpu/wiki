@@ -56,7 +56,7 @@ contradictions:
 
 ### 對現有 wiki 的意義
 
-- 直接補強 [[../03_疾病與臨床主題/足部疼痛分區評估]] 的 forefoot 區塊。
+- 直接補強 [[../06_Gait_Biomechanics/足部疼痛分區評估]] 的 forefoot 區塊。
 - 也有助於理解 gait push-off 與 first MTP dysfunction。
 
 - 什麼情況要治療？先看是否真的改變 pain、function、safety、participation 或訓練輸出。
@@ -108,5 +108,5 @@ contradictions:
 
 ### 相關 wiki 頁面
 
-- [[../03_疾病與臨床主題/足部疼痛分區評估]]
+- [[../06_Gait_Biomechanics/足部疼痛分區評估]]
 - [[../06_Gait_Biomechanics/足部解剖與生物力學]]

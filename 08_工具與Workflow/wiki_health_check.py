@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import posixpath
 import re
@@ -23,8 +24,11 @@ WIKI_FOLDERS = [
     "06_Gait_Biomechanics",
     "07_Pediatric_Development",
     "08_工具與Workflow",
-    "09_來源摘要",
+    "09_NCV EMG 周邊神經病變",
+    "10_來源摘要",
 ]
+SOURCE_SUMMARY_FOLDER = "10_來源摘要"
+SOURCE_MANIFEST_REL_PATH = "08_工具與Workflow/source_manifest.json"
 
 FRONTMATTER_REQUIRED = [
     "title",
@@ -55,7 +59,15 @@ CONTRADICTION_PATTERNS = [
     r"互相矛盾",
     r"conflict(?:ing)?",
 ]
-KIND_PRIORITY = {"contradiction": 0, "stale": 1, "missing_core": 2, "backlog": 3}
+KIND_PRIORITY = {
+    "contradiction": 0,
+    "source_drift": 1,
+    "raw_source_missing": 2,
+    "stale": 3,
+    "missing_core": 4,
+    "source_manifest_missing": 5,
+    "backlog": 6,
+}
 
 
 @dataclass
@@ -109,7 +121,8 @@ def normalize_stem(name: str) -> str:
 
 
 def normalize_raw_reference(raw_ref: str, raw_root: Path) -> str | None:
-    raw_ref = raw_ref.strip().strip("`").strip()
+    raw_ref = raw_ref.strip().strip("`").strip().strip("'\"")
+    raw_ref = raw_ref.replace("\\\\", "\\")
     if not raw_ref:
         return None
 
@@ -139,13 +152,162 @@ def normalize_raw_reference(raw_ref: str, raw_root: Path) -> str | None:
 
 def extract_explicit_raw_sources(page: WikiPage, raw_root: Path) -> set[str]:
     refs = set()
-    if page.section != "09_來源摘要":
+    if page.section != SOURCE_SUMMARY_FOLDER:
         return refs
+    source_path = page.frontmatter.get("source_path")
+    if isinstance(source_path, str):
+        rel = normalize_raw_reference(source_path, raw_root)
+        if rel:
+            refs.add(rel)
+    elif isinstance(source_path, list):
+        for item in source_path:
+            rel = normalize_raw_reference(str(item), raw_root)
+            if rel:
+                refs.add(rel)
     for match in re.finditer(r"原始檔：`([^`]+)`", page.body):
         rel = normalize_raw_reference(match.group(1), raw_root)
         if rel:
             refs.add(rel)
     return refs
+
+
+def raw_rel_to_path(raw_root: Path, rel_path: str) -> Path:
+    return raw_root.joinpath(*PurePosixPath(rel_path).parts)
+
+
+def sha256_file(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def load_source_manifest(wiki_root: Path) -> dict[str, Any]:
+    manifest_path = wiki_root / SOURCE_MANIFEST_REL_PATH
+    if not manifest_path.exists():
+        return {"schema_version": 1, "entries": {}}
+    try:
+        data = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {"schema_version": 1, "entries": {}, "_invalid": True}
+    if not isinstance(data, dict):
+        return {"schema_version": 1, "entries": {}, "_invalid": True}
+    if not isinstance(data.get("entries"), dict):
+        data["entries"] = {}
+    return data
+
+
+def collect_source_raw_refs(pages: list[WikiPage], raw_root: Path) -> dict[str, set[str]]:
+    refs: defaultdict[str, set[str]] = defaultdict(set)
+    for page in pages:
+        for rel_path in extract_explicit_raw_sources(page, raw_root):
+            refs[rel_path].add(page.rel_path)
+    return refs
+
+
+def build_source_manifest(pages: list[WikiPage], wiki_root: Path, raw_root: Path) -> dict[str, Any]:
+    refs = collect_source_raw_refs(pages, raw_root)
+    entries: dict[str, Any] = {}
+    today = str(date.today())
+    for rel_path, summaries in sorted(refs.items()):
+        raw_path = raw_rel_to_path(raw_root, rel_path)
+        entry: dict[str, Any] = {
+            "source_summaries": sorted(summaries),
+            "last_checked": today,
+        }
+        if raw_path.exists() and raw_path.is_file():
+            stat = raw_path.stat()
+            entry.update(
+                {
+                    "sha256": sha256_file(raw_path),
+                    "size_bytes": stat.st_size,
+                    "mtime_ns": stat.st_mtime_ns,
+                    "status": "ok",
+                }
+            )
+        else:
+            entry["status"] = "missing"
+        entries[rel_path] = entry
+    return {
+        "schema_version": 1,
+        "generated_on": today,
+        "wiki_root": str(wiki_root),
+        "raw_root": str(raw_root),
+        "entries": entries,
+    }
+
+
+def write_source_manifest(pages: list[WikiPage], wiki_root: Path, raw_root: Path) -> Path:
+    manifest = build_source_manifest(pages, wiki_root, raw_root)
+    manifest_path = wiki_root / SOURCE_MANIFEST_REL_PATH
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return manifest_path
+
+
+def analyze_source_manifest(
+    pages: list[WikiPage],
+    wiki_root: Path,
+    raw_root: Path,
+) -> dict[str, list[dict[str, Any]]]:
+    refs = collect_source_raw_refs(pages, raw_root)
+    manifest = load_source_manifest(wiki_root)
+    entries = manifest.get("entries", {}) if isinstance(manifest.get("entries"), dict) else {}
+    source_manifest_missing = []
+    source_drift = []
+    raw_source_missing = []
+    source_manifest_orphans = []
+
+    if manifest.get("_invalid"):
+        source_manifest_missing.append(
+            {
+                "path": SOURCE_MANIFEST_REL_PATH,
+                "source_summaries": [],
+                "reason": "manifest_invalid_json",
+            }
+        )
+
+    for rel_path, summaries in sorted(refs.items()):
+        raw_path = raw_rel_to_path(raw_root, rel_path)
+        entry = entries.get(rel_path)
+        if not raw_path.exists() or not raw_path.is_file():
+            raw_source_missing.append({"path": rel_path, "source_summaries": sorted(summaries)})
+            continue
+        if not entry:
+            source_manifest_missing.append({"path": rel_path, "source_summaries": sorted(summaries)})
+            continue
+        current_hash = sha256_file(raw_path)
+        recorded_hash = str(entry.get("sha256", ""))
+        if recorded_hash and current_hash != recorded_hash:
+            source_drift.append(
+                {
+                    "path": rel_path,
+                    "source_summaries": sorted(summaries),
+                    "recorded_sha256": recorded_hash,
+                    "current_sha256": current_hash,
+                }
+            )
+        elif not recorded_hash:
+            source_manifest_missing.append(
+                {
+                    "path": rel_path,
+                    "source_summaries": sorted(summaries),
+                    "reason": "manifest_entry_missing_sha256",
+                }
+            )
+
+    referenced_paths = set(refs)
+    for rel_path in sorted(entries):
+        if rel_path not in referenced_paths:
+            source_manifest_orphans.append({"path": rel_path})
+
+    return {
+        "source_manifest_missing": source_manifest_missing,
+        "source_drift": source_drift,
+        "raw_source_missing": raw_source_missing,
+        "source_manifest_orphans": source_manifest_orphans,
+    }
 
 
 def parse_frontmatter(text: str) -> tuple[dict[str, Any], str]:
@@ -279,7 +441,7 @@ def frontmatter_issues(page: WikiPage) -> list[str]:
 
 
 def count_non_source_links(page: WikiPage) -> int:
-    return sum(1 for target in page.outbound_existing if not target.startswith("09_來源摘要/"))
+    return sum(1 for target in page.outbound_existing if not target.startswith(f"{SOURCE_SUMMARY_FOLDER}/"))
 
 
 def infer_tier_from_raw_file(path: Path) -> int:
@@ -305,7 +467,15 @@ def infer_tier_from_raw_file(path: Path) -> int:
 
 
 def infer_impact(kind: str, section: str = "") -> int:
-    base = {"contradiction": 10, "stale": 8, "missing_core": 7, "backlog": 5}.get(kind, 1)
+    base = {
+        "contradiction": 10,
+        "source_drift": 9,
+        "raw_source_missing": 9,
+        "stale": 8,
+        "missing_core": 7,
+        "source_manifest_missing": 4,
+        "backlog": 5,
+    }.get(kind, 1)
     if section in {"04_CPET", "05_Exercise_Physiology", "03_疾病與臨床主題"}:
         base += 1
     return base
@@ -328,6 +498,7 @@ def analyze_wiki(wiki_root: str | Path, raw_root: str | Path) -> dict[str, Any]:
     wiki_root = Path(wiki_root)
     raw_root = Path(raw_root)
     pages = iter_wiki_pages(wiki_root)
+    source_manifest_findings = analyze_source_manifest(pages, wiki_root, raw_root)
     page_map = {page.rel_path: page for page in pages}
     basename_map: defaultdict[str, list[str]] = defaultdict(list)
     for rel_path in page_map:
@@ -358,7 +529,7 @@ def analyze_wiki(wiki_root: str | Path, raw_root: str | Path) -> dict[str, Any]:
             else:
                 broken_target = candidates[0]
                 broken_links.append({"source": page.rel_path, "target": broken_target})
-                if page.section == "09_來源摘要" and not broken_target.startswith("09_來源摘要/"):
+                if page.section == SOURCE_SUMMARY_FOLDER and not broken_target.startswith(f"{SOURCE_SUMMARY_FOLDER}/"):
                     missing_core_counter[broken_target] += 1
                     missing_core_sources[broken_target].add(page.rel_path)
         page.outbound_existing = resolved_targets
@@ -401,7 +572,7 @@ def analyze_wiki(wiki_root: str | Path, raw_root: str | Path) -> dict[str, Any]:
         fm = page.frontmatter
         page_updated = str(fm.get("updated", ""))
         sources = fm.get("sources") if isinstance(fm.get("sources"), list) else []
-        if page.section != "09_來源摘要" and sources:
+        if page.section != SOURCE_SUMMARY_FOLDER and sources:
             newer_sources = []
             for source in sources:
                 source_path = source if source.endswith(".md") else f"{source}"
@@ -436,7 +607,7 @@ def analyze_wiki(wiki_root: str | Path, raw_root: str | Path) -> dict[str, Any]:
     index_missing_files = [{"path": link} for link in sorted(index_links) if link not in page_map]
 
     raw_backlog = []
-    summary_stems = {normalize_stem(page.rel_path) for page in pages if page.section == "09_來源摘要"}
+    summary_stems = {normalize_stem(page.rel_path) for page in pages if page.section == SOURCE_SUMMARY_FOLDER}
     summary_raw_paths = set()
     for page in pages:
         summary_raw_paths.update(extract_explicit_raw_sources(page, raw_root))
@@ -494,6 +665,36 @@ def analyze_wiki(wiki_root: str | Path, raw_root: str | Path) -> dict[str, Any]:
                 "path": item["path"],
             }
         )
+    for item in source_manifest_findings["source_drift"]:
+        verification_candidates.append(
+            {
+                "id": item["path"],
+                "kind": "source_drift",
+                "tier": 1,
+                "impact": infer_impact("source_drift", SOURCE_SUMMARY_FOLDER),
+                "path": item["path"],
+            }
+        )
+    for item in source_manifest_findings["raw_source_missing"]:
+        verification_candidates.append(
+            {
+                "id": item["path"],
+                "kind": "raw_source_missing",
+                "tier": 1,
+                "impact": infer_impact("raw_source_missing", SOURCE_SUMMARY_FOLDER),
+                "path": item["path"],
+            }
+        )
+    for item in source_manifest_findings["source_manifest_missing"]:
+        verification_candidates.append(
+            {
+                "id": item["path"],
+                "kind": "source_manifest_missing",
+                "tier": 2,
+                "impact": infer_impact("source_manifest_missing", SOURCE_SUMMARY_FOLDER),
+                "path": item["path"],
+            }
+        )
     for item in missing_core_topics:
         verification_candidates.append(
             {
@@ -533,6 +734,10 @@ def analyze_wiki(wiki_root: str | Path, raw_root: str | Path) -> dict[str, Any]:
             "stale_candidates": len(stale_candidates),
             "contradiction_candidates": len(contradiction_candidates),
             "missing_core_topics": len(missing_core_topics),
+            "source_manifest_missing": len(source_manifest_findings["source_manifest_missing"]),
+            "source_drift": len(source_manifest_findings["source_drift"]),
+            "raw_source_missing": len(source_manifest_findings["raw_source_missing"]),
+            "source_manifest_orphans": len(source_manifest_findings["source_manifest_orphans"]),
             "raw_backlog": len(raw_backlog),
             "raw_verification_queue": len(raw_verification_queue),
         },
@@ -546,6 +751,10 @@ def analyze_wiki(wiki_root: str | Path, raw_root: str | Path) -> dict[str, Any]:
         "stale_candidates": sorted(stale_candidates, key=lambda x: x["path"]),
         "contradiction_candidates": sorted(contradiction_candidates, key=lambda x: x["path"]),
         "missing_core_topics": sorted(missing_core_topics, key=lambda x: (-x["mentions"], x["target"])),
+        "source_manifest_missing": sorted(source_manifest_findings["source_manifest_missing"], key=lambda x: x["path"]),
+        "source_drift": sorted(source_manifest_findings["source_drift"], key=lambda x: x["path"]),
+        "raw_source_missing": sorted(source_manifest_findings["raw_source_missing"], key=lambda x: x["path"]),
+        "source_manifest_orphans": sorted(source_manifest_findings["source_manifest_orphans"], key=lambda x: x["path"]),
         "raw_backlog": sorted(raw_backlog, key=lambda x: (x["tier"], x["stem"].lower())),
         "raw_verification_queue": raw_verification_queue,
     }
@@ -565,6 +774,10 @@ def markdown_report(report: dict[str, Any]) -> str:
     lines.append(f"- stale_candidates: {s['stale_candidates']}")
     lines.append(f"- contradiction_candidates: {s['contradiction_candidates']}")
     lines.append(f"- missing_core_topics: {s['missing_core_topics']}")
+    lines.append(f"- source_manifest_missing: {s['source_manifest_missing']}")
+    lines.append(f"- source_drift: {s['source_drift']}")
+    lines.append(f"- raw_source_missing: {s['raw_source_missing']}")
+    lines.append(f"- source_manifest_orphans: {s['source_manifest_orphans']}")
     lines.append(f"- raw_backlog: {s['raw_backlog']}")
     lines.append(f"- raw_verification_queue: {s['raw_verification_queue']} (cap: 5)")
     lines.append("")
@@ -588,6 +801,10 @@ def markdown_report(report: dict[str, Any]) -> str:
     add_section("Stale candidates", report["stale_candidates"], lambda x: f"- {x['path']} | newer_sources={', '.join(x['newer_sources'])}")
     add_section("Contradiction candidates", report["contradiction_candidates"], lambda x: f"- {x['path']} | {x['reason']}")
     add_section("Missing core topics", report["missing_core_topics"], lambda x: f"- {x['target']} | mentions={x['mentions']} | source_pages={', '.join(x['source_pages'])}")
+    add_section("Source manifest missing", report["source_manifest_missing"], lambda x: f"- {x['path']} | source_summaries={', '.join(x.get('source_summaries', []))} | reason={x.get('reason', 'missing_entry')}")
+    add_section("Source drift", report["source_drift"], lambda x: f"- {x['path']} | source_summaries={', '.join(x['source_summaries'])}")
+    add_section("Raw source missing", report["raw_source_missing"], lambda x: f"- {x['path']} | source_summaries={', '.join(x['source_summaries'])}")
+    add_section("Source manifest orphans", report["source_manifest_orphans"], lambda x: f"- {x['path']}")
     add_section("Raw backlog", report["raw_backlog"], lambda x: f"- {x['path']} | tier={x['tier']}")
     add_section("Raw verification queue", report["raw_verification_queue"], lambda x: f"- {x['path']} | kind={x['kind']} | tier={x['tier']} | impact={x['impact']}")
     return "\n".join(lines).strip() + "\n"
@@ -600,7 +817,16 @@ def main() -> int:
     parser.add_argument("--raw", default=str(default_raw), help="Raw source root path")
     parser.add_argument("--format", choices=["json", "markdown"], default="markdown")
     parser.add_argument("--output", help="Optional report output path")
+    parser.add_argument(
+        "--update-source-manifest",
+        action="store_true",
+        help="Refresh source_manifest.json from source_summary raw paths before reporting",
+    )
     args = parser.parse_args()
+
+    if args.update_source_manifest:
+        pages = iter_wiki_pages(Path(args.wiki))
+        write_source_manifest(pages, Path(args.wiki), Path(args.raw))
 
     report = analyze_wiki(args.wiki, args.raw)
     rendered = json.dumps(report, ensure_ascii=False, indent=2) if args.format == "json" else markdown_report(report)

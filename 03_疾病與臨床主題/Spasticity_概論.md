@@ -116,7 +116,7 @@ Spasticity 是 **velocity- and muscle length-dependent increase in resistance to
 
 - [[PMR_評估總論]]
 - [[../06_Gait_Biomechanics/步態評估總論]]
-- [[../06_Gait_Biomechanics/上肢矯具與復健機器人]]
+- [[上肢矯具與復健機器人]]
 - [[../09_NCV EMG 周邊神經病變/電生理診斷醫學]]
 - [[../07_Pediatric_Development/小兒復健評估]]
 - [[../10_來源摘要/Spasticity]]

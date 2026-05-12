@@ -61,7 +61,7 @@ Spinal orthosis prescription 的關鍵，不是記住一串 brace 名稱，而�
 
 ### 對現有 wiki 的意義
 
-- 支撐 [[../06_Gait_Biomechanics/脊椎裝具總論]]。
+- 支撐 [[../03_疾病與臨床主題/脊椎裝具總論]]。
 - 可與 [[../03_疾病與臨床主題/壓力性損傷與慢性傷口復健]] 串接 device-related pressure injury 風險。
 
 - 什麼情況要治療？先看是否真的改變 pain、function、safety、participation 或訓練輸出。
@@ -112,6 +112,6 @@ Spinal orthosis prescription 的關鍵，不是記住一串 brace 名稱，而�
 
 ### 相關 wiki 頁面
 
-- [[../06_Gait_Biomechanics/脊椎裝具總論]]
+- [[../03_疾病與臨床主題/脊椎裝具總論]]
 - [[../03_疾病與臨床主題/壓力性損傷與慢性傷口復健]]
 - [[../03_疾病與臨床主題/脊髓損傷復健總論]]

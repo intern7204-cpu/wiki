@@ -1,14 +1,16 @@
 ---
 title: EDX 技術假象與品質控制
 created: 2026-05-10
-updated: 2026-05-10
+updated: 2026-05-11
 type: concept
 domain: [PMR, methodology, electrodiagnosis]
-tags: [EDX, NCS, EMG, artifact, technical_factors, temperature, supramaximal_stimulation, co_stimulation, electrode_placement, anomalous_innervation]
+tags: [EDX, NCS, EMG, artifact, technical_factors, temperature, supramaximal_stimulation, co_stimulation, electrode_placement, anomalous_innervation, RNS, repetitive_nerve_stimulation]
 sources:
   - 10_來源摘要/Anomalous_Innervations.md
   - 10_來源摘要/Artifacts_and_Technical_Factors.md
+  - 10_來源摘要/Repetitive_Nerve_Stimulation.md
   - 10_來源摘要/Routine_Upper_Extremity_Facial_Phrenic_NCS_Techniques.md
+  - 10_來源摘要/Routine_Lower_Extremity_NCS_Techniques.md
 source_tier: 1
 evidence_level: textbook_chapter
 confidence: high
@@ -71,6 +73,14 @@ Small EDX signal
 - Edema 或 recording electrode off nerve 可大幅降低 sensory / mixed response amplitude，甚至造成 absent response。
 - Active-reference distance 太短會因 cancellation 降低 sensory amplitude；sensory / mixed studies 常用 3-4 cm。
 - Ulnar across-elbow study 若 elbow extended，surface distance 會低估 true nerve length，造成 across-elbow conduction velocity artifactually slow。
+- Lower-extremity sensory studies 若改用 shorter distance，不能再直接套 standard-distance peak latency normal table；應用 actual distance 與 onset latency 計算 conduction velocity。
+- Tibial popliteal stimulation 可有 normal amplitude drop up to 50%；peroneal below-fibular-head stimulation也可有 normal amplitude drop，需先排除正常變異、stimulation adequacy 與 side-to-side context。
+- Small / absent saphenous、lateral femoral cutaneous 或 plantar responses 可見於 normal controls，尤其 older adults 或 technically difficult body habitus；不可直接等同 sensory axonal loss。
+- RNS 特別需要固定 recording electrodes、stimulator 與 limb；相對位移會改變 CMAP configuration，造成 false decrement / increment。
+- RNS 中 cold limb 可讓 decrement 變小，造成 false-negative；檢查時 recording site 應至少 33°C。
+- RNS 前未確認 supramaximal stimulation 可製造 artifactual decrement 或 increment。
+- Facial RNS 因 baseline CMAP 小且 facial muscle 難固定，小幅 electrode movement 就可造成 false-positive decrement。
+- Acetylcholinesterase inhibitors 可減少 RNS decrement；若無 medical contraindication，source 建議檢查前停 3-4 小時。
 - Sensitivity 增加通常會讓 onset latency measurement 變短；sweep speed 降低通常會讓 latency measurement 變長。
 
 ## Clinical / Research Implication
@@ -79,6 +89,8 @@ Small EDX signal
 - 判讀 conduction block 前，必須先確認 supramaximal stimulation、distal response validity、co-stimulation、anomalous innervation、temporal dispersion 與 nerve-specific normal variants。
 - 若 technical factors 已排除但 amplitude pattern 仍反常，下一步應依 nerve map 檢查 anomalous innervation，而不是把所有反常 pattern 都歸為 artifact。
 - Routine protocol 本身也會製造 artifact：ulnar elbow straight-line measurement、paired comparison distance mismatch、wrong FDI reference electrode、或 radial motor proximal distance surface error 都會改變判讀。
+- Lower-extremity routine protocol 也需記錄 actual distance、recording muscle、stimulation site、side-to-side comparison、height adjustment for late responses，以及是否可能有 APN。
+- RNS report 需記錄 temperature、immobilization、stimulation adequacy、AChE inhibitor status、exercise duration / timing 與 needle EMG confounders；否則 decrement / increment 不能被視為可靠 NMJ physiology。
 - 在 edema 中，正常 sensory response 有排除價值；low / absent response 需加 technical caveat。
 - 自動化或 AI NCS interpretation 若沒有 temperature、height、age、edema、filter 與 stimulation adequacy metadata，容易把 artifact 當 disease。
 
@@ -124,6 +136,7 @@ Small EDX signal
 - 誤讀：「Normal value table 可以修正 protocol error。」正確是 normal value table 假設 controlled temperature、standard distance 與正確 technique。
 - 誤讀：「Normal-range amplitude 代表刺激夠強。」正確是必須看到 plateau，再增加約 25% current。
 - 誤讀：「溫度校正可以完全取代 warming。」正確是 source 偏好 warming / rewarming，因 correction factor 不一定適用 diseased nerve。
+- 誤讀：「RNS decrement 是純生理結果，不太受技術影響。」正確是 RNS 對固定、溫度、supramaximal stimulation、藥物與 exercise timing 都高度敏感。
 
 ## Links
 
@@ -132,8 +145,13 @@ Small EDX signal
 - [[NCS_軸突損失與脫髓鞘判讀]]
 - [[EDX_異常神經支配變異判讀]]
 - [[Upper_Extremity_NCS_常規技術與陷阱]]
+- [[Lower_Extremity_NCS_常規技術與陷阱]]
+- [[RNS_Protocol與技術陷阱]]
+- [[RNS_Decrement_Increment判讀]]
 - [[../10_來源摘要/Anomalous_Innervations]]
 - [[EDX_轉介問題設計]]
 - [[../10_來源摘要/Artifacts_and_Technical_Factors]]
 - [[../10_來源摘要/Basic_Nerve_Conduction_Studies]]
+- [[../10_來源摘要/Repetitive_Nerve_Stimulation]]
 - [[../10_來源摘要/Routine_Upper_Extremity_Facial_Phrenic_NCS_Techniques]]
+- [[../10_來源摘要/Routine_Lower_Extremity_NCS_Techniques]]

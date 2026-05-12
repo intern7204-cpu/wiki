@@ -7417,3 +7417,1513 @@ index.md 更新：Total pages 7 → 16。
   - `00_總覽/主題地圖.md` 新增 NCV EMG hub link。
 - 邊界：
   - 尚未搬移 `ALS_診斷框架`、`Myopathy_診斷框架`、`Spasticity_概論` 等 broader neuromuscular / CNS 邊界頁。
+
+## [2026-05-10] ingest | Routine Lower Extremity Nerve Conduction Techniques
+
+- 本輪單一來源：
+  - `C:\原始資料\Routine Lower Extremity Nerve Conduction Techniques\Routine Lower Extremity Nerve Conduction Techniques.md`
+  - 本輪只處理此 textbook chapter；未混入 peroneal neuropathy、tarsal tunnel syndrome、polyneuropathy、sciatic neuropathy、lumbar plexopathy、femoral neuropathy、meralgia paresthetica 或 S1 radiculopathy disease-specific criteria。
+- 新增來源摘要：
+  - `10_來源摘要/Routine_Lower_Extremity_NCS_Techniques.md`
+- 新增頁面：
+  - `09_NCV EMG 周邊神經病變/Lower_Extremity_NCS_常規技術與陷阱.md`
+- 更新頁面：
+  - `09_NCV EMG 周邊神經病變/NCV_EMG_周邊神經病變總覽.md`
+  - `09_NCV EMG 周邊神經病變/電生理診斷醫學.md`
+  - `09_NCV EMG 周邊神經病變/EDX_定位導向檢查流程.md`
+  - `09_NCV EMG 周邊神經病變/EDX_技術假象與品質控制.md`
+  - `09_NCV EMG 周邊神經病變/NCS_軸突損失與脫髓鞘判讀.md`
+  - `09_NCV EMG 周邊神經病變/EDX_異常神經支配變異判讀.md`
+  - `09_NCV EMG 周邊神經病變/周邊神經病灶定位與EDX_US框架.md`
+  - `index.md`（Total pages 615 -> 617）
+  - `log.md`
+- 抽出概念：
+  - Lower Extremity NCS 常規技術與陷阱：routine lower-extremity NCS 的可解讀性取決於 nerve-specific recording / stimulation / distance、normal lower-extremity amplitude-drop exceptions、small sensory / plantar response limitations、APN review、actual-distance conduction velocity、side-to-side comparison 與 height-adjusted late-response context。
+- 本輪直接事實：
+  - Source 為 textbook chapter，source_tier 1。
+  - Tibial motor AHB distal distance 為 9 cm；tibial popliteal CMAP amplitude 可比 ankle lower，normal controls may drop up to 50%。
+  - Tibial popliteal amplitude drop 不可直接解讀為 conduction block；side-to-side comparison often useful。
+  - Peroneal motor EDB protocol 必須做 ankle、below-fibular-neck、above-fibular-neck stimulations；只做 ankle + above-fibular-neck 可能 miss peroneal slowing across fibular neck。
+  - Excessive lateral popliteal fossa stimulation 可 co-stimulate tibial nerve。
+  - Peroneal EDB proximal CMAP amplitude 高於 ankle 應考慮 APN。
+  - Peroneal below-fibular-head CMAP amplitude 可正常低於 ankle，average drop 14%，rare individuals 可 drop 20-30%。
+  - Peroneal TA recording 對 suspected peroneal neuropathy at fibular neck 特別有價值，可能較 EDB 更容易顯示 conduction block 或 focal slowing。
+  - Femoral motor rectus femoris study 主要用 side-to-side motor amplitude 比較 femoral neuropathy、lumbar plexopathy、severe L4 radiculopathy；obesity 可使檢查困難且需要 high currents。
+  - Superficial peroneal / sural / saphenous sensory studies standard distance 為 14 cm；若改 shorter distance，應用 onset latency 與 actual distance 算 conduction velocity，不應直接用 standard peak latency 判讀。
+  - Source 指出 lower-extremity neuropathy screening 中，sural nerve preferable to superficial peroneal sensory nerve。
+  - Saphenous response 可在 normal controls small / difficult / absent，尤其 age >40；低或 absent potential 需 side-to-side comparison。
+  - Lateral femoral cutaneous nerve course relative to ASIS 有變異；無 response 時可移動 stimulator lateral then medial。
+  - Lateral femoral cutaneous study 在 obesity 可困難，低或 absent response 需 unilateral symptom side-to-side comparison。
+  - Medial / lateral plantar motor and sensory studies 可用於 distal tibial neuropathy across ankle。
+  - Medial / lateral plantar mixed nerve studies 比 orthodromic sensory studies technically easier，且為 source preferred study for distal tibial neuropathy across ankle。
+  - Plantar mixed responses 可 small / absent in normal controls，尤其 age >40；常需 averaging 與 side-to-side comparison。
+  - Soleus H reflex pulse duration 必須設 1000 microseconds / 1 ms；H reflex 通常 25-34 ms，side-to-side latency difference >1.5 ms abnormal。
+  - H reflex 可 delayed / absent in polyneuropathy、tibial neuropathy、sciatic neuropathy、lumbosacral plexopathy 或 S1 radiculopathy。
+  - Late responses in tall or short patients must be normalized for height。
+  - Normal value tables assume controlled temperature and standard distances；motor / sensory amplitudes measured baseline to negative peak；sensory / mixed latencies are peak latencies but conduction velocities use onset latency。
+- 發現衝突：
+  - 與「proximal amplitude drop equals conduction block」衝突。
+  - 與「ankle and above-fibular-neck peroneal stimulation are enough」衝突。
+  - 與「absent plantar / saphenous / lateral femoral cutaneous response is automatically abnormal」衝突。
+  - 與「shorter-distance sensory response can still use standard-distance peak latency cutoff」衝突。
+  - 與「H reflex abnormality specifically localizes S1 radiculopathy」衝突。
+- 待追蹤問題：
+  - 可另處理 `Basic Statistics for Electrodiagnostic Studies`，補 normative values、false positive rate、threshold selection 與 diagnostic uncertainty。
+  - 若要建立 peroneal neuropathy at fibular neck、tarsal tunnel syndrome、lateral femoral cutaneous neuropathy、sciatic neuropathy、lumbar plexopathy、femoral neuropathy 或 S1 radiculopathy 頁，需各自使用 disease-specific source。
+
+## [2026-05-10] ingest | Basic Statistics for Electrodiagnostic Studies
+
+- 本輪單一來源：
+  - `C:\原始資料\Basic Statistics for Electrodiagnostic Studies\Basic Statistics for Electrodiagnostic Studies.md`
+  - 本輪只處理此 textbook chapter；未混入 CTS、UNE、radiculopathy、polyneuropathy 或任何 disease-specific diagnostic criteria。
+- 新增來源摘要：
+  - `10_來源摘要/Basic_Statistics_for_Electrodiagnostic_Studies.md`
+- 新增頁面：
+  - `09_NCV EMG 周邊神經病變/EDX_統計閾值與False_Positive控制.md`
+- 更新頁面：
+  - `09_NCV EMG 周邊神經病變/NCV_EMG_周邊神經病變總覽.md`
+  - `09_NCV EMG 周邊神經病變/電生理診斷醫學.md`
+  - `09_NCV EMG 周邊神經病變/EDX_轉介問題設計.md`
+  - `09_NCV EMG 周邊神經病變/EDX_定位導向檢查流程.md`
+  - `09_NCV EMG 周邊神經病變/NCS_軸突損失與脫髓鞘判讀.md`
+  - `index.md`（Total pages 617 -> 619）
+  - `log.md`
+- 抽出概念：
+  - EDX 統計閾值與 False-Positive 控制：EDX abnormality 是由 normal-value distribution、cutoff、sensitivity / specificity、pre-test probability、likelihood ratio 與 multiple-testing false-positive risk 共同決定的 post-test probability，不是單一數值超線就等於 disease。
+- 本輪直接事實：
+  - Source 為 textbook chapter，source_tier 1。
+  - Normal distribution 中約 68% observations 在 mean ±1 SD，約 95% 在 ±2 SD，約 99.7% 在 ±3 SD。
+  - EDX 常使用單側 tail cutoff；2 SD one-tail 約包含 97.5% population，2.5 SD 約包含 99.4% population。
+  - 多數 EDX cutoff values 常設在 2 或 2.5 SD above / below mean。
+  - Specificity 是 without condition 且 negative test 的比例；sensitivity 是 with condition 且 positive test 的比例。
+  - Normal 與 disease populations 通常 overlap，因此 false positives 與 false negatives 不可完全避免。
+  - Lower cutoff 會增加 sensitivity 但降低 specificity；higher cutoff 會增加 specificity 但降低 sensitivity。
+  - False positive 是 type I error；false negative 是 type II error。
+  - Source 指出 type I error 通常較不可接受，因為會把正常病人貼上 abnormal label，造成不必要 testing / treatment；除非 test 只作 screening，specificity 應優先於 sensitivity。
+  - Source 明確寫 EDX 不能完全 "rule out" 或 "rule in" any condition。
+  - Digit 4 CTS comparison example 中 cutoff >=0.4 ms specificity >97%，sensitivity 約 70%；cutoff 0.1 ms sensitivity 約 90%，specificity 約 60%。
+  - Bayes theorem 下，positive test 的 true-positive probability 取決於 sensitivity、specificity 與 disease prevalence / pre-test probability。
+  - 95% sensitivity / 95% specificity test 在 80% prevalence population 的 PPV 為 98.7%；在 1% prevalence population 的 PPV 為 16.1%。
+  - Source 指出 minimally positive test result 只有在 disease likelihood 高時才有意義；markedly abnormal test 則較可能為 true positive。
+  - Positive likelihood ratio = sensitivity / (1 - specificity)。
+  - Fagan nomogram example 中，pre-test probability 50% 時，LR 10 可使 post-test probability 約 93%，LR 3 則約 72%。
+  - Multiple tests 會增加 false-positive risk；若 10 tests 各有 2.5% false-positive rate 且任一 abnormal 即診斷，cumulative false-positive rate 可 >20% / almost 25%。
+  - 若要求 two or more tests abnormal，10 tests 各 2.5% false-positive rate 的 cumulative false-positive rate 可維持 <2.5%。
+- 發現衝突：
+  - 與「EDX abnormal value equals disease」衝突。
+  - 與「EDX can fully rule in / rule out」衝突。
+  - 與「borderline abnormality has same meaning regardless of clinical likelihood」衝突。
+  - 與「more tests always increase certainty」衝突。
+  - 與「sensitivity should always be maximized」衝突。
+- 待追蹤問題：
+  - 可另處理 `Anatomy and Neurophysiology for Electrodiagnostic Studies`，補 EDX anatomy / nerve physiology foundational assumptions。
+  - 若要建立 CTS、UNE、radiculopathy、polyneuropathy disease-specific diagnostic threshold 頁，需各自使用 disease-specific source。
+
+## [2026-05-10] ingest | The Interaction of Foot Strike and Footwear in Runners
+
+- 本輪單一來源：
+  - `C:\原始資料\The Interaction of Foot Strike and Footwear in Runners\The Interaction of Foot Strike and Footwear in Runners.md`
+  - 本輪只處理此 textbook chapter / focused narrative review；未混入其他 running injury、footwear 或 gait sources。
+- 更新來源摘要：
+  - `10_來源摘要/The_Interaction_of_Foot_Strike_and_Footwear_in_Runners.md`
+- 新增頁面：
+  - `06_Gait_Biomechanics/Foot_Strike與Footwear交互作用.md`
+- 更新頁面：
+  - `06_Gait_Biomechanics/跑步步態評估.md`
+  - `06_Gait_Biomechanics/跑鞋選擇原則.md`
+  - `06_Gait_Biomechanics/步態評估總論.md`
+  - `index.md`（Total pages 619 -> 620）
+  - `log.md`
+- 抽出概念：
+  - Foot Strike 與 Footwear 交互作用：同一種 foot strike 在不同 footwear geometry、transition history 與 tissue capacity 下，不代表同一種 load distribution。
+- 本輪直接事實：
+  - Source 為 textbook chapter / focused narrative review，project source_tier 1，但 clinical prescription confidence 為 medium。
+  - Source 指出 rearfoot strike 常見 abrupt vertical impact transient 與較高 vertical load rate。
+  - Source 指出 forefoot strike 可降低 vertical load rate，並在 selected patellofemoral pain runner 中可能降低 patellofemoral joint contact stress。
+  - Source 指出 forefoot strike 會增加 plantar flexors 與 Achilles loading。
+  - Source 指出 forefoot strike in traditional shoes 可能降低 vertical load rate，但 anteroposterior / mediolateral load rates 較高，resultant load rate 不一定較低。
+  - Source 指出 traditional shoe 的 outer sole flare 與 elevated heel 可能改變 forefoot-strike initial contact 的 inversion / plantarflexion。
+  - Source 指出 abrupt transition to minimal footwear 或 forefoot strike 可能導致 calf strain、Achilles tendinopathy、posterior tibialis tendinopathy、plantar fascia stress 或 metatarsal stress injury。
+- 發現衝突：
+  - 與「forefoot strike 一定比 rearfoot strike 安全」衝突。
+  - 與「minimal footwear 可作為 routine injury prevention」衝突。
+  - 與「只看 vertical load rate 就能判斷總傷害風險」衝突。
+- 待追蹤問題：
+  - 可另以 single-source ingest 補足 minimal footwear transition protocol 的 progression dose。
+  - 可另以 disease-specific sources 補 Patellofemoral Pain、Achilles tendinopathy、metatarsal stress injury 中的 foot-strike modification 適應症與禁忌。
+
+## [2026-05-10] reorganize | 06_Gait_Biomechanics 資料夾整理
+
+- 整理原則：
+  - `06_Gait_Biomechanics` 改作為下肢疾病、lower-limb biomechanics、gait、shoe / footwear、lower-limb orthosis 與 runner injury 相關頁面的集中資料夾。
+  - 神經疾病中的 gait 問題，例如 MS / Parkinson / cervical myelopathy，仍保留在 `03_疾病與臨床主題`，因其主體不是下肢 biomechanical disease。
+- 移入 `06_Gait_Biomechanics`：
+  - 下肢截肢與義肢：`下肢截肢復健總論.md`、`下肢義肢_K_Level_處方邏輯.md`
+  - lower-limb pain 與足踝疾病：`Lower_Limb_Pain_分區定位與高風險分流.md`、`足部疼痛分區評估.md`、`Achilles_tendinopathy.md`、`Ankle_sprain_總論.md`、`Syndesmotic_ankle_injury.md`、`Plantar_fasciitis.md`
+  - runner injury 與 return-to-run：`跑者下肢傷害評估總論.md`、`受傷跑者復健原則.md`、`跑步傷害風險因子與預防.md`、`跑步與Osteoarthritis.md`、`跑者運動性下腿痛.md`、`跑者膝部疼痛.md`、`跑者髖骨盆與大腿疼痛.md`
+  - knee / hip / thigh related conditions：`Patellofemoral_Pain.md`、`Iliotibial_Band_Syndrome.md`、`Hamstring_肌肉與肌腱傷害.md`、`Quadriceps_肌肉與肌腱傷害.md`
+- 移出 `06_Gait_Biomechanics`：
+  - `上肢矯具與復健機器人.md` -> `03_疾病與臨床主題`
+  - `脊椎裝具總論.md` -> `03_疾病與臨床主題`
+- 更新：
+  - 全域修正 moved pages 的 wikilinks；`log.md` 的歷史紀錄不做回寫，只追加本紀錄。
+  - 重建 `index.md` 的 `06 Gait / Biomechanics / Orthotics / Shoes` 區塊，並把上肢/脊椎裝具條目放回 `03_疾病與臨床主題`。
+- 待追蹤問題：
+  - `血管與淋巴疾病復健` 涵蓋 PAD / venous disease / lymphedema 與 gait，但主體仍較像跨疾病 rehabilitation；本輪暫不移入，日後可視下肢血管病頁面是否拆頁再決定。
+
+## [2026-05-10] ingest | Anatomy and Neurophysiology for Electrodiagnostic Studies
+
+- 本輪單一來源：
+  - `C:\原始資料\Anatomy and Neurophysiology for Electrodiagnostic Studies\Anatomy and Neurophysiology for Electrodiagnostic Studies.md`
+  - 本輪只處理此 textbook chapter；未混入 disease-specific CTS、radiculopathy、polyneuropathy、small-fiber neuropathy 或 nerve-specific protocol sources。
+- 新增來源摘要：
+  - `10_來源摘要/Anatomy_and_Neurophysiology_for_Electrodiagnostic_Studies.md`
+- 新增頁面：
+  - `09_NCV EMG 周邊神經病變/EDX_解剖與神經生理基礎.md`
+- 更新頁面：
+  - `09_NCV EMG 周邊神經病變/NCV_EMG_周邊神經病變總覽.md`
+  - `09_NCV EMG 周邊神經病變/電生理診斷醫學.md`
+  - `09_NCV EMG 周邊神經病變/EDX_定位導向檢查流程.md`
+  - `09_NCV EMG 周邊神經病變/NCS_軸突損失與脫髓鞘判讀.md`
+  - `index.md`（Total pages 620 -> 622）
+  - `log.md`
+- 抽出概念：
+  - EDX 解剖與神經生理基礎：EDX 判讀需以 DRG 位置、root / plexus / peripheral nerve 組織、large-fiber selectivity、myelin / saltatory conduction、motor unit / NMJ 與 volume conduction 為底層假設。
+- 本輪直接事實：
+  - Source 為 textbook chapter，source_tier 1。
+  - NCS and EMG primarily serve as extensions of the clinical examination。
+  - DRG 位於 spinal cord 外、靠近 intervertebral foramen；lesion proximal to DRG 可有 sensory symptoms 但 sensory conduction study preserved。
+  - Motor and sensory roots unite distal to the DRG to form a mixed spinal nerve；dorsal and ventral rami both contain motor and sensory fibers。
+  - Adjacent myotomes / dermatomes overlap substantially；single root lesion seldom causes major sensory loss and should not cause anesthesia。
+  - Routine NCS latency / velocity measurements reflect the largest and fastest fibers in the studied nerve。
+  - Standard NCS does not record small myelinated A-delta / B fibers or unmyelinated C fibers；selective small-fiber neuropathy may have normal routine NCS。
+  - Myelin from Schwann cells enables saltatory conduction；human peripheral myelinated fibers typically conduct around 35-75 m/s。
+  - A motor unit consists of one anterior horn cell, its axon, and all innervated muscle fibers。
+  - CMAPs, SNAPs and MUAPs are volume-conducted near-field potentials；amplitude and morphology depend on source-electrode distance。
+  - Correct motor CMAP recording over the motor point should produce initial negative deflection；off-motor-point recording can produce initial positive deflection。
+  - Stimulus artifact is a far-field potential and is transmitted essentially instantly。
+- 發現衝突：
+  - 與「normal SNAP excludes sensory lesion」衝突。
+  - 與「normal routine NCS excludes small-fiber neuropathy」衝突。
+  - 與「single root lesion should cause anesthesia」衝突。
+  - 與「waveform morphology is purely pathologic」衝突。
+- 待追蹤問題：
+  - 可另處理 `Late Responses`、`Repetitive Nerve Stimulation` 與 `Blink Reflex`，但需各自作為單一來源 ingest。
+  - Disease-specific radiculopathy、CTS、polyneuropathy 與 small-fiber neuropathy 頁仍需各自使用 disease-specific source 補完整 diagnostic boundary。
+
+## [2026-05-11] ingest | Late Responses
+
+- 本輪單一來源：
+  - `C:\原始資料\Late Responses\Late Responses.md`
+  - 本輪只處理此 textbook chapter；未混入 `Repetitive Nerve Stimulation`、`Blink Reflex`、`Basic Nerve Conduction Studies`、`Anatomy and Neurophysiology for Electrodiagnostic Studies` 或 disease-specific GBS / radiculopathy / polyneuropathy / sciatic neuropathy / lumbosacral plexopathy / S1 radiculopathy sources。
+- 新增來源摘要：
+  - `10_來源摘要/Late_Responses.md`
+- 新增頁面：
+  - `09_NCV EMG 周邊神經病變/F_Response_F_Estimate判讀.md`
+  - `09_NCV EMG 周邊神經病變/H_Reflex_臨床用途與限制.md`
+  - `09_NCV EMG 周邊神經病變/A_Wave_Axon_Reflex判讀.md`
+- 更新頁面：
+  - `09_NCV EMG 周邊神經病變/NCV_EMG_周邊神經病變總覽.md`
+  - `09_NCV EMG 周邊神經病變/電生理診斷醫學.md`
+  - `09_NCV EMG 周邊神經病變/EDX_定位導向檢查流程.md`
+  - `09_NCV EMG 周邊神經病變/NCS_軸突損失與脫髓鞘判讀.md`
+  - `09_NCV EMG 周邊神經病變/Lower_Extremity_NCS_常規技術與陷阱.md`
+  - `09_NCV EMG 周邊神經病變/Upper_Extremity_NCS_常規技術與陷阱.md`
+  - `index.md`（Total pages 622 -> 626）
+  - `log.md`
+- 抽出概念：
+  - F Response 與 F Estimate 判讀：F response 是 antidromic 折返後 1-5% CMAP 的純 motor 晚期 potential，測整條 motor nerve；F estimate = (2D/CV) × 10 + 1 ms + DL 校正 distal latency / CV / 肢長後判讀 proximal segment，但 site / disease specificity 低，對 EMG-confirmed S1 radiculopathy sensitivity 約 4-8%。
+  - H Reflex 臨床用途與限制：H reflex 是 1 ms submaximal 刺激下選擇活化 Ia muscle-spindle afferent 的 monosynaptic reflex，2 歲後成人只能 routinely 從 tibial-soleus 取得，是 S1 ankle jerk 的電生理對應物；對 polyneuropathy、tibial / sciatic neuropathy、lumbosacral plexopathy 與 S1 radiculopathy 都敏感但不特異。
+  - A Wave / Axon Reflex 判讀：A wave 是 reinnervated 或 demyelinated 神經 submaximal 刺激下沿 collateral branching point 折返的晚期 motor potential；以每次刺激 latency / configuration 完美一致與變動的 F response 區分，是 reinnervation、demyelination（包含 early GBS）或 distal stimulation 不真正 supramaximal 的 marker，不是 true reflex。
+- 本輪直接事實：
+  - Source 為 textbook chapter，source_tier 1。
+  - F response 是純 motor、不含 synapse、不是 true reflex，每次刺激活化的 anterior horn cell 群不同，因此 latency 與 configuration 略變動。
+  - F response 約為 CMAP 的 1%-5%；severely low CMAP 時 absent F 沒有 proximal-lesion 意義。
+  - Normal F latency：median / ulnar at wrist 約 25-32 ms；peroneal / tibial at ankle 約 45-56 ms。
+  - 設定：supramaximal、cathode proximal、gain 200 μV、sweep 5-10 ms、≤ 0.5 Hz、≥ 10 rastered stimulations。
+  - Normal F-wave persistence 80-100%（最少 > 50%），peroneal F 例外可在正常人 absent / impersistent。
+  - Normal chronodispersion ≤ 4 ms（upper） / ≤ 6 ms（lower）。
+  - Proximal stimulation → M latency 增加但 F latency 縮短。
+  - F estimate 公式：F estimate = (2D/CV) × 10 + 1 ms + DL；surface D 用 C7 spinous process–wrist（上肢）或 xiphoid–ankle（下肢）。
+  - Measured minimal F latency 通常稍短於 F estimate（近端速度略快）；> F estimate 表 disproportionate proximal slowing。
+  - Mauricio et al. (2014)：tibial F response 對 EMG-confirmed S1 radiculopathy 的 sensitivity 約 4%；加 F estimate 約 8%。
+  - F response 在上肢 routinely 只能評估 C8-T1，下肢 L5-S1；其他 root 因 dual myotome 與 sensory-predominant lesion 通常 F response normal。
+  - Jendrassik 在 F response 不可得時可 prime AHC；但若 F response 已可得就不該做（over-priming 反讓 F response 不出現）。
+  - H reflex 是 true reflex：Ia afferent + 突觸 + alpha motor efferent。
+  - 2 歲以後 H reflex 在 routine 條件下只能從 tibial-soleus 取得；newborn 廣泛存在於多條 motor nerve。
+  - H reflex 設定：1 ms 脈寬、submaximal、popliteal fossa cathode proximal、G1 over soleus 2-3 fingerbreadths distal to gastrocnemius 兩腹會合處、G2 over Achilles tendon。
+  - 最佳 G1 位置：popliteal fossa 至 medial malleolus 後方分八等分中的第 5 或 6 段。
+  - 典型 H 第一次出現於約 25-34 ms latency、triphasic、肌肉靜息下取得。
+  - 隨刺激強度上升：H 增大且 latency 縮短、M 出現、最終 H 因 antidromic motor collision 縮小消失，被 F response 取代。
+  - Normal H latency 上限約 34 ms（leg-length / age 或 height nomogram 校正）；同距離下 side-to-side 差 > 1.5 ms 視為顯著；H/M ratio ≤ 50%。
+  - H reflex 是 S1 ankle jerk 的電生理對應物：ankle jerk 存在 → H reflex 應存在；ankle jerk 消失，H reflex 仍可能存在。
+  - 任何降低 ankle jerk 的 lesion（polyneuropathy、proximal tibial neuropathy、sciatic neuropathy、lumbosacral plexopathy、S1 nerve root lesion）都可能延長或消失 H reflex。
+  - 老年人雙側 ankle jerk / H reflex 消失常為正常變異，不必然病理。
+  - H/M ratio 增加（特別是 adult 在 soleus 以外肌肉測到 H reflex）暗示 upper motor neuron / 中樞興奮性增高。
+  - A wave (axon reflex) 名為 reflex 但無 synapse，並非真正 reflex。
+  - 在 rastered F response trace 中以 latency / configuration 完美一致辨識 A wave；F response 則 latency / configuration 略變動。
+  - A wave 通常出現在 M response 後、F response 前；極少數 collateral fiber 速度極慢時可在 F response 後。
+  - Submaximal stimulation 是 A wave 出現的常見條件；supramaximal 刺激下 antidromic collision 通常消除 A wave。
+  - A wave 主要伴隨 axonal-loss 後 reinnervation，也可見於 demyelinating neuropathy；早期 Guillain-Barré syndrome 的前幾天經典出現 A wave，source 對其機制提出 ephaptic spread 推測（未確認）。
+  - A wave 也可作為 distal stimulation 不真正 supramaximal 的線索。
+- 發現衝突：
+  - 與「prolonged F response 等於 radiculopathy」衝突。
+  - 與「normal F response 排除 radiculopathy」衝突。
+  - 與「absent F response 等於 proximal lesion」衝突。
+  - 與「absent / delayed H reflex 特異定位 S1 radiculopathy」衝突。
+  - 與「雙側 absent H reflex 一定是 polyneuropathy 或 S1 radiculopathy」衝突。
+  - 與「stable latency 的晚期 potential 也是 F response」衝突。
+  - 與「axon reflex 是 reflex」衝突。
+  - 與「supramaximal 後仍持續的 A wave 必然代表 reinnervation 或 demyelination」衝突（也可能代表 stimulation 實際未 supramaximal）。
+- 待追蹤問題：
+  - 可另處理 `Repetitive Nerve Stimulation` 與 `Blink Reflex`，建立 specialized EDX testing concept pages。
+  - Disease-specific GBS、CIDP、CMT、S1 radiculopathy、sciatic neuropathy、lumbosacral plexopathy 仍需各自以 disease-specific source ingest 後建立 diagnostic criteria 頁。
+  - 周邊神經損傷分類與恢復機制頁未來若擴展為 multi-source，可加入 A wave 作為 reinnervation marker 的具體連結。
+
+## [2026-05-11] correction | EDX/NCS 系列來源摘要語言修正（中文化）
+
+- 修正原因：先前 EDX/NCS 系列來源摘要 prose 以英文為主，與 AGENTS.md §5「主要使用台灣繁體中文，醫學與科學專有名詞保留 American English」原則不符。
+- 範圍限制：本批次僅修正 prose 語言，未變動結構、概念邊界、來源歸屬或事實內容；skill template structure markers（## Source Type、## Reliability Level、## Core Concepts Extracted、## Clinically Useful Points 等）保留英文，per `feynman-euclidean-summary` skill template。
+- 重新檢查來源（每篇仍為單一來源 ingest）：
+  - `10_來源摘要/Late_Responses.md`
+  - `10_來源摘要/Anatomy_and_Neurophysiology_for_Electrodiagnostic_Studies.md`
+  - `10_來源摘要/Basic_Nerve_Conduction_Studies.md`
+  - `10_來源摘要/Basic_Statistics_for_Electrodiagnostic_Studies.md`
+  - `10_來源摘要/Approach_NCS_EMG_Neuromuscular_Ultrasound.md`
+  - `10_來源摘要/Artifacts_and_Technical_Factors.md`
+  - `10_來源摘要/Anomalous_Innervations.md`
+  - `10_來源摘要/Routine_Upper_Extremity_Facial_Phrenic_NCS_Techniques.md`
+  - `10_來源摘要/Routine_Lower_Extremity_NCS_Techniques.md`
+  - `10_來源摘要/Peripheral_Nerve_Disorders.md`
+  - `10_來源摘要/Myopathic_Disorders.md`
+  - `10_來源摘要/Motor_Neuron_Diseases.md`
+- 修正頁面：以上 12 篇來源摘要全文改寫為「中文敘述 + 英文醫學專名」風格；frontmatter 的 contradictions 從英文改為中文。
+- 移除或降級的陳述：無；事實層級不變。
+- 仍不確定之處：
+  - `09_NCV EMG 周邊神經病變/` 之下的 EDX 概念頁（F_Response_F_Estimate判讀、H_Reflex_臨床用途與限制、A_Wave_Axon_Reflex判讀 等）大部分已是中文敘述，但結構仍含部分英文 markdown 段落，未列入本輪改寫。
+  - 10_來源摘要 中 CJK 比例 < 5% 的英文密集型文件還有約 73 篇（含 Wprime / VO2 / CP / GBS / stroke UpToDate / parenting / rehab textbook 等系列）；本輪未動，待使用者確認下一輪範圍與優先序後再處理。
+- 待處理來源：
+  - 上述 73 篇英文密集型 source summary（待批次中文化）。
+  - 09_NCV EMG 周邊神經病變/ 中的 F_Response、H_Reflex、A_Wave 三篇概念頁（如使用者要求）。
+
+## [2026-05-11] ingest | Repetitive Nerve Stimulation
+
+- 本輪單一來源：
+  - `C:\原始資料\Repetitive Nerve Stimulation\Repetitive Nerve Stimulation.md`
+  - 本輪只處理此 textbook chapter；未混入 `Blink Reflex`、single-fiber EMG、myasthenia gravis guideline、Lambert-Eaton myasthenic syndrome guideline、botulism guideline 或 antibody testing 來源。
+- 新增來源摘要：
+  - `10_來源摘要/Repetitive_Nerve_Stimulation.md`
+- 新增頁面：
+  - `09_NCV EMG 周邊神經病變/RNS_Decrement_Increment判讀.md`
+  - `09_NCV EMG 周邊神經病變/RNS_Protocol與技術陷阱.md`
+- 更新頁面：
+  - `09_NCV EMG 周邊神經病變/NCV_EMG_周邊神經病變總覽.md`
+  - `09_NCV EMG 周邊神經病變/電生理診斷醫學.md`
+  - `09_NCV EMG 周邊神經病變/EDX_定位導向檢查流程.md`
+  - `09_NCV EMG 周邊神經病變/EDX_技術假象與品質控制.md`
+  - `index.md`（Total pages 626 -> 629）
+  - `log.md`
+- 抽出概念：
+  - RNS Decrement / Increment 判讀：RNS 用 slow 2-3 Hz stimulation、brief exercise / rapid RNS 與 prolonged-exercise exhaustion 改變 ACh quanta release 與 EPP，從 CMAP decrement / increment 推估 NMJ safety factor；>10% decrement abnormal 但不等於 myasthenia gravis，>100% increment 高度支持 presynaptic NMJ disorder，但 40-100% 屬 equivocal。
+  - RNS Protocol 與技術陷阱：RNS 判讀前必須控制 recording site temperature >=33°C、immobilization、supramaximal stimulation、AChE inhibitor status、exercise duration / timing、nerve / muscle selection 與 needle EMG confounders；facial RNS 因 CMAP 小與難固定，false-positive 風險高。
+- 本輪直接事實：
+  - Source 為 textbook chapter，source_tier 1。
+  - RNS 應考慮於 suspected myasthenia gravis、Lambert-Eaton myasthenic syndrome、botulism、fatigability、proximal weakness、dysphagia、dysarthria 或 ocular abnormalities。
+  - NMJ 的 ACh quanta stores 包含 immediately available store 約 1000 quanta、mobilization store 約 10,000 quanta、reserve store >100,000 quanta；每個 quantum 約含 10,000 ACh molecules。
+  - Slow RNS 2-3 Hz 會造成 quanta depletion；normal safety factor 下 EPP 仍高於 threshold，因此 CMAP 穩定。
+  - Postsynaptic NMJ disorder 中同樣 quanta release 產生較小 EPP；slow RNS 可讓部分 EPP 掉到 threshold 以下，造成 CMAP decrement。
+  - Presynaptic NMJ disorder 中 release probability 降低，baseline EPP / CMAP 可偏低；rapid RNS 或 10 秒 maximal voluntary exercise 可因 calcium accumulation 造成 facilitation / increment。
+  - 1 分鐘 maximal exercise 後，2-4 分鐘內 slow RNS 可顯示 postexercise exhaustion。
+  - Pseudofacilitation 可讓 normal CMAP amplitude 增加，但通常 duration 變短、area 變化小，且 amplitude increment 通常不超過 40%。
+  - >10% decrement 定義為 abnormal；任何 reproducible decrement 可能 abnormal，但 10% cutoff 用來容納 technical factors。
+  - Increment >100% 常見於 presynaptic NMJ disorders；40-100% increment 最好視為 equivocal。
+  - RNS protocol 包含 warming to >=33°C、immobilization、routine motor NCS first、3-Hz rest RNS 5-10 impulses repeated three times、brief exercise repair / facilitation、prolonged exercise exhaustion testing、low CMAP 時做 postexercise increment testing，以及 proximal / distal nerve selection。
+  - Acetylcholinesterase inhibitors 最好在檢查前停 3-4 小時，除非 medically contraindicated。
+  - Facial RNS 因 baseline CMAP 小與 muscle 無法良好固定，容易因小幅變化造成 false-positive decrement。
+  - Denervation / reinnervation、motor neuron disease、myotonic disorders 與 metabolic myopathies 也可出現 decrement；RNS 不能孤立判讀，需 history、directed neurologic examination、routine NCS 與 needle EMG。
+- 發現衝突：
+  - 與「normal RNS 排除 NMJ disorder」衝突。
+  - 與「>10% decrement 就是 myasthenia gravis」衝突。
+  - 與「postexercise increment 一定是 Lambert-Eaton myasthenic syndrome」衝突。
+  - 與「facial RNS 因接近 ocular / bulbar phenotype 所以最可靠」衝突。
+  - 與「cold limb 只會影響 routine NCS，不影響 RNS 判讀」衝突。
+  - 與「RNS 可以不做 needle EMG confounder control」衝突。
+- 待追蹤問題：
+  - 可另處理 `Blink Reflex`，建立 specialized EDX testing concept page。
+  - Myasthenia gravis、Lambert-Eaton myasthenic syndrome、botulism 與 single-fiber EMG 需各自使用 disease- / method-specific source 補 diagnostic criteria 與 sensitivity / specificity。
+
+## [2026-05-11] ingest | Nurturing Care for Children with Developmental Delays and Disabilities
+
+- 本輪單一來源：
+  - `C:\原始資料\Nurturing Care for Children with Developmental Delays and Disabilities\Nurturing Care for Children with Developmental Delays and Disabilities.md`
+  - 本輪只處理此 UNICEF / WHO thematic brief；未混入 `Nurturing Care Practice Guide`、WHO 2020 ECD guideline、WHO CST manuals、LEAP-CP 原始研究、Baby Ubuntu 原始研究或 condition-specific guideline。
+- 新增來源摘要：
+  - `10_來源摘要/Nurturing_Care_for_Children_with_Developmental_Delays_and_Disabilities.md`
+- 新增頁面：
+  - `07_Pediatric_Development/Disability-Inclusive_Nurturing_Care_發展遲緩與發展障礙兒童.md`
+- 更新頁面：
+  - `07_Pediatric_Development/Nurturing_Care_健康與營養服務整合.md`
+  - `index.md`（Total pages 629 -> 631）
+  - `log.md`
+- 抽出概念：
+  - Disability-inclusive nurturing care：children at risk of or with developmental delays and disabilities 仍需要完整 nurturing care；服務系統需用 individualized、family-centred、coordinated care，把 inclusive universal services 與 targeted / indicated supports 並行，並處理 caregiver burden、stigma、accessibility、assistive technology、ECI 與 referral follow-up。
+- 本輪直接事實：
+  - Source 為 UNICEF / WHO 2025 thematic brief，非 formal guideline、textbook chapter、systematic review 或 primary trial；本 wiki 依 AGENTS hierarchy 標為 Tier 7 official institutional brief。
+  - Nurturing care 包含 good health、adequate nutrition、safety and security、opportunities for early learning、responsive caregiving。
+  - 來源定義 developmental delay 為對 actual / adjusted age expected milestones 的 significant variation。
+  - 來源定義 developmental disability 為影響 developing nervous system 並造成 motor、cognitive、language、behaviour 或 sensory functioning impairment 的 health conditions，且 participation 會受 barriers / context 限制。
+  - 來源採 ICF 觀點：disability 不是 health condition 本身，而是 impairment 與 societal、physical、environmental barriers 的互動結果。
+  - 來源列出三個 guiding principles：individualized care、family-centred care、coordinated care。
+  - 來源主張 twin-track approach：inclusive mainstream / universal services for all children，加上 targeted / indicated services for children and caregivers requiring additional support。
+  - 來源指出 ECI services 應 birth-onward、family-centred、strengths-based、home- and routine-grounded、multisectoral、integrated and transdisciplinary。
+  - 來源指出 developmental monitoring 不只是 milestone checking，而要看 child functioning、home environment、family risk / strengths 與 individualized support needs。
+  - 來源明確指出 early identification 應促成 timely intervention，但 diagnosis requirement 不應延誤 family-centred services。
+  - Caregiver physical / mental health、safety、resources、financial strain、information access、stigma 與 social support 會影響 caregiver 提供 nurturing care 的能力。
+- 發現衝突：
+  - 與「developmental disability child 只需要 specialist therapy，不需要 ordinary nurturing care」衝突。
+  - 與「沒有 formal diagnosis 前不應提供 family-centred support」衝突。
+  - 與「universal health / nutrition service 天然公平，不需另外處理 accessibility / stigma / caregiver burden」衝突。
+  - 與「developmental monitoring 等於 milestone checklist」衝突。
+- 待追蹤問題：
+  - 若要把 CST、LEAP-CP、Baby Ubuntu 或 AAC project 寫成 effectiveness page，需各自回到原始研究或 systematic review。
+  - Assistive technology access、care coordination、community stigma / participation barriers 可後續拆成單一概念頁。
+  - 本 thematic brief 不能替代 CP、ASD、hearing loss、ID / GDD 或 feeding disorder 的 condition-specific diagnostic / treatment sources。
+
+## [2026-05-11] ingest | Blink Reflex
+
+- 本輪單一來源：
+  - `C:\原始資料\Blink Reflex\Blink Reflex.md`
+  - 本輪只處理此 textbook chapter；未混入 `Routine Upper Extremity, Facial, and Phrenic Nerve Conduction Techniques`、`Late Responses`、`Repetitive Nerve Stimulation`、facial palsy guideline、brainstem stroke source、multiple sclerosis source、Guillain-Barre syndrome guideline 或 trigeminal neuropathy source。
+- 新增來源摘要：
+  - `10_來源摘要/Blink_Reflex.md`
+- 新增頁面：
+  - `09_NCV EMG 周邊神經病變/Blink_Reflex_R1_R2判讀.md`
+- 更新頁面：
+  - `09_NCV EMG 周邊神經病變/NCV_EMG_周邊神經病變總覽.md`
+  - `09_NCV EMG 周邊神經病變/電生理診斷醫學.md`
+  - `09_NCV EMG 周邊神經病變/EDX_定位導向檢查流程.md`
+  - `index.md`（Total pages 631 -> 633）
+  - `log.md`
+- 抽出概念：
+  - Blink Reflex R1/R2 判讀：blink reflex 是 cranial nerve V1 afferent、pontomedullary interneuron network 與 cranial nerve VII efferent 的 true reflex；以 unilateral supraorbital stimulation 與 bilateral orbicularis oculi recording 判讀 ipsilateral R1、ipsilateral R2、contralateral R2 的 latency / absence pattern，可提示 trigeminal afferent、facial efferent、mid-pontine、medullary 或 generalized demyelinating pathway abnormality。
+- 本輪直接事實：
+  - Source 為 textbook chapter，source_tier 1。
+  - Blink reflex 是 clinically evoked corneal reflex 的 electrical correlate。
+  - Blink reflex 是 true reflex，包含 sensory afferent limb、intervening synapses 與 motor efferent limb。
+  - Afferent limb 由 trigeminal nerve ophthalmic division 的 supraorbital branch sensory fibers 介導。
+  - Efferent limb 由 facial nerve motor fibers 介導，recording muscle 為 orbicularis oculi。
+  - Ipsilateral supraorbital nerve stimulation 可引發 bilateral facial nerve eye-blink responses。
+  - R1 通常 ipsilateral，代表 main sensory nucleus of V in mid-pons 到 ipsilateral facial nucleus in lower pontine tegmentum 的 disynaptic pathway。
+  - R2 通常 bilateral，由 nucleus of the spinal tract of V in ipsilateral pons / medulla 到 bilateral facial nuclei 的 multisynaptic pathway 介導。
+  - R1 stable / reproducible，常為 biphasic or triphasic；少數正常人 bilateral R1 可能不能可靠誘發。
+  - R2 polyphasic、variable，且 repeated stimulation 會 habituate。
+  - Typical R1 latency 約 10-12 ms，R2 latency 約 30-40 ms。
+  - Normal absolute latency anchors：R1 <13 ms、ipsilateral R2 <41 ms、contralateral R2 <44 ms。
+  - Side-to-side anchors：R1 difference <1.2 ms、ipsilateral R2 difference <5 ms、contralateral R2 difference <7 ms。
+  - Procedure：relaxed supine position、bilateral orbicularis oculi recording、supraorbital stimulation over medial eyebrow、0.1 ms pulse、sweep 5 or 10 ms/division、sensitivity 100 or 200 uV/division、motor filters 10 Hz to 10 kHz。
+  - 每側通常取 4-6 stimuli on rastered tracing and superimposed，選 shortest latency。
+  - 應等待數秒避免 habituation；stimulator 不應設為 repetitive stimulation。
+  - Trigeminal lesion pattern：刺激 affected side 時 ipsilateral R1/R2 與 contralateral R2 全部 delay / absent；刺激 unaffected side 時 responses normal。
+  - Facial lesion pattern：所有 affected-side recorded responses abnormal，不論刺激哪一側。
+  - Mid-pontine lesion pattern：刺激 affected side 時 R1 absent / delayed，但 ipsilateral and contralateral R2 intact。
+  - Medullary lesion pattern：R1 可保留，但 ipsilateral / contralateral R2 pattern 依受影響的 medullary interneuron pathway 改變。
+  - Demyelinating peripheral neuropathy 可讓 all blink responses markedly delayed or absent；typical distal dying-back axonal neuropathy 較少影響 blink reflex。
+- 發現衝突：
+  - 與「blink reflex 只是 facial motor NCS」衝突。
+  - 與「R2 延遲就是 facial neuropathy」衝突。
+  - 與「R1 absent 一定是 pontine lesion」衝突，因少數正常人 bilateral R1 可能不可靠。
+  - 與「blink reflex abnormality 可直接等同單一 disease diagnosis」衝突；其主要價值是 reflex-arc physiology localization clue。
+- 待追蹤問題：
+  - Facial palsy prognosis、trigeminal sensory neuropathy、brainstem stroke、multiple sclerosis、Guillain-Barre syndrome / CIDP 中 blink reflex 的 test accuracy 需各自用 disease-specific source 補強。
+  - 若未來建立 cranial nerve EDX 專區，可把 blink reflex 與 facial NCS、trigeminal sensory testing、brainstem evoked potentials 分開整理。
+
+## [2026-05-11] ingest | Unipolar depression in adults: Indications, efficacy, and safety of transcranial magnetic stimulation (TMS)
+
+- 本輪單一來源：
+  - `C:\原始資料\Unipolar depression in adults_ Indications, efficacy, and safety of transcranial magnetic stimulation (TMS).md`
+  - 本輪只處理此 UpToDate topic review；未混入 aphasia TMS、stroke motor recovery TMS、autism complementary therapy、TBI neuromodulation、ECT overview、TMS administration protocol 或 treatment-resistant depression guideline 原文。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_unipolar_depression_TMS_indications_efficacy_safety.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/rTMS_for_Treatment_Resistant_Unipolar_Depression_適應症與安全.md`
+- 更新頁面：
+  - `index.md`（Total pages 633 -> 635）
+  - `log.md`
+- 抽出概念：
+  - rTMS for treatment-resistant unipolar depression：adult unipolar major depression 在至少一種 antidepressant response 不足後，可考慮 rTMS；surface cortical TMS、theta burst TMS 與 deep TMS 均有 randomized / meta-analytic evidence，但 ECT 對 major depression 的 efficacy 較高，maintenance TMS benefit 尚未確立，且必須做 seizure、metal、cochlear implant、MRI-unsafe implanted device 與 medication / withdrawal risk screening。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04，topic last updated 2025-07-21；source_tier 6。
+  - US FDA 於 2008 核准 TMS 用於 treatment-resistant depression。
+  - rTMS is indicated for patients with unipolar major depression who have failed at least one antidepressant medication。
+  - Standard TMS categories include surface cortical stimulation, theta burst stimulation, and deep stimulation。
+  - Surface cortical TMS 是最廣泛研究的 TMS type。
+  - High frequency left dorsolateral prefrontal cortex stimulation 與 low frequency right dorsolateral prefrontal cortex stimulation 均有 sham-controlled efficacy evidence。
+  - Theta burst TMS 與 deep TMS 也有 efficacy evidence；protocol 間 direct head-to-head evidence 有限。
+  - rTMS 通常與 antidepressant pharmacotherapy 併用；同時啟動 TMS plus pharmacotherapy 是否優於 TMS alone 尚未由 randomized trials 確立。
+  - ECT 對 major depression 的 efficacy 高於 rTMS。
+  - Acute responder 的 TMS benefit 可短期維持，部分可到一年，但維持比例會下降。
+  - Maintenance TMS after acute response 的 benefit 尚未確立。
+  - Contraindications include seizure disorder、implanted metallic hardware in the magnetic field、metal fragments、cochlear implants、MRI-unsafe implanted electrical devices、ferromagnetic-containing head/neck tattoo ink。
+  - Seizure 是最嚴重 adverse effect，但在遵守 safety guideline 時 rare。
+  - Seizure risk factors include epilepsy history、preexisting neurologic disorder、proconvulsant medications、recent alcohol / benzodiazepine / anticonvulsant discontinuation、sleep deprivation、higher frequency、higher intensity、shorter intertrain interval。
+  - Common adverse effects include headache、scalp pain、transient auditory threshold increase、vasovagal syncope。
+  - Randomized evidence summarized by this source does not show cognitive impairment from rTMS in major depression。
+- 發現衝突：
+  - 與「TMS 是無風險 noninvasive wellness treatment」衝突。
+  - 與「TMS efficacy 等同或優於 ECT」衝突。
+  - 與「maintenance TMS 是已確立 relapse prevention」衝突。
+  - 與「aphasia / stroke motor / chronic pain 的 TMS evidence 可直接外推到 unipolar depression」衝突。
+- 待追蹤問題：
+  - 若要寫 TMS administration protocol，需單獨處理 `Unipolar major depression: Administering TMS` source 或 device-specific protocol。
+  - 若要處理 poststroke depression neuromodulation，應回到 poststroke depression guideline / systematic review，而不能只用本 adult unipolar depression topic review。
+  - Treatment-resistant depression sequencing、ECT comparison、ketamine/esketamine comparison 需要各自單一來源。
+  - 仍可後續處理 `Oropharyngeal dysphagia_ Clinical features, diagnosis, and management.md`、CRPS UpToDate topics、vascular cognitive impairment topics。
+
+## [2026-05-11] ingest | Oropharyngeal dysphagia: Clinical features, diagnosis, and management
+
+- 本輪單一來源：
+  - `C:\原始資料\Oropharyngeal dysphagia_ Clinical features, diagnosis, and management.md`
+  - 本輪只處理此 UpToDate topic review；未混入 `Rehabilitation of swallowing disorders` textbook chapter、stroke complications source、palliative dysphagia source、esophageal dysphagia topic、Zenker's diverticulum topic 或 head/neck cancer guideline。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_oropharyngeal_dysphagia_clinical_features_diagnosis_management.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Oropharyngeal_Dysphagia_成人臨床辨識診斷與管理.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/吞嚥障礙復健總論.md`
+  - `index.md`（Total pages 635 -> 637）
+  - `log.md`
+- 抽出概念：
+  - Adult oropharyngeal dysphagia clinical pathway：adult oropharyngeal dysphagia 是 difficulty initiating swallowing / transferring food from mouth to pharynx 的 alarm symptom；需先用 symptom timing 區分 esophageal dysphagia 與 globus，再依 history、head/neck/oral exam、cranial nerve neurologic exam、FEES / VFSS / manometry 找 etiology、aspiration severity 與 UES dysfunction，最後用 cause-specific treatment、swallow rehabilitation、diet / maneuver matching、enteral nutrition、cricopharyngeal intervention 或 structural lesion referral 分流。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04，topic last updated 2025-07-15；source_tier 6。
+  - Dysphagia is a subjective sensation of difficulty or abnormality of swallowing。
+  - Oropharyngeal or transfer dysphagia is characterized by difficulty initiating a swallow。
+  - Oropharyngeal dysphagia may include nasopharyngeal regurgitation、aspiration and residual food sensation in the pharynx。
+  - Esophageal dysphagia is characterized by difficulty swallowing several seconds after initiating a swallow and food-stuck sensation。
+  - Common symptoms include neck-level obstruction sensation、coughing、choking、drooling、regurgitation with liquids or solids、history of aspiration pneumonia、weight loss。
+  - Oropharyngeal dysphagia is an alarm symptom that warrants urgent evaluation。
+  - Evaluation should determine underlying etiology and assess severity of oropharyngeal dysfunction and degree of aspiration before treatment。
+  - Initial evaluation includes oral cavity / head / neck / supraclavicular exam and cranial nerve-focused neurologic exam。
+  - Red flags / etiologic clues include malignancy risk factors、otalgia、xerostomia / xerogenic medications、voice or speech changes、Zenker's-like symptoms、late-meal dysphagia suggesting myasthenia gravis、post-intubation context。
+  - For suspected neuromuscular disease, source performs VFSS/modified barium swallow and esophageal manometry。
+  - For no evidence of systemic disease, source begins with FEES and proceeds to VFSS/manometry if no etiology is found。
+  - VFSS permits dynamic functional evaluation of swallowing events, bolus movement, aspiration severity, hyoid/laryngeal elevation, UES relaxation and pharyngeal contraction。
+  - FEES is portable bedside structural/function assessment, visualizes secretions and requires specialized training in swallow physiology and flexible endoscopy。
+  - FEES and VFSS correlate, but FEES may rate penetration/aspiration risk more severely; clinical significance is uncertain。
+  - Manometry quantifies UES pressure/timing and may help identify etiology or myotomy candidates, though it rarely changes management broadly。
+  - Management goals are to improve food transfer and prevent aspiration。
+  - Swallow rehabilitation is suggested for mild oropharyngeal dysphagia after stroke, head/neck trauma, surgery or degenerative neurologic diseases；source grades this as Grade 2C。
+  - Severe dysfunction with aspiration risk may require enteral nutrition。
+  - Primary cricopharyngeal dysfunction may be treated with endoscopic or open myotomy；evidence is not randomized and complications exist。
+  - Botulinum toxin injection should be reserved for non-surgical/non-dilation candidates in centers of expertise。
+  - NMES evidence is heterogeneous and further studies are needed。
+- 發現衝突：
+  - 與「吞嚥困難先改飲食質地即可，不需找原因」衝突。
+  - 與「FEES / VFSS / manometry 可互相替代」衝突。
+  - 與「病人指到脖子就一定是 oropharyngeal dysphagia」衝突；source 指出 distal esophageal disease 也可能感覺在 suprasternal notch。
+  - 與「globus 就是 dysphagia」衝突；globus criteria 需 absence of dysphagia / odynophagia 等條件。
+  - 與「thickened liquids universally safer」衝突；來源把 viscosity / maneuver 與 specific physiologic defect 配對。
+  - 與「cricopharyngeal Botox 是 routine low-risk treatment」衝突。
+- 待追蹤問題：
+  - 若要建立 local VFSS / FEES protocol，需單獨處理 dysphagia clinical practice guideline 或 local imaging / SLP protocol。
+  - Esophageal dysphagia、Zenker's diverticulum、head and neck cancer dysphagia、palliative dysphagia、poststroke dysphagia 各需獨立來源，不可由本頁直接外推。
+  - NMES、cricopharyngeal myotomy / dilation / Botox 的適應症與效果需後續用 procedure-specific evidence 補強。
+
+## [2026-05-11] ingest | Complex regional pain syndrome in adults: Pathogenesis, clinical manifestations, and diagnosis
+
+- 本輪單一來源：
+  - `C:\原始資料\Complex regional pain syndrome in adults_ Pathogenesis, clinical manifestations, and diagnosis.md`
+  - 本輪只處理此 UpToDate topic review；未混入 `Complex regional pain syndrome in adults_ Treatment, prognosis, and prevention (1).md`、Bradley / Daroff pain chapter 以外的新 treatment evidence、poststroke shoulder-hand syndrome source、pediatric CRPS source 或 sympathetic block / SCS / ketamine procedure-specific evidence。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_CRPS_pathogenesis_clinical_manifestations_diagnosis.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/CRPS_Budapest_Criteria與Mimic排除.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/CRPS_臨床辨識與治療限制.md`
+  - `index.md`（Total pages 637 -> 639）
+  - `log.md`
+- 抽出概念：
+  - CRPS Budapest criteria and mimic exclusion：adult CRPS diagnosis 是 clinical pattern recognition + exclusion process；需 continuing disproportionate regional pain，patient-reported symptoms in 3/4 categories，exam signs in 2/4 categories，且 no better diagnosis explains the presentation。Imaging、autonomic testing、bone scan、MRI/CT 與 sympathetic block response 都不能單獨確診。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04，topic last updated 2024-09-03；source_tier 6。
+  - CRPS 通常是 distal limb disorder，characterized by pain、swelling、limited range of motion、vasomotor instability、skin changes、patchy bone demineralization。
+  - Consensus definition：continuing spontaneous and/or evoked regional pain，disproportionate to trauma/lesion course；pain is regional, not in a specific nerve territory or dermatome；usually distal-predominant sensory、motor、sudomotor、vasomotor and/or trophic findings。
+  - CRPS type I 無 peripheral nerve injury evidence，約佔 90% clinical presentations；type II 有 peripheral nerve injury；type I/type II pathophysiologic basis and clinical utility uncertain。
+  - Proposed mechanisms include peripheral inflammation/autoimmunity、neurogenic inflammation、catecholamine hypersensitivity、central sensitization、cortical reorganization、glial activation、genetic associations。
+  - Population-based incidence reported 5-26 per 100,000 per year；female-to-male ratio 2:1 to 4:1。
+  - Common inciting events include fractures、crush injuries、sprains、surgery；up to 10% have no identified precipitating factor。
+  - Earlier psychosocial/personality predisposition claims are controversial and not confirmed by later studies。
+  - Clinical onset generally occurs within four to six weeks of inciting event。
+  - Main clinical manifestations include pain、sensory changes、motor impairments、autonomic symptoms、trophic changes。
+  - Pain is typically most prominent and debilitating；sensory abnormalities may include hyperalgesia、allodynia、hypesthesia。
+  - Approximately two-thirds have functional motor impairment related to pain；some develop tremor、myoclonus、dystonic postures or impaired movement initiation。
+  - Older three-stage model is largely abandoned by most experts due to lack of evidence for discrete stages。
+  - Diagnosis is based on history and physical examination；no gold-standard confirmatory test exists。
+  - Budapest clinical criteria require continuing disproportionate pain、symptom in 3 of 4 categories、sign in 2 of 4 categories at evaluation、and no better diagnosis。
+  - Four categories：sensory、vasomotor、sudomotor/edema、motor/trophic。
+  - Budapest criteria cited cohort sensitivity/specificity：82% / 68%。
+  - Bone scintigraphy, radiography and autonomic testing may support diagnosis in atypical cases and exclude alternatives；negative bone scan does not rule out CRPS。
+  - MRI may help exclude differential diagnoses but is not useful for confirming CRPS；CT is not suggested as a diagnostic test。
+  - Positive response to sympathetic block is not diagnostic of CRPS；it may indicate sympathetically maintained pain。
+  - Differential diagnoses include infection、compartment syndrome、peripheral vascular disease、DVT、peripheral neuropathy、vascular thoracic outlet syndrome、rheumatoid arthritis、Raynaud phenomenon、erythromelalgia、functional neurological symptom disorder、factitious disorder。
+- 發現衝突：
+  - 與「CRPS 可由 bone scan / MRI / CT 單獨確診」衝突。
+  - 與「sympathetic block response 證明 CRPS」衝突。
+  - 與「CRPS 是 psychogenic / personality disorder」衝突。
+  - 與「CRPS 一定按 stage 1-2-3 進展」衝突。
+  - 與「regional limb pain after trauma 可直接診斷 CRPS、不必排除 DVT / infection / compartment syndrome / vascular disease」衝突。
+- 待追蹤問題：
+  - CRPS treatment、prognosis、prevention 需另處理 `Complex regional pain syndrome in adults_ Treatment, prognosis, and prevention (1).md`。
+  - Poststroke shoulder-hand syndrome / CRPS phenotype-specific evidence 需單獨來源，不可從本 adult general CRPS diagnosis source 直接外推。
+  - Sympathetic block、SCS、ketamine、bisphosphonate、steroid 的適應症與限制需 procedure/treatment-specific evidence。
+
+## [2026-05-11] ingest | Complex regional pain syndrome in adults: Treatment, prognosis, and prevention
+
+- 本輪單一來源：
+  - `C:\原始資料\Complex regional pain syndrome in adults_ Treatment, prognosis, and prevention (1).md`
+  - 本輪只處理此 UpToDate topic review；未混入 pediatric CRPS、CRPS diagnosis source、Bradley / Daroff pain chapter、poststroke shoulder-hand syndrome、sympathetic block procedure protocol、SCS / DRG stimulation procedure source、ketamine protocol、opioid guideline 或 orthopedic fracture guideline 原文。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_CRPS_treatment_prognosis_prevention.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/CRPS_多模式治療與升階流程.md`
+  - `03_疾病與臨床主題/CRPS_預後復發與預防.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/CRPS_臨床辨識與治療限制.md`
+  - `index.md`（Total pages 639 -> 642）
+  - `log.md`
+- 抽出概念：
+  - CRPS multidisciplinary treatment escalation：adult CRPS 治療應以 education、PT/OT、psychosocial assessment 與 individualized analgesia enabling rehabilitation 起始；pain control 的目的不是取代 active rehabilitation，而是讓病人能恢復 affected-limb use；若 response 不佳、症狀進展、severe 或 chronic，才升階至 pain management specialist 與 interventional options。
+  - CRPS prognosis / recurrence / prevention：prognosis variable；six-month symptomatic improvement 常見，但 prolonged disability 與 recurrence 不少見；vitamin C after distal radius fracture evidence inconsistent，來源不支持 routine universal prophylaxis，只支持 fracture nutrition 與 selected low-risk supplementation。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04，topic last updated 2025-12-17；source_tier 6。
+  - Treatment goals include restoring affected-limb function, decreasing pain and disability, improving quality of life, and minimizing medication toxicity。
+  - Treatment is described as more effective when begun early, ideally after diagnosis and before radiographic changes appear。
+  - Interventions appropriate for all patients include patient education、PT/OT、psychosocial assessment and symptomatic pain management。
+  - PT/OT are considered first-line treatments, though supporting studies have methodologic limitations。
+  - Therapist referral is suggested immediately after diagnosis；PT should ideally begin before limitation of movement occurs to maintain range of motion and prevent contractures。
+  - Graded motor imagery has small RCT support, but practice translation is uncertain；a 2023 meta-analysis found low-quality evidence for mirror therapy、graded motor imagery、pain exposure therapy and aerobic exercise。
+  - Psychosocial / behavioral therapy may help when CRPS duration is more than two months at presentation, treatment response is insufficient, or psychologic / psychiatric comorbidity is suspected。
+  - Pharmacologic pain management goals are to allow active participation in rehabilitation and restore movement/strength。
+  - Early medication options in the source include NSAID、neuropathic pain adjuvant such as gabapentin / pregabalin / TCA、selected short bisphosphonate course with abnormal bone scan uptake, and topical lidocaine / capsaicin；source grades these as Grade 2C。
+  - Gabapentin evidence is limited；pregabalin has not been studied directly in CRPS in this source。
+  - Bisphosphonate evidence comes from several small randomized trials, mainly selected early CRPS with abnormal bone scan or osteopenic change。
+  - Glucocorticoid evidence is very weak, and chronic CRPS usually does not respond。
+  - Ketamine evidence is low to moderate quality；one trial showed benefit through weeks 1-11 but not by week 12, and frequent side effects included psychomimetic symptoms、nausea and vomiting。
+  - Opioid use is controversial, with paucity of high-quality CRPS efficacy data；dose escalation may make risk outweigh benefit。
+  - IVIG does not appear beneficial for CRPS after a later multicenter trial in chronic CRPS found no pain reduction versus placebo。
+  - Pain specialist referral is appropriate for progressive symptoms/signs, unsatisfactory initial response, severe CRPS or chronic CRPS。
+  - Sympathetic block evidence is conflicting；small trials often fail to show short-term pain reduction versus sham/placebo or other active comparators, while selected observational data suggest benefit。
+  - SCS plus PT reduced pain and improved HRQoL more than PT alone up to two years in one small study, but did not improve functional outcomes and did not show pain difference from three to five years。
+  - Sympathectomy has not been tested against placebo/sham RCT and can cause increased pain, new neuropathic pain and bothersome sweating。
+  - Symptomatic improvement within six months is common, but prolonged disability occurs。
+  - One 102-patient Dutch cohort followed 5.8 years found 64% still fulfilled CRPS criteria and 31% were unable to work。
+  - Recurrence estimates range approximately 10-30%；one 1183-patient study found recurrence in 10% and estimated recurrence incidence 1.8% per patient-year。
+  - Vitamin C evidence after distal radius fracture is inconsistent；source does not find evidence compelling enough for routine universal use。
+  - Source suggests adequate whole-food protein、vitamin C、calcium and vitamin D intake for six to eight weeks after fracture, and considers vitamin C 500 mg daily for six to eight weeks reasonable in distal radius fracture patients with poor baseline nutrition or inability to maintain whole-food intake。
+- 發現衝突：
+  - 與「CRPS treatment = opioid escalation」衝突。
+  - 與「先完全止痛再開始 PT/OT」衝突。
+  - 與「bisphosphonate、ketamine、sympathetic block 或 SCS 是 routine early treatment」衝突。
+  - 與「sympathetic block response 可診斷 CRPS」衝突；本來源只把 block 放在 refractory pain management。
+  - 與「distal radius fracture 後所有人都應 routine vitamin C prophylaxis」衝突。
+  - 與「CRPS prognosis 一定良好或一定長期失能」衝突。
+- 待追蹤問題：
+  - Sympathetic block、SCS / PNS / DRG stimulation、ketamine、opioid、sympathectomy 仍需 procedure-specific or guideline-level source。
+  - Poststroke shoulder-hand syndrome / CRPS phenotype-specific treatment 需單獨來源。
+  - Pediatric CRPS treatment / recurrence 不可由本 adult source 直接外推。
+  - Vitamin C prophylaxis 若要納入 fracture protocol，需另讀 orthopedic guideline 或 updated systematic review。
+
+## [2026-05-11] ingest | Treatment of vascular cognitive impairment and dementia
+
+- 本輪單一來源：
+  - `C:\原始資料\Treatment of vascular cognitive impairment and dementia.md`
+  - 本輪只處理此 UpToDate topic review；未混入 `Etiology, clinical manifestations, and diagnosis of vascular dementia.md`、Alzheimer disease treatment topic、secondary stroke prevention guideline、antithrombotic topic、dementia behavior management topic、poststroke neuropsychiatric disorder topic 或 local rehab textbook chapter。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_vascular_cognitive_impairment_dementia_treatment.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Vascular_Cognitive_Impairment_血管風險與Antithrombotic邊界.md`
+  - `03_疾病與臨床主題/Vascular_Dementia_認知藥物與預後限制.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/Dementia_復健與Caregiver支持框架.md`
+  - `03_疾病與臨床主題/中風次發預防.md`
+  - `index.md`（Total pages 642 -> 645）
+  - `log.md`
+- 抽出概念：
+  - VCI vascular risk and antithrombotic boundary：VCI/VaD management 先處理 vascular risk and recurrent stroke prevention；但 antithrombotic therapy 需依 clinical stroke/TIA、imaging infarction、stroke subtype and bleeding risk 分流，white matter lesions alone 不是 automatic aspirin indication。
+  - VaD cognitive medication and prognosis limits：VaD cognitive medication 只有有限角色；donepezil 或 galantamine 可考慮用於 progressive cognitive decline not directly attributable to clinical stroke，但 benefit slight and clinically uncertain；memantine 不建議 routine；prognosis heterogeneous。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04，topic last updated 2024-09-17；source_tier 6。
+  - Vascular dementia refers to dementia primarily caused by cerebrovascular disease or impaired cerebral blood flow。
+  - Vascular cognitive impairment includes cognitive disorders in which cerebrovascular disease or impaired cerebral blood flow contributes causally。
+  - VaD is best understood as a heterogeneous syndrome rather than a distinct disease。
+  - Patients with cognitive impairment and clinical or radiologic evidence of cerebrovascular pathology should be screened and treated for vascular risk factors, especially hypertension。
+  - Recurrent stroke is associated with greater risk of cognitive decline；poststroke dementia is associated with higher mortality。
+  - Blood pressure lowering strategies have not been specifically tested for treatment of VaD。
+  - In symptomatic VaD, source does not suggest intensively lowering systolic blood pressure to less than 120 mmHg。
+  - VaD patients with prior clinical ischemic stroke or TIA should receive appropriate antithrombotic therapy according to stroke subtype。
+  - If brain imaging shows white matter lesions only, without symptomatic ischemic stroke or imaging evidence of brain infarction, source does not use antithrombotics。
+  - If imaging shows brain infarction without clinical stroke history, source often uses aspirin 50-100 mg daily despite limited evidence；bleeding risk / contraindications may lead to avoiding antiplatelet therapy。
+  - Source suggests cholinesterase inhibitor therapy for VaD with progressive cognitive decline not directly attributable to clinical stroke；Grade 2B。
+  - Source does not initiate cholinesterase inhibitor therapy in dementia diagnosed after stroke when there is no progressive cognitive decline。
+  - Many VaD patients have concomitant Alzheimer disease, and AD pathology is difficult to confirm or exclude。
+  - Meta-analysis of six cholinesterase inhibitor trials found statistically significant cognitive-scale benefit, but effect was small, about two ADAS-Cog points, and of uncertain clinical significance。
+  - Donepezil or galantamine has somewhat better evidence than rivastigmine in this source。
+  - Source suggests against memantine use in VaD because evidence for benefit is not compelling。
+  - Memantine trials showed benefit on cognitive scales but not clinical global impression or ADL。
+  - Lifestyle interventions such as exercise and social interactions are suggested, but high-quality evidence for cognition benefit in established VaD is lacking。
+  - Some poststroke rehabilitation programs include cognitive plus physical rehabilitation, but evidence is limited by inconsistent study quality and nonstandardized interventions。
+  - After acute stroke, some cognitive recovery is expected；after initial recovery, some patients remain stable while others decline。
+  - White matter change severity, medial temporal lobe atrophy, recurrent strokes and impaired baseline cognition before stroke are poor prognostic factors in this source。
+  - Population-based studies suggest increased mortality for vascular cognitive impairment, VaD and dementia after stroke。
+- 發現衝突：
+  - 與「white matter lesions = aspirin indication」衝突。
+  - 與「VaD 就照 Alzheimer disease 直接開 donepezil / memantine」衝突。
+  - 與「cholinesterase inhibitor 對 VaD 有明確臨床重要效益」衝突。
+  - 與「symptomatic VaD 越 aggressive 降 BP 越好」衝突。
+  - 與「poststroke dementia 一定持續惡化」衝突。
+  - 與「exercise / cognitive rehab 已證實可改善 established VaD cognition」衝突。
+- 待追蹤問題：
+  - Vascular dementia etiology / diagnosis 需另處理 `Etiology, clinical manifestations, and diagnosis of vascular dementia.md`。
+  - Cholinesterase inhibitor dosing、contraindication、monitoring 需另處理 dementia medication-specific source。
+  - Behavioral and neuropsychiatric symptom management in VaD 需另處理 dementia behavior management source。
+  - Poststroke cognitive rehabilitation intervention dose / outcome 需另用 systematic review 或 rehab guideline。
+  - Silent brain infarction / cerebral small vessel disease 的 antithrombotic strategy 需另用 guideline-level source。
+
+## [2026-05-11] ingest | Etiology, clinical manifestations, and diagnosis of vascular dementia
+
+- 本輪單一來源：
+  - `C:\原始資料\Etiology, clinical manifestations, and diagnosis of vascular dementia.md`
+  - 本輪只處理此 UpToDate topic review；未混入 `Treatment of vascular cognitive impairment and dementia.md`、Alzheimer disease diagnosis / treatment topic、stroke secondary prevention guideline、dementia behavior management topic 或 local rehab textbook chapter。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_vascular_dementia_etiology_clinical_manifestations_diagnosis.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Vascular_Dementia_診斷與病因分層.md`
+  - `03_疾病與臨床主題/Vascular_Dementia_臨床表現與評估路徑.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/Vascular_Cognitive_Impairment_血管風險與Antithrombotic邊界.md`
+  - `03_疾病與臨床主題/Vascular_Dementia_認知藥物與預後限制.md`
+  - `03_疾病與臨床主題/Dementia_復健與Caregiver支持框架.md`
+  - `index.md`（Total pages 645 -> 648）
+  - `log.md`
+- 抽出概念：
+  - VaD diagnosis and etiologic stratification：VCID / VaD 是由 cerebrovascular disease 或 impaired cerebral blood flow 造成或參與造成的 cognitive impairment syndrome；診斷需分類 vascular MCI / VaD，確認 stroke history 或 neuroimaging evidence，並判斷 vascular disease 是否足以造成 cognitive impairment。
+  - VaD clinical presentation and evaluation pathway：suspected VaD 評估需整合 trajectory、ADL/IADL、stroke timing、MoCA / neuropsychological pattern、neurologic exam、MRI / STRIVE findings、vascular cause assessment 與 AD / Lewy body disease / NPH / depression differential。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04，topic last updated 2025-02-25；source_tier 6。
+  - VCID includes vascular dementia and milder impairment such as vascular MCI。
+  - VaD is usually recognized when clinical stroke is followed by dementia, or when imaging identifies vascular brain injury in a person with dementia but no clinical stroke history。
+  - Neuroimaging evidence of cerebrovascular brain injury alone is not sufficient to diagnose VaD。
+  - VaD is a syndrome rather than a single disease。
+  - VaD diagnosis is not complete until the underlying cerebrovascular or cardiovascular damage has been characterized。
+  - Vascular disease is a cause or contributor in 25 to 50 percent of dementia cases in this source。
+  - Pure VaD is relatively uncommon in clinicopathologic dementia specialty clinic studies, approximately 10 percent of all dementia cases。
+  - Multiple-etiology dementia with vascular component, often with AD, accounts for approximately 30 to 40 percent of all dementia cases in those studies。
+  - Any cause of ischemic stroke, intracerebral hemorrhage, or subarachnoid hemorrhage can cause VaD if brain injury is severe enough。
+  - Cerebral small vessel disease has an outsized role in VaD burden。
+  - Consensus criteria share three common elements: classify as vascular MCI or VaD, identify cerebrovascular disease by history or neuroimaging, and judge vascular disease sufficient to cause cognitive impairment。
+  - Newer criteria do not require memory impairment；significant impairment in only one domain can be sufficient when functional criteria are met。
+  - The two main VaD syndromes are poststroke dementia and VaD without recent stroke。
+  - Poststroke dementia often features executive dysfunction with relative episodic memory sparing, but clinical profile varies by stroke location and size。
+  - New dementia one to five years after stroke occurs in approximately 10 to 30 percent of patients in systematic reviews cited by this source。
+  - VaD without recent stroke may show progressive or stepwise decline with imaging evidence of clinically unrecognized, better termed covert, cerebrovascular disease。
+  - Arteriolosclerotic cerebral small vessel disease tends to impair executive function and processing speed, but other domains may also be affected。
+  - VaD can be accompanied by depression、abulia、apathy、psychosis、pseudobulbar affect、gait slowing / lower-body parkinsonism and urinary frequency。
+  - MoCA appears more sensitive than MMSE for detecting VCID, but cognitive screening does not substitute for integrated clinical diagnosis。
+  - MRI is preferred over CT for cerebral small vessel disease and microbleeds unless cost or contraindication prevents MRI。
+  - Differential diagnosis includes AD、Lewy body diseases / Parkinson disease dementia、NPH and depression；many dementia cases have multiple causes。
+- 發現衝突：
+  - 與「MRI 有 white matter lesion 就等於 VaD」衝突。
+  - 與「沒有 clinical stroke history 就不能診斷 VaD」衝突。
+  - 與「VaD 是單一 disease entity」衝突。
+  - 與「VaD 通常是 pure vascular pathology」衝突；multiple-etiology dementia 常見。
+  - 與「VaD 一定是 stair-step decline」衝突；covert small vessel disease 可 smooth progressive。
+  - 與「memory 必須受損才可診斷 dementia / VaD」衝突。
+- 待追蹤問題：
+  - AD biomarker、amyloid PET、CSF beta-amyloid / phosphorylated tau 的臨床使用需另讀 AD diagnosis source。
+  - Cerebral amyloid angiopathy diagnostic criteria and antithrombotic risk 需另讀 CAA source。
+  - CADASIL 與 hereditary small vessel disease 不可由本 general VaD source 完整處理。
+  - Silent brain infarction / cerebral small vessel disease 的 prevention strategy 仍需 guideline-level source。
+  - Poststroke cognitive rehabilitation intervention dose / outcome 需另用 systematic review 或 rehab guideline。
+
+## [2026-05-12] ingest | Antihypertensive therapy for secondary stroke prevention
+
+- 本輪單一來源：
+  - `C:\原始資料\Antihypertensive therapy for secondary stroke prevention.md`
+  - 本輪只處理此 UpToDate topic review；未混入 `Overview of secondary prevention of ischemic stroke.md`、`Long-term antithrombotic therapy for the secondary prevention of ischemic stroke.md`、acute ischemic stroke BP protocol、ICH acute BP protocol、SAH treatment topic、hypertension guideline 原文或 vascular dementia treatment topic。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_antihypertensive_therapy_secondary_stroke_prevention.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Stroke_Antihypertensive_Therapy_次發預防.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/中風次發預防.md`
+  - `03_疾病與臨床主題/Vascular_Cognitive_Impairment_血管風險與Antithrombotic邊界.md`（新增 BP secondary prevention cross-link）
+  - `index.md`（Total pages 648 -> 650）
+  - `log.md`
+- 抽出概念：
+  - Stroke antihypertensive therapy for secondary prevention：stroke / TIA 後降血壓治療需依 acute vs chronic phase、neurologic stability、stroke type、ASCVD risk、tolerability and cerebral perfusion risk 決定 timing、drug class、target intensity and titration speed；不能把 acute permissive hypertension 和 long-term BP goal 混用。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04，topic last updated 2025-09-12；source_tier 6。
+  - Hypertension is a major risk factor for stroke and TIA。
+  - Among patients with prior stroke or TIA, antihypertensive therapy can reduce recurrence。
+  - Acute stroke BP management differs from chronic secondary prevention therapy。
+  - Previously treated, neurologically stable patients with known hypertension should resume antihypertensive therapy for recurrent stroke and other vascular event prevention。
+  - Previously untreated, neurologically stable patients with any stroke type or TIA and established BP above goal should start antihypertensive therapy。
+  - TIA patients who returned to baseline without infarction evidence can initiate or reinstate oral antihypertensive therapy without delay。
+  - Acute ischemic stroke generally tolerates permissive hypertension during first 24-48 hours, except for extreme hypertension, end-organ failure, active ischemic coronary disease, aortic dissection, preeclampsia/eclampsia or reperfusion-therapy BP threshold。
+  - Stable or improving ischemic stroke patients able to receive oral / enteral medication generally start or resume antihypertensive therapy 24-48 hours after onset and during hospitalization。
+  - Ischemic stroke patients with fluctuating deficits or progressive deterioration should delay antihypertensive therapy until deficits stabilize or reach nadir。
+  - Spontaneous ICH often requires IV antihypertensive treatment in acute phase, then transition to oral therapy when appropriate。
+  - SAH secondary prevention antihypertensive therapy starts when cerebral perfusion pressure is judged adequate。
+  - ACE inhibitors, ARBs, calcium channel blockers and diuretics are reasonable initial monotherapy options。
+  - Beta blockers should not be used for recurrent stroke prevention unless there is another compelling indication。
+  - Combination therapy is recommended when BP is >=20/10 mmHg above goal; source uses angiotensin inhibitor plus long-acting dihydropyridine calcium channel blocker。
+  - Meta-analysis of eight trials and over 35,000 prior stroke/TIA patients found antihypertensive therapy reduced stroke rate and cardiovascular death。
+  - Ischemic stroke/TIA with atherosclerotic disease generally uses a more intensive BP goal if tolerated。
+  - Cardioembolic stroke or paradoxical embolus is not by itself evidence of atherosclerotic cardiovascular disease。
+  - Spontaneous ICH recurrence prevention uses a more intensive BP goal similar to ischemic stroke due to atherosclerotic disease in this source。
+  - Optimal BP goal for recurrent SAH prevention is unknown。
+  - Known cerebrovascular disease or long-standing uncontrolled hypertension should undergo gradual BP reduction, approximately 10 percent per day, unless hypertensive emergency exists。
+- 發現衝突：
+  - 與「acute ischemic stroke BP 高就立即壓到 <130/80」衝突。
+  - 與「permissive hypertension 可以延續到出院後」衝突。
+  - 與「beta blocker 可作 post-stroke recurrent stroke prevention default」衝突。
+  - 與「所有 ischemic stroke / TIA 都同一個 intensive BP target」衝突；cardioembolic / paradoxical embolus 需看是否另有 ASCVD or high-risk condition。
+  - 與「stroke 後降壓速度越快越好」衝突；chronic hypertension / cerebrovascular disease 情境需要 gradual titration。
+- 待追蹤問題：
+  - Long-term BP target in severe frailty、advanced dementia、orthostatic hypotension、institutionalized patients 需另讀 hypertension guideline / geriatrics source。
+  - Spontaneous ICH secondary prevention and long-term prognosis 需另處理 dedicated source，不可只用本 source 補全部 ICH recurrence strategy。
+  - SAH recurrence prevention BP target remains uncertain；若要建立 SAH long-term prevention 頁，需 dedicated source。
+  - Poststroke cognitive rehabilitation intervention dose / outcome 仍需另用 systematic review 或 rehab guideline。
+
+## [2026-05-12] ingest | Moyamoya disease and moyamoya syndrome: Etiology, clinical features, and diagnosis
+
+- 本輪單一來源：
+  - `C:\原始資料\Moyamoya disease and moyamoya syndrome_ Etiology, clinical features, and diagnosis.md`
+  - 本輪只處理此 UpToDate topic review；未混入 `Moyamoya disease and moyamoya syndrome_ Treatment and prognosis.md`、AHA/ASA scientific statement 原文、Japanese diagnostic criteria 原文、pediatric stroke guideline 或 intracranial atherosclerosis / dissection / RCVS dedicated sources。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_moyamoya_etiology_clinical_features_diagnosis.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Moyamoya_Disease與Moyamoya_Syndrome_病因分層.md`
+  - `03_疾病與臨床主題/Moyamoya_臨床辨識與診斷影像.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/Spontaneous_ICH_診斷與病因分層.md`（新增 moyamoya cross-link 與來源）
+  - `index.md`（Total pages 650 -> 653）
+  - `log.md`
+- 抽出概念：
+  - MMD versus MMS etiologic stratification：moyamoya 是 distal ICA / circle of Willis stenosis plus collateral vessels 的 angiographic pattern；MMD 是 primary / idiopathic pattern，MMS 則需要追查 associated medical condition。
+  - Clinical recognition and diagnostic imaging：recurrent / triggered TIA、young stroke、unexplained caudate / thalamic / IVH、basal ganglia flow voids、distal ICA stenosis and collaterals 應觸發 CTA/MRA/DSA pathway。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04，topic last updated 2025-04-21；source_tier 6。
+  - Moyamoya refers to unilateral or bilateral stenosis / occlusion around the circle of Willis with prominent arterial collateral circulation。
+  - MMD is moyamoya angiographic findings with associated genetic susceptibility but no underlying contributing medical condition。
+  - MMS is moyamoya angiographic findings with an associated medical condition implicated in vascular change。
+  - Pathophysiology involves vessel wall thickening and angiogenesis。
+  - Terminal ICAs and proximal MCA / ACA are most involved。
+  - Some unilateral cases progress to bilateral involvement in approximately one-third of patients over two to eight years。
+  - RNF213 p.R4810K is a susceptibility factor in East Asian populations and is associated with earlier onset / more severe progression in this source。
+  - MMD / MMS are rare; cited incidence is 0.35 to 0.94 per 100,000 and prevalence is 3.2 to 10.5 per 100,000。
+  - Age distribution is bimodal, with peaks at 5 to 10 years and 30 to 50 years。
+  - Ischemic stroke or TIA is the most common presentation in children and adults。
+  - Ischemic episodes may be spontaneous or triggered by exercise, crying, coughing, straining, fever or hyperventilation。
+  - Hemorrhagic complications account for approximately 25 to 30 percent of presentations, mostly in adults。
+  - ICH typically occurs in basal ganglia, thalamus and/or ventricular system。
+  - MRI ivy sign and brush sign can support impaired collateral flow / reserve but are not specific。
+  - Multiple punctate or serpentine T2 flow voids in basal ganglia or thalamus are considered virtually diagnostic by this source。
+  - MRA is preferred initial imaging in children; CTA is commonly used in acute stroke evaluation。
+  - DSA is the gold standard and is required for unilateral or nondiagnostic noninvasive findings。
+  - DSA diagnostic criteria can diagnose unilateral or bilateral moyamoya findings。
+  - Differential diagnosis includes intracranial atherosclerosis, arterial dissection, RCVS, focal cerebral arteriopathy and vasculitis。
+  - General asymptomatic screening is not recommended; screening may be reasonable with strong family history or MMS-predisposing condition, but benefit remains uncertain。
+- 發現衝突：
+  - 與「moyamoya 一定是 bilateral disease」衝突。
+  - 與「moyamoya = idiopathic MMD」衝突；MMS 需找 associated condition。
+  - 與「ivy sign / brush sign 就能診斷 moyamoya」衝突。
+  - 與「adult deep ICH 都可先當 hypertensive ICH」衝突；無典型 risk factors 或有 IVH / caudate / thalamic pattern 時需考慮 moyamoya。
+  - 與「asymptomatic relatives 都要 routine screening」衝突。
+- 待追蹤問題：
+  - Moyamoya treatment / prognosis / revascularization / antiplatelet strategy 需另處理 `Moyamoya disease and moyamoya syndrome_ Treatment and prognosis.md`。
+  - AHA/ASA adult moyamoya scientific statement 原文可作 guideline-level correction。
+  - Pediatric moyamoya / sickle cell disease 需另讀 pediatric stroke / sickle cell source。
+  - Intracranial atherosclerosis、arterial dissection、RCVS、focal cerebral arteriopathy、vasculitis 需各自 dedicated source，不可由本來源完整處理。
+
+## [2026-05-12] ingest | Moyamoya disease and moyamoya syndrome: Treatment and prognosis
+
+- 本輪單一來源：
+  - `C:\原始資料\Moyamoya disease and moyamoya syndrome_ Treatment and prognosis.md`
+  - 本輪只處理此 UpToDate topic review；未混入 AHA/ASA scientific statement 原文、Japanese guideline 原文、sickle cell disease stroke topic、pregnancy anesthesia topic 或 acute stroke thrombolysis guideline。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_moyamoya_treatment_prognosis.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Moyamoya_治療決策與Revascularization.md`
+  - `03_疾病與臨床主題/Moyamoya_Antithrombotic與急性支持管理.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/Moyamoya_Disease與Moyamoya_Syndrome_病因分層.md`
+  - `03_疾病與臨床主題/Moyamoya_臨床辨識與診斷影像.md`
+  - `10_來源摘要/UpToDate_moyamoya_etiology_clinical_features_diagnosis.md`
+  - `index.md`（Total pages 653 -> 656）
+  - `log.md`
+- 抽出概念：
+  - Moyamoya treatment decision and revascularization：symptomatic moyamoya 或 hemodynamic compromise 需 referral for surgical revascularization；asymptomatic preserved-flow patients 可 medical management plus serial surveillance。
+  - Moyamoya antithrombotic and acute supportive management：ischemic-type moyamoya 可使用 antiplatelet strategy；hemorrhagic-type acute/recovery 多數避免 antiplatelet；long-term anticoagulation generally contraindicated；急性/圍手術期需避免 hyperventilation、hypovolemia and hypotension。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04，topic last updated 2026-01-02；source_tier 6。
+  - Moyamoya is progressive and has no curative treatment。
+  - Surgical revascularization is suggested for symptomatic children and adults with cerebral ischemia, TIA, ischemic stroke, cognitive decline or hemorrhage when no contraindication exists。
+  - Surgical revascularization is also suggested for asymptomatic children and adults with decreased regional cerebral blood flow or inadequate hemodynamic perfusion reserve。
+  - Asymptomatic patients with preserved cerebral blood flow may continue medical management plus follow-up surveillance imaging。
+  - Surveillance imaging may be yearly, shorter at six months when severe stenosis is found initially, and every other year or longer in stable adult patients after at least three years。
+  - MRA is generally preferred for surveillance vascular imaging；CTA is an alternative；DSA is usually reserved for nondiagnostic noninvasive testing or presurgical planning。
+  - Direct revascularization provides immediate flow augmentation；indirect revascularization promotes delayed collateralization and is frequently used in children；combined procedures use both。
+  - No single revascularization method is convincingly universally superior in this source。
+  - Surgical evidence is limited by observational design, selection bias and heterogeneous outcomes, but meta-analyses associate surgery with lower subsequent stroke risk than conservative care。
+  - Perioperative stroke, delayed transient neurologic deficits and hyperperfusion syndrome are important surgical complications。
+  - Long-term untreated cohorts reported progressive neurologic deficits and poor outcomes in 50 to 66 percent。
+  - For most adult ischemic-type moyamoya, source suggests cilostazol 100 mg twice daily over other antiplatelet agents；aspirin 50-100 mg daily or clopidogrel 75 mg daily are alternatives when cilostazol is not tolerated or contraindicated。
+  - For children with ischemic-type moyamoya, source suggests aspirin 2-5 mg/kg daily；pediatric cilostazol / clopidogrel data are limited。
+  - For most hemorrhagic-type moyamoya, antiplatelet therapy is avoided acutely and during recovery。
+  - Long-term anticoagulation is generally contraindicated；short-term anticoagulation safety is not established。
+  - Pregnant patients should maintain hydration；low-dose aspirin is typically used；Cesarean delivery is not proven outcome-superior and delivery planning should be individualized。
+  - Acute ischemic stroke management is mainly supportive and includes minimizing hyperventilation, pain/agitation, hypovolemia and hypotension。
+  - IV thrombolysis lacks randomized-trial evidence in moyamoya and may be considered only individually for selected disabling ischemic stroke without brain hemorrhage history after risk-benefit discussion。
+- 發現衝突：
+  - 與「moyamoya 只靠 antiplatelet 追蹤即可」衝突。
+  - 與「asymptomatic moyamoya 不需要 serial surveillance」衝突。
+  - 與「direct / indirect / combined bypass 有單一 universal best method」衝突。
+  - 與「moyamoya ischemic stroke prevention 可以常規 long-term anticoagulation」衝突。
+  - 與「hemorrhagic moyamoya acute phase 照常 antiplatelet」衝突。
+  - 與「pregnant moyamoya 一律 Cesarean」衝突。
+- 待追蹤問題：
+  - AHA/ASA moyamoya scientific statement 原文仍需 guideline-level correction。
+  - Pediatric sickle cell disease-associated MMS 需 dedicated sickle cell stroke source。
+  - Revascularization technique choice、perioperative anesthesia、BP / CO2 targets 需 neurosurgical or anesthesia protocol source。
+  - Acute thrombolysis in moyamoya 需 dedicated acute stroke evidence / guideline source。
+
+## [2026-05-12] ingest | Clinical diagnosis of stroke subtypes
+
+- 本輪單一來源：
+  - `C:\原始資料\Clinical diagnosis of stroke subtypes.md`
+  - 本輪只處理此 UpToDate topic review；未混入 `Stroke_ Etiology, classification, and epidemiology.md`、`Overview of the evaluation of stroke.md`、`Pathophysiology of ischemic stroke.md`、`Stroke in patients with atrial fibrillation.md`、ICH / SAH treatment topics 或 stroke guideline 原文。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_clinical_diagnosis_stroke_subtypes.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Stroke_Subtype_Clinical_Diagnosis.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/中風復健總論.md`
+  - `03_疾病與臨床主題/中風急性期處置與時間窗.md`
+  - `index.md`（Total pages 656 -> 658）
+  - `log.md`
+- 抽出概念：
+  - Stroke subtype clinical diagnosis：以 symptom onset/course、associated symptoms、risk factors、general physical exam 與 neurologic exam 建立 ischemic thrombotic / embolic / hypoperfusion、ICH、SAH 的 presumptive diagnosis；但最終仍需 brain / vascular imaging confirmation。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04，topic last updated 2026-02-10；source_tier 6。
+  - Stroke subtype 包含 ICH、SAH、以及 due to thrombosis、embolism、systemic hypoperfusion 的 brain ischemia。
+  - Thrombosis 指 local in situ arterial obstruction，可由 arterial wall disease 如 atherosclerosis、dissection、fibromuscular dysplasia 造成。
+  - Thrombotic stroke 可分 large vessel and small vessel disease。
+  - Thrombosis-related symptoms often fluctuate、remit or progress in stuttering fashion。
+  - Embolism 指 elsewhere debris blocking arterial access；可源自 heart、aorta or large vessels。
+  - Embolic stroke 通常 abrupt and maximal at onset；multiple vascular territories favor cardiac or aortic source。
+  - Systemic hypoperfusion 是 global circulatory problem，症狀通常 diffuse and nonfocal，可有 bilateral signs。
+  - ICH 通常來自 arterioles / small arteries，出血進入 brain tissue，neurologic symptoms 多在 minutes or hours 內 gradually increase。
+  - SAH from aneurysm rupture releases blood into CSF under arterial pressure，通常 abrupt onset，severe widespread headache 是核心症狀。
+  - The most important historical item for differentiating subtypes is pace / course / clearing of symptoms and signs。
+  - Acute ischemic stroke neurologic deterioration 48-72h 內在 cited prospective study 中發生於 256/1964 patients（13%）。
+  - Deterioration predictors included ICA occlusion、brainstem infarction、MCA M1 occlusion、territorial infarction and diabetes mellitus。
+  - Silent brain infarcts 更適合稱為 covert brain infarcts；它們可能和 cognitive deficits、future stroke risk and dementia risk 相關。
+  - Ecology and risk factors increase probability but cannot make a firm subtype diagnosis。
+  - AF 是 prominent cardiac risk factor and causes nearly half of cardioembolic strokes in this source。
+  - Hypertension 是 most common and most important stroke risk factor，且 severe uncontrolled hypertension strongly favors ICH。
+  - Same-territory prior TIAs favor local vascular lesion / thrombosis；multi-territory attacks suggest heart / aorta embolism；TIAs are not a feature of brain hemorrhage。
+  - Fever raises suspicion for endocarditis-related embolic stroke。
+  - Severe headache at onset favors SAH；headache after onset plus worsening neurologic signs、decreased consciousness and vomiting favors ICH。
+  - Vomiting is common in ICH、SAH and posterior circulation large artery ischemia。
+  - Acute seizures are more often seen in lobar ICH or brain embolism；population-based cited incidence within first 24h: SAH 10%、ICH 8%、ischemic stroke 3%。
+  - Neurologic signs localize brain region more than they identify stroke subtype。
+  - Pure motor stroke favors penetrating artery thrombotic stroke or small ICH。
+  - Vertigo、staggering、diplopia、deafness、crossed signs、bilateral motor/sensory signs and hemianopsia suggest posterior circulation involvement。
+  - Neuroimaging is necessary to identify hemorrhage, assess brain injury and identify the vascular lesion responsible for ischemic deficit。
+  - NT-proBNP and D-dimer may have stronger biomarker data for mechanism differentiation, but no biomarkers have sufficient sensitivity or specificity for routine clinical use。
+- 發現衝突：
+  - 與「history / exam 足以確診 stroke subtype」衝突。
+  - 與「AF 自動等於 cardioembolic stroke」衝突；AF 只提高機率，仍需完整評估其他原因。
+  - 與「headache / vomiting 一律代表 hemorrhage」衝突；posterior circulation ischemia 也可 vomiting。
+  - 與「pure motor stroke 一定是 lacunar infarct」衝突；small ICH 也可能。
+  - 與「silent brain infarct 沒臨床意義」衝突；來源支持改稱 covert brain infarct 並指出 cognitive and future-risk relevance。
+  - 與「blood biomarkers 可常規分類 stroke mechanism」衝突。
+- 待追蹤問題：
+  - `Stroke_ Etiology, classification, and epidemiology.md` 應另行單一來源 ingest，補 etiologic classification / epidemiology。
+  - `Overview of the evaluation of stroke.md` 應另行處理，補 imaging / lab / diagnostic pathway。
+  - `Posterior circulation cerebrovascular syndromes.md` 應另行處理，補 posterior circulation localization 與 mimic。
+  - `Stroke in patients with atrial fibrillation.md` 應另行處理，修正 AF stroke mechanism、acute reperfusion contraindications 與 anticoagulation timing。
+  - Covert brain infarct / silent brain infarction 的 prevention strategy 需 guideline-level source。
+
+## [2026-05-12] update | wiki governance workflow
+
+- 更新原因：
+  - 吸收 Hermes `llm-wiki` skill 中適合本 repo 的治理層優點，但不採用多來源 batch ingest。
+- 更新規則：
+  - `AGENTS.md` 新增 session orientation、source manifest / source drift、index scaling 與 archive policy。
+  - `SCHEMA.md` 對齊 `AGENTS.md`：來源優先序改回 guideline / textbook / systematic review / review / original research / UpToDate 等階層，ingest 明確維持單一來源。
+  - `08_工具與Workflow/知識百科_ingest_工作流.md` 移除 5-file batch ingest，改為每輪單一來源與 `待處理來源` queue。
+- 新增頁面：
+  - `08_工具與Workflow/Source_Manifest與Source_Drift.md`
+- 更新腳本：
+  - `08_工具與Workflow/wiki_health_check.py` 改用 `10_來源摘要`，納入 `09_NCV EMG 周邊神經病變`。
+  - 新增 `--update-source-manifest`，可由來源摘要中的 `source_path` / `原始檔：...` 建立 `source_manifest.json`。
+  - 新增 `source_manifest_missing`、`source_drift`、`raw_source_missing`、`source_manifest_orphans` health check 欄位。
+- 執行驗證：
+  - `python -m unittest C:\知識百科\08_工具與Workflow\tests\test_wiki_health_check.py`：7 tests passed。
+  - 已重跑 `health_check_report_latest.md`；目前 source_manifest_missing 0、source_drift 0、raw_source_missing 0。
+- 待追蹤問題：
+  - 既有 health check 仍回報 25 個 orphan pages、49 個 weakly linked pages、16 個 broken links、41 個 stale candidates、21 個 contradiction candidates、60 個 raw backlog。
+
+## [2026-05-12] ingest | Exercise ECG testing: Performing the test and interpreting the ECG results
+
+- 本輪單一來源：
+  - `C:\原始資料\Exercise ECG testing_ Performing the test and interpreting the ECG results.md`
+  - 本輪只處理此 UpToDate topic review；未混入 `Treadmill Stress Testing - StatPearls.md`、stress imaging source、CPET guideline、coronary prognosis source 或其他 exercise physiology raw source。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_exercise_ECG_testing_performing_interpreting.md`
+- 新增頁面：
+  - `02_方法學/Exercise_ECG_Testing_適用條件與安全流程.md`
+  - `02_方法學/Exercise_ECG_ST_Segment_判讀.md`
+- 更新頁面：
+  - `index.md`（Total pages 659 -> 662）
+  - `log.md`
+- 抽出概念：
+  - Exercise ECG testing 適用條件與安全流程：exercise ECG without imaging 需要 adequate exercise capacity、interpretable resting ECG、沒有 absolute contraindications，並以 symptom-limited incremental exercise 監測 ECG、HR、BP、symptoms、RPE and recovery response。
+  - Exercise ECG ST segment 判讀：ischemic ECG 判讀以 ≥1 mm horizontal / downsloping ST depression persisting 80 ms after J point、ST elevation pattern、lead distribution、recovery ST depression and ventricular ectopy 為核心，但需放入 baseline ECG、workload、symptoms and BP response。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04，topic last updated 2024-04-26；source_tier 6。
+  - Exercise ECG 可用於 CHD diagnosis / prognosis and exercise capacity assessment。
+  - Serious complications such as MI, sustained ventricular arrhythmia or death 約 1 in 10,000 tests。
+  - Absolute contraindications 包含 acute MI within 2 days、ongoing unstable angina、uncontrolled arrhythmia with hemodynamic compromise、symptomatic severe valvular stenosis、decompensated heart failure、active endocarditis、acute myocarditis / pericarditis、acute aortic dissection、acute PE / pulmonary infarction / DVT、以及 inability to perform safe and adequate testing。
+  - Exercise ECG 不適合用於無法充分 exercise 或 resting ECG 會干擾 ischemia interpretation 的病人；例子包括 WPW、ventricular paced rhythm、LBBB、>1 mm resting ST depression、digoxin-related ST-T abnormalities、LVH with ST-T abnormalities and hypokalemia with ST-T abnormalities。
+  - Exercise test should generally be symptom-limited；達到 85-90 percent predicted maximal HR 不應作為多數情境的唯一 stop point。
+  - BP 應在 rest and each stage last minute 監測；systolic BP 應隨 exercise stage 上升，diastolic BP 多下降或不變。
+  - Recovery ECG 應每分鐘記錄約 7-10 minutes，直到 HR <100 bpm 或 ECG 回到 baseline pattern。
+  - Exercise ECG abnormal ischemia criterion commonly uses ≥1 mm horizontal or downsloping ST depression in one or more leads persisting 80 ms after the J point。
+  - Upsloping ST depression 較不 specific；納入 upsloping ST depression 可增加 sensitivity 但降低 specificity。
+  - V4、V5、V6 是 detecting ST depression 的敏感 leads；V5 often best single lead。
+  - ST depression in lateral precordial leads does not localize culprit coronary artery；inferior-only ST depression often false positive。
+  - Recovery-only ST depression has diagnostic / prognostic significance similar to exercise-phase ST depression in cited studies。
+  - Exercise-induced ventricular ectopy occurs in 7-20 percent of patients undergoing exercise ECG for known or suspected CHD；frequent ventricular ectopy during recovery may be the more prognostically relevant signal。
+- 發現衝突：
+  - 與「達到 85 percent predicted maximal HR 就一定要停止 exercise ECG」衝突。
+  - 與「未達 adequate exercise stress 的 negative test 仍可可靠排除 ischemia」衝突。
+  - 與「baseline LBBB / ventricular pacing 仍可用 exercise ST depression 判讀 ischemia」衝突。
+  - 與「upsloping ST depression 和 horizontal / downsloping ST depression 一樣 specific」衝突。
+  - 與「exercise ST depression 可以 reliably localize culprit artery」衝突。
+  - 與「recovery ECG findings 不重要」衝突。
+  - 與「exercise ECG testing 等同 CPET」衝突。
+- 待追蹤問題：
+  - 需另行處理 stress test selection / stress imaging source，補 exercise ECG vs imaging / pharmacologic stress testing selection。
+  - 需另行處理 Duke treadmill score / stress test prognosis source，補 risk stratification。
+  - 需另行處理 CPET cardiovascular disease source，避免把 exercise ECG protocol 直接外推到 gas-exchange CPET。
+  - `Treadmill Stress Testing - StatPearls.md` 層級較低，若未來要處理應作補充或比較來源，不可覆寫 UpToDate / guideline-based framework。
+
+## [2026-05-12] ingest | Overview of the evaluation of stroke
+
+- 本輪單一來源：
+  - `C:\原始資料\Overview of the evaluation of stroke.md`
+  - 本輪只處理此 UpToDate topic review；未混入 `Stroke_ Etiology, classification, and epidemiology.md`、`Posterior circulation cerebrovascular syndromes.md`、`Stroke in patients with atrial fibrillation.md`、`Lacunar infarcts.md` 或 stroke guideline 原文。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_overview_evaluation_of_stroke.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Stroke_Evaluation_病因確認與Directed_Diagnostic_Testing.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/Stroke_Subtype_Clinical_Diagnosis.md`
+  - `03_疾病與臨床主題/Acute_Stroke_Initial_Assessment與Stabilization.md`
+  - `03_疾病與臨床主題/中風急性期處置與時間窗.md`
+  - `03_疾病與臨床主題/中風復健總論.md`
+  - `index.md`（Total pages 662 -> 664）
+  - `log.md`
+- 抽出概念：
+  - Stroke evaluation from presumptive diagnosis to directed testing：suspected stroke evaluation 先完成 vital stability、hemorrhage / reperfusion triage，再用 history、physical examination and initial CT / MRI 形成 presumptive mechanism，最後用 neurovascular imaging、cardiac monitoring / echocardiography、selected blood tests 或 ICH-focused workup 確認 pathophysiology。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04，topic last updated 2025-07-01；source_tier 6。
+  - Symptoms do not accurately reflect infarction presence，symptom tempo does not identify ischemia cause。
+  - Initial evaluation includes classification、rapid stabilization、hemorrhage detection、reperfusion candidacy assessment、presumptive etiology formation and directed diagnostic confirmation。
+  - Noncontrast CT is typically the first diagnostic study in suspected stroke because it is fast、available and sensitive for acute hemorrhage。
+  - MRI is more sensitive than CT for early brain infarction；DWI / FLAIR are useful early after onset。
+  - In ischemia without infarction, CT and MRI may both be normal。
+  - A presumptive diagnosis can be made after history、physical examination and CT/MRI, but confirmation requires more extensive testing。
+  - Brain imaging and comprehensive neurovascular evaluation should be obtained for most suspected acute ischemic stroke or TIA patients。
+  - Embolic stroke is favored by sudden maximal onset、large deficit / infarct、known cardiac or large artery lesion、hemorrhagic infarct、multiple vascular territories or rapid improvement。
+  - Suspected large-vessel atherothrombotic stroke requires both intracranial and extracranial vascular testing。
+  - Cardiac evaluation is essential in most brain ischemia patients。
+  - All ischemic stroke patients should have at least 24 hours of cardiac monitoring after onset to look for subclinical AF。
+  - For cryptogenic ischemic stroke / TIA with no AF on ECG and 24-hour monitoring, the source suggests several weeks of ambulatory monitoring。
+  - All suspected embolic stroke patients should have echocardiography。
+  - TTE is often preferred initial test for most suspected cardiac/aortic embolic sources；TEE is preferred in selected high-yield scenarios and better evaluates left atrial appendage clot、atria、atrial septum、aorta and PFO / ASD / atrial septal aneurysm。
+  - Hypercoagulable testing indications are limited；causal link between inherited thrombophilia and arterial stroke remains unclear。
+  - Every intracranial hemorrhage patient requires bleeding-disorder evaluation, especially if cause is not immediately apparent。
+  - Typical hypertensive ICH may require no further diagnostic testing when severe hypertension and characteristic hematoma location/appearance are present。
+  - Lobar or atypical hemorrhage raises suspicion for cerebral amyloid angiopathy、tumor or vascular malformation。
+- 發現衝突：
+  - 與「CT normal 就排除 ischemia」衝突。
+  - 與「symptom tempo alone 可以確定 stroke cause」衝突。
+  - 與「AF、carotid stenosis 或 lacunar-like syndrome 自動證明病因」衝突。
+  - 與「所有 ischemic stroke 都 routine 做 hypercoagulable panel」衝突。
+  - 與「lobar / atypical ICH 可直接歸因於 hypertension」衝突。
+- 待追蹤問題：
+  - `Stroke_ Etiology, classification, and epidemiology.md` 仍需單一來源 ingest，補 etiologic classification / epidemiology。
+  - `Posterior circulation cerebrovascular syndromes.md` 仍需單一來源 ingest，補 posterior circulation vascular anatomy、localization 與 clinical syndromes。
+  - `Stroke in patients with atrial fibrillation.md` 仍需單一來源 ingest，補 AF-related stroke features、reperfusion contraindication and anticoagulation timing。
+  - `Lacunar infarcts.md` 仍需單一來源 ingest，補 lacunar syndrome、parent artery occlusion mimic 與小血管病限制。
+
+## [2026-05-12] ingest | Stroke: Etiology, classification, and epidemiology
+
+- 本輪單一來源：
+  - `C:\原始資料\Stroke_ Etiology, classification, and epidemiology.md`
+  - 本輪只處理此 UpToDate topic review；未混入 `Posterior circulation cerebrovascular syndromes.md`、`Stroke in patients with atrial fibrillation.md`、`Lacunar infarcts.md`、stroke guideline 原文或其他 epidemiology source。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_stroke_etiology_classification_epidemiology.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Stroke_Etiologic_Classification.md`
+  - `03_疾病與臨床主題/Stroke_Epidemiology_全球與美國分布.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/Stroke_Subtype_Clinical_Diagnosis.md`
+  - `03_疾病與臨床主題/Stroke_Evaluation_病因確認與Directed_Diagnostic_Testing.md`
+  - `03_疾病與臨床主題/中風復健總論.md`
+  - `index.md`（Total pages 664 -> 667）
+  - `log.md`
+- 抽出概念：
+  - Stroke etiologic classification：stroke 先分 brain ischemia vs brain hemorrhage；ischemic stroke 再依 thrombosis、embolism、systemic hypoperfusion、blood disorder / other causes 與 TOAST / SSS-TOAST / CCS / ISPS25-like framework 做 mechanism labeling。
+  - Stroke epidemiology：stroke burden、subtype distribution、incidence、mortality and disability 會隨地區、收入層級、sex、race / ethnicity and time period 變動；population-level data 只改變 pretest probability，不能替代個別病人的 diagnostic workup。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04，topic last updated 2025-12-26；source_tier 6。
+  - Stroke broadly divides into brain ischemia and brain hemorrhage。
+  - Brain ischemia in this source includes thrombosis、embolism and systemic hypoperfusion。
+  - Brain hemorrhage includes ICH and SAH。
+  - Thrombotic stroke can be divided into large vessel disease and small vessel disease。
+  - Large artery lesions may cause reduced distal blood flow、artery-to-artery embolism or both。
+  - Small vessel stroke commonly involves penetrating arteries; lipohyalinosis and branch atheromatous disease are important mechanisms。
+  - Embolic stroke categories include definite cardiac source、possible cardiac / aortic source、arterial source and truly unknown source after testing。
+  - TOAST subtypes are large artery atherosclerosis、cardioembolism、small vessel occlusion、other determined etiology and undetermined etiology。
+  - SSS-TOAST / CCS add evident、probable and possible diagnostic confidence levels。
+  - Source states original TOAST and CCS agreement is moderate at best。
+  - ISPS25 minimum diagnostic evaluation includes history / physical examination、brain and intracranial / extracranial vascular imaging、ECG and at least 24-hour rhythm monitoring if AF is not initially seen、selected echocardiography and laboratory testing。
+  - In the United States, source gives approximate stroke subtype proportions as ischemia 87 percent、ICH 10 percent and SAH 3 percent。
+  - Source states adult lifetime stroke risk from age 25 years and older is approximately 25 percent。
+  - Source states annual United States new or recurrent stroke count is approximately 795,000, including approximately 610,000 first-ever and 185,000 recurrent strokes。
+- 發現衝突：
+  - 與「bedside subtype recognition 等同 final etiology」衝突。
+  - 與「AF、PFO、carotid stenosis 或 lacunar syndrome 自動證明病因」衝突。
+  - 與「cryptogenic / undetermined stroke 可以和 incomplete evaluation 混用」衝突。
+  - 與「TOAST、CCS、ISPS25 label 可直接互換」衝突。
+  - 與「United States stroke subtype proportions 可直接外推全球或個別病人」衝突。
+  - Source 內部流行病學比例不一致：正文 epidemiology section 與 summary 對 global ischemia / ICH / SAH proportions 給出不同數字；本輪標記為 source-internal uncertainty，不寫成單一定論。
+- 待追蹤問題：
+  - `Posterior circulation cerebrovascular syndromes.md` 仍需單一來源 ingest，補 posterior circulation vascular anatomy、localization 與 clinical syndromes。
+  - `Stroke in patients with atrial fibrillation.md` 仍需單一來源 ingest，補 AF-related stroke features、reperfusion contraindication and anticoagulation timing。
+  - `Lacunar infarcts.md` 仍需單一來源 ingest，補 lacunar syndrome、parent artery occlusion mimic 與小血管病限制。
+  - 若需要 Taiwan / East Asia stroke epidemiology，需另找 local or regional epidemiologic source；本篇不可替代。
+
+## [2026-05-12] ingest | Posterior circulation cerebrovascular syndromes
+
+- 本輪單一來源：
+  - `C:\原始資料\Posterior circulation cerebrovascular syndromes.md`
+  - 本輪只處理此 UpToDate topic review；未混入 `Stroke in patients with atrial fibrillation.md`、`Lacunar infarcts.md`、posterior circulation guideline 原文、HINTS primary studies 或其他 vertigo source。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_posterior_circulation_cerebrovascular_syndromes.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Posterior_Circulation_Stroke_臨床定位與診斷陷阱.md`
+  - `03_疾病與臨床主題/HINTS_急性前庭症候群中樞與周邊鑑別.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/Stroke_Subtype_Clinical_Diagnosis.md`
+  - `03_疾病與臨床主題/Stroke_Evaluation_病因確認與Directed_Diagnostic_Testing.md`
+  - `03_疾病與臨床主題/Acute_Stroke_Initial_Assessment與Stabilization.md`
+  - `index.md`（Total pages 667 -> 670）
+  - `log.md`
+- 抽出概念：
+  - Posterior circulation stroke clinical localization and diagnostic pitfalls：vertebral / basilar / PCA territory ischemia 需整合 ocular motor、bulbar、vestibulocerebellar、sensory、visual、alertness / behavior / memory signs；early CT and DWI MRI 均可能漏診 small posterior circulation infarct。
+  - HINTS in acute vestibular syndrome：HINTS 只適用 continuous acute vertigo/dizziness；normal head impulse、direction-changing nystagmus or skew deviation 支持 central lesion；peripheral-appearing HINTS 若合併 new hearing loss 仍需考慮 AICA / internal auditory artery infarction。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04，topic last updated 2024-10-24；source_tier 6。
+  - Posterior circulation structures account for about 20 percent of ischemic brain events in the source。
+  - Large posterior circulation arteries include innominate / subclavian arteries、extracranial vertebral arteries、intracranial vertebral arteries、basilar artery and PCAs。
+  - Subclavian / innominate artery disease may cause arm ischemia and TIAs but seldom strokes。
+  - Most proximal vertebral artery occlusive lesions are atherosclerotic；proximal ECVA disease more often causes intracranial posterior circulation ischemia by artery-to-artery embolism than by low flow。
+  - ECVA dissection commonly presents with neck/occipital pain plus lateral medullary or cerebellar TIA/stroke pattern。
+  - Lateral medullary infarction is the most common and important syndrome related to intracranial vertebral artery occlusion。
+  - Basilar artery occlusive disease most often presents as pontine ischemia with motor、bulbar and oculomotor abnormalities。
+  - Top of basilar syndrome involves rostral basilar territory and affects alertness、behavior、memory、oculomotor and pupillary functions。
+  - PCA territory infarction commonly causes hemianopia；lateral thalamic infarction is a major reason for somatosensory symptoms and signs。
+  - CT has lower sensitivity than DWI MRI for acute ischemic stroke, particularly posterior fossa stroke；DWI MRI can still be false negative in small acute posterior circulation infarcts。
+  - HINTS is most useful for continuous acute vertigo/dizziness and is not useful for momentary position-related vertigo or TIA when the patient is not dizzy at exam。
+  - Normal head impulse bilaterally、direction-changing nystagmus or skew deviation suggests brainstem/cerebellar lesion；abnormal unilateral head impulse plus unidirectional horizontal-torsional nystagmus plus absent skew suggests peripheral lesion。
+  - Inner ear infarction from internal auditory artery / AICA branch occlusion can mimic peripheral vestibular disease; new ipsilateral hearing loss may be the clue。
+- 發現衝突：
+  - 與「early CT / MRI negative 排除 posterior circulation stroke」衝突。
+  - 與「dizziness alone equals vertebrobasilar TIA」衝突。
+  - 與「所有 acute vertigo 有 peripheral-appearing HINTS 都可視為 benign」衝突。
+  - 與「NIHSS 低分代表 posterior circulation stroke 低風險」衝突。
+  - 與「subclavian steal physiology 常造成 stroke」衝突。
+  - 與「proximal ECVA stenosis 主要是 low-flow mechanism」衝突。
+- 待追蹤問題：
+  - `Stroke in patients with atrial fibrillation.md` 仍需單一來源 ingest，補 AF-related stroke features、reperfusion contraindication and anticoagulation timing。
+  - `Lacunar infarcts.md` 仍需單一來源 ingest，補 lacunar syndrome、parent artery occlusion mimic 與 small vessel disease 限制。
+  - 若要建立 vertigo differential diagnosis 或 HINTS implementation skill，需要另處理 dedicated vertigo source；本篇不可替代完整 dizziness differential。
+## [2026-05-12] ingest | Stroke in patients with atrial fibrillation
+
+- 本輪單一來源：
+  - `C:\原始資料\Stroke in patients with atrial fibrillation.md`
+  - 本輪只處理此 UpToDate topic review；未混入 `Atrial fibrillation in adults: Use of oral anticoagulants`、`Early antithrombotic treatment of acute ischemic stroke and transient ischemic attack`、LAA occlusion 專題、AF guideline 原文或其他 stroke source。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_stroke_in_patients_with_atrial_fibrillation.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/AF_Related_Stroke_病因歸屬與診斷評估.md`
+  - `03_疾病與臨床主題/AF_Stroke_Anticoagulation_時機與長期策略.md`
+  - `03_疾病與臨床主題/AF_Stroke_Anticoagulation_Failure.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/Stroke_Evaluation_病因確認與Directed_Diagnostic_Testing.md`
+  - `03_疾病與臨床主題/Acute_Stroke_Initial_Assessment與Stabilization.md`
+  - `03_疾病與臨床主題/中風急性期處置與時間窗.md`
+  - `03_疾病與臨床主題/Ischemic_Stroke_Long_term_Antithrombotic_Therapy.md`
+  - `03_疾病與臨床主題/中風次發預防.md`
+  - `index.md`（Total pages 670 -> 674）
+  - `08_工具與Workflow/source_manifest.json`
+  - `log.md`
+- 抽出概念：
+  - AF-related stroke attribution：AF patient 的 ischemic stroke 多由 LAA / cardiac embolism 解釋，但 AF common in older adults；仍需完整 brain / neurovascular imaging、cardiac evaluation and selected TEE，以免忽略 large artery、small vessel、aortic 或其他 competing mechanisms。
+  - AF stroke anticoagulation timing：acute infarct 後 anticoagulation 通常暫停以降低 hemorrhagic transformation risk，再依 infarct size / bleeding risk 於 first days to two weeks 重啟；long-term 多數 DOAC preferred，但 mechanical valve / clinically significant rheumatic mitral stenosis 等仍屬 VKA pathway。
+  - AF stroke anticoagulation failure：stroke despite DOAC / VKA 先查 missed dose、underdosing、renal function、interactions、INR / time in range、LAA thrombus and competing mechanisms；不應 reflex 加 antiplatelet。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04，topic last updated 2026-01-05；source_tier 6。
+  - AF patient 的 ischemic stroke 常見原因是 cardiac embolus，most commonly thrombus from left atrial appendage。
+  - AF cardioembolic stroke generally has increased severity compared with embolic stroke from carotid disease。
+  - AF cardioembolic stroke may affect any or multiple vascular territories and often appears as wedge-shaped cortical / subcortical infarcts。
+  - Source cites a 2014 systematic review / meta-analysis：silent cerebral infarction prevalence among AF patients was 40 percent by MRI and 22 percent by CT；但多數 pooled studies 為 cross-sectional，causal link uncertain。
+  - Presence of AF in a stroke patient does not always mean causal relationship。
+  - All stroke patients, even in the setting of AF, may benefit from complete evaluation for other causes。
+  - TTE is recommended for most ischemic stroke patients；TEE can identify LAA thrombus and other cardiac / aortic embolic sources, but TEE negative does not exclude AF as the cause。
+  - Current VKA use with anticoagulant effect such as INR >1.7 or PT >15 seconds and recent DOAC use under specified conditions are IV thrombolysis-relevant contraindication boundaries。
+  - Anticoagulation is usually temporarily withheld immediately after ischemic stroke due to hemorrhagic transformation risk。
+  - Long-term oral anticoagulation is started or resumed once hemorrhagic transformation risk has diminished, usually within first days to two weeks, guided mainly by infarct size。
+  - For medically stable small / moderate infarct without intracranial bleeding, source states warfarin can be started soon and prefers waiting 48 hours for DOAC because DOAC effect is faster。
+  - Withholding anticoagulation for one week has generally been recommended for large infarct、symptomatic hemorrhagic transformation or poorly controlled hypertension。
+  - Early heparin after acute cardioembolic stroke should generally be avoided。
+  - For most ischemic stroke / TIA patients with AF, source recommends DOAC rather than VKA；VKA remains indicated for mechanical valves and clinically significant rheumatic mitral stenosis。
+  - LAA occlusion should be considered when long-term anticoagulation is not an option but short-term antithrombotic therapy can be tolerated。
+  - Source-cited analysis of breakthrough events：DOAC group attribution was cardioembolism 49 percent、poor adherence or insufficient dose 23 percent、competing mechanism 28 percent；VKA group was cardioembolism 37 percent、poor adherence or insufficient dose 43 percent、competing mechanism 20 percent。
+  - For warfarin breakthrough with therapeutic INR 2-3, source favors switching to DOAC rather than routine antiplatelet addition when DOAC is not contraindicated。
+- 發現衝突：
+  - 與「AF 自動證明 cardioembolic stroke」衝突。
+  - 與「AF-related acute ischemic stroke 應 immediate heparin」衝突。
+  - 與「DOAC failure 就自動換另一個 DOAC / warfarin」衝突。
+  - 與「warfarin failure 直接加 antiplatelet」衝突。
+  - 與「fall risk alone 足以取消 anticoagulation」衝突。
+  - 與「TEE 沒看到 LAA thrombus 就排除 AF embolism」衝突。
+- 待追蹤問題：
+  - `Lacunar infarcts.md` 仍需單一來源 ingest，補 lacunar syndrome、parent artery occlusion mimic 與 small vessel disease 限制。
+  - 若要處理 AF oral anticoagulant dosing、renal adjustment、drug interaction 或 LAA occlusion indication，需另行單一來源 ingest，不可由本篇直接取代。
+  - 若要處理 prior ICH / cerebral amyloid angiopathy + AF 的 anticoagulation dilemma，需另找 dedicated ICH / CAA source。
+
+## [2026-05-12] ingest | Lacunar infarcts
+
+- 本輪單一來源：
+  - `C:\原始資料\Lacunar infarcts.md`
+  - 本輪只處理此 UpToDate topic review；未混入 lacunar primary studies、CADASIL / CAA 專題、acute reperfusion guideline、secondary prevention guideline 或其他 stroke source。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_lacunar_infarcts.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Lacunar_Infarcts_診斷與病因邊界.md`
+  - `03_疾病與臨床主題/Lacunar_Stroke_Syndromes_臨床表現與影像確認.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/Stroke_Subtype_Clinical_Diagnosis.md`
+  - `03_疾病與臨床主題/Stroke_Evaluation_病因確認與Directed_Diagnostic_Testing.md`
+  - `03_疾病與臨床主題/Stroke_Etiologic_Classification.md`
+  - `03_疾病與臨床主題/中風急性期處置與時間窗.md`
+  - `03_疾病與臨床主題/中風次發預防.md`
+  - `index.md`（Total pages 674 -> 677）
+  - `08_工具與Workflow/source_manifest.json`
+  - `log.md`
+- 抽出概念：
+  - Lacunar infarcts diagnosis and etiologic boundary：lacunar infarct 是 small noncortical penetrating-artery infarct，但 syndrome 或 small deep lesion 不能自動證明 small vessel occlusion；需排除 parent artery disease、embolic pattern and other etiologies。
+  - Lacunar stroke syndromes and imaging confirmation：five classic lacunar syndromes 提示 subcortical stroke，但 CT sensitivity 低，DWI MRI 可確認 acute culprit lesion、區分 acute/chronic lesions and reveal embolic patterns。
+  - Lacunar infarct prevention caveat：lacunar stroke secondary prevention 以 BP / statin / lifestyle and single antiplatelet 為主；long-term aspirin plus clopidogrel 在 SPS3 中增加 hemorrhage/death 且未降低 recurrence。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04，topic last updated 2025-04-15；source_tier 6。
+  - Lacunar infarcts are small noncortical infarcts caused by occlusion of a single penetrating branch of a large cerebral artery。
+  - Traditional size definition is 2-15 mm, while acute imaging studies may use 20-25 mm because lesions shrink over time。
+  - Not all small deep infarcts are lacunar, and diagnosis requires exclusion of other ischemic stroke etiologies。
+  - Common locations are basal ganglia、thalamus、internal capsule / corona radiata and pons。
+  - Mechanisms described include hypertensive microangiopathy、branch atheromatous disease、embolism and endothelial dysfunction / BBB disruption。
+  - Hypertensive microangiopathy and branch atheromatous disease are pathologically proven; endothelial dysfunction remains unconfirmed。
+  - Lacunar infarcts account for approximately 15-26 percent of ischemic strokes。
+  - Five classic lacunar syndromes are pure motor hemiparesis、pure sensory stroke、ataxic hemiparesis、sensorimotor stroke and dysarthria-clumsy hand syndrome。
+  - Lacunar syndromes generally lack aphasia、hemianopia、agnosia、neglect and apraxia。
+  - Hyperacute lacunar syndrome recognition may not reflect final diagnosis；one cited study within six hours reported 30 percent positive predictive value by CT。
+  - CT sensitivity for small acute lacunar infarcts is low, approximately 30-44 percent in prospective studies。
+  - DWI MRI can differentiate acute from chronic lacunes and identify multiple acute lesions suggesting embolic mechanism。
+  - One report found nonlacunar infarcts in 21 percent of clinically identified lacunar syndromes；another DWI study found nonlacunar / embolic patterns in 41 percent。
+  - Confirmed lacunar infarction is not a mechanical thrombectomy target, but acute vascular imaging is warranted because small deep infarcts are not always lacunar。
+  - Standard evaluation includes history and physical examination、brain imaging、neurovascular imaging、cardiac monitoring and echocardiography。
+  - Intravenous thrombolysis selection is the same as other ischemic stroke subtypes；a WAKE-UP post hoc analysis found similar functional benefit for lacunar and nonlacunar stroke subtypes。
+  - Beyond the acute phase and without anticoagulation indication, long-term single-agent antiplatelet therapy is used；long-term aspirin plus clopidogrel is not recommended in lacunar stroke。
+- 發現衝突：
+  - 與「pure motor stroke = lacunar infarct」衝突。
+  - 與「small deep infarct = small vessel disease」衝突。
+  - 與「CT negative 排除 acute lacunar infarct」衝突。
+  - 與「懷疑 lacunar stroke 就不需要 vascular / cardiac evaluation」衝突。
+  - 與「confirmed lacunar stroke 應長期 aspirin plus clopidogrel」衝突。
+- 待追蹤問題：
+  - Silent lacunar infarct / covert brain infarct 的 antiplatelet risk-benefit 需另以 guideline-level source 處理。
+  - CADASIL、CAA and monogenic cerebral small vessel disease 需各自單一來源，不可由本篇完整取代。
+  - Branch atheromatous disease 若要做成 treatment / prognosis 專頁，需要 dedicated source。
+
+## [2026-05-12] ingest | Intracranial large artery atherosclerosis: Treatment and prognosis
+
+- 本輪單一來源：
+  - `C:\原始資料\Intracranial large artery atherosclerosis_ Treatment and prognosis.md`
+  - 本輪只處理此 UpToDate topic review；未混入 ICAS epidemiology / diagnosis topic、AHA/ASA guideline 原文、SAMMPRIS 原文、Cerebral and cervical artery dissection、Pathophysiology of ischemic stroke 或其他 stroke source。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_intracranial_large_artery_atherosclerosis_treatment_prognosis.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Symptomatic_ICAS_次發預防與DAPT邊界.md`
+  - `03_疾病與臨床主題/ICAS_Stenting與介入治療限制.md`
+  - `03_疾病與臨床主題/ICAS_復發風險與血流動力邊界.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/中風次發預防.md`
+  - `03_疾病與臨床主題/Ischemic_Stroke_Long_term_Antithrombotic_Therapy.md`
+  - `index.md`（Total pages 677 -> 681）
+  - `08_工具與Workflow/source_manifest.json`
+  - `log.md`
+- 抽出概念：
+  - Symptomatic ICAS secondary prevention and DAPT boundary：recent stroke / TIA attributed to 70-99% ICAS 可用 aspirin plus clopidogrel DAPT up to 90 days；50-69% ICAS 需依 TIA / stroke risk 決定 aspirin alone or 21-day DAPT；long-term 回到 single antiplatelet。
+  - ICAS stenting and intervention boundary：routine intracranial stenting 不建議；SAMMPRIS、VISSIT、CASSISS and meta-analysis 顯示 harm 或 no benefit，submaximal angioplasty 仍屬未定研究 / last-resort 討論。
+  - ICAS recurrent risk and hemodynamic boundary：severe stenosis、recent symptoms、borderzone infarct / impaired collateral flow、hemodynamic symptoms、female sex and no statin exposure 是復發風險訊號，但 hemodynamic marker 不足以單獨決定 intervention。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04，topic last updated 2026-01-14；source_tier 6。
+  - Acute stroke / TIA due to ICAS 的 initial treatment 與其他 acute ischemic stroke / TIA 類似，仍需快速判斷 IV thrombolysis / mechanical thrombectomy eligibility。
+  - All patients with recent ischemic stroke / TIA attributed to intracranial large artery stenosis should receive intensive medical therapy with antiplatelet therapy and strict vascular risk factor control。
+  - Recent stroke / TIA within 30 days attributed to 70-99% atherosclerotic intracranial stenosis：source suggests aspirin plus clopidogrel DAPT up to 90 days, followed by long-term aspirin monotherapy。
+  - 50-69% stenosis with low-risk TIA or moderate-to-major stroke：source starts aspirin alone；high-risk TIA or minor stroke：source uses 21-day aspirin plus clopidogrel DAPT。
+  - Clopidogrel monotherapy or aspirin-extended-release dipyridamole are reasonable long-term alternatives to aspirin but not specifically studied in ICAS。
+  - WASID found warfarin harmful compared with aspirin for TIA / stroke due to ICAS; routine oral anticoagulation has no role for ICAS alone。
+  - Symptomatic 50-99% ICAS with hypertension：source suggests SBP target <140 mmHg rather than lower target and advises caution with SBP <130 / <120 in selected low-flow or unstable patients。
+  - Atherosclerotic ischemic stroke / TIA including symptomatic ICAS：source uses high-intensity statin and LDL-C target <70 mg/dL。
+  - Physical activity was independently associated with lower recurrent stroke、MI and vascular death in medically treated SAMMPRIS patients。
+  - Intracranial stenting is not recommended for first stroke / TIA attributable to severe intracranial stenosis。
+  - SAMMPRIS 30-day stroke/death was higher with angioplasty/stenting than medical therapy alone（14.7% vs 5.8%）。
+  - VISSIT and CASSISS did not support routine stenting; a source-cited 2023 meta-analysis found higher death/stroke with endovascular therapy plus medical treatment at 30 days and one year。
+  - Submaximal balloon angioplasty in BASIS showed promising one-year outcomes but source states more research is needed before wide use。
+  - ICAS recurrent risk is higher with severe stenosis >=70%、recent symptoms、borderzone infarct / impaired collateral flow、clinically hemodynamic stenosis and selected high-risk features。
+  - Hemodynamic measures inconsistently predict ischemic risk across VERITAS and MyRIAD; source says further research is needed。
+- 發現衝突：
+  - 與「severe intracranial stenosis should be stented」衝突。
+  - 與「DAPT for ICAS should be indefinite」衝突。
+  - 與「warfarin is stronger than aspirin for ICAS」衝突。
+  - 與「all post-stroke patients should immediately target SBP <130/80 regardless of perfusion」衝突。
+  - 與「hemodynamic symptoms alone prove intervention indication」衝突。
+- 待追蹤問題：
+  - `Intracranial large artery atherosclerosis: Epidemiology, clinical manifestations, and diagnosis` 若 raw source 存在，需另行單一來源 ingest；本篇 treatment/prognosis 不能取代 diagnosis framework。
+  - `Cerebral and cervical artery dissection_ Clinical features and diagnosis.md` 仍在 raw backlog，需單一來源處理 young stroke / neck pain / Horner syndrome differentiation。
+  - `Pathophysiology of ischemic stroke.md` 仍需單一來源處理 ischemic core / penumbra / autoregulation / excitotoxicity 概念。
+
+## [2026-05-13] ingest | Cerebral and cervical artery dissection: Clinical features and diagnosis
+
+- 本輪單一來源：
+  - `C:\原始資料\Cerebral and cervical artery dissection_ Clinical features and diagnosis.md`
+  - 本輪只處理此 UpToDate topic review；未混入 dissection treatment/prognosis topic、stroke guideline、young stroke source、Horner syndrome source、FMD source、SAH dedicated source 或其他 stroke source。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_cerebral_cervical_artery_dissection_clinical_features_diagnosis.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Cervicocephalic_Artery_Dissection_臨床辨識.md`
+  - `03_疾病與臨床主題/Cervicocephalic_Artery_Dissection_影像確認與Pitfalls.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/Stroke_Subtype_Clinical_Diagnosis.md`
+  - `03_疾病與臨床主題/Stroke_Evaluation_病因確認與Directed_Diagnostic_Testing.md`
+  - `03_疾病與臨床主題/Stroke_Etiologic_Classification.md`
+  - `03_疾病與臨床主題/Posterior_Circulation_Stroke_臨床定位與診斷陷阱.md`
+  - `index.md`（Total pages 681 -> 684）
+  - `08_工具與Workflow/source_manifest.json`
+  - `log.md`
+- 抽出概念：
+  - Cervicocephalic artery dissection clinical recognition：acute/subacute head or neck pain、Horner syndrome、cranial/cervical neuropathy、pulsatile tinnitus、TIA/stroke、SAH pattern、minor trauma / trigger and vascular predisposition should trigger suspicion and urgent head/neck vascular imaging.
+  - Cervicocephalic artery dissection imaging confirmation：diagnosis is confirmed by neuroimaging signs such as long tapered stenosis、tapered occlusion、pseudoaneurysm、intimal flap、double lumen or intramural hematoma；ultrasound negative does not rule out dissection when clinical history remains suggestive.
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04；topic last updated 2025-05-27；source_tier 6。
+  - Dissection occurs when arterial wall integrity is compromised and blood collects between wall layers as an intramural hematoma。
+  - Arterial dissection is a common cause of stroke in the young but may occur at any age。
+  - Minor trauma or mechanical events are triggers in up to 40 percent of cervical artery dissection cases。
+  - Extracranial carotid dissections typically occur 2 cm or more beyond the carotid bifurcation near skull base；vertebral artery dissection most often occurs in V3 or less often V2。
+  - Multiple simultaneous cervicocephalic dissections are found in 13 to 22 percent；three or more occur in approximately 2 percent。
+  - Subintimal dissection causes luminal stenosis / occlusion and ischemia via thromboembolism, hypoperfusion or both；source states thromboembolism is considered the major cause of ischemic symptoms。
+  - Subadventitial dissection / pseudoaneurysm may cause local symptoms through adjacent nerve compression: pain、partial Horner syndrome、lower cranial neuropathy or cervical nerve root involvement。
+  - Intracranial artery dissection can cause SAH in a minority。
+  - Head and/or neck pain is the most frequent initial symptom, found in 57 to 90 percent。
+  - Horner syndrome occurs in approximately 25 percent and is usually partial in internal carotid artery dissection。
+  - Carotid dissection may cause cranial neuropathies in up to 12 percent；CN XII is most common。
+  - Pulsatile tinnitus was present in 8 percent in CADISP。
+  - In a population-based report of 48 internal carotid / vertebral dissection patients, cerebral ischemia was noted in 67 percent, TIA in 23 percent and cerebral infarction in 56 percent。
+  - Vertebral artery dissection may lead to lateral medullary infarction、other posterior circulation stroke syndromes or cervical spinal cord ischemia。
+  - Patients age >=60 years with cervical artery dissection may be less likely to present with neck pain、headache、preceding trauma or mechanical trigger。
+  - Diagnosis is confirmed by neuroimaging, particularly long tapered stenosis、tapered occlusion、pseudoaneurysm、intimal flap、double lumen or intramural hematoma。
+  - Source obtains urgent brain/neck MRI + head/neck MRA or head CT + head/neck CTA to confirm diagnosis and guide serial treatment decisions。
+  - There is no single gold standard；complementary and repeat imaging may be required。
+  - DSA is reserved for younger patients with high suspicion despite negative noninvasive imaging；DSA is not needed if CTA / MRA clearly diagnoses dissection。
+  - Carotid duplex detects abnormalities in only 68 to 95 percent and is unreliable for isolated Horner syndrome；MRA or CTA should be pursued in ultrasound-negative cases when history suggests dissection。
+- 發現衝突：
+  - 與「young stroke without major trauma is unlikely dissection」衝突。
+  - 與「headache / neck pain is required for dissection」衝突。
+  - 與「older age rules out cervical artery dissection」衝突。
+  - 與「negative carotid duplex rules out dissection」衝突。
+  - 與「dizziness/vertigo alone diagnoses vertebral artery dissection」衝突。
+  - 與「clinical suspicion alone is enough to label dissection etiology」衝突。
+- 待追蹤問題：
+  - `Cerebral and cervical artery dissection: Treatment and prognosis` 若 raw source 存在，需另行單一來源 ingest；本篇不可替代 antithrombotic choice、follow-up imaging or recurrence prognosis。
+  - `Pathophysiology of ischemic stroke.md` 仍需單一來源處理 ischemic core / penumbra / autoregulation / excitotoxicity。
+  - `Intracranial large artery atherosclerosis: Epidemiology, clinical manifestations, and diagnosis` raw source 目前未找到；若日後加入，需另行單一來源 ingest。
+
+## [2026-05-13] ingest | Pathophysiology of ischemic stroke
+
+- 本輪單一來源：
+  - `C:\原始資料\Pathophysiology of ischemic stroke.md`
+  - 本輪只處理此 UpToDate topic review；未混入 acute stroke treatment guideline、secondary prevention source、malignant infarction topic、stroke genetics source 或原始研究。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_pathophysiology_of_ischemic_stroke.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Ischemic_Stroke_Cerebral_Autoregulation與灌流閾值.md`
+  - `03_疾病與臨床主題/Ischemic_Core與Penumbra.md`
+  - `03_疾病與臨床主題/Ischemic_Stroke_Cell_Injury_Cascade.md`
+  - `03_疾病與臨床主題/Ischemic_Stroke_Cerebral_Edema與Hemorrhagic_Conversion.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/中風急性期處置與時間窗.md`
+  - `03_疾病與臨床主題/Acute_Stroke_Initial_Assessment與Stabilization.md`
+  - `03_疾病與臨床主題/Stroke_Etiologic_Classification.md`
+  - `index.md`（Total pages 684 -> 689）
+  - `08_工具與Workflow/source_manifest.json`
+  - `log.md`
+- 抽出概念：
+  - Cerebral autoregulation and perfusion thresholds：ischemic stroke 可 impaired autoregulation；CBF 下降會依序造成 protein synthesis inhibition、anaerobic glycolysis / acidosis、electrical failure and membrane ion homeostasis failure。
+  - Ischemic core and penumbra：core 是 irreversible / destined infarct tissue；penumbra 是 residual perfusion 支持、及時 reperfusion 可能 salvage 的 tissue。
+  - Ischemic cell injury cascade：ATP depletion、ion gradient failure、glutamate excitotoxicity、calcium influx、nitric oxide / ROS injury、mitochondrial failure、inflammation and necrosis / apoptosis。
+  - Cerebral edema and hemorrhagic conversion：cytotoxic、ionic and vasogenic edema 來自 ATP-dependent transport failure、BBB disruption and neurovascular structural failure；嚴重 vascular integrity failure 可導致 hemorrhagic conversion。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04；topic last updated 2025-06-11；source_tier 6。
+  - Ischemic stroke is due to reduced or blocked blood flow from decreased systemic perfusion, severe stenosis or vessel occlusion。
+  - Main ischemic mechanisms described include thrombosis, embolization and lacunar infarction from small vessel disease。
+  - Ischemic strokes represent approximately 80 percent of all strokes in this source。
+  - Decreased systemic perfusion may cause generalized brain ischemia, especially borderzone / watershed territories, and can be asymmetric with preexisting vascular lesions。
+  - Cerebral autoregulation normally maintains relatively constant CBF across MAP about 60-150 mmHg, with individual variation。
+  - Ischemic stroke can impair cerebral autoregulation。
+  - Chronic hypertension shifts autoregulation toward higher arterial pressures；acute reduction to normal levels may further decrease CBF during stroke。
+  - Source CBF thresholds include <50 mL/100 g/min protein synthesis inhibition, 35 cessation of protein synthesis, 25 anaerobic glycolysis / acidosis, 16-18 neuronal electrical failure, and 10-12 membrane ion homeostasis failure / infarct threshold。
+  - Brain receives approximately 20 percent of cardiac output while being about 2 percent of body weight and has little or no energy stores。
+  - Core infarct tissue becomes irreversibly damaged and dies by necrosis if ischemia lasts long enough。
+  - Penumbra is potentially salvageable tissue supported by partial oxygen / glucose supply from collateral vessels and timely restored flow。
+  - ATP levels may fall to about 25 percent of normal in focal ischemic core models and 50-70 percent in penumbra。
+  - Ischemic injury cascade includes ATP depletion、sodium/potassium/calcium changes、lactate / acidosis、oxygen free radicals、intracellular water accumulation and proteolytic activation。
+  - NMDA receptor activation is a major excitotoxic mechanism; AMPA and metabotropic glutamate receptors may also contribute。
+  - Sodium influx contributes to edema and reversed astrocyte glutamate uptake, amplifying glutamate accumulation。
+  - Cell death after ischemia can occur by necrosis or apoptosis；core low ATP favors necrosis, while penumbra has enough ATP for apoptosis until ischemia duration depletes energy。
+  - Matrix metalloproteases can degrade basal lamina collagen / laminin, contributing to BBB breakdown and cerebral edema。
+  - Edema types described are cytotoxic、ionic / interstitial and vasogenic。
+  - Roughly 10 percent of ischemic strokes are malignant or massive due to space-occupying cerebral edema severe enough to produce elevated ICP and herniation。
+  - Genetic contribution exists, but monogenic disorders together account for only a small percentage of ischemic strokes。
+- 發現衝突：
+  - 與「acute ischemic stroke 的高 BP 都應快速 normalizing」衝突。
+  - 與「penumbra 一定可被救回」衝突。
+  - 與「core / penumbra 可由症狀直接判定」衝突。
+  - 與「excitotoxicity 是 ischemic injury 的唯一機制」衝突。
+  - 與「hemorrhagic conversion 只是藥物副作用」衝突。
+  - 與「stroke genetics 可以取代 standard etiologic workup」衝突。
+- 待追蹤問題：
+  - Late-window imaging selection、CT perfusion / MR perfusion mismatch thresholds 需 dedicated acute reperfusion / imaging source。
+  - Malignant MCA infarction、decompressive hemicraniectomy indication and edema management 需 dedicated source。
+  - Stroke genetics / CADASIL / CARASIL / Fabry / sickle cell disease 需各自單一來源，不可由本篇建立完整診斷或治療頁。
+
+## [2026-05-13] ingest | Overview of ischemic stroke prognosis in adults
+
+- 本輪單一來源：
+  - `C:\原始資料\Overview of ischemic stroke prognosis in adults.md`
+  - 本輪只處理此 UpToDate topic review；未混入 acute reperfusion source、stroke complication source、aphasia dedicated source、lacunar / ICAS / AF-specific source 或 rehab guideline。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_overview_ischemic_stroke_prognosis_adults.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/Ischemic_Stroke_預後判讀與恢復時間軸.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/中風復健總論.md`
+  - `index.md`（Total pages 689 -> 691）
+  - `08_工具與Workflow/source_manifest.json`
+  - `log.md`
+- 抽出概念：
+  - Adult ischemic stroke prognosis framing：acute prognosis 不應只看初始 NIHSS；需整合 stroke severity、age、CT/MRI infarct burden/location、mechanism、comorbidities、complications、treatment response、recovery pace and domain-specific function。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04；topic last updated 2025-10-20；source_tier 6。
+  - Source states estimated worldwide 30-day case fatality after first ischemic stroke ranges from 13.5 to 23 percent；summary section gives 16 to 23 percent。
+  - In one 10-year follow-up study of minor ischemic stroke, cumulative mortality was 32 percent。
+  - In a cited older community sample, six-month deficits included hemiparesis 50 percent、cognitive deficits 46 percent、hemianopia 20 percent、aphasia 19 percent and sensory deficits 15 percent。
+  - Six-month disability measures included depression symptoms 35 percent、unable to walk unassisted 31 percent、social disability 30 percent、institutionalization 26 percent and bladder incontinence 22 percent。
+  - Acute-phase strongest predictors are stroke severity and age。
+  - NIHSS predicts outcome, but does not capture hand function、fine motor coordination、cognitive dysfunction or balance。
+  - Neuroimaging size and location are important adjuncts because early neurologic examination alone may be falsely grim or falsely favorable。
+  - Infarct volume、large artery occlusion、poor collateral flow、diffusion-perfusion mismatch、cerebral edema、cardioembolic / large artery mechanism、comorbidities and complications can worsen prognosis。
+  - Most recovery occurs in the first three to six months, but some patients improve up to 18 months。
+  - Early active finger extension / shoulder abduction are favorable for arm-hand recovery；early sitting balance and paretic leg contraction are favorable for ambulation recovery。
+  - Reperfusion therapy, stroke unit care, rehabilitation and secondary prevention can improve ischemic stroke outcomes when appropriate。
+- 發現衝突：
+  - 與「NIHSS 低就代表功能預後一定好」衝突。
+  - 與「第一次神經學檢查即可定論預後」衝突。
+  - 與「mRS / Barthel 足以代表所有 rehab outcome」衝突。
+  - 與「最大恢復在 3-6 個月內，所以慢性期 rehabilitation 沒意義」衝突。
+  - 與「prognosis poor 就不需 reperfusion / stroke unit / rehabilitation / secondary prevention」衝突。
+- 待追蹤問題：
+  - Poststroke arm-hand recovery predictors 可由 dedicated motor recovery / upper limb rehab source 拆成單一概念頁。
+  - Poststroke ambulation prognosis、dysphagia recovery trajectory、stroke prognostic scales / models limitations 需各自單一來源或 dedicated source。
+  - Posterior circulation / infratentorial stroke prognosis 需另找專題來源，不可由 supratentorial infarct volume data 直接外推。
+
+## [2026-05-13] ingest | Sleep-related breathing disorders and stroke
+
+- 本輪單一來源：
+  - `C:\原始資料\Sleep-related breathing disorders and stroke.md`
+  - 本輪只處理此 UpToDate topic review；未混入 OSA cardiovascular disease topic、AHA/ASA guideline 原文、CSA treatment topic、sleep medicine guideline、Sleep SMART outcome report 或其他 stroke source。
+- 新增來源摘要：
+  - `10_來源摘要/UpToDate_sleep_related_breathing_disorders_and_stroke.md`
+- 新增頁面：
+  - `03_疾病與臨床主題/OSA_as_Stroke_Risk_Factor_機制與證據邊界.md`
+  - `03_疾病與臨床主題/Poststroke_Sleep_Related_Breathing_Disorders_篩檢與診斷.md`
+  - `03_疾病與臨床主題/Poststroke_Sleep_Apnea_PAP治療與預後邊界.md`
+- 更新頁面：
+  - `03_疾病與臨床主題/中風次發預防.md`
+  - `03_疾病與臨床主題/中風併發症總覽.md`
+  - `index.md`（Total pages 691 -> 695）
+  - `08_工具與Workflow/source_manifest.json`
+  - `log.md`
+- 抽出概念：
+  - OSA as Stroke Risk Factor：OSA 可透過 intermittent hypoxia、sympathetic activation、endothelial dysfunction、hypertension、AF and hemodynamic reserve 影響 ischemic stroke risk，但 CPAP 對 recurrent vascular events 的 trial evidence 仍 mixed。
+  - Poststroke Sleep-Related Breathing Disorders screening and diagnosis：poststroke OSA / CSA / Cheyne-Stokes breathing 不能靠 snoring、daytime sleepiness 或 questionnaire 排除；需用 oximetry triage、polysomnography 或 HSAT。
+  - Poststroke Sleep Apnea PAP treatment boundary：PAP and behavioral modification 是診斷後主軸，但需依 OSA / CSA predominance、acute stroke status、adherence、tolerance、BP / perfusion concern and recovery trajectory 重評。
+- 本輪直接事實：
+  - Source 為 UpToDate topic review；literature review current through 2026-04；topic last updated 2026-01-29；source_tier 6。
+  - Sleep-related breathing disorders include OSA、CSA and Cheyne-Stokes breathing，且在 stroke / TIA patients 常見。
+  - OSA has been associated with increased ischemic stroke risk independent of vascular risk factors；CSA-related stroke risk is not well studied。
+  - Source-cited acute stroke / TIA meta-analysis pooled prevalence: AHI >=5 67%、AHI >=15 50%、AHI >=30 32%。
+  - In chronic phase after stroke / TIA，severe sleep apnea pooled prevalence was 25% in seven studies。
+  - OSA is more common than CSA after stroke；CSA or Cheyne-Stokes breathing was predominant in 7% in one analysis。
+  - Sleep-related breathing disorders may be detectable within 24 hours after stroke。
+  - Typical clinical features such as daytime sleepiness and snoring may be less reliable in stroke patients。
+  - Clinical features linked to higher likelihood include increased BMI、male sex、systolic hypertension、early neurologic deterioration、nocturnal desaturation、increased stroke severity、hemorrhagic stroke、prior stroke and AF。
+  - Berlin questionnaire had only moderate diagnostic utility poststroke；modified STOP-Bang without neck circumference had high sensitivity but low specificity。
+  - Diagnosis requires formal sleep testing with polysomnography or HSAT type III / IV。
+  - Source recommends at least reviewing overnight oximetry during the first five days poststroke when feasible。
+  - Frequent nocturnal oxygen desaturations, dysphagia or dysphonia increase suspicion for moderate to severe sleep apnea。
+  - PAP therapy and behavioral modifications are mainstays of treatment for diagnosed sleep-related breathing disorders。
+  - Treatment decisions in acute stroke must be tailored to clinical status and perceived PAP adherence ability。
+  - Sleep-disordered breathing can improve as stroke improves；source repeats testing at three-month intervals during the first year when possible。
+  - CSA with Cheyne-Stokes breathing is more likely self-limited than OSA in the poststroke setting。
+  - Auto-titrating CPAP may be feasible in selected non-severe stroke / TIA but may be poorly tolerated when central apneas are prevalent。
+  - Stroke-specific PAP outcome evidence is limited and mixed；a 2023 meta-analysis of seven randomized trials found nonsignificant trend toward fewer new nonfatal vascular events with CPAP。
+  - Poor PAP adherence after stroke may relate to PAP intolerance、motivation、cognitive deficits、age and neglect。
+- 發現衝突：
+  - 與「沒有 snoring / daytime sleepiness 就沒有 poststroke sleep apnea」衝突。
+  - 與「Berlin / STOP-Bang 足以診斷或排除 poststroke OSA」衝突。
+  - 與「overnight oximetry 可以完全取代 polysomnography / HSAT」衝突。
+  - 與「CPAP 已確定可降低 recurrent stroke」衝突。
+  - 與「poststroke sleep apnea 一定永久存在」衝突。
+  - 與「auto-titrating CPAP 對所有 acute stroke 都適用」衝突。
+- 待追蹤問題：
+  - 若 Sleep SMART 已有正式 published outcome report，需另行單一來源 ingest，不可由本篇推測結果。
+  - OSA cardiovascular disease guideline / AHA statement 若要升級 evidence hierarchy，需另行單一來源處理。
+  - Central sleep apnea treatment、PAP titration and adherence interventions 需 dedicated sleep medicine sources。
