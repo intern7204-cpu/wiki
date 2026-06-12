@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "1c44fbb99e35752c",
+    "id": "a523035d006a8b9a",
     "type": "split",
     "children": [
       {
-        "id": "2a0e93d77f3e48cc",
+        "id": "29a6fd6fdc9297ca",
         "type": "tabs",
         "children": [
           {
-            "id": "548586a1d9569b49",
+            "id": "a77a6ad3eb179bb2",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -23,28 +23,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6c1a4a3bd00b252b",
+    "id": "61596d1de5457a53",
     "type": "split",
     "children": [
       {
-        "id": "237b073b54734fb1",
+        "id": "78bef0e848ee820f",
         "type": "tabs",
         "children": [
           {
-            "id": "62b18cabd97a9b2b",
+            "id": "2a6d2456b3871f61",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "檔案瀏覽器"
             }
           },
           {
-            "id": "2101215310273ca8",
+            "id": "92748200c8af3c4d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "58ebfad5b20307e5",
+            "id": "255f98c5d9d8fedf",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,19 +77,20 @@
     "width": 300
   },
   "right": {
-    "id": "0c1a012227953496",
+    "id": "16c122b3acbd94d8",
     "type": "split",
     "children": [
       {
-        "id": "8a105010730fbe4f",
+        "id": "5d3cfc67a8adf7aa",
         "type": "tabs",
         "children": [
           {
-            "id": "10abee445a5ce89d",
+            "id": "54dbc2c403dab41b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "concepts/Isocapnic buffering region.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,24 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向連結"
+              "title": "Isocapnic buffering region 的反向連結"
             }
           },
           {
-            "id": "45c54aba2662b866",
+            "id": "cea7a7e972100a79",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "concepts/Isocapnic buffering region.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "對外連結"
+              "title": "Isocapnic buffering region 的對外連結"
             }
           },
           {
-            "id": "1304c8deb082e5ef",
+            "id": "4d70dccd6caff8c6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,7 +133,7 @@
             }
           },
           {
-            "id": "daed8d112d95d9e9",
+            "id": "b350d696add4393c",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -145,21 +147,21 @@
             }
           },
           {
-            "id": "6b65f70d1787eafb",
+            "id": "ffe314a2429902dd",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "concepts/Isocapnic buffering region.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大綱"
+              "title": "Isocapnic buffering region 的大綱"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -177,42 +179,43 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "62b18cabd97a9b2b",
+  "active": "a77a6ad3eb179bb2",
   "lastOpenFiles": [
-    "03_疾病與臨床主題/Vascular_Dementia_認知藥物與預後限制.md",
-    "03_疾病與臨床主題/Vascular_Cognitive_Impairment_血管風險與Antithrombotic邊界.md",
-    "10_來源摘要/UpToDate_vascular_cognitive_impairment_dementia_treatment.md",
-    "Clippings/Traumatic brain injury Epidemiology, pathophysiology, and classification 1.md",
-    "Clippings/Traumatic brain injury Epidemiology, pathophysiology, and classification.md",
-    "10_來源摘要/Ankle_sprain_in_adults_Evaluation_and_diagnosis.md",
-    "Clippings",
-    "10_來源摘要/Ankle_and_Foot_Injuries_in_Runners.md",
-    "10_來源摘要/Anatomy_and_Neurophysiology_for_Electrodiagnostic_Studies.md",
-    "10_來源摘要/Aging_Dementia_and_Disorders_of_Cognition.md",
-    "10_來源摘要/Acute_Medical_Conditions_Cardiopulmonary_Disease_Medical_Frailty_and_Renal_Failure.md",
-    "10_來源摘要/Achilles_tendinopathy.md",
-    "10_來源摘要/教孩子跟情緒做朋友.md",
-    "10_來源摘要/兒童發展聯合評估綜合報告書操作手冊_111年7月版.md",
-    "index.md.tmp.29844.1778435516253",
-    "09_NCV EMG 周邊神經病變/A_Wave_Axon_Reflex判讀.md",
-    "09_NCV EMG 周邊神經病變/H_Reflex_臨床用途與限制.md",
-    "09_NCV EMG 周邊神經病變/F_Response_F_Estimate判讀.md",
-    "10_來源摘要/Late_Responses.md",
-    "10_來源摘要/Caregiver_Skills_Training_Participants_Guide.md",
-    "10_來源摘要/Caregiver_Skills_Training_Introduction.md",
-    "10_來源摘要/Caregiver_Skills_Training_Home_Visit_Guide_for_Facilitators.md",
-    "10_來源摘要/Caregiver_Skills_Training_Facilitators_Guide.md",
-    "10_來源摘要/Caregiver_Skills_Training_Adaptation_and_Implementation_Guide.md",
-    "10_來源摘要/Cardiac_evaluation_of_patients_receiving_pharmacotherapy_for_attention_deficit_hyperactivity_disorder_ADHD.md",
-    "10_來源摘要/Cancer_Rehabilitation.md",
-    "10_來源摘要/Caldwell_Hamner_Hupe_Lower_Limb_Pain_Dysfunction.md",
-    "10_來源摘要/Caen_2021_Wprime_recovery_two_phase.md",
-    "未命名.canvas",
-    "未命名 1.canvas",
-    "index.md.tmp.20852.1777159918548",
-    "log.md.tmp.20852.1777138896383",
-    "未命名 2",
-    "未命名 1",
-    "未命名"
+    "log.md.tmp.24312.c8f35c0dc5d2",
+    "index.md.tmp.24312.5774673e624b",
+    "sources/source-Ma-2010-VO2-kinetics-equation-clarification.md",
+    "concepts/VO2 slow component.md.tmp.24312.241c85bc4904",
+    "concepts/VO2 kinetics.md.tmp.24312.faf485fe670a",
+    "concepts/Multi-exponential model of VO2 kinetics.md",
+    "concepts/Heaviside step function.md",
+    "index.md.tmp.27160.168c43684e2e",
+    "index.md.tmp.27160.a966384c6745",
+    "index.md.tmp.27160.5e2d9be8c0ee",
+    "concepts/Dual-stage control of metabolism.md",
+    "sources/source-Staes-2024-CPET-exercise-limitations.md",
+    "concepts/Muscle fiber types.md.tmp.14588.ce9d51e3bcc5",
+    "concepts/Moderate-intensity continuous training.md.tmp.14588.689a9f469a5f",
+    "concepts/Oxygen pulse.md.tmp.27160.4b6864c64b5d",
+    "concepts/High-intensity interval exercise.md.tmp.14588.9834129849e2",
+    "concepts/Deconditioning.md",
+    "concepts/CPET maximality criteria.md",
+    "concepts/Cardiovascular limitation.md",
+    "concepts/Pulmonary gas exchange limitation.md",
+    "concepts/Ventilatory limitation.md",
+    "concepts/Breathing reserve.md",
+    "concepts/Limitations to exercise.md",
+    "concepts/Cardiopulmonary exercise testing.md",
+    "concepts/Oxygen cascade.md",
+    "sources/source-Molmen-2024-mitochondrial-capillary-training.md",
+    "concepts/Meta-regression.md",
+    "concepts/Trainability.md",
+    "concepts/Training efficiency.md",
+    "concepts/Training load.md",
+    "concepts/Vascular endothelial growth factor.md",
+    "concepts/Skeletal muscle angiogenesis.md",
+    "concepts/Skeletal muscle capillarization.md",
+    "concepts/Citrate synthase.md",
+    "concepts/Mitochondrial content.md",
+    "sources/source-Hargreaves-2020-muscle-energy-metabolism.md"
   ]
 }
